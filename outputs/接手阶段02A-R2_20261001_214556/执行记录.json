@@ -1,0 +1,29 @@
+[
+  {
+    "name": "完整回归",
+    "command": [
+      "D:\\dev\\python\\python3.10.4\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "cwd": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+    "exit_code": 0,
+    "elapsed_s": 62.58384079998359
+  },
+  {
+    "name": "正式默认运行",
+    "command": [
+      "D:\\dev\\python\\python3.10.4\\python.exe",
+      "-B",
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main_stage02.py"
+    ],
+    "cwd": "D:\\PyCharmProjects\\Jeon2019",
+    "exit_code": 0,
+    "elapsed_s": 4.471054999972694
+  }
+]

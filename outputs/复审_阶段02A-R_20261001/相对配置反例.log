@@ -1,0 +1,9 @@
+
+Traceback (most recent call last):
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02.py", line 1223, in <module>
+    main()
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02.py", line 1161, in main
+    config = load_and_validate_config(config_path)
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02.py", line 174, in load_and_validate_config
+    raise FileNotFoundError(f"配置文件不存在: {p}")
+FileNotFoundError: 配置文件不存在: D:\PyCharmProjects\Jeon2019\config_stage02a.json

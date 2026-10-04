@@ -1,0 +1,7 @@
+
+Traceback (most recent call last):
+  File "D:\PyCharmProjects\Jeon2019\outputs\执行_阶段02C_20261002\独立复核与输入加密.py", line 80, in <module>
+    if __name__=='__main__': audit(Path(sys.argv[1]))
+  File "D:\PyCharmProjects\Jeon2019\outputs\执行_阶段02C_20261002\独立复核与输入加密.py", line 25, in audit
+    p = DOEHeightProfile(gi,z['delta_h'].copy(),z['mask'].copy(),float(z['lambda_design_m']),
+TypeError: only length-1 arrays can be converted to Python scalars

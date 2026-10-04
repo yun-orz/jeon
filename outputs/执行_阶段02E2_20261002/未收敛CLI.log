@@ -1,0 +1,4 @@
+continuous_coincident_points_crop_alpha_0p01_refined: iteration_limit, 1轮, cube=0.998138, 最优解距离相对上界=254036, 1%界通过=False
+continuous_lines_and_square_crop_alpha_0p01_refined: iteration_limit, 1轮, cube=0.937674, 最优解距离相对上界=147806, 1%界通过=False
+{"status": "completed", "optimization_validation_passed": false, "certificate_validation_passed": false, "stability_validation_passed": false, "run_dir": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02e2\\run_20261002_230718", "elapsed_s": 4.728187900000194}
+

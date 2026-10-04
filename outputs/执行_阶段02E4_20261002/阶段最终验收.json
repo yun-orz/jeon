@@ -1,0 +1,130 @@
+{
+  "stage": "02E-4",
+  "formal_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02e4\\run_20261002_233752",
+  "implementation_audit_passed": true,
+  "stability_validation_passed": true,
+  "common_alpha": 1.0589016188494555e-06,
+  "reused_count": 3,
+  "computed_count": 3,
+  "regression_tests_passed": 214,
+  "regression_elapsed_s": 216.723,
+  "formal_elapsed_s": 134.7836367000018,
+  "independent_audit": {
+    "implementation_audit_passed": true,
+    "all_reconstructions_converged": true,
+    "run_dir": "outputs\\jeon2019_optics\\results\\stage02e4\\run_20261002_233752",
+    "source_unchanged": true,
+    "records": [
+      {
+        "identity": "continuous_coincident_points_crop_alpha_0p01_comparison_common_alpha",
+        "objective": 2.3396085027514285e-06,
+        "projected_gradient_relative": 3.2047669891009257e-09,
+        "solver_status": "converged",
+        "cube_relative_l2": 0.180751732143839,
+        "relative_distance_upper_bound": 0.0001577161627616351
+      },
+      {
+        "identity": "nearest_depth_coincident_points_crop_alpha_0p01_comparison_common_alpha",
+        "objective": 2.3208353234510567e-06,
+        "projected_gradient_relative": 3.1731744446091154e-09,
+        "solver_status": "converged",
+        "cube_relative_l2": 0.18784758564868928,
+        "relative_distance_upper_bound": 0.00014905553732579035
+      },
+      {
+        "identity": "continuous_separated_points_crop_alpha_0p01_comparison_common_alpha",
+        "objective": 2.6704447138846774e-06,
+        "projected_gradient_relative": 9.976844275521256e-09,
+        "solver_status": "converged",
+        "cube_relative_l2": 0.11077938810722683,
+        "relative_distance_upper_bound": 0.00020541911545000815
+      },
+      {
+        "identity": "nearest_depth_separated_points_crop_alpha_0p01_comparison_common_alpha",
+        "objective": 2.6667223022628293e-06,
+        "projected_gradient_relative": 9.98447612283902e-09,
+        "solver_status": "converged",
+        "cube_relative_l2": 0.112345243216001,
+        "relative_distance_upper_bound": 0.00019539702332917473
+      },
+      {
+        "identity": "continuous_lines_and_square_crop_alpha_0p01_comparison_common_alpha",
+        "objective": 6.373443540314447e-05,
+        "projected_gradient_relative": 2.1078824769389787e-09,
+        "solver_status": "converged",
+        "cube_relative_l2": 0.07929060185036708,
+        "relative_distance_upper_bound": 0.0006615288469885657
+      },
+      {
+        "identity": "nearest_depth_lines_and_square_crop_alpha_0p01_comparison_common_alpha",
+        "objective": 6.370600267140807e-05,
+        "projected_gradient_relative": 3.0417897373149363e-09,
+        "solver_status": "converged",
+        "cube_relative_l2": 0.07990758889358214,
+        "relative_distance_upper_bound": 0.0009066695603684717
+      }
+    ]
+  },
+  "entry_audit": {
+    "missing_source_failed": true,
+    "iteration_limit_exit": 2,
+    "budget_partial_exit": 2,
+    "report_write_failure": true,
+    "show_failure": true,
+    "default_no_save_exit": 0,
+    "default_no_save_stability_passed": true,
+    "no_save_files_unchanged": true,
+    "files_checked": 10806,
+    "mock_show_called_once": true,
+    "figures_closed": true,
+    "real_PyCharm_and_GUI_verified": false
+  },
+  "pairs": [
+    {
+      "scene": "coincident_points",
+      "continuous_alpha": 1.0589016188494555e-06,
+      "nearest_depth_alpha": 1.0589016188494555e-06,
+      "continuous_cube_error": 0.180751732143839,
+      "nearest_depth_cube_error": 0.18784758564868928,
+      "both_stable": true,
+      "nearest_minus_continuous_cube_error": 0.007095853504850286,
+      "optimization_uncertainty_radius": 0.00025862803009008033,
+      "lower": 0.006837225474760206,
+      "upper": 0.007354481534940366,
+      "ordering_supported_by_theoretical_bounds": true,
+      "caveat": "固定共同α、当前理想离散模型的数值理论界；未作区间舍入包络，不等于真实相机性能"
+    },
+    {
+      "scene": "separated_points",
+      "continuous_alpha": 1.0589016188494555e-06,
+      "nearest_depth_alpha": 1.0589016188494555e-06,
+      "continuous_cube_error": 0.11077938810722686,
+      "nearest_depth_cube_error": 0.112345243216001,
+      "both_stable": true,
+      "nearest_minus_continuous_cube_error": 0.0015658551087741474,
+      "optimization_uncertainty_radius": 0.0003870686514488218,
+      "lower": 0.0011787864573253254,
+      "upper": 0.0019529237602229693,
+      "ordering_supported_by_theoretical_bounds": true,
+      "caveat": "固定共同α、当前理想离散模型的数值理论界；未作区间舍入包络，不等于真实相机性能"
+    },
+    {
+      "scene": "lines_and_square",
+      "continuous_alpha": 1.0589016188494555e-06,
+      "nearest_depth_alpha": 1.0589016188494555e-06,
+      "continuous_cube_error": 0.0792906018503671,
+      "nearest_depth_cube_error": 0.07990758889358215,
+      "both_stable": true,
+      "nearest_minus_continuous_cube_error": 0.0006169870432150559,
+      "optimization_uncertainty_radius": 0.001548260130634865,
+      "lower": -0.0009312730874198091,
+      "upper": 0.002165247173849921,
+      "ordering_supported_by_theoretical_bounds": false,
+      "caveat": "固定共同α、当前理想离散模型的数值理论界；未作区间舍入包络，不等于真实相机性能"
+    }
+  ],
+  "source_manifest_matches": true,
+  "real_PyCharm_and_GUI_verified": false,
+  "next_stage_executed": false,
+  "next_plan": "D:\\PyCharmProjects\\Jeon2019\\outputs\\执行_阶段02E4_20261002\\下一阶段02F1详细规划.md"
+}

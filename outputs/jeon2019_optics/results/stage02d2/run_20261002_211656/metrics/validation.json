@@ -1,0 +1,663 @@
+{
+  "status": "completed",
+  "validation_passed": true,
+  "all_reconstructions_converged": false,
+  "records": [
+    {
+      "identity": "continuous_coincident_points_crop",
+      "device": "continuous",
+      "scene": "coincident_points",
+      "mode": "crop",
+      "solver_status": "iteration_limit",
+      "iterations": 500,
+      "alpha": 0.00010589016188494556,
+      "L_data_estimate": 1.0589016188494556,
+      "elapsed_s": 2.9468282999987423,
+      "final_optimization": {
+        "iteration": 500,
+        "data_term": 0.00012007275465044008,
+        "regularization_term": 1.2035632398536028e-05,
+        "objective": 0.0001321083870489761,
+        "residual_norm": 0.015496628965709934,
+        "residual_relative": 0.12467489222649193,
+        "L": 1.1119578844619076,
+        "backtracks": 0,
+        "projected_gradient_relative": 0.004314883917209409,
+        "objective_relative_change": 0.0012942726530993831,
+        "elapsed_s": 2.9468262000009418
+      },
+      "evaluation": {
+        "cube_relative_l2": 0.9494799809488267,
+        "cube_rmse": 0.039251373506639695,
+        "bands": [
+          {
+            "relative_l2": 0.951785265277717,
+            "rmse": 0.029743289539928656,
+            "truth_power": 1.0,
+            "recovered_power": 0.9365547561031344,
+            "power_on_truth_zero_pixels": 0.8740599769687509,
+            "power_at_other_band_only_truth_pixels": 0.0
+          },
+          {
+            "relative_l2": 0.9481184872234795,
+            "rmse": 0.05925740545146747,
+            "truth_power": 2.0,
+            "recovered_power": 2.1318336513529914,
+            "power_on_truth_zero_pixels": 1.983773194215145,
+            "power_at_other_band_only_truth_pixels": 0.0
+          },
+          {
+            "relative_l2": 0.9619342497469073,
+            "rmse": 0.015030222652295427,
+            "truth_power": 0.5,
+            "recovered_power": 0.5484416523270992,
+            "power_on_truth_zero_pixels": 0.5212893110586412,
+            "power_at_other_band_only_truth_pixels": 0.0
+          }
+        ],
+        "sam_mean_deg": 4.7044671622992595,
+        "sam_median_deg": 4.7044671622992595,
+        "sam_valid_count": 1,
+        "sam_undefined_reconstruction_zero_count": 0,
+        "sam_truth_zero_excluded_count": 1023,
+        "spectrum_norm_threshold": 1e-12
+      },
+      "operator_checks": {
+        "inner_product_relative_error": 9.599015543247708e-16,
+        "lhs": 0.9252807391534031,
+        "rhs": 0.925280739153404,
+        "gradient_relative_error": 1.6254930173812121e-13,
+        "gradient_analytic": -0.02947601859506653,
+        "gradient_finite_difference": -0.02947601859506174,
+        "epsilon": 0.054846375735539236
+      },
+      "trajectory_monotone": true,
+      "initialization": "zeros",
+      "projected_gradient_normalizer": 0.10103861426404968
+    },
+    {
+      "identity": "continuous_separated_points_crop",
+      "device": "continuous",
+      "scene": "separated_points",
+      "mode": "crop",
+      "solver_status": "iteration_limit",
+      "iterations": 500,
+      "alpha": 0.00010589016188494556,
+      "L_data_estimate": 1.0589016188494556,
+      "elapsed_s": 2.086959999996907,
+      "final_optimization": {
+        "iteration": 500,
+        "data_term": 0.00032954039432253824,
+        "regularization_term": 2.2269494413661758e-05,
+        "objective": 0.0003518098887362,
+        "residual_norm": 0.02567256879716318,
+        "residual_relative": 0.2600913995081636,
+        "L": 1.1119578844619076,
+        "backtracks": 0,
+        "projected_gradient_relative": 0.014375169339722407,
+        "objective_relative_change": 0.0012314378493738845,
+        "elapsed_s": 2.086958500000037
+      },
+      "evaluation": {
+        "cube_relative_l2": 0.8819160465492446,
+        "cube_rmse": 0.036458289631352565,
+        "bands": [
+          {
+            "relative_l2": 0.9098230373389328,
+            "rmse": 0.02843196991684165,
+            "truth_power": 1.0,
+            "recovered_power": 0.8766341003015203,
+            "power_on_truth_zero_pixels": 0.767004292556736,
+            "power_at_other_band_only_truth_pixels": 0.01709347819030033
+          },
+          {
+            "relative_l2": 0.8672642826849268,
+            "rmse": 0.05420401766780793,
+            "truth_power": 2.0,
+            "recovered_power": 1.9459889190740722,
+            "power_on_truth_zero_pixels": 1.6081957441677486,
+            "power_at_other_band_only_truth_pixels": 0.009791640466195644
+          },
+          {
+            "relative_l2": 0.9938938388758939,
+            "rmse": 0.015529591232435842,
+            "truth_power": 0.5,
+            "recovered_power": 0.7200267759773644,
+            "power_on_truth_zero_pixels": 0.7031676504291227,
+            "power_at_other_band_only_truth_pixels": 0.07629579068631115
+          }
+        ],
+        "sam_mean_deg": 9.755586687653304,
+        "sam_median_deg": 5.793474357506669,
+        "sam_valid_count": 3,
+        "sam_undefined_reconstruction_zero_count": 0,
+        "sam_truth_zero_excluded_count": 1021,
+        "spectrum_norm_threshold": 1e-12
+      },
+      "operator_checks": {
+        "inner_product_relative_error": 9.599015543247708e-16,
+        "lhs": 0.9252807391534031,
+        "rhs": 0.925280739153404,
+        "gradient_relative_error": 9.602027678568346e-15,
+        "gradient_analytic": -0.030351250144235502,
+        "gradient_finite_difference": -0.030351250144235793,
+        "epsilon": 0.054846375735539236
+      },
+      "trajectory_monotone": true,
+      "initialization": "zeros",
+      "projected_gradient_normalizer": 0.04827138620989526
+    },
+    {
+      "identity": "continuous_lines_and_square_crop",
+      "device": "continuous",
+      "scene": "lines_and_square",
+      "mode": "crop",
+      "solver_status": "iteration_limit",
+      "iterations": 500,
+      "alpha": 0.00010589016188494556,
+      "L_data_estimate": 1.0589016188494556,
+      "elapsed_s": 2.1020907999991323,
+      "final_optimization": {
+        "iteration": 500,
+        "data_term": 0.009833573653946083,
+        "regularization_term": 0.002219175291437242,
+        "objective": 0.012052748945383326,
+        "residual_norm": 0.14023960677316577,
+        "residual_relative": 0.03730534700026409,
+        "L": 1.1119578844619076,
+        "backtracks": 0,
+        "projected_gradient_relative": 0.001168247935033829,
+        "objective_relative_change": 0.0013526787109182845,
+        "elapsed_s": 2.1020892999986245
+      },
+      "evaluation": {
+        "cube_relative_l2": 0.6757759040955233,
+        "cube_rmse": 0.13482480833571123,
+        "bands": [
+          {
+            "relative_l2": 0.7354425439506437,
+            "rmse": 0.15922798152127773,
+            "truth_power": 48.0,
+            "recovered_power": 38.64301252610676,
+            "power_on_truth_zero_pixels": 22.448498981827214,
+            "power_at_other_band_only_truth_pixels": 11.49978987661191
+          },
+          {
+            "relative_l2": 0.7321514461542467,
+            "rmse": 0.12681235035741845,
+            "truth_power": 38.400000000000006,
+            "recovered_power": 63.021806382738745,
+            "power_on_truth_zero_pixels": 43.70625355653307,
+            "power_at_other_band_only_truth_pixels": 18.278261457809094
+          },
+          {
+            "relative_l2": 0.5548976955981193,
+            "rmse": 0.11444764971711209,
+            "truth_power": 72.6,
+            "recovered_power": 54.4567622507468,
+            "power_on_truth_zero_pixels": 16.907787810589923,
+            "power_at_other_band_only_truth_pixels": 7.554249992409149
+          }
+        ],
+        "sam_mean_deg": 24.598468043746053,
+        "sam_median_deg": 23.537040552945697,
+        "sam_valid_count": 191,
+        "sam_undefined_reconstruction_zero_count": 0,
+        "sam_truth_zero_excluded_count": 833,
+        "spectrum_norm_threshold": 1e-12
+      },
+      "operator_checks": {
+        "inner_product_relative_error": 9.599015543247708e-16,
+        "lhs": 0.9252807391534031,
+        "rhs": 0.925280739153404,
+        "gradient_relative_error": 1.5689990394964327e-13,
+        "gradient_analytic": 0.08181619872978615,
+        "gradient_finite_difference": 0.08181619872977332,
+        "epsilon": 0.054846375735539236
+      },
+      "trajectory_monotone": true,
+      "initialization": "zeros",
+      "projected_gradient_normalizer": 3.628904174987331
+    },
+    {
+      "identity": "continuous_lines_and_square_full",
+      "device": "continuous",
+      "scene": "lines_and_square",
+      "mode": "full",
+      "solver_status": "iteration_limit",
+      "iterations": 500,
+      "alpha": 0.00010589754246732999,
+      "L_data_estimate": 1.0589754246732999,
+      "elapsed_s": 2.052004700002726,
+      "final_optimization": {
+        "iteration": 500,
+        "data_term": 0.009837345787189202,
+        "regularization_term": 0.00221946855696579,
+        "objective": 0.012056814344154992,
+        "residual_norm": 0.14026650196814064,
+        "residual_relative": 0.037312012203540766,
+        "L": 1.1120353883265555,
+        "backtracks": 0,
+        "projected_gradient_relative": 0.0011685129177987797,
+        "objective_relative_change": 0.001351922500229532,
+        "elapsed_s": 2.0520028000028105
+      },
+      "evaluation": {
+        "cube_relative_l2": 0.6757202982984681,
+        "cube_rmse": 0.13481371436079306,
+        "bands": [
+          {
+            "relative_l2": 0.7353989721368085,
+            "rmse": 0.15921854794686016,
+            "truth_power": 48.0,
+            "recovered_power": 38.648184822752874,
+            "power_on_truth_zero_pixels": 22.451080056282237,
+            "power_at_other_band_only_truth_pixels": 11.500860569081246
+          },
+          {
+            "relative_l2": 0.7321206183380267,
+            "rmse": 0.1268070108230205,
+            "truth_power": 38.400000000000006,
+            "recovered_power": 63.01389481833051,
+            "power_on_truth_zero_pixels": 43.69910223289886,
+            "power_at_other_band_only_truth_pixels": 18.275780862861296
+          },
+          {
+            "relative_l2": 0.5547999148082292,
+            "rmse": 0.11442748242919726,
+            "truth_power": 72.6,
+            "recovered_power": 54.46014716681751,
+            "power_on_truth_zero_pixels": 16.904638718431734,
+            "power_at_other_band_only_truth_pixels": 7.5530701130825335
+          }
+        ],
+        "sam_mean_deg": 24.594371879835954,
+        "sam_median_deg": 23.537982250200397,
+        "sam_valid_count": 191,
+        "sam_undefined_reconstruction_zero_count": 0,
+        "sam_truth_zero_excluded_count": 833,
+        "spectrum_norm_threshold": 1e-12
+      },
+      "operator_checks": {
+        "inner_product_relative_error": 1.029841517402394e-14,
+        "lhs": -0.18326889234601362,
+        "rhs": -0.1832688923460155,
+        "gradient_relative_error": 1.5895758444590997e-14,
+        "gradient_analytic": 0.06984397935431166,
+        "gradient_finite_difference": 0.06984397935431277,
+        "epsilon": 0.054846375735539236
+      },
+      "trajectory_monotone": true,
+      "initialization": "zeros",
+      "projected_gradient_normalizer": 3.629039619950182
+    },
+    {
+      "identity": "nearest_depth_coincident_points_crop",
+      "device": "nearest_depth",
+      "scene": "coincident_points",
+      "mode": "crop",
+      "solver_status": "iteration_limit",
+      "iterations": 500,
+      "alpha": 0.00010032299973098796,
+      "L_data_estimate": 1.0032299973098795,
+      "elapsed_s": 2.0654447000015352,
+      "final_optimization": {
+        "iteration": 500,
+        "data_term": 0.00011373311746132242,
+        "regularization_term": 1.1381911500229536e-05,
+        "objective": 0.00012511502896155196,
+        "residual_norm": 0.015081983786048997,
+        "residual_relative": 0.12467114786889961,
+        "L": 1.053496836325091,
+        "backtracks": 0,
+        "projected_gradient_relative": 0.004309768951459057,
+        "objective_relative_change": 0.0012917405048688128,
+        "elapsed_s": 2.065442899998743
+      },
+      "evaluation": {
+        "cube_relative_l2": 0.9495522498528738,
+        "cube_rmse": 0.03925436109332145,
+        "bands": [
+          {
+            "relative_l2": 0.9524928921367687,
+            "rmse": 0.02976540287927402,
+            "truth_power": 1.0,
+            "recovered_power": 0.928973956523648,
+            "power_on_truth_zero_pixels": 0.8676387117588856,
+            "power_at_other_band_only_truth_pixels": 0.0
+          },
+          {
+            "relative_l2": 0.9480594223635003,
+            "rmse": 0.05925371389771877,
+            "truth_power": 2.0,
+            "recovered_power": 2.1332027871161596,
+            "power_on_truth_zero_pixels": 1.984936324743685,
+            "power_at_other_band_only_truth_pixels": 0.0
+          },
+          {
+            "relative_l2": 0.9615619832408401,
+            "rmse": 0.015024405988138126,
+            "truth_power": 0.5,
+            "recovered_power": 0.5523573257073113,
+            "power_on_truth_zero_pixels": 0.5248480831194822,
+            "power_at_other_band_only_truth_pixels": 0.0
+          }
+        ],
+        "sam_mean_deg": 4.93705685251245,
+        "sam_median_deg": 4.93705685251245,
+        "sam_valid_count": 1,
+        "sam_undefined_reconstruction_zero_count": 0,
+        "sam_truth_zero_excluded_count": 1023,
+        "spectrum_norm_threshold": 1e-12
+      },
+      "operator_checks": {
+        "inner_product_relative_error": 2.4759446007875773e-16,
+        "lhs": 0.8968076460773831,
+        "rhs": 0.8968076460773828,
+        "gradient_relative_error": 1.1773229244977755e-13,
+        "gradient_analytic": -0.028349129183933452,
+        "gradient_finite_difference": -0.028349129183930115,
+        "epsilon": 0.054846375735539236
+      },
+      "trajectory_monotone": true,
+      "initialization": "zeros",
+      "projected_gradient_normalizer": 0.09570562135660517
+    },
+    {
+      "identity": "nearest_depth_separated_points_crop",
+      "device": "nearest_depth",
+      "scene": "separated_points",
+      "mode": "crop",
+      "solver_status": "iteration_limit",
+      "iterations": 500,
+      "alpha": 0.00010032299973098796,
+      "L_data_estimate": 1.0032299973098795,
+      "elapsed_s": 2.1065277000016067,
+      "final_optimization": {
+        "iteration": 500,
+        "data_term": 0.0003118591070886736,
+        "regularization_term": 2.1092870019831065e-05,
+        "objective": 0.0003329519771085047,
+        "residual_norm": 0.024974351126252452,
+        "residual_relative": 0.25962817056916515,
+        "L": 1.053496836325091,
+        "backtracks": 0,
+        "projected_gradient_relative": 0.014355432672072331,
+        "objective_relative_change": 0.0012342619418912238,
+        "elapsed_s": 2.106526200001099
+      },
+      "evaluation": {
+        "cube_relative_l2": 0.8819926648614105,
+        "cube_rmse": 0.036461457021975445,
+        "bands": [
+          {
+            "relative_l2": 0.9117422308629981,
+            "rmse": 0.02849194471446869,
+            "truth_power": 1.0,
+            "recovered_power": 0.8678745971849596,
+            "power_on_truth_zero_pixels": 0.7608173979644514,
+            "power_at_other_band_only_truth_pixels": 0.016876063467095605
+          },
+          {
+            "relative_l2": 0.8668827415546713,
+            "rmse": 0.054180171347166954,
+            "truth_power": 2.0,
+            "recovered_power": 1.9465752700422003,
+            "power_on_truth_zero_pixels": 1.6077693462617186,
+            "power_at_other_band_only_truth_pixels": 0.009774086489182625
+          },
+          {
+            "relative_l2": 0.9936124467891588,
+            "rmse": 0.015525194481080607,
+            "truth_power": 0.5,
+            "recovered_power": 0.723912973319709,
+            "power_on_truth_zero_pixels": 0.7067849472997758,
+            "power_at_other_band_only_truth_pixels": 0.076517966083831
+          }
+        ],
+        "sam_mean_deg": 9.928016298944781,
+        "sam_median_deg": 5.780230407912595,
+        "sam_valid_count": 3,
+        "sam_undefined_reconstruction_zero_count": 0,
+        "sam_truth_zero_excluded_count": 1021,
+        "spectrum_norm_threshold": 1e-12
+      },
+      "operator_checks": {
+        "inner_product_relative_error": 2.4759446007875773e-16,
+        "lhs": 0.8968076460773831,
+        "rhs": 0.8968076460773828,
+        "gradient_relative_error": 1.5251184549207935e-13,
+        "gradient_analytic": -0.029186588261353532,
+        "gradient_finite_difference": -0.02918658826134908,
+        "epsilon": 0.054846375735539236
+      },
+      "trajectory_monotone": true,
+      "initialization": "zeros",
+      "projected_gradient_normalizer": 0.045823997981867474
+    },
+    {
+      "identity": "nearest_depth_lines_and_square_crop",
+      "device": "nearest_depth",
+      "scene": "lines_and_square",
+      "mode": "crop",
+      "solver_status": "iteration_limit",
+      "iterations": 500,
+      "alpha": 0.00010032299973098796,
+      "L_data_estimate": 1.0032299973098795,
+      "elapsed_s": 2.0873572999989847,
+      "final_optimization": {
+        "iteration": 500,
+        "data_term": 0.009287892742086596,
+        "regularization_term": 0.002107097303209504,
+        "objective": 0.011394990045296101,
+        "residual_norm": 0.1362930133358757,
+        "residual_relative": 0.03716841607189692,
+        "L": 1.053496836325091,
+        "backtracks": 0,
+        "projected_gradient_relative": 0.0011629980361188247,
+        "objective_relative_change": 0.001339480218908512,
+        "elapsed_s": 2.0873556999977154
+      },
+      "evaluation": {
+        "cube_relative_l2": 0.6755709526052751,
+        "cube_rmse": 0.13478391823409117,
+        "bands": [
+          {
+            "relative_l2": 0.7390734649428609,
+            "rmse": 0.1600140989758763,
+            "truth_power": 48.0,
+            "recovered_power": 38.09520480209633,
+            "power_on_truth_zero_pixels": 22.177615262216385,
+            "power_at_other_band_only_truth_pixels": 11.398394545961404
+          },
+          {
+            "relative_l2": 0.7311434982229712,
+            "rmse": 0.12663776865458315,
+            "truth_power": 38.400000000000006,
+            "recovered_power": 63.04324923867586,
+            "power_on_truth_zero_pixels": 43.67842869006843,
+            "power_at_other_band_only_truth_pixels": 18.235779437802826
+          },
+          {
+            "relative_l2": 0.5497950403494934,
+            "rmse": 0.11339522707208301,
+            "truth_power": 72.6,
+            "recovered_power": 54.98449780987973,
+            "power_on_truth_zero_pixels": 16.9351166391874,
+            "power_at_other_band_only_truth_pixels": 7.556867209532436
+          }
+        ],
+        "sam_mean_deg": 24.434687609549474,
+        "sam_median_deg": 23.590354366944958,
+        "sam_valid_count": 191,
+        "sam_undefined_reconstruction_zero_count": 0,
+        "sam_truth_zero_excluded_count": 833,
+        "spectrum_norm_threshold": 1e-12
+      },
+      "operator_checks": {
+        "inner_product_relative_error": 2.4759446007875773e-16,
+        "lhs": 0.8968076460773831,
+        "rhs": 0.8968076460773828,
+        "gradient_relative_error": 7.021407723125934e-14,
+        "gradient_analytic": 0.0784669111516788,
+        "gradient_finite_difference": 0.07846691115167329,
+        "epsilon": 0.054846375735539236
+      },
+      "trajectory_monotone": true,
+      "initialization": "zeros",
+      "projected_gradient_normalizer": 3.4452870344354025
+    },
+    {
+      "identity": "nearest_depth_lines_and_square_full",
+      "device": "nearest_depth",
+      "scene": "lines_and_square",
+      "mode": "full",
+      "solver_status": "iteration_limit",
+      "iterations": 500,
+      "alpha": 0.00010033001813460194,
+      "L_data_estimate": 1.0033001813460194,
+      "elapsed_s": 2.127156399998057,
+      "final_optimization": {
+        "iteration": 500,
+        "data_term": 0.00929142112378237,
+        "regularization_term": 0.002107372838592055,
+        "objective": 0.011398793962374426,
+        "residual_norm": 0.13631889908433364,
+        "residual_relative": 0.03717499090740898,
+        "L": 1.0535705369323618,
+        "backtracks": 0,
+        "projected_gradient_relative": 0.0011631413300079497,
+        "objective_relative_change": 0.0013399117156729524,
+        "elapsed_s": 2.1271538000000874
+      },
+      "evaluation": {
+        "cube_relative_l2": 0.6755163600786411,
+        "cube_rmse": 0.1347730264178909,
+        "bands": [
+          {
+            "relative_l2": 0.7390304673204998,
+            "rmse": 0.16000478971755955,
+            "truth_power": 48.0,
+            "recovered_power": 38.10038829422491,
+            "power_on_truth_zero_pixels": 22.180242171485986,
+            "power_at_other_band_only_truth_pixels": 11.399511939969445
+          },
+          {
+            "relative_l2": 0.7311126222529275,
+            "rmse": 0.12663242077969827,
+            "truth_power": 38.400000000000006,
+            "recovered_power": 63.03541113762432,
+            "power_on_truth_zero_pixels": 43.671342560259475,
+            "power_at_other_band_only_truth_pixels": 18.233322237337855
+          },
+          {
+            "relative_l2": 0.5496993773503905,
+            "rmse": 0.11337549657851803,
+            "truth_power": 72.6,
+            "recovered_power": 54.9877798170571,
+            "power_on_truth_zero_pixels": 16.93201249539928,
+            "power_at_other_band_only_truth_pixels": 7.555786620966968
+          }
+        ],
+        "sam_mean_deg": 24.430774928027397,
+        "sam_median_deg": 23.582401479682044,
+        "sam_valid_count": 191,
+        "sam_undefined_reconstruction_zero_count": 0,
+        "sam_truth_zero_excluded_count": 833,
+        "spectrum_norm_threshold": 1e-12
+      },
+      "operator_checks": {
+        "inner_product_relative_error": 1.131253680000283e-15,
+        "lhs": -0.19628188517802259,
+        "rhs": -0.1962818851780228,
+        "gradient_relative_error": 7.231549143157112e-14,
+        "gradient_analytic": 0.06448046761650851,
+        "gradient_finite_difference": 0.06448046761651317,
+        "epsilon": 0.054846375735539236
+      },
+      "trajectory_monotone": true,
+      "initialization": "zeros",
+      "projected_gradient_normalizer": 3.445415615975295
+    }
+  ],
+  "readback": [
+    "continuous_coincident_points_crop",
+    "continuous_separated_points_crop",
+    "continuous_lines_and_square_crop",
+    "continuous_lines_and_square_full",
+    "nearest_depth_coincident_points_crop",
+    "nearest_depth_separated_points_crop",
+    "nearest_depth_lines_and_square_crop",
+    "nearest_depth_lines_and_square_full"
+  ],
+  "config": {
+    "source_run": "results/stage02d1/run_20261002_203904",
+    "solver": {
+      "alpha_relative": 0.0001,
+      "max_iterations": 500,
+      "gradient_tolerance": 1e-05,
+      "objective_tolerance": 1e-07,
+      "power_iterations": 100,
+      "power_tolerance": 1e-08,
+      "seed": 2019,
+      "initial_L_factor": 1.05,
+      "backtracking_factor": 2.0,
+      "max_backtracks": 50
+    },
+    "evaluation": {
+      "spectrum_norm_threshold": 1e-12
+    },
+    "full_diagnostic_scene": "lines_and_square",
+    "thresholds": {
+      "adjoint_relative": 1e-10,
+      "gradient_relative": 1e-05
+    },
+    "runtime": {
+      "save_results": true,
+      "show_plots": false
+    },
+    "plots": {
+      "dpi": 150
+    }
+  },
+  "runtime": {
+    "save_results": true,
+    "show_plots": false
+  },
+  "backend": {
+    "backend": "Agg",
+    "available": false,
+    "reason": "未请求显示"
+  },
+  "source_unchanged": true,
+  "environment": {
+    "timestamp_local": "2026-10-02T21:17:23",
+    "python_version": "3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)]",
+    "python_executable": "D:\\dev\\python\\python3.10.4\\python.exe",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "platform_machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "os_cpu_count": 20,
+    "cwd_at_invocation": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+    "project_root_resolved": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+    "argv": [
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main_stage02d2.py"
+    ],
+    "numpy_version": "2.2.6",
+    "scipy_version": "1.15.3",
+    "matplotlib_version": "3.10.9",
+    "pytest_version": null,
+    "pytest_import_error": "ModuleNotFoundError: No module named 'pytest'"
+  },
+  "elapsed_s": 27.644256100000348,
+  "scope": "Jeon光学编码复现＋基础重建验证；非原论文网络复现",
+  "assumptions": [
+    "无噪声、三单色诊断、理想像平面平移不变模型，单位辐射响应。",
+    "α由统一相对参数乘算子谱范数估计；幂迭代不是严格上界，回溯检查步长。",
+    "iteration_limit表示达到迭代上限，不能声称约束最优解已收敛。",
+    "真值仅用于来源验证和评价，不用于初始化/迭代或每场景参数选择。",
+    "小数据残差不能代替光谱恢复误差；有限场景支持是先验。",
+    "原论文旋转方向对应、真实PyCharm点击和弹窗仍未确定/人工验证。"
+  ]
+}

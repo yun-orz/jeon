@@ -1,0 +1,419 @@
+{
+  "reviewed_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02b1\\run_20261001_224235",
+  "source_mismatch": [],
+  "profiles": {
+    "jeon": "8527724f6aeffc0314d09313d89fdca0c2c864827e6a47308480968bcabc1350",
+    "fresnel": "c91e609e89d027adc4228f31d847c1d23b843104b24a747ed02683a9efe43c27"
+  },
+  "rows": [
+    {
+      "identity": "fresnel@420nm",
+      "Pin": 7.85349e-07,
+      "Pwindow": 5.728903136441012e-07,
+      "eta": 0.7294722647435741,
+      "Eabs_150um": 0.7017999899151173,
+      "power_metadata_matches": true,
+      "I_abs2_exact": true,
+      "dtype": [
+        "complex128",
+        "float64"
+      ],
+      "R50_correct_um": 90.47098982546837,
+      "R50_reported_um": 90.47098982546837,
+      "R80_correct_um": null,
+      "R80_reported_um": null,
+      "primary_angle_deg": 16.790331565178573,
+      "primary_A3": 1.1925669854611601e-17,
+      "sensitivity_angle_deg": -26.46011490794829,
+      "sensitivity_A3": 1.0372595154589217e-17
+    },
+    {
+      "identity": "fresnel@450nm",
+      "Pin": 7.85349e-07,
+      "Pwindow": 6.472285410146146e-07,
+      "eta": 0.8241285606967279,
+      "Eabs_150um": 0.8098827239862085,
+      "power_metadata_matches": true,
+      "I_abs2_exact": true,
+      "dtype": [
+        "complex128",
+        "float64"
+      ],
+      "R50_correct_um": 63.0317380372777,
+      "R50_reported_um": 63.0317380372777,
+      "R80_correct_um": 143.12581877495057,
+      "R80_reported_um": 143.12581877495057,
+      "primary_angle_deg": 19.98890652133495,
+      "primary_A3": 7.610863753975765e-18,
+      "sensitivity_angle_deg": -22.438865549238898,
+      "sensitivity_A3": 7.882885600893185e-18
+    },
+    {
+      "identity": "fresnel@480nm",
+      "Pin": 7.85349e-07,
+      "Pwindow": 7.078644218927597e-07,
+      "eta": 0.9013373950851911,
+      "Eabs_150um": 0.894121841042562,
+      "power_metadata_matches": true,
+      "I_abs2_exact": true,
+      "dtype": [
+        "complex128",
+        "float64"
+      ],
+      "R50_correct_um": 38.013155617496416,
+      "R50_reported_um": 38.013155617496416,
+      "R80_correct_um": 77.87810988975014,
+      "R80_reported_um": 77.87810988975014,
+      "primary_angle_deg": 21.02599013072991,
+      "primary_A3": 1.511015654713194e-17,
+      "sensitivity_angle_deg": 22.630183885416113,
+      "sensitivity_A3": 9.258613081691986e-18
+    },
+    {
+      "identity": "fresnel@510nm",
+      "Pin": 7.85349e-07,
+      "Pwindow": 7.453711787971304e-07,
+      "eta": 0.9490954706724404,
+      "Eabs_150um": 0.9453210545941322,
+      "power_metadata_matches": true,
+      "I_abs2_exact": true,
+      "dtype": [
+        "complex128",
+        "float64"
+      ],
+      "R50_correct_um": 20.248456731316587,
+      "R50_reported_um": 20.248456731316587,
+      "R80_correct_um": 46.1410879802373,
+      "R80_reported_um": 46.1410879802373,
+      "primary_angle_deg": 15.0,
+      "primary_A3": 7.605877539554886e-18,
+      "sensitivity_angle_deg": 55.436870050972146,
+      "sensitivity_A3": 8.006369138601461e-18
+    },
+    {
+      "identity": "fresnel@540nm",
+      "Pin": 7.85349e-07,
+      "Pwindow": 7.586531589109382e-07,
+      "eta": 0.9660076716350797,
+      "Eabs_150um": 0.9612598901222648,
+      "power_metadata_matches": true,
+      "I_abs2_exact": true,
+      "dtype": [
+        "complex128",
+        "float64"
+      ],
+      "R50_correct_um": 14.7648230602334,
+      "R50_reported_um": 14.7648230602334,
+      "R80_correct_um": 25.632011235952596,
+      "R80_reported_um": 25.632011235952596,
+      "primary_angle_deg": -2.7710517799998162,
+      "primary_A3": 1.6120136661232627e-17,
+      "sensitivity_angle_deg": 14.7996355840599,
+      "sensitivity_A3": 2.2372284068444513e-17
+    },
+    {
+      "identity": "fresnel@570nm",
+      "Pin": 7.85349e-07,
+      "Pwindow": 7.546630158321637e-07,
+      "eta": 0.9609269456409364,
+      "Eabs_150um": 0.9566325465365104,
+      "power_metadata_matches": true,
+      "I_abs2_exact": true,
+      "dtype": [
+        "complex128",
+        "float64"
+      ],
+      "R50_correct_um": 16.278820596099706,
+      "R50_reported_um": 16.278820596099706,
+      "R80_correct_um": 37.21558813185679,
+      "R80_reported_um": 37.21558813185679,
+      "primary_angle_deg": -2.50830564854133,
+      "primary_A3": 2.8551326451607276e-17,
+      "sensitivity_angle_deg": 7.09612390308616,
+      "sensitivity_A3": 1.8998103128881994e-17
+    },
+    {
+      "identity": "fresnel@600nm",
+      "Pin": 7.85349e-07,
+      "Pwindow": 7.376698071310736e-07,
+      "eta": 0.9392891658753925,
+      "Eabs_150um": 0.9344985864742785,
+      "power_metadata_matches": true,
+      "I_abs2_exact": true,
+      "dtype": [
+        "complex128",
+        "float64"
+      ],
+      "R50_correct_um": 25.612496949731394,
+      "R50_reported_um": 25.612496949731394,
+      "R80_correct_um": 56.32051136131489,
+      "R80_reported_um": 56.32051136131489,
+      "primary_angle_deg": 12.434649425994477,
+      "primary_A3": 7.54558391316629e-18,
+      "sensitivity_angle_deg": 26.049078808755596,
+      "sensitivity_A3": 3.529820042897037e-17
+    },
+    {
+      "identity": "fresnel@630nm",
+      "Pin": 7.85349e-07,
+      "Pwindow": 7.102527893345917e-07,
+      "eta": 0.904378549325958,
+      "Eabs_150um": 0.8963231378666742,
+      "power_metadata_matches": true,
+      "I_abs2_exact": true,
+      "dtype": [
+        "complex128",
+        "float64"
+      ],
+      "R50_correct_um": 44.294469180700204,
+      "R50_reported_um": 44.294469180700204,
+      "R80_correct_um": 87.47571091451614,
+      "R80_reported_um": 87.47571091451614,
+      "primary_angle_deg": -13.366969182070747,
+      "primary_A3": 5.495360469516034e-18,
+      "sensitivity_angle_deg": -29.85825523140429,
+      "sensitivity_A3": 4.017035201167379e-17
+    },
+    {
+      "identity": "fresnel@660nm",
+      "Pin": 7.85349e-07,
+      "Pwindow": 6.737602889879302e-07,
+      "eta": 0.8579119461385067,
+      "Eabs_150um": 0.8442234903515091,
+      "power_metadata_matches": true,
+      "I_abs2_exact": true,
+      "dtype": [
+        "complex128",
+        "float64"
+      ],
+      "R50_correct_um": 60.29925372672534,
+      "R50_reported_um": 60.29925372672534,
+      "R80_correct_um": 120.07081243999309,
+      "R80_reported_um": 120.07081243999309,
+      "primary_angle_deg": 21.38520414847989,
+      "primary_A3": 2.6958880351014854e-17,
+      "sensitivity_angle_deg": 16.861356541390965,
+      "sensitivity_A3": 1.1122771397786468e-17
+    },
+    {
+      "identity": "jeon@420nm",
+      "Pin": 7.85349e-07,
+      "Pwindow": 6.246937951119394e-07,
+      "eta": 0.7954346349354737,
+      "Eabs_150um": 0.7627990078147923,
+      "power_metadata_matches": true,
+      "I_abs2_exact": true,
+      "dtype": [
+        "complex128",
+        "float64"
+      ],
+      "R50_correct_um": 82.38931969618393,
+      "R50_reported_um": 82.38931969618393,
+      "R80_correct_um": null,
+      "R80_reported_um": null,
+      "primary_angle_deg": -43.67893979227583,
+      "primary_A3": 0.5164072163425601,
+      "sensitivity_angle_deg": -42.561728870583714,
+      "sensitivity_A3": 0.5054780007773516
+    },
+    {
+      "identity": "jeon@450nm",
+      "Pin": 7.85349e-07,
+      "Pwindow": 6.505800956248777e-07,
+      "eta": 0.8283961597008179,
+      "Eabs_150um": 0.8043074103801859,
+      "power_metadata_matches": true,
+      "I_abs2_exact": true,
+      "dtype": [
+        "complex128",
+        "float64"
+      ],
+      "R50_correct_um": 64.51356446515724,
+      "R50_reported_um": 64.51356446515724,
+      "R80_correct_um": 146.93195704134618,
+      "R80_reported_um": 146.93195704134618,
+      "primary_angle_deg": -26.394779096933718,
+      "primary_A3": 0.5057525324119211,
+      "sensitivity_angle_deg": -26.52608935148561,
+      "sensitivity_A3": 0.5342069409267421
+    },
+    {
+      "identity": "jeon@480nm",
+      "Pin": 7.85349e-07,
+      "Pwindow": 6.757772735785968e-07,
+      "eta": 0.8604802114456079,
+      "Eabs_150um": 0.8437184687807167,
+      "power_metadata_matches": true,
+      "I_abs2_exact": true,
+      "dtype": [
+        "complex128",
+        "float64"
+      ],
+      "R50_correct_um": 53.33854141237835,
+      "R50_reported_um": 53.33854141237835,
+      "R80_correct_um": 116.61903789690601,
+      "R80_reported_um": 116.61903789690601,
+      "primary_angle_deg": -9.31343262420233,
+      "primary_A3": 0.43229776895195177,
+      "sensitivity_angle_deg": -11.21660517747368,
+      "sensitivity_A3": 0.45684402288242865
+    },
+    {
+      "identity": "jeon@510nm",
+      "Pin": 7.85349e-07,
+      "Pwindow": 6.941995218926122e-07,
+      "eta": 0.8839376148599059,
+      "Eabs_150um": 0.8742126874427009,
+      "power_metadata_matches": true,
+      "I_abs2_exact": true,
+      "dtype": [
+        "complex128",
+        "float64"
+      ],
+      "R50_correct_um": 48.507731342539614,
+      "R50_reported_um": 48.507731342539614,
+      "R80_correct_um": 101.96568050084302,
+      "R80_reported_um": 101.96568050084302,
+      "primary_angle_deg": 8.556590992372872,
+      "primary_A3": 0.29781329456229266,
+      "sensitivity_angle_deg": 5.694931343055681,
+      "sensitivity_A3": 0.29171727058609964
+    },
+    {
+      "identity": "jeon@540nm",
+      "Pin": 7.85349e-07,
+      "Pwindow": 6.978708334701867e-07,
+      "eta": 0.8886123665659302,
+      "Eabs_150um": 0.877347247399061,
+      "power_metadata_matches": true,
+      "I_abs2_exact": true,
+      "dtype": [
+        "complex128",
+        "float64"
+      ],
+      "R50_correct_um": 48.91829923454004,
+      "R50_reported_um": 48.91829923454004,
+      "R80_correct_um": 105.65036677645752,
+      "R80_reported_um": 105.65036677645752,
+      "primary_angle_deg": 32.31069335054173,
+      "primary_A3": 0.263104120201103,
+      "sensitivity_angle_deg": 33.104667279346934,
+      "sensitivity_A3": 0.233559906358067
+    },
+    {
+      "identity": "jeon@570nm",
+      "Pin": 7.85349e-07,
+      "Pwindow": 6.836752783905449e-07,
+      "eta": 0.8705368930125904,
+      "Eabs_150um": 0.8531108261905194,
+      "power_metadata_matches": true,
+      "I_abs2_exact": true,
+      "dtype": [
+        "complex128",
+        "float64"
+      ],
+      "R50_correct_um": 52.69724850502159,
+      "R50_reported_um": 52.69724850502159,
+      "R80_correct_um": 117.51595636338071,
+      "R80_reported_um": 117.51595636338071,
+      "primary_angle_deg": 50.50837711789192,
+      "primary_A3": 0.3054424300134055,
+      "sensitivity_angle_deg": 52.18175028645742,
+      "sensitivity_A3": 0.32837421182358967
+    },
+    {
+      "identity": "jeon@600nm",
+      "Pin": 7.85349e-07,
+      "Pwindow": 6.558103987664998e-07,
+      "eta": 0.8350560053765902,
+      "Eabs_150um": 0.8109756854440381,
+      "power_metadata_matches": true,
+      "I_abs2_exact": true,
+      "dtype": [
+        "complex128",
+        "float64"
+      ],
+      "R50_correct_um": 59.80802621722272,
+      "R50_reported_um": 59.80802621722272,
+      "R80_correct_um": 141.76036117335482,
+      "R80_reported_um": 141.76036117335482,
+      "primary_angle_deg": -53.23712229569157,
+      "primary_A3": 0.3166416900630861,
+      "sensitivity_angle_deg": -53.27730498782281,
+      "sensitivity_A3": 0.3642973572636913
+    },
+    {
+      "identity": "jeon@630nm",
+      "Pin": 7.85349e-07,
+      "Pwindow": 6.167023510869633e-07,
+      "eta": 0.7852589754197985,
+      "Eabs_150um": 0.7558352810529321,
+      "power_metadata_matches": true,
+      "I_abs2_exact": true,
+      "dtype": [
+        "complex128",
+        "float64"
+      ],
+      "R50_correct_um": 72.24956747275377,
+      "R50_reported_um": 72.24956747275377,
+      "R80_correct_um": null,
+      "R80_reported_um": null,
+      "primary_angle_deg": -38.053129443587665,
+      "primary_A3": 0.3685617671476727,
+      "sensitivity_angle_deg": -38.064392773727945,
+      "sensitivity_A3": 0.40485892960762293
+    },
+    {
+      "identity": "jeon@660nm",
+      "Pin": 7.85349e-07,
+      "Pwindow": 5.698016058875994e-07,
+      "eta": 0.7255393536982914,
+      "Eabs_150um": 0.6917832503179989,
+      "power_metadata_matches": true,
+      "I_abs2_exact": true,
+      "dtype": [
+        "complex128",
+        "float64"
+      ],
+      "R50_correct_um": 90.60905032059436,
+      "R50_reported_um": 90.60905032059436,
+      "R80_correct_um": null,
+      "R80_reported_um": null,
+      "primary_angle_deg": -27.84932351352867,
+      "primary_A3": 0.4514715728209202,
+      "sensitivity_angle_deg": -26.82466686730783,
+      "sensitivity_A3": 0.4883954336188138
+    }
+  ],
+  "forged_power_verification": {
+    "status": "pass",
+    "expected_identity_count": 18,
+    "verified_identity_count": 18,
+    "problems": [],
+    "identities": [
+      "fresnel@420nm",
+      "fresnel@450nm",
+      "fresnel@480nm",
+      "fresnel@510nm",
+      "fresnel@540nm",
+      "fresnel@570nm",
+      "fresnel@600nm",
+      "fresnel@630nm",
+      "fresnel@660nm",
+      "jeon@420nm",
+      "jeon@450nm",
+      "jeon@480nm",
+      "jeon@510nm",
+      "jeon@540nm",
+      "jeon@570nm",
+      "jeon@600nm",
+      "jeon@630nm",
+      "jeon@660nm"
+    ]
+  },
+  "forged_power_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\审核_阶段02B-1_20261001\\forged_power_1ea924a2",
+  "propagation_distance_capture": {
+    "distance_m": 0.05
+  },
+  "limitations": "距离捕获为调用检查；默认f=z时不影响原18组结果。"
+}

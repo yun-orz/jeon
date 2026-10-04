@@ -1,0 +1,8 @@
+
+test_entry_no_save_mode (tests.test_stage02_entry.TestStage02Entry)
+测试 --no-save 模式：内存完成自检，退出码为 0，不创建垃圾文件。 ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 1.806s
+
+OK

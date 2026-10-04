@@ -1,0 +1,5 @@
+{
+  "status": "failed",
+  "completed_jobs": 6,
+  "traceback": "Traceback (most recent call last):\n  File \"D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main_stage02e3.py\", line 121, in run\n    if runtime['show_plots']:plt.show()\n  File \"D:\\dev\\python\\python3.10.4\\lib\\unittest\\mock.py\", line 1104, in __call__\n    return self._mock_call(*args, **kwargs)\n  File \"D:\\dev\\python\\python3.10.4\\lib\\unittest\\mock.py\", line 1108, in _mock_call\n    return self._execute_mock_call(*args, **kwargs)\n  File \"D:\\dev\\python\\python3.10.4\\lib\\unittest\\mock.py\", line 1163, in _execute_mock_call\n    raise effect\nRuntimeError: 验收注入显示失败\n"
+}

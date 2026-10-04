@@ -1,0 +1,123 @@
+{
+  "project": "jeon2019_optics",
+  "stage": "stage01",
+  "description": "阶段 01：建立并验证 Fresnel 传播基线。不实现 DOE 高度、多波长编码 PSF、成像或重建。",
+  "runtime": {
+    "device": "cpu",
+    "save_results": true,
+    "show_plots": false,
+    "log_level": "INFO",
+    "numpy_random_seed": 0,
+    "force_new_run": false,
+    "comment": "本阶段无随机过程；random_seed 仅作记录。"
+  },
+  "units": {
+    "internal_length_unit": "m",
+    "config_input_units": {
+      "wavelength_nm": "nm",
+      "aperture_diameter_mm": "mm",
+      "focal_length_mm": "mm",
+      "input_half_width_um": "um",
+      "input_spacing_um": "um",
+      "output_spacing_um": "um",
+      "observation_half_width_um": "um"
+    },
+    "note": "所有长度在进入 optics 模块前统一换算为米（m）。nm/um/mm 只出现在配置解析层与报告文字中。"
+  },
+  "algorithm": {
+    "primary": "direct",
+    "comment": "primary=direct：直接二维求值式(4) 的离散形式（BLAS 可分离实现）。本阶段以它作为产生物理结论的权威算法，理由见 docs/equations_and_parameters.md 第 3 节与 reproduction_log：在相同算例上它与'输入加密 20 倍、窗口放大 2 倍'的高分辨率裁判一致到 1e-16，而单次 FFT(IR) 形式与传递函数（角谱）形式分别偏差 10% 与 1e8–1e10 量级（都受制于各自的采样条件）。",
+    "ir_available": true,
+    "transfer_available": true,
+    "direct_sum_validity_max_phase_step_rad": 0.5,
+    "ir_validity_max_phase_step_rad": 0.5,
+    "comment2": "判据都指二次相位 π(x′²+y′²)/(λz) 在相应网格上相邻样点的最大相位步进；阈值 0.5 rad（≈π/6）是本项目预估值，不是论文数值。"
+  },
+  "studies": {
+    "airy": {
+      "enabled": true,
+      "comment": "A. 圆孔 + 理想薄透镜的焦平面 Airy 尺度。二次相位透镜只用于验证传播程序，不是论文的包裹浮雕 DOE。",
+      "aperture_diameter_mm": 0.1,
+      "f_mm": 50.0,
+      "wavelength_nm": 550.0,
+      "input_half_width_um": 200.0,
+      "input_spacing_um": 1.0,
+      "output_spacing_um": 4.0,
+      "observation_half_width_um": 1200.0,
+      "extended_half_width_um": 8000.0,
+      "extended_spacing_um": 40.0,
+      "n_radial_bins": 0,
+      "ir_padding_factor": 2,
+      "samples_per_ring": 20.0,
+      "validation_note": "D=0.1 mm、f=50 mm 是缩小尺度的验证参数（Airy 第一暗环 335.5 μm，便于在 CPU 上充分采样），不是论文的 1 mm 器件。选参数的关键约束是 Fresnel 数 N_F=D²/(4λf)≈0.09≪1：只有在此远场条件下，焦平面图样才近似为解析 Airy 函数；本阶段最初用 D=0.2 mm、f=25 mm（N_F≈2.3）时图样比 Airy 宽得多，属于近场效应而非程序错误。输入窗口取 ±200 μm（孔径半径 50 μm 的 4 倍）以保证场在网格边缘已衰减。",
+      "paper_scale_reference": {
+        "D_mm": 1.0,
+        "f_mm": 50.0,
+        "wavelength_nm": 550.0,
+        "theoretical_first_dark_ring_um": 33.55,
+        "comment": "取自论文第 6 节的实物参数（DOE 直径 1 mm、焦距 50 mm）。注意该组合的 Fresnel 数 N_F≈4.5≫1，作者仿真并不处于远场 Airy 极限。本阶段只对 1.22λf/D 做解析核对与采样/内存估计，不强行分配全尺寸数组，也不把它当作远场验证。"
+      }
+    },
+    "direct_vs_fft": {
+      "enabled": true,
+      "comment": "B. 同一离散输入、同一输出坐标、同一面积权重下，直接二维求积与单次 FFT(IR) 形式的复场逐点对照。输入取受限的非对称复振幅，以便发现轴翻转与相位符号错误。",
+      "wavelength_nm": 550.0,
+      "propagation_distance_mm": 50.0,
+      "input_samples": 48,
+      "input_spacing_um": 40.0,
+      "ir_padding_factor": 2
+    },
+    "energy": {
+      "enabled": true,
+      "comment": "C. 输入功率与输出功率核验（尺度与能量），并报告固定观察窗口内的能量占比。",
+      "wavelength_nm": 550.0,
+      "aperture_diameter_mm": 0.1,
+      "focal_length_mm": 50.0,
+      "input_half_width_um": 200.0,
+      "input_spacing_um": 1.0,
+      "output_spacing_um": 4.0,
+      "observation_half_width_um": 1200.0,
+      "extended_half_width_um": 8000.0,
+      "extended_spacing_um": 40.0
+    },
+    "sampling": {
+      "enabled": true,
+      "comment": "D. 固定物理孔径、物理输入窗口与物理观察区，只改变输入采样精度；另附观察网格加密对照。",
+      "wavelength_nm": 550.0,
+      "aperture_diameter_mm": 0.1,
+      "focal_length_mm": 50.0,
+      "input_half_width_um": 200.0,
+      "output_spacing_um": 4.0,
+      "observation_half_width_um": 500.0,
+      "n_radial_bins": 0,
+      "input_levels": [
+        {
+          "name": "N100",
+          "input_samples": 100
+        },
+        {
+          "name": "N200",
+          "input_samples": 200
+        },
+        {
+          "name": "N400",
+          "input_samples": 400
+        }
+      ],
+      "output_densify_factor": 4
+    }
+  },
+  "acceptance": {
+    "airy_first_dark_ring_rel_err_max": 0.02,
+    "direct_vs_fft_rel_l2_max": 1e-06,
+    "energy_rel_err_max": 1e-10,
+    "energy_window_rel_err_max": 0.01,
+    "shape_l1_diff_max": 0.02,
+    "comment": "以上阈值是本项目的预设验收建议，不是论文报告值；在运行前写入配置，未在看结果后放宽。第 2 项的阈值针对满足采样判据的小规模算例；不满足判据时如实报告为'未通过'并给出原因。第 3 项使用 window_power 判据（窗内离散功率 对 解析包围能量），阈值 0.01；原拟的 1e-10 全平面 Parseval 阈值只适用于 FFT 路径，本阶段因该路径不可用而改为可验证的等价判据，理由见报告第 4 节。"
+  },
+  "plots": {
+    "dpi": 130,
+    "colormap_intensity": "inferno",
+    "colormap_error": "coolwarm"
+  }
+}

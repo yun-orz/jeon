@@ -1,0 +1,17 @@
+﻿指标,数值,说明
+P_in,7.845e-09,Σ|u1|²Δx′Δy′
+P_ext_total,7.80376170259746e-09,扩展网格 ±8000 μm 上的总功率（仅报告）
+relative_error_ext_vs_P_in,-0.00525663446813772,有限窗口下的功率差；Airy 尾部按 r⁻³ 衰减，达不到 1e-10，仅报告
+P_out_observation_window,7.513031605251915e-09,观察网格 ±1200 μm、Δx=4 μm
+analytic_encircled_fraction,0.9524459070070379,解析 1−J0²−J1² 在窗半径处的值
+P_window_expected_analytic,7.471938140470213e-09,= 解析比例 × P_in
+relative_error_window_power,-8.689116851423293e-05,**本组能量主判据**（窗内离散功率 对 解析期望）
+window_over_total,0.9627448776083493,窗内占扩展网格总功率的比例
+FFT路径Parseval期望值,165976859.5041223,P_in/(λz)²·(ΔxΔy)/(Δx′Δy′)：仅供区分两条路径的尺度关系，不是本算法期望值
+cell_area_in_m2,1e-12,
+cell_area_out_m2,1.5999999999999043e-11,
+window_radius_um,1200.0,
+P_window,7.471288895034121e-09,观察窗内能量（不做归一化）
+window_energy_fraction,0.9944439591883769,占观察网格总量的比例
+direct_sum_ok,True,最大相位步进 0.04581 rad
+P_out_without_scale_factor,5.6817301514717616e-24,删掉 1/(λz) 后的对照

@@ -1,0 +1,64 @@
+{
+  "implementation_audit_passed": true,
+  "all_reconstructions_converged": false,
+  "run_dir": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02d2\\run_20261002_210155",
+  "source_unchanged": true,
+  "records": [
+    {
+      "identity": "continuous_coincident_points_crop",
+      "objective": 0.0001321083870489761,
+      "projected_gradient_relative": 0.0043148839172094085,
+      "solver_status": "iteration_limit",
+      "cube_relative_l2": 0.9494799809488265
+    },
+    {
+      "identity": "continuous_separated_points_crop",
+      "objective": 0.0003518098887362,
+      "projected_gradient_relative": 0.014375169339722405,
+      "solver_status": "iteration_limit",
+      "cube_relative_l2": 0.8819160465492446
+    },
+    {
+      "identity": "continuous_lines_and_square_crop",
+      "objective": 0.012052748945383326,
+      "projected_gradient_relative": 0.0011682479350338289,
+      "solver_status": "iteration_limit",
+      "cube_relative_l2": 0.6757759040955235
+    },
+    {
+      "identity": "continuous_lines_and_square_full",
+      "objective": 0.012056814344154992,
+      "projected_gradient_relative": 0.00116851291779878,
+      "solver_status": "iteration_limit",
+      "cube_relative_l2": 0.6757202982984681
+    },
+    {
+      "identity": "nearest_depth_coincident_points_crop",
+      "objective": 0.00012511502896155196,
+      "projected_gradient_relative": 0.004309768951459056,
+      "solver_status": "iteration_limit",
+      "cube_relative_l2": 0.949552249852874
+    },
+    {
+      "identity": "nearest_depth_separated_points_crop",
+      "objective": 0.0003329519771085047,
+      "projected_gradient_relative": 0.014355432672072331,
+      "solver_status": "iteration_limit",
+      "cube_relative_l2": 0.8819926648614106
+    },
+    {
+      "identity": "nearest_depth_lines_and_square_crop",
+      "objective": 0.011394990045296101,
+      "projected_gradient_relative": 0.0011629980361188255,
+      "solver_status": "iteration_limit",
+      "cube_relative_l2": 0.6755709526052751
+    },
+    {
+      "identity": "nearest_depth_lines_and_square_full",
+      "objective": 0.011398793962374426,
+      "projected_gradient_relative": 0.00116314133000795,
+      "solver_status": "iteration_limit",
+      "cube_relative_l2": 0.6755163600786411
+    }
+  ]
+}

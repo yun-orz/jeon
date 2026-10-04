@@ -1,0 +1,32 @@
+{
+  "test_stage02_entry.py": {
+    "original_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\tests\\test_stage02_entry.py",
+    "backup_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\阶段02A-R_执行证据_20261001_212145\\修改前源码备份\\test_stage02_entry.py",
+    "sha256": "4700383ed73def6010052b7fe24a2a082811b0e99b2a1f8d3e513479d8197660"
+  },
+  "main_stage02.py": {
+    "original_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main_stage02.py",
+    "backup_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\阶段02A-R_执行证据_20261001_212145\\修改前源码备份\\main_stage02.py",
+    "sha256": "de7e624d81020d0eed8d47b89f4cc0ecd84a6859feded1771a0020132d443d12"
+  },
+  "config_stage02a.json": {
+    "original_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\config_stage02a.json",
+    "backup_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\阶段02A-R_执行证据_20261001_212145\\修改前源码备份\\config_stage02a.json",
+    "sha256": "b02cbe9d6c759d65c223a6a93dca71ad58d0b354b793fca06cc34807a5d3637d"
+  },
+  "stage02_equations_and_parameters.md": {
+    "original_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\docs\\stage02_equations_and_parameters.md",
+    "backup_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\阶段02A-R_执行证据_20261001_212145\\修改前源码备份\\stage02_equations_and_parameters.md",
+    "sha256": "0e3c7672234b98ec0738d7742f46f493780071aad1f38186a8899ebb55b95291"
+  },
+  "stage02_assumptions.md": {
+    "original_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\docs\\stage02_assumptions.md",
+    "backup_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\阶段02A-R_执行证据_20261001_212145\\修改前源码备份\\stage02_assumptions.md",
+    "sha256": "223ef8545b4af28e2de6d3dd618f8d5833dd5369198f2d3649734348155eca48"
+  },
+  "README.md": {
+    "original_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\README.md",
+    "backup_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\阶段02A-R_执行证据_20261001_212145\\修改前源码备份\\README.md",
+    "sha256": "9e9e802d25d02be5af855e4a16c8432c5c019a61e324f148e259d241f3633a8d"
+  }
+}

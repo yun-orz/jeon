@@ -1,0 +1,10 @@
+{"status": "completed", "validation_passed": true, "all_reconstructions_converged": false, "run_dir": null, "elapsed_s": 24.051618800000142}
+
+continuous_coincident_points_crop：iteration_limit，500轮，数据残差0.1247，cube误差0.9495，投影梯度0.004315
+continuous_separated_points_crop：iteration_limit，500轮，数据残差0.2601，cube误差0.8819，投影梯度0.01438
+continuous_lines_and_square_crop：iteration_limit，500轮，数据残差0.03731，cube误差0.6758，投影梯度0.001168
+continuous_lines_and_square_full：iteration_limit，500轮，数据残差0.03731，cube误差0.6757，投影梯度0.001169
+nearest_depth_coincident_points_crop：iteration_limit，500轮，数据残差0.1247，cube误差0.9496，投影梯度0.00431
+nearest_depth_separated_points_crop：iteration_limit，500轮，数据残差0.2596，cube误差0.882，投影梯度0.01436
+nearest_depth_lines_and_square_crop：iteration_limit，500轮，数据残差0.03717，cube误差0.6756，投影梯度0.001163
+nearest_depth_lines_and_square_full：iteration_limit，500轮，数据残差0.03717，cube误差0.6755，投影梯度0.001163

@@ -1,0 +1,96 @@
+{
+  "审核性质": "独立诊断，未修复生产代码",
+  "project": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+  "cases": [
+    {
+      "n": 48,
+      "dx_m": 4e-05,
+      "DSH_FFT_vs_DSH_direct_rel_L2": 624999999.9999992,
+      "DSH_FFT_power_ratio": 3.906249999999997e+17,
+      "inverse_input_cell_area": 624999999.9999999,
+      "inverse_input_cell_area_squared": 3.906249999999999e+17,
+      "independent_FFT_vs_full_kernel_rel_L2": 3.4537841363314946e-15,
+      "independent_matrix_vs_explicit_2D_sum_rel_L2": 4.112205456608021e-15,
+      "DSH_direct_vs_full_kernel_rel_L2": 1.4229705312006395,
+      "independent_FFT_power_relative_error": 8.659739592076221e-15
+    },
+    {
+      "n": 24,
+      "dx_m": 1e-05,
+      "DSH_FFT_vs_DSH_direct_rel_L2": 10000000000.0,
+      "DSH_FFT_power_ratio": 9.999999999999995e+19,
+      "inverse_input_cell_area": 9999999999.999998,
+      "inverse_input_cell_area_squared": 9.999999999999997e+19,
+      "independent_FFT_vs_full_kernel_rel_L2": 1.351559579397182e-14,
+      "independent_matrix_vs_explicit_2D_sum_rel_L2": 1.1171037369455018e-14,
+      "DSH_direct_vs_full_kernel_rel_L2": 0.1627498095261617,
+      "independent_FFT_power_relative_error": 6.8833827526759706e-15
+    }
+  ],
+  "gaussian": {
+    "independent_direct_vs_analytic_rel_L2": 3.742400458219126e-15,
+    "DSH_direct_vs_analytic_rel_L2": 1.293690403365761
+  },
+  "airy": [
+    {
+      "D_m": 0.0001,
+      "f_m": 0.05,
+      "Fresnel_number": 0.09090909090909091,
+      "theory_first_ring_um": 335.40922009828876,
+      "independent_profile_rel_L1": 0.001361327632183011,
+      "DSH_profile_rel_L1": 0.003070500907758955,
+      "independent_peak_over_discrete_pupil_theory": 1.0000000000000004
+    },
+    {
+      "D_m": 0.0002,
+      "f_m": 0.025,
+      "Fresnel_number": 0.7272727272727273,
+      "theory_first_ring_um": 83.85230502457219,
+      "independent_profile_rel_L1": 0.00027534332276180074,
+      "DSH_profile_rel_L1": 0.1392444951043325,
+      "independent_peak_over_discrete_pupil_theory": 1.0
+    },
+    {
+      "D_m": 0.001,
+      "f_m": 0.05,
+      "Fresnel_number": 9.09090909090909,
+      "theory_first_ring_um": 33.54092200982887,
+      "independent_profile_rel_L1": 3.783107509783011e-05,
+      "DSH_profile_rel_L1": 0.700715518562929,
+      "independent_peak_over_discrete_pupil_theory": 0.9999999999999994
+    }
+  ],
+  "paraxial_diagnostic": {
+    "rho_m": 0.00125,
+    "exact_phase_error_rad": 0.02788184738292828,
+    "leading_fourth_order_phase_error_rad": 0.02789055977973892,
+    "DSH_diagnostic_rad": 4.112630382881181e-11
+  },
+  "stored_result_vs_current_code_subset_rel_L2": 8.874099220290993e-13,
+  "existing_tests": {
+    "command": [
+      "D:\\dev\\python\\python3.10.4\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "returncode": 0,
+    "log": "DSH原有测试_独立运行.log"
+  },
+  "source_hashes": {
+    "main.py": "83b6226e2d3205ed7226d1e1f136ab39e8522fc346f20f60b8e7d64dda707c07",
+    "optics\\__init__.py": "12f8bb8fc42fc39fa60b0e46b861b8bb0d8d18cca6b114d671db4c67ab891472",
+    "optics\\coordinates.py": "4f27472848e752559369f7d28c18862f8c9167c93bbc748d48d6003021a38afa",
+    "optics\\metrics.py": "8b10ee395a70384041ff2011389908899eabb0f3b03fe2aa559f6f13c560a2fc",
+    "optics\\propagation.py": "b41d107607399928a87683a7af2946cd6a08680a2502954228a862c695bc7fa9",
+    "optics\\runutil.py": "cf8a3ff5d27a5073d6a594cf9c418280c16acc474645cf736060bfeb957165b8",
+    "optics\\units.py": "31408e61a8972474e41c597486368c6a8e592540cb7dc0451fb247a746cdcfbb",
+    "tests\\test_propagation.py": "75769247eca83814587ad2a001bcf9d818f52c9ef2c8800e3c17cc27180016c9",
+    "config.json": "f446cfe719b0116fa2d90fcb55d7e538edf49c8d9fc0b3944b908249c6cd4d57"
+  },
+  "production_source_unchanged": true
+}

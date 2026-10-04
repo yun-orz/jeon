@@ -1,0 +1,18 @@
+# 换行符与文本属性：保证跨平台一致
+# 文本文件在仓库内统一用 LF，检出到 Windows 时由 core.autocrlf 决定
+* text=auto eol=lf
+
+# 明确二进制类型，避免被当作文本处理
+*.npz  binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.pdf  binary
+*.gif  binary
+*.ico  binary
+*.zip  binary
+
+# 生成物不计入语言统计，避免仓库首页显示成“全是文档”
+docs/** linguist-documentation
+_*.json linguist-generated
+_*.md linguist-documentation

@@ -1,0 +1,32 @@
+{
+  "changed_existing_files": [
+    "main_stage02.py",
+    "README.md"
+  ],
+  "files": [
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main_stage02.py",
+      "sha256": "5851202ed2967073143c9f047b61471b2da60665c74d47fc16817af240bef1ab"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\README.md",
+      "sha256": "fb7d2d9b0d224d91ff91d5276b27d7340acd88b7fd4bd1efb2071a7b7309d1eb"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\optics\\stage02_runtime.py",
+      "sha256": "924df32ce7229024b3b85f043c27e99772818b2f242759c3b253081ff77add54"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\tests\\test_stage02_r2.py",
+      "sha256": "edf68bc3871ba005b107a76f7d96e9838a83f7b98374ae7a243adef0749e9be4"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\docs\\stage02a_r2_completed.md",
+      "sha256": "e66e096c694758e9415924141961835310137db5ca070990c5190cb25f851f37"
+    }
+  ],
+  "tests_passed": 87,
+  "formal_source_matches": true,
+  "files_deleted": false,
+  "stage02b_started": false
+}

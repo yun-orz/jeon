@@ -1,0 +1,129 @@
+{
+  "height": {
+    "exit_code": 1,
+    "argv": [
+      "D:\\dev\\python\\python3.10.4\\python.exe",
+      "-B",
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main_stage02b.py",
+      "--only",
+      "height",
+      "--run-dir",
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\审核_阶段02B-1_20261001\\partial_height_8d28bca3"
+    ],
+    "completion": {
+      "stage": "stage02b1",
+      "batch_title": "Jeon光学编码复现：02B-1九波长对照",
+      "status": "completed",
+      "only_mode": "height",
+      "calculation_status": "not_run",
+      "saving_status": "not_applicable",
+      "analysis_status": "not_started",
+      "finished_steps": [
+        "H_height_design"
+      ],
+      "wavelengths_completed": [],
+      "identity_records": [],
+      "limitations": [],
+      "created_timestamp_local": "2026-10-01T23:06:27",
+      "checks": {
+        "aperture_area": {
+          "status": "pass",
+          "rel_err_max": 0.01
+        },
+        "local_phase_err": {
+          "status": "pass"
+        },
+        "height_generated_jeon": {
+          "status": "pass"
+        },
+        "height_generated_fresnel": {
+          "status": "pass"
+        },
+        "height_generated": {
+          "status": "pass"
+        },
+        "device_design_lambda": {
+          "status": "pass",
+          "jeon_lambda_design_nm": [
+            420.0,
+            659.9998106752595
+          ],
+          "conventional_lambda0_nm": 550.0
+        },
+        "height_fingerprint_stable": {
+          "status": "pass",
+          "jeon": "8527724f6aeffc0314d09313d89fdca0c2c864827e6a47308480968bcabc1350",
+          "fresnel": "c91e609e89d027adc4228f31d847c1d23b843104b24a747ed02683a9efe43c27",
+          "note": "高度只生成一次；指纹在全部 18 组传播与重读中必须一致"
+        },
+        "control_single_field_health": {
+          "status": "not_run",
+          "reason": "excluded_by_only_mode"
+        },
+        "jeon_nine_wavelengths": {
+          "status": "not_run",
+          "reason": "excluded_by_only_mode"
+        },
+        "fresnel_nine_wavelengths": {
+          "status": "not_run",
+          "reason": "excluded_by_only_mode"
+        },
+        "identity_set_exact": {
+          "status": "not_applicable",
+          "reason": "未落盘（--no-save）：该检查只在保存后可验证"
+        },
+        "saved_arrays_reverified": {
+          "status": "not_applicable",
+          "reason": "未落盘（--no-save）：该检查只在保存后可验证"
+        },
+        "intensity_identity_exact": {
+          "status": "not_applicable",
+          "reason": "未落盘（--no-save）：该检查只在保存后可验证"
+        },
+        "power_in_range": {
+          "status": "not_applicable",
+          "reason": "未落盘（--no-save）：该检查只在保存后可验证"
+        },
+        "analysis_completed": {
+          "status": "not_run",
+          "reason": "excluded_by_only_mode"
+        }
+      },
+      "all_checks_pass": true,
+      "elapsed_s": 1.073468199999752
+    }
+  },
+  "analyze": {
+    "exit_code": 1,
+    "argv": [
+      "D:\\dev\\python\\python3.10.4\\python.exe",
+      "-B",
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main_stage02b.py",
+      "--only",
+      "analyze",
+      "--from-run",
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02b1\\run_20261001_224235",
+      "--no-save"
+    ]
+  },
+  "no_save": {
+    "exit_code": 0,
+    "file_snapshot_equal": true,
+    "changed": []
+  },
+  "required_all_has_analysis": false,
+  "corner_radius": {
+    "target": 0.8,
+    "radius_m": 0.00018531055015837605,
+    "radius_um": 185.31055015837606,
+    "status": "reached",
+    "Eabs_at_radius": 0.8002000500125032,
+    "Eabs_at_Rlimit": 1.0,
+    "Rlimit_m": 0.00015,
+    "Rlimit_um": 150.0,
+    "radius_resolution_m": 8.470329472543003e-22,
+    "definition": "按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值"
+  },
+  "jeon540_Eabs_at_Rlimit_reported": 0.8886123665659384,
+  "jeon540_Eabs_150_actual": 0.877347247399061
+}

@@ -1,0 +1,5 @@
+{
+  "status": "failed",
+  "traceback": "Traceback (most recent call last):\n  File \"D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main_stage02e1.py\", line 166, in run\n    (dest/'report_stage02e1.md').write_text('\\n'.join(lines)+'\\n',encoding='utf-8')\n  File \"<string>\", line 9, in fail\nOSError: 验收注入报告写入故障\n",
+  "completed_jobs": 3
+}

@@ -1,0 +1,3998 @@
+{
+  "order": [
+    "fresnel@420nm",
+    "fresnel@450nm",
+    "fresnel@480nm",
+    "fresnel@510nm",
+    "fresnel@540nm",
+    "fresnel@570nm",
+    "fresnel@600nm",
+    "fresnel@630nm",
+    "fresnel@660nm",
+    "jeon@420nm",
+    "jeon@450nm",
+    "jeon@480nm",
+    "jeon@510nm",
+    "jeon@540nm",
+    "jeon@570nm",
+    "jeon@600nm",
+    "jeon@630nm",
+    "jeon@660nm"
+  ],
+  "records": {
+    "fresnel@420nm": {
+      "Pin": 7.85349e-07,
+      "Pwindow_recomputed": 5.728903136441012e-07,
+      "Pwindow_saved": 5.728903136441012e-07,
+      "eta_window": 0.7294722647435741,
+      "rotation_bands": {
+        "primary": {
+          "label": "C3主环带20-100um",
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "band_pixels": 30168,
+          "Pband": 3.9607665894080043e-07,
+          "C3_real": -2.700062395888381e-23,
+          "C3_imag": 3.637978807091713e-24,
+          "C3_abs": 2.724460651156296e-23,
+          "A3": 6.878619554209851e-17,
+          "alpha_wrapped_rad": null,
+          "alpha_wrapped_deg": null,
+          "alpha_raw_rad": 1.0025541274449836,
+          "alpha_raw_deg": 57.44212023601842,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": false,
+          "unreliable_reason": "A3=6.87862e-17 低于阈值 0.05，角度不可靠",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        },
+        "sensitivity": {
+          "label": "C3敏感性环带30-120um",
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "band_pixels": 42412,
+          "Pband": 4.4605221929183165e-07,
+          "C3_real": -3.3026026358129454e-23,
+          "C3_imag": -9.094947017729282e-25,
+          "C3_abs": 3.3038547147542894e-23,
+          "A3": 7.406878773071921e-17,
+          "alpha_wrapped_rad": null,
+          "alpha_wrapped_deg": null,
+          "alpha_raw_rad": -1.0380202952365274,
+          "alpha_raw_deg": -59.47418196597669,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": false,
+          "unreliable_reason": "A3=7.40688e-17 低于阈值 0.05，角度不可靠",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        }
+      },
+      "abs_encircled": [
+        {
+          "R_m": 5e-05,
+          "R_um": 50.0,
+          "pixels_in_disk": 7845,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 1.60643283929804e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.20455018587889462,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.0001,
+          "R_um": 100.0,
+          "pixels_in_disk": 31417,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 4.3366074687847194e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.5521885771529242,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.00015,
+          "R_um": 150.0,
+          "pixels_in_disk": 70681,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 5.511579202798474e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.7017999899151173,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        }
+      ],
+      "R50": {
+        "target": 0.5,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": 9.047098982546837e-05,
+        "radius_um": 90.47098982546837,
+        "status": "reached",
+        "Eabs_at_radius": 0.5000594993986194,
+        "Eabs_at_Rlimit": 0.7017999899150655
+      },
+      "R80": {
+        "target": 0.8,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": null,
+        "radius_um": null,
+        "status": "not_reached",
+        "Eabs_at_radius": null,
+        "Eabs_at_Rlimit": 0.7017999899150655
+      },
+      "shape": {
+        "q0.5": {
+          "quantile": 0.5,
+          "Ipeak": 54.823730776672164,
+          "r_max_m": 0.00015,
+          "selected_pixels": 613,
+          "area_m2": 6.13e-10,
+          "area_um2": 613.0,
+          "r_equiv_m": 1.3968677826861912e-05,
+          "r_equiv_um": 13.968677826861912,
+          "peak_position_m": [
+            0.0,
+            0.0
+          ],
+          "peak_position_um": [
+            0.0,
+            0.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 1,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        },
+        "q0.1": {
+          "quantile": 0.1,
+          "Ipeak": 54.823730776672164,
+          "r_max_m": 0.00015,
+          "selected_pixels": 36801,
+          "area_m2": 3.6801e-08,
+          "area_um2": 36801.0,
+          "r_equiv_m": 0.00010823179810688577,
+          "r_equiv_um": 108.23179810688578,
+          "peak_position_m": [
+            0.0,
+            0.0
+          ],
+          "peak_position_um": [
+            0.0,
+            0.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 2,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        }
+      },
+      "centroid": {
+        "cx_m": -2.0287735736207594e-22,
+        "cy_m": -1.7683638313351098e-21,
+        "cx_um": -2.0287735736207594e-16,
+        "cy_um": -1.7683638313351097e-15,
+        "note": "固定方窗内强度质心，不是无限平面质心；仅作裁切/不对称诊断"
+      },
+      "band_energy": {
+        "primary": {
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "Pband": 3.9607665894080043e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.504332034472318,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        },
+        "sensitivity": {
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "Pband": 4.4605221929183165e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.5679668775179336,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        }
+      },
+      "peak_intensity": 54.823730776672164,
+      "Rlimit_m": 0.00015,
+      "definitions": {
+        "eta_window": "Pwindow/Pin；0<eta<=1.02 只作粗健康检查，不证明能量守恒精确成立",
+        "Eabs": "sum_{r<=R}(Iraw)*dA/Pin，分母恒为 Pin",
+        "R50_R80": "Eabs 第一次达到 0.5/0.8 的半径；未达到记 null/not_reached",
+        "shape": "峰值相对形状指标 Aq 与 r_eq=sqrt(Aq/pi)，不是通光效率",
+        "rotation": "C3=sum(Iraw*exp(+3i*theta))*dA；A3=|C3|/Pband；alpha=arg(C3)/3，120°周期"
+      },
+      "identity": "fresnel@420nm",
+      "device_key": "fresnel",
+      "wavelength_nm": 420,
+      "source_file": "psf_fresnel_420nm.npz"
+    },
+    "fresnel@450nm": {
+      "Pin": 7.85349e-07,
+      "Pwindow_recomputed": 6.472285410146146e-07,
+      "Pwindow_saved": 6.472285410146146e-07,
+      "eta_window": 0.8241285606967279,
+      "rotation_bands": {
+        "primary": {
+          "label": "C3主环带20-100um",
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "band_pixels": 30168,
+          "Pband": 5.521299761790216e-07,
+          "C3_real": -3.5640823625726626e-23,
+          "C3_imag": 1.091393642127514e-23,
+          "C3_abs": 3.7274419068951154e-23,
+          "A3": 6.751022526780066e-17,
+          "alpha_wrapped_rad": null,
+          "alpha_wrapped_deg": null,
+          "alpha_raw_rad": 0.9481463878353097,
+          "alpha_raw_deg": 54.324786383537344,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": false,
+          "unreliable_reason": "A3=6.75102e-17 低于阈值 0.05，角度不可靠",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        },
+        "sensitivity": {
+          "label": "C3敏感性环带30-120um",
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "band_pixels": 42412,
+          "Pband": 5.001934870369665e-07,
+          "C3_real": -3.7189806789683643e-23,
+          "C3_imag": 0.0,
+          "C3_abs": 3.7189806789683643e-23,
+          "A3": 7.43508417312422e-17,
+          "alpha_wrapped_rad": null,
+          "alpha_wrapped_deg": null,
+          "alpha_raw_rad": 1.0471975511965976,
+          "alpha_raw_deg": 59.99999999999999,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": false,
+          "unreliable_reason": "A3=7.43508e-17 低于阈值 0.05，角度不可靠",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        }
+      },
+      "abs_encircled": [
+        {
+          "R_m": 5e-05,
+          "R_um": 50.0,
+          "pixels_in_disk": 7845,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 2.990415650169296e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.3807753814125053,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.0001,
+          "R_um": 100.0,
+          "pixels_in_disk": 31417,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 5.814206899783211e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.7403341571432842,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.00015,
+          "R_um": 150.0,
+          "pixels_in_disk": 70681,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 6.360405873998448e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.8098827239862085,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        }
+      ],
+      "R50": {
+        "target": 0.5,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": 6.30317380372777e-05,
+        "radius_um": 63.0317380372777,
+        "status": "reached",
+        "Eabs_at_radius": 0.5001348158870415,
+        "Eabs_at_Rlimit": 0.8098827239861729
+      },
+      "R80": {
+        "target": 0.8,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": 0.00014312581877495059,
+        "radius_um": 143.12581877495057,
+        "status": "reached",
+        "Eabs_at_radius": 0.800022620528769,
+        "Eabs_at_Rlimit": 0.8098827239861729
+      },
+      "shape": {
+        "q0.5": {
+          "quantile": 0.5,
+          "Ipeak": 57.562185346396205,
+          "r_max_m": 0.00015,
+          "selected_pixels": 6212,
+          "area_m2": 6.212e-09,
+          "area_um2": 6212.0,
+          "r_equiv_m": 4.4467302740032566e-05,
+          "r_equiv_um": 44.467302740032565,
+          "peak_position_m": [
+            0.0,
+            2.7e-05
+          ],
+          "peak_position_um": [
+            0.0,
+            27.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 1,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        },
+        "q0.1": {
+          "quantile": 0.1,
+          "Ipeak": 57.562185346396205,
+          "r_max_m": 0.00015,
+          "selected_pixels": 25908,
+          "area_m2": 2.5908e-08,
+          "area_um2": 25908.0,
+          "r_equiv_m": 9.081174225423522e-05,
+          "r_equiv_um": 90.81174225423521,
+          "peak_position_m": [
+            0.0,
+            2.7e-05
+          ],
+          "peak_position_um": [
+            0.0,
+            27.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 1,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        }
+      },
+      "centroid": {
+        "cx_m": 3.1358729386549637e-22,
+        "cy_m": -2.358605287193477e-22,
+        "cx_um": 3.1358729386549636e-16,
+        "cy_um": -2.358605287193477e-16,
+        "note": "固定方窗内强度质心，不是无限平面质心；仅作裁切/不对称诊断"
+      },
+      "band_energy": {
+        "primary": {
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "Pband": 5.521299761790216e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.7030377274040224,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        },
+        "sensitivity": {
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "Pband": 5.001934870369665e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.6369059959800885,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        }
+      },
+      "peak_intensity": 57.562185346396205,
+      "Rlimit_m": 0.00015,
+      "definitions": {
+        "eta_window": "Pwindow/Pin；0<eta<=1.02 只作粗健康检查，不证明能量守恒精确成立",
+        "Eabs": "sum_{r<=R}(Iraw)*dA/Pin，分母恒为 Pin",
+        "R50_R80": "Eabs 第一次达到 0.5/0.8 的半径；未达到记 null/not_reached",
+        "shape": "峰值相对形状指标 Aq 与 r_eq=sqrt(Aq/pi)，不是通光效率",
+        "rotation": "C3=sum(Iraw*exp(+3i*theta))*dA；A3=|C3|/Pband；alpha=arg(C3)/3，120°周期"
+      },
+      "identity": "fresnel@450nm",
+      "device_key": "fresnel",
+      "wavelength_nm": 450,
+      "source_file": "psf_fresnel_450nm.npz"
+    },
+    "fresnel@480nm": {
+      "Pin": 7.85349e-07,
+      "Pwindow_recomputed": 7.078644218927597e-07,
+      "Pwindow_saved": 7.078644218927597e-07,
+      "eta_window": 0.9013373950851911,
+      "rotation_bands": {
+        "primary": {
+          "label": "C3主环带20-100um",
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "band_pixels": 30168,
+          "Pband": 5.400571081659284e-07,
+          "C3_real": -3.33670868712943e-23,
+          "C3_imag": 0.0,
+          "C3_abs": 3.33670868712943e-23,
+          "A3": 6.178436755440782e-17,
+          "alpha_wrapped_rad": null,
+          "alpha_wrapped_deg": null,
+          "alpha_raw_rad": 1.0471975511965976,
+          "alpha_raw_deg": 59.99999999999999,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": false,
+          "unreliable_reason": "A3=6.17844e-17 低于阈值 0.05，角度不可靠",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        },
+        "sensitivity": {
+          "label": "C3敏感性环带30-120um",
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "band_pixels": 42412,
+          "Pband": 4.2411582056355166e-07,
+          "C3_real": -2.8052227207808755e-23,
+          "C3_imag": 5.45696821063757e-24,
+          "C3_abs": 2.857806769833179e-23,
+          "A3": 6.738269668968764e-17,
+          "alpha_wrapped_rad": null,
+          "alpha_wrapped_deg": null,
+          "alpha_raw_rad": 0.9831544275410806,
+          "alpha_raw_deg": 56.330599307704425,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": false,
+          "unreliable_reason": "A3=6.73827e-17 低于阈值 0.05，角度不可靠",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        }
+      },
+      "abs_encircled": [
+        {
+          "R_m": 5e-05,
+          "R_um": 50.0,
+          "pixels_in_disk": 7845,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 4.960519975595601e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.6316325577030849,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.0001,
+          "R_um": 100.0,
+          "pixels_in_disk": 31417,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 6.761581200342141e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.8609651505690007,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.00015,
+          "R_um": 150.0,
+          "pixels_in_disk": 70681,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 7.02197693740935e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.894121841042562,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        }
+      ],
+      "R50": {
+        "target": 0.5,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": 3.801315561749642e-05,
+        "radius_um": 38.013155617496416,
+        "status": "reached",
+        "Eabs_at_radius": 0.5002963070517455,
+        "Eabs_at_Rlimit": 0.894121841042604
+      },
+      "R80": {
+        "target": 0.8,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": 7.787810988975013e-05,
+        "radius_um": 77.87810988975014,
+        "status": "reached",
+        "Eabs_at_radius": 0.8000235379709918,
+        "Eabs_at_Rlimit": 0.894121841042604
+      },
+      "shape": {
+        "q0.5": {
+          "quantile": 0.5,
+          "Ipeak": 179.88617309157726,
+          "r_max_m": 0.00015,
+          "selected_pixels": 793,
+          "area_m2": 7.93e-10,
+          "area_um2": 793.0,
+          "r_equiv_m": 1.5887722925068464e-05,
+          "r_equiv_um": 15.887722925068463,
+          "peak_position_m": [
+            0.0,
+            0.0
+          ],
+          "peak_position_um": [
+            0.0,
+            0.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 1,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        },
+        "q0.1": {
+          "quantile": 0.1,
+          "Ipeak": 179.88617309157726,
+          "r_max_m": 0.00015,
+          "selected_pixels": 7353,
+          "area_m2": 7.353e-09,
+          "area_um2": 7353.0,
+          "r_equiv_m": 4.837905118033438e-05,
+          "r_equiv_um": 48.37905118033438,
+          "peak_position_m": [
+            0.0,
+            0.0
+          ],
+          "peak_position_um": [
+            0.0,
+            0.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 1,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        }
+      },
+      "centroid": {
+        "cx_m": -4.251866795017043e-22,
+        "cy_m": 9.116394511506282e-22,
+        "cx_um": -4.251866795017043e-16,
+        "cy_um": 9.116394511506282e-16,
+        "note": "固定方窗内强度质心，不是无限平面质心；仅作裁切/不对称诊断"
+      },
+      "band_energy": {
+        "primary": {
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "Pband": 5.400571081659284e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.6876651121551418,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        },
+        "sensitivity": {
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "Pband": 4.2411582056355166e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.5400348387322728,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        }
+      },
+      "peak_intensity": 179.88617309157726,
+      "Rlimit_m": 0.00015,
+      "definitions": {
+        "eta_window": "Pwindow/Pin；0<eta<=1.02 只作粗健康检查，不证明能量守恒精确成立",
+        "Eabs": "sum_{r<=R}(Iraw)*dA/Pin，分母恒为 Pin",
+        "R50_R80": "Eabs 第一次达到 0.5/0.8 的半径；未达到记 null/not_reached",
+        "shape": "峰值相对形状指标 Aq 与 r_eq=sqrt(Aq/pi)，不是通光效率",
+        "rotation": "C3=sum(Iraw*exp(+3i*theta))*dA；A3=|C3|/Pband；alpha=arg(C3)/3，120°周期"
+      },
+      "identity": "fresnel@480nm",
+      "device_key": "fresnel",
+      "wavelength_nm": 480,
+      "source_file": "psf_fresnel_480nm.npz"
+    },
+    "fresnel@510nm": {
+      "Pin": 7.85349e-07,
+      "Pwindow_recomputed": 7.453711787971304e-07,
+      "Pwindow_saved": 7.453711787971304e-07,
+      "eta_window": 0.9490954706724404,
+      "rotation_bands": {
+        "primary": {
+          "label": "C3主环带20-100um",
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "band_pixels": 30168,
+          "Pband": 3.382173156127415e-07,
+          "C3_real": -2.1657342585967852e-23,
+          "C3_imag": 9.094947017729282e-24,
+          "C3_abs": 2.3489541271410123e-23,
+          "A3": 6.94510310001562e-17,
+          "alpha_wrapped_rad": null,
+          "alpha_wrapped_deg": null,
+          "alpha_raw_rad": 0.9146697616679411,
+          "alpha_raw_deg": 52.40671699180991,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": false,
+          "unreliable_reason": "A3=6.9451e-17 低于阈值 0.05，角度不可靠",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        },
+        "sensitivity": {
+          "label": "C3敏感性环带30-120um",
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "band_pixels": 42412,
+          "Pband": 2.400009489252948e-07,
+          "C3_real": -1.9189982936040904e-23,
+          "C3_imag": -2.2737367544323205e-24,
+          "C3_abs": 1.9324215997395534e-23,
+          "A3": 8.051724830225813e-17,
+          "alpha_wrapped_rad": null,
+          "alpha_wrapped_deg": null,
+          "alpha_raw_rad": -1.0078856301331618,
+          "alpha_raw_deg": -57.747592838513675,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": false,
+          "unreliable_reason": "A3=8.05172e-17 低于阈值 0.05，角度不可靠",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        }
+      },
+      "abs_encircled": [
+        {
+          "R_m": 5e-05,
+          "R_um": 50.0,
+          "pixels_in_disk": 7845,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 6.445309991664616e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.8206937287326547,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.0001,
+          "R_um": 100.0,
+          "pixels_in_disk": 31417,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 7.246520354130388e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.9227133865492141,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.00015,
+          "R_um": 150.0,
+          "pixels_in_disk": 70681,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 7.424069449044471e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.9453210545941322,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        }
+      ],
+      "R50": {
+        "target": 0.5,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": 2.0248456731316585e-05,
+        "radius_um": 20.248456731316587,
+        "status": "reached",
+        "Eabs_at_radius": 0.5009716474878543,
+        "Eabs_at_Rlimit": 0.9453210545941291
+      },
+      "R80": {
+        "target": 0.8,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": 4.61410879802373e-05,
+        "radius_um": 46.1410879802373,
+        "status": "reached",
+        "Eabs_at_radius": 0.8001896938294747,
+        "Eabs_at_Rlimit": 0.9453210545941291
+      },
+      "shape": {
+        "q0.5": {
+          "quantile": 0.5,
+          "Ipeak": 605.5580287835514,
+          "r_max_m": 0.00015,
+          "selected_pixels": 561,
+          "area_m2": 5.61e-10,
+          "area_um2": 561.0,
+          "r_equiv_m": 1.336307771993812e-05,
+          "r_equiv_um": 13.36307771993812,
+          "peak_position_m": [
+            0.0,
+            0.0
+          ],
+          "peak_position_um": [
+            0.0,
+            0.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 1,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        },
+        "q0.1": {
+          "quantile": 0.1,
+          "Ipeak": 605.5580287835514,
+          "r_max_m": 0.00015,
+          "selected_pixels": 1993,
+          "area_m2": 1.993e-09,
+          "area_um2": 1993.0,
+          "r_equiv_m": 2.5187131697839172e-05,
+          "r_equiv_um": 25.187131697839174,
+          "peak_position_m": [
+            0.0,
+            0.0
+          ],
+          "peak_position_um": [
+            0.0,
+            0.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 1,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        }
+      },
+      "centroid": {
+        "cx_m": -1.0472977576746741e-22,
+        "cy_m": -1.145045548390977e-21,
+        "cx_um": -1.0472977576746741e-16,
+        "cy_um": -1.145045548390977e-15,
+        "note": "固定方窗内强度质心，不是无限平面质心；仅作裁切/不对称诊断"
+      },
+      "band_energy": {
+        "primary": {
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "Pband": 3.382173156127415e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.4306586187959003,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        },
+        "sensitivity": {
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "Pband": 2.400009489252948e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.30559782838622673,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        }
+      },
+      "peak_intensity": 605.5580287835514,
+      "Rlimit_m": 0.00015,
+      "definitions": {
+        "eta_window": "Pwindow/Pin；0<eta<=1.02 只作粗健康检查，不证明能量守恒精确成立",
+        "Eabs": "sum_{r<=R}(Iraw)*dA/Pin，分母恒为 Pin",
+        "R50_R80": "Eabs 第一次达到 0.5/0.8 的半径；未达到记 null/not_reached",
+        "shape": "峰值相对形状指标 Aq 与 r_eq=sqrt(Aq/pi)，不是通光效率",
+        "rotation": "C3=sum(Iraw*exp(+3i*theta))*dA；A3=|C3|/Pband；alpha=arg(C3)/3，120°周期"
+      },
+      "identity": "fresnel@510nm",
+      "device_key": "fresnel",
+      "wavelength_nm": 510,
+      "source_file": "psf_fresnel_510nm.npz"
+    },
+    "fresnel@540nm": {
+      "Pin": 7.85349e-07,
+      "Pwindow_recomputed": 7.586531589109382e-07,
+      "Pwindow_saved": 7.586531589109382e-07,
+      "eta_window": 0.9660076716350797,
+      "rotation_bands": {
+        "primary": {
+          "label": "C3主环带20-100um",
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "band_pixels": 30168,
+          "Pband": 1.951115757487227e-07,
+          "C3_real": -9.279688129026909e-24,
+          "C3_imag": 1.3642420526593924e-24,
+          "C3_abs": 9.379433253147401e-24,
+          "A3": 4.807215162480591e-17,
+          "alpha_wrapped_rad": null,
+          "alpha_wrapped_deg": null,
+          "alpha_raw_rad": 0.9985414945671441,
+          "alpha_raw_deg": 57.21221330738278,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": false,
+          "unreliable_reason": "A3=4.80722e-17 低于阈值 0.05，角度不可靠",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        },
+        "sensitivity": {
+          "label": "C3敏感性环带30-120um",
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "band_pixels": 42412,
+          "Pband": 1.0168273990197678e-07,
+          "C3_real": -6.0200733287274484e-24,
+          "C3_imag": 1.5916157281026244e-24,
+          "C3_abs": 6.22691926310268e-24,
+          "A3": 6.123870451470422e-17,
+          "alpha_wrapped_rad": null,
+          "alpha_wrapped_deg": null,
+          "alpha_raw_rad": 0.9610406223531797,
+          "alpha_raw_deg": 55.063571601463195,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": false,
+          "unreliable_reason": "A3=6.12387e-17 低于阈值 0.05，角度不可靠",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        }
+      },
+      "abs_encircled": [
+        {
+          "R_m": 5e-05,
+          "R_um": 50.0,
+          "pixels_in_disk": 7845,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 6.993912711763444e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.8905483691662489,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.0001,
+          "R_um": 100.0,
+          "pixels_in_disk": 31417,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 7.40595267140898e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.9430142104222429,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.00015,
+          "R_um": 150.0,
+          "pixels_in_disk": 70681,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 7.549244934476305e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.9612598901222648,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        }
+      ],
+      "R50": {
+        "target": 0.5,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": 1.47648230602334e-05,
+        "radius_um": 14.7648230602334,
+        "status": "reached",
+        "Eabs_at_radius": 0.5010146110300674,
+        "Eabs_at_Rlimit": 0.9612598901222766
+      },
+      "R80": {
+        "target": 0.8,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": 2.5632011235952596e-05,
+        "radius_um": 25.632011235952596,
+        "status": "reached",
+        "Eabs_at_radius": 0.8003946078974828,
+        "Eabs_at_Rlimit": 0.9612598901222766
+      },
+      "shape": {
+        "q0.5": {
+          "quantile": 0.5,
+          "Ipeak": 825.9641194862319,
+          "r_max_m": 0.00015,
+          "selected_pixels": 601,
+          "area_m2": 6.01e-10,
+          "area_um2": 601.0,
+          "r_equiv_m": 1.3831277655967224e-05,
+          "r_equiv_um": 13.831277655967224,
+          "peak_position_m": [
+            0.0,
+            0.0
+          ],
+          "peak_position_um": [
+            0.0,
+            0.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 1,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        },
+        "q0.1": {
+          "quantile": 0.1,
+          "Ipeak": 825.9641194862319,
+          "r_max_m": 0.00015,
+          "selected_pixels": 1749,
+          "area_m2": 1.749e-09,
+          "area_um2": 1749.0,
+          "r_equiv_m": 2.359499927814048e-05,
+          "r_equiv_um": 23.59499927814048,
+          "peak_position_m": [
+            0.0,
+            0.0
+          ],
+          "peak_position_um": [
+            0.0,
+            0.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 1,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        }
+      },
+      "centroid": {
+        "cx_m": 8.288863661284967e-23,
+        "cy_m": 1.0518282163285751e-22,
+        "cx_um": 8.288863661284966e-17,
+        "cy_um": 1.0518282163285752e-16,
+        "note": "固定方窗内强度质心，不是无限平面质心；仅作裁切/不对称诊断"
+      },
+      "band_energy": {
+        "primary": {
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "Pband": 1.951115757487227e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.24843932538110153,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        },
+        "sensitivity": {
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "Pband": 1.0168273990197678e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.12947459015288335,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        }
+      },
+      "peak_intensity": 825.9641194862319,
+      "Rlimit_m": 0.00015,
+      "definitions": {
+        "eta_window": "Pwindow/Pin；0<eta<=1.02 只作粗健康检查，不证明能量守恒精确成立",
+        "Eabs": "sum_{r<=R}(Iraw)*dA/Pin，分母恒为 Pin",
+        "R50_R80": "Eabs 第一次达到 0.5/0.8 的半径；未达到记 null/not_reached",
+        "shape": "峰值相对形状指标 Aq 与 r_eq=sqrt(Aq/pi)，不是通光效率",
+        "rotation": "C3=sum(Iraw*exp(+3i*theta))*dA；A3=|C3|/Pband；alpha=arg(C3)/3，120°周期"
+      },
+      "identity": "fresnel@540nm",
+      "device_key": "fresnel",
+      "wavelength_nm": 540,
+      "source_file": "psf_fresnel_540nm.npz"
+    },
+    "fresnel@570nm": {
+      "Pin": 7.85349e-07,
+      "Pwindow_recomputed": 7.546630158321637e-07,
+      "Pwindow_saved": 7.546630158321637e-07,
+      "eta_window": 0.9609269456409364,
+      "rotation_bands": {
+        "primary": {
+          "label": "C3主环带20-100um",
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "band_pixels": 30168,
+          "Pband": 2.4324506140318217e-07,
+          "C3_real": -9.769962616701377e-24,
+          "C3_imag": -9.094947017729282e-25,
+          "C3_abs": 9.812204143019826e-24,
+          "A3": 4.033875995844354e-17,
+          "alpha_wrapped_rad": null,
+          "alpha_wrapped_deg": null,
+          "alpha_raw_rad": -1.0162564203155768,
+          "alpha_raw_deg": -58.2272037871556,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": false,
+          "unreliable_reason": "A3=4.03388e-17 低于阈值 0.05，角度不可靠",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        },
+        "sensitivity": {
+          "label": "C3敏感性环带30-120um",
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "band_pixels": 42412,
+          "Pband": 1.3185875657876682e-07,
+          "C3_real": -7.059242079776595e-24,
+          "C3_imag": 1.8189894035458564e-24,
+          "C3_abs": 7.289829983689653e-24,
+          "A3": 5.528514125897296e-17,
+          "alpha_wrapped_rad": null,
+          "alpha_wrapped_deg": null,
+          "alpha_raw_rad": 0.9631345711745972,
+          "alpha_raw_deg": 55.18354603144682,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": false,
+          "unreliable_reason": "A3=5.52851e-17 低于阈值 0.05，角度不可靠",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        }
+      },
+      "abs_encircled": [
+        {
+          "R_m": 5e-05,
+          "R_um": 50.0,
+          "pixels_in_disk": 7845,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 6.793735708580059e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.8650594460017214,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.0001,
+          "R_um": 100.0,
+          "pixels_in_disk": 31417,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 7.33856313350553e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.9344333708332894,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.00015,
+          "R_um": 150.0,
+          "pixels_in_disk": 70681,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 7.512904137899019e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.9566325465365104,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        }
+      ],
+      "R50": {
+        "target": 0.5,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": 1.6278820596099706e-05,
+        "radius_um": 16.278820596099706,
+        "status": "reached",
+        "Eabs_at_radius": 0.5048287069529676,
+        "Eabs_at_Rlimit": 0.9566325465365113
+      },
+      "R80": {
+        "target": 0.8,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": 3.721558813185679e-05,
+        "radius_um": 37.21558813185679,
+        "status": "reached",
+        "Eabs_at_radius": 0.8001035223786931,
+        "Eabs_at_Rlimit": 0.9566325465365113
+      },
+      "shape": {
+        "q0.5": {
+          "quantile": 0.5,
+          "Ipeak": 696.4667546143601,
+          "r_max_m": 0.00015,
+          "selected_pixels": 673,
+          "area_m2": 6.73e-10,
+          "area_um2": 673.0,
+          "r_equiv_m": 1.463634358033765e-05,
+          "r_equiv_um": 14.63634358033765,
+          "peak_position_m": [
+            0.0,
+            0.0
+          ],
+          "peak_position_um": [
+            0.0,
+            0.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 1,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        },
+        "q0.1": {
+          "quantile": 0.1,
+          "Ipeak": 696.4667546143601,
+          "r_max_m": 0.00015,
+          "selected_pixels": 1993,
+          "area_m2": 1.993e-09,
+          "area_um2": 1993.0,
+          "r_equiv_m": 2.5187131697839172e-05,
+          "r_equiv_um": 25.187131697839174,
+          "peak_position_m": [
+            0.0,
+            0.0
+          ],
+          "peak_position_um": [
+            0.0,
+            0.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 1,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        }
+      },
+      "centroid": {
+        "cx_m": -9.19469188013108e-23,
+        "cy_m": -7.056926018000604e-22,
+        "cx_um": -9.19469188013108e-17,
+        "cy_um": -7.056926018000604e-16,
+        "note": "固定方窗内强度质心，不是无限平面质心；仅作裁切/不对称诊断"
+      },
+      "band_energy": {
+        "primary": {
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "Pband": 2.4324506140318217e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.30972861925485634,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        },
+        "sensitivity": {
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "Pband": 1.3185875657876682e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.16789829308850818,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        }
+      },
+      "peak_intensity": 696.4667546143601,
+      "Rlimit_m": 0.00015,
+      "definitions": {
+        "eta_window": "Pwindow/Pin；0<eta<=1.02 只作粗健康检查，不证明能量守恒精确成立",
+        "Eabs": "sum_{r<=R}(Iraw)*dA/Pin，分母恒为 Pin",
+        "R50_R80": "Eabs 第一次达到 0.5/0.8 的半径；未达到记 null/not_reached",
+        "shape": "峰值相对形状指标 Aq 与 r_eq=sqrt(Aq/pi)，不是通光效率",
+        "rotation": "C3=sum(Iraw*exp(+3i*theta))*dA；A3=|C3|/Pband；alpha=arg(C3)/3，120°周期"
+      },
+      "identity": "fresnel@570nm",
+      "device_key": "fresnel",
+      "wavelength_nm": 570,
+      "source_file": "psf_fresnel_570nm.npz"
+    },
+    "fresnel@600nm": {
+      "Pin": 7.85349e-07,
+      "Pwindow_recomputed": 7.376698071310736e-07,
+      "Pwindow_saved": 7.376698071310736e-07,
+      "eta_window": 0.9392891658753925,
+      "rotation_bands": {
+        "primary": {
+          "label": "C3主环带20-100um",
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "band_pixels": 30168,
+          "Pband": 3.977715542689801e-07,
+          "C3_real": -2.512479113647714e-23,
+          "C3_imag": 1.8189894035458564e-24,
+          "C3_abs": 2.5190550849511258e-23,
+          "A3": 6.332919128871887e-17,
+          "alpha_wrapped_rad": null,
+          "alpha_wrapped_deg": null,
+          "alpha_raw_rad": 1.0231068529595408,
+          "alpha_raw_deg": 58.61970466549339,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": false,
+          "unreliable_reason": "A3=6.33292e-17 低于阈值 0.05，角度不可靠",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        },
+        "sensitivity": {
+          "label": "C3敏感性环带30-120um",
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "band_pixels": 42412,
+          "Pband": 2.896010805486779e-07,
+          "C3_real": -2.0239809828126453e-23,
+          "C3_imag": 4.547473508864641e-24,
+          "C3_abs": 2.0744382786493065e-23,
+          "A3": 7.163088876322829e-17,
+          "alpha_wrapped_rad": null,
+          "alpha_wrapped_deg": null,
+          "alpha_raw_rad": 0.9735277134072301,
+          "alpha_raw_deg": 55.779029217255854,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": false,
+          "unreliable_reason": "A3=7.16309e-17 低于阈值 0.05，角度不可靠",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        }
+      },
+      "abs_encircled": [
+        {
+          "R_m": 5e-05,
+          "R_um": 50.0,
+          "pixels_in_disk": 7845,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 5.929855766327227e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.755059949949287,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.0001,
+          "R_um": 100.0,
+          "pixels_in_disk": 31417,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 7.103187065711554e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.904462483012209,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.00015,
+          "R_um": 150.0,
+          "pixels_in_disk": 70681,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 7.339075303889882e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.9344985864742785,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        }
+      ],
+      "R50": {
+        "target": 0.5,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": 2.5612496949731394e-05,
+        "radius_um": 25.612496949731394,
+        "status": "reached",
+        "Eabs_at_radius": 0.5004868918918793,
+        "Eabs_at_Rlimit": 0.9344985864742835
+      },
+      "R80": {
+        "target": 0.8,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": 5.6320511361314894e-05,
+        "radius_um": 56.32051136131489,
+        "status": "reached",
+        "Eabs_at_radius": 0.8000815625589215,
+        "Eabs_at_Rlimit": 0.9344985864742835
+      },
+      "shape": {
+        "q0.5": {
+          "quantile": 0.5,
+          "Ipeak": 412.077828177236,
+          "r_max_m": 0.00015,
+          "selected_pixels": 793,
+          "area_m2": 7.93e-10,
+          "area_um2": 793.0,
+          "r_equiv_m": 1.5887722925068464e-05,
+          "r_equiv_um": 15.887722925068463,
+          "peak_position_m": [
+            0.0,
+            0.0
+          ],
+          "peak_position_um": [
+            0.0,
+            0.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 1,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        },
+        "q0.1": {
+          "quantile": 0.1,
+          "Ipeak": 412.077828177236,
+          "r_max_m": 0.00015,
+          "selected_pixels": 2965,
+          "area_m2": 2.965e-09,
+          "area_um2": 2965.0,
+          "r_equiv_m": 3.072114601597635e-05,
+          "r_equiv_um": 30.72114601597635,
+          "peak_position_m": [
+            0.0,
+            0.0
+          ],
+          "peak_position_um": [
+            0.0,
+            0.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 1,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        }
+      },
+      "centroid": {
+        "cx_m": -2.2046493471831706e-23,
+        "cy_m": 1.3827560705532846e-21,
+        "cx_um": -2.2046493471831706e-17,
+        "cy_um": 1.3827560705532847e-15,
+        "note": "固定方窗内强度质心，不是无限平面质心；仅作裁切/不对称诊断"
+      },
+      "band_energy": {
+        "primary": {
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "Pband": 3.977715542689801e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.5064901773211401,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        },
+        "sensitivity": {
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "Pband": 2.896010805486779e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.36875463080576654,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        }
+      },
+      "peak_intensity": 412.077828177236,
+      "Rlimit_m": 0.00015,
+      "definitions": {
+        "eta_window": "Pwindow/Pin；0<eta<=1.02 只作粗健康检查，不证明能量守恒精确成立",
+        "Eabs": "sum_{r<=R}(Iraw)*dA/Pin，分母恒为 Pin",
+        "R50_R80": "Eabs 第一次达到 0.5/0.8 的半径；未达到记 null/not_reached",
+        "shape": "峰值相对形状指标 Aq 与 r_eq=sqrt(Aq/pi)，不是通光效率",
+        "rotation": "C3=sum(Iraw*exp(+3i*theta))*dA；A3=|C3|/Pband；alpha=arg(C3)/3，120°周期"
+      },
+      "identity": "fresnel@600nm",
+      "device_key": "fresnel",
+      "wavelength_nm": 600,
+      "source_file": "psf_fresnel_600nm.npz"
+    },
+    "fresnel@630nm": {
+      "Pin": 7.85349e-07,
+      "Pwindow_recomputed": 7.102527893345917e-07,
+      "Pwindow_saved": 7.102527893345917e-07,
+      "eta_window": 0.904378549325958,
+      "rotation_bands": {
+        "primary": {
+          "label": "C3主环带20-100um",
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "band_pixels": 30168,
+          "Pband": 5.138739271923506e-07,
+          "C3_real": -3.376499080331996e-23,
+          "C3_imag": 5.45696821063757e-24,
+          "C3_abs": 3.4203115442897753e-23,
+          "A3": 6.655935168723791e-17,
+          "alpha_wrapped_rad": null,
+          "alpha_wrapped_deg": null,
+          "alpha_raw_rad": 0.9937873231039104,
+          "alpha_raw_deg": 56.93981934745795,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": false,
+          "unreliable_reason": "A3=6.65594e-17 低于阈值 0.05，角度不可靠",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        },
+        "sensitivity": {
+          "label": "C3敏感性环带30-120um",
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "band_pixels": 42412,
+          "Pband": 4.528313571017058e-07,
+          "C3_real": -3.4653169223020083e-23,
+          "C3_imag": -2.182787284255028e-23,
+          "C3_abs": 4.095483085094859e-23,
+          "A3": 9.04416847655498e-17,
+          "alpha_wrapped_rad": null,
+          "alpha_wrapped_deg": null,
+          "alpha_raw_rad": -0.8598269245378111,
+          "alpha_raw_deg": -49.2644538877301,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": false,
+          "unreliable_reason": "A3=9.04417e-17 低于阈值 0.05，角度不可靠",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        }
+      },
+      "abs_encircled": [
+        {
+          "R_m": 5e-05,
+          "R_um": 50.0,
+          "pixels_in_disk": 7845,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 4.550481652287263e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.579421588655141,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.0001,
+          "R_um": 100.0,
+          "pixels_in_disk": 31417,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 6.57733247697886e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.8375044059365785,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.00015,
+          "R_um": 150.0,
+          "pixels_in_disk": 70681,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 7.039264800004547e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.8963231378666742,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        }
+      ],
+      "R50": {
+        "target": 0.5,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": 4.4294469180700204e-05,
+        "radius_um": 44.294469180700204,
+        "status": "reached",
+        "Eabs_at_radius": 0.5002148505938634,
+        "Eabs_at_Rlimit": 0.8963231378667225
+      },
+      "R80": {
+        "target": 0.8,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": 8.747571091451614e-05,
+        "radius_um": 87.47571091451614,
+        "status": "reached",
+        "Eabs_at_radius": 0.8000109408350007,
+        "Eabs_at_Rlimit": 0.8963231378667225
+      },
+      "shape": {
+        "q0.5": {
+          "quantile": 0.5,
+          "Ipeak": 173.00913885615364,
+          "r_max_m": 0.00015,
+          "selected_pixels": 1005,
+          "area_m2": 1.005e-09,
+          "area_um2": 1004.9999999999999,
+          "r_equiv_m": 1.788578864950354e-05,
+          "r_equiv_um": 17.88578864950354,
+          "peak_position_m": [
+            0.0,
+            0.0
+          ],
+          "peak_position_um": [
+            0.0,
+            0.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 1,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        },
+        "q0.1": {
+          "quantile": 0.1,
+          "Ipeak": 173.00913885615364,
+          "r_max_m": 0.00015,
+          "selected_pixels": 10169,
+          "area_m2": 1.0169e-08,
+          "area_um2": 10169.0,
+          "r_equiv_m": 5.689370116808158e-05,
+          "r_equiv_um": 56.893701168081584,
+          "peak_position_m": [
+            0.0,
+            0.0
+          ],
+          "peak_position_um": [
+            0.0,
+            0.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 1,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        }
+      },
+      "centroid": {
+        "cx_m": 9.097950821238532e-23,
+        "cy_m": 1.465441743018287e-21,
+        "cx_um": 9.097950821238532e-17,
+        "cy_um": 1.4654417430182868e-15,
+        "note": "固定方窗内强度质心，不是无限平面质心；仅作裁切/不对称诊断"
+      },
+      "band_energy": {
+        "primary": {
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "Pband": 5.138739271923506e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.654325563784191,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        },
+        "sensitivity": {
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "Pband": 4.528313571017058e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.5765988841925129,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        }
+      },
+      "peak_intensity": 173.00913885615364,
+      "Rlimit_m": 0.00015,
+      "definitions": {
+        "eta_window": "Pwindow/Pin；0<eta<=1.02 只作粗健康检查，不证明能量守恒精确成立",
+        "Eabs": "sum_{r<=R}(Iraw)*dA/Pin，分母恒为 Pin",
+        "R50_R80": "Eabs 第一次达到 0.5/0.8 的半径；未达到记 null/not_reached",
+        "shape": "峰值相对形状指标 Aq 与 r_eq=sqrt(Aq/pi)，不是通光效率",
+        "rotation": "C3=sum(Iraw*exp(+3i*theta))*dA；A3=|C3|/Pband；alpha=arg(C3)/3，120°周期"
+      },
+      "identity": "fresnel@630nm",
+      "device_key": "fresnel",
+      "wavelength_nm": 630,
+      "source_file": "psf_fresnel_630nm.npz"
+    },
+    "fresnel@660nm": {
+      "Pin": 7.85349e-07,
+      "Pwindow_recomputed": 6.737602889879302e-07,
+      "Pwindow_saved": 6.737602889879302e-07,
+      "eta_window": 0.8579119461385067,
+      "rotation_bands": {
+        "primary": {
+          "label": "C3主环带20-100um",
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "band_pixels": 30168,
+          "Pband": 5.247988331104536e-07,
+          "C3_real": -3.47597506333841e-23,
+          "C3_imag": 1.2732925824820995e-23,
+          "C3_abs": 3.7018477334372356e-23,
+          "A3": 7.05384139575271e-17,
+          "alpha_wrapped_rad": null,
+          "alpha_wrapped_deg": null,
+          "alpha_raw_rad": 0.930153408139406,
+          "alpha_raw_deg": 53.29386458609748,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": false,
+          "unreliable_reason": "A3=7.05384e-17 低于阈值 0.05，角度不可靠",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        },
+        "sensitivity": {
+          "label": "C3敏感性环带30-120um",
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "band_pixels": 42412,
+          "Pband": 5.29208240364314e-07,
+          "C3_real": -3.628031208791071e-23,
+          "C3_imag": 1.1823431123048067e-23,
+          "C3_abs": 3.81582830944693e-23,
+          "A3": 7.2104476431056e-17,
+          "alpha_wrapped_rad": null,
+          "alpha_wrapped_deg": null,
+          "alpha_raw_rad": 0.9421849961940753,
+          "alpha_raw_deg": 53.98322380247004,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": false,
+          "unreliable_reason": "A3=7.21045e-17 低于阈值 0.05，角度不可靠",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        }
+      },
+      "abs_encircled": [
+        {
+          "R_m": 5e-05,
+          "R_um": 50.0,
+          "pixels_in_disk": 7845,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 3.0529222784563654e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.3887344707201977,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.0001,
+          "R_um": 100.0,
+          "pixels_in_disk": 31417,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 5.696490479972095e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.725345098799654,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.00015,
+          "R_um": 150.0,
+          "pixels_in_disk": 70681,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 6.630100739240674e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.8442234903515091,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        }
+      ],
+      "R50": {
+        "target": 0.5,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": 6.029925372672534e-05,
+        "radius_um": 60.29925372672534,
+        "status": "reached",
+        "Eabs_at_radius": 0.5000319656380031,
+        "Eabs_at_Rlimit": 0.8442234903515321
+      },
+      "R80": {
+        "target": 0.8,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": 0.0001200708124399931,
+        "radius_um": 120.07081243999309,
+        "status": "reached",
+        "Eabs_at_radius": 0.8000048686694825,
+        "Eabs_at_Rlimit": 0.8442234903515321
+      },
+      "shape": {
+        "q0.5": {
+          "quantile": 0.5,
+          "Ipeak": 45.35617940573949,
+          "r_max_m": 0.00015,
+          "selected_pixels": 9925,
+          "area_m2": 9.925e-09,
+          "area_um2": 9925.0,
+          "r_equiv_m": 5.620698907052505e-05,
+          "r_equiv_um": 56.20698907052505,
+          "peak_position_m": [
+            0.0,
+            0.0
+          ],
+          "peak_position_um": [
+            0.0,
+            0.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 1,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        },
+        "q0.1": {
+          "quantile": 0.1,
+          "Ipeak": 45.35617940573949,
+          "r_max_m": 0.00015,
+          "selected_pixels": 31341,
+          "area_m2": 3.1341e-08,
+          "area_um2": 31341.000000000004,
+          "r_equiv_m": 9.98806795275552e-05,
+          "r_equiv_um": 99.8806795275552,
+          "peak_position_m": [
+            0.0,
+            0.0
+          ],
+          "peak_position_um": [
+            0.0,
+            0.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 1,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        }
+      },
+      "centroid": {
+        "cx_m": 1.9503272224997093e-22,
+        "cy_m": -3.87233286157038e-21,
+        "cx_um": 1.9503272224997094e-16,
+        "cy_um": -3.87233286157038e-15,
+        "note": "固定方窗内强度质心，不是无限平面质心；仅作裁切/不对称诊断"
+      },
+      "band_energy": {
+        "primary": {
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "Pband": 5.247988331104536e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.6682364567987653,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        },
+        "sensitivity": {
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "Pband": 5.29208240364314e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.6738510399380582,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        }
+      },
+      "peak_intensity": 45.35617940573949,
+      "Rlimit_m": 0.00015,
+      "definitions": {
+        "eta_window": "Pwindow/Pin；0<eta<=1.02 只作粗健康检查，不证明能量守恒精确成立",
+        "Eabs": "sum_{r<=R}(Iraw)*dA/Pin，分母恒为 Pin",
+        "R50_R80": "Eabs 第一次达到 0.5/0.8 的半径；未达到记 null/not_reached",
+        "shape": "峰值相对形状指标 Aq 与 r_eq=sqrt(Aq/pi)，不是通光效率",
+        "rotation": "C3=sum(Iraw*exp(+3i*theta))*dA；A3=|C3|/Pband；alpha=arg(C3)/3，120°周期"
+      },
+      "identity": "fresnel@660nm",
+      "device_key": "fresnel",
+      "wavelength_nm": 660,
+      "source_file": "psf_fresnel_660nm.npz"
+    },
+    "jeon@420nm": {
+      "Pin": 7.85349e-07,
+      "Pwindow_recomputed": 6.246937951119394e-07,
+      "Pwindow_saved": 6.246937951119394e-07,
+      "eta_window": 0.7954346349354737,
+      "rotation_bands": {
+        "primary": {
+          "label": "C3主环带20-100um",
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "band_pixels": 30168,
+          "Pband": 4.018652288848678e-07,
+          "C3_real": -1.3624999457749248e-07,
+          "C3_imag": -1.56534414424694e-07,
+          "C3_abs": 2.075261041933004e-07,
+          "A3": 0.5164072163425603,
+          "alpha_wrapped_rad": -0.7623413131555815,
+          "alpha_wrapped_deg": -43.67893979227584,
+          "alpha_raw_rad": -0.7623413131555815,
+          "alpha_raw_deg": -43.67893979227584,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": true,
+          "unreliable_reason": "",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        },
+        "sensitivity": {
+          "label": "C3敏感性环带30-120um",
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "band_pixels": 42412,
+          "Pband": 4.061230347063301e-07,
+          "C3_real": -1.2549610021236354e-07,
+          "C3_imag": -1.6245977112442912e-07,
+          "C3_abs": 2.0528625965298671e-07,
+          "A3": 0.5054780007773516,
+          "alpha_wrapped_rad": -0.7428423041328135,
+          "alpha_wrapped_deg": -42.56172887058372,
+          "alpha_raw_rad": -0.7428423041328135,
+          "alpha_raw_deg": -42.56172887058372,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": true,
+          "unreliable_reason": "",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        }
+      },
+      "abs_encircled": [
+        {
+          "R_m": 5e-05,
+          "R_um": 50.0,
+          "pixels_in_disk": 7845,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 2.2605411644685156e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.2878390581090083,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.0001,
+          "R_um": 100.0,
+          "pixels_in_disk": 31417,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 4.70327970200326e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.5988776584681791,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.00015,
+          "R_um": 150.0,
+          "pixels_in_disk": 70681,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 5.990634379883393e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.7627990078147923,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        }
+      ],
+      "R50": {
+        "target": 0.5,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": 8.238931969618393e-05,
+        "radius_um": 82.38931969618393,
+        "status": "reached",
+        "Eabs_at_radius": 0.5000643256138886,
+        "Eabs_at_Rlimit": 0.7627990078147893
+      },
+      "R80": {
+        "target": 0.8,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": null,
+        "radius_um": null,
+        "status": "not_reached",
+        "Eabs_at_radius": null,
+        "Eabs_at_Rlimit": 0.7627990078147893
+      },
+      "shape": {
+        "q0.5": {
+          "quantile": 0.5,
+          "Ipeak": 74.51191690200304,
+          "r_max_m": 0.00015,
+          "selected_pixels": 4252,
+          "area_m2": 4.252e-09,
+          "area_um2": 4252.0,
+          "r_equiv_m": 3.6789314155790916e-05,
+          "r_equiv_um": 36.78931415579092,
+          "peak_position_m": [
+            0.0,
+            0.0
+          ],
+          "peak_position_um": [
+            0.0,
+            0.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 4,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        },
+        "q0.1": {
+          "quantile": 0.1,
+          "Ipeak": 74.51191690200304,
+          "r_max_m": 0.00015,
+          "selected_pixels": 19835,
+          "area_m2": 1.9835e-08,
+          "area_um2": 19835.0,
+          "r_equiv_m": 7.945864705905511e-05,
+          "r_equiv_um": 79.45864705905511,
+          "peak_position_m": [
+            0.0,
+            0.0
+          ],
+          "peak_position_um": [
+            0.0,
+            0.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 7,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        }
+      },
+      "centroid": {
+        "cx_m": -9.800105749454e-07,
+        "cy_m": 6.377722361647017e-08,
+        "cx_um": -0.9800105749453999,
+        "cy_um": 0.06377722361647017,
+        "note": "固定方窗内强度质心，不是无限平面质心；仅作裁切/不对称诊断"
+      },
+      "band_energy": {
+        "primary": {
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "Pband": 4.018652288848678e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.5117027320145155,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        },
+        "sensitivity": {
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "Pband": 4.061230347063301e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.5171242781315442,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        }
+      },
+      "peak_intensity": 74.51191690200304,
+      "Rlimit_m": 0.00015,
+      "definitions": {
+        "eta_window": "Pwindow/Pin；0<eta<=1.02 只作粗健康检查，不证明能量守恒精确成立",
+        "Eabs": "sum_{r<=R}(Iraw)*dA/Pin，分母恒为 Pin",
+        "R50_R80": "Eabs 第一次达到 0.5/0.8 的半径；未达到记 null/not_reached",
+        "shape": "峰值相对形状指标 Aq 与 r_eq=sqrt(Aq/pi)，不是通光效率",
+        "rotation": "C3=sum(Iraw*exp(+3i*theta))*dA；A3=|C3|/Pband；alpha=arg(C3)/3，120°周期"
+      },
+      "identity": "jeon@420nm",
+      "device_key": "jeon",
+      "wavelength_nm": 420,
+      "source_file": "psf_jeon_420nm.npz"
+    },
+    "jeon@450nm": {
+      "Pin": 7.85349e-07,
+      "Pwindow_recomputed": 6.505800956248777e-07,
+      "Pwindow_saved": 6.505800956248777e-07,
+      "eta_window": 0.8283961597008179,
+      "rotation_bands": {
+        "primary": {
+          "label": "C3主环带20-100um",
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "band_pixels": 30168,
+          "Pband": 4.415716242174085e-07,
+          "C3_real": 4.190708008261425e-08,
+          "C3_imag": -2.1935880255859522e-07,
+          "C3_abs": 2.2332596718919948e-07,
+          "A3": 0.505752532411921,
+          "alpha_wrapped_rad": -0.46067580057806906,
+          "alpha_wrapped_deg": -26.39477909693373,
+          "alpha_raw_rad": -0.46067580057806906,
+          "alpha_raw_deg": -26.39477909693373,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": true,
+          "unreliable_reason": "",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        },
+        "sensitivity": {
+          "label": "C3敏感性环带30-120um",
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "band_pixels": 42412,
+          "Pband": 4.2084170239375315e-07,
+          "C3_real": 4.06675607341103e-08,
+          "C3_imag": -2.2110774400123534e-07,
+          "C3_abs": 2.2481655845016927e-07,
+          "A3": 0.5342069409267421,
+          "alpha_wrapped_rad": -0.4629675968616314,
+          "alpha_wrapped_deg": -26.526089351485616,
+          "alpha_raw_rad": -0.4629675968616314,
+          "alpha_raw_deg": -26.526089351485616,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": true,
+          "unreliable_reason": "",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        }
+      },
+      "abs_encircled": [
+        {
+          "R_m": 5e-05,
+          "R_um": 50.0,
+          "pixels_in_disk": 7845,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 2.939915067589378e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.3743450450168496,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.0001,
+          "R_um": 100.0,
+          "pixels_in_disk": 31417,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 5.457138332400475e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.6948679290863647,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.00015,
+          "R_um": 150.0,
+          "pixels_in_disk": 70681,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 6.316620204346686e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.8043074103801859,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        }
+      ],
+      "R50": {
+        "target": 0.5,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": 6.451356446515724e-05,
+        "radius_um": 64.51356446515724,
+        "status": "reached",
+        "Eabs_at_radius": 0.5000372106206005,
+        "Eabs_at_Rlimit": 0.8043074103801938
+      },
+      "R80": {
+        "target": 0.8,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": 0.00014693195704134618,
+        "radius_um": 146.93195704134618,
+        "status": "reached",
+        "Eabs_at_radius": 0.8000014527102538,
+        "Eabs_at_Rlimit": 0.8043074103801938
+      },
+      "shape": {
+        "q0.5": {
+          "quantile": 0.5,
+          "Ipeak": 126.80587227301793,
+          "r_max_m": 0.00015,
+          "selected_pixels": 1072,
+          "area_m2": 1.072e-09,
+          "area_um2": 1072.0,
+          "r_equiv_m": 1.847236308621676e-05,
+          "r_equiv_um": 18.47236308621676,
+          "peak_position_m": [
+            0.0,
+            0.0
+          ],
+          "peak_position_um": [
+            0.0,
+            0.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 1,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        },
+        "q0.1": {
+          "quantile": 0.1,
+          "Ipeak": 126.80587227301793,
+          "r_max_m": 0.00015,
+          "selected_pixels": 12471,
+          "area_m2": 1.2471e-08,
+          "area_um2": 12471.0,
+          "r_equiv_m": 6.300509971897556e-05,
+          "r_equiv_um": 63.00509971897556,
+          "peak_position_m": [
+            0.0,
+            0.0
+          ],
+          "peak_position_um": [
+            0.0,
+            0.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 4,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        }
+      },
+      "centroid": {
+        "cx_m": -6.489839039213606e-07,
+        "cy_m": 7.194438245227864e-07,
+        "cx_um": -0.6489839039213606,
+        "cy_um": 0.7194438245227864,
+        "note": "固定方窗内强度质心，不是无限平面质心；仅作裁切/不对称诊断"
+      },
+      "band_energy": {
+        "primary": {
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "Pband": 4.415716242174085e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.5622616495563227,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        },
+        "sensitivity": {
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "Pband": 4.2084170239375315e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.5358658410385104,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        }
+      },
+      "peak_intensity": 126.80587227301793,
+      "Rlimit_m": 0.00015,
+      "definitions": {
+        "eta_window": "Pwindow/Pin；0<eta<=1.02 只作粗健康检查，不证明能量守恒精确成立",
+        "Eabs": "sum_{r<=R}(Iraw)*dA/Pin，分母恒为 Pin",
+        "R50_R80": "Eabs 第一次达到 0.5/0.8 的半径；未达到记 null/not_reached",
+        "shape": "峰值相对形状指标 Aq 与 r_eq=sqrt(Aq/pi)，不是通光效率",
+        "rotation": "C3=sum(Iraw*exp(+3i*theta))*dA；A3=|C3|/Pband；alpha=arg(C3)/3，120°周期"
+      },
+      "identity": "jeon@450nm",
+      "device_key": "jeon",
+      "wavelength_nm": 450,
+      "source_file": "psf_jeon_450nm.npz"
+    },
+    "jeon@480nm": {
+      "Pin": 7.85349e-07,
+      "Pwindow_recomputed": 6.757772735785968e-07,
+      "Pwindow_saved": 6.757772735785968e-07,
+      "eta_window": 0.8604802114456079,
+      "rotation_bands": {
+        "primary": {
+          "label": "C3主环带20-100um",
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "band_pixels": 30168,
+          "Pband": 4.976933276089805e-07,
+          "C3_real": 1.900728356399339e-07,
+          "C3_imag": -1.0080961106344866e-07,
+          "C3_abs": 2.1515171514763508e-07,
+          "A3": 0.4322977689519517,
+          "alpha_wrapped_rad": -0.16255006395498653,
+          "alpha_wrapped_deg": -9.313432624202338,
+          "alpha_raw_rad": -0.16255006395498653,
+          "alpha_raw_deg": -9.313432624202338,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": true,
+          "unreliable_reason": "",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        },
+        "sensitivity": {
+          "label": "C3敏感性环带30-120um",
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "band_pixels": 42412,
+          "Pband": 4.46048952839792e-07,
+          "C3_real": 1.6963024852164367e-07,
+          "C3_imag": -1.129147780128486e-07,
+          "C3_abs": 2.0377479801782522e-07,
+          "A3": 0.45684402288242854,
+          "alpha_wrapped_rad": -0.19576669124315874,
+          "alpha_wrapped_deg": -11.216605177473687,
+          "alpha_raw_rad": -0.19576669124315874,
+          "alpha_raw_deg": -11.216605177473687,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": true,
+          "unreliable_reason": "",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        }
+      },
+      "abs_encircled": [
+        {
+          "R_m": 5e-05,
+          "R_um": 50.0,
+          "pixels_in_disk": 7845,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 3.6429752098505596e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.4638670463514386,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.0001,
+          "R_um": 100.0,
+          "pixels_in_disk": 31417,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 6.024769397396906e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.7671454853061386,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.00015,
+          "R_um": 150.0,
+          "pixels_in_disk": 70681,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 6.626134557384671e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.8437184687807167,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        }
+      ],
+      "R50": {
+        "target": 0.5,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": 5.3338541412378346e-05,
+        "radius_um": 53.33854141237835,
+        "status": "reached",
+        "Eabs_at_radius": 0.5001240868110027,
+        "Eabs_at_Rlimit": 0.8437184687807091
+      },
+      "R80": {
+        "target": 0.8,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": 0.00011661903789690601,
+        "radius_um": 116.61903789690601,
+        "status": "reached",
+        "Eabs_at_radius": 0.8000127574726924,
+        "Eabs_at_Rlimit": 0.8437184687807091
+      },
+      "shape": {
+        "q0.5": {
+          "quantile": 0.5,
+          "Ipeak": 107.42350160493989,
+          "r_max_m": 0.00015,
+          "selected_pixels": 3181,
+          "area_m2": 3.181e-09,
+          "area_um2": 3181.0,
+          "r_equiv_m": 3.1820492578692716e-05,
+          "r_equiv_um": 31.820492578692715,
+          "peak_position_m": [
+            0.0,
+            0.0
+          ],
+          "peak_position_um": [
+            0.0,
+            0.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 4,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        },
+        "q0.1": {
+          "quantile": 0.1,
+          "Ipeak": 107.42350160493989,
+          "r_max_m": 0.00015,
+          "selected_pixels": 13650,
+          "area_m2": 1.365e-08,
+          "area_um2": 13650.0,
+          "r_equiv_m": 6.591608260818253e-05,
+          "r_equiv_um": 65.91608260818252,
+          "peak_position_m": [
+            0.0,
+            0.0
+          ],
+          "peak_position_um": [
+            0.0,
+            0.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 7,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        }
+      },
+      "centroid": {
+        "cx_m": 5.861362709687522e-10,
+        "cy_m": 4.605274155787387e-07,
+        "cx_um": 0.0005861362709687522,
+        "cy_um": 0.4605274155787387,
+        "note": "固定方窗内强度质心，不是无限平面质心；仅作裁切/不对称诊断"
+      },
+      "band_energy": {
+        "primary": {
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "Pband": 4.976933276089805e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.6337224948513088,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        },
+        "sensitivity": {
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "Pband": 4.46048952839792e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.5679627182816709,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        }
+      },
+      "peak_intensity": 107.42350160493989,
+      "Rlimit_m": 0.00015,
+      "definitions": {
+        "eta_window": "Pwindow/Pin；0<eta<=1.02 只作粗健康检查，不证明能量守恒精确成立",
+        "Eabs": "sum_{r<=R}(Iraw)*dA/Pin，分母恒为 Pin",
+        "R50_R80": "Eabs 第一次达到 0.5/0.8 的半径；未达到记 null/not_reached",
+        "shape": "峰值相对形状指标 Aq 与 r_eq=sqrt(Aq/pi)，不是通光效率",
+        "rotation": "C3=sum(Iraw*exp(+3i*theta))*dA；A3=|C3|/Pband；alpha=arg(C3)/3，120°周期"
+      },
+      "identity": "jeon@480nm",
+      "device_key": "jeon",
+      "wavelength_nm": 480,
+      "source_file": "psf_jeon_480nm.npz"
+    },
+    "jeon@510nm": {
+      "Pin": 7.85349e-07,
+      "Pwindow_recomputed": 6.941995218926122e-07,
+      "Pwindow_saved": 6.941995218926122e-07,
+      "eta_window": 0.8839376148599059,
+      "rotation_bands": {
+        "primary": {
+          "label": "C3主环带20-100um",
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "band_pixels": 30168,
+          "Pband": 5.226370721820484e-07,
+          "C3_real": 1.402866679468416e-07,
+          "C3_imag": 6.742428516153162e-08,
+          "C3_abs": 1.5564826832692654e-07,
+          "A3": 0.29781329456229255,
+          "alpha_wrapped_rad": 0.14934068556339555,
+          "alpha_wrapped_deg": 8.556590992372868,
+          "alpha_raw_rad": 0.14934068556339555,
+          "alpha_raw_deg": 8.556590992372868,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": true,
+          "unreliable_reason": "",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        },
+        "sensitivity": {
+          "label": "C3敏感性环带30-120um",
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "band_pixels": 42412,
+          "Pband": 4.665522289251642e-07,
+          "C3_real": 1.3009532906705298e-07,
+          "C3_imag": 3.998475795914529e-08,
+          "C3_abs": 1.3610134280791e-07,
+          "A3": 0.2917172705860996,
+          "alpha_wrapped_rad": 0.09939530261134426,
+          "alpha_wrapped_deg": 5.694931343055676,
+          "alpha_raw_rad": 0.09939530261134426,
+          "alpha_raw_deg": 5.694931343055676,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": true,
+          "unreliable_reason": "",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        }
+      },
+      "abs_encircled": [
+        {
+          "R_m": 5e-05,
+          "R_um": 50.0,
+          "pixels_in_disk": 7845,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 4.0751779519859294e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.5189002535160712,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.0001,
+          "R_um": 100.0,
+          "pixels_in_disk": 31417,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 6.226579884058294e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.7928424030664448,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.00015,
+          "R_um": 150.0,
+          "pixels_in_disk": 70681,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 6.865620598704377e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.8742126874427009,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        }
+      ],
+      "R50": {
+        "target": 0.5,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": 4.850773134253962e-05,
+        "radius_um": 48.507731342539614,
+        "status": "reached",
+        "Eabs_at_radius": 0.5002583371950028,
+        "Eabs_at_Rlimit": 0.874212687442701
+      },
+      "R80": {
+        "target": 0.8,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": 0.00010196568050084302,
+        "radius_um": 101.96568050084302,
+        "status": "reached",
+        "Eabs_at_radius": 0.8000090535818088,
+        "Eabs_at_Rlimit": 0.874212687442701
+      },
+      "shape": {
+        "q0.5": {
+          "quantile": 0.5,
+          "Ipeak": 101.51858567322502,
+          "r_max_m": 0.00015,
+          "selected_pixels": 4062,
+          "area_m2": 4.062e-09,
+          "area_um2": 4062.0000000000005,
+          "r_equiv_m": 3.5957958196740785e-05,
+          "r_equiv_um": 35.95795819674078,
+          "peak_position_m": [
+            -2.1e-05,
+            2.1e-05
+          ],
+          "peak_position_um": [
+            -21.0,
+            21.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 1,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        },
+        "q0.1": {
+          "quantile": 0.1,
+          "Ipeak": 101.51858567322502,
+          "r_max_m": 0.00015,
+          "selected_pixels": 13606,
+          "area_m2": 1.3606e-08,
+          "area_um2": 13606.0,
+          "r_equiv_m": 6.580975848167698e-05,
+          "r_equiv_um": 65.80975848167698,
+          "peak_position_m": [
+            -2.1e-05,
+            2.1e-05
+          ],
+          "peak_position_um": [
+            -21.0,
+            21.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 3,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        }
+      },
+      "centroid": {
+        "cx_m": 1.2604861620637423e-07,
+        "cy_m": 1.6044607297356858e-07,
+        "cx_um": 0.12604861620637423,
+        "cy_um": 0.16044607297356858,
+        "note": "固定方窗内强度质心，不是无限平面质心；仅作裁切/不对称诊断"
+      },
+      "band_energy": {
+        "primary": {
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "Pband": 5.226370721820484e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.6654838449938161,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        },
+        "sensitivity": {
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "Pband": 4.665522289251642e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.5940699344179011,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        }
+      },
+      "peak_intensity": 101.51858567322502,
+      "Rlimit_m": 0.00015,
+      "definitions": {
+        "eta_window": "Pwindow/Pin；0<eta<=1.02 只作粗健康检查，不证明能量守恒精确成立",
+        "Eabs": "sum_{r<=R}(Iraw)*dA/Pin，分母恒为 Pin",
+        "R50_R80": "Eabs 第一次达到 0.5/0.8 的半径；未达到记 null/not_reached",
+        "shape": "峰值相对形状指标 Aq 与 r_eq=sqrt(Aq/pi)，不是通光效率",
+        "rotation": "C3=sum(Iraw*exp(+3i*theta))*dA；A3=|C3|/Pband；alpha=arg(C3)/3，120°周期"
+      },
+      "identity": "jeon@510nm",
+      "device_key": "jeon",
+      "wavelength_nm": 510,
+      "source_file": "psf_jeon_510nm.npz"
+    },
+    "jeon@540nm": {
+      "Pin": 7.85349e-07,
+      "Pwindow_recomputed": 6.978708334701867e-07,
+      "Pwindow_saved": 6.978708334701867e-07,
+      "eta_window": 0.8886123665659302,
+      "rotation_bands": {
+        "primary": {
+          "label": "C3主环带20-100um",
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "band_pixels": 30168,
+          "Pband": 5.019361639728223e-07,
+          "C3_real": -1.593885140438991e-08,
+          "C3_imag": 1.3109609307329253e-07,
+          "C3_abs": 1.32061472819186e-07,
+          "A3": 0.263104120201103,
+          "alpha_wrapped_rad": 0.5639279825691915,
+          "alpha_wrapped_deg": 32.310693350541726,
+          "alpha_raw_rad": 0.5639279825691915,
+          "alpha_raw_deg": 32.310693350541726,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": true,
+          "unreliable_reason": "",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        },
+        "sensitivity": {
+          "label": "C3敏感性环带30-120um",
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "band_pixels": 42412,
+          "Pband": 4.6195956929237313e-07,
+          "C3_real": -1.7462302192987267e-08,
+          "C3_imag": 1.0647276396825203e-07,
+          "C3_abs": 1.0789523374513963e-07,
+          "A3": 0.233559906358067,
+          "alpha_wrapped_rad": 0.5777854418018374,
+          "alpha_wrapped_deg": 33.104667279346934,
+          "alpha_raw_rad": 0.5777854418018374,
+          "alpha_raw_deg": 33.104667279346934,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": true,
+          "unreliable_reason": "",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        }
+      },
+      "abs_encircled": [
+        {
+          "R_m": 5e-05,
+          "R_um": 50.0,
+          "pixels_in_disk": 7845,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 4.0414349356330553e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.5146036902871278,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.0001,
+          "R_um": 100.0,
+          "pixels_in_disk": 31417,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 6.135846947640467e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.7812892036076275,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.00015,
+          "R_um": 150.0,
+          "pixels_in_disk": 70681,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 6.890237833976052e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.877347247399061,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        }
+      ],
+      "R50": {
+        "target": 0.5,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": 4.8918299234540034e-05,
+        "radius_um": 48.91829923454004,
+        "status": "reached",
+        "Eabs_at_radius": 0.5000878344049683,
+        "Eabs_at_Rlimit": 0.877347247399064
+      },
+      "R80": {
+        "target": 0.8,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": 0.00010565036677645752,
+        "radius_um": 105.65036677645752,
+        "status": "reached",
+        "Eabs_at_radius": 0.8000122422489757,
+        "Eabs_at_Rlimit": 0.877347247399064
+      },
+      "shape": {
+        "q0.5": {
+          "quantile": 0.5,
+          "Ipeak": 113.38050892064514,
+          "r_max_m": 0.00015,
+          "selected_pixels": 3510,
+          "area_m2": 3.51e-09,
+          "area_um2": 3510.0,
+          "r_equiv_m": 3.34255546028051e-05,
+          "r_equiv_um": 33.4255546028051,
+          "peak_position_m": [
+            0.0,
+            0.0
+          ],
+          "peak_position_um": [
+            0.0,
+            0.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 1,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        },
+        "q0.1": {
+          "quantile": 0.1,
+          "Ipeak": 113.38050892064514,
+          "r_max_m": 0.00015,
+          "selected_pixels": 13291,
+          "area_m2": 1.3291e-08,
+          "area_um2": 13291.0,
+          "r_equiv_m": 6.504349850114738e-05,
+          "r_equiv_um": 65.04349850114738,
+          "peak_position_m": [
+            0.0,
+            0.0
+          ],
+          "peak_position_um": [
+            0.0,
+            0.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 1,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        }
+      },
+      "centroid": {
+        "cx_m": 5.383785379543636e-08,
+        "cy_m": 8.230783394906176e-08,
+        "cx_um": 0.053837853795436354,
+        "cy_um": 0.08230783394906176,
+        "note": "固定方窗内强度质心，不是无限平面质心；仅作裁切/不对称诊断"
+      },
+      "band_energy": {
+        "primary": {
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "Pband": 5.019361639728223e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.6391249800697809,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        },
+        "sensitivity": {
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "Pband": 4.6195956929237313e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.5882220124968303,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        }
+      },
+      "peak_intensity": 113.38050892064514,
+      "Rlimit_m": 0.00015,
+      "definitions": {
+        "eta_window": "Pwindow/Pin；0<eta<=1.02 只作粗健康检查，不证明能量守恒精确成立",
+        "Eabs": "sum_{r<=R}(Iraw)*dA/Pin，分母恒为 Pin",
+        "R50_R80": "Eabs 第一次达到 0.5/0.8 的半径；未达到记 null/not_reached",
+        "shape": "峰值相对形状指标 Aq 与 r_eq=sqrt(Aq/pi)，不是通光效率",
+        "rotation": "C3=sum(Iraw*exp(+3i*theta))*dA；A3=|C3|/Pband；alpha=arg(C3)/3，120°周期"
+      },
+      "identity": "jeon@540nm",
+      "device_key": "jeon",
+      "wavelength_nm": 540,
+      "source_file": "psf_jeon_540nm.npz"
+    },
+    "jeon@570nm": {
+      "Pin": 7.85349e-07,
+      "Pwindow_recomputed": 6.836752783905449e-07,
+      "Pwindow_saved": 6.836752783905449e-07,
+      "eta_window": 0.8705368930125904,
+      "rotation_bands": {
+        "primary": {
+          "label": "C3主环带20-100um",
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "band_pixels": 30168,
+          "Pband": 4.633516029708901e-07,
+          "C3_real": -1.2440616882877273e-07,
+          "C3_imag": 6.747640102581527e-08,
+          "C3_abs": 1.4152723956203536e-07,
+          "A3": 0.30544243001340554,
+          "alpha_wrapped_rad": 0.8815374805461779,
+          "alpha_wrapped_deg": 50.508377117891904,
+          "alpha_raw_rad": 0.8815374805461779,
+          "alpha_raw_deg": 50.508377117891904,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": true,
+          "unreliable_reason": "",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        },
+        "sensitivity": {
+          "label": "C3敏感性环带30-120um",
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "band_pixels": 42412,
+          "Pband": 4.3135857068059523e-07,
+          "C3_real": -1.2994340381399066e-07,
+          "C3_imag": 5.637901294095595e-08,
+          "C3_abs": 1.416470306605907e-07,
+          "A3": 0.3283742118235898,
+          "alpha_wrapped_rad": 0.910743351952176,
+          "alpha_wrapped_deg": 52.18175028645741,
+          "alpha_raw_rad": 0.910743351952176,
+          "alpha_raw_deg": 52.18175028645741,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": true,
+          "unreliable_reason": "",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        }
+      },
+      "abs_encircled": [
+        {
+          "R_m": 5e-05,
+          "R_um": 50.0,
+          "pixels_in_disk": 7845,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 3.6629285213797516e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.4664077399194182,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.0001,
+          "R_um": 100.0,
+          "pixels_in_disk": 31417,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 5.863703430462494e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.7466366456775897,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.00015,
+          "R_um": 150.0,
+          "pixels_in_disk": 70681,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 6.699897342378982e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.8531108261905194,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        }
+      ],
+      "R50": {
+        "target": 0.5,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": 5.269724850502159e-05,
+        "radius_um": 52.69724850502159,
+        "status": "reached",
+        "Eabs_at_radius": 0.5002882906248798,
+        "Eabs_at_Rlimit": 0.8531108261905062
+      },
+      "R80": {
+        "target": 0.8,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": 0.00011751595636338072,
+        "radius_um": 117.51595636338071,
+        "status": "reached",
+        "Eabs_at_radius": 0.8000377455491733,
+        "Eabs_at_Rlimit": 0.8531108261905062
+      },
+      "shape": {
+        "q0.5": {
+          "quantile": 0.5,
+          "Ipeak": 133.95373573210182,
+          "r_max_m": 0.00015,
+          "selected_pixels": 2087,
+          "area_m2": 2.087e-09,
+          "area_um2": 2087.0,
+          "r_equiv_m": 2.5774264925804792e-05,
+          "r_equiv_um": 25.774264925804793,
+          "peak_position_m": [
+            0.0,
+            0.0
+          ],
+          "peak_position_um": [
+            0.0,
+            0.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 1,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        },
+        "q0.1": {
+          "quantile": 0.1,
+          "Ipeak": 133.95373573210182,
+          "r_max_m": 0.00015,
+          "selected_pixels": 12739,
+          "area_m2": 1.2738999999999999e-08,
+          "area_um2": 12739.0,
+          "r_equiv_m": 6.36784864777368e-05,
+          "r_equiv_um": 63.678486477736804,
+          "peak_position_m": [
+            0.0,
+            0.0
+          ],
+          "peak_position_um": [
+            0.0,
+            0.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 1,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        }
+      },
+      "centroid": {
+        "cx_m": 3.257849797736497e-07,
+        "cy_m": 1.7218208622085965e-07,
+        "cx_um": 0.32578497977364973,
+        "cy_um": 0.17218208622085965,
+        "note": "固定方窗内强度质心，不是无限平面质心；仅作裁切/不对称诊断"
+      },
+      "band_energy": {
+        "primary": {
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "Pband": 4.633516029708901e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.5899945157769222,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        },
+        "sensitivity": {
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "Pband": 4.3135857068059523e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.5492571718823036,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        }
+      },
+      "peak_intensity": 133.95373573210182,
+      "Rlimit_m": 0.00015,
+      "definitions": {
+        "eta_window": "Pwindow/Pin；0<eta<=1.02 只作粗健康检查，不证明能量守恒精确成立",
+        "Eabs": "sum_{r<=R}(Iraw)*dA/Pin，分母恒为 Pin",
+        "R50_R80": "Eabs 第一次达到 0.5/0.8 的半径；未达到记 null/not_reached",
+        "shape": "峰值相对形状指标 Aq 与 r_eq=sqrt(Aq/pi)，不是通光效率",
+        "rotation": "C3=sum(Iraw*exp(+3i*theta))*dA；A3=|C3|/Pband；alpha=arg(C3)/3，120°周期"
+      },
+      "identity": "jeon@570nm",
+      "device_key": "jeon",
+      "wavelength_nm": 570,
+      "source_file": "psf_jeon_570nm.npz"
+    },
+    "jeon@600nm": {
+      "Pin": 7.85349e-07,
+      "Pwindow_recomputed": 6.558103987664998e-07,
+      "Pwindow_saved": 6.558103987664998e-07,
+      "eta_window": 0.8350560053765902,
+      "rotation_bands": {
+        "primary": {
+          "label": "C3主环带20-100um",
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "band_pixels": 30168,
+          "Pband": 4.279904149463713e-07,
+          "C3_real": -1.27111666165846e-07,
+          "C3_imag": -4.6991366904907954e-08,
+          "C3_abs": 1.3551960831942054e-07,
+          "A3": 0.3166416900630861,
+          "alpha_wrapped_rad": -0.9291630683467003,
+          "alpha_wrapped_deg": -53.23712229569158,
+          "alpha_raw_rad": -0.9291630683467003,
+          "alpha_raw_deg": -53.23712229569158,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": true,
+          "unreliable_reason": "",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        },
+        "sensitivity": {
+          "label": "C3敏感性环带30-120um",
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "band_pixels": 42412,
+          "Pband": 3.9790654531497583e-07,
+          "C3_real": -1.3606833843233436e-07,
+          "C3_imag": -4.997736513252954e-08,
+          "C3_abs": 1.4495630289617094e-07,
+          "A3": 0.36429735726369133,
+          "alpha_wrapped_rad": -0.9298643886267056,
+          "alpha_wrapped_deg": -53.277304987822816,
+          "alpha_raw_rad": -0.9298643886267056,
+          "alpha_raw_deg": -53.277304987822816,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": true,
+          "unreliable_reason": "",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        }
+      },
+      "abs_encircled": [
+        {
+          "R_m": 5e-05,
+          "R_um": 50.0,
+          "pixels_in_disk": 7845,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 3.1552505311689676e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.4017641241243024,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.0001,
+          "R_um": 100.0,
+          "pixels_in_disk": 31417,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 5.459998969778799e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.6952321795505946,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.00015,
+          "R_um": 150.0,
+          "pixels_in_disk": 70681,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 6.368989435877899e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.8109756854440381,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        }
+      ],
+      "R50": {
+        "target": 0.5,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": 5.9808026217222716e-05,
+        "radius_um": 59.80802621722272,
+        "status": "reached",
+        "Eabs_at_radius": 0.500133847017672,
+        "Eabs_at_Rlimit": 0.8109756854440352
+      },
+      "R80": {
+        "target": 0.8,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": 0.0001417603611733548,
+        "radius_um": 141.76036117335482,
+        "status": "reached",
+        "Eabs_at_radius": 0.8000123784205232,
+        "Eabs_at_Rlimit": 0.8109756854440352
+      },
+      "shape": {
+        "q0.5": {
+          "quantile": 0.5,
+          "Ipeak": 129.38321620555584,
+          "r_max_m": 0.00015,
+          "selected_pixels": 1436,
+          "area_m2": 1.436e-09,
+          "area_um2": 1436.0,
+          "r_equiv_m": 2.137973331358283e-05,
+          "r_equiv_um": 21.37973331358283,
+          "peak_position_m": [
+            0.0,
+            0.0
+          ],
+          "peak_position_um": [
+            0.0,
+            0.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 1,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        },
+        "q0.1": {
+          "quantile": 0.1,
+          "Ipeak": 129.38321620555584,
+          "r_max_m": 0.00015,
+          "selected_pixels": 13015,
+          "area_m2": 1.3015e-08,
+          "area_um2": 13015.0,
+          "r_equiv_m": 6.436461115148631e-05,
+          "r_equiv_um": 64.3646111514863,
+          "peak_position_m": [
+            0.0,
+            0.0
+          ],
+          "peak_position_um": [
+            0.0,
+            0.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 1,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        }
+      },
+      "centroid": {
+        "cx_m": 7.474428036191347e-07,
+        "cy_m": 2.705869494556677e-07,
+        "cx_um": 0.7474428036191347,
+        "cy_um": 0.2705869494556677,
+        "note": "固定方窗内强度质心，不是无限平面质心；仅作裁切/不对称诊断"
+      },
+      "band_energy": {
+        "primary": {
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "Pband": 4.279904149463713e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.5449684343474955,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        },
+        "sensitivity": {
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "Pband": 3.9790654531497583e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.5066620640186412,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        }
+      },
+      "peak_intensity": 129.38321620555584,
+      "Rlimit_m": 0.00015,
+      "definitions": {
+        "eta_window": "Pwindow/Pin；0<eta<=1.02 只作粗健康检查，不证明能量守恒精确成立",
+        "Eabs": "sum_{r<=R}(Iraw)*dA/Pin，分母恒为 Pin",
+        "R50_R80": "Eabs 第一次达到 0.5/0.8 的半径；未达到记 null/not_reached",
+        "shape": "峰值相对形状指标 Aq 与 r_eq=sqrt(Aq/pi)，不是通光效率",
+        "rotation": "C3=sum(Iraw*exp(+3i*theta))*dA；A3=|C3|/Pband；alpha=arg(C3)/3，120°周期"
+      },
+      "identity": "jeon@600nm",
+      "device_key": "jeon",
+      "wavelength_nm": 600,
+      "source_file": "psf_jeon_600nm.npz"
+    },
+    "jeon@630nm": {
+      "Pin": 7.85349e-07,
+      "Pwindow_recomputed": 6.167023510869633e-07,
+      "Pwindow_saved": 6.167023510869633e-07,
+      "eta_window": 0.7852589754197985,
+      "rotation_bands": {
+        "primary": {
+          "label": "C3主环带20-100um",
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "band_pixels": 30168,
+          "Pband": 3.950842999886584e-07,
+          "C3_real": -5.9595953208386716e-08,
+          "C3_imag": -1.3285879250449888e-07,
+          "C3_abs": 1.4561296777612118e-07,
+          "A3": 0.3685617671476727,
+          "alpha_wrapped_rad": -0.6641523994782027,
+          "alpha_wrapped_deg": -38.05312944358767,
+          "alpha_raw_rad": -0.6641523994782027,
+          "alpha_raw_deg": -38.05312944358767,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": true,
+          "unreliable_reason": "",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        },
+        "sensitivity": {
+          "label": "C3敏感性环带30-120um",
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "band_pixels": 42412,
+          "Pband": 3.747101843791412e-07,
+          "C3_real": -6.217080194223939e-08,
+          "C3_imag": -1.383803701937059e-07,
+          "C3_abs": 1.5170476416081417e-07,
+          "A3": 0.40485892960762304,
+          "alpha_wrapped_rad": -0.6643489816738898,
+          "alpha_wrapped_deg": -38.06439277372796,
+          "alpha_raw_rad": -0.6643489816738898,
+          "alpha_raw_deg": -38.06439277372796,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": true,
+          "unreliable_reason": "",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        }
+      },
+      "abs_encircled": [
+        {
+          "R_m": 5e-05,
+          "R_um": 50.0,
+          "pixels_in_disk": 7845,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 2.6349130114576044e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.33550854606774877,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.0001,
+          "R_um": 100.0,
+          "pixels_in_disk": 31417,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 4.931332395236336e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.6279160469086147,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.00015,
+          "R_um": 150.0,
+          "pixels_in_disk": 70681,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 5.935944821396391e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.7558352810529321,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        }
+      ],
+      "R50": {
+        "target": 0.5,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": 7.224956747275377e-05,
+        "radius_um": 72.24956747275377,
+        "status": "reached",
+        "Eabs_at_radius": 0.5001651977143539,
+        "Eabs_at_Rlimit": 0.7558352810529335
+      },
+      "R80": {
+        "target": 0.8,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": null,
+        "radius_um": null,
+        "status": "not_reached",
+        "Eabs_at_radius": null,
+        "Eabs_at_Rlimit": 0.7558352810529335
+      },
+      "shape": {
+        "q0.5": {
+          "quantile": 0.5,
+          "Ipeak": 105.00016052398533,
+          "r_max_m": 0.00015,
+          "selected_pixels": 1494,
+          "area_m2": 1.494e-09,
+          "area_um2": 1494.0,
+          "r_equiv_m": 2.1807222885057676e-05,
+          "r_equiv_um": 21.807222885057676,
+          "peak_position_m": [
+            0.0,
+            0.0
+          ],
+          "peak_position_um": [
+            0.0,
+            0.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 1,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        },
+        "q0.1": {
+          "quantile": 0.1,
+          "Ipeak": 105.00016052398533,
+          "r_max_m": 0.00015,
+          "selected_pixels": 15932,
+          "area_m2": 1.5932e-08,
+          "area_um2": 15932.0,
+          "r_equiv_m": 7.121315262421791e-05,
+          "r_equiv_um": 71.21315262421791,
+          "peak_position_m": [
+            0.0,
+            0.0
+          ],
+          "peak_position_um": [
+            0.0,
+            0.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 1,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        }
+      },
+      "centroid": {
+        "cx_m": 1.2208310208941749e-06,
+        "cy_m": -2.0671523874688596e-07,
+        "cx_um": 1.2208310208941748,
+        "cy_um": -0.20671523874688597,
+        "note": "固定方窗内强度质心，不是无限平面质心；仅作裁切/不对称诊断"
+      },
+      "band_energy": {
+        "primary": {
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "Pband": 3.950842999886584e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.5030684447152265,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        },
+        "sensitivity": {
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "Pband": 3.747101843791412e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.4771256910992962,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        }
+      },
+      "peak_intensity": 105.00016052398533,
+      "Rlimit_m": 0.00015,
+      "definitions": {
+        "eta_window": "Pwindow/Pin；0<eta<=1.02 只作粗健康检查，不证明能量守恒精确成立",
+        "Eabs": "sum_{r<=R}(Iraw)*dA/Pin，分母恒为 Pin",
+        "R50_R80": "Eabs 第一次达到 0.5/0.8 的半径；未达到记 null/not_reached",
+        "shape": "峰值相对形状指标 Aq 与 r_eq=sqrt(Aq/pi)，不是通光效率",
+        "rotation": "C3=sum(Iraw*exp(+3i*theta))*dA；A3=|C3|/Pband；alpha=arg(C3)/3，120°周期"
+      },
+      "identity": "jeon@630nm",
+      "device_key": "jeon",
+      "wavelength_nm": 630,
+      "source_file": "psf_jeon_630nm.npz"
+    },
+    "jeon@660nm": {
+      "Pin": 7.85349e-07,
+      "Pwindow_recomputed": 5.698016058875994e-07,
+      "Pwindow_saved": 5.698016058875994e-07,
+      "eta_window": 0.7255393536982914,
+      "rotation_bands": {
+        "primary": {
+          "label": "C3主环带20-100um",
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "band_pixels": 30168,
+          "Pband": 3.5700505805447953e-07,
+          "C3_real": 1.811174235532625e-08,
+          "C3_imag": -1.601567820417289e-07,
+          "C3_abs": 1.611776350648798e-07,
+          "A3": 0.4514715728209202,
+          "alpha_wrapped_rad": -0.486062389764151,
+          "alpha_wrapped_deg": -27.849323513528677,
+          "alpha_raw_rad": -0.486062389764151,
+          "alpha_raw_deg": -27.849323513528677,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": true,
+          "unreliable_reason": "",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        },
+        "sensitivity": {
+          "label": "C3敏感性环带30-120um",
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "band_pixels": 42412,
+          "Pband": 3.565124640738155e-07,
+          "C3_real": 2.8815858247521555e-08,
+          "C3_imag": -1.717180630810291e-07,
+          "C3_abs": 1.7411905948184287e-07,
+          "A3": 0.48839543361881377,
+          "alpha_wrapped_rad": -0.46817875758515476,
+          "alpha_wrapped_deg": -26.824666867307844,
+          "alpha_raw_rad": -0.46817875758515476,
+          "alpha_raw_deg": -26.824666867307844,
+          "alpha_raw_note": "arg(C3)/3 的原始数值；A3 未达阈值时它只是数值噪声，**不是**有效方向，不得作为方向测量引用",
+          "alpha_period_deg": 120.0,
+          "reliable": true,
+          "unreliable_reason": "",
+          "a3_min": 0.05,
+          "order": 3,
+          "ambiguity_wrapped_diff_rad": 2.827433388230814,
+          "definition": "C3=sum(Iraw*exp(+3i*theta))*dA; A3=|C3|/Pband; alpha=arg(C3)/3"
+        }
+      },
+      "abs_encircled": [
+        {
+          "R_m": 5e-05,
+          "R_um": 50.0,
+          "pixels_in_disk": 7845,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 2.138871891001176e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.27234667529992096,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.0001,
+          "R_um": 100.0,
+          "pixels_in_disk": 31417,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 4.294826588732635e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.5468685372659333,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        },
+        {
+          "R_m": 0.00015,
+          "R_um": 150.0,
+          "pixels_in_disk": 70681,
+          "disk_within_full_circle": true,
+          "Rlimit_m": 0.00015,
+          "Rlimit_um": 150.0,
+          "Pdisk": 5.432912838539901e-07,
+          "Pin": 7.85349e-07,
+          "Eabs": 0.6917832503179989,
+          "definition": "Eabs(R)=sum_{r<=R}(Iraw)*dA/Pin，分母为输入功率；R 必须 <= Rlimit=min(xmax,-xmin,ymax,-ymin) 才是完整圆盘"
+        }
+      ],
+      "R50": {
+        "target": 0.5,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": 9.060905032059436e-05,
+        "radius_um": 90.60905032059436,
+        "status": "reached",
+        "Eabs_at_radius": 0.5000718748632661,
+        "Eabs_at_Rlimit": 0.6917832503180096
+      },
+      "R80": {
+        "target": 0.8,
+        "Rlimit_m": 0.00015,
+        "Rlimit_um": 150.0,
+        "pixels_inside_Rlimit": 70681,
+        "pixels_total": 90601,
+        "radius_scale_m": 1e-06,
+        "radius_scale_note": "径向采样尺度：取网格间距与圆盘内最小非零半径中的较小者；半径按像素唯一值离散分组，不插值",
+        "definition": "先在 r<=Rlimit=min(xmax,-xmin,ymax,-ymin) 的完整圆盘内取像素，再按唯一半径分组求累计，取第一个 Eabs>=target 的半径；圆盘内未达到记 not_reached，不插值",
+        "radius_m": null,
+        "radius_um": null,
+        "status": "not_reached",
+        "Eabs_at_radius": null,
+        "Eabs_at_Rlimit": 0.6917832503180096
+      },
+      "shape": {
+        "q0.5": {
+          "quantile": 0.5,
+          "Ipeak": 74.88621427913282,
+          "r_max_m": 0.00015,
+          "selected_pixels": 1801,
+          "area_m2": 1.8009999999999999e-09,
+          "area_um2": 1800.9999999999998,
+          "r_equiv_m": 2.394318493887158e-05,
+          "r_equiv_um": 23.943184938871582,
+          "peak_position_m": [
+            0.0,
+            0.0
+          ],
+          "peak_position_um": [
+            0.0,
+            0.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 1,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        },
+        "q0.1": {
+          "quantile": 0.1,
+          "Ipeak": 74.88621427913282,
+          "r_max_m": 0.00015,
+          "selected_pixels": 18550,
+          "area_m2": 1.855e-08,
+          "area_um2": 18550.0,
+          "r_equiv_m": 7.684170995435563e-05,
+          "r_equiv_um": 76.84170995435564,
+          "peak_position_m": [
+            0.0,
+            0.0
+          ],
+          "peak_position_um": [
+            0.0,
+            0.0
+          ],
+          "peak_outside_roi": false,
+          "connected_components_8": 4,
+          "definition": "Aq=sum_{ROI且I>=q*Ipeak}*dA；r_eq=sqrt(Aq/pi)；Ipeak 取完整方窗内峰值；8 连通统计连通分量"
+        }
+      },
+      "centroid": {
+        "cx_m": 1.9915193797920093e-06,
+        "cy_m": -1.2423819173444744e-06,
+        "cx_um": 1.9915193797920092,
+        "cy_um": -1.2423819173444743,
+        "note": "固定方窗内强度质心，不是无限平面质心；仅作裁切/不对称诊断"
+      },
+      "band_energy": {
+        "primary": {
+          "r_min_m": 2e-05,
+          "r_max_m": 0.0001,
+          "Pband": 3.5700505805447953e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.4545814129189437,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        },
+        "sensitivity": {
+          "r_min_m": 3e-05,
+          "r_max_m": 0.00012,
+          "Pband": 3.565124640738155e-07,
+          "Pin": 7.85349e-07,
+          "band_energy_fraction_of_Pin": 0.453954183520722,
+          "definition": "环带能量/Pin；不是旁瓣率，也不把未捕获能量称为旁瓣"
+        }
+      },
+      "peak_intensity": 74.88621427913282,
+      "Rlimit_m": 0.00015,
+      "definitions": {
+        "eta_window": "Pwindow/Pin；0<eta<=1.02 只作粗健康检查，不证明能量守恒精确成立",
+        "Eabs": "sum_{r<=R}(Iraw)*dA/Pin，分母恒为 Pin",
+        "R50_R80": "Eabs 第一次达到 0.5/0.8 的半径；未达到记 null/not_reached",
+        "shape": "峰值相对形状指标 Aq 与 r_eq=sqrt(Aq/pi)，不是通光效率",
+        "rotation": "C3=sum(Iraw*exp(+3i*theta))*dA；A3=|C3|/Pband；alpha=arg(C3)/3，120°周期"
+      },
+      "identity": "jeon@660nm",
+      "device_key": "jeon",
+      "wavelength_nm": 660,
+      "source_file": "psf_jeon_660nm.npz"
+    }
+  },
+  "compatibility": {
+    "source_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\复审并执行_02B_20261002\\02B1正式复跑",
+    "problems": [],
+    "checks": {
+      "config_effective": "compared",
+      "identities_read": 18,
+      "full_physical_reverification": {
+        "status": "pass",
+        "expected_identity_count": 18,
+        "verified_identity_count": 18,
+        "problems": [],
+        "identities": [
+          "fresnel@420nm",
+          "fresnel@450nm",
+          "fresnel@480nm",
+          "fresnel@510nm",
+          "fresnel@540nm",
+          "fresnel@570nm",
+          "fresnel@600nm",
+          "fresnel@630nm",
+          "fresnel@660nm",
+          "jeon@420nm",
+          "jeon@450nm",
+          "jeon@480nm",
+          "jeon@510nm",
+          "jeon@540nm",
+          "jeon@570nm",
+          "jeon@600nm",
+          "jeon@630nm",
+          "jeon@660nm"
+        ],
+        "independent_power_check": true,
+        "tolerances": {
+          "Pin_relative": 1e-12,
+          "Pwindow_relative": 1e-09
+        },
+        "distance_m_used_in_recompute": 0.05,
+        "worst_pin_relative_diff": 0.0,
+        "worst_pwindow_relative_diff": 0.0
+      }
+    },
+    "status": "pass"
+  },
+  "unwrap": {
+    "primary": {
+      "alpha_unwrapped_rad": [
+        -0.7623413131555815,
+        -0.46067580057806906,
+        -0.16255006395498653,
+        0.14934068556339555,
+        0.5639279825691915,
+        0.8815374805461779,
+        1.1652320340464952,
+        1.4302427029149927,
+        1.6083327126290445
+      ],
+      "segments": [
+        {
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "wavelengths_nm": [
+            420,
+            450,
+            480,
+            510,
+            540,
+            570,
+            600,
+            630,
+            660
+          ],
+          "alpha_wrapped_rad": [
+            -0.7623413131555815,
+            -0.46067580057806906,
+            -0.16255006395498653,
+            0.14934068556339555,
+            0.5639279825691915,
+            0.8815374805461779,
+            -0.9291630683467003,
+            -0.6641523994782027,
+            -0.486062389764151
+          ],
+          "alpha_unwrapped_rad": [
+            -0.7623413131555815,
+            -0.46067580057806906,
+            -0.16255006395498653,
+            0.14934068556339555,
+            0.5639279825691915,
+            0.8815374805461779,
+            1.1652320340464952,
+            1.4302427029149927,
+            1.6083327126290445
+          ],
+          "span_deg": 135.82961627874718,
+          "direction": "逆时针"
+        }
+      ],
+      "ambiguous_pairs": [],
+      "has_ambiguity": false,
+      "reliable_count": 9,
+      "max_abs_wrapped_diff_rad": 2.827433388230814,
+      "note": "alpha 具有 120° 周期；只在连续可靠段内展开，不跨不可靠间隙续接方向。存在歧义时不能声称旋转方向已唯一确定。"
+    },
+    "sensitivity": {
+      "alpha_unwrapped_rad": [
+        -0.7428423041328135,
+        -0.4629675968616314,
+        -0.19576669124315874,
+        0.09939530261134426,
+        0.5777854418018374,
+        0.910743351952176,
+        1.1645307137664898,
+        1.4300461207193056,
+        1.6262163448080404
+      ],
+      "segments": [
+        {
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "wavelengths_nm": [
+            420,
+            450,
+            480,
+            510,
+            540,
+            570,
+            600,
+            630,
+            660
+          ],
+          "alpha_wrapped_rad": [
+            -0.7428423041328135,
+            -0.4629675968616314,
+            -0.19576669124315874,
+            0.09939530261134426,
+            0.5777854418018374,
+            0.910743351952176,
+            -0.9298643886267056,
+            -0.6643489816738898,
+            -0.46817875758515476
+          ],
+          "alpha_unwrapped_rad": [
+            -0.7428423041328135,
+            -0.4629675968616314,
+            -0.19576669124315874,
+            0.09939530261134426,
+            0.5777854418018374,
+            0.910743351952176,
+            1.1645307137664898,
+            1.4300461207193056,
+            1.6262163448080404
+          ],
+          "span_deg": 135.73706200327587,
+          "direction": "逆时针"
+        }
+      ],
+      "ambiguous_pairs": [],
+      "has_ambiguity": false,
+      "reliable_count": 9,
+      "max_abs_wrapped_diff_rad": 2.827433388230814,
+      "note": "alpha 具有 120° 周期；只在连续可靠段内展开，不跨不可靠间隙续接方向。存在歧义时不能声称旋转方向已唯一确定。"
+    }
+  },
+  "size_stability": {
+    "fresnel": {
+      "R50_um": {
+        "n_valid": 9,
+        "min": 14.7648230602334,
+        "max": 90.47098982546837,
+        "mean": 41.44602263611657,
+        "std": 24.24423154488648,
+        "cv": 0.5849591831221884,
+        "range": 75.70616676523497,
+        "note": "不预设“变化小于 5%% 才算稳定”的判据；如实报告稳定或不稳定"
+      },
+      "R80_um": {
+        "n_valid": 8,
+        "min": 25.632011235952596,
+        "max": 143.12581877495057,
+        "mean": 74.23245634107144,
+        "std": 38.53300436730727,
+        "cv": 0.5190856704277974,
+        "range": 117.49380753899797,
+        "note": "不预设“变化小于 5%% 才算稳定”的判据；如实报告稳定或不稳定"
+      },
+      "r_eq_q0.5_um": {
+        "n_valid": 9,
+        "min": 13.36307771993812,
+        "max": 56.20698907052505,
+        "mean": 22.90387812147811,
+        "std": 14.978656863077019,
+        "cv": 0.6539790678082059,
+        "range": 42.84391135058693,
+        "note": "不预设“变化小于 5%% 才算稳定”的判据；如实报告稳定或不稳定"
+      },
+      "r_eq_q0.1_um": {
+        "n_valid": 9,
+        "min": 23.59499927814048,
+        "max": 108.23179810688578,
+        "mean": 56.543042325209704,
+        "std": 32.505941187868984,
+        "cv": 0.5748884363333279,
+        "range": 84.6367988287453,
+        "note": "不预设“变化小于 5%% 才算稳定”的判据；如实报告稳定或不稳定"
+      }
+    },
+    "jeon": {
+      "R50_um": {
+        "n_valid": 9,
+        "min": 48.507731342539614,
+        "max": 90.60905032059436,
+        "mean": 63.67014985182129,
+        "std": 14.298438767220528,
+        "cv": 0.2245705216729833,
+        "range": 42.10131897805475,
+        "note": "不预设“变化小于 5%% 才算稳定”的判据；如实报告稳定或不稳定"
+      },
+      "R80_um": {
+        "n_valid": 6,
+        "min": 101.96568050084302,
+        "max": 146.93195704134618,
+        "mean": 121.7405599587147,
+        "std": 16.977516335983566,
+        "cv": 0.13945653233187913,
+        "range": 44.96627654050316,
+        "note": "不预设“变化小于 5%% 才算稳定”的判据；如实报告稳定或不稳定"
+      },
+      "r_eq_q0.5_um": {
+        "n_valid": 9,
+        "min": 18.47236308621676,
+        "max": 36.78931415579092,
+        "mean": 27.707787631507017,
+        "std": 6.482552526107188,
+        "cv": 0.23396139065017818,
+        "range": 18.31695106957416,
+        "note": "不预设“变化小于 5%% 才算稳定”的判据；如实报告稳定或不稳定"
+      },
+      "r_eq_q0.1_um": {
+        "n_valid": 9,
+        "min": 63.00509971897556,
+        "max": 79.45864705905511,
+        "mean": 68.37011628631492,
+        "std": 5.70856309295766,
+        "cv": 0.08349500341716247,
+        "range": 16.453547340079552,
+        "note": "不预设“变化小于 5%% 才算稳定”的判据；如实报告稳定或不稳定"
+      }
+    }
+  },
+  "a3_min": 0.05,
+  "ambiguity_rad": 2.827433388230814,
+  "definitions": {
+    "bands": {
+      "primary": {
+        "r_min_m": 2e-05,
+        "r_max_m": 0.0001,
+        "label": "C3主环带20-100um"
+      },
+      "sensitivity": {
+        "r_min_m": 3e-05,
+        "r_max_m": 0.00012,
+        "label": "C3敏感性环带30-120um"
+      },
+      "exclude_axis_note": "光轴 r=0 不计入环带"
+    },
+    "size_roi": {
+      "r_max_m": 0.00015,
+      "quantiles": [
+        0.5,
+        0.1
+      ],
+      "note": "以同一完整方窗内峰值 Ipeak 为参考的峰值相对形状指标，不是通光效率"
+    },
+    "energy": {
+      "capture_radii_m": [
+        5e-05,
+        0.0001,
+        0.00015
+      ],
+      "r_limit_note": "完整圆盘上限 Rlimit=min(xmax,-xmin,ymax,-ymin)=150um",
+      "r50_r80_note": "R50/R80 = Eabs 第一次达到 0.5/0.8 的半径；圆盘内未达到写 null/not_reached"
+    },
+    "source": "重读已有 run（只读），不是重新传播"
+  }
+}

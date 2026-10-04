@@ -1,0 +1,136 @@
+{
+  "checks": [
+    {
+      "check": "默认配置：不弹窗、落盘",
+      "ok": true,
+      "detail": "{\"case\": \"default_config_off\", \"config_runtime\": {\"show_plots\": false, \"save_results\": true}, \"argv_extra\": [], \"effective_show_plots\": false, \"effective_save_results\": true, \"show_source\": \"默认 false\""
+    },
+    {
+      "check": "默认配置：后端未被要求 show",
+      "ok": true,
+      "detail": "[False]"
+    },
+    {
+      "check": "配置 show_plots=true 真的生效（后端收到 show=True）",
+      "ok": true,
+      "detail": "[True]"
+    },
+    {
+      "check": "配置 save_results=false 真的不落盘",
+      "ok": true,
+      "detail": "added=[]"
+    },
+    {
+      "check": "CLI --show-plots 覆盖配置 false",
+      "ok": true,
+      "detail": "[True]"
+    },
+    {
+      "check": "CLI --no-save 覆盖配置 true 且无项目输出",
+      "ok": true,
+      "detail": "added=[]"
+    }
+  ],
+  "all_ok": true,
+  "records": [
+    {
+      "case": "default_config_off",
+      "config_runtime": {
+        "show_plots": false,
+        "save_results": true
+      },
+      "argv_extra": [],
+      "effective_show_plots": false,
+      "effective_save_results": true,
+      "show_source": "默认 false",
+      "save_source": "配置 runtime.save_results=True",
+      "backend_called_with_show": [
+        false
+      ],
+      "run_dir_exists": true,
+      "project_output_added": [],
+      "project_output_removed": [],
+      "exit_code": 0
+    },
+    {
+      "case": "config_show_true",
+      "config_runtime": {
+        "show_plots": true,
+        "save_results": true
+      },
+      "argv_extra": [],
+      "effective_show_plots": true,
+      "effective_save_results": true,
+      "show_source": "配置 runtime.show_plots",
+      "save_source": "配置 runtime.save_results=True",
+      "backend_called_with_show": [
+        true
+      ],
+      "run_dir_exists": true,
+      "project_output_added": [],
+      "project_output_removed": [],
+      "exit_code": 0
+    },
+    {
+      "case": "config_save_false",
+      "config_runtime": {
+        "show_plots": false,
+        "save_results": false
+      },
+      "argv_extra": [],
+      "effective_show_plots": false,
+      "effective_save_results": false,
+      "show_source": "默认 false",
+      "save_source": "配置 runtime.save_results=False",
+      "backend_called_with_show": [
+        false
+      ],
+      "run_dir_exists": false,
+      "project_output_added": [],
+      "project_output_removed": [],
+      "exit_code": 0
+    },
+    {
+      "case": "cli_show_overrides_config_off",
+      "config_runtime": {
+        "show_plots": false,
+        "save_results": true
+      },
+      "argv_extra": [
+        "--show-plots"
+      ],
+      "effective_show_plots": true,
+      "effective_save_results": true,
+      "show_source": "CLI --show-plots",
+      "save_source": "配置 runtime.save_results=True",
+      "backend_called_with_show": [
+        true
+      ],
+      "run_dir_exists": true,
+      "project_output_added": [],
+      "project_output_removed": [],
+      "exit_code": 0
+    },
+    {
+      "case": "cli_no_save_overrides_config_on",
+      "config_runtime": {
+        "show_plots": false,
+        "save_results": true
+      },
+      "argv_extra": [
+        "--no-save"
+      ],
+      "effective_show_plots": false,
+      "effective_save_results": false,
+      "show_source": "默认 false",
+      "save_source": "CLI --no-save/--log-to-console-only",
+      "backend_called_with_show": [
+        false
+      ],
+      "run_dir_exists": false,
+      "project_output_added": [],
+      "project_output_removed": [],
+      "exit_code": 0
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+continuous_coincident_points_G_10000_unweighted_ideal_control: converged, 322轮, 基线=0.941988, 噪声扰动=0.0207755, 交叉项=0.00379734
+continuous_coincident_points_G_10000_fixed_weighted_ideal_control: converged, 306轮, 基线=0.961055, 噪声扰动=0.020328, 交叉项=0.00128451
+continuous_separated_points_G_10000_unweighted_ideal_control: converged, 313轮, 基线=0.853515, 噪声扰动=0.0155707, 交叉项=0.00149733
+continuous_separated_points_G_10000_fixed_weighted_ideal_control: converged, 344轮, 基线=0.927615, 噪声扰动=0.0203775, 交叉项=0.00279352
+continuous_lines_and_square_G_10000_unweighted_ideal_control: converged, 392轮, 基线=0.643397, 噪声扰动=0.0357499, 交叉项=0.000586566
+continuous_lines_and_square_G_10000_fixed_weighted_ideal_control: converged, 324轮, 基线=0.617141, 噪声扰动=0.0426558, 交叉项=0.00322261
+nearest_depth_coincident_points_G_10000_unweighted_ideal_control: converged, 324轮, 基线=0.942188, 噪声扰动=0.0196465, 交叉项=-0.00164796
+nearest_depth_coincident_points_G_10000_fixed_weighted_ideal_control: converged, 310轮, 基线=0.961539, 噪声扰动=0.0241537, 交叉项=-0.00287353
+nearest_depth_separated_points_G_10000_unweighted_ideal_control: converged, 312轮, 基线=0.854017, 噪声扰动=0.013845, 交叉项=-0.00454306
+nearest_depth_separated_points_G_10000_fixed_weighted_ideal_control: converged, 347轮, 基线=0.927792, 噪声扰动=0.0173861, 交叉项=0.000771336
+nearest_depth_lines_and_square_G_10000_unweighted_ideal_control: converged, 392轮, 基线=0.644337, 噪声扰动=0.0386648, 交叉项=-0.00284707
+nearest_depth_lines_and_square_G_10000_fixed_weighted_ideal_control: converged, 324轮, 基线=0.618504, 噪声扰动=0.0407, 交叉项=-0.00104025
+结果目录：D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\results\stage02f3_1\run_20261004_100605

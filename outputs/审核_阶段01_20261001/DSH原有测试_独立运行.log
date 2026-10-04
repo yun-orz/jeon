@@ -1,0 +1,38 @@
+test_airy_dark_rings_from_bessel_zeros (test_propagation.TestAnalyticReference) ... ok
+test_analytic_encircled_energy_matches_airy_profile (test_propagation.TestAnalyticReference) ... ok
+test_far_field_airy_scale (test_propagation.TestAnalyticReference)
+远场（N_F≪1）圆孔 + 理想透镜的焦平面 Airy 尺度。 ... ok
+test_paper_scale_first_ring_value (test_propagation.TestAnalyticReference)
+论文第 6 节实物参数：D=1 mm、f=50 mm、λ=550 nm → 33.55 μm。 ... ok
+test_paraxial_gaussian_solution (test_propagation.TestAnalyticReference)
+近轴高斯光束的闭式解应满足自由空间传播的宽度与轴上幅值关系。 ... ok
+test_axis_centred_on_zero (test_propagation.TestCoordinates) ... ok
+test_index_convention (test_propagation.TestCoordinates) ... ok
+test_units_roundtrip (test_propagation.TestCoordinates) ... ok
+test_output_scales_with_input_sample_count (test_propagation.TestDirectSumAccuracy)
+固定物理问题加密输入采样，结果应收敛（不自洽的缩放会破坏这一点）。 ... ok
+test_power_conservation_for_compact_input (test_propagation.TestDirectSumAccuracy)
+输入在场边缘已衰减到 ~1e-6 时，全平面功率应守恒（离散求和的直接结论）。 ... ok
+test_criterion_grows_with_window_and_spacing (test_propagation.TestDirectSumValidity) ... ok
+test_ir_validity_ignores_padding (test_propagation.TestDirectSumValidity)
+判据必须按**实际有值的输入范围**算；脉冲响应本身只由 Δx 与 λz 决定。 ... ok
+test_validity_flags (test_propagation.TestDirectSumValidity) ... ok
+test_ir_flags_failure_in_undersampled_window (test_propagation.TestIRFormValidity) ... ok
+test_ir_passes_for_small_oversampled_window (test_propagation.TestIRFormValidity) ... ok
+test_odd_padded_size_rejected (test_propagation.TestIRFormValidity) ... ok
+test_output_spacing_formula (test_propagation.TestIRFormValidity) ... ok
+test_azimuthal_average_counts (test_propagation.TestMetrics) ... ok
+test_find_dark_rings_matches_nearest_theory (test_propagation.TestMetrics)
+配对必须用最近邻 + 容差，否则数值伪影会被当成暗环。 ... ok
+test_normalized_l1_is_scale_invariant (test_propagation.TestMetrics) ... ok
+test_relative_l2_zero_reference_returns_nan (test_propagation.TestMetrics) ... ok
+test_remove_global_phase_leaves_magnitude (test_propagation.TestMetrics) ... ok
+test_diagnostics_present (test_propagation.TestParaxialDiagnostics) ... ok
+test_third_order_error_grows_with_aperture (test_propagation.TestParaxialDiagnostics) ... ok
+test_identity_at_zero_distance (test_propagation.TestTransferForm) ... ok
+test_output_grid_is_input_grid (test_propagation.TestTransferForm) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 0.082s
+
+OK

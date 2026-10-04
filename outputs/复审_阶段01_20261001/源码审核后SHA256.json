@@ -1,0 +1,11 @@
+{
+  "config.json": "f9bc3f16c8241d6a7dab17d4a92ff0c6c202c027cba128ae9b533528f3ed1236",
+  "main.py": "2f27d0f9ee39983a69280b027ea8f125335802cb565e3b878b245d98cd89e447",
+  "optics\\__init__.py": "12f8bb8fc42fc39fa60b0e46b861b8bb0d8d18cca6b114d671db4c67ab891472",
+  "optics\\coordinates.py": "c0b3db54d901e7960a537cf5dd42cfae6083a35d20622f40ded3015421c9c707",
+  "optics\\metrics.py": "8b10ee395a70384041ff2011389908899eabb0f3b03fe2aa559f6f13c560a2fc",
+  "optics\\propagation.py": "6191133cafeda178c0fe6481bffd3dbaddc148c21d6a321e80dbd5f6d2ee8c55",
+  "optics\\runutil.py": "c5522c354f224b67d08f60764a154df12eb2736da8991220805bb70f11b8f352",
+  "optics\\units.py": "31408e61a8972474e41c597486368c6a8e592540cb7dc0451fb247a746cdcfbb",
+  "tests\\test_propagation.py": "a4e76c4bf00dffde066aedabea5b7ef480ed465e117069ee6120e9f453e11956"
+}

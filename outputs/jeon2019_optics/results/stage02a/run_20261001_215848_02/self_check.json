@@ -1,0 +1,65 @@
+{
+  "aperture_area": {
+    "measured": 7.85349e-07,
+    "theory": 7.853981633974482e-07,
+    "rel_err": 6.259678178461274e-05,
+    "threshold": 0.01,
+    "status": "pass"
+  },
+  "height_boundaries": {
+    "h_min_m": -1.4461136454661754e-06,
+    "h_max_m": 0.0,
+    "h_origin_m": 0.0,
+    "bound_violation": false,
+    "status": "pass"
+  },
+  "local_focusing_phase_identity": {
+    "max_phasor_error": 8.330074156748355e-15,
+    "threshold": 1e-10,
+    "status": "pass"
+  },
+  "device_identity": {
+    "status": "pass",
+    "fingerprint": "8527724f6aeffc0314d09313d89fdca0c2c864827e6a47308480968bcabc1350"
+  },
+  "control_550nm": {
+    "first_dark_ring_measured_m": 3.355951066943923e-05,
+    "first_dark_ring_theory_m": 3.354092200982887e-05,
+    "first_dark_ring_rel_err": 0.0005542083668693854,
+    "dark_ring_status": "pass",
+    "cut_normalized_l1": 4.6815512370564546e-05,
+    "cut_l1_status": "pass",
+    "peak_intensity": 815.5676348582103,
+    "Pin": 7.85349e-07,
+    "Pwindow": 7.589505920332572e-07,
+    "eta_window": 0.9663863989554418,
+    "status": "pass"
+  },
+  "psf_preview": {
+    "wavelengths_tested_nm": [
+      420,
+      540,
+      660
+    ],
+    "eta_values": [
+      0.7954346349354737,
+      0.8886123665659302,
+      0.7255393536982914
+    ],
+    "eta_max_allowed": 1.02,
+    "all_finite": true,
+    "fingerprint_strictly_matched": true,
+    "non_zero_fields": true,
+    "status": "pass"
+  },
+  "saved_artifacts": {
+    "status": "pass",
+    "files_verified": [
+      "doe_continuous.npz",
+      "fresnel_control.npz",
+      "psf_420nm.npz",
+      "psf_540nm.npz",
+      "psf_660nm.npz"
+    ]
+  }
+}

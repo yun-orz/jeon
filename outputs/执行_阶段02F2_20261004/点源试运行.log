@@ -1,0 +1,3 @@
+continuous_coincident_points_G_10000_unweighted: converged, 308轮, cube=0.94423, 距离相对上界=0.000261464
+continuous_coincident_points_G_10000_fixed_weighted: converged, 297轮, cube=0.961938, 距离相对上界=0.000642869
+结果目录：D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\results\stage02f2\run_20261004_095231

@@ -1,0 +1,151 @@
+{
+  "stage": "02E-1",
+  "formal_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02e1\\run_20261002_224704",
+  "implementation_audit_passed": true,
+  "main_sweep_converged_count": 12,
+  "main_sweep_count": 12,
+  "stricter_converged_count": 1,
+  "stricter_count": 2,
+  "optimization_validation_passed": false,
+  "diagnostic_delivery_complete": true,
+  "regression_tests_passed": 194,
+  "regression_elapsed_s": 152.403,
+  "formal_elapsed_s": 141.60427429999982,
+  "independent_audit": {
+    "implementation_audit_passed": true,
+    "all_reconstructions_converged": false,
+    "run_dir": "outputs\\jeon2019_optics\\results\\stage02e1\\run_20261002_224704",
+    "source_unchanged": true,
+    "records": [
+      {
+        "identity": "continuous_coincident_points_crop_alpha_0p01",
+        "objective": 2.3430910895037257e-06,
+        "projected_gradient_relative": 1.6665226337393078e-06,
+        "solver_status": "converged",
+        "cube_relative_l2": 0.18602022746858282,
+        "relative_distance_upper_bound": 0.08203328937254535
+      },
+      {
+        "identity": "continuous_coincident_points_crop_alpha_0p1",
+        "objective": 1.2156110789836263e-05,
+        "projected_gradient_relative": 1.1000577237089724e-06,
+        "solver_status": "converged",
+        "cube_relative_l2": 0.6335846250318636,
+        "relative_distance_upper_bound": 0.008726417267077648
+      },
+      {
+        "identity": "continuous_coincident_points_crop_alpha_1",
+        "objective": 5.2955236868755984e-05,
+        "projected_gradient_relative": 3.257318252745047e-06,
+        "solver_status": "converged",
+        "cube_relative_l2": 0.8648659189550184,
+        "relative_distance_upper_bound": 0.003784758999426445
+      },
+      {
+        "identity": "continuous_coincident_points_crop_alpha_10",
+        "objective": 0.00023279815199593883,
+        "projected_gradient_relative": 9.855939290993922e-06,
+        "solver_status": "converged",
+        "cube_relative_l2": 0.9398216377479874,
+        "relative_distance_upper_bound": 0.0018230164337935933
+      },
+      {
+        "identity": "continuous_separated_points_crop_alpha_0p01",
+        "objective": 2.6704610070291716e-06,
+        "projected_gradient_relative": 1.8751686675510927e-07,
+        "solver_status": "converged",
+        "cube_relative_l2": 0.11247621717741174,
+        "relative_distance_upper_bound": 0.0038613397314895747
+      },
+      {
+        "identity": "continuous_separated_points_crop_alpha_0p1",
+        "objective": 2.2731948349616857e-05,
+        "projected_gradient_relative": 5.08013185003344e-06,
+        "solver_status": "converged",
+        "cube_relative_l2": 0.2575117225379741,
+        "relative_distance_upper_bound": 0.012090233496572398
+      },
+      {
+        "identity": "continuous_separated_points_crop_alpha_1",
+        "objective": 0.00013048158628809956,
+        "projected_gradient_relative": 9.963869320839243e-06,
+        "solver_status": "converged",
+        "cube_relative_l2": 0.6254976393478293,
+        "relative_distance_upper_bound": 0.0034498348549427712
+      },
+      {
+        "identity": "continuous_separated_points_crop_alpha_10",
+        "objective": 0.0005317127578950126,
+        "projected_gradient_relative": 9.62761466211076e-06,
+        "solver_status": "converged",
+        "cube_relative_l2": 0.8469246732725499,
+        "relative_distance_upper_bound": 0.0006066041970737281
+      },
+      {
+        "identity": "continuous_lines_and_square_crop_alpha_0p01",
+        "objective": 6.374038746347367e-05,
+        "projected_gradient_relative": 1.6798601116779862e-07,
+        "solver_status": "converged",
+        "cube_relative_l2": 0.07832404852048368,
+        "relative_distance_upper_bound": 0.05271401479579191
+      },
+      {
+        "identity": "continuous_lines_and_square_crop_alpha_0p1",
+        "objective": 0.0006046137369824379,
+        "projected_gradient_relative": 4.890159920189936e-07,
+        "solver_status": "converged",
+        "cube_relative_l2": 0.1528304040429636,
+        "relative_distance_upper_bound": 0.01605097810835991
+      },
+      {
+        "identity": "continuous_lines_and_square_crop_alpha_1",
+        "objective": 0.0048924959700883345,
+        "projected_gradient_relative": 1.073114442683413e-06,
+        "solver_status": "converged",
+        "cube_relative_l2": 0.36959684774904233,
+        "relative_distance_upper_bound": 0.0041279862564225145
+      },
+      {
+        "identity": "continuous_lines_and_square_crop_alpha_10",
+        "objective": 0.03137845384089969,
+        "projected_gradient_relative": 9.931849881318235e-06,
+        "solver_status": "converged",
+        "cube_relative_l2": 0.630459782762433,
+        "relative_distance_upper_bound": 0.0050771222565376434
+      },
+      {
+        "identity": "continuous_lines_and_square_crop_alpha_0p01_strict",
+        "objective": 6.373661378992893e-05,
+        "projected_gradient_relative": 7.056803965864609e-08,
+        "solver_status": "iteration_limit",
+        "cube_relative_l2": 0.07894450383833226,
+        "relative_distance_upper_bound": 0.022146913969075657
+      },
+      {
+        "identity": "continuous_lines_and_square_crop_alpha_1_strict",
+        "objective": 0.00489246003430721,
+        "projected_gradient_relative": 5.819017301501979e-08,
+        "solver_status": "converged",
+        "cube_relative_l2": 0.3706844565433508,
+        "relative_distance_upper_bound": 0.0002239012325113931
+      }
+    ]
+  },
+  "entry_audit": {
+    "missing_source_failure": true,
+    "iteration_limit_exit": 2,
+    "budget_partial_exit": 2,
+    "report_write_failure": true,
+    "no_save_files_unchanged": true,
+    "files_checked": 8476,
+    "mock_show_called_once": true,
+    "all_figures_closed": true,
+    "real_GUI_verified": false,
+    "default_no_save_optimization_passed": false,
+    "default_no_save_exit": 2
+  },
+  "source_manifest_matches": true,
+  "next_stage_executed": false,
+  "real_GUI_verified": false,
+  "next_plan": "D:\\PyCharmProjects\\Jeon2019\\outputs\\执行_阶段02E1_20261002\\下一阶段02E2详细规划.md"
+}

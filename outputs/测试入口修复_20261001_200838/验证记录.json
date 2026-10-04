@@ -1,0 +1,43 @@
+[
+  {
+    "name": "包名加载单测试",
+    "command": [
+      "D:\\dev\\python\\python3.10.4\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "tests.test_validation_completion",
+      "-v"
+    ],
+    "cwd": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+    "exit_code": 0,
+    "elapsed_s": 0.945174099993892
+  },
+  {
+    "name": "项目外直接运行单文件",
+    "command": [
+      "D:\\dev\\python\\python3.10.4\\python.exe",
+      "-B",
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\tests\\test_validation_completion.py"
+    ],
+    "cwd": "D:\\PyCharmProjects\\Jeon2019",
+    "exit_code": 0,
+    "elapsed_s": 0.9032137000467628
+  },
+  {
+    "name": "完整测试发现",
+    "command": [
+      "D:\\dev\\python\\python3.10.4\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "cwd": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+    "exit_code": 0,
+    "elapsed_s": 17.7533922001021
+  }
+]

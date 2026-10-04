@@ -1,0 +1,13 @@
+{
+  "missing_source_failure": true,
+  "iteration_limit_exit": 2,
+  "budget_partial_exit": 2,
+  "report_write_failure": true,
+  "no_save_files_unchanged": true,
+  "files_checked": 8476,
+  "mock_show_called_once": true,
+  "all_figures_closed": true,
+  "real_GUI_verified": false,
+  "default_no_save_optimization_passed": false,
+  "default_no_save_exit": 2
+}

@@ -1,0 +1,104 @@
+Compact Snapshot Hyperspectral Imaging with Diffracted Rotation
+•
+117:7
+Fig. 6. (a) is a microscopic 3D profile of our fabricated DOE, measured
+by a Zygo NewView 7300 profiler. It is mounted on a custom-built 3D-
+printed structure at 50 mm focal length. (b) shows measured PSFs of our
+fabricated DOE in the wavelength range from 420nm to 650nm. Intensities
+are normalized for visualization.
+generate the desired pattern areas on the fused silica, which is ex-
+posed to air. In the RIE step, we apply plasma gases in a vacuum
+chamber to etch these exposed areas to specific depths. Auxiliary
+layers are then removed chemically afterwards. Each iteration of
+the photolithography and subsequent RIE procedures doubles the
+number of stairs in the microstructure, and hence we can obtain 16
+levels by four iterations. The depth interval for each stair is 100 nm
+in our hyperspectral DOE. The maximum height of our DOE at its
+center is 0.5 mm. Theoretical analysis and experimental results have
+shown that 16-level DOEs can offer sufficient diffraction efficiency
+for wide-spectrum imaging applications [Heide et al. 2016; Peng
+et al. 2015, 2016; Sitzmann et al. 2018; Swanson 1991]. Figure 6(a)
+shows a fabricated DOE. Our measured PSFs in Figure 6(b) present
+good agreement with our synthetic PSFs shown in Figure 3.
+Spectral calibration. We built our prototype camera by installing
+the fabricated DOE (its diameter is 1 mm and its focal length is
+50 mm) in front of a Canon EOS 5D Mark III having resolution of
+5760 × 3840 and pixel pitch of 6.22 um. A custom-design 3D-printed
+holder is fabricated to firmly attach the DOE to the camera. We use
+demosaicked RGB signals as input, captured without adaptive white
+balancing so that we carefully chose the target spectral range of the
+reconstruction as 25 spectral channels from 420 nm to 660 nm with
+10 nm bandwidth each in consideration of the spectral response
+function for the DSLR camera [Baek et al. 2017]. In our image forma-
+tion (Equation (15)), we directly calibrate the measurement matrix Φ,
+the product of the camera function Ωand the spectrally-varying
+PSF P.
+To calibrate spectrally-varying PSFs, we build an experimental
+setup where a solid-state plasma light source (Thorlabs HPLS-30-04)
+is covered with a Thorlabs high-precision pinhole of 1 mm diameter
+at a distance of 8.03 m from the camera in a dark room such that
+the point light is captured within less than a pixel with a focal
+length of 50 mm. The spectral power distribution is measured by a
+spectroradiometer (SpectraScan 655). The incident light is filtered by
+a Varispec visible liquid crystal tunable filter with 10 nm intervals
+and captured by the camera with varying exposures. Later, the
+intensity of the captured PSFs is adjusted with exposure scalers.
+Figure 6(b) shows examples of captured spectrally-varying point
+spread functions.
+Network architecture. For training, we used 238 hyperspectral im-
+ages, publicly available from the Harvard [Chakrabarti and Zickler
+2011], ICVL [Arad and Ben-Shahar 2016], and KAIST datasets (58
+images, 150 images, and 30 images, respectively). To achieve scale
+invariance, we augmented the input datasets by scaling them to two
+additional resolutions (half and double) following [Simonyan and
+Zisserman 2015]. This results in a training dataset of 714 hyperspec-
+tral images. To enhance the sensitivity to noise in reconstruction,
+we added synthetic Gaussian noise with a standard deviation of
+0.005. For testing, we excluded 10 images in the KAIST dataset from
+the training process for evaluation of the reconstruction accuracy
+in this paper. With real input, the resolution of the real camera is
+scaled by half to make it compatible to that of the trained network.
+Each hyperspectral image includes 25 wavelength channels in a
+range from 420 nm to 660 nm.
+We implement our neural network architecture design of spectral
+reconstruction (Section 5) using TensorFlow [Abadi et al. 2016]. We
+sampled 30,000 tensor patches of size 256×256×25 from the aug-
+mented dataset for training the network. We optimize the spectral
+reconstruction problem (Equation (18)) using the stochastic gradi-
+ent method with the ADAM optimizer [Kingma and Ba 2014]. The
+batch size is set to 16 with a learning rate of 10−3 for gradient de-
+scent. The learning rate is adaptively reduced by half in every 10
+epochs. With Γ=64 feature channels and four levels in the U-net, it
+took approximately 30 hours to train the network, using a machine
+equipped with a workstation of Intel i7-3770 CPU 3.40 GHz with
+32 GB of memory and an NVIDIA Titan Xp GPU with 12 GB of
+memory. We downscale the input image and the point spread func-
+tion to half the size to match the GPU’s memory size. It took about
+3.22 seconds to reconstruct a hyperspectral image with 1440×960
+resolution through inference using our network.
+7
+RESULTS
+7.1
+Comparison with Other Spectral Imaging Systems
+We compare our proposed system with two existing hyperspec-
+tral cameras, DD-CASSI [Gehm et al. 2007] and a prism-based sys-
+tem [Baek et al. 2017]. To compare the spectral accuracy, we sim-
+ulated the image formation models of the three systems with ten
+testing images from a hyperspectral image dataset [Choi et al. 2017].
+The DD-CASSI result is reconstructed by TwIST [Bioucas-Dias and
+Figueiredo 2007] and the prism method is reconstructed by the
+authors’ implementation. Table 1 shows the average peak signal-to-
+noise ratio (PSNR), structural similarity (SSIM), and spectral angle
+mapping (SAM) [Kruse et al. 1993] error indices for the test dataset
+of ten hyperspectral images (not used for training). Figure 7 shows
+that our system provides the most accurate reconstruction results
+in terms of both spatial and spectral accuracy, while our diffraction-
+based spectral imaging method uses only a single optical element
+on a bare sensor.
+7.2
+Comparison with Other Spectral Reconstructions
+As mentioned above, we excluded ten hyperspectral images from
+the KAIST dataset when training our reconstruction network. We
+made use of these ten images to evaluate the spectral accuracy of
+our reconstruction method, compared with that of three existing
+ACM Trans. Graph., Vol. 38, No. 4, Article 117. Publication date: July 2019.

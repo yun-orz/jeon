@@ -1,0 +1,26 @@
+[
+  {
+    "scene": "coincident_points",
+    "delta": -0.0006239636840329743,
+    "radius": 0.00026802890260638266,
+    "lower": -0.000891992586639357,
+    "upper": -0.00035593478142659164,
+    "crosses_zero": false
+  },
+  {
+    "scene": "separated_points",
+    "delta": -0.0011575915445163204,
+    "radius": 0.00039777244474311317,
+    "lower": -0.0015553639892594336,
+    "upper": -0.0007598190997732072,
+    "crosses_zero": false
+  },
+  {
+    "scene": "lines_and_square",
+    "delta": -0.00044943866094135365,
+    "radius": 0.001638628851937377,
+    "lower": -0.0020880675128787307,
+    "upper": 0.0011891901909960234,
+    "crosses_zero": true
+  }
+]

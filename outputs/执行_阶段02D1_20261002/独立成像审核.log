@@ -1,0 +1,45 @@
+{
+  "accepted": true,
+  "run_dir": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02d1\\run_20261002_203904",
+  "source_run_sha_unchanged": true,
+  "source_manifest_matches": true,
+  "checks": [
+    {
+      "file": "continuous_coincident_points.npz",
+      "forward_relative_error": 3.723215166958649e-16,
+      "direct_transpose_relative_error": 4.814709655563555e-16,
+      "flux_relative_error": 0.0
+    },
+    {
+      "file": "continuous_lines_and_square.npz",
+      "forward_relative_error": 4.0358958406630068e-16,
+      "direct_transpose_relative_error": 4.814709655563555e-16,
+      "flux_relative_error": 0.0
+    },
+    {
+      "file": "continuous_separated_points.npz",
+      "forward_relative_error": 4.066495198093033e-16,
+      "direct_transpose_relative_error": 4.814709655563555e-16,
+      "flux_relative_error": 0.0
+    },
+    {
+      "file": "nearest_depth_coincident_points.npz",
+      "forward_relative_error": 3.6990095002329914e-16,
+      "direct_transpose_relative_error": 4.784026714187012e-16,
+      "flux_relative_error": 0.0
+    },
+    {
+      "file": "nearest_depth_lines_and_square.npz",
+      "forward_relative_error": 3.932491519669057e-16,
+      "direct_transpose_relative_error": 4.784026714187012e-16,
+      "flux_relative_error": 2.053923915828684e-16
+    },
+    {
+      "file": "nearest_depth_separated_points.npz",
+      "forward_relative_error": 4.02261532937099e-16,
+      "direct_transpose_relative_error": 4.784026714187012e-16,
+      "flux_relative_error": 1.4219662223888146e-16
+    }
+  ]
+}
+

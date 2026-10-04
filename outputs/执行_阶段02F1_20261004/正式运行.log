@@ -1,0 +1,19 @@
+continuous_coincident_points_G_1000: 统计通过=True, max|Z|=2.3476
+continuous_coincident_points_G_10000: 统计通过=True, max|Z|=1.2468
+continuous_coincident_points_G_100000: 统计通过=True, max|Z|=1.4406
+continuous_separated_points_G_1000: 统计通过=True, max|Z|=1.5138
+continuous_separated_points_G_10000: 统计通过=True, max|Z|=1.6211
+continuous_separated_points_G_100000: 统计通过=True, max|Z|=1.4675
+continuous_lines_and_square_G_1000: 统计通过=True, max|Z|=3.3434
+continuous_lines_and_square_G_10000: 统计通过=True, max|Z|=1.7248
+continuous_lines_and_square_G_100000: 统计通过=True, max|Z|=1.7751
+nearest_depth_coincident_points_G_1000: 统计通过=True, max|Z|=1.1718
+nearest_depth_coincident_points_G_10000: 统计通过=True, max|Z|=0.8574
+nearest_depth_coincident_points_G_100000: 统计通过=True, max|Z|=0.7637
+nearest_depth_separated_points_G_1000: 统计通过=True, max|Z|=1.6566
+nearest_depth_separated_points_G_10000: 统计通过=True, max|Z|=3.0663
+nearest_depth_separated_points_G_100000: 统计通过=True, max|Z|=1.3013
+nearest_depth_lines_and_square_G_1000: 统计通过=True, max|Z|=0.6982
+nearest_depth_lines_and_square_G_10000: 统计通过=True, max|Z|=1.4876
+nearest_depth_lines_and_square_G_100000: 统计通过=True, max|Z|=1.0907
+结果目录：D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\results\stage02f1\run_20261004_093359

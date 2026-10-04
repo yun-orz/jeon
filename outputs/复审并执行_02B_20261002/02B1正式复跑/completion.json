@@ -1,0 +1,306 @@
+{
+  "stage": "stage02b1",
+  "batch_title": "Jeon光学编码复现：02B-1九波长对照",
+  "status": "completed",
+  "only_mode": "all",
+  "calculation_status": "completed",
+  "saving_status": "completed",
+  "analysis_status": "completed",
+  "finished_steps": [
+    "H_height_design",
+    "C_single_field_control",
+    "P_eighteen_fields",
+    "V_verify_saved",
+    "A_analysis"
+  ],
+  "wavelengths_completed": [
+    420,
+    450,
+    480,
+    510,
+    540,
+    570,
+    600,
+    630,
+    660
+  ],
+  "identity_records": [
+    {
+      "identity": "fresnel@420nm",
+      "device_key": "fresnel",
+      "wavelength_nm": 420,
+      "eta_window": 0.7294722647435741,
+      "peak_intensity": 54.823730776672164,
+      "saved": true
+    },
+    {
+      "identity": "fresnel@450nm",
+      "device_key": "fresnel",
+      "wavelength_nm": 450,
+      "eta_window": 0.8241285606967279,
+      "peak_intensity": 57.562185346396205,
+      "saved": true
+    },
+    {
+      "identity": "fresnel@480nm",
+      "device_key": "fresnel",
+      "wavelength_nm": 480,
+      "eta_window": 0.9013373950851911,
+      "peak_intensity": 179.88617309157726,
+      "saved": true
+    },
+    {
+      "identity": "fresnel@510nm",
+      "device_key": "fresnel",
+      "wavelength_nm": 510,
+      "eta_window": 0.9490954706724404,
+      "peak_intensity": 605.5580287835514,
+      "saved": true
+    },
+    {
+      "identity": "fresnel@540nm",
+      "device_key": "fresnel",
+      "wavelength_nm": 540,
+      "eta_window": 0.9660076716350797,
+      "peak_intensity": 825.9641194862319,
+      "saved": true
+    },
+    {
+      "identity": "fresnel@570nm",
+      "device_key": "fresnel",
+      "wavelength_nm": 570,
+      "eta_window": 0.9609269456409364,
+      "peak_intensity": 696.4667546143601,
+      "saved": true
+    },
+    {
+      "identity": "fresnel@600nm",
+      "device_key": "fresnel",
+      "wavelength_nm": 600,
+      "eta_window": 0.9392891658753925,
+      "peak_intensity": 412.077828177236,
+      "saved": true
+    },
+    {
+      "identity": "fresnel@630nm",
+      "device_key": "fresnel",
+      "wavelength_nm": 630,
+      "eta_window": 0.904378549325958,
+      "peak_intensity": 173.00913885615364,
+      "saved": true
+    },
+    {
+      "identity": "fresnel@660nm",
+      "device_key": "fresnel",
+      "wavelength_nm": 660,
+      "eta_window": 0.8579119461385067,
+      "peak_intensity": 45.35617940573949,
+      "saved": true
+    },
+    {
+      "identity": "jeon@420nm",
+      "device_key": "jeon",
+      "wavelength_nm": 420,
+      "eta_window": 0.7954346349354737,
+      "peak_intensity": 74.51191690200304,
+      "saved": true
+    },
+    {
+      "identity": "jeon@450nm",
+      "device_key": "jeon",
+      "wavelength_nm": 450,
+      "eta_window": 0.8283961597008179,
+      "peak_intensity": 126.80587227301793,
+      "saved": true
+    },
+    {
+      "identity": "jeon@480nm",
+      "device_key": "jeon",
+      "wavelength_nm": 480,
+      "eta_window": 0.8604802114456079,
+      "peak_intensity": 107.42350160493989,
+      "saved": true
+    },
+    {
+      "identity": "jeon@510nm",
+      "device_key": "jeon",
+      "wavelength_nm": 510,
+      "eta_window": 0.8839376148599059,
+      "peak_intensity": 101.51858567322502,
+      "saved": true
+    },
+    {
+      "identity": "jeon@540nm",
+      "device_key": "jeon",
+      "wavelength_nm": 540,
+      "eta_window": 0.8886123665659302,
+      "peak_intensity": 113.38050892064514,
+      "saved": true
+    },
+    {
+      "identity": "jeon@570nm",
+      "device_key": "jeon",
+      "wavelength_nm": 570,
+      "eta_window": 0.8705368930125904,
+      "peak_intensity": 133.95373573210182,
+      "saved": true
+    },
+    {
+      "identity": "jeon@600nm",
+      "device_key": "jeon",
+      "wavelength_nm": 600,
+      "eta_window": 0.8350560053765902,
+      "peak_intensity": 129.38321620555584,
+      "saved": true
+    },
+    {
+      "identity": "jeon@630nm",
+      "device_key": "jeon",
+      "wavelength_nm": 630,
+      "eta_window": 0.7852589754197985,
+      "peak_intensity": 105.00016052398533,
+      "saved": true
+    },
+    {
+      "identity": "jeon@660nm",
+      "device_key": "jeon",
+      "wavelength_nm": 660,
+      "eta_window": 0.7255393536982914,
+      "peak_intensity": 74.88621427913282,
+      "saved": true
+    }
+  ],
+  "limitations": [],
+  "created_timestamp_local": "2026-10-02T16:55:45",
+  "sampling_diagnostics": [
+    {
+      "wavelength_nm": 420,
+      "input_kernel_step_worst_rad": 0.20958910988949042,
+      "output_quadratic_step_x_rad": 0.04502949470145369,
+      "third_order_phase_error_rad": 0.014364735052278943,
+      "threshold_rad": 0.5,
+      "ok": true
+    },
+    {
+      "wavelength_nm": 660,
+      "input_kernel_step_worst_rad": 0.1333748881114939,
+      "output_quadratic_step_x_rad": 0.028655132991834167,
+      "third_order_phase_error_rad": 0.009141195033268417,
+      "threshold_rad": 0.5,
+      "ok": true
+    }
+  ],
+  "figures_created": [
+    "figure3_comparison_peak_normalized.png",
+    "figure3_comparison_raw_shared_scale.png",
+    "figure3_comparison_raw_per_device_scale.png",
+    "rotation_angles.png",
+    "size_metrics.png",
+    "energy_metrics.png",
+    "rotation_reliability.png"
+  ],
+  "figures_saved": true,
+  "checks": {
+    "aperture_area": {
+      "status": "pass",
+      "rel_err_max": 0.01
+    },
+    "local_phase_err": {
+      "status": "pass"
+    },
+    "height_generated_jeon": {
+      "status": "pass"
+    },
+    "height_generated_fresnel": {
+      "status": "pass"
+    },
+    "height_generated": {
+      "status": "pass"
+    },
+    "device_design_lambda": {
+      "status": "pass",
+      "jeon_lambda_design_nm": [
+        420.0,
+        659.9998106752595
+      ],
+      "conventional_lambda0_nm": 550.0
+    },
+    "height_fingerprint_stable": {
+      "status": "pass",
+      "jeon": "8527724f6aeffc0314d09313d89fdca0c2c864827e6a47308480968bcabc1350",
+      "fresnel": "c91e609e89d027adc4228f31d847c1d23b843104b24a747ed02683a9efe43c27",
+      "note": "高度只生成一次；指纹在全部 18 组传播与重读中必须一致"
+    },
+    "control_single_field_health": {
+      "status": "pass",
+      "Pin": 7.85349e-07,
+      "Pwindow": 6.978708334701867e-07,
+      "peak_intensity": 113.38050892064514,
+      "eta_window": 0.8886123665659302,
+      "eta_window_raw": 0.8886123665659302,
+      "intensity_identity_exact": true,
+      "reusable": true,
+      "reason": ""
+    },
+    "jeon_nine_wavelengths": {
+      "status": "pass",
+      "count": 9
+    },
+    "fresnel_nine_wavelengths": {
+      "status": "pass",
+      "count": 9
+    },
+    "identity_set_exact": {
+      "status": "pass",
+      "expected": 18,
+      "verified": 18
+    },
+    "saved_arrays_reverified": {
+      "status": "pass",
+      "problems": [],
+      "worst_pin_relative_diff": 0.0,
+      "worst_pwindow_relative_diff": 0.0,
+      "tolerances": {
+        "Pin_relative": 1e-12,
+        "Pwindow_relative": 1e-09
+      },
+      "independent_power_check": true,
+      "distance_m_used_in_recompute": 0.05
+    },
+    "intensity_identity_exact": {
+      "status": "pass"
+    },
+    "power_in_range": {
+      "status": "pass"
+    },
+    "analysis_completed": {
+      "status": "pass"
+    },
+    "report_delivered": {
+      "status": "pass",
+      "file": "report_stage02b1.md"
+    },
+    "required_artifacts_delivered": {
+      "status": "pass",
+      "missing": [],
+      "checked": [
+        "metrics/psf_metrics.csv",
+        "metrics/psf_metrics.json",
+        "figures/figure3_comparison_peak_normalized.png",
+        "figures/figure3_comparison_raw_shared_scale.png",
+        "figures/figure3_comparison_raw_per_device_scale.png",
+        "figures/rotation_angles.png",
+        "figures/rotation_reliability.png",
+        "figures/size_metrics.png",
+        "figures/energy_metrics.png"
+      ]
+    }
+  },
+  "all_checks_pass": true,
+  "delivered_artifacts": [
+    "report_stage02b1.md",
+    "metrics+figures"
+  ],
+  "elapsed_s": 12.69701699999996,
+  "source_manifest_fingerprint": "56846b17e0614bcc1c3478c6469fa6a4f74d8b5241d3ccde649f444a827aa7ef"
+}

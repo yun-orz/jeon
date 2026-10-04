@@ -1,0 +1,7 @@
+{
+  "case": "控制复场乘2",
+  "exit_code": 2,
+  "expected": 2,
+  "real_gui_shown": false,
+  "results_saved": false
+}

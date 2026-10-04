@@ -1,0 +1,190 @@
+{
+  "stage": "stage02b1",
+  "batch_title": "Jeon光学编码复现：02B-1九波长对照",
+  "status": "in_progress",
+  "only_mode": "all",
+  "calculation_status": "in_progress",
+  "saving_status": "not_started",
+  "analysis_status": "not_started",
+  "finished_steps": [
+    "H_height_design",
+    "C_single_field_control"
+  ],
+  "wavelengths_completed": [
+    420,
+    450,
+    480,
+    510,
+    540,
+    570,
+    600,
+    630,
+    660
+  ],
+  "identity_records": [
+    {
+      "identity": "fresnel@420nm",
+      "device_key": "fresnel",
+      "wavelength_nm": 420,
+      "eta_window": 0.7294722647435741,
+      "peak_intensity": 54.823730776672164,
+      "saved": true
+    },
+    {
+      "identity": "fresnel@450nm",
+      "device_key": "fresnel",
+      "wavelength_nm": 450,
+      "eta_window": 0.8241285606967279,
+      "peak_intensity": 57.562185346396205,
+      "saved": true
+    },
+    {
+      "identity": "fresnel@480nm",
+      "device_key": "fresnel",
+      "wavelength_nm": 480,
+      "eta_window": 0.9013373950851911,
+      "peak_intensity": 179.88617309157726,
+      "saved": true
+    },
+    {
+      "identity": "fresnel@510nm",
+      "device_key": "fresnel",
+      "wavelength_nm": 510,
+      "eta_window": 0.9490954706724404,
+      "peak_intensity": 605.5580287835514,
+      "saved": true
+    },
+    {
+      "identity": "fresnel@540nm",
+      "device_key": "fresnel",
+      "wavelength_nm": 540,
+      "eta_window": 0.9660076716350797,
+      "peak_intensity": 825.9641194862319,
+      "saved": true
+    },
+    {
+      "identity": "fresnel@570nm",
+      "device_key": "fresnel",
+      "wavelength_nm": 570,
+      "eta_window": 0.9609269456409364,
+      "peak_intensity": 696.4667546143601,
+      "saved": true
+    },
+    {
+      "identity": "fresnel@600nm",
+      "device_key": "fresnel",
+      "wavelength_nm": 600,
+      "eta_window": 0.9392891658753925,
+      "peak_intensity": 412.077828177236,
+      "saved": true
+    },
+    {
+      "identity": "fresnel@630nm",
+      "device_key": "fresnel",
+      "wavelength_nm": 630,
+      "eta_window": 0.904378549325958,
+      "peak_intensity": 173.00913885615364,
+      "saved": true
+    },
+    {
+      "identity": "fresnel@660nm",
+      "device_key": "fresnel",
+      "wavelength_nm": 660,
+      "eta_window": 0.8579119461385067,
+      "peak_intensity": 45.35617940573949,
+      "saved": true
+    },
+    {
+      "identity": "jeon@420nm",
+      "device_key": "jeon",
+      "wavelength_nm": 420,
+      "eta_window": 0.7954346349354737,
+      "peak_intensity": 74.51191690200304,
+      "saved": true
+    },
+    {
+      "identity": "jeon@450nm",
+      "device_key": "jeon",
+      "wavelength_nm": 450,
+      "eta_window": 0.8283961597008179,
+      "peak_intensity": 126.80587227301793,
+      "saved": true
+    },
+    {
+      "identity": "jeon@480nm",
+      "device_key": "jeon",
+      "wavelength_nm": 480,
+      "eta_window": 0.8604802114456079,
+      "peak_intensity": 107.42350160493989,
+      "saved": true
+    },
+    {
+      "identity": "jeon@510nm",
+      "device_key": "jeon",
+      "wavelength_nm": 510,
+      "eta_window": 0.8839376148599059,
+      "peak_intensity": 101.51858567322502,
+      "saved": true
+    },
+    {
+      "identity": "jeon@540nm",
+      "device_key": "jeon",
+      "wavelength_nm": 540,
+      "eta_window": 0.8886123665659302,
+      "peak_intensity": 113.38050892064514,
+      "saved": true
+    },
+    {
+      "identity": "jeon@570nm",
+      "device_key": "jeon",
+      "wavelength_nm": 570,
+      "eta_window": 0.8705368930125904,
+      "peak_intensity": 133.95373573210182,
+      "saved": true
+    },
+    {
+      "identity": "jeon@600nm",
+      "device_key": "jeon",
+      "wavelength_nm": 600,
+      "eta_window": 0.8350560053765902,
+      "peak_intensity": 129.38321620555584,
+      "saved": true
+    },
+    {
+      "identity": "jeon@630nm",
+      "device_key": "jeon",
+      "wavelength_nm": 630,
+      "eta_window": 0.7852589754197985,
+      "peak_intensity": 105.00016052398533,
+      "saved": true
+    },
+    {
+      "identity": "jeon@660nm",
+      "device_key": "jeon",
+      "wavelength_nm": 660,
+      "eta_window": 0.7255393536982914,
+      "peak_intensity": 74.88621427913282,
+      "saved": true
+    }
+  ],
+  "limitations": [],
+  "created_timestamp_local": "2026-10-02T16:31:01",
+  "sampling_diagnostics": [
+    {
+      "wavelength_nm": 420,
+      "input_kernel_step_worst_rad": 0.20958910988949042,
+      "output_quadratic_step_x_rad": 0.04502949470145369,
+      "third_order_phase_error_rad": 0.014364735052278943,
+      "threshold_rad": 0.5,
+      "ok": true
+    },
+    {
+      "wavelength_nm": 660,
+      "input_kernel_step_worst_rad": 0.1333748881114939,
+      "output_quadratic_step_x_rad": 0.028655132991834167,
+      "third_order_phase_error_rad": 0.009141195033268417,
+      "threshold_rad": 0.5,
+      "ok": true
+    }
+  ]
+}

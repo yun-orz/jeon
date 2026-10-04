@@ -1,0 +1,75 @@
+{
+  "stage": "stage02b1",
+  "files": {
+    "main_stage02b.py": {
+      "sha256": "4cb42677757e4ca67a2dda656c66cd99e2666927a52d13adb1fcb1992c5bf027",
+      "size": 123300
+    },
+    "config_stage02b.json": {
+      "sha256": "d1dc5da8338a6a5416b83d53dba0408c492a9b465592742c4eb67b45806875ef",
+      "size": 3172
+    },
+    "optics/psf_analysis.py": {
+      "sha256": "a4693fad3fe2f088d73c3a85745a457e25ed92755eb98e24f4f3de10fe3e85df",
+      "size": 27826
+    },
+    "optics/doe.py": {
+      "sha256": "8f6c6113bd9917aefd3b96bcdd21b96868534d4110744fe6977a86a4fe3a847f",
+      "size": 10050
+    },
+    "optics/materials.py": {
+      "sha256": "414d44ac75588031148fa13b246865e380298a45c4d368cd68321f654b9b50db",
+      "size": 4289
+    },
+    "optics/coordinates.py": {
+      "sha256": "c0b3db54d901e7960a537cf5dd42cfae6083a35d20622f40ded3015421c9c707",
+      "size": 9307
+    },
+    "optics/propagation.py": {
+      "sha256": "20078bcaf95c53e9073d909a04cc70c7a265c11cb4517f7b4b298a5ee71460ca",
+      "size": 32770
+    },
+    "optics/stage02_runtime.py": {
+      "sha256": "924df32ce7229024b3b85f043c27e99772818b2f242759c3b253081ff77add54",
+      "size": 8463
+    },
+    "optics/runutil.py": {
+      "sha256": "a031e73b80d093b4ade35d8553e66db1eb26cc30b8505be5e11c8e9628db4b70",
+      "size": 5053
+    },
+    "optics/units.py": {
+      "sha256": "31408e61a8972474e41c597486368c6a8e592540cb7dc0451fb247a746cdcfbb",
+      "size": 1646
+    },
+    "optics/metrics.py": {
+      "sha256": "8b10ee395a70384041ff2011389908899eabb0f3b03fe2aa559f6f13c560a2fc",
+      "size": 16964
+    },
+    "tests/test_stage02b1.py": {
+      "sha256": "fcdfdba6f16c26b76ecd8a8f0fedb71d46f5d71ec949797ef0c24901e4528519",
+      "size": 43794
+    },
+    "tests/_stage02b1_support.py": {
+      "sha256": "ed1ddc16ab39ade12b4f47814f3c6772ac53e92f66a663b00aced9f5fd5e2efb",
+      "size": 4453
+    },
+    "tests/test_stage02_entry.py": {
+      "sha256": "ea0d3c97566a01a17bd263546b9d04e8c5162d93a67170ca2f40532761f39087",
+      "size": 11331
+    },
+    "tests/test_stage02_r2.py": {
+      "sha256": "abff9400163039bf697586607ad7590f447805cc45b52f6f1232e7cfeebc8f2a",
+      "size": 9879
+    },
+    "tests/test_negative_paths.py": {
+      "sha256": "7823abe610699debdc9ce51a4ab96ee15a889014fe08da791c4a7525b6d13544",
+      "size": 11779
+    },
+    "README.md": {
+      "sha256": "cf3d80c1b8ba77a2d8268c3057c564308e01880f040729d6e541a63ceae5d452",
+      "size": 23712
+    }
+  },
+  "manifest_fingerprint": "fc8cc1710f5f75a8bc283df58a30ddaa0193680544616fe51cc5433423bda900",
+  "note": "按显式 02B-1 来源文件集合计算；不含 02A 专用集合"
+}

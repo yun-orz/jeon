@@ -1,0 +1,13 @@
+{
+  "cli_missing_source_failed": true,
+  "missing_source_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02d3\\run_20261002_223448",
+  "iteration_limit_exit": 2,
+  "iteration_limit_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02d3\\run_20261002_223449",
+  "report_write_failure_verified": true,
+  "no_save_exit": 0,
+  "no_save_files_unchanged": true,
+  "files_checked": 7722,
+  "mock_show_called_once": true,
+  "figures_closed": true,
+  "real_GUI_verified": false
+}

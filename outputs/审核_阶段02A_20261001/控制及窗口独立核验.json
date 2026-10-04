@@ -1,0 +1,28 @@
+{
+  "preview_disk_energy_and_size": [
+    {
+      "lambda_nm": 420,
+      "R50_absolute_um": 82.38931969618393,
+      "R80_absolute_um": null,
+      "energy_within_150um_disk": 0.7627990078147878
+    },
+    {
+      "lambda_nm": 540,
+      "R50_absolute_um": 48.91829923454004,
+      "R80_absolute_um": 105.65036677645752,
+      "energy_within_150um_disk": 0.8773472473990561
+    },
+    {
+      "lambda_nm": 660,
+      "R50_absolute_um": 90.60905032059436,
+      "R80_absolute_um": null,
+      "energy_within_150um_disk": 0.691783250317995
+    }
+  ],
+  "independent_control": {
+    "quadratic_minimum_um": 33.55951066943984,
+    "airy_first_zero_um": 33.54092200982887,
+    "ring_relative_error": 0.000554208366887542,
+    "line_sum_normalized_l1": 5.044435186774712e-05
+  }
+}

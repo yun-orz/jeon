@@ -1,0 +1,17 @@
+test_bad_energy_window_fails_despite_small_numeric_error (tests.test_validation_completion.TestCompletionAcceptance) ... ok
+test_bad_padding_trend_fails_despite_small_finest_error (tests.test_validation_completion.TestCompletionAcceptance) ... ok
+test_disabled_explicitly_requested_group_fails (tests.test_validation_completion.TestCompletionAcceptance) ... ok
+test_missing_paper_scale_case_fails (tests.test_validation_completion.TestCompletionAcceptance) ... ok
+test_missing_requested_direct_measurement_fails (tests.test_validation_completion.TestCompletionAcceptance) ... ok
+test_negative_ring_error_is_checked_by_absolute_value (tests.test_validation_completion.TestCompletionAcceptance) ... ok
+test_non_first_airy_nan_and_missing_measurement_fail (tests.test_validation_completion.TestCompletionAcceptance) ... ok
+test_valid_airy_fixture_passes (tests.test_validation_completion.TestCompletionAcceptance) ... ok
+test_absolute_airy_energy_and_output_grid_refinement (tests.test_validation_completion.TestFiniteEnergy) ... ok
+test_off_center_rectangular_support_matches_full_kernel (tests.test_validation_completion.TestFiniteEnergy)
+裁去全零输入后仍使用原坐标，不能把非对称支撑重新居中。 ... ok
+test_zero_input_rejected (tests.test_validation_completion.TestFiniteEnergy) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.392s
+
+OK

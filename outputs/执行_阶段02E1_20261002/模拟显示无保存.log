@@ -1,0 +1,5 @@
+continuous_coincident_points_crop_alpha_1: converged, 581轮, cube误差=0.8649, 最优解距离相对上界=0.003784758999426445
+continuous_separated_points_crop_alpha_1: converged, 679轮, cube误差=0.6255, 最优解距离相对上界=0.0034498348549427712
+continuous_lines_and_square_crop_alpha_1: converged, 765轮, cube误差=0.3696, 最优解距离相对上界=0.0041279862564225145
+{"status": "completed", "optimization_validation_passed": true, "all_reconstructions_converged": true, "run_dir": null, "elapsed_s": 13.661619700000301}
+

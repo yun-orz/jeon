@@ -1,0 +1,44 @@
+{
+  "checks": {
+    "airy_first_dark_ring_rel_err": {
+      "threshold": 0.02,
+      "measured": 0.0017889087656524614,
+      "status": "pass"
+    },
+    "airy_line_L1_vs_analytic": {
+      "threshold": 0.01,
+      "measured": 0.00039143368847814836,
+      "status": "pass"
+    },
+    "discrete_identity_rel_L2": {
+      "threshold": 1e-06,
+      "measured": 2.637460763982599e-13,
+      "status": "pass"
+    },
+    "native_fft_parseval_rel_err": {
+      "threshold": 1e-10,
+      "measured": 2.1538326677728037e-14,
+      "status": "pass"
+    },
+    "window_energy_abs_diff": {
+      "threshold": 0.05,
+      "measured": 0.029778935052923283,
+      "status": "pass"
+    },
+    "sampling_padding_L1": {
+      "threshold": 0.02,
+      "measured": 2.637460763982599e-13,
+      "status": "pass"
+    }
+  },
+  "status": "pass",
+  "exit_code": 0,
+  "not_run": [],
+  "ran": [
+    "airy",
+    "direct",
+    "energy",
+    "sampling"
+  ],
+  "failures": []
+}

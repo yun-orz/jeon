@@ -1,0 +1,13 @@
+{
+  "command": [
+    "D:\\dev\\python\\python3.10.4\\python.exe",
+    "-B",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main.py"
+  ],
+  "cwd": "D:\\PyCharmProjects\\Jeon2019",
+  "exit_code": 0,
+  "elapsed_s": 85.27149890002329,
+  "new_runs": [
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage01\\run_20261001_173406"
+  ]
+}

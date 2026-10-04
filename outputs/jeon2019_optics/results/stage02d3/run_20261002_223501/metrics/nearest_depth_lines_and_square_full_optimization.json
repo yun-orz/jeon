@@ -1,0 +1,24 @@
+{
+  "status": "iteration_limit",
+  "history": [
+    {
+      "iteration": 1,
+      "data_term": 0.7017292709726262,
+      "regularization_term": 0.0005364841510500133,
+      "objective": 0.7022657551236762,
+      "residual_norm": 1.1846765558350736,
+      "residual_relative": 0.32306848490717277,
+      "L": 1.0535705369323618,
+      "backtracks": 0,
+      "restarted": false,
+      "restarts_total": 0,
+      "momentum": 0.0,
+      "extrapolated_negative_count": 0,
+      "projected_gradient_relative": 0.14073854501986213,
+      "objective_relative_change": 0.8955469589100633,
+      "elapsed_s": 0.006942199997865828
+    }
+  ],
+  "algorithm": "accelerated_projected_gradient_monotone_restart",
+  "alpha": 0.00010033001813460194
+}

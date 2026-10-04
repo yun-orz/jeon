@@ -1,0 +1,18 @@
+{
+  "optical": {"diameter_m": 0.001, "focal_length_m": 0.05, "distance_m": 0.05,
+    "wings_N": 3, "lambda_min_m": 4.2e-7, "lambda_max_m": 6.6e-7,
+    "conventional_lambda_m": 5.5e-7, "wavelengths_m": [4.2e-7, 5.4e-7, 6.6e-7]},
+  "input_half_width_m": 0.00055,
+  "cases": [
+    {"name": "input_coarse", "input_spacing_m": 2e-6, "output_spacing_m": 1e-6, "output_half_width_m": 0.00015},
+    {"name": "baseline", "input_spacing_m": 1e-6, "output_spacing_m": 1e-6, "output_half_width_m": 0.00015},
+    {"name": "input_fine", "input_spacing_m": 5e-7, "output_spacing_m": 1e-6, "output_half_width_m": 0.00015},
+    {"name": "output_coarse", "input_spacing_m": 5e-7, "output_spacing_m": 2e-6, "output_half_width_m": 0.00015},
+    {"name": "output_fine", "input_spacing_m": 5e-7, "output_spacing_m": 5e-7, "output_half_width_m": 0.00015},
+    {"name": "fov_large", "input_spacing_m": 5e-7, "output_spacing_m": 5e-7, "output_half_width_m": 0.0003}
+  ],
+  "thresholds": {"intensity_l1": 0.02, "intensity_l2": 0.03, "eta_absolute": 0.005,
+    "angle_deg": 1.0, "radius_um": 2.0, "area_relative": 0.05},
+  "runtime": {"save_results": true, "show_plots": false},
+  "plots": {"dpi": 150}
+}

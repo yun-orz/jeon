@@ -1,0 +1,24 @@
+2026-10-01 22:01:36 [INFO] 有效配置路径：D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\config_stage02a.json
+2026-10-01 22:01:36 [INFO] 绘图后端：Agg；未请求显示
+2026-10-01 22:01:36 [INFO] === 阶段 02A 开始执行 ===
+2026-10-01 22:01:36 [INFO] 光学参数: D=1.00 mm, f=50.00 mm, z=50.00 mm, N=3
+2026-10-01 22:01:36 [INFO] 设计波长范围: [420.0, 660.0] nm
+2026-10-01 22:01:36 [INFO] 控制波长: 550.0 nm, 预览波长: [420, 540, 660] nm
+2026-10-01 22:01:36 [INFO] 执行模式: only_mode=control, 结果保存: 关闭(--no-save)
+2026-10-01 22:01:36 [INFO] 全局相位开关: include_global_phase=True
+2026-10-01 22:01:36 [INFO] 输入网格: shape=(1101, 1101), dx=1.00 μm, 实际半宽=550.0 μm
+2026-10-01 22:01:36 [INFO] 输出网格: shape=(301, 301), dx=1.00 μm, 实际半宽=150.0 μm
+2026-10-01 22:01:36 [INFO] 传播采样与近轴理论诊断（在最小波长 420 nm 处）: 最差输入相位步进=0.2096 rad, 三阶近轴高阶光程相位误差估计=0.014365 rad
+2026-10-01 22:01:36 [INFO] --- [F2] 正在执行 550nm 传统单色 Fresnel 透镜控制检验 ---
+2026-10-01 22:01:36 [ERROR] 执行过程中捕获异常: 控制光场物理检查失败：光场非零/有限/模平方/绝对功率检查失败
+Traceback (most recent call last):
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02.py", line 754, in run_stage02a
+    raise RuntimeError('控制光场物理检查失败：' + control_health['reason'])
+RuntimeError: 控制光场物理检查失败：光场非零/有限/模平方/绝对功率检查失败
+2026-10-01 22:01:36 [ERROR] 执行过程中捕获严重异常: 控制光场物理检查失败：光场非零/有限/模平方/绝对功率检查失败
+Traceback (most recent call last):
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02.py", line 1254, in main
+    results = run_stage02a(
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02.py", line 754, in run_stage02a
+    raise RuntimeError('控制光场物理检查失败：' + control_health['reason'])
+RuntimeError: 控制光场物理检查失败：光场非零/有限/模平方/绝对功率检查失败

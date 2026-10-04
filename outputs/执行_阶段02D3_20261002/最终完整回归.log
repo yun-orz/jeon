@@ -1,0 +1,153 @@
+2026-10-02 22:29:31 [INFO] 有效配置路径：D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\config_stage02a.json
+2026-10-02 22:29:31 [INFO] === 阶段 02A 开始执行 ===
+2026-10-02 22:29:31 [INFO] 光学参数: D=1.00 mm, f=50.00 mm, z=50.00 mm, N=3
+2026-10-02 22:29:31 [INFO] 设计波长范围: [420.0, 660.0] nm
+2026-10-02 22:29:31 [INFO] 控制波长: 550.0 nm, 预览波长: [420, 540, 660] nm
+2026-10-02 22:29:31 [INFO] 执行模式: only_mode=control, 结果保存: 关闭(--no-save)
+2026-10-02 22:29:31 [INFO] 全局相位开关: include_global_phase=True
+2026-10-02 22:29:31 [INFO] 输入网格: shape=(1101, 1101), dx=1.00 μm, 实际半宽=550.0 μm
+2026-10-02 22:29:31 [INFO] 输出网格: shape=(301, 301), dx=1.00 μm, 实际半宽=150.0 μm
+2026-10-02 22:29:31 [INFO] 传播采样与近轴理论诊断（在最小波长 420 nm 处）: 最差输入相位步进=0.2096 rad, 三阶近轴高阶光程相位误差估计=0.014365 rad
+2026-10-02 22:29:31 [INFO] --- [F2] 正在执行 550nm 传统单色 Fresnel 透镜控制检验 ---
+2026-10-02 22:29:31 [ERROR] 执行过程中捕获异常: 控制光场物理检查失败：光场非零/有限/模平方/绝对功率检查失败
+Traceback (most recent call last):
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02.py", line 754, in run_stage02a
+    raise RuntimeError('控制光场物理检查失败：' + control_health['reason'])
+RuntimeError: 控制光场物理检查失败：光场非零/有限/模平方/绝对功率检查失败
+2026-10-02 22:29:31 [INFO] 有效配置路径：D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\config_stage02a.json
+2026-10-02 22:29:31 [INFO] === 阶段 02A 开始执行 ===
+2026-10-02 22:29:31 [INFO] 光学参数: D=1.00 mm, f=50.00 mm, z=50.00 mm, N=3
+2026-10-02 22:29:31 [INFO] 设计波长范围: [420.0, 660.0] nm
+2026-10-02 22:29:31 [INFO] 控制波长: 550.0 nm, 预览波长: [420, 540, 660] nm
+2026-10-02 22:29:31 [INFO] 执行模式: only_mode=control, 结果保存: 开启
+2026-10-02 22:29:31 [INFO] 全局相位开关: include_global_phase=True
+2026-10-02 22:29:31 [INFO] 输入网格: shape=(1101, 1101), dx=1.00 μm, 实际半宽=550.0 μm
+2026-10-02 22:29:31 [INFO] 输出网格: shape=(301, 301), dx=1.00 μm, 实际半宽=150.0 μm
+2026-10-02 22:29:31 [INFO] 传播采样与近轴理论诊断（在最小波长 420 nm 处）: 最差输入相位步进=0.2096 rad, 三阶近轴高阶光程相位误差估计=0.014365 rad
+2026-10-02 22:29:31 [INFO] --- [F2] 正在执行 550nm 传统单色 Fresnel 透镜控制检验 ---
+2026-10-02 22:29:31 [ERROR] 执行过程中捕获异常: 控制光场物理检查失败：光场非零/有限/模平方/绝对功率检查失败
+Traceback (most recent call last):
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02.py", line 754, in run_stage02a
+    raise RuntimeError('控制光场物理检查失败：' + control_health['reason'])
+RuntimeError: 控制光场物理检查失败：光场非零/有限/模平方/绝对功率检查失败
+2026-10-02 22:29:31 [INFO] 有效配置路径：D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\config_stage02a.json
+2026-10-02 22:29:31 [INFO] === 阶段 02A 开始执行 ===
+2026-10-02 22:29:31 [INFO] 光学参数: D=1.00 mm, f=50.00 mm, z=50.00 mm, N=3
+2026-10-02 22:29:31 [INFO] 设计波长范围: [420.0, 660.0] nm
+2026-10-02 22:29:31 [INFO] 控制波长: 550.0 nm, 预览波长: [420, 540, 660] nm
+2026-10-02 22:29:31 [INFO] 执行模式: only_mode=control, 结果保存: 开启
+2026-10-02 22:29:31 [INFO] 全局相位开关: include_global_phase=True
+2026-10-02 22:29:31 [INFO] 输入网格: shape=(1101, 1101), dx=1.00 μm, 实际半宽=550.0 μm
+2026-10-02 22:29:31 [INFO] 输出网格: shape=(301, 301), dx=1.00 μm, 实际半宽=150.0 μm
+2026-10-02 22:29:31 [INFO] 传播采样与近轴理论诊断（在最小波长 420 nm 处）: 最差输入相位步进=0.2096 rad, 三阶近轴高阶光程相位误差估计=0.014365 rad
+2026-10-02 22:29:31 [INFO] --- [F2] 正在执行 550nm 传统单色 Fresnel 透镜控制检验 ---
+2026-10-02 22:29:32 [ERROR] 执行过程中捕获异常: 控制光场物理检查失败：复场/强度包含NaN或Inf
+Traceback (most recent call last):
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02.py", line 754, in run_stage02a
+    raise RuntimeError('控制光场物理检查失败：' + control_health['reason'])
+RuntimeError: 控制光场物理检查失败：复场/强度包含NaN或Inf
+2026-10-02 22:29:32 [INFO] 有效配置路径：D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\config_stage02a.json
+2026-10-02 22:29:32 [INFO] === 阶段 02A 开始执行 ===
+2026-10-02 22:29:32 [INFO] 光学参数: D=1.00 mm, f=50.00 mm, z=50.00 mm, N=3
+2026-10-02 22:29:32 [INFO] 设计波长范围: [420.0, 660.0] nm
+2026-10-02 22:29:32 [INFO] 控制波长: 550.0 nm, 预览波长: [420, 540, 660] nm
+2026-10-02 22:29:32 [INFO] 执行模式: only_mode=control, 结果保存: 开启
+2026-10-02 22:29:32 [INFO] 全局相位开关: include_global_phase=True
+2026-10-02 22:29:32 [INFO] 输入网格: shape=(1101, 1101), dx=1.00 μm, 实际半宽=550.0 μm
+2026-10-02 22:29:32 [INFO] 输出网格: shape=(301, 301), dx=1.00 μm, 实际半宽=150.0 μm
+2026-10-02 22:29:32 [INFO] 传播采样与近轴理论诊断（在最小波长 420 nm 处）: 最差输入相位步进=0.2096 rad, 三阶近轴高阶光程相位误差估计=0.014365 rad
+2026-10-02 22:29:32 [INFO] --- [F2] 正在执行 550nm 传统单色 Fresnel 透镜控制检验 ---
+2026-10-02 22:29:32 [ERROR] 执行过程中捕获异常: 控制光场物理检查失败：复场或强度shape与物理网格不符
+Traceback (most recent call last):
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02.py", line 754, in run_stage02a
+    raise RuntimeError('控制光场物理检查失败：' + control_health['reason'])
+RuntimeError: 控制光场物理检查失败：复场或强度shape与物理网格不符
+2026-10-02 22:29:32 [INFO] 有效配置路径：D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\config_stage02a.json
+2026-10-02 22:29:32 [INFO] === 阶段 02A 开始执行 ===
+2026-10-02 22:29:32 [INFO] 光学参数: D=1.00 mm, f=50.00 mm, z=50.00 mm, N=3
+2026-10-02 22:29:32 [INFO] 设计波长范围: [420.0, 660.0] nm
+2026-10-02 22:29:32 [INFO] 控制波长: 550.0 nm, 预览波长: [420, 540, 660] nm
+2026-10-02 22:29:32 [INFO] 执行模式: only_mode=control, 结果保存: 关闭(--no-save)
+2026-10-02 22:29:32 [INFO] 全局相位开关: include_global_phase=True
+2026-10-02 22:29:32 [INFO] 输入网格: shape=(1101, 1101), dx=1.00 μm, 实际半宽=550.0 μm
+2026-10-02 22:29:32 [INFO] 输出网格: shape=(301, 301), dx=1.00 μm, 实际半宽=150.0 μm
+2026-10-02 22:29:32 [INFO] 传播采样与近轴理论诊断（在最小波长 420 nm 处）: 最差输入相位步进=0.2096 rad, 三阶近轴高阶光程相位误差估计=0.014365 rad
+2026-10-02 22:29:32 [INFO] --- [F2] 正在执行 550nm 传统单色 Fresnel 透镜控制检验 ---
+2026-10-02 22:29:32 [INFO] [F2] 控制传播完成，耗时: 0.1365 s
+2026-10-02 22:29:32 [INFO] === 阶段 02A 执行完成，总耗时: 0.2196 s ===
+2026-10-02 22:29:32 [INFO] 有效配置路径：D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\config_stage02a.json
+2026-10-02 22:29:32 [INFO] === 阶段 02A 开始执行 ===
+2026-10-02 22:29:32 [INFO] 光学参数: D=1.00 mm, f=50.00 mm, z=50.00 mm, N=3
+2026-10-02 22:29:32 [INFO] 设计波长范围: [420.0, 660.0] nm
+2026-10-02 22:29:32 [INFO] 控制波长: 550.0 nm, 预览波长: [420, 540, 660] nm
+2026-10-02 22:29:32 [INFO] 执行模式: only_mode=height, 结果保存: 关闭(--no-save)
+2026-10-02 22:29:32 [INFO] 全局相位开关: include_global_phase=True
+2026-10-02 22:29:32 [INFO] 输入网格: shape=(1101, 1101), dx=1.00 μm, 实际半宽=550.0 μm
+2026-10-02 22:29:32 [INFO] 输出网格: shape=(301, 301), dx=1.00 μm, 实际半宽=150.0 μm
+2026-10-02 22:29:32 [INFO] 传播采样与近轴理论诊断（在最小波长 420 nm 处）: 最差输入相位步进=0.2096 rad, 三阶近轴高阶光程相位误差估计=0.014365 rad
+2026-10-02 22:29:32 [INFO] --- [F1] 正在设计 Jeon 2019 N=3 连续 DOE 高度与自检 ---
+2026-10-02 22:29:32 [INFO] [F1] DOE 高度设计完成，耗时: 0.1408 s, 器件指纹: 8527724f6aeffc0314d09313d89fdca0c2c864827e6a47308480968bcabc1350
+2026-10-02 22:29:32 [INFO] === 阶段 02A 执行完成，总耗时: 0.3002 s ===
+2026-10-02 22:29:32 [INFO] 有效配置路径：D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\config_stage02a.json
+2026-10-02 22:29:32 [INFO] === 阶段 02A 开始执行 ===
+2026-10-02 22:29:32 [INFO] 光学参数: D=1.00 mm, f=50.00 mm, z=50.00 mm, N=3
+2026-10-02 22:29:32 [INFO] 设计波长范围: [420.0, 660.0] nm
+2026-10-02 22:29:32 [INFO] 控制波长: 550.0 nm, 预览波长: [420, 540, 660] nm
+2026-10-02 22:29:32 [INFO] 执行模式: only_mode=control, 结果保存: 关闭(--no-save)
+2026-10-02 22:29:32 [INFO] 全局相位开关: include_global_phase=False
+2026-10-02 22:29:32 [INFO] 输入网格: shape=(1101, 1101), dx=1.00 μm, 实际半宽=550.0 μm
+2026-10-02 22:29:32 [INFO] 输出网格: shape=(301, 301), dx=1.00 μm, 实际半宽=150.0 μm
+2026-10-02 22:29:32 [INFO] 传播采样与近轴理论诊断（在最小波长 420 nm 处）: 最差输入相位步进=0.2096 rad, 三阶近轴高阶光程相位误差估计=0.014365 rad
+2026-10-02 22:29:32 [INFO] --- [F2] 正在执行 550nm 传统单色 Fresnel 透镜控制检验 ---
+2026-10-02 22:29:32 [INFO] [F2] 控制传播完成，耗时: 0.1364 s
+2026-10-02 22:29:32 [INFO] === 阶段 02A 执行完成，总耗时: 0.2212 s ===
+
+..........................................................................................执行过程中捕获异常: 试算波长 540.0 nm 结果异常: finite=False, peak=nan
+Traceback (most recent call last):
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02.py", line 903, in run_stage02a
+    raise RuntimeError(f"试算波长 {trial_lam*1e9:.1f} nm 结果异常: finite={trial_finite}, peak={trial_peak}")
+RuntimeError: 试算波长 540.0 nm 结果异常: finite=False, peak=nan
+.执行过程中捕获异常: 试算波长 540.0 nm 结果异常: finite=True, peak=0.0
+Traceback (most recent call last):
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02.py", line 903, in run_stage02a
+    raise RuntimeError(f"试算波长 {trial_lam*1e9:.1f} nm 结果异常: finite={trial_finite}, peak={trial_peak}")
+RuntimeError: 试算波长 540.0 nm 结果异常: finite=True, peak=0.0
+...................................................................报告生成失败：RuntimeError: 报告写入反例
+
+Traceback (most recent call last):
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02b.py", line 1422, in run_stage02b1
+    report_text = build_report(
+  File "D:\dev\python\python3.10.4\lib\unittest\mock.py", line 1104, in __call__
+    return self._mock_call(*args, **kwargs)
+  File "D:\dev\python\python3.10.4\lib\unittest\mock.py", line 1108, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+  File "D:\dev\python\python3.10.4\lib\unittest\mock.py", line 1163, in _execute_mock_call
+    raise effect
+RuntimeError: 报告写入反例
+
+阶段 02B-1 执行失败：RuntimeError: 报告写入反例
+
+Traceback (most recent call last):
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02b.py", line 1422, in run_stage02b1
+    report_text = build_report(
+  File "D:\dev\python\python3.10.4\lib\unittest\mock.py", line 1104, in __call__
+    return self._mock_call(*args, **kwargs)
+  File "D:\dev\python\python3.10.4\lib\unittest\mock.py", line 1108, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+  File "D:\dev\python\python3.10.4\lib\unittest\mock.py", line 1163, in _execute_mock_call
+    raise effect
+RuntimeError: 报告写入反例
+
+..............continuous_coincident_points_crop：iteration_limit，1轮，数据残差0.5834，cube误差0.9981，投影梯度0.2419
+continuous_separated_points_crop：iteration_limit，1轮，数据残差0.8485，cube误差0.9985，投影梯度0.47
+continuous_lines_and_square_crop：iteration_limit，1轮，数据残差0.3229，cube误差0.9377，投影梯度0.1407
+continuous_lines_and_square_full：iteration_limit，1轮，数据残差0.3229，cube误差0.9377，投影梯度0.1407
+nearest_depth_coincident_points_crop：iteration_limit，1轮，数据残差0.5835，cube误差0.9981，投影梯度0.2421
+nearest_depth_separated_points_crop：iteration_limit，1轮，数据残差0.8482，cube误差0.9985，投影梯度0.4701
+nearest_depth_lines_and_square_crop：iteration_limit，1轮，数据残差0.323，cube误差0.9374，投影梯度0.1407
+nearest_depth_lines_and_square_full：iteration_limit，1轮，数据残差0.3231，cube误差0.9374，投影梯度0.1407
+...............
+----------------------------------------------------------------------
+Ran 187 tests in 131.005s
+
+OK

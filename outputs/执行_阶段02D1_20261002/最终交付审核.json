@@ -1,0 +1,22 @@
+{
+  "accepted": true,
+  "stage": "02D-1",
+  "run_dir": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02d1\\run_20261002_203904",
+  "regression_tests_passed": 166,
+  "regression_duration_s": 97.141,
+  "source_sha_matches": true,
+  "source_psf_physical_recheck": true,
+  "independent_saved_data_audit": true,
+  "no_save_and_mock_show_file_sha_unchanged": true,
+  "failures_verified": [
+    "缺源实际CLI",
+    "报告写入失败故障注入"
+  ],
+  "not_yet_executed": [
+    "基础光谱重建",
+    "原论文网络",
+    "真实GUI人工点击",
+    "双孔径或N=1"
+  ],
+  "next_plan": "D:\\PyCharmProjects\\Jeon2019\\outputs\\执行_阶段02D1_20261002\\下一阶段02D-2执行规划.md"
+}

@@ -1,0 +1,15 @@
+continuous_coincident_points_crop_alpha_0p01: converged, 2275轮, cube误差=0.186, 最优解距离相对上界=0.08203328937254535
+continuous_coincident_points_crop_alpha_0p1: converged, 1613轮, cube误差=0.6336, 最优解距离相对上界=0.008726417267077648
+continuous_coincident_points_crop_alpha_1: converged, 581轮, cube误差=0.8649, 最优解距离相对上界=0.003784758999426445
+continuous_coincident_points_crop_alpha_10: converged, 255轮, cube误差=0.9398, 最优解距离相对上界=0.0018230164337935933
+continuous_separated_points_crop_alpha_0p01: converged, 4460轮, cube误差=0.1125, 最优解距离相对上界=0.0038613397314895747
+continuous_separated_points_crop_alpha_0p1: converged, 1277轮, cube误差=0.2575, 最优解距离相对上界=0.012090233496572398
+continuous_separated_points_crop_alpha_1: converged, 679轮, cube误差=0.6255, 最优解距离相对上界=0.0034498348549427712
+continuous_separated_points_crop_alpha_10: converged, 298轮, cube误差=0.8469, 最优解距离相对上界=0.0006066041970737281
+continuous_lines_and_square_crop_alpha_0p01: converged, 3500轮, cube误差=0.07832, 最优解距离相对上界=0.05271401479579191
+continuous_lines_and_square_crop_alpha_0p1: converged, 1627轮, cube误差=0.1528, 最优解距离相对上界=0.01605097810835991
+continuous_lines_and_square_crop_alpha_1: converged, 765轮, cube误差=0.3696, 最优解距离相对上界=0.0041279862564225145
+continuous_lines_and_square_crop_alpha_10: converged, 215轮, cube误差=0.6305, 最优解距离相对上界=0.0050771222565376434
+continuous_lines_and_square_crop_alpha_0p01_strict: iteration_limit, 5000轮, cube误差=0.07894, 最优解距离相对上界=0.022146913969075657
+continuous_lines_and_square_crop_alpha_1_strict: converged, 1223轮, cube误差=0.3707, 最优解距离相对上界=0.0002239012325113931
+{"status": "completed", "optimization_validation_passed": false, "all_reconstructions_converged": false, "run_dir": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02e1\\run_20261002_224704", "elapsed_s": 141.60427429999982}

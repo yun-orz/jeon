@@ -1,0 +1,10 @@
+2026-10-02 22:35:04 [INFO] continuous_coincident_points_crop：iteration_limit，1轮，数据残差0.5834，cube误差0.9981，投影梯度0.2419
+2026-10-02 22:35:05 [INFO] continuous_separated_points_crop：iteration_limit，1轮，数据残差0.8485，cube误差0.9985，投影梯度0.47
+2026-10-02 22:35:06 [INFO] continuous_lines_and_square_crop：iteration_limit，1轮，数据残差0.3229，cube误差0.9377，投影梯度0.1407
+2026-10-02 22:35:06 [INFO] continuous_lines_and_square_full：iteration_limit，1轮，数据残差0.3229，cube误差0.9377，投影梯度0.1407
+2026-10-02 22:35:07 [INFO] nearest_depth_coincident_points_crop：iteration_limit，1轮，数据残差0.5835，cube误差0.9981，投影梯度0.2421
+2026-10-02 22:35:08 [INFO] nearest_depth_separated_points_crop：iteration_limit，1轮，数据残差0.8482，cube误差0.9985，投影梯度0.4701
+2026-10-02 22:35:09 [INFO] nearest_depth_lines_and_square_crop：iteration_limit，1轮，数据残差0.323，cube误差0.9374，投影梯度0.1407
+2026-10-02 22:35:10 [INFO] nearest_depth_lines_and_square_full：iteration_limit，1轮，数据残差0.3231，cube误差0.9374，投影梯度0.1407
+D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\results\stage02d3\run_20261002_223501
+

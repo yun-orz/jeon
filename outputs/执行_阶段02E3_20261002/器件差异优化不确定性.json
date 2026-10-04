@@ -1,0 +1,29 @@
+[
+  {
+    "scene": "coincident_points",
+    "nearest_minus_continuous_cube_error": -0.0006239636840329743,
+    "optimization_uncertainty_radius": 0.00026802890260638266,
+    "lower": -0.000891992586639357,
+    "upper": -0.00035593478142659164,
+    "ordering_supported_by_theoretical_bounds": true,
+    "caveat": "不同实际α的模型对照；理论界数值计算未作区间舍入包络，非纯量化因果结论"
+  },
+  {
+    "scene": "separated_points",
+    "nearest_minus_continuous_cube_error": -0.0011575915445163204,
+    "optimization_uncertainty_radius": 0.00039777244474311317,
+    "lower": -0.0015553639892594336,
+    "upper": -0.0007598190997732072,
+    "ordering_supported_by_theoretical_bounds": true,
+    "caveat": "不同实际α的模型对照；理论界数值计算未作区间舍入包络，非纯量化因果结论"
+  },
+  {
+    "scene": "lines_and_square",
+    "nearest_minus_continuous_cube_error": -0.00044943866094135365,
+    "optimization_uncertainty_radius": 0.001638628851937377,
+    "lower": -0.0020880675128787307,
+    "upper": 0.0011891901909960234,
+    "ordering_supported_by_theoretical_bounds": false,
+    "caveat": "不同实际α的模型对照；理论界数值计算未作区间舍入包络，非纯量化因果结论"
+  }
+]

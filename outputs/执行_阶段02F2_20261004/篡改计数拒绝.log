@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02f2.py", line 114, in <module>
+    if __name__=='__main__':raise SystemExit(main())
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02f2.py", line 112, in main
+    c=json.loads(resolve_project_path(a.config,ROOT).read_text(encoding='utf-8'));return 0 if run(c,a.no_save,a.show_plots)['validation_passed'] else 2
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02f2.py", line 44, in run
+    items,evidence=load_electron_source(resolve_project_path(c['source_run'],ROOT),ROOT)
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\optics\stage02f1_source.py", line 45, in load_electron_source
+    if any(k not in v or not np.array_equal(v[k],a) for k,a in required.items()) or rec['roundoff_repair']!=repair or rec['device']!=item['device'] or rec['scene']!=item['scene'] or rec['gain_e_per_relative_power']!=gain:raise ValueError('F1电子数/随机流/单位错误')
+ValueError: F1电子数/随机流/单位错误

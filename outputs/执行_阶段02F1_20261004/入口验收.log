@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "D:\PyCharmProjects\Jeon2019\outputs\执行_阶段02F1_20261004\入口验收.py", line 23, in <module>
+    assert tree_sha(ROOT)==before;result['no_save_tree_unchanged']=True;result['hashed_files']=len(before)
+AssertionError

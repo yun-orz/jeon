@@ -1,0 +1,87 @@
+[
+  {
+    "command": [
+      "D:\\dev\\python\\python3.10.4\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "cwd": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+    "exit_code": 0,
+    "elapsed_s": 2.281982499989681,
+    "log": "DSH测试独立复跑.log"
+  },
+  {
+    "command": [
+      "D:\\dev\\python\\python3.10.4\\python.exe",
+      "-B",
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main.py",
+      "--run-dir",
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\复审_阶段01_20261001\\默认入口独立复跑"
+    ],
+    "cwd": "D:\\PyCharmProjects\\Jeon2019",
+    "exit_code": 0,
+    "elapsed_s": 9.643735200050287,
+    "log": "默认入口独立复跑.log"
+  },
+  {
+    "command": [
+      "D:\\dev\\python\\python3.10.4\\python.exe",
+      "-B",
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main.py",
+      "--no-save",
+      "--only",
+      "direct"
+    ],
+    "cwd": "D:\\PyCharmProjects\\Jeon2019",
+    "exit_code": 0,
+    "elapsed_s": 1.055509600089863,
+    "log": "无保存模式复跑.log"
+  },
+  {
+    "command": [
+      "D:\\dev\\python\\python3.10.4\\python.exe",
+      "-B",
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main.py",
+      "--no-save",
+      "--only",
+      "direct",
+      "--config",
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\复审_阶段01_20261001\\审核用失败配置.json"
+    ],
+    "cwd": "D:\\PyCharmProjects\\Jeon2019",
+    "exit_code": 0,
+    "elapsed_s": 1.0925868999911472,
+    "log": "失败返回码检查.log"
+  },
+  {
+    "command": [
+      "D:\\dev\\python\\python3.10.4\\python.exe",
+      "-B",
+      "-c",
+      "import runpy,sys\nsys.argv=[sys.argv[1],\"--only\",\"airy\",\"--no-save\"]\nd=runpy.run_path(sys.argv[0],run_name=\"audit_import\")\nfn=d[\"main\"]\nfn.__globals__[\"study_airy\"]=lambda *a,**k:{\"cases\":[\n {\"first_ring_rel_err\":0.001,\"line_L1_vs_airy\":0.001},\n {\"first_ring_rel_err\":0.5,\"line_L1_vs_airy\":0.5},\n {\"first_ring_rel_err\":0.7,\"line_L1_vs_airy\":0.7}]}\nraise SystemExit(fn())\n",
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main.py"
+    ],
+    "cwd": "D:\\PyCharmProjects\\Jeon2019",
+    "exit_code": 0,
+    "elapsed_s": 0.9171795999864116,
+    "log": "Airy非首项失败注入检查.log"
+  },
+  {
+    "command": [
+      "D:\\dev\\python\\python3.10.4\\python.exe",
+      "-B",
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main.py",
+      "--run-dir",
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\复审_阶段01_20261001\\非空目录保护核查"
+    ],
+    "cwd": "D:\\PyCharmProjects\\Jeon2019",
+    "exit_code": 3,
+    "elapsed_s": 0.854970799991861,
+    "log": "已有结果保护检查.log"
+  }
+]

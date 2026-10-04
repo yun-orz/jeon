@@ -1,0 +1,15 @@
+{
+  "bad_source_exit": 1,
+  "budget_exit": 2,
+  "iteration_limit_exit": 2,
+  "tampered_counts_exit": 1,
+  "mock_show_once_closed": true,
+  "show_failure_no_completed_closed": true,
+  "report_failure_no_completed_closed": true,
+  "passed": true,
+  "real_gui_verified": false,
+  "failed_run_paths": [
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02f2\\run_20261004_095644",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02f2\\run_20261004_095655"
+  ]
+}

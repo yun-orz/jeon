@@ -1,0 +1,157 @@
+[
+  {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main_stage02.py",
+    "sha256": "f3ce04300823b4e8ce2290ebcdd682b62e02eca3bc1c202dbb8e0f0009051f0f",
+    "backup": "D:\\PyCharmProjects\\Jeon2019\\outputs\\接手阶段02A-R2_20261001_214556\\修改前源码备份\\main_stage02.py"
+  },
+  {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\README.md",
+    "sha256": "b9b11354b1ae58d07af863ebc796c055e1cfe31d38a6d1b630971c04024ad4b4",
+    "backup": "D:\\PyCharmProjects\\Jeon2019\\outputs\\接手阶段02A-R2_20261001_214556\\修改前源码备份\\README.md"
+  },
+  {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\config_stage02a.json",
+    "sha256": "b02cbe9d6c759d65c223a6a93dca71ad58d0b354b793fca06cc34807a5d3637d",
+    "backup": "D:\\PyCharmProjects\\Jeon2019\\outputs\\接手阶段02A-R2_20261001_214556\\修改前源码备份\\config_stage02a.json"
+  },
+  {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\optics\\coordinates.py",
+    "sha256": "c0b3db54d901e7960a537cf5dd42cfae6083a35d20622f40ded3015421c9c707",
+    "backup": "D:\\PyCharmProjects\\Jeon2019\\outputs\\接手阶段02A-R2_20261001_214556\\修改前源码备份\\optics\\coordinates.py"
+  },
+  {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\optics\\doe.py",
+    "sha256": "8f6c6113bd9917aefd3b96bcdd21b96868534d4110744fe6977a86a4fe3a847f",
+    "backup": "D:\\PyCharmProjects\\Jeon2019\\outputs\\接手阶段02A-R2_20261001_214556\\修改前源码备份\\optics\\doe.py"
+  },
+  {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\optics\\materials.py",
+    "sha256": "414d44ac75588031148fa13b246865e380298a45c4d368cd68321f654b9b50db",
+    "backup": "D:\\PyCharmProjects\\Jeon2019\\outputs\\接手阶段02A-R2_20261001_214556\\修改前源码备份\\optics\\materials.py"
+  },
+  {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\optics\\metrics.py",
+    "sha256": "8b10ee395a70384041ff2011389908899eabb0f3b03fe2aa559f6f13c560a2fc",
+    "backup": "D:\\PyCharmProjects\\Jeon2019\\outputs\\接手阶段02A-R2_20261001_214556\\修改前源码备份\\optics\\metrics.py"
+  },
+  {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\optics\\propagation.py",
+    "sha256": "20078bcaf95c53e9073d909a04cc70c7a265c11cb4517f7b4b298a5ee71460ca",
+    "backup": "D:\\PyCharmProjects\\Jeon2019\\outputs\\接手阶段02A-R2_20261001_214556\\修改前源码备份\\optics\\propagation.py"
+  },
+  {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\optics\\runutil.py",
+    "sha256": "a031e73b80d093b4ade35d8553e66db1eb26cc30b8505be5e11c8e9628db4b70",
+    "backup": "D:\\PyCharmProjects\\Jeon2019\\outputs\\接手阶段02A-R2_20261001_214556\\修改前源码备份\\optics\\runutil.py"
+  },
+  {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\optics\\units.py",
+    "sha256": "31408e61a8972474e41c597486368c6a8e592540cb7dc0451fb247a746cdcfbb",
+    "backup": "D:\\PyCharmProjects\\Jeon2019\\outputs\\接手阶段02A-R2_20261001_214556\\修改前源码备份\\optics\\units.py"
+  },
+  {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\optics\\validation.py",
+    "sha256": "62c75277403096305dd5bb85744d1a8e7a34e8d6b5dabcd9f5f64c72359aacfb",
+    "backup": "D:\\PyCharmProjects\\Jeon2019\\outputs\\接手阶段02A-R2_20261001_214556\\修改前源码备份\\optics\\validation.py"
+  },
+  {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\optics\\__init__.py",
+    "sha256": "12f8bb8fc42fc39fa60b0e46b861b8bb0d8d18cca6b114d671db4c67ab891472",
+    "backup": "D:\\PyCharmProjects\\Jeon2019\\outputs\\接手阶段02A-R2_20261001_214556\\修改前源码备份\\optics\\__init__.py"
+  },
+  {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\tests\\test_doe.py",
+    "sha256": "35c599652fda82bee7ea8ce64d1eed1b7bfd0322c78e7ce827941a37ae1dcadf",
+    "backup": "D:\\PyCharmProjects\\Jeon2019\\outputs\\接手阶段02A-R2_20261001_214556\\修改前源码备份\\tests\\test_doe.py"
+  },
+  {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\tests\\test_materials.py",
+    "sha256": "d5ed28e85bc322f3d53931e6ef8ce7e163f52704fa6080d9c133b48f42c1a8d2",
+    "backup": "D:\\PyCharmProjects\\Jeon2019\\outputs\\接手阶段02A-R2_20261001_214556\\修改前源码备份\\tests\\test_materials.py"
+  },
+  {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\tests\\test_negative_paths.py",
+    "sha256": "624626246a939b505fd332cf36fefd9f63e16b4ba1840c405d7f17e840c1fd51",
+    "backup": "D:\\PyCharmProjects\\Jeon2019\\outputs\\接手阶段02A-R2_20261001_214556\\修改前源码备份\\tests\\test_negative_paths.py"
+  },
+  {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\tests\\test_propagation.py",
+    "sha256": "5c1ffa284851b8eccb9bc6f0377aca88650c986d07ac8c41c26d8009a0b4b01c",
+    "backup": "D:\\PyCharmProjects\\Jeon2019\\outputs\\接手阶段02A-R2_20261001_214556\\修改前源码备份\\tests\\test_propagation.py"
+  },
+  {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\tests\\test_stage02_entry.py",
+    "sha256": "3bad18f0f244f4a5606a528a1850a21e016b02517bc2d94e3da1fad793a632d1",
+    "backup": "D:\\PyCharmProjects\\Jeon2019\\outputs\\接手阶段02A-R2_20261001_214556\\修改前源码备份\\tests\\test_stage02_entry.py"
+  },
+  {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\tests\\test_stage02_failure_paths.py",
+    "sha256": "92341f292596efd191347d4e6d7333becfceacf35bbb595e948d9758e0b21d93",
+    "backup": "D:\\PyCharmProjects\\Jeon2019\\outputs\\接手阶段02A-R2_20261001_214556\\修改前源码备份\\tests\\test_stage02_failure_paths.py"
+  },
+  {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\tests\\test_validation_completion.py",
+    "sha256": "3ebe1be43c8d055555aa6752f1081ed091f891c96cf50993ae5de38de763286a",
+    "backup": "D:\\PyCharmProjects\\Jeon2019\\outputs\\接手阶段02A-R2_20261001_214556\\修改前源码备份\\tests\\test_validation_completion.py"
+  },
+  {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\tests\\__init__.py",
+    "sha256": "8355ba42001a0866e808e2528534cbc5e0f2de37906a73603eebf16881e505a4",
+    "backup": "D:\\PyCharmProjects\\Jeon2019\\outputs\\接手阶段02A-R2_20261001_214556\\修改前源码备份\\tests\\__init__.py"
+  },
+  {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\docs\\assumptions.md",
+    "sha256": "72c02d434ca6f3c2d213e0191bfde1e8c336d30ff4a401630e1cc6bf98b515d5",
+    "backup": "D:\\PyCharmProjects\\Jeon2019\\outputs\\接手阶段02A-R2_20261001_214556\\修改前源码备份\\docs\\assumptions.md"
+  },
+  {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\docs\\equations_and_parameters.md",
+    "sha256": "1227f000fdebb4864f9cd6aff7b4bb9f41c02cc976e78aa962573d4dc1e36fed",
+    "backup": "D:\\PyCharmProjects\\Jeon2019\\outputs\\接手阶段02A-R2_20261001_214556\\修改前源码备份\\docs\\equations_and_parameters.md"
+  },
+  {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\docs\\reproduction_log.md",
+    "sha256": "f57c44db246fec76b1d3de365bcda909d686cf60f3e893cbca4d8800b64d937a",
+    "backup": "D:\\PyCharmProjects\\Jeon2019\\outputs\\接手阶段02A-R2_20261001_214556\\修改前源码备份\\docs\\reproduction_log.md"
+  },
+  {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\docs\\revision_notes.md",
+    "sha256": "84f00abd4a31a4bf014d899b81feda446710e661dd4e45c068fa36d0ba4c4746",
+    "backup": "D:\\PyCharmProjects\\Jeon2019\\outputs\\接手阶段02A-R2_20261001_214556\\修改前源码备份\\docs\\revision_notes.md"
+  },
+  {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\docs\\revision_round2.md",
+    "sha256": "e7ee40af868fc6a03867a67039dd4c81ee005e670bacce5f1a4b8f35e2cf7fcb",
+    "backup": "D:\\PyCharmProjects\\Jeon2019\\outputs\\接手阶段02A-R2_20261001_214556\\修改前源码备份\\docs\\revision_round2.md"
+  },
+  {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\docs\\source_manifest.json",
+    "sha256": "f6c64572ba371bed7643cbd7d18b10e4487b5293ee6a3fc03051c86a7434796a",
+    "backup": "D:\\PyCharmProjects\\Jeon2019\\outputs\\接手阶段02A-R2_20261001_214556\\修改前源码备份\\docs\\source_manifest.json"
+  },
+  {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\docs\\stage01_completed.md",
+    "sha256": "4339bbc224268a83333b5c29c5f05bbc9496534d08cb28957860963cf41e6dab",
+    "backup": "D:\\PyCharmProjects\\Jeon2019\\outputs\\接手阶段02A-R2_20261001_214556\\修改前源码备份\\docs\\stage01_completed.md"
+  },
+  {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\docs\\stage02a_report.md",
+    "sha256": "71c7269e54e8caf999016b494afc837fbf8cf231bf7bfeeedc0d8ebeacbfc66a",
+    "backup": "D:\\PyCharmProjects\\Jeon2019\\outputs\\接手阶段02A-R2_20261001_214556\\修改前源码备份\\docs\\stage02a_report.md"
+  },
+  {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\docs\\stage02_assumptions.md",
+    "sha256": "ad28a1e3b37e11f64772bf6fb40a9ebe2031c152d504415ba6d3753949ff9a46",
+    "backup": "D:\\PyCharmProjects\\Jeon2019\\outputs\\接手阶段02A-R2_20261001_214556\\修改前源码备份\\docs\\stage02_assumptions.md"
+  },
+  {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\docs\\stage02_equations_and_parameters.md",
+    "sha256": "da6abb7d62bbdc9abaf10c1197e440ffa2480dfe63ce84b9736bf3be35d3e49c",
+    "backup": "D:\\PyCharmProjects\\Jeon2019\\outputs\\接手阶段02A-R2_20261001_214556\\修改前源码备份\\docs\\stage02_equations_and_parameters.md"
+  },
+  {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\docs\\verify_config_switches.py",
+    "sha256": "7c9bbea76b502c2d7a66126fa4db860e61b7935ab6365a88f740787498507a91",
+    "backup": "D:\\PyCharmProjects\\Jeon2019\\outputs\\接手阶段02A-R2_20261001_214556\\修改前源码备份\\docs\\verify_config_switches.py"
+  }
+]

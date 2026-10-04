@@ -1,0 +1,11 @@
+{
+  "main_stage02d3.py": "0806cb1eae150c22b06874d9766568d9a0ee886e1f0c7bc26c0a535aa9de093c",
+  "config_stage02d3.json": "32ea103f0629799b70a6bab3bc058ee5da4dd2192b37708e6bc8927898fb8afc",
+  "optics/reconstruction_accelerated.py": "eb684753fae83f1294f87788dd6c0de387f869fdf72e0858c11036e07067e402",
+  "optics/reconstruction.py": "c405b5cfca8c23693c612d2576720085b592824b5d4280a5dccb0dbeb5481681",
+  "optics/stage02d2_source.py": "7bab6e5e6ea233cf533ed6f65538ee6c8cdd10e4e1b4d4baf3d4fe63ea08de79",
+  "optics/imaging.py": "179922df5a1fc8008a7566f672a46359e0718cce16b53d53abf74ca0e69404d7",
+  "optics/stage02c_source.py": "95e3eb082d1dca4e857a21aa3f46c5c5deec025b5050f660b294e580c27525ce",
+  "optics/stage02_runtime.py": "924df32ce7229024b3b85f043c27e99772818b2f242759c3b253081ff77add54",
+  "optics/runutil.py": "a031e73b80d093b4ade35d8553e66db1eb26cc30b8505be5e11c8e9628db4b70"
+}

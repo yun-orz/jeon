@@ -1,0 +1,11 @@
+test_actual_iteration_limit_report_json (test_stage02e2.Tests) ... ok
+test_forged_total_optimization_flag_rejected (test_stage02e2.Tests) ... ok
+test_invalid_configuration (test_stage02e2.Tests) ... ok
+test_missing_source (test_stage02e2.Tests) ... ok
+test_real_incomplete_optimization_source_allowed (test_stage02e2.Tests) ... ok
+test_tampered_alpha_rejected (test_stage02e2.Tests) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 15.407s
+
+OK

@@ -1,0 +1,8 @@
+continuous_coincident_points_crop_alpha_0p01_comparison_common_alpha [computed]: iteration_limit, 1轮, cube=0.998138, 最优解距离相对上界=254036, 1%界通过=False
+nearest_depth_coincident_points_crop_alpha_0p01_comparison_common_alpha [computed]: iteration_limit, 1轮, cube=0.998138, 最优解距离相对上界=240881, 1%界通过=False
+continuous_separated_points_crop_alpha_0p01_comparison_common_alpha [computed]: iteration_limit, 1轮, cube=0.998509, 最优解距离相对上界=493851, 1%界通过=False
+nearest_depth_separated_points_crop_alpha_0p01_comparison_common_alpha [computed]: iteration_limit, 1轮, cube=0.998506, 最优解距离相对上界=468019, 1%界通过=False
+continuous_lines_and_square_crop_alpha_0p01_comparison_common_alpha [computed]: iteration_limit, 1轮, cube=0.937674, 最优解距离相对上界=147806, 1%界通过=False
+nearest_depth_lines_and_square_crop_alpha_0p01_comparison_common_alpha [computed]: iteration_limit, 1轮, cube=0.937394, 最优解距离相对上界=140053, 1%界通过=False
+{"status": "completed", "optimization_validation_passed": false, "certificate_validation_passed": false, "stability_validation_passed": false, "reused_count": 0, "computed_count": 6, "run_dir": null, "elapsed_s": 8.55586570000014}
+

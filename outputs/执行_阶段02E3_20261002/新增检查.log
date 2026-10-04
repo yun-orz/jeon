@@ -1,0 +1,11 @@
+test_actual_one_iteration_report_json (test_stage02e3.Tests) ... ok
+test_duplicate_references_rejected (test_stage02e3.Tests) ... ok
+test_forged_reference_certificate_total_rejected (test_stage02e3.Tests) ... ok
+test_invalid_configurations (test_stage02e3.Tests) ... ok
+test_real_pair_source_and_reference_status (test_stage02e3.Tests) ... ok
+test_tampered_reference_alpha_rejected (test_stage02e3.Tests) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 32.694s
+
+OK

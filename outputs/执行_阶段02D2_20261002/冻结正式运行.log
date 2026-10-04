@@ -1,0 +1,10 @@
+2026-10-02 21:02:01 [INFO] continuous_coincident_points_crop：iteration_limit，500轮，数据残差0.1247，cube误差0.9495，投影梯度0.004315
+2026-10-02 21:02:04 [INFO] continuous_separated_points_crop：iteration_limit，500轮，数据残差0.2601，cube误差0.8819，投影梯度0.01438
+2026-10-02 21:02:07 [INFO] continuous_lines_and_square_crop：iteration_limit，500轮，数据残差0.03731，cube误差0.6758，投影梯度0.001168
+2026-10-02 21:02:10 [INFO] continuous_lines_and_square_full：iteration_limit，500轮，数据残差0.03731，cube误差0.6757，投影梯度0.001169
+2026-10-02 21:02:13 [INFO] nearest_depth_coincident_points_crop：iteration_limit，500轮，数据残差0.1247，cube误差0.9496，投影梯度0.00431
+2026-10-02 21:02:16 [INFO] nearest_depth_separated_points_crop：iteration_limit，500轮，数据残差0.2596，cube误差0.882，投影梯度0.01436
+2026-10-02 21:02:19 [INFO] nearest_depth_lines_and_square_crop：iteration_limit，500轮，数据残差0.03717，cube误差0.6756，投影梯度0.001163
+2026-10-02 21:02:22 [INFO] nearest_depth_lines_and_square_full：iteration_limit，500轮，数据残差0.03717，cube误差0.6755，投影梯度0.001163
+{"status": "completed", "validation_passed": true, "all_reconstructions_converged": false, "run_dir": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02d2\\run_20261002_210155", "elapsed_s": 29.53306259999954}
+

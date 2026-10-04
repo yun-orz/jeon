@@ -1,0 +1,13 @@
+continuous_coincident_points_G_10000_unweighted: converged, 308轮, cube=0.94423, 距离相对上界=0.000261464
+continuous_coincident_points_G_10000_fixed_weighted: converged, 297轮, cube=0.961938, 距离相对上界=0.000642869
+continuous_separated_points_G_10000_unweighted: converged, 313轮, cube=0.854533, 距离相对上界=0.000387068
+continuous_separated_points_G_10000_fixed_weighted: converged, 348轮, cube=0.929343, 距离相对上界=0.000432092
+continuous_lines_and_square_G_10000_unweighted: converged, 288轮, cube=0.644844, 距离相对上界=0.00222415
+continuous_lines_and_square_G_10000_fixed_weighted: converged, 422轮, cube=0.621212, 距离相对上界=0.00102372
+nearest_depth_coincident_points_G_10000_unweighted: converged, 318轮, cube=0.941518, 距离相对上界=0.000322676
+nearest_depth_coincident_points_G_10000_fixed_weighted: converged, 301轮, cube=0.960347, 距离相对上界=0.000385552
+nearest_depth_separated_points_G_10000_unweighted: converged, 309轮, cube=0.851465, 距离相对上界=0.000505576
+nearest_depth_separated_points_G_10000_fixed_weighted: converged, 336轮, cube=0.928371, 距离相对上界=0.000427948
+nearest_depth_lines_and_square_G_10000_unweighted: converged, 390轮, cube=0.643287, 距离相对上界=0.000218948
+nearest_depth_lines_and_square_G_10000_fixed_weighted: converged, 338轮, cube=0.619002, 距离相对上界=0.000319203
+结果目录：D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\results\stage02f2\run_20261004_095323

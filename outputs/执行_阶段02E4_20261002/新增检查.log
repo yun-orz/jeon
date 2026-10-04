@@ -1,0 +1,13 @@
+test_invalid_interval_inputs (test_stage02e4.IntervalTests) ... ok
+test_triangle_bounds_and_zero_crossing (test_stage02e4.IntervalTests) ... ok
+test_actual_one_iteration_falls_back (test_stage02e4.Tests) ... ok
+test_cached_execution_exact_and_no_solver_call (test_stage02e4.Tests) ... ok
+test_invalid_config (test_stage02e4.Tests) ... ok
+test_real_source_alpha_and_readonly (test_stage02e4.Tests) ... ok
+test_strict_reuse_conditions (test_stage02e4.Tests) ... ok
+test_tampered_cached_reconstruction_rejected (test_stage02e4.Tests) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 32.178s
+
+OK

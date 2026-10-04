@@ -1,0 +1,3 @@
+continuous_coincident_points_crop_alpha_1: converged, 581轮, cube误差=0.8649, 最优解距离相对上界=0.003784758999426445
+{"status": "completed", "optimization_validation_passed": false, "all_reconstructions_converged": false, "run_dir": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02e1\\run_20261002_225032", "elapsed_s": 6.937531299998227}
+

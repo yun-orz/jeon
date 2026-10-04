@@ -1,0 +1,116 @@
+{
+  "stage": "02E-3",
+  "formal_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02e3\\run_20261002_231844",
+  "implementation_audit_passed": true,
+  "optimization_validation_passed": true,
+  "certificate_validation_passed": true,
+  "stability_validation_passed": true,
+  "completed_jobs": 6,
+  "regression_tests_passed": 206,
+  "regression_elapsed_s": 189.89,
+  "formal_elapsed_s": 253.9817139000006,
+  "independent_audit": {
+    "implementation_audit_passed": true,
+    "all_reconstructions_converged": true,
+    "run_dir": "outputs\\jeon2019_optics\\results\\stage02e3\\run_20261002_231844",
+    "source_unchanged": true,
+    "records": [
+      {
+        "identity": "continuous_coincident_points_crop_alpha_0p01_comparison",
+        "objective": 2.3396085027514285e-06,
+        "projected_gradient_relative": 3.2047669891009257e-09,
+        "solver_status": "converged",
+        "cube_relative_l2": 0.180751732143839,
+        "relative_distance_upper_bound": 0.0001577161627616351
+      },
+      {
+        "identity": "nearest_depth_coincident_points_crop_alpha_0p01_comparison",
+        "objective": 2.2169861174936233e-06,
+        "projected_gradient_relative": 3.232138196573128e-09,
+        "solver_status": "converged",
+        "cube_relative_l2": 0.18012776845980602,
+        "relative_distance_upper_bound": 0.0001590209626258839
+      },
+      {
+        "identity": "continuous_separated_points_crop_alpha_0p01_comparison",
+        "objective": 2.6704447138846774e-06,
+        "projected_gradient_relative": 9.976844275521256e-09,
+        "solver_status": "converged",
+        "cube_relative_l2": 0.11077938810722683,
+        "relative_distance_upper_bound": 0.00020541911545000815
+      },
+      {
+        "identity": "nearest_depth_separated_points_crop_alpha_0p01_comparison",
+        "objective": 2.5304385369710275e-06,
+        "projected_gradient_relative": 9.996482907528392e-09,
+        "solver_status": "converged",
+        "cube_relative_l2": 0.10962179656271054,
+        "relative_distance_upper_bound": 0.000206225870252044
+      },
+      {
+        "identity": "continuous_lines_and_square_crop_alpha_0p01_comparison",
+        "objective": 6.373443540314447e-05,
+        "projected_gradient_relative": 2.1078824769389787e-09,
+        "solver_status": "converged",
+        "cube_relative_l2": 0.07929060185036708,
+        "relative_distance_upper_bound": 0.0006615288469885657
+      },
+      {
+        "identity": "nearest_depth_lines_and_square_crop_alpha_0p01_comparison",
+        "objective": 6.038791179721714e-05,
+        "projected_gradient_relative": 3.172853260722061e-09,
+        "solver_status": "converged",
+        "cube_relative_l2": 0.07884116318942574,
+        "relative_distance_upper_bound": 0.0009977829427147422
+      }
+    ]
+  },
+  "entry_audit": {
+    "missing_source_failed": true,
+    "iteration_limit_exit": 2,
+    "budget_partial_exit": 2,
+    "report_write_failure": true,
+    "show_failure": true,
+    "default_no_save_exit": 0,
+    "default_no_save_stability_passed": true,
+    "no_save_files_unchanged": true,
+    "files_checked": 10008,
+    "mock_show_called_once": true,
+    "figures_closed": true,
+    "real_PyCharm_and_GUI_verified": false
+  },
+  "comparison_strategy": "各器件02D-3实际α×0.01，实际α不同；相同相对正则化尺度，非纯量化因素对照",
+  "comparison_uncertainty": [
+    {
+      "scene": "coincident_points",
+      "nearest_minus_continuous_cube_error": -0.0006239636840329743,
+      "optimization_uncertainty_radius": 0.00026802890260638266,
+      "lower": -0.000891992586639357,
+      "upper": -0.00035593478142659164,
+      "ordering_supported_by_theoretical_bounds": true,
+      "caveat": "不同实际α的模型对照；理论界数值计算未作区间舍入包络，非纯量化因果结论"
+    },
+    {
+      "scene": "separated_points",
+      "nearest_minus_continuous_cube_error": -0.0011575915445163204,
+      "optimization_uncertainty_radius": 0.00039777244474311317,
+      "lower": -0.0015553639892594336,
+      "upper": -0.0007598190997732072,
+      "ordering_supported_by_theoretical_bounds": true,
+      "caveat": "不同实际α的模型对照；理论界数值计算未作区间舍入包络，非纯量化因果结论"
+    },
+    {
+      "scene": "lines_and_square",
+      "nearest_minus_continuous_cube_error": -0.00044943866094135365,
+      "optimization_uncertainty_radius": 0.001638628851937377,
+      "lower": -0.0020880675128787307,
+      "upper": 0.0011891901909960234,
+      "ordering_supported_by_theoretical_bounds": false,
+      "caveat": "不同实际α的模型对照；理论界数值计算未作区间舍入包络，非纯量化因果结论"
+    }
+  ],
+  "source_manifest_matches": true,
+  "real_PyCharm_and_GUI_verified": false,
+  "next_stage_executed": false,
+  "next_plan": "D:\\PyCharmProjects\\Jeon2019\\outputs\\执行_阶段02E3_20261002\\下一阶段02E4详细规划.md"
+}

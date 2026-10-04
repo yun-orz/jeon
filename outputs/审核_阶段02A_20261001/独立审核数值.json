@@ -1,0 +1,152 @@
+{
+  "reviewed_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02a\\run_20261001_203729_02",
+  "production_code_edited": false,
+  "height": {
+    "max_abs_difference_m": 2.329340604949326e-21,
+    "mask_equal": true,
+    "lambda_design_max_error_m": 2.117582368135751e-22,
+    "min_m": -1.4461136454661754e-06,
+    "max_m": -0.0,
+    "fingerprint_stored": "8527724f6aeffc0314d09313d89fdca0c2c864827e6a47308480968bcabc1350"
+  },
+  "psf_independent_checks": [
+    {
+      "wavelength_nm": 420,
+      "direct_sum_points_relative_l2": 1.683915664473217e-13,
+      "intensity_identity_max_error": 0.0,
+      "finite_nonzero": true,
+      "common_axes_equal": true,
+      "fingerprint_equal": true,
+      "Pin": 7.853489999998679e-07,
+      "Pwindow": 6.246937951119359e-07,
+      "eta_window": 0.7954346349356032,
+      "n_independent": 1.4680936900401067
+    },
+    {
+      "wavelength_nm": 540,
+      "direct_sum_points_relative_l2": 1.6814367720007983e-13,
+      "intensity_identity_max_error": 0.0,
+      "finite_nonzero": true,
+      "common_axes_equal": true,
+      "fingerprint_equal": true,
+      "Pin": 7.853489999998679e-07,
+      "Pwindow": 6.978708334701828e-07,
+      "eta_window": 0.8886123665660747,
+      "n_independent": 1.4603436030766004
+    },
+    {
+      "wavelength_nm": 660,
+      "direct_sum_points_relative_l2": 1.6807404835058126e-13,
+      "intensity_identity_max_error": 0.0,
+      "finite_nonzero": true,
+      "common_axes_equal": true,
+      "fingerprint_equal": true,
+      "Pin": 7.853489999998679e-07,
+      "Pwindow": 5.698016058875961e-07,
+      "eta_window": 0.7255393536984093,
+      "n_independent": 1.4562684234902543
+    }
+  ],
+  "material_550nm_independent": 1.4599108864687285,
+  "tests": {
+    "run_count": 63,
+    "success": true,
+    "elapsed_s": 21.818982500000857,
+    "not_run": [
+      "tests.test_stage02_entry.TestStage02Entry.test_invalid_config_fails_cleanly（含自动unlink，未获用户删除授权）"
+    ]
+  },
+  "default_physics_nosave_rerun": {
+    "command": [
+      "D:\\dev\\python\\python3.10.4\\python.exe",
+      "-B",
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main_stage02.py",
+      "--no-save"
+    ],
+    "cwd": "D:\\PyCharmProjects\\Jeon2019",
+    "exit_code": 0,
+    "elapsed_s": 7.312568100052886
+  },
+  "config_probes": [
+    {
+      "case": "半宽字段与实际输入网格不符",
+      "invalid_config_accepted": true
+    },
+    {
+      "case": "输出半宽字段与实际网格不符",
+      "invalid_config_accepted": true
+    },
+    {
+      "case": "非整数翼数被截断",
+      "invalid_config_accepted": true
+    },
+    {
+      "case": "未知材料模型",
+      "invalid_config_accepted": true
+    },
+    {
+      "case": "未知传播模型",
+      "invalid_config_accepted": true
+    },
+    {
+      "case": "NaN传播距离",
+      "invalid_config_accepted": true
+    }
+  ],
+  "zero_field_probe": {
+    "completion": {
+      "stage": "stage02a",
+      "status": "completed",
+      "finished_steps": [
+        "F1_height_design",
+        "F3_psf_preview"
+      ],
+      "wavelengths_completed": [
+        420,
+        540,
+        660
+      ],
+      "all_checks_pass": true,
+      "total_elapsed_s": 0.48290259996429086
+    },
+    "self_check": {
+      "aperture_area": {
+        "measured": 7.85349e-07,
+        "theory": 7.853981633974482e-07,
+        "rel_err": 6.259678178461274e-05,
+        "threshold": 0.01,
+        "status": "pass"
+      },
+      "height_boundaries": {
+        "h_min_m": -1.4461136454661754e-06,
+        "h_max_m": 0.0,
+        "h_origin_m": 0.0,
+        "bound_violation": false,
+        "status": "pass"
+      },
+      "local_focusing_phase_identity": {
+        "max_phasor_error": 8.330074156748355e-15,
+        "threshold": 1e-10,
+        "status": "pass"
+      },
+      "psf_preview": {
+        "wavelengths_tested_nm": [
+          420,
+          540,
+          660
+        ],
+        "eta_values": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "eta_max_allowed": 1.02,
+        "all_finite": true,
+        "status": "pass"
+      }
+    }
+  },
+  "changed_since_handoff": [
+    "README.md"
+  ]
+}

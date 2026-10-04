@@ -1,0 +1,128 @@
+{
+  "files": [
+    {
+      "path": "config_stage02a.json",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\config_stage02a.json",
+      "sha256": "b02cbe9d6c759d65c223a6a93dca71ad58d0b354b793fca06cc34807a5d3637d",
+      "size_bytes": 1113
+    },
+    {
+      "path": "main_stage02.py",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main_stage02.py",
+      "sha256": "5851202ed2967073143c9f047b61471b2da60665c74d47fc16817af240bef1ab",
+      "size_bytes": 60166
+    },
+    {
+      "path": "optics/coordinates.py",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\optics\\coordinates.py",
+      "sha256": "c0b3db54d901e7960a537cf5dd42cfae6083a35d20622f40ded3015421c9c707",
+      "size_bytes": 9307
+    },
+    {
+      "path": "optics/doe.py",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\optics\\doe.py",
+      "sha256": "8f6c6113bd9917aefd3b96bcdd21b96868534d4110744fe6977a86a4fe3a847f",
+      "size_bytes": 10050
+    },
+    {
+      "path": "optics/materials.py",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\optics\\materials.py",
+      "sha256": "414d44ac75588031148fa13b246865e380298a45c4d368cd68321f654b9b50db",
+      "size_bytes": 4289
+    },
+    {
+      "path": "optics/metrics.py",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\optics\\metrics.py",
+      "sha256": "8b10ee395a70384041ff2011389908899eabb0f3b03fe2aa559f6f13c560a2fc",
+      "size_bytes": 16964
+    },
+    {
+      "path": "optics/propagation.py",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\optics\\propagation.py",
+      "sha256": "20078bcaf95c53e9073d909a04cc70c7a265c11cb4517f7b4b298a5ee71460ca",
+      "size_bytes": 32770
+    },
+    {
+      "path": "optics/runutil.py",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\optics\\runutil.py",
+      "sha256": "a031e73b80d093b4ade35d8553e66db1eb26cc30b8505be5e11c8e9628db4b70",
+      "size_bytes": 5053
+    },
+    {
+      "path": "optics/stage02_runtime.py",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\optics\\stage02_runtime.py",
+      "sha256": "924df32ce7229024b3b85f043c27e99772818b2f242759c3b253081ff77add54",
+      "size_bytes": 8463
+    },
+    {
+      "path": "tests/test_stage02_r2.py",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\tests\\test_stage02_r2.py",
+      "sha256": "edf68bc3871ba005b107a76f7d96e9838a83f7b98374ae7a243adef0749e9be4",
+      "size_bytes": 9303
+    },
+    {
+      "path": "tests/test_materials.py",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\tests\\test_materials.py",
+      "sha256": "d5ed28e85bc322f3d53931e6ef8ce7e163f52704fa6080d9c133b48f42c1a8d2",
+      "size_bytes": 3389
+    },
+    {
+      "path": "tests/test_doe.py",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\tests\\test_doe.py",
+      "sha256": "35c599652fda82bee7ea8ce64d1eed1b7bfd0322c78e7ce827941a37ae1dcadf",
+      "size_bytes": 6606
+    },
+    {
+      "path": "tests/test_stage02_entry.py",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\tests\\test_stage02_entry.py",
+      "sha256": "3bad18f0f244f4a5606a528a1850a21e016b02517bc2d94e3da1fad793a632d1",
+      "size_bytes": 10685
+    },
+    {
+      "path": "tests/test_stage02_failure_paths.py",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\tests\\test_stage02_failure_paths.py",
+      "sha256": "92341f292596efd191347d4e6d7333becfceacf35bbb595e948d9758e0b21d93",
+      "size_bytes": 4405
+    },
+    {
+      "path": "actual_config_used",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\config_stage02a.json",
+      "sha256": "b02cbe9d6c759d65c223a6a93dca71ad58d0b354b793fca06cc34807a5d3637d",
+      "size_bytes": 1113
+    }
+  ],
+  "papers": [
+    {
+      "title": "Jeon et al. 2019 (SIGGRAPH)",
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\papers\\main.pdf",
+      "sha256": "493f49f1a998dd51a60757f8b121bd55b03fcfcb692d8828cc08f0c7d718bdcc",
+      "equations_referenced": "式(3), 式(4), 式(7)–(12)",
+      "pages_referenced": "PDF 第 3–5 页（正文）、第 6–7 页（硬件参数）"
+    },
+    {
+      "title": "Jeon et al. 2019 Supplement",
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\papers\\supplement.pdf",
+      "sha256": "638d42815b92be6fa101dfd144f0f290abd61e8ec18346194f4dc223ceeb5bb9"
+    }
+  ],
+  "materials": {
+    "material_name": "fused_silica",
+    "dispersion_model": "Sellmeier_3term",
+    "reference": "Malitson (1965) J. Opt. Soc. Am. 55(10), 1205-1209",
+    "doi": "10.1364/JOSA.55.001205",
+    "assumed_temperature_celsius": 20.0,
+    "valid_wavelength_range_um": [
+      0.21,
+      3.71
+    ],
+    "coefficients_um2": {
+      "B1": 0.6961663,
+      "B2": 0.4079426,
+      "B3": 0.8974794,
+      "C1": 0.00467914825849,
+      "C2": 0.013512063073959999,
+      "C3": 97.93400253792099
+    },
+    "n_air_assumed": 1.0
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "stage": "stage02b1",
+  "batch_title": "Jeon光学编码复现：02B-1九波长对照",
+  "status": "partial",
+  "only_mode": "analyze",
+  "partial_reason": "analyze 子模式只用已有 run 重新分析，未重新传播",
+  "calculation_status": "not_run",
+  "saving_status": "completed",
+  "analysis_status": "completed",
+  "finished_steps": [
+    "R_read_source_run",
+    "A_analysis"
+  ],
+  "source_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\复审并执行_02B_20261002\\02B1正式复跑",
+  "source_run_files": 36,
+  "checks": {
+    "analysis_completed": {
+      "status": "pass"
+    },
+    "source_run_unchanged": {
+      "status": "pass",
+      "files": 36
+    },
+    "report_delivered": {
+      "status": "pass",
+      "file": "report_stage02b1.md"
+    }
+  },
+  "limitations": [],
+  "wavelengths_completed": [
+    420,
+    450,
+    480,
+    510,
+    540,
+    570,
+    600,
+    630,
+    660
+  ],
+  "identity_records": [
+    {
+      "identity": "fresnel@420nm"
+    },
+    {
+      "identity": "fresnel@450nm"
+    },
+    {
+      "identity": "fresnel@480nm"
+    },
+    {
+      "identity": "fresnel@510nm"
+    },
+    {
+      "identity": "fresnel@540nm"
+    },
+    {
+      "identity": "fresnel@570nm"
+    },
+    {
+      "identity": "fresnel@600nm"
+    },
+    {
+      "identity": "fresnel@630nm"
+    },
+    {
+      "identity": "fresnel@660nm"
+    },
+    {
+      "identity": "jeon@420nm"
+    },
+    {
+      "identity": "jeon@450nm"
+    },
+    {
+      "identity": "jeon@480nm"
+    },
+    {
+      "identity": "jeon@510nm"
+    },
+    {
+      "identity": "jeon@540nm"
+    },
+    {
+      "identity": "jeon@570nm"
+    },
+    {
+      "identity": "jeon@600nm"
+    },
+    {
+      "identity": "jeon@630nm"
+    },
+    {
+      "identity": "jeon@660nm"
+    }
+  ],
+  "created_timestamp_local": "2026-10-02T16:56:30",
+  "all_checks_pass": true,
+  "source_manifest_fingerprint": "56846b17e0614bcc1c3478c6469fa6a4f74d8b5241d3ccde649f444a827aa7ef"
+}

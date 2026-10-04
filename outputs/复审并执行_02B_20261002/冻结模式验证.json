@@ -1,0 +1,13 @@
+{
+  "height": {
+    "exit_code": 0,
+    "status": "partial",
+    "all_checks_pass": true
+  },
+  "analyze": {
+    "exit_code": 0,
+    "status": "partial",
+    "all_checks_pass": true
+  },
+  "source_run_unchanged": true
+}

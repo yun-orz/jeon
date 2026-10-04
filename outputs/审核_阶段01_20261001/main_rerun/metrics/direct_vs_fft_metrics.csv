@@ -1,0 +1,17 @@
+﻿指标,数值,说明
+输入样点N,48,
+FFT长度M,96,
+输出间距_um,7.161458333333334,= λz/(MΔx′)
+直接求和最大相位步进_rad,4.5695893143124255,阈值 0.50，ok=False
+IR判据ok,False,按非零输入范围，最大相位步进 4.57 rad
+IR判据ok_若误用填充半宽,False,17.73 rad（说明判据口径很重要）
+一致性算例_相对L2,9999999999.999996,N=24, Δx′=10 μm, 判据 ok=True
+一致性算例_判据步进_rad,0.14851165271515382,
+relative_L2_complex_with_global_phase,625000000.0,‖IR−直接‖₂/‖直接‖₂
+relative_L2_complex_after_global_phase,625000000.0000001,去掉唯一最优全局相位后
+removed_global_phase_deg,139.55028113766383,
+normalized_intensity_L1,0.9764126007436753,附加检查
+P_in,7.382993729041058e-08,Σ|u1|²Δx′Δy′
+P_out_IR,28839819254.066635,Σ|u2_IR|²ΔxΔy
+P_out_direct,7.382993729041056e-08,Σ|u2_direct|²ΔxΔy
+phase_sign_sensitivity,1.4142037655495012,共轭输入与原解的距离

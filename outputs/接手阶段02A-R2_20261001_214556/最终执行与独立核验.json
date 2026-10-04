@@ -1,0 +1,123 @@
+{
+  "records": [
+    {
+      "name": "冻结版本完整回归",
+      "command": [
+        "D:\\dev\\python\\python3.10.4\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "cwd": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+      "exit_code": 0,
+      "elapsed_s": 104.41864009993151
+    },
+    {
+      "name": "冻结版本正式入口",
+      "command": [
+        "D:\\dev\\python\\python3.10.4\\python.exe",
+        "-B",
+        "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main_stage02.py"
+      ],
+      "cwd": "D:\\PyCharmProjects\\Jeon2019",
+      "exit_code": 0,
+      "elapsed_s": 12.157586799934506
+    }
+  ],
+  "complete_tests_passed": 87,
+  "formal_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02a\\run_20261001_215848_02",
+  "all_checks_pass": true,
+  "optical_arrays_equal_previous": [
+    {
+      "file": "doe_continuous.npz",
+      "fields": [
+        "delta_h_m",
+        "mask"
+      ],
+      "equal": true
+    },
+    {
+      "file": "fresnel_control.npz",
+      "fields": [
+        "delta_h_m",
+        "mask",
+        "u2_complex",
+        "intensity_raw",
+        "x_out_m",
+        "y_out_m"
+      ],
+      "equal": true
+    },
+    {
+      "file": "psf_420nm.npz",
+      "fields": [
+        "u2_complex",
+        "intensity_raw",
+        "x_out_m",
+        "y_out_m"
+      ],
+      "equal": true
+    },
+    {
+      "file": "psf_540nm.npz",
+      "fields": [
+        "u2_complex",
+        "intensity_raw",
+        "x_out_m",
+        "y_out_m"
+      ],
+      "equal": true
+    },
+    {
+      "file": "psf_660nm.npz",
+      "fields": [
+        "u2_complex",
+        "intensity_raw",
+        "x_out_m",
+        "y_out_m"
+      ],
+      "equal": true
+    }
+  ],
+  "no_save_project_files_unchanged": true,
+  "formal_source_manifest_matches": true,
+  "checkpoints": {
+    "stage": "stage02a",
+    "status": "completed",
+    "only_mode": "all",
+    "finished_steps": [
+      "F1_height_design",
+      "F2_control_550nm",
+      "F3_psf_preview"
+    ],
+    "wavelengths_completed": [
+      420,
+      540,
+      660
+    ],
+    "wavelength_records": [
+      {
+        "wavelength_m": 4.2e-07,
+        "physical_check_status": "pass",
+        "saved": true
+      },
+      {
+        "wavelength_m": 5.4e-07,
+        "physical_check_status": "pass",
+        "saved": true
+      },
+      {
+        "wavelength_m": 6.6e-07,
+        "physical_check_status": "pass",
+        "saved": true
+      }
+    ],
+    "all_checks_pass": true,
+    "created_timestamp_local": "2026-10-01T21:58:48",
+    "total_elapsed_s": 11.034694500034675
+  }
+}

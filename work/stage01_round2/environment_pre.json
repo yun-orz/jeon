@@ -1,0 +1,22 @@
+{
+  "captured_at": "2026-10-01T14:52:01",
+  "python_executable": "D:\\dev\\python\\python3.10.4\\python.exe",
+  "python_version": "3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)]",
+  "cwd_at_invocation": "D:\\PyCharmProjects\\Jeon2019",
+  "project_root": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "machine": "AMD64",
+  "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+  "cpu_logical": 20,
+  "argv": [
+    "work\\stage01_round2\\pre_edit_snapshot.py"
+  ],
+  "numpy_version": "2.2.6",
+  "numpy_file": "D:\\dev\\python\\python3.10.4\\lib\\site-packages\\numpy\\__init__.py",
+  "scipy_version": "1.15.3",
+  "scipy_file": "D:\\dev\\python\\python3.10.4\\lib\\site-packages\\scipy\\__init__.py",
+  "matplotlib_version": "3.10.9",
+  "matplotlib_file": "D:\\dev\\python\\python3.10.4\\lib\\site-packages\\matplotlib\\__init__.py",
+  "total_physical_memory_bytes": "unavailable: FileNotFoundError(2, '系统找不到指定的文件。', None, 2, None)",
+  "cpu_name": "unavailable: FileNotFoundError(2, '系统找不到指定的文件。', None, 2, None)"
+}

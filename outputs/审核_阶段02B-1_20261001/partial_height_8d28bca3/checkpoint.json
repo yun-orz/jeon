@@ -1,0 +1,14 @@
+{
+  "stage": "stage02b1",
+  "batch_title": "Jeon光学编码复现：02B-1九波长对照",
+  "status": "in_progress",
+  "only_mode": "height",
+  "calculation_status": "in_progress",
+  "saving_status": "not_started",
+  "analysis_status": "not_started",
+  "finished_steps": [],
+  "wavelengths_completed": [],
+  "identity_records": [],
+  "limitations": [],
+  "created_timestamp_local": "2026-10-01T23:06:27"
+}

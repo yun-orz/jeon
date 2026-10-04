@@ -1,0 +1,292 @@
+{
+  "policy": "每阶段保留最新且含图与指标的正式 run；只留图/指标/报告/日志，不含 .npz 大数组",
+  "selected": {
+    "_nosave": {
+      "run": null,
+      "reason": "该阶段没有含图的 run"
+    },
+    "stage01": {
+      "run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage01\\run_20261001_195908",
+      "run_name": "run_20261001_195908",
+      "size_MB": 181.9,
+      "npz_count": 18,
+      "png": 7,
+      "json_csv": 12,
+      "candidates": [
+        "run_20261001_195908",
+        "run_20261001_173406",
+        "run_20261001_160653",
+        "run_20261001_155133",
+        "run_20261001_142041",
+        "run_20261001_141755",
+        "run_20261001_141024",
+        "run_20261001_140937",
+        "run_20260930_201901",
+        "run_20260930_200736",
+        "run_20260930_200512",
+        "_negative_tests"
+      ]
+    },
+    "stage02a": {
+      "run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02a\\run_20261001_215848_02",
+      "run_name": "run_20261001_215848_02",
+      "size_MB": 26.3,
+      "npz_count": 5,
+      "png": 4,
+      "json_csv": 7,
+      "pinned": true,
+      "candidates": []
+    },
+    "stage02b1": {
+      "run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02b1\\run_20261002_163101",
+      "run_name": "run_20261002_163101",
+      "size_MB": 49.3,
+      "npz_count": 20,
+      "png": 7,
+      "json_csv": 7,
+      "pinned": true,
+      "candidates": []
+    },
+    "stage02b2": {
+      "run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02b2\\run_20261002_170056",
+      "run_name": "run_20261002_170056",
+      "size_MB": 329.6,
+      "npz_count": 42,
+      "png": 2,
+      "json_csv": 7,
+      "candidates": [
+        "run_20261002_170056",
+        "run_20261002_164825"
+      ]
+    },
+    "stage02c": {
+      "run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02c\\run_20261002_204946",
+      "run_name": "run_20261002_204946",
+      "size_MB": 190.5,
+      "npz_count": 30,
+      "png": 2,
+      "json_csv": 4,
+      "candidates": [
+        "run_20261002_204946",
+        "run_20261002_172509",
+        "run_20261002_172338",
+        "run_20261002_172311",
+        "run_20261002_171708",
+        "run_20261002_171340"
+      ]
+    },
+    "stage02d1": {
+      "run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02d1\\run_20261002_205011",
+      "run_name": "run_20261002_205011",
+      "size_MB": 4.9,
+      "npz_count": 6,
+      "png": 2,
+      "json_csv": 4,
+      "candidates": [
+        "run_20261002_205011",
+        "run_20261002_204133",
+        "run_20261002_203904"
+      ]
+    },
+    "stage02d2": {
+      "run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02d2\\run_20261002_211656",
+      "run_name": "run_20261002_211656",
+      "size_MB": 8.0,
+      "npz_count": 8,
+      "png": 17,
+      "json_csv": 21,
+      "candidates": [
+        "run_20261002_211656",
+        "run_20261002_210722",
+        "run_20261002_210155",
+        "run_20261002_205720"
+      ]
+    },
+    "stage02d3": {
+      "run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02d3\\run_20261002_223501",
+      "run_name": "run_20261002_223501",
+      "size_MB": 5.4,
+      "npz_count": 8,
+      "png": 17,
+      "json_csv": 21,
+      "candidates": [
+        "run_20261002_223501",
+        "run_20261002_223449",
+        "run_20261002_222854",
+        "run_20261002_222542",
+        "run_20261002_221928"
+      ]
+    },
+    "stage02e1": {
+      "run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02e1\\run_20261002_225046",
+      "run_name": "run_20261002_225046",
+      "size_MB": 1.6,
+      "npz_count": 3,
+      "png": 4,
+      "json_csv": 12,
+      "candidates": [
+        "run_20261002_225046",
+        "run_20261002_225032",
+        "run_20261002_225027",
+        "run_20261002_224704"
+      ]
+    },
+    "stage02e2": {
+      "run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02e2\\run_20261002_230742",
+      "run_name": "run_20261002_230742",
+      "size_MB": 1.1,
+      "npz_count": 2,
+      "png": 3,
+      "json_csv": 8,
+      "candidates": [
+        "run_20261002_230742",
+        "run_20261002_230732",
+        "run_20261002_230727",
+        "run_20261002_230718",
+        "run_20261002_230506",
+        "run_20261002_230253"
+      ]
+    },
+    "stage02e3": {
+      "run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02e3\\run_20261002_232432",
+      "run_name": "run_20261002_232432",
+      "size_MB": 3.6,
+      "npz_count": 6,
+      "png": 10,
+      "json_csv": 16,
+      "candidates": [
+        "run_20261002_232432",
+        "run_20261002_232417",
+        "run_20261002_232403",
+        "run_20261002_232351",
+        "run_20261002_231844"
+      ]
+    },
+    "stage02e4": {
+      "run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02e4\\run_20261002_234331",
+      "run_name": "run_20261002_234331",
+      "size_MB": 3.6,
+      "npz_count": 6,
+      "png": 10,
+      "json_csv": 16,
+      "candidates": [
+        "run_20261002_234331",
+        "run_20261002_234317",
+        "run_20261002_234307",
+        "run_20261002_234255",
+        "run_20261002_233752"
+      ]
+    },
+    "stage02f1": {
+      "run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02f1\\run_20261004_094717",
+      "run_name": "run_20261004_094717",
+      "size_MB": 16.9,
+      "npz_count": 18,
+      "png": 18,
+      "json_csv": 25,
+      "candidates": [
+        "run_20261004_094717",
+        "run_20261004_094401",
+        "run_20261004_093359"
+      ]
+    },
+    "stage02f2": {
+      "run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02f2\\run_20261004_101647",
+      "run_name": "run_20261004_101647",
+      "size_MB": 10.7,
+      "npz_count": 12,
+      "png": 12,
+      "json_csv": 30,
+      "candidates": [
+        "run_20261004_101647",
+        "run_20261004_095655",
+        "run_20261004_095644",
+        "run_20261004_095615",
+        "run_20261004_095323",
+        "run_20261004_095231"
+      ]
+    },
+    "stage02f3_1": {
+      "run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02f3_1\\run_20261004_101730",
+      "run_name": "run_20261004_101730",
+      "size_MB": 14.1,
+      "npz_count": 12,
+      "png": 12,
+      "json_csv": 42,
+      "candidates": [
+        "run_20261004_101730",
+        "run_20261004_101123",
+        "run_20261004_101112",
+        "run_20261004_101012",
+        "run_20261004_100921",
+        "run_20261004_100909",
+        "run_20261004_100605",
+        "run_20261004_100502"
+      ]
+    }
+  },
+  "skipped": {
+    "_nosave": [
+      "arrays（无图）",
+      "figures（无图）",
+      "metrics（无图）"
+    ],
+    "_test_evidence": [
+      "整阶段排除：测试产物，非代表性结果"
+    ],
+    "stage01": [
+      "_config_switch_check（无图）"
+    ],
+    "stage02d1": [
+      "run_20261002_204132（无图）"
+    ],
+    "stage02d2": [
+      "run_20261002_210721（无图）"
+    ],
+    "stage02d3": [
+      "run_20261002_223448（无图）"
+    ],
+    "stage02e1": [
+      "run_20261002_225026（无图）"
+    ],
+    "stage02e2": [
+      "run_20261002_230717（无图）"
+    ],
+    "stage02e3": [
+      "run_20261002_232350（无图）"
+    ],
+    "stage02e4": [
+      "run_20261002_234254（无图）"
+    ],
+    "stage02f1": [
+      "run_20261004_093905（无图）",
+      "run_20261004_093906（无图）",
+      "run_20261004_094228（无图）",
+      "run_20261004_094229（无图）"
+    ],
+    "stage02f2": [
+      "run_20261004_095604（无图）",
+      "run_20261004_095605（无图）",
+      "run_20261004_095625（无图）"
+    ],
+    "stage02f3_1": [
+      "run_20261004_100825（无图）",
+      "run_20261004_100826（无图）",
+      "run_20261004_100837（无图）",
+      "run_20261004_100848（无图）",
+      "run_20261004_101028（无图）",
+      "run_20261004_101029（无图）",
+      "run_20261004_101040（无图）",
+      "run_20261004_101051（无图）"
+    ],
+    "test_failures": [
+      "整阶段排除：测试产物，非代表性结果"
+    ],
+    "test_stage02_entry": [
+      "整阶段排除：测试产物，非代表性结果"
+    ],
+    "test_stage02_r2": [
+      "整阶段排除：测试产物，非代表性结果"
+    ]
+  }
+}

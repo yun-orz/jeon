@@ -1,0 +1,67 @@
+{
+  "definition": {
+    "u_full": "C·F·exp(+i·q)，q = π(x²+y²)/(λz)",
+    "u_red": "C·F（未乘输出二次相位）",
+    "relations": [
+      "u_full = u_red·exp(+iq)",
+      "u_red = u_full·exp(−iq)"
+    ],
+    "note": "第二轮审核 S1：旧实现把 reduced 写成 C·F·exp(−iq)，使两者相差 exp(−2iq)（复场相对 L2 1.4618）。已修正。"
+  },
+  "cases": {
+    "N24_dx10um_M48": {
+      "shape_yx": [
+        24,
+        24
+      ],
+      "dx_m": 1e-05,
+      "dy_m": 1e-05,
+      "fft_size": 48,
+      "include_global_phase": true,
+      "relL2_red_times_exp_iq_vs_full": 5.123836147492004e-14,
+      "relL2_red_vs_full_times_exp_minus_iq": 5.1238684608293965e-14,
+      "intensity_rel_diff": 2.632614161105547e-16,
+      "counterexample_relL2_red_times_exp_2iq_vs_full": 1.4051895006461648,
+      "representation": "reduced 场 u_red = C·F（未乘输出二次相位）",
+      "output_quadratic_phase_present": false
+    },
+    "nonsquare_20x26_dx8_dy15": {
+      "shape_yx": [
+        26,
+        20
+      ],
+      "dx_m": 8e-06,
+      "dy_m": 1.5e-05,
+      "fft_size": [
+        64,
+        48
+      ],
+      "include_global_phase": true,
+      "relL2_red_times_exp_iq_vs_full": 3.2371261890424505e-14,
+      "relL2_red_vs_full_times_exp_minus_iq": 3.237074106700561e-14,
+      "intensity_rel_diff": 2.9102110144939706e-16,
+      "counterexample_relL2_red_times_exp_2iq_vs_full": 1.3995555576394811,
+      "representation": "reduced 场 u_red = C·F（未乘输出二次相位）",
+      "output_quadratic_phase_present": false
+    },
+    "N24_no_global_phase": {
+      "shape_yx": [
+        24,
+        24
+      ],
+      "dx_m": 1e-05,
+      "dy_m": 1e-05,
+      "fft_size": 48,
+      "include_global_phase": false,
+      "relL2_red_times_exp_iq_vs_full": 5.123798731116296e-14,
+      "relL2_red_vs_full_times_exp_minus_iq": 5.1242163578100426e-14,
+      "intensity_rel_diff": 1.7705310607233982e-16,
+      "counterexample_relL2_red_times_exp_2iq_vs_full": 1.4051895006461643,
+      "representation": "reduced 场 u_red = C·F（未乘输出二次相位）",
+      "output_quadratic_phase_present": false
+    }
+  },
+  "worst_relation_relL2": 5.1242163578100426e-14,
+  "tolerance": 1e-10,
+  "pass": true
+}

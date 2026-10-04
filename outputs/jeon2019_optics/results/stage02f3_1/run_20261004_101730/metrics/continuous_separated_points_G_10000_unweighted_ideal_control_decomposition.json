@@ -1,0 +1,32 @@
+{
+  "truth_norm": 2.29128784747792,
+  "norms_absolute": {
+    "total": 1.9579816554012124,
+    "baseline": 1.9556478015211518,
+    "noise_perturbation": 0.03567697032031936
+  },
+  "norms_relative": {
+    "total": 0.8545332519248569,
+    "baseline": 0.853514674585205,
+    "noise_perturbation": 0.015570706386624415
+  },
+  "cross_term": 0.007860993081920734,
+  "cross_term_relative_squared": 0.0014973320156039494,
+  "vector_identity_relative": 3.721096456141025e-17,
+  "squared_identity_relative": 1.7737772718576852e-16,
+  "baseline_interval": {
+    "lower": 1.9553321365757619,
+    "upper": 1.9559634664665417,
+    "lower_relative": 0.8533769071083962,
+    "upper_relative": 0.853652442062014,
+    "uncertainty_absolute": 0.00031566494538997454
+  },
+  "noise_perturbation_interval": {
+    "lower": 0.035088030061515355,
+    "upper": 0.03626591057912336,
+    "lower_relative": 0.015313671785121918,
+    "upper_relative": 0.015827740988126913,
+    "uncertainty_absolute": 0.0005889402588039998
+  },
+  "interpretation": "固定观测W与alpha下的单次确定性分解；基线包括编码/约束/正则化及含噪权重影响，不是纯岭偏差；区间是优化误差界而非统计置信。"
+}

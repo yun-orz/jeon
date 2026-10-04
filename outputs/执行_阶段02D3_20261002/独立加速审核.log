@@ -1,0 +1,65 @@
+{
+  "implementation_audit_passed": true,
+  "all_reconstructions_converged": true,
+  "run_dir": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02d3\\run_20261002_222854",
+  "source_unchanged": true,
+  "records": [
+    {
+      "identity": "continuous_coincident_points_crop",
+      "objective": 5.2955236868755984e-05,
+      "projected_gradient_relative": 3.257318252745047e-06,
+      "solver_status": "converged",
+      "cube_relative_l2": 0.8648659189550184
+    },
+    {
+      "identity": "continuous_separated_points_crop",
+      "objective": 0.00013048158628809956,
+      "projected_gradient_relative": 9.963869320839243e-06,
+      "solver_status": "converged",
+      "cube_relative_l2": 0.6254976393478293
+    },
+    {
+      "identity": "continuous_lines_and_square_crop",
+      "objective": 0.0048924959700883345,
+      "projected_gradient_relative": 1.073114442683413e-06,
+      "solver_status": "converged",
+      "cube_relative_l2": 0.36959684774904233
+    },
+    {
+      "identity": "continuous_lines_and_square_full",
+      "objective": 0.00489341363671416,
+      "projected_gradient_relative": 1.0849382184713845e-06,
+      "solver_status": "converged",
+      "cube_relative_l2": 0.36948592721856344
+    },
+    {
+      "identity": "nearest_depth_coincident_points_crop",
+      "objective": 5.013874693923392e-05,
+      "projected_gradient_relative": 4.262197000779749e-06,
+      "solver_status": "converged",
+      "cube_relative_l2": 0.8650108520756157
+    },
+    {
+      "identity": "nearest_depth_separated_points_crop",
+      "objective": 0.0001235479755706389,
+      "projected_gradient_relative": 9.999629895810677e-06,
+      "solver_status": "converged",
+      "cube_relative_l2": 0.6256551930080146
+    },
+    {
+      "identity": "nearest_depth_lines_and_square_crop",
+      "objective": 0.00463363878381344,
+      "projected_gradient_relative": 1.0373102476437743e-06,
+      "solver_status": "converged",
+      "cube_relative_l2": 0.37019679038893155
+    },
+    {
+      "identity": "nearest_depth_lines_and_square_full",
+      "objective": 0.004634500589506492,
+      "projected_gradient_relative": 1.0271000733101371e-06,
+      "solver_status": "converged",
+      "cube_relative_l2": 0.3700870693197684
+    }
+  ]
+}
+

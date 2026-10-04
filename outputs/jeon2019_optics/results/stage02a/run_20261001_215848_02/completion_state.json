@@ -1,0 +1,35 @@
+{
+  "stage": "stage02a",
+  "status": "completed",
+  "only_mode": "all",
+  "finished_steps": [
+    "F1_height_design",
+    "F2_control_550nm",
+    "F3_psf_preview"
+  ],
+  "wavelengths_completed": [
+    420,
+    540,
+    660
+  ],
+  "wavelength_records": [
+    {
+      "wavelength_m": 4.2e-07,
+      "physical_check_status": "pass",
+      "saved": true
+    },
+    {
+      "wavelength_m": 5.4e-07,
+      "physical_check_status": "pass",
+      "saved": true
+    },
+    {
+      "wavelength_m": 6.6e-07,
+      "physical_check_status": "pass",
+      "saved": true
+    }
+  ],
+  "all_checks_pass": true,
+  "created_timestamp_local": "2026-10-01T21:58:48",
+  "total_elapsed_s": 11.034694500034675
+}

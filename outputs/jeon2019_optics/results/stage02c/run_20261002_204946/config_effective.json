@@ -1,0 +1,52 @@
+{
+  "optical": {
+    "diameter_m": 0.001,
+    "focal_length_m": 0.05,
+    "distance_m": 0.05,
+    "wings_N": 3,
+    "lambda_min_m": 4.2e-07,
+    "lambda_max_m": 6.6e-07,
+    "wavelengths_m": [
+      4.2e-07,
+      5.4e-07,
+      6.6e-07
+    ]
+  },
+  "input": {
+    "n": 1101,
+    "spacing_m": 1e-06
+  },
+  "fabrication": {
+    "levels": 16,
+    "depth_step_m": 1e-07,
+    "substrate_height_m": 0.0005,
+    "methods": [
+      "nearest_depth",
+      "floor_depth"
+    ]
+  },
+  "detector": {
+    "pixels_per_axis": 97,
+    "pitch_m": 6.22e-06,
+    "quadrature_per_axis": [
+      4,
+      8
+    ],
+    "response": "uniform_unit_radiometric",
+    "fill_factor": 1.0
+  },
+  "thresholds": {
+    "pixel_l1": 0.005,
+    "pixel_l2": 0.01,
+    "eta_absolute": 0.001,
+    "angle_deg": 0.5,
+    "radius_pixels": 1.0
+  },
+  "runtime": {
+    "save_results": true,
+    "show_plots": false
+  },
+  "plots": {
+    "dpi": 150
+  }
+}

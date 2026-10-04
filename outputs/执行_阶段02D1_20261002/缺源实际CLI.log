@@ -1,0 +1,15 @@
+
+Traceback (most recent call last):
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02d1.py", line 206, in <module>
+    if __name__=='__main__': raise SystemExit(main())
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02d1.py", line 202, in main
+    report = run(cfg,args.no_save,args.show_plots)
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02d1.py", line 72, in run
+    kernels,evidence = load_source(source,ROOT,c)
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\optics\stage02c_source.py", line 20, in load_source
+    report = json.loads((source/'metrics/validation.json').read_text(encoding='utf-8'))
+  File "D:\dev\python\python3.10.4\lib\pathlib.py", line 1132, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+  File "D:\dev\python\python3.10.4\lib\pathlib.py", line 1117, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\不存在的源run\\metrics\\validation.json'

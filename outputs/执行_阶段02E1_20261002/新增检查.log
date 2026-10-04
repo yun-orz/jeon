@@ -1,0 +1,23 @@
+
+test_alpha_solutions_against_nnls (test_ridge_sensitivity.CertificateTests) ... ok
+test_exact_zero_vs_tiny_positive (test_ridge_sensitivity.CertificateTests) ... ok
+test_independent_nnls_bounds (test_ridge_sensitivity.CertificateTests) ... ok
+test_invalid_inputs (test_ridge_sensitivity.CertificateTests) ... ok
+test_invalid_config (test_ridge_sensitivity.SourceTests) ... ok
+test_real_source_and_readonly (test_ridge_sensitivity.SourceTests) ... ok
+test_tampered_alpha_rejected (test_ridge_sensitivity.SourceTests) ... ERROR
+
+======================================================================
+ERROR: test_tampered_alpha_rejected (test_ridge_sensitivity.SourceTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\tests\test_ridge_sensitivity.py", line 80, in test_tampered_alpha_rejected
+    with self.assertRaises(ValueError):load_accelerated_source(ROOT/c['source_run'],ROOT)
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\optics\stage02d3_source.py", line 40, in load_accelerated_source
+    values={k:z[k].copy() for k in z.files}
+AttributeError: 'dict' object has no attribute 'files'
+
+----------------------------------------------------------------------
+Ran 7 tests in 6.338s
+
+FAILED (errors=1)

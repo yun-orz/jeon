@@ -1,0 +1,37 @@
+2026-10-01 17:30:00 [INFO] ==============================================================================
+2026-10-01 17:30:00 [INFO] Jeon2019 阶段 01（第二轮修正版）：Fresnel 传播基线
+2026-10-01 17:30:00 [INFO] 项目根目录（由 __file__ 解析）：D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics
+2026-10-01 17:30:00 [INFO] 调用时工作目录：D:\PyCharmProjects\Jeon2019
+2026-10-01 17:30:00 [INFO] 解释器：D:\dev\python\python3.10.4\python.exe
+2026-10-01 17:30:00 [INFO] numpy 2.2.6 / scipy 1.15.3 / matplotlib 3.10.9
+2026-10-01 17:30:00 [INFO] 最终设置：show_plots=True（来源：配置 runtime.show_plots）；save_results=True（来源：配置 runtime.save_results=True）
+2026-10-01 17:30:00 [INFO] matplotlib 后端：MOCK:Agg(show=True)；中文字体：Microsoft YaHei
+2026-10-01 17:30:00 [INFO] 结果目录：D:\PyCharmProjects\Jeon2019\outputs\接手阶段01_20261001_172103\配置开关证据\cases_kspeloj1\run_config_show_true
+2026-10-01 17:30:00 [INFO] ==============================================================================
+2026-10-01 17:30:00 [INFO] 【B】N=48，Δx′=40 μm，M=96：FFT vs 完整核求和 rel L2=1.0743e-13；原生全输出功率相对误差=6.6613e-15（P_out/P_in=1.000000000000）；耗时 0.001/0.000 s
+2026-10-01 17:30:00 [INFO] 【B】N=24，Δx′=10 μm，M=48：FFT vs 完整核求和 rel L2=1.6990e-14；原生全输出功率相对误差=8.8818e-16（P_out/P_in=1.000000000000）；耗时 0.000/0.000 s
+2026-10-01 17:30:00 [INFO] 【B】N=64，Δx′=5 μm，M=256：FFT vs 完整核求和 rel L2=2.5165e-13；原生全输出功率相对误差=2.1538e-14（P_out/P_in=1.000000000000）；耗时 0.006/0.003 s
+2026-10-01 17:30:00 [INFO] 【S1】N24_dx10um_M48：relL2(red·e^{iq}, full)=5.1238e-14；relL2(red, full·e^{−iq})=5.1239e-14；强度相对差=2.6326e-16；反例（补两次相位）=1.4052e+00
+2026-10-01 17:30:00 [INFO] 【S1】nonsquare_20x26_dx8_dy15：relL2(red·e^{iq}, full)=3.2371e-14；relL2(red, full·e^{−iq})=3.2371e-14；强度相对差=2.9102e-16；反例（补两次相位）=1.3996e+00
+2026-10-01 17:30:00 [INFO] 【S1】N24_no_global_phase：relL2(red·e^{iq}, full)=5.1238e-14；relL2(red, full·e^{−iq})=5.1242e-14；强度相对差=1.7705e-16；反例（补两次相位）=1.4052e+00
+2026-10-01 17:30:00 [INFO] ------------------------------------------------------------------------------
+2026-10-01 17:30:00 [INFO] 验收 airy_cases_complete              阈值 0  实测 未执行  → not_run
+2026-10-01 17:30:00 [INFO] 验收 airy_first_dark_ring_rel_err     阈值 0.02  实测 未执行  → not_run
+2026-10-01 17:30:00 [INFO] 验收 airy_line_L1_vs_analytic         阈值 0.01  实测 未执行  → not_run
+2026-10-01 17:30:00 [INFO] 验收 discrete_identity_rel_L2         阈值 1e-06  实测 2.516476e-13  → pass
+2026-10-01 17:30:00 [INFO] 验收 native_fft_parseval_rel_err      阈值 1e-10  实测 未执行  → not_run
+2026-10-01 17:30:00 [INFO] 验收 energy_absolute_abs_diff         阈值 0.005  实测 未执行  → not_run
+2026-10-01 17:30:00 [INFO] 验收 input_sampling_intensity_L1      阈值 0.02  实测 未执行  → not_run
+2026-10-01 17:30:00 [INFO] 验收 padding_sampling_intensity_L1    阈值 0.02  实测 未执行  → not_run
+2026-10-01 17:30:00 [INFO] 验收 energy_windows_valid             阈值 0  实测 未执行  → not_run
+2026-10-01 17:30:00 [INFO] 验收 energy_grid_stable               阈值 0  实测 未执行  → not_run
+2026-10-01 17:30:00 [INFO] 验收 padding_windows_valid            阈值 0  实测 未执行  → not_run
+2026-10-01 17:30:00 [INFO] 验收 padding_finer_not_worse          阈值 0  实测 未执行  → not_run
+2026-10-01 17:30:00 [INFO] 验收 airy_absolute_energy             阈值 0.005  实测 未执行  → not_run
+2026-10-01 17:30:00 [INFO] 验收 phase_representation_relL2       阈值 1e-10  实测 5.124216e-14  → pass
+2026-10-01 17:30:00 [INFO] 验收 required_group_airy              阈值 1  实测 未执行  → not_run
+2026-10-01 17:30:00 [INFO] 验收 required_group_energy            阈值 1  实测 未执行  → not_run
+2026-10-01 17:30:00 [INFO] 验收 required_group_sampling          阈值 1  实测 未执行  → not_run
+2026-10-01 17:30:00 [INFO] 总体状态：partial；退出码 0；未运行组：airy, energy, sampling
+2026-10-01 17:30:00 [INFO] 结果目录：D:\PyCharmProjects\Jeon2019\outputs\接手阶段01_20261001_172103\配置开关证据\cases_kspeloj1\run_config_show_true
+2026-10-01 17:30:00 [INFO] 阶段 01（修正版）结束，停止，不进入阶段 02。

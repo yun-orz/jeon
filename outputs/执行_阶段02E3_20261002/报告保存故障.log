@@ -1,0 +1,7 @@
+continuous_coincident_points_crop_alpha_0p01_comparison: iteration_limit, 1轮, cube=0.998138, 最优解距离相对上界=254036, 1%界通过=False
+nearest_depth_coincident_points_crop_alpha_0p01_comparison: iteration_limit, 1轮, cube=0.998138, 最优解距离相对上界=254248, 1%界通过=False
+continuous_separated_points_crop_alpha_0p01_comparison: iteration_limit, 1轮, cube=0.998509, 最优解距离相对上界=493851, 1%界通过=False
+nearest_depth_separated_points_crop_alpha_0p01_comparison: iteration_limit, 1轮, cube=0.998506, 最优解距离相对上界=493990, 1%界通过=False
+continuous_lines_and_square_crop_alpha_0p01_comparison: iteration_limit, 1轮, cube=0.937674, 最优解距离相对上界=147806, 1%界通过=False
+nearest_depth_lines_and_square_crop_alpha_0p01_comparison: iteration_limit, 1轮, cube=0.937394, 最优解距离相对上界=147824, 1%界通过=False
+

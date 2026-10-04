@@ -1,0 +1,9 @@
+2026-10-02 20:41:35 [INFO] 源run重验通过：三张固定高度、九组q8复场；源文件只读
+2026-10-02 20:41:36 [INFO] continuous/coincident_points：通量误差0，直接平移叠加误差3.24e-16，crop保留0.9991
+2026-10-02 20:41:36 [INFO] continuous/separated_points：通量误差0，直接平移叠加误差4.04e-16，crop保留0.9844
+2026-10-02 20:41:36 [INFO] continuous/lines_and_square：通量误差0，直接平移叠加误差4.89e-16，crop保留0.9940
+2026-10-02 20:41:37 [INFO] nearest_depth/coincident_points：通量误差0，直接平移叠加误差3.2e-16，crop保留0.9991
+2026-10-02 20:41:37 [INFO] nearest_depth/separated_points：通量误差1.42e-16，直接平移叠加误差4.02e-16，crop保留0.9844
+2026-10-02 20:41:37 [INFO] nearest_depth/lines_and_square：通量误差2.05e-16，直接平移叠加误差5.6e-16，crop保留0.9940
+报告写入故障验证通过；证据 D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\results\stage02d1\run_20261002_204133
+

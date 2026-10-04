@@ -1,0 +1,21 @@
+{
+  "accepted": true,
+  "final_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02c\\run_20261002_172338",
+  "source_sha_matches": true,
+  "all_30_arrays_equal_independently_audited_run": true,
+  "core_regression": {
+    "passed": 153,
+    "duration_s": 118.373,
+    "executed_before_final_saved_branch_order_change": true
+  },
+  "after_order_change_related_tests_passed": 11,
+  "csv_write_failure_injection_passed": true,
+  "no_save_sha_check_passed": true,
+  "no_save_branch_changed_after_test": false,
+  "quantized_input_refinement_9_cases_passed": true,
+  "limits": [
+    "正文旋转方向对应未确定",
+    "真实PyCharm点击/弹窗未人工验证",
+    "尚未运行场景或重建"
+  ]
+}

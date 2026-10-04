@@ -1,0 +1,25 @@
+{
+  "stage": "02D-2",
+  "implementation_and_delivery_audit_passed": true,
+  "actual_reconstruction_optimization_converged": false,
+  "convergence_remaining_required": true,
+  "regression_tests_passed": 177,
+  "regression_duration_s": 136.22,
+  "related_tests_passed": 11,
+  "source_sha_matches": true,
+  "independent_saved_prediction_objective_projected_gradient_audit_passed": true,
+  "no_save_file_list_and_sha_unchanged": true,
+  "failure_injection_passed": [
+    "缺源实际CLI",
+    "报告写入失败"
+  ],
+  "final_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02d2\\run_20261002_210155",
+  "representative_5000_iteration_diagnostics_executed": 2,
+  "representative_5000_iteration_converged": false,
+  "not_executed": [
+    "原论文网络",
+    "双孔径/N=1",
+    "真实GUI人工验证"
+  ],
+  "next_step": "相同目标加速投影梯度/回溯与收敛验证"
+}

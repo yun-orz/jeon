@@ -1,0 +1,9 @@
+{
+  "origin": "独立交付审核时记录",
+  "files": {
+    "main_stage02e2_extra.py": "99956dce56a6690db74bd801282dbd91a699d4919374de31059b2fddc42b04d1",
+    "config_stage02e2_extra.json": "5e5de210bc390428ce4885c39c1927ba0b819135d4d5cc85fd62529c7284f117"
+  },
+  "config_matches_actual_run": true,
+  "run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02e2\\run_20261002_230506"
+}

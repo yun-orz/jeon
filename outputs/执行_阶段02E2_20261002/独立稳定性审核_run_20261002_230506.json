@@ -1,0 +1,16 @@
+{
+  "implementation_audit_passed": true,
+  "all_reconstructions_converged": true,
+  "run_dir": "outputs\\jeon2019_optics\\results\\stage02e2\\run_20261002_230506",
+  "source_unchanged": true,
+  "records": [
+    {
+      "identity": "continuous_lines_and_square_crop_alpha_0p01_refined",
+      "objective": 6.373443540314447e-05,
+      "projected_gradient_relative": 2.1078824769389787e-09,
+      "solver_status": "converged",
+      "cube_relative_l2": 0.07929060185036708,
+      "relative_distance_upper_bound": 0.0006615288469885657
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+test_changed_alpha_or_L_rejected (test_stage02f3_1.FrozenControlTests) ... ok
+test_cross_term_can_be_negative (test_stage02f3_1.FrozenControlTests) ... ok
+test_frozen_weight_recomputed_rejected (test_stage02f3_1.FrozenControlTests) ... ok
+test_intervals_clip_lower_at_zero (test_stage02f3_1.FrozenControlTests) ... ok
+test_invalid_decomposition (test_stage02f3_1.FrozenControlTests) ... ok
+test_negative_ideal_target_retained (test_stage02f3_1.FrozenControlTests) ... ok
+test_no_parameter_estimation_in_control (test_stage02f3_1.FrozenControlTests) ... ok
+test_nonzero_background_and_limit (test_stage02f3_1.FrozenControlTests) ... ok
+test_truth_isolation (test_stage02f3_1.FrozenControlTests) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.029s
+
+OK

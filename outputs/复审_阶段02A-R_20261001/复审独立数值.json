@@ -1,0 +1,168 @@
+{
+  "optical_arrays_vs_independently_reviewed_previous_run": [
+    {
+      "file": "doe_continuous.npz",
+      "shared_fields": [
+        "delta_h_m",
+        "mask"
+      ],
+      "all_shared_arrays_exactly_equal": true
+    },
+    {
+      "file": "psf_420nm.npz",
+      "shared_fields": [
+        "u2_complex",
+        "intensity_raw",
+        "x_out_m",
+        "y_out_m"
+      ],
+      "all_shared_arrays_exactly_equal": true
+    },
+    {
+      "file": "psf_540nm.npz",
+      "shared_fields": [
+        "u2_complex",
+        "intensity_raw",
+        "x_out_m",
+        "y_out_m"
+      ],
+      "all_shared_arrays_exactly_equal": true
+    },
+    {
+      "file": "psf_660nm.npz",
+      "shared_fields": [
+        "u2_complex",
+        "intensity_raw",
+        "x_out_m",
+        "y_out_m"
+      ],
+      "all_shared_arrays_exactly_equal": true
+    },
+    {
+      "file": "fresnel_control.npz",
+      "shared_fields": [
+        "u2_complex",
+        "intensity_raw",
+        "x_out_m",
+        "y_out_m"
+      ],
+      "all_shared_arrays_exactly_equal": true
+    }
+  ],
+  "formal_run_manifest_matches_current_source": true,
+  "tests": {
+    "command": [
+      "D:\\dev\\python\\python3.10.4\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\tests",
+      "-t",
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+      "-v"
+    ],
+    "cwd": "D:\\PyCharmProjects\\Jeon2019",
+    "exit_code": 0,
+    "elapsed_s": 27.233498199959286
+  },
+  "default_nosave": {
+    "command": [
+      "D:\\dev\\python\\python3.10.4\\python.exe",
+      "-B",
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main_stage02.py",
+      "--no-save"
+    ],
+    "cwd": "D:\\PyCharmProjects\\Jeon2019",
+    "exit_code": 0,
+    "elapsed_s": 2.203262299997732
+  },
+  "relative_config_cli": {
+    "command": [
+      "D:\\dev\\python\\python3.10.4\\python.exe",
+      "-B",
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main_stage02.py",
+      "--config",
+      "config_stage02a.json",
+      "--only",
+      "height",
+      "--no-save"
+    ],
+    "cwd": "D:\\PyCharmProjects\\Jeon2019",
+    "exit_code": 1,
+    "elapsed_s": 0.8063078999985009
+  },
+  "previous_six_invalid_configs": [
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\审核_阶段02A_20261001\\反例配置_1.json",
+      "rejected": true
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\审核_阶段02A_20261001\\反例配置_2.json",
+      "rejected": true
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\审核_阶段02A_20261001\\反例配置_3.json",
+      "rejected": true
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\审核_阶段02A_20261001\\反例配置_4.json",
+      "rejected": true
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\审核_阶段02A_20261001\\反例配置_5.json",
+      "rejected": true
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\审核_阶段02A_20261001\\反例配置_6.json",
+      "rejected": true
+    }
+  ],
+  "zero_field_rejected": {
+    "rejected": true,
+    "error": "试算波长 540.0 nm 结果异常: finite=True, peak=0.0"
+  },
+  "nan_field_rejected": {
+    "rejected": true,
+    "error": "试算波长 540.0 nm 结果异常: finite=False, peak=nan"
+  },
+  "control_energy_excess_probe": {
+    "status": "partial",
+    "control_self_check": "pass",
+    "eta_window": 3.865545595821767
+  },
+  "nearby_wavelength_probe": {
+    "requested_m": [
+      5.4e-07,
+      5.4005e-07,
+      6.6e-07
+    ],
+    "actually_propagated_m": [
+      5.4e-07,
+      6.6e-07
+    ],
+    "status": "partial"
+  },
+  "show_config_only": {
+    "command": [
+      "D:\\dev\\python\\python3.10.4\\python.exe",
+      "-B",
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main_stage02.py",
+      "--config",
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\复审_阶段02A-R_20261001\\仅配置显示开启.json",
+      "--only",
+      "height",
+      "--no-save"
+    ],
+    "cwd": "D:\\PyCharmProjects\\Jeon2019",
+    "exit_code": 0,
+    "elapsed_s": 1.0870710000162944
+  },
+  "nonempty_run_dir_probe": {
+    "calculation_entered_without_rejecting_nonempty_directory": true,
+    "existing_marker_preserved": true,
+    "real_overwrite_attempted": false
+  },
+  "production_files_and_docs_unchanged": true
+}

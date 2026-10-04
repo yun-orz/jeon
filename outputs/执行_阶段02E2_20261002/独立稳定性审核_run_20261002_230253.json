@@ -1,0 +1,24 @@
+{
+  "implementation_audit_passed": true,
+  "all_reconstructions_converged": true,
+  "run_dir": "outputs\\jeon2019_optics\\results\\stage02e2\\run_20261002_230253",
+  "source_unchanged": true,
+  "records": [
+    {
+      "identity": "continuous_coincident_points_crop_alpha_0p01_refined",
+      "objective": 2.339624358955667e-06,
+      "projected_gradient_relative": 8.079206821456236e-08,
+      "solver_status": "converged",
+      "cube_relative_l2": 0.18129073512731447,
+      "relative_distance_upper_bound": 0.00397715532335251
+    },
+    {
+      "identity": "continuous_lines_and_square_crop_alpha_0p01_refined",
+      "objective": 6.373502613891623e-05,
+      "projected_gradient_relative": 3.411086112237168e-08,
+      "solver_status": "converged",
+      "cube_relative_l2": 0.0792946225893053,
+      "relative_distance_upper_bound": 0.010704923267335829
+    }
+  ]
+}

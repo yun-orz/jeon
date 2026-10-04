@@ -1,0 +1,143 @@
+{
+  "review_local_time": "2026-10-01T20:48:16.631541+08:00",
+  "overall_02a_review": "needs_revision",
+  "optical_chain_review": "passed_for_current_discrete_preview",
+  "reviewed_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02a\\run_20261001_203729_02",
+  "production_source_edited_by_reviewer": false,
+  "deleted_files_by_reviewer": false,
+  "formal_run_manifest_still_matches_current_code": true,
+  "source_files": [
+    {
+      "project_relative_path": "config.json",
+      "sha256": "05ceb9aa2f8c86b49af051fb0e1ea50c582ffe8a2c99283a95342d4d956adafe"
+    },
+    {
+      "project_relative_path": "config_stage02a.json",
+      "sha256": "b02cbe9d6c759d65c223a6a93dca71ad58d0b354b793fca06cc34807a5d3637d"
+    },
+    {
+      "project_relative_path": "docs\\assumptions.md",
+      "sha256": "72c02d434ca6f3c2d213e0191bfde1e8c336d30ff4a401630e1cc6bf98b515d5"
+    },
+    {
+      "project_relative_path": "docs\\equations_and_parameters.md",
+      "sha256": "1227f000fdebb4864f9cd6aff7b4bb9f41c02cc976e78aa962573d4dc1e36fed"
+    },
+    {
+      "project_relative_path": "docs\\reproduction_log.md",
+      "sha256": "f57c44db246fec76b1d3de365bcda909d686cf60f3e893cbca4d8800b64d937a"
+    },
+    {
+      "project_relative_path": "docs\\revision_notes.md",
+      "sha256": "84f00abd4a31a4bf014d899b81feda446710e661dd4e45c068fa36d0ba4c4746"
+    },
+    {
+      "project_relative_path": "docs\\revision_round2.md",
+      "sha256": "e7ee40af868fc6a03867a67039dd4c81ee005e670bacce5f1a4b8f35e2cf7fcb"
+    },
+    {
+      "project_relative_path": "docs\\source_manifest.json",
+      "sha256": "f6c64572ba371bed7643cbd7d18b10e4487b5293ee6a3fc03051c86a7434796a"
+    },
+    {
+      "project_relative_path": "docs\\stage01_completed.md",
+      "sha256": "4339bbc224268a83333b5c29c5f05bbc9496534d08cb28957860963cf41e6dab"
+    },
+    {
+      "project_relative_path": "docs\\stage02_assumptions.md",
+      "sha256": "223ef8545b4af28e2de6d3dd618f8d5833dd5369198f2d3649734348155eca48"
+    },
+    {
+      "project_relative_path": "docs\\stage02_equations_and_parameters.md",
+      "sha256": "0e3c7672234b98ec0738d7742f46f493780071aad1f38186a8899ebb55b95291"
+    },
+    {
+      "project_relative_path": "docs\\stage02a_report.md",
+      "sha256": "3c3f5ee32e4e8d375609cec753cedc90509c2f5171b14a6883b91d5a8c791a1e"
+    },
+    {
+      "project_relative_path": "docs\\verify_config_switches.py",
+      "sha256": "7c9bbea76b502c2d7a66126fa4db860e61b7935ab6365a88f740787498507a91"
+    },
+    {
+      "project_relative_path": "main.py",
+      "sha256": "63fbdfae7372bfb01ac21a2afe156ce9f95efeedd1f88479474acc2791790cd7"
+    },
+    {
+      "project_relative_path": "main_stage02.py",
+      "sha256": "de7e624d81020d0eed8d47b89f4cc0ecd84a6859feded1771a0020132d443d12"
+    },
+    {
+      "project_relative_path": "optics\\__init__.py",
+      "sha256": "12f8bb8fc42fc39fa60b0e46b861b8bb0d8d18cca6b114d671db4c67ab891472"
+    },
+    {
+      "project_relative_path": "optics\\coordinates.py",
+      "sha256": "c0b3db54d901e7960a537cf5dd42cfae6083a35d20622f40ded3015421c9c707"
+    },
+    {
+      "project_relative_path": "optics\\doe.py",
+      "sha256": "8f6c6113bd9917aefd3b96bcdd21b96868534d4110744fe6977a86a4fe3a847f"
+    },
+    {
+      "project_relative_path": "optics\\materials.py",
+      "sha256": "414d44ac75588031148fa13b246865e380298a45c4d368cd68321f654b9b50db"
+    },
+    {
+      "project_relative_path": "optics\\metrics.py",
+      "sha256": "8b10ee395a70384041ff2011389908899eabb0f3b03fe2aa559f6f13c560a2fc"
+    },
+    {
+      "project_relative_path": "optics\\propagation.py",
+      "sha256": "20078bcaf95c53e9073d909a04cc70c7a265c11cb4517f7b4b298a5ee71460ca"
+    },
+    {
+      "project_relative_path": "optics\\runutil.py",
+      "sha256": "a031e73b80d093b4ade35d8553e66db1eb26cc30b8505be5e11c8e9628db4b70"
+    },
+    {
+      "project_relative_path": "optics\\units.py",
+      "sha256": "31408e61a8972474e41c597486368c6a8e592540cb7dc0451fb247a746cdcfbb"
+    },
+    {
+      "project_relative_path": "optics\\validation.py",
+      "sha256": "62c75277403096305dd5bb85744d1a8e7a34e8d6b5dabcd9f5f64c72359aacfb"
+    },
+    {
+      "project_relative_path": "README.md",
+      "sha256": "9e9e802d25d02be5af855e4a16c8432c5c019a61e324f148e259d241f3633a8d"
+    },
+    {
+      "project_relative_path": "requirements.txt",
+      "sha256": "7b3dc0cb202ef1d10d0184124ca7ad01a0be056dbf5e8561065d2aa988c42f8f"
+    },
+    {
+      "project_relative_path": "tests\\__init__.py",
+      "sha256": "8355ba42001a0866e808e2528534cbc5e0f2de37906a73603eebf16881e505a4"
+    },
+    {
+      "project_relative_path": "tests\\test_doe.py",
+      "sha256": "35c599652fda82bee7ea8ce64d1eed1b7bfd0322c78e7ce827941a37ae1dcadf"
+    },
+    {
+      "project_relative_path": "tests\\test_materials.py",
+      "sha256": "d5ed28e85bc322f3d53931e6ef8ce7e163f52704fa6080d9c133b48f42c1a8d2"
+    },
+    {
+      "project_relative_path": "tests\\test_negative_paths.py",
+      "sha256": "624626246a939b505fd332cf36fefd9f63e16b4ba1840c405d7f17e840c1fd51"
+    },
+    {
+      "project_relative_path": "tests\\test_propagation.py",
+      "sha256": "5c1ffa284851b8eccb9bc6f0377aca88650c986d07ac8c41c26d8009a0b4b01c"
+    },
+    {
+      "project_relative_path": "tests\\test_stage02_entry.py",
+      "sha256": "4700383ed73def6010052b7fe24a2a082811b0e99b2a1f8d3e513479d8197660"
+    },
+    {
+      "project_relative_path": "tests\\test_validation_completion.py",
+      "sha256": "3ebe1be43c8d055555aa6752f1081ed091f891c96cf50993ae5de38de763286a"
+    }
+  ]
+}

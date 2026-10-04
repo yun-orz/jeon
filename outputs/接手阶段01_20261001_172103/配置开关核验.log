@@ -1,0 +1,7 @@
+默认配置：不弹窗、落盘                                             OK {"case": "default_config_off", "config_runtime": {"show_plots": false, "save_results": true}, "argv_extra": [], "effective_show_plots": false, "effective_save_results": true, "show_source": "默认 false"
+默认配置：后端未被要求 show                                        OK [False]
+配置 show_plots=true 真的生效（后端收到 show=True）                 OK [True]
+配置 save_results=false 真的不落盘                             OK added=[]
+CLI --show-plots 覆盖配置 false                             OK [True]
+CLI --no-save 覆盖配置 true 且无项目输出                          OK added=[]
+ALL_OK=True  报告：D:\PyCharmProjects\Jeon2019\outputs\接手阶段01_20261001_172103\配置开关证据\config_switch_check.json

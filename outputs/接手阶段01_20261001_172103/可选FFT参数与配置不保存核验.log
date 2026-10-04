@@ -1,0 +1,35 @@
+2026-10-01 17:39:00 [INFO] ==============================================================================
+2026-10-01 17:39:00 [INFO] Jeon2019 阶段 01（第二轮修正版）：Fresnel 传播基线
+2026-10-01 17:39:00 [INFO] 项目根目录（由 __file__ 解析）：D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics
+2026-10-01 17:39:00 [INFO] 调用时工作目录：D:\PyCharmProjects\Jeon2019
+2026-10-01 17:39:00 [INFO] 解释器：D:\dev\python\python3.10.4\python.exe
+2026-10-01 17:39:00 [INFO] numpy 2.2.6 / scipy 1.15.3 / matplotlib 3.10.9
+2026-10-01 17:39:00 [INFO] 最终设置：show_plots=False（来源：默认 false）；save_results=False（来源：配置 runtime.save_results=False）
+2026-10-01 17:39:00 [INFO] matplotlib 后端：Agg；中文字体：Microsoft YaHei
+2026-10-01 17:39:00 [INFO] 结果目录：（不落盘：不写任何项目文件）
+2026-10-01 17:39:00 [INFO] ==============================================================================
+2026-10-01 17:39:00 [INFO] 【C1】非对称输入 N=48，Δx′=40 μm，M=96：P_in=2.372569889894e-07，P_out=2.372569889894e-07，相对误差=6.6613e-15（主判据，目标 ≤1e-10）
+2026-10-01 17:39:00 [INFO] 【C1】非对称输入 N=64，Δx′=5 μm，M=256：P_in=6.592655791279e-09，P_out=6.592655791279e-09，相对误差=2.1538e-14（主判据，目标 ≤1e-10）
+2026-10-01 17:39:00 [INFO] 【能量·C2_direct20_R4r1】完整位移核有限窗口 329×329；非零输入 (1001, 1001)；Δout=1.677 μm；Pdisk/Pin=0.959359057，解析=0.959405366，差=4.631e-05（0.12 s）
+2026-10-01 17:39:00 [INFO] 【能量·C2_direct40_R4r1】完整位移核有限窗口 657×657；非零输入 (1001, 1001)；Δout=0.8385 μm；Pdisk/Pin=0.959384258，解析=0.959405366，差=2.111e-05（0.16 s）
+2026-10-01 17:39:01 [INFO] ------------------------------------------------------------------------------
+2026-10-01 17:39:01 [INFO] 验收 airy_cases_complete              阈值 0  实测 未执行  → not_run
+2026-10-01 17:39:01 [INFO] 验收 airy_first_dark_ring_rel_err     阈值 0.02  实测 未执行  → not_run
+2026-10-01 17:39:01 [INFO] 验收 airy_line_L1_vs_analytic         阈值 0.01  实测 未执行  → not_run
+2026-10-01 17:39:01 [INFO] 验收 discrete_identity_rel_L2         阈值 1e-06  实测 未执行  → not_run
+2026-10-01 17:39:01 [INFO] 验收 native_fft_parseval_rel_err      阈值 1e-10  实测 2.153833e-14  → pass
+2026-10-01 17:39:01 [INFO] 验收 energy_absolute_abs_diff         阈值 0.005  实测 4.630876e-05  → pass
+2026-10-01 17:39:01 [INFO] 验收 input_sampling_intensity_L1      阈值 0.02  实测 未执行  → not_run
+2026-10-01 17:39:01 [INFO] 验收 padding_sampling_intensity_L1    阈值 0.02  实测 未执行  → not_run
+2026-10-01 17:39:01 [INFO] 验收 energy_windows_valid             阈值 0  实测 0.000000e+00  → pass
+2026-10-01 17:39:01 [INFO] 验收 energy_grid_stable               阈值 0  实测 0.000000e+00  → pass
+2026-10-01 17:39:01 [INFO] 验收 padding_windows_valid            阈值 0  实测 未执行  → not_run
+2026-10-01 17:39:01 [INFO] 验收 padding_finer_not_worse          阈值 0  实测 未执行  → not_run
+2026-10-01 17:39:01 [INFO] 验收 airy_absolute_energy             阈值 0.005  实测 未执行  → not_run
+2026-10-01 17:39:01 [INFO] 验收 phase_representation_relL2       阈值 1e-10  实测 未执行  → not_run
+2026-10-01 17:39:01 [INFO] 验收 required_group_airy              阈值 1  实测 未执行  → not_run
+2026-10-01 17:39:01 [INFO] 验收 required_group_direct            阈值 1  实测 未执行  → not_run
+2026-10-01 17:39:01 [INFO] 验收 required_group_sampling          阈值 1  实测 未执行  → not_run
+2026-10-01 17:39:01 [INFO] 总体状态：partial；退出码 0；未运行组：airy, direct, sampling
+2026-10-01 17:39:01 [INFO] 结果目录：（未落盘）
+2026-10-01 17:39:01 [INFO] 阶段 01（修正版）结束，停止，不进入阶段 02。

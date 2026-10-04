@@ -1,0 +1,111 @@
+{
+  "passed": true,
+  "jobs": 12,
+  "records": [
+    {
+      "identity": "continuous_coincident_points_G_10000_unweighted",
+      "objective": 54116.79451663882,
+      "projected_gradient": 1.391247940452251e-06,
+      "certificate_relative": 0.0002614638069567236,
+      "cube_error": 0.9442303658887441,
+      "negative_observations": 3259
+    },
+    {
+      "identity": "continuous_coincident_points_G_10000_fixed_weighted",
+      "objective": 5048.883004265972,
+      "projected_gradient": 6.896690513568472e-06,
+      "certificate_relative": 0.0006428692775607937,
+      "cube_error": 0.9619382642938515,
+      "negative_observations": 3259
+    },
+    {
+      "identity": "continuous_separated_points_G_10000_unweighted",
+      "objective": 84694.27760201442,
+      "projected_gradient": 6.008505624956839e-06,
+      "certificate_relative": 0.0003870683475550553,
+      "cube_error": 0.8545332519248569,
+      "negative_observations": 2985
+    },
+    {
+      "identity": "continuous_separated_points_G_10000_fixed_weighted",
+      "objective": 6944.590960867075,
+      "projected_gradient": 9.994021314360512e-06,
+      "certificate_relative": 0.00043209155676327254,
+      "cube_error": 0.9293426684857155,
+      "negative_observations": 2985
+    },
+    {
+      "identity": "continuous_lines_and_square_G_10000_unweighted",
+      "objective": 3800245.9860381912,
+      "projected_gradient": 4.237198685793259e-06,
+      "certificate_relative": 0.0022241526070126204,
+      "cube_error": 0.6448442459485862,
+      "negative_observations": 34
+    },
+    {
+      "identity": "continuous_lines_and_square_G_10000_fixed_weighted",
+      "objective": 12307.235633257218,
+      "projected_gradient": 3.602881227127468e-06,
+      "certificate_relative": 0.0010237181873766928,
+      "cube_error": 0.6212124238988059,
+      "negative_observations": 34
+    },
+    {
+      "identity": "nearest_depth_coincident_points_G_10000_unweighted",
+      "objective": 53752.617233545476,
+      "projected_gradient": 1.7670993554923208e-06,
+      "certificate_relative": 0.00032267615221041743,
+      "cube_error": 0.9415182028500138,
+      "negative_observations": 3261
+    },
+    {
+      "identity": "nearest_depth_coincident_points_G_10000_fixed_weighted",
+      "objective": 5058.247756162267,
+      "projected_gradient": 4.271566365651614e-06,
+      "certificate_relative": 0.00038555239544536737,
+      "cube_error": 0.9603471282143169,
+      "negative_observations": 3261
+    },
+    {
+      "identity": "nearest_depth_separated_points_G_10000_unweighted",
+      "objective": 84353.70684827171,
+      "projected_gradient": 7.826017964484661e-06,
+      "certificate_relative": 0.0005055756255856359,
+      "cube_error": 0.8514654117430264,
+      "negative_observations": 2994
+    },
+    {
+      "identity": "nearest_depth_separated_points_G_10000_fixed_weighted",
+      "objective": 6831.130315813602,
+      "projected_gradient": 9.768569354104628e-06,
+      "certificate_relative": 0.0004279480708804126,
+      "cube_error": 0.9283705935915909,
+      "negative_observations": 2994
+    },
+    {
+      "identity": "nearest_depth_lines_and_square_G_10000_unweighted",
+      "objective": 3681144.8498586593,
+      "projected_gradient": 4.200088217993034e-07,
+      "certificate_relative": 0.0002189482243198527,
+      "cube_error": 0.6432874231562882,
+      "negative_observations": 29
+    },
+    {
+      "identity": "nearest_depth_lines_and_square_G_10000_fixed_weighted",
+      "objective": 12316.646350482006,
+      "projected_gradient": 1.1302147415199757e-06,
+      "certificate_relative": 0.0003192030283630218,
+      "cube_error": 0.6190023726549495,
+      "negative_observations": 29
+    }
+  ],
+  "checks": [
+    "逐点电子数前向",
+    "空间相关加权伴随",
+    "原始负观测与固定权重",
+    "目标/投影梯度/强凸证书",
+    "不使用真值的alpha规则",
+    "轨迹CSV逐字段",
+    "真值误差仅作评价"
+  ]
+}

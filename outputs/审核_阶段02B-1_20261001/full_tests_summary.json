@@ -1,0 +1,21 @@
+{
+  "tests_run": 118,
+  "errors": 0,
+  "failures": 1,
+  "elapsed_s": 144.6430734999999,
+  "success": false,
+  "prevented_deletions": [
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\审核_阶段02B-1_20261001\\retained_test_temp\\jeon2019_02b1_cfg2_w77vbj5i",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\审核_阶段02B-1_20261001\\retained_test_temp\\jeon2019_02b1_cfg_6cafbu1i",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\审核_阶段02B-1_20261001\\retained_test_temp\\jeon2019_02b1_cfg4__gqe_w14",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\审核_阶段02B-1_20261001\\retained_test_temp\\jeon2019_02b1_cfg3_gr487abn",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\审核_阶段02B-1_20261001\\retained_test_temp\\jeon2019_02b1_eta_c5al4ya9",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\审核_阶段02B-1_20261001\\retained_test_temp\\jeon2019_02b1_eta_0ghm0dy7",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\审核_阶段02B-1_20261001\\retained_test_temp\\jeon2019_02b1_verify_xthh3_08",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\审核_阶段02B-1_20261001\\retained_test_temp\\jeon2019_02b1_verify_3anztrh2",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\审核_阶段02B-1_20261001\\retained_test_temp\\jeon2019_02b1_verify_wdpnea7j",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\审核_阶段02B-1_20261001\\retained_test_temp\\jeon2019_02b1_verify_bq4jwvvx",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\审核_阶段02B-1_20261001\\retained_test_temp\\jeon2019_02b1_verify_eq5gdqad"
+  ],
+  "method": "仅运行器拦截shutil.rmtree并指定保留目录；生产与测试源码未改。"
+}

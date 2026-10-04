@@ -1,0 +1,81 @@
+{
+  "passed": true,
+  "formal_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02f2\\run_20261004_095323",
+  "jobs": 12,
+  "tests": 232,
+  "test_seconds": 203.32,
+  "formal_seconds": 35.51462920001359,
+  "cube_error_range": [
+    0.6190023726549495,
+    0.9619382642938515
+  ],
+  "max_certificate_relative": 0.002224152607013054,
+  "frozen_source_runs": 10,
+  "source_and_code_fingerprints_unchanged": true,
+  "artifacts": {
+    "npz": 12,
+    "png": 12,
+    "history_json": 12,
+    "history_csv": 12
+  },
+  "independent_checks": [
+    "逐点电子数前向",
+    "空间相关加权伴随",
+    "原始负观测与固定权重",
+    "目标/投影梯度/强凸证书",
+    "不使用真值的alpha规则",
+    "轨迹CSV逐字段",
+    "真值误差仅作评价"
+  ],
+  "failure_entry_checks": {
+    "bad_source_exit": 1,
+    "budget_exit": 2,
+    "iteration_limit_exit": 2,
+    "tampered_counts_exit": 1,
+    "mock_show_once_closed": true,
+    "show_failure_no_completed_closed": true,
+    "report_failure_no_completed_closed": true,
+    "passed": true,
+    "real_gui_verified": false,
+    "failed_run_paths": [
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02f2\\run_20261004_095644",
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02f2\\run_20261004_095655"
+    ]
+  },
+  "no_save_check": {
+    "passed": true,
+    "exit_code": 0,
+    "hashed_files": 12381,
+    "file_set_unchanged": true,
+    "sha_unchanged": true,
+    "alternate_cwd": "D:\\PyCharmProjects\\Jeon2019\\outputs\\执行_阶段02F2_20261004"
+  },
+  "environment": {
+    "timestamp_local": "2026-10-04T09:53:59",
+    "python_version": "3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)]",
+    "python_executable": "D:\\dev\\python\\python3.10.4\\python.exe",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "platform_machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "os_cpu_count": 20,
+    "cwd_at_invocation": "D:\\PyCharmProjects\\Jeon2019",
+    "project_root_resolved": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+    "argv": [
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main_stage02f2.py"
+    ],
+    "numpy_version": "2.2.6",
+    "scipy_version": "1.15.3",
+    "matplotlib_version": "3.10.9",
+    "pytest_version": null,
+    "pytest_import_error": "ModuleNotFoundError: No module named 'pytest'"
+  },
+  "scope": "Jeon光学编码复现＋合成含噪基础重建验证；非论文网络、非双孔径",
+  "limitations": [
+    "恢复质量仍差，数值通过不等于真值准确",
+    "固定权重和alpha规则仅为基础近似基线",
+    "理想控制和更多增益/种子未运行",
+    "真实GUI/PyCharm点击和相机标定未验证",
+    "论文PSF旋转方向对应、原论文网络、双孔径未完成"
+  ]
+}

@@ -1,0 +1,7 @@
+continuous_coincident_points_crop_alpha_0p01_comparison_common_alpha [reused_verified]: converged, 7827轮, cube=0.180752, 最优解距离相对上界=0.000157716, 1%界通过=True
+nearest_depth_coincident_points_crop_alpha_0p01_comparison_common_alpha [computed]: converged, 7161轮, cube=0.187848, 最优解距离相对上界=0.000149056, 1%界通过=True
+continuous_separated_points_crop_alpha_0p01_comparison_common_alpha [reused_verified]: converged, 6470轮, cube=0.110779, 最优解距离相对上界=0.000205419, 1%界通过=True
+nearest_depth_separated_points_crop_alpha_0p01_comparison_common_alpha [computed]: converged, 6196轮, cube=0.112345, 最优解距离相对上界=0.000195397, 1%界通过=True
+continuous_lines_and_square_crop_alpha_0p01_comparison_common_alpha [reused_verified]: converged, 9792轮, cube=0.0792906, 最优解距离相对上界=0.000661529, 1%界通过=True
+nearest_depth_lines_and_square_crop_alpha_0p01_comparison_common_alpha [computed]: converged, 7909轮, cube=0.0799076, 最优解距离相对上界=0.00090667, 1%界通过=True
+{"status": "completed", "optimization_validation_passed": true, "certificate_validation_passed": true, "stability_validation_passed": true, "reused_count": 3, "computed_count": 3, "run_dir": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02e4\\run_20261002_233752", "elapsed_s": 134.7836367000018}

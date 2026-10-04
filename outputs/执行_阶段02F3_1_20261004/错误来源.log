@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02f3_1.py", line 106, in <module>
+    if __name__=='__main__':raise SystemExit(main())
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02f3_1.py", line 104, in main
+    c=json.loads(resolve_project_path(a.config,ROOT).read_text(encoding='utf-8'));return 0 if run(c,a.no_save,a.show_plots)['validation_passed'] else 2
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02f3_1.py", line 33, in run
+    items,evidence=load_fixed_control_source(resolve_project_path(c['source_run'],ROOT),ROOT);source_config=evidence['source_config'];solver=source_config['reconstruction']['solver']
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\optics\stage02f2_source.py", line 15, in load_fixed_control_source
+    r=json.loads((source/'metrics/validation.json').read_text(encoding='utf-8'))
+  File "D:\dev\python\python3.10.4\lib\pathlib.py", line 1132, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+  File "D:\dev\python\python3.10.4\lib\pathlib.py", line 1117, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\nonexistent_F3_source\\metrics\\validation.json'

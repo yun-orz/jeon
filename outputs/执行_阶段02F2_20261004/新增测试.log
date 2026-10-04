@@ -1,0 +1,14 @@
+test_bad_inputs (test_stage02f2.ElectronReconstructionTests) ... ok
+test_electron_direct_and_scale (test_stage02f2.ElectronReconstructionTests) ... ok
+test_iteration_limit_is_not_convergence (test_stage02f2.ElectronReconstructionTests) ... ok
+test_negative_target_and_background (test_stage02f2.ElectronReconstructionTests) ... ok
+test_objective_certificate_and_status (test_stage02f2.ElectronReconstructionTests) ... ok
+test_signed_adjoint_and_gradient (test_stage02f2.ElectronReconstructionTests) ... ok
+test_truth_isolation (test_stage02f2.ElectronReconstructionTests) ... ok
+test_weight_variance_floor (test_stage02f2.ElectronReconstructionTests) ... ok
+test_weighted_chain_explicit (test_stage02f2.ElectronReconstructionTests) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.498s
+
+OK

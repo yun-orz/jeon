@@ -1,0 +1,13 @@
+{
+  "bad_source_exit": 1,
+  "budget_exit": 2,
+  "alternate_cwd_no_save_exit": 0,
+  "no_save_tree_unchanged": true,
+  "hashed_files": 11531,
+  "mock_show_once_closed": true,
+  "mock_show_failure_closed": true,
+  "report_failure_no_completed_marker": true,
+  "report_failure_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02f1\\run_20261004_094401",
+  "real_gui_verified": false,
+  "passed": true
+}

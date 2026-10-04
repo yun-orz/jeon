@@ -1,0 +1,8 @@
+2026-10-02 16:56:27 [INFO] 项目根：D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics
+2026-10-02 16:56:27 [INFO] 配置文件：D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\config_stage02b.json
+2026-10-02 16:56:27 [INFO] 绘图后端：Agg；未请求显示
+2026-10-02 16:56:27 [INFO] 最终设置：show_plots=False，save_results=True
+2026-10-02 16:56:27 [INFO] 运行目录：D:\PyCharmProjects\Jeon2019\outputs\复审并执行_02B_20261002\冻结模式_analyze
+2026-10-02 16:56:30 [INFO] [analyze] 源 run 兼容性通过；重读 18 组身份，指标已重算（源目录只读）
+2026-10-02 16:56:30 [INFO] 报告与完成记录已写入：D:\PyCharmProjects\Jeon2019\outputs\复审并执行_02B_20261002\冻结模式_analyze
+2026-10-02 16:56:30 [INFO] 阶段 02B-1 完成，退出码 0

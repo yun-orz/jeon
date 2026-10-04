@@ -1,0 +1,117 @@
+{
+  "project_root": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+  "captured_at": "2026-10-01T14:52:01",
+  "file_count": 22,
+  "files": {
+    "README.md": {
+      "sha256": "a701d36b8acf0a9ea0eb7bf6baf0aae5266277201c6ae611441a0c866766033e",
+      "size": 10769,
+      "mtime": "2026-10-01T14:17:33"
+    },
+    "config.json": {
+      "sha256": "f9bc3f16c8241d6a7dab17d4a92ff0c6c202c027cba128ae9b533528f3ed1236",
+      "size": 4716,
+      "mtime": "2026-10-01T14:07:55"
+    },
+    "main.py": {
+      "sha256": "2f27d0f9ee39983a69280b027ea8f125335802cb565e3b878b245d98cd89e447",
+      "size": 56032,
+      "mtime": "2026-10-01T14:10:18"
+    },
+    "requirements.txt": {
+      "sha256": "7b3dc0cb202ef1d10d0184124ca7ad01a0be056dbf5e8561065d2aa988c42f8f",
+      "size": 497,
+      "mtime": "2026-09-30T20:08:02"
+    },
+    ".idea/.gitignore": {
+      "sha256": "fa570d3e88feff1aa75e86e55719188aa6ef45368ad4c0c958c1cb45ef773262",
+      "size": 109,
+      "mtime": "2026-10-01T14:20:18"
+    },
+    ".idea/jeon2019_optics.iml": {
+      "sha256": "8ccc72c0ea117c3d60e0e85912cc3b260a47460f4b6644bf158335fa69c4b183",
+      "size": 504,
+      "mtime": "2026-09-30T20:22:10"
+    },
+    ".idea/modules.xml": {
+      "sha256": "81e7360ec60ce895cae84deeb81ebf88e7549b41cb274c9d7731afe3060e4c2e",
+      "size": 289,
+      "mtime": "2026-09-30T20:22:10"
+    },
+    ".idea/workspace.xml": {
+      "sha256": "e4f9711555705a1d0013a07f89d6a3f15a115a707ffed7b7783088689fd0df0d",
+      "size": 2316,
+      "mtime": "2026-10-01T14:45:46"
+    },
+    ".idea/inspectionProfiles/Project_Default.xml": {
+      "sha256": "db4d7ac80148e00a6701e151758d14c5e8e7e758d916b5b9c01b328b2d586346",
+      "size": 535,
+      "mtime": "2026-09-30T20:22:10"
+    },
+    ".idea/inspectionProfiles/profiles_settings.xml": {
+      "sha256": "6172c5997eeb3cd19c9ca2b5b97d6e2983cdd1fa60b2460d7bbb74055edcaa46",
+      "size": 174,
+      "mtime": "2026-09-30T20:22:10"
+    },
+    "docs/assumptions.md": {
+      "sha256": "72c02d434ca6f3c2d213e0191bfde1e8c336d30ff4a401630e1cc6bf98b515d5",
+      "size": 9909,
+      "mtime": "2026-10-01T14:16:24"
+    },
+    "docs/equations_and_parameters.md": {
+      "sha256": "1227f000fdebb4864f9cd6aff7b4bb9f41c02cc976e78aa962573d4dc1e36fed",
+      "size": 19444,
+      "mtime": "2026-10-01T14:17:44"
+    },
+    "docs/reproduction_log.md": {
+      "sha256": "f57c44db246fec76b1d3de365bcda909d686cf60f3e893cbca4d8800b64d937a",
+      "size": 21525,
+      "mtime": "2026-10-01T14:18:31"
+    },
+    "docs/revision_notes.md": {
+      "sha256": "84f00abd4a31a4bf014d899b81feda446710e661dd4e45c068fa36d0ba4c4746",
+      "size": 12086,
+      "mtime": "2026-10-01T14:11:34"
+    },
+    "docs/source_manifest.json": {
+      "sha256": "f6c64572ba371bed7643cbd7d18b10e4487b5293ee6a3fc03051c86a7434796a",
+      "size": 6089,
+      "mtime": "2026-09-30T20:04:40"
+    },
+    "optics/__init__.py": {
+      "sha256": "12f8bb8fc42fc39fa60b0e46b861b8bb0d8d18cca6b114d671db4c67ab891472",
+      "size": 852,
+      "mtime": "2026-09-30T19:31:55"
+    },
+    "optics/coordinates.py": {
+      "sha256": "c0b3db54d901e7960a537cf5dd42cfae6083a35d20622f40ded3015421c9c707",
+      "size": 9307,
+      "mtime": "2026-10-01T13:23:14"
+    },
+    "optics/metrics.py": {
+      "sha256": "8b10ee395a70384041ff2011389908899eabb0f3b03fe2aa559f6f13c560a2fc",
+      "size": 16964,
+      "mtime": "2026-09-30T20:03:32"
+    },
+    "optics/propagation.py": {
+      "sha256": "6191133cafeda178c0fe6481bffd3dbaddc148c21d6a321e80dbd5f6d2ee8c55",
+      "size": 25633,
+      "mtime": "2026-10-01T14:16:52"
+    },
+    "optics/runutil.py": {
+      "sha256": "c5522c354f224b67d08f60764a154df12eb2736da8991220805bb70f11b8f352",
+      "size": 4745,
+      "mtime": "2026-10-01T14:04:50"
+    },
+    "optics/units.py": {
+      "sha256": "31408e61a8972474e41c597486368c6a8e592540cb7dc0451fb247a746cdcfbb",
+      "size": 1646,
+      "mtime": "2026-09-30T19:50:19"
+    },
+    "tests/test_propagation.py": {
+      "sha256": "a4e76c4bf00dffde066aedabea5b7ef480ed465e117069ee6120e9f453e11956",
+      "size": 24737,
+      "mtime": "2026-10-01T14:00:38"
+    }
+  }
+}

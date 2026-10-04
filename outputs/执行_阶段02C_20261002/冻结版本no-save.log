@@ -1,0 +1,29 @@
+{"status": "completed", "numerical_convergence_passed": true, "run_dir": null, "elapsed_s": 3.9154868999999053}
+
+[continuous_420nm_q1] λ=420 nm：u1 0.041 s + 传播 0.015 s = 0.056 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.63203，有限=True
+[continuous_420nm_q4] λ=420 nm：u1 0.038 s + 传播 0.040 s = 0.078 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.6223，有限=True
+[continuous_420nm_q8] λ=420 nm：u1 0.037 s + 传播 0.092 s = 0.129 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.6297，有限=True
+[continuous_540nm_q1] λ=540 nm：u1 0.037 s + 传播 0.011 s = 0.048 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=10.648，有限=True
+[continuous_540nm_q4] λ=540 nm：u1 0.035 s + 传播 0.040 s = 0.076 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=10.6401，有限=True
+[continuous_540nm_q8] λ=540 nm：u1 0.038 s + 传播 0.091 s = 0.129 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=10.6461，有限=True
+[continuous_660nm_q1] λ=660 nm：u1 0.038 s + 传播 0.010 s = 0.048 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.65368，有限=True
+[continuous_660nm_q4] λ=660 nm：u1 0.036 s + 传播 0.039 s = 0.075 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.64682，有限=True
+[continuous_660nm_q8] λ=660 nm：u1 0.037 s + 传播 0.090 s = 0.127 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.65201，有限=True
+[nearest_depth_420nm_q1] λ=420 nm：u1 0.040 s + 传播 0.010 s = 0.050 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.45179，有限=True
+[nearest_depth_420nm_q4] λ=420 nm：u1 0.038 s + 传播 0.039 s = 0.077 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.44266，有限=True
+[nearest_depth_420nm_q8] λ=420 nm：u1 0.039 s + 传播 0.093 s = 0.131 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.44971，有限=True
+[nearest_depth_540nm_q1] λ=540 nm：u1 0.040 s + 传播 0.011 s = 0.051 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=10.5205，有限=True
+[nearest_depth_540nm_q4] λ=540 nm：u1 0.037 s + 传播 0.040 s = 0.077 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=10.5127，有限=True
+[nearest_depth_540nm_q8] λ=540 nm：u1 0.039 s + 传播 0.091 s = 0.129 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=10.5185，有限=True
+[nearest_depth_660nm_q1] λ=660 nm：u1 0.039 s + 传播 0.011 s = 0.050 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.58882，有限=True
+[nearest_depth_660nm_q4] λ=660 nm：u1 0.037 s + 传播 0.041 s = 0.078 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.58197，有限=True
+[nearest_depth_660nm_q8] λ=660 nm：u1 0.036 s + 传播 0.090 s = 0.127 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.58718，有限=True
+[floor_depth_420nm_q1] λ=420 nm：u1 0.036 s + 传播 0.011 s = 0.047 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.45955，有限=True
+[floor_depth_420nm_q4] λ=420 nm：u1 0.036 s + 传播 0.040 s = 0.075 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.45045，有限=True
+[floor_depth_420nm_q8] λ=420 nm：u1 0.034 s + 传播 0.088 s = 0.122 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.45749，有限=True
+[floor_depth_540nm_q1] λ=540 nm：u1 0.034 s + 传播 0.011 s = 0.044 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=10.5225，有限=True
+[floor_depth_540nm_q4] λ=540 nm：u1 0.035 s + 传播 0.039 s = 0.073 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=10.5148，有限=True
+[floor_depth_540nm_q8] λ=540 nm：u1 0.035 s + 传播 0.090 s = 0.125 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=10.5206，有限=True
+[floor_depth_660nm_q1] λ=660 nm：u1 0.035 s + 传播 0.010 s = 0.046 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.58175，有限=True
+[floor_depth_660nm_q4] λ=660 nm：u1 0.035 s + 传播 0.040 s = 0.075 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.57502，有限=True
+[floor_depth_660nm_q8] λ=660 nm：u1 0.035 s + 传播 0.089 s = 0.124 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.58013，有限=True

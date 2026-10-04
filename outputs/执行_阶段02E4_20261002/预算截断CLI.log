@@ -1,0 +1,3 @@
+continuous_coincident_points_crop_alpha_0p01_comparison_common_alpha [computed]: iteration_limit, 1轮, cube=0.998138, 最优解距离相对上界=254036, 1%界通过=False
+{"status": "completed", "optimization_validation_passed": false, "certificate_validation_passed": false, "stability_validation_passed": false, "reused_count": 0, "computed_count": 1, "run_dir": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02e4\\run_20261002_234307", "elapsed_s": 8.36674420000054}
+

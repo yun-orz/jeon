@@ -1,0 +1,260 @@
+{
+  "_saved": true,
+  "airy": {
+    "cases": [
+      {
+        "name": "D0.1mm_f50mm",
+        "aperture_mm": 0.1,
+        "f_mm": 50.0,
+        "wavelength_nm": 550.0,
+        "fresnel_number": 0.09090909090909091,
+        "input_samples": 1201,
+        "input_spacing_um": 0.5,
+        "output_spacing_um": 3.0,
+        "output_points": 1119,
+        "samples_per_dark_ring": 111.80307336609626,
+        "theory_first_ring_um": 335.40922009828876,
+        "theory_first_ring_bessel_um": 335.40922009828876,
+        "theory_rings_um": [
+          335.40922009828876,
+          614.1109134549204,
+          890.536758145715,
+          1166.2922875439194
+        ],
+        "measured_first_ring_um": 336.00923659220325,
+        "first_ring_rel_err": 0.0017889087656524614,
+        "line_L1_vs_airy": 0.00039143368847814836,
+        "sampling_diagnostics": {
+          "input_half_width_m": 0.0003,
+          "input_half_width_y_m": 0.0003,
+          "output_half_width_m": 0.001677046100491444,
+          "output_half_width_y_m": 0.001677046100491444,
+          "input_quadratic_step_rad": 0.03430047979055764,
+          "cross_term_step_rad": 0.3831705970207513,
+          "output_quadratic_step_rad": 0.19161385844359008,
+          "max_total_step_rad": 0.4174710768113089,
+          "threshold_rad": 0.5,
+          "ok": true,
+          "rho_max_m": 0.002795965408751841,
+          "third_order_phase_error_rad": 0.6970535403628162,
+          "leading_fourth_order_phase_error_rad": 0.6981429474588702,
+          "paraxial_tolerance_rad": 0.1,
+          "note": "覆盖输入二次相位、交叉项与输出窗口；交叉项按窗口边缘估计。ok 不是通用精度保证。"
+        },
+        "enclosed_energy_disc": 1.0,
+        "enclosed_energy_analytic": 0.9674724760265421,
+        "wall_time_s": 0.0429670000448823
+      },
+      {
+        "name": "D0.2mm_f25mm",
+        "aperture_mm": 0.2,
+        "f_mm": 25.0,
+        "wavelength_nm": 550.0,
+        "fresnel_number": 0.7272727272727273,
+        "input_samples": 1201,
+        "input_spacing_um": 0.5,
+        "output_spacing_um": 0.7999999999999999,
+        "output_points": 1049,
+        "samples_per_dark_ring": 104.81538128071524,
+        "theory_first_ring_um": 83.85230502457219,
+        "theory_first_ring_bessel_um": 83.85230502457219,
+        "theory_rings_um": [
+          83.85230502457219,
+          153.5277283637301,
+          222.63418953642875,
+          291.57307188597986
+        ],
+        "measured_first_ring_um": 84.01232850744353,
+        "first_ring_rel_err": 0.0019083969465651103,
+        "line_L1_vs_airy": 0.00021338049754446585,
+        "sampling_diagnostics": {
+          "input_half_width_m": 0.0003,
+          "input_half_width_y_m": 0.0003,
+          "output_half_width_m": 0.000419261525122861,
+          "output_half_width_y_m": 0.000419261525122861,
+          "input_quadratic_step_rad": 0.06860095958111528,
+          "cross_term_step_rad": 0.19158529851037565,
+          "output_quadratic_step_rad": 0.09584976912161672,
+          "max_total_step_rad": 0.26018625809149093,
+          "threshold_rad": 0.5,
+          "ok": true,
+          "rho_max_m": 0.0010171894037219065,
+          "third_order_phase_error_rad": 0.09775865454014404,
+          "leading_fourth_order_phase_error_rad": 0.09783955650173023,
+          "paraxial_tolerance_rad": 0.1,
+          "note": "覆盖输入二次相位、交叉项与输出窗口；交叉项按窗口边缘估计。ok 不是通用精度保证。"
+        },
+        "enclosed_energy_disc": 1.0,
+        "enclosed_energy_analytic": 0.9674724760265421,
+        "wall_time_s": 0.04449670005124062
+      },
+      {
+        "name": "D1mm_f50mm",
+        "aperture_mm": 1.0,
+        "f_mm": 50.0,
+        "wavelength_nm": 550.0,
+        "fresnel_number": 9.09090909090909,
+        "input_samples": 2401,
+        "input_spacing_um": 1.0,
+        "output_spacing_um": 0.35,
+        "output_points": 959,
+        "samples_per_dark_ring": 95.83120574236821,
+        "theory_first_ring_um": 33.54092200982887,
+        "theory_first_ring_bessel_um": 33.54092200982887,
+        "theory_rings_um": [
+          33.54092200982887,
+          61.41109134549204,
+          89.05367581457149,
+          116.62922875439193
+        ],
+        "measured_first_ring_um": 33.610944811519545,
+        "first_ring_rel_err": 0.0020876826722341004,
+        "line_L1_vs_airy": 4.819106264914474e-05,
+        "sampling_diagnostics": {
+          "input_half_width_m": 0.0012,
+          "input_half_width_y_m": 0.0012,
+          "output_half_width_m": 0.00016770461004914436,
+          "output_half_width_y_m": 0.00016770461004914436,
+          "input_quadratic_step_rad": 0.2742895985916033,
+          "cross_term_step_rad": 0.07663411940415024,
+          "output_quadratic_step_rad": 0.038431299434932925,
+          "max_total_step_rad": 0.3509237179957535,
+          "threshold_rad": 0.5,
+          "ok": true,
+          "rho_max_m": 0.0019342264088517051,
+          "third_order_phase_error_rad": 0.15977971282092956,
+          "leading_fourth_order_phase_error_rad": 0.1598992450621188,
+          "paraxial_tolerance_rad": 0.1,
+          "note": "覆盖输入二次相位、交叉项与输出窗口；交叉项按窗口边缘估计。ok 不是通用精度保证。"
+        },
+        "enclosed_energy_disc": 1.0,
+        "enclosed_energy_analytic": 0.9674724760265421,
+        "wall_time_s": 0.09095250000245869
+      }
+    ],
+    "paper_scale_reference": {
+      "D_mm": 1.0,
+      "f_mm": 50.0,
+      "wavelength_nm": 550.0,
+      "first_ring_bessel_um": 33.54092200982887,
+      "first_ring_1p22_um": 33.55,
+      "fresnel_number": 9.09090909090909,
+      "note": "与第一个算例同参数，已实际求值中心截线；N_F 只作报告，不是 Airy 适用条件"
+    },
+    "图": [
+      "figures\\A_airy_D0.1mm_f50mm.png",
+      "figures\\A_airy_D0.2mm_f25mm.png",
+      "figures\\A_airy_D1mm_f50mm.png"
+    ]
+  },
+  "direct": {
+    "cases": [
+      {
+        "input_samples": 48,
+        "input_spacing_um": 40.0,
+        "fft_size": 96,
+        "rel_L2_fft_vs_full_kernel": 1.0797108381145104e-13,
+        "power_relative_error": 6.661338147750939e-15,
+        "power_ratio": 1.0000000000000067,
+        "output_spacing_um": 7.161458333333358
+      },
+      {
+        "input_samples": 24,
+        "input_spacing_um": 10.0,
+        "fft_size": 48,
+        "rel_L2_fft_vs_full_kernel": 1.677945502796134e-14,
+        "power_relative_error": 8.881784197001252e-16,
+        "power_ratio": 0.9999999999999991,
+        "output_spacing_um": 57.29166666666664
+      },
+      {
+        "input_samples": 64,
+        "input_spacing_um": 5.0,
+        "fft_size": 256,
+        "rel_L2_fft_vs_full_kernel": 2.5218656846171306e-13,
+        "power_relative_error": 2.1538326677728037e-14,
+        "power_ratio": 1.0000000000000215,
+        "output_spacing_um": 21.484375000000234
+      }
+    ],
+    "worst_rel_L2": 2.5218656846171306e-13,
+    "acceptance_target": 1e-06,
+    "pass": true,
+    "图": [
+      "figures\\B_discrete_identity.png"
+    ]
+  },
+  "energy": {
+    "parseval_worst_rel_err": 2.1538326677728037e-14,
+    "parseval_target": 1e-10,
+    "parseval_pass": true,
+    "window_fraction_discrete": 0.9972514110794654,
+    "window_fraction_analytic": 0.9674724760265421,
+    "window_abs_diff": 0.029778935052923283,
+    "window_tolerance": 0.05,
+    "window_pass": true,
+    "note": "主判据是原生 FFT 全输出 Parseval；有限窗口对解析包围能量只作补充，不替代前者。",
+    "图": [
+      "figures\\C_energy.png"
+    ]
+  },
+  "sampling": {
+    "levels": [
+      {
+        "n": 32,
+        "dx_um": 125.0,
+        "pad": 2,
+        "M": 64,
+        "rel_L2_vs_full": 2.973108638012441e-14,
+        "power_err": 2.886579864025407e-15
+      },
+      {
+        "n": 64,
+        "dx_um": 62.5,
+        "pad": 2,
+        "M": 128,
+        "rel_L2_vs_full": 4.5069415830984786e-14,
+        "power_err": 2.6645352591003757e-15
+      },
+      {
+        "n": 128,
+        "dx_um": 31.25,
+        "pad": 2,
+        "M": 256,
+        "rel_L2_vs_full": 6.323530448476936e-13,
+        "power_err": 1.8540724511240114e-14
+      },
+      {
+        "n": 64,
+        "dx_um": 62.5,
+        "pad": 2,
+        "M": 128,
+        "rel_L2_vs_full": 4.5069415830984786e-14,
+        "power_err": 2.6645352591003757e-15
+      },
+      {
+        "n": 64,
+        "dx_um": 62.5,
+        "pad": 4,
+        "M": 256,
+        "rel_L2_vs_full": 2.637460763982599e-13,
+        "power_err": 1.865174681370263e-14
+      }
+    ],
+    "pairs": [
+      {
+        "a": 2,
+        "b": 4,
+        "rel_L2_a": 4.5069415830984786e-14,
+        "rel_L2_b": 2.637460763982599e-13,
+        "no_worse": true
+      }
+    ],
+    "worst_pair_L1": 2.637460763982599e-13,
+    "tolerance": 0.02,
+    "pass": true,
+    "图": [
+      "figures\\D_padding.png"
+    ]
+  }
+}

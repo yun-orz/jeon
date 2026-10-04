@@ -1,0 +1,4 @@
+continuous_coincident_points_crop_alpha_1: iteration_limit, 1轮, cube误差=0.9981, 最优解距离相对上界=2539.9093977146395
+continuous_separated_points_crop_alpha_1: iteration_limit, 1轮, cube误差=0.9985, 最优解距离相对上界=4937.873861848611
+continuous_lines_and_square_crop_alpha_1: iteration_limit, 1轮, cube误差=0.9377, 最优解距离相对上界=1477.5780466587964
+

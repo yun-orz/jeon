@@ -1,0 +1,82 @@
+{
+  "stage": "stage02b1",
+  "batch_title": "Jeon光学编码复现：02B-1九波长对照",
+  "status": "completed",
+  "only_mode": "height",
+  "calculation_status": "not_run",
+  "saving_status": "not_applicable",
+  "analysis_status": "not_started",
+  "finished_steps": [
+    "H_height_design"
+  ],
+  "wavelengths_completed": [],
+  "identity_records": [],
+  "limitations": [],
+  "created_timestamp_local": "2026-10-01T23:06:27",
+  "checks": {
+    "aperture_area": {
+      "status": "pass",
+      "rel_err_max": 0.01
+    },
+    "local_phase_err": {
+      "status": "pass"
+    },
+    "height_generated_jeon": {
+      "status": "pass"
+    },
+    "height_generated_fresnel": {
+      "status": "pass"
+    },
+    "height_generated": {
+      "status": "pass"
+    },
+    "device_design_lambda": {
+      "status": "pass",
+      "jeon_lambda_design_nm": [
+        420.0,
+        659.9998106752595
+      ],
+      "conventional_lambda0_nm": 550.0
+    },
+    "height_fingerprint_stable": {
+      "status": "pass",
+      "jeon": "8527724f6aeffc0314d09313d89fdca0c2c864827e6a47308480968bcabc1350",
+      "fresnel": "c91e609e89d027adc4228f31d847c1d23b843104b24a747ed02683a9efe43c27",
+      "note": "高度只生成一次；指纹在全部 18 组传播与重读中必须一致"
+    },
+    "control_single_field_health": {
+      "status": "not_run",
+      "reason": "excluded_by_only_mode"
+    },
+    "jeon_nine_wavelengths": {
+      "status": "not_run",
+      "reason": "excluded_by_only_mode"
+    },
+    "fresnel_nine_wavelengths": {
+      "status": "not_run",
+      "reason": "excluded_by_only_mode"
+    },
+    "identity_set_exact": {
+      "status": "not_applicable",
+      "reason": "未落盘（--no-save）：该检查只在保存后可验证"
+    },
+    "saved_arrays_reverified": {
+      "status": "not_applicable",
+      "reason": "未落盘（--no-save）：该检查只在保存后可验证"
+    },
+    "intensity_identity_exact": {
+      "status": "not_applicable",
+      "reason": "未落盘（--no-save）：该检查只在保存后可验证"
+    },
+    "power_in_range": {
+      "status": "not_applicable",
+      "reason": "未落盘（--no-save）：该检查只在保存后可验证"
+    },
+    "analysis_completed": {
+      "status": "not_run",
+      "reason": "excluded_by_only_mode"
+    }
+  },
+  "all_checks_pass": true,
+  "elapsed_s": 1.073468199999752
+}

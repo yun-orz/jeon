@@ -1,0 +1,48 @@
+{
+  "stage": "stage02a",
+  "description": "Jeon2019 阶段 02A：固定连续 DOE 高度、单色控制与三波长 PSF 预览配置",
+  "optical": {
+    "diameter_m": 0.001,
+    "focal_length_m": 0.05,
+    "distance_m": 0.05,
+    "wings_N": 3,
+    "design_wavelength_min_m": 4.2e-07,
+    "design_wavelength_max_m": 6.6e-07,
+    "material_model": "fused_silica_malitson1965",
+    "control_wavelength_m": 5.5e-07,
+    "preview_wavelengths_m": [
+      4.2e-07,
+      5.4e-07,
+      6.6e-07
+    ],
+    "h_offset_m": 0.0
+  },
+  "grid": {
+    "input": {
+      "half_width_m": 0.00055,
+      "n": 1101,
+      "spacing_m": 1e-06
+    },
+    "output": {
+      "half_width_m": 0.00015,
+      "n": 301,
+      "spacing_m": 1e-06
+    }
+  },
+  "propagation": {
+    "method": "separable_kernel",
+    "include_global_phase": true
+  },
+  "runtime": {
+    "save_results": true,
+    "show_plots": true
+  },
+  "acceptance": {
+    "control_dark_ring_rel_err_max": 0.02,
+    "control_line_normalized_l1_max": 0.01,
+    "aperture_area_rel_err_max": 0.01,
+    "local_phase_err_max": 1e-10,
+    "energy_efficiency_max": 1.02
+  },
+  "_config_path_resolved": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\config_stage02a.json"
+}

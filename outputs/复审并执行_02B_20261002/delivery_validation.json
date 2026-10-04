@@ -1,0 +1,14 @@
+{
+  "stage02b2_saved": {
+    "fields": 36,
+    "height_profiles": 6,
+    "source_manifest_matches": true,
+    "independent_Pin_Pwindow_exact": true,
+    "baseline_matches_02b1_exact": true
+  },
+  "stage02b2_no_save": {
+    "exit_code": 0,
+    "elapsed_s": 16.600194699999975,
+    "project_snapshot_unchanged": true
+  }
+}

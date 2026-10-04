@@ -1,0 +1,382 @@
+{
+  "status": "completed",
+  "validation_passed": true,
+  "checks_count": 18,
+  "config": {
+    "source_run": "results/stage02c/run_20261002_172338",
+    "devices": [
+      "continuous",
+      "nearest_depth"
+    ],
+    "wavelengths_m": [
+      4.2e-07,
+      5.4e-07,
+      6.6e-07
+    ],
+    "quadrature_per_axis": 8,
+    "scene_shape": [
+      32,
+      32
+    ],
+    "pitch_m": 6.22e-06,
+    "response": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "crop": [
+      16,
+      112,
+      16,
+      112
+    ],
+    "seed": 2019,
+    "thresholds": {
+      "flux_relative": 1e-12,
+      "direct_relative": 1e-12,
+      "adjoint_relative": 1e-10,
+      "gradient_relative": 1e-05
+    },
+    "runtime": {
+      "save_results": true,
+      "show_plots": false
+    },
+    "plots": {
+      "dpi": 150
+    }
+  },
+  "runtime": {
+    "save_results": true,
+    "show_plots": false
+  },
+  "source_unchanged": true,
+  "source_validated_fields": 9,
+  "metrics": [
+    {
+      "device": "continuous",
+      "scene": "coincident_points",
+      "input_band_power": [
+        1.0,
+        2.0,
+        0.5
+      ],
+      "kernel_eta": [
+        0.8952954549282387,
+        0.9413676534603352,
+        0.864745212799556
+      ],
+      "full_power": 3.210403368248687,
+      "expected_full_power": 3.210403368248687,
+      "crop_power": 3.207654389470771,
+      "crop_retained_fraction": 0.9991437279174624,
+      "flux_relative_error": 0.0,
+      "direct_relative_error": 3.235404977863564e-16,
+      "crop_projection_error": 0.0,
+      "minimum_fft_power": -1.539843168676848e-18,
+      "tiny_negative_ok": true,
+      "full_operator_checks": {
+        "inner_product_relative_error": 1.029841517402394e-14,
+        "lhs": -0.18326889234601362,
+        "rhs": -0.1832688923460155,
+        "gradient_relative_error": 9.532294914542803e-14,
+        "gradient_analytic": -0.02555052882968866,
+        "gradient_finite_difference": -0.025550528829691097,
+        "epsilon": 0.054846375735539236,
+        "device": "continuous",
+        "scene": "coincident_points",
+        "mode": "full"
+      },
+      "crop_operator_checks": {
+        "inner_product_relative_error": 9.599015543247708e-16,
+        "lhs": 0.9252807391534031,
+        "rhs": 0.925280739153404,
+        "gradient_relative_error": 1.6254930173812121e-13,
+        "gradient_analytic": -0.02947601859506653,
+        "gradient_finite_difference": -0.02947601859506174,
+        "epsilon": 0.054846375735539236,
+        "device": "continuous",
+        "scene": "coincident_points",
+        "mode": "crop"
+      }
+    },
+    {
+      "device": "continuous",
+      "scene": "separated_points",
+      "input_band_power": [
+        1.0,
+        2.0,
+        0.5
+      ],
+      "kernel_eta": [
+        0.8952954549282387,
+        0.9413676534603352,
+        0.864745212799556
+      ],
+      "full_power": 3.210403368248687,
+      "expected_full_power": 3.210403368248687,
+      "crop_power": 3.1601803870691962,
+      "crop_retained_fraction": 0.9843561772716156,
+      "flux_relative_error": 0.0,
+      "direct_relative_error": 4.0377152076408093e-16,
+      "crop_projection_error": 0.0,
+      "minimum_fft_power": -7.303725400217432e-19,
+      "tiny_negative_ok": true,
+      "full_operator_checks": {
+        "inner_product_relative_error": 1.029841517402394e-14,
+        "lhs": -0.18326889234601362,
+        "rhs": -0.1832688923460155,
+        "gradient_relative_error": 1.2872861293626942e-14,
+        "gradient_analytic": -0.02776018694679286,
+        "gradient_finite_difference": -0.027760186946793216,
+        "epsilon": 0.054846375735539236,
+        "device": "continuous",
+        "scene": "separated_points",
+        "mode": "full"
+      },
+      "crop_operator_checks": {
+        "inner_product_relative_error": 9.599015543247708e-16,
+        "lhs": 0.9252807391534031,
+        "rhs": 0.925280739153404,
+        "gradient_relative_error": 9.602027678568346e-15,
+        "gradient_analytic": -0.030351250144235502,
+        "gradient_finite_difference": -0.030351250144235793,
+        "epsilon": 0.054846375735539236,
+        "device": "continuous",
+        "scene": "separated_points",
+        "mode": "crop"
+      }
+    },
+    {
+      "device": "continuous",
+      "scene": "lines_and_square",
+      "input_band_power": [
+        48.0,
+        38.400000000000006,
+        72.6
+      ],
+      "kernel_eta": [
+        0.8952954549282387,
+        0.9413676534603352,
+        0.864745212799556
+      ],
+      "full_power": 141.9032021786801,
+      "expected_full_power": 141.9032021786801,
+      "crop_power": 141.0548965828655,
+      "crop_retained_fraction": 0.9940219418392938,
+      "flux_relative_error": 0.0,
+      "direct_relative_error": 4.885982932159157e-16,
+      "crop_projection_error": 0.0,
+      "minimum_fft_power": -2.7755575615628914e-17,
+      "tiny_negative_ok": true,
+      "full_operator_checks": {
+        "inner_product_relative_error": 1.029841517402394e-14,
+        "lhs": -0.18326889234601362,
+        "rhs": -0.1832688923460155,
+        "gradient_relative_error": 1.5895758444590997e-14,
+        "gradient_analytic": 0.06984397935431166,
+        "gradient_finite_difference": 0.06984397935431277,
+        "epsilon": 0.054846375735539236,
+        "device": "continuous",
+        "scene": "lines_and_square",
+        "mode": "full"
+      },
+      "crop_operator_checks": {
+        "inner_product_relative_error": 9.599015543247708e-16,
+        "lhs": 0.9252807391534031,
+        "rhs": 0.925280739153404,
+        "gradient_relative_error": 1.5689990394964327e-13,
+        "gradient_analytic": 0.08181619872978615,
+        "gradient_finite_difference": 0.08181619872977332,
+        "epsilon": 0.054846375735539236,
+        "device": "continuous",
+        "scene": "lines_and_square",
+        "mode": "crop"
+      }
+    },
+    {
+      "device": "nearest_depth",
+      "scene": "coincident_points",
+      "input_band_power": [
+        1.0,
+        2.0,
+        0.5
+      ],
+      "kernel_eta": [
+        0.8583905868919335,
+        0.9192689337002182,
+        0.8522719073869995
+      ],
+      "full_power": 3.1230644079858694,
+      "expected_full_power": 3.1230644079858694,
+      "crop_power": 3.120390230653713,
+      "crop_retained_fraction": 0.9991437328909009,
+      "flux_relative_error": 0.0,
+      "direct_relative_error": 3.1984230843489386e-16,
+      "crop_projection_error": 0.0,
+      "minimum_fft_power": -1.6009994405764477e-18,
+      "tiny_negative_ok": true,
+      "full_operator_checks": {
+        "inner_product_relative_error": 1.131253680000283e-15,
+        "lhs": -0.19628188517802259,
+        "rhs": -0.1962818851780228,
+        "gradient_relative_error": 2.6263076795603556e-13,
+        "gradient_analytic": -0.024333482840701914,
+        "gradient_finite_difference": -0.024333482840695524,
+        "epsilon": 0.054846375735539236,
+        "device": "nearest_depth",
+        "scene": "coincident_points",
+        "mode": "full"
+      },
+      "crop_operator_checks": {
+        "inner_product_relative_error": 2.4759446007875773e-16,
+        "lhs": 0.8968076460773831,
+        "rhs": 0.8968076460773828,
+        "gradient_relative_error": 1.1773229244977755e-13,
+        "gradient_analytic": -0.028349129183933452,
+        "gradient_finite_difference": -0.028349129183930115,
+        "epsilon": 0.054846375735539236,
+        "device": "nearest_depth",
+        "scene": "coincident_points",
+        "mode": "crop"
+      }
+    },
+    {
+      "device": "nearest_depth",
+      "scene": "separated_points",
+      "input_band_power": [
+        1.0,
+        2.0,
+        0.5
+      ],
+      "kernel_eta": [
+        0.8583905868919335,
+        0.9192689337002182,
+        0.8522719073869995
+      ],
+      "full_power": 3.12306440798587,
+      "expected_full_power": 3.1230644079858694,
+      "crop_power": 3.074328675065863,
+      "crop_retained_fraction": 0.9843948998312727,
+      "flux_relative_error": 1.4219662223888146e-16,
+      "direct_relative_error": 4.023612965760327e-16,
+      "crop_projection_error": 0.0,
+      "minimum_fft_power": -5.315553484696105e-19,
+      "tiny_negative_ok": true,
+      "full_operator_checks": {
+        "inner_product_relative_error": 1.131253680000283e-15,
+        "lhs": -0.19628188517802259,
+        "rhs": -0.1962818851780228,
+        "gradient_relative_error": 1.7409429826479889e-13,
+        "gradient_analytic": -0.026385400384564925,
+        "gradient_finite_difference": -0.02638540038456033,
+        "epsilon": 0.054846375735539236,
+        "device": "nearest_depth",
+        "scene": "separated_points",
+        "mode": "full"
+      },
+      "crop_operator_checks": {
+        "inner_product_relative_error": 2.4759446007875773e-16,
+        "lhs": 0.8968076460773831,
+        "rhs": 0.8968076460773828,
+        "gradient_relative_error": 1.5251184549207935e-13,
+        "gradient_analytic": -0.029186588261353532,
+        "gradient_finite_difference": -0.02918658826134908,
+        "epsilon": 0.054846375735539236,
+        "device": "nearest_depth",
+        "scene": "separated_points",
+        "mode": "crop"
+      }
+    },
+    {
+      "device": "nearest_depth",
+      "scene": "lines_and_square",
+      "input_band_power": [
+        48.0,
+        38.400000000000006,
+        72.6
+      ],
+      "kernel_eta": [
+        0.8583905868919335,
+        0.9192689337002182,
+        0.8522719073869995
+      ],
+      "full_power": 138.37761570119733,
+      "expected_full_power": 138.37761570119736,
+      "crop_power": 137.5526986166399,
+      "crop_retained_fraction": 0.9940386522749554,
+      "flux_relative_error": 2.053923915828684e-16,
+      "direct_relative_error": 5.600183049102412e-16,
+      "crop_projection_error": 0.0,
+      "minimum_fft_power": -2.949029909160572e-17,
+      "tiny_negative_ok": true,
+      "full_operator_checks": {
+        "inner_product_relative_error": 1.131253680000283e-15,
+        "lhs": -0.19628188517802259,
+        "rhs": -0.1962818851780228,
+        "gradient_relative_error": 7.231549143157112e-14,
+        "gradient_analytic": 0.06448046761650851,
+        "gradient_finite_difference": 0.06448046761651317,
+        "epsilon": 0.054846375735539236,
+        "device": "nearest_depth",
+        "scene": "lines_and_square",
+        "mode": "full"
+      },
+      "crop_operator_checks": {
+        "inner_product_relative_error": 2.4759446007875773e-16,
+        "lhs": 0.8968076460773831,
+        "rhs": 0.8968076460773828,
+        "gradient_relative_error": 7.021407723125934e-14,
+        "gradient_analytic": 0.0784669111516788,
+        "gradient_finite_difference": 0.07846691115167329,
+        "epsilon": 0.054846375735539236,
+        "device": "nearest_depth",
+        "scene": "lines_and_square",
+        "mode": "crop"
+      }
+    }
+  ],
+  "readback": [
+    "continuous_coincident_points.npz",
+    "continuous_separated_points.npz",
+    "continuous_lines_and_square.npz",
+    "nearest_depth_coincident_points.npz",
+    "nearest_depth_separated_points.npz",
+    "nearest_depth_lines_and_square.npz"
+  ],
+  "backend": {
+    "backend": "Agg",
+    "available": false,
+    "reason": "未请求显示"
+  },
+  "environment": {
+    "timestamp_local": "2026-10-02T20:50:16",
+    "python_version": "3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)]",
+    "python_executable": "D:\\dev\\python\\python3.10.4\\python.exe",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "platform_machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "os_cpu_count": 20,
+    "cwd_at_invocation": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+    "project_root_resolved": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+    "argv": [
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main_stage02d1.py"
+    ],
+    "numpy_version": "2.2.6",
+    "scipy_version": "1.15.3",
+    "matplotlib_version": "3.10.9",
+    "pytest_version": null,
+    "pytest_import_error": "ModuleNotFoundError: No module named 'pytest'"
+  },
+  "elapsed_s": 5.263581499999418,
+  "scope": "Jeon光学编码复现：02D-1单通道非相干成像/伴随；未运行基础重建或原网络",
+  "assumptions": [
+    "理想像平面点源功率格点，平移不变卷积；无物距/放大率或离轴像差模型。",
+    "三离散单色诊断波长；不是宽波段积分或每nm谱密度。",
+    "PSF核=像元功率/Pin，不重复乘像元面积、不将通量强制归一到1。",
+    "满填充、单位辐射响应；无CFA/QE、光子电子换算或噪声。",
+    "full保留所选有限PSF核的通量；核外衍射尾部仍截断。",
+    "FFT机器舍入级负数不剪裁，以保持线性/伴随；它们不是物理负功率。",
+    "正文旋转方向对应仍未确定；未镜像PSF。真实PyCharm点击/图窗尚未人工验证。"
+  ]
+}

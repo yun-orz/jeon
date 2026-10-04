@@ -1,0 +1,18 @@
+{
+  "full_regression": {
+    "tests": 142,
+    "exit_code": 0,
+    "elapsed_s": 96.073
+  },
+  "02b1_default": {
+    "exit_code": 0,
+    "status": "completed",
+    "source_manifest_matches": true,
+    "checkpoint_matches_completion": true,
+    "run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\复审并执行_02B_20261002\\02B1正式复跑"
+  },
+  "02b1_no_save": {
+    "exit_code": 0,
+    "project_snapshot_unchanged": true
+  }
+}

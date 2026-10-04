@@ -1,0 +1,153 @@
+{
+  "project": "jeon2019_optics",
+  "stage": "stage01",
+  "description": "阶段 01（修正版）：建立并验证 Fresnel 传播基线。不实现 DOE 高度、多波长编码 PSF、成像或重建。",
+  "runtime": {
+    "device": "cpu",
+    "save_results": true,
+    "show_plots": false,
+    "log_level": "INFO",
+    "numpy_random_seed": 0,
+    "force_new_run": false
+  },
+  "units": {
+    "internal_length_unit": "m",
+    "note": "所有长度在进入 optics 模块前统一换算为米。nm/um/mm 只出现在配置解析层与报告文字中。"
+  },
+  "studies": {
+    "airy": {
+      "enabled": true,
+      "comment": "A. 理想薄透镜焦平面的 Airy 尺度。z=f 时透镜相位与传播展开式的输入二次相位相消，焦平面就是孔径的 Fourier 强度，因此不要求 D²/(4λf)≪1。低阶与高阶采样/近轴条件仍逐项检查。",
+      "wavelength_nm": 550.0,
+      "cases": [
+        {
+          "name": "D0.1mm_f50mm",
+          "aperture_diameter_mm": 0.1,
+          "f_mm": 50.0,
+          "input_half_width_um": 300.0,
+          "input_spacing_um": 0.5,
+          "output_spacing_um": 3.0
+        },
+        {
+          "name": "D0.2mm_f25mm",
+          "aperture_diameter_mm": 0.2,
+          "f_mm": 25.0,
+          "input_half_width_um": 300.0,
+          "input_spacing_um": 0.5,
+          "output_spacing_um": 0.8
+        },
+        {
+          "name": "D1.0mm_f50mm",
+          "aperture_diameter_mm": 1.0,
+          "f_mm": 50.0,
+          "input_half_width_um": 1200.0,
+          "input_spacing_um": 1.0,
+          "output_spacing_um": 0.35
+        }
+      ],
+      "paper_scale_reference": {
+        "D_mm": 1.0,
+        "f_mm": 50.0,
+        "wavelength_nm": 550.0,
+        "comment": "论文第 6 节实物尺度（DOE 直径 1 mm、焦距 50 mm）。本阶段已用与 cases[2] 相同的参数实际求值中心截线并保存二维复场。"
+      }
+    },
+    "direct_vs_fft": {
+      "enabled": true,
+      "comment": "B. 离散恒等：同一离散输入、同一原生输出网格、同一面积权重下，单次 FFT 必须等于完整位移核求和。可直接拦截漏面积权重 / 频率未中心化 / 重复相位 / 索引互换。",
+      "wavelength_nm": 550.0,
+      "propagation_distance_mm": 50.0,
+      "cases": [
+        {
+          "input_samples": 48,
+          "input_spacing_um": 40.0,
+          "fft_size": 96
+        },
+        {
+          "input_samples": 24,
+          "input_spacing_um": 10.0,
+          "fft_size": 48
+        },
+        {
+          "input_samples": 64,
+          "input_spacing_um": 5.0,
+          "fft_size": 256
+        }
+      ]
+    },
+    "energy": {
+      "enabled": true,
+      "comment": "C. 主判据：原生 FFT 全输出 Parseval 检验（≤1e-10）。补充检查：有限观察窗口对解析包围能量。",
+      "wavelength_nm": 550.0,
+      "propagation_distance_mm": 50.0,
+      "parseval_cases": [
+        {
+          "input_samples": 48,
+          "input_spacing_um": 40.0,
+          "fft_size": 96
+        },
+        {
+          "input_samples": 64,
+          "input_spacing_um": 5.0,
+          "fft_size": 256
+        }
+      ],
+      "airy_window_case": {
+        "aperture_diameter_mm": 1.0,
+        "f_mm": 50.0,
+        "input_half_width_um": 1200.0,
+        "input_spacing_um": 1.0,
+        "output_spacing_um": 0.35,
+        "comment": "与 A 组第三个算例同参数；窗口取 5 倍第一暗环半径。"
+      }
+    },
+    "sampling": {
+      "enabled": true,
+      "comment": "D. 固定物理孔径/窗口/传播距离，改变输入采样精度与 FFT 填充倍率；离散恒等与功率守恒必须在每一级都成立，并把两个填充倍率在公共物理窗口上比较。",
+      "wavelength_nm": 550.0,
+      "propagation_distance_mm": 50.0,
+      "aperture_diameter_mm": 0.4,
+      "input_half_width_um": 2000.0,
+      "padding_factor": 2,
+      "padding_input_samples": 64,
+      "input_levels": [
+        {
+          "name": "N32",
+          "input_samples": 32
+        },
+        {
+          "name": "N64",
+          "input_samples": 64
+        },
+        {
+          "name": "N128",
+          "input_samples": 128
+        }
+      ],
+      "padding_levels": [
+        {
+          "name": "x2",
+          "factor": 2
+        },
+        {
+          "name": "x4",
+          "factor": 4
+        }
+      ]
+    }
+  },
+  "acceptance": {
+    "airy_first_dark_ring_rel_err_max": 0.02,
+    "airy_line_L1_max": 0.01,
+    "discrete_identity_rel_l2_max": 0.0,
+    "parseval_rel_err_max": 1e-10,
+    "window_energy_abs_diff_max": 0.05,
+    "sampling_L1_max": 0.02,
+    "comment": "以上阈值均为本项目预设验收建议，不是论文数值。离散恒等阈值 1e-6 是审核给出的目标上限（实测接近 1e-13）。window_energy_abs_diff_max 是有限窗口离散占比与解析包围能量之差的**绝对**容差（两者定义不同，必然有系统差，故不用相对差）。"
+  },
+  "plots": {
+    "dpi": 130,
+    "colormap_intensity": "inferno",
+    "colormap_error": "coolwarm"
+  }
+}

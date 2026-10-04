@@ -1,0 +1,2 @@
+continuous_lines_and_square_crop_alpha_0p01_refined: converged, 9792轮, cube=0.0792906, 最优解距离相对上界=0.000661529, 1%界通过=True
+{"status": "completed", "optimization_validation_passed": true, "certificate_validation_passed": true, "stability_validation_passed": true, "run_dir": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02e2\\run_20261002_230506", "elapsed_s": 55.922713800002384}

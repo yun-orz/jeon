@@ -1,0 +1,21 @@
+{
+  "config.json": "709930f903933ceaa1d6e6bcb26ff7f5092ba494147b954df57aae66e511c53b",
+  "main.py": "ab0c0faa7cf9091283e88927d08e44e39ea9f81d02708cd7253c6ce33ab5a1c2",
+  "README.md": "32baa75bef11d3f2cd3cfac3556f18bf4c21e885374f94372abc5f41e3205d2b",
+  "requirements.txt": "7b3dc0cb202ef1d10d0184124ca7ad01a0be056dbf5e8561065d2aa988c42f8f",
+  "docs\\assumptions.md": "72c02d434ca6f3c2d213e0191bfde1e8c336d30ff4a401630e1cc6bf98b515d5",
+  "docs\\equations_and_parameters.md": "1227f000fdebb4864f9cd6aff7b4bb9f41c02cc976e78aa962573d4dc1e36fed",
+  "docs\\reproduction_log.md": "f57c44db246fec76b1d3de365bcda909d686cf60f3e893cbca4d8800b64d937a",
+  "docs\\revision_notes.md": "84f00abd4a31a4bf014d899b81feda446710e661dd4e45c068fa36d0ba4c4746",
+  "docs\\revision_round2.md": "7f8634a0c27838b94fd2127527b9de70ebfe8d7600f30e4a94e84eadd8cc3fa3",
+  "docs\\source_manifest.json": "f6c64572ba371bed7643cbd7d18b10e4487b5293ee6a3fc03051c86a7434796a",
+  "docs\\verify_config_switches.py": "9a33415b37868f0e3900dc1fb885514e1baba19b0289eed6ffccec539799b167",
+  "optics\\coordinates.py": "c0b3db54d901e7960a537cf5dd42cfae6083a35d20622f40ded3015421c9c707",
+  "optics\\metrics.py": "8b10ee395a70384041ff2011389908899eabb0f3b03fe2aa559f6f13c560a2fc",
+  "optics\\propagation.py": "61326781d467dc9d90b7e7b2f63117f069f6b4093c2cab0e633de2cb1fa0ba5b",
+  "optics\\runutil.py": "a031e73b80d093b4ade35d8553e66db1eb26cc30b8505be5e11c8e9628db4b70",
+  "optics\\units.py": "31408e61a8972474e41c597486368c6a8e592540cb7dc0451fb247a746cdcfbb",
+  "optics\\__init__.py": "12f8bb8fc42fc39fa60b0e46b861b8bb0d8d18cca6b114d671db4c67ab891472",
+  "tests\\test_negative_paths.py": "27b1a6a3cd95c3fa12fb749111b6b857e6d2678b8d4d78c0e5ba91c0fc344a50",
+  "tests\\test_propagation.py": "5c1ffa284851b8eccb9bc6f0377aca88650c986d07ac8c41c26d8009a0b4b01c"
+}

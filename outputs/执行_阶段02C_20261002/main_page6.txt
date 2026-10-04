@@ -1,0 +1,142 @@
+117:6
+•
+Jeon, Baek, Yi, Dun, Fu, Heidrich, and Kim
+addition to the data term as follows:
+ˆI = arg min
+I
+∥J −ΦI∥2
+2 + R (I) ,
+(16)
+where R(·) represents an unknown prior function of spectral images.
+As this regularization term is not often necessarily differentiable
+in optimization, we decouple the data term and the regularization
+term by reformulating Equation (16) as a constrained optimization
+problem by introducing an auxiliary variable V ∈RW HΛ×1:
+(ˆI, ˆV) = arg min
+I,V
+∥J −ΦI∥2
+2 + R (V)
+s.t.
+V = I.
+(17)
+The half-quadratic splitting (HQS) method can convert Equation (17)
+into an unconstrained optimization problem:
+(ˆI, ˆV) = arg min
+I,V
+∥J −ΦI∥2
+2 + ς ∥V −I∥2
+2 + R (V) ,
+(18)
+where ς is the penalty parameter. Equation (18) can be solved by
+splitting it into two subproblems:
+I(l+1) = arg min
+I
+∥J −ΦI∥2
+2 + ς
+V(l) −I
+
+2
+2 ,
+(19)
+V(l+1) = arg min
+V
+ς
+V −I(l+1)
+2
+2 + R (V) ,
+(20)
+where I(l) and V(l) are the solutions for the l-th HQS iteration.
+Since the measurement matrix of the spectral imager is very
+large, calculation of the inverse part of the equation requires heavy
+computational cost. To mitigate the cost issue, we take the gradient
+descent method alternatively to solve Equation (19). Solving it once
+provides sufficient convergence to a local optimal [Dong et al. 2018].
+In this way, the solution of Equation (19) can be expressed as
+I(l+1) = I(l) −ε
+h
+Φ⊺
+ΦI(l) −J
+
++ ς
+
+I(l) −V(l)i
+= ¯ΦI(l) + εI(0) + εςV(l),
+(21)
+where ¯Φ = [(1 −ες) 1 −εΦ⊺Φ] ∈RW HΛ×W HΛ andε is the gradient
+descent step size. For each optimization iteration stage, it updates the
+hyperspectral image I(l+1) with three parts. The first part calculates
+gradients of the measurement matrix by multiplying I(l) with ¯Φ. The
+second part comes from I(0) = Φ⊺J weighted by the parameter ε. The
+third part computes the prior term weighted by ες. This optimization
+iteration is repeated L times.
+5.2
+Hyperspectral Prior Network
+As the HQS algorithm separates the measurement matrix Φ from
+the unknown regularizer R (·), the prior term in Equation (20) can
+be represented in the form of a proximal operator. Here, instead
+of using a handcrafted image prior like the TV-l1 norm [Choi et al.
+2017], we instead define a network function S(·) for hyperspec-
+tral images, which yield the auxiliary variable of the image prior:
+V(l+1) = S(I(l+1)) by solving Equation (20) in a form of a neural
+network with soft-thresholding, following ISTA-Net [Zhang and
+Ghanem 2018]. Figure 5 shows the architecture of the hyperspectral
+prior network.
+We devise this prior network architecture with two main objec-
+tives: First, the network should learn both spatial and spectral prior
+of spectral images. Second, the network should reconstruct spec-
+tral images from diffracted rotation of the PSF. To account for the
+spectral deconvolution with a relatively large kernel, we adopt the
+U-net [Ronneberger et al. 2015] to utilize a multi-scale architecture
+to cover a large receptive field. In our network, the first convolu-
+tional layer uses 3 × 3 × Λ filters to produce a tensor with a feature
+size of Γ, where Λ is set to 25 and Γ is set to be larger than 64 to
+enforce the sparsity of spectral gradients. The network then gener-
+ates multi-scale features with a contracting path with max-pooling
+and an expansive path with up-convolution layers. For each level,
+two convolutional layers encode spatial-spectral features. With skip
+connections, the scaled features are concatenated with upper scale
+features. Finally, we produce a tensor of original hyperspectral cube
+size with a convolutional layer with 3 × 3 × Γ filters.
+5.3
+Optimization-based Unrolled Network
+Recently, state-of-the-art optimization-based unrolled network ar-
+chitectures [Dong et al. 2018; Wang et al. 2019; Zhang and Ghanem
+2018; Zhang et al. 2017] were proposed by adopting, for instance,
+the traditional ADMM and ISTA methods in a neural network form,
+and they outperform existing methods for image restoration. Our
+method also adapts this recent advance in neural network research
+in our hyperspectral reconstruction problem but with three main
+differences: First, the ill-posedness of our spectral reconstruction
+problem is significantly higher than that of the other image restora-
+tion problems because our rotating PSF occupies a larger area than
+an ordinary PSF. To address these characteristics, we design our
+spatial-spectral prior network with the U-Net architecture to make
+the perceptive field wide and also combine it with soft-thresholding
+to achieve local gradient smoothness. Second, instead of using a
+handcrafted sparsity prior, we learn the unknown spatial-spectral
+prior directly from spectral images. To do so, we formulate our
+optimization problem such that it is differentiable using the HQS for-
+mulation, which is solved with the Tikhonov regularization [Zhang
+et al. 2017]. Lastly, we use the l1-norm loss function when training
+the network in order to compensate for the absence of the sparsity
+prior in our network. Figure 4 provides an overview of our network
+architecture.
+We train the full network by end-to-end learning including the
+weight parameters of the spectral prior network and the optimiza-
+tion parameters: the gradient descent step size parameter ε and
+the penalty parameter ς. Note that all these parameters are learned
+separately for each stage through L number of iterations, following
+Wang et al. [2019], because the optimization parameters should be
+updated adaptively as the input quality of each stage increases.
+6
+IMPLEMENTATION DETAILS
+DOE fabrication. Our 16-level hyperspectral DOE is fabricated by
+iteratively applying photolithography and reactive-ion etching (RIE)
+techniques [Heide et al. 2016]. The substrate is a 0.5mm thick 4-inch
+fused silica wafer with both sides polished. In the photolithography
+step, we use a pre-designed binary mask and ultra-violet illumina-
+tion to transfer the desired patterns to a photoresist layer formed
+on the substrate by spin-coating. To ensure high resolution in the
+pixelated patterns, we create masks with 1µm resolution by a high
+resolution direct laser writer. After chemical development, we can
+ACM Trans. Graph., Vol. 38, No. 4, Article 117. Publication date: July 2019.

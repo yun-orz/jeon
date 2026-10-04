@@ -1,0 +1,29 @@
+2026-10-02 17:23:39 [INFO] [continuous_420nm_q1] λ=420 nm：u1 0.044 s + 传播 0.100 s = 0.143 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.63203，有限=True
+2026-10-02 17:23:39 [INFO] [continuous_420nm_q4] λ=420 nm：u1 0.043 s + 传播 0.044 s = 0.087 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.6223，有限=True
+2026-10-02 17:23:40 [INFO] [continuous_420nm_q8] λ=420 nm：u1 0.037 s + 传播 0.091 s = 0.128 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.6297，有限=True
+2026-10-02 17:23:40 [INFO] [continuous_540nm_q1] λ=540 nm：u1 0.038 s + 传播 0.013 s = 0.051 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=10.648，有限=True
+2026-10-02 17:23:40 [INFO] [continuous_540nm_q4] λ=540 nm：u1 0.036 s + 传播 0.042 s = 0.078 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=10.6401，有限=True
+2026-10-02 17:23:40 [INFO] [continuous_540nm_q8] λ=540 nm：u1 0.038 s + 传播 0.092 s = 0.130 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=10.6461，有限=True
+2026-10-02 17:23:41 [INFO] [continuous_660nm_q1] λ=660 nm：u1 0.039 s + 传播 0.011 s = 0.050 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.65368，有限=True
+2026-10-02 17:23:41 [INFO] [continuous_660nm_q4] λ=660 nm：u1 0.036 s + 传播 0.040 s = 0.076 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.64682，有限=True
+2026-10-02 17:23:41 [INFO] [continuous_660nm_q8] λ=660 nm：u1 0.039 s + 传播 0.095 s = 0.133 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.65201，有限=True
+2026-10-02 17:23:42 [INFO] [nearest_depth_420nm_q1] λ=420 nm：u1 0.042 s + 传播 0.011 s = 0.053 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.45179，有限=True
+2026-10-02 17:23:42 [INFO] [nearest_depth_420nm_q4] λ=420 nm：u1 0.038 s + 传播 0.044 s = 0.082 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.44266，有限=True
+2026-10-02 17:23:43 [INFO] [nearest_depth_420nm_q8] λ=420 nm：u1 0.040 s + 传播 0.112 s = 0.152 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.44971，有限=True
+2026-10-02 17:23:44 [INFO] [nearest_depth_540nm_q1] λ=540 nm：u1 0.043 s + 传播 1.065 s = 1.107 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=10.5205，有限=True
+2026-10-02 17:23:44 [INFO] [nearest_depth_540nm_q4] λ=540 nm：u1 0.046 s + 传播 0.052 s = 0.098 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=10.5127，有限=True
+2026-10-02 17:23:45 [INFO] [nearest_depth_540nm_q8] λ=540 nm：u1 0.043 s + 传播 0.107 s = 0.150 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=10.5185，有限=True
+2026-10-02 17:23:46 [INFO] [nearest_depth_660nm_q1] λ=660 nm：u1 0.043 s + 传播 1.346 s = 1.390 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.58882，有限=True
+2026-10-02 17:23:51 [INFO] [nearest_depth_660nm_q4] λ=660 nm：u1 0.045 s + 传播 4.456 s = 4.501 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.58197，有限=True
+2026-10-02 17:23:51 [INFO] [nearest_depth_660nm_q8] λ=660 nm：u1 0.047 s + 传播 0.124 s = 0.171 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.58718，有限=True
+2026-10-02 17:23:52 [INFO] [floor_depth_420nm_q1] λ=420 nm：u1 0.037 s + 传播 0.012 s = 0.049 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.45955，有限=True
+2026-10-02 17:23:52 [INFO] [floor_depth_420nm_q4] λ=420 nm：u1 0.036 s + 传播 0.043 s = 0.079 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.45045，有限=True
+2026-10-02 17:23:53 [INFO] [floor_depth_420nm_q8] λ=420 nm：u1 0.036 s + 传播 0.100 s = 0.135 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.45749，有限=True
+2026-10-02 17:23:53 [INFO] [floor_depth_540nm_q1] λ=540 nm：u1 0.039 s + 传播 0.013 s = 0.052 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=10.5225，有限=True
+2026-10-02 17:23:53 [INFO] [floor_depth_540nm_q4] λ=540 nm：u1 0.039 s + 传播 0.067 s = 0.106 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=10.5148，有限=True
+2026-10-02 17:23:54 [INFO] [floor_depth_540nm_q8] λ=540 nm：u1 0.038 s + 传播 0.118 s = 0.156 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=10.5206，有限=True
+2026-10-02 17:23:54 [INFO] [floor_depth_660nm_q1] λ=660 nm：u1 0.037 s + 传播 0.012 s = 0.049 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.58175，有限=True
+2026-10-02 17:23:54 [INFO] [floor_depth_660nm_q4] λ=660 nm：u1 0.035 s + 传播 0.049 s = 0.085 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.57502，有限=True
+2026-10-02 17:23:54 [INFO] [floor_depth_660nm_q8] λ=660 nm：u1 0.037 s + 传播 0.100 s = 0.138 s（实际 z=50 mm；器件设计焦距 f=50 mm）；|u2|max=8.58013，有限=True
+{"status": "completed", "numerical_convergence_passed": true, "run_dir": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02c\\run_20261002_172338", "elapsed_s": 18.70171670000036}
+

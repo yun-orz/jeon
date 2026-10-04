@@ -1,0 +1,56 @@
+{
+  "implementation_audit_passed": true,
+  "all_reconstructions_converged": true,
+  "run_dir": "outputs\\jeon2019_optics\\results\\stage02e4\\run_20261002_233752",
+  "source_unchanged": true,
+  "records": [
+    {
+      "identity": "continuous_coincident_points_crop_alpha_0p01_comparison_common_alpha",
+      "objective": 2.3396085027514285e-06,
+      "projected_gradient_relative": 3.2047669891009257e-09,
+      "solver_status": "converged",
+      "cube_relative_l2": 0.180751732143839,
+      "relative_distance_upper_bound": 0.0001577161627616351
+    },
+    {
+      "identity": "nearest_depth_coincident_points_crop_alpha_0p01_comparison_common_alpha",
+      "objective": 2.3208353234510567e-06,
+      "projected_gradient_relative": 3.1731744446091154e-09,
+      "solver_status": "converged",
+      "cube_relative_l2": 0.18784758564868928,
+      "relative_distance_upper_bound": 0.00014905553732579035
+    },
+    {
+      "identity": "continuous_separated_points_crop_alpha_0p01_comparison_common_alpha",
+      "objective": 2.6704447138846774e-06,
+      "projected_gradient_relative": 9.976844275521256e-09,
+      "solver_status": "converged",
+      "cube_relative_l2": 0.11077938810722683,
+      "relative_distance_upper_bound": 0.00020541911545000815
+    },
+    {
+      "identity": "nearest_depth_separated_points_crop_alpha_0p01_comparison_common_alpha",
+      "objective": 2.6667223022628293e-06,
+      "projected_gradient_relative": 9.98447612283902e-09,
+      "solver_status": "converged",
+      "cube_relative_l2": 0.112345243216001,
+      "relative_distance_upper_bound": 0.00019539702332917473
+    },
+    {
+      "identity": "continuous_lines_and_square_crop_alpha_0p01_comparison_common_alpha",
+      "objective": 6.373443540314447e-05,
+      "projected_gradient_relative": 2.1078824769389787e-09,
+      "solver_status": "converged",
+      "cube_relative_l2": 0.07929060185036708,
+      "relative_distance_upper_bound": 0.0006615288469885657
+    },
+    {
+      "identity": "nearest_depth_lines_and_square_crop_alpha_0p01_comparison_common_alpha",
+      "objective": 6.370600267140807e-05,
+      "projected_gradient_relative": 3.0417897373149363e-09,
+      "solver_status": "converged",
+      "cube_relative_l2": 0.07990758889358214,
+      "relative_distance_upper_bound": 0.0009066695603684717
+    }
+  ]
+}

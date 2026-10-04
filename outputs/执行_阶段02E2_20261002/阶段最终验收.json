@@ -1,0 +1,446 @@
+{
+  "stage": "02E-2",
+  "implementation_audit_passed": true,
+  "stability_validation_passed_for_final_two_cases": true,
+  "initial_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02e2\\run_20261002_230253",
+  "additional_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02e2\\run_20261002_230506",
+  "initial_stability_passed": false,
+  "additional_stability_passed": true,
+  "final_records": [
+    {
+      "identity": "continuous_coincident_points_crop_alpha_0p01_refined",
+      "scene": "coincident_points",
+      "device": "continuous",
+      "mode": "crop",
+      "alpha_factor": 0.01,
+      "alpha": 1.0589016188494555e-06,
+      "baseline_alpha": 0.00010589016188494556,
+      "solver_config": {
+        "max_iterations": 15000,
+        "gradient_tolerance": 1e-07,
+        "objective_tolerance": 1e-09,
+        "backtracking_factor": 2.0,
+        "max_backtracks": 50
+      },
+      "solver_status": "converged",
+      "iterations": 4576,
+      "elapsed_s": 23.392665999999736,
+      "initialization": "zeros",
+      "operator_checks": {
+        "inner_product_relative_error": 9.599015543247708e-16,
+        "lhs": 0.9252807391534031,
+        "rhs": 0.925280739153404,
+        "gradient_relative_error": 1.6254930173812121e-13,
+        "gradient_analytic": -0.02947601859506653,
+        "gradient_finite_difference": -0.02947601859506174,
+        "epsilon": 0.054846375735539236
+      },
+      "final_optimization": {
+        "iteration": 4576,
+        "data_term": 3.5041037331925535e-07,
+        "regularization_term": 1.9892139856364116e-06,
+        "objective": 2.339624358955667e-06,
+        "residual_norm": 0.0008371503727757103,
+        "residual_relative": 0.006735118504426148,
+        "L": 1.1119578844619076,
+        "backtracks": 0,
+        "restarted": false,
+        "restarts_total": 2,
+        "momentum": 0.9986992442342575,
+        "extrapolated_negative_count": 0,
+        "projected_gradient_relative": 8.079206821456237e-08,
+        "objective_relative_change": 8.980492216638291e-10,
+        "elapsed_s": 23.39266199999838
+      },
+      "certificate": {
+        "minimum_subgradient_norm": 8.16311863470021e-09,
+        "distance_upper_bound": 0.007709043493171544,
+        "distance_upper_bound_relative": 0.00397715532335251,
+        "objective_gap_upper_bound": 3.146491829741152e-11,
+        "alpha": 1.0589016188494555e-06,
+        "positive_count": 21,
+        "zero_count": 3051
+      },
+      "certificate_passed": true,
+      "certificate_relative_threshold": 0.01,
+      "evaluation": {
+        "cube_relative_l2": 0.18129073512731456,
+        "cube_rmse": 0.007494534377296185,
+        "bands": [
+          {
+            "relative_l2": 0.1278670385529993,
+            "rmse": 0.003995844954781228,
+            "truth_power": 1.0,
+            "recovered_power": 1.003911524463573,
+            "power_on_truth_zero_pixels": 0.1174849565511585,
+            "power_at_other_band_only_truth_pixels": 0.0
+          },
+          {
+            "relative_l2": 0.18453644506103056,
+            "rmse": 0.01153352781631441,
+            "truth_power": 2.0,
+            "recovered_power": 2.01546472807599,
+            "power_on_truth_zero_pixels": 0.34268699195208574,
+            "power_at_other_band_only_truth_pixels": 0.0
+          },
+          {
+            "relative_l2": 0.28272571941297353,
+            "rmse": 0.004417589365827711,
+            "truth_power": 0.5,
+            "recovered_power": 0.48471462116773645,
+            "power_on_truth_zero_pixels": 0.11409983466334918,
+            "power_at_other_band_only_truth_pixels": 0.0
+          }
+        ],
+        "sam_mean_deg": 2.0228085023233344,
+        "sam_median_deg": 2.0228085023233344,
+        "sam_valid_count": 1,
+        "sam_undefined_reconstruction_zero_count": 0,
+        "sam_truth_zero_excluded_count": 1023,
+        "spectrum_norm_threshold": 1e-12
+      },
+      "recovered_to_truth_total_power": 1.0011688210592282,
+      "baseline_record": {
+        "identity": "continuous_coincident_points_crop_alpha_0p01",
+        "scene": "coincident_points",
+        "device": "continuous",
+        "mode": "crop",
+        "alpha_factor": 0.01,
+        "alpha": 1.0589016188494555e-06,
+        "baseline_alpha": 0.00010589016188494556,
+        "stricter": false,
+        "solver_config": {
+          "max_iterations": 5000,
+          "gradient_tolerance": 1e-05,
+          "objective_tolerance": 1e-07,
+          "backtracking_factor": 2.0,
+          "max_backtracks": 50
+        },
+        "solver_status": "converged",
+        "iterations": 2275,
+        "elapsed_s": 10.866245399996842,
+        "final_optimization": {
+          "iteration": 2275,
+          "data_term": 3.536488483821011e-07,
+          "regularization_term": 1.9894422411216244e-06,
+          "objective": 2.3430910895037257e-06,
+          "residual_norm": 0.0008410099266739973,
+          "residual_relative": 0.0067661697393351095,
+          "L": 1.1119578844619076,
+          "backtracks": 0,
+          "restarted": false,
+          "restarts_total": 1,
+          "momentum": 0.9982829794752116,
+          "extrapolated_negative_count": 0,
+          "projected_gradient_relative": 1.6665226337393082e-06,
+          "objective_relative_change": 7.859423459948076e-08,
+          "elapsed_s": 10.86624319999828
+        },
+        "certificate": {
+          "minimum_subgradient_norm": 1.6838313756177165e-07,
+          "distance_upper_bound": 0.1590167911394144,
+          "distance_upper_bound_relative": 0.08203328937254535,
+          "objective_gap_upper_bound": 1.3387873108529762e-08,
+          "alpha": 1.0589016188494555e-06,
+          "positive_count": 23,
+          "zero_count": 3049
+        },
+        "evaluation": {
+          "cube_relative_l2": 0.18602022746858282,
+          "cube_rmse": 0.007690050948586505,
+          "bands": [
+            {
+              "relative_l2": 0.08650560769400616,
+              "rmse": 0.0027033002404376924,
+              "truth_power": 1.0,
+              "recovered_power": 1.0004812071799707,
+              "power_on_truth_zero_pixels": 0.07775240264772104,
+              "power_at_other_band_only_truth_pixels": 0.0
+            },
+            {
+              "relative_l2": 0.19564637822350278,
+              "rmse": 0.012227898638968924,
+              "truth_power": 2.0,
+              "recovered_power": 2.018181141143167,
+              "power_on_truth_zero_pixels": 0.3648903738615398,
+              "power_at_other_band_only_truth_pixels": 0.0
+            },
+            {
+              "relative_l2": 0.2903464481186387,
+              "rmse": 0.0045366632518537295,
+              "truth_power": 0.5,
+              "recovered_power": 0.4850275179783829,
+              "power_on_truth_zero_pixels": 0.1177584824085354,
+              "power_at_other_band_only_truth_pixels": 0.0
+            }
+          ],
+          "sam_mean_deg": 3.021720472144265,
+          "sam_median_deg": 3.021720472144265,
+          "sam_valid_count": 1,
+          "sam_undefined_reconstruction_zero_count": 0,
+          "sam_truth_zero_excluded_count": 1023,
+          "spectrum_norm_threshold": 1e-12
+        },
+        "recovered_to_truth_total_power": 1.0010542475147202,
+        "baseline_reconstruction_relative_difference": 1.935036521552307,
+        "baseline_match": null,
+        "certificate_relative_threshold": 0.05,
+        "certified_relative_distance_small": false
+      },
+      "baseline_reconstruction_relative_change": 0.024317967427272297,
+      "baseline_objective_decrease": 3.4667305480585474e-09,
+      "baseline_cube_error_change": -0.0047294923412682655
+    },
+    {
+      "identity": "continuous_lines_and_square_crop_alpha_0p01_refined",
+      "scene": "lines_and_square",
+      "device": "continuous",
+      "mode": "crop",
+      "alpha_factor": 0.01,
+      "alpha": 1.0589016188494555e-06,
+      "baseline_alpha": 0.00010589016188494556,
+      "solver_config": {
+        "max_iterations": 15000,
+        "gradient_tolerance": 1e-08,
+        "objective_tolerance": 1e-10,
+        "backtracking_factor": 2.0,
+        "max_backtracks": 50
+      },
+      "solver_status": "converged",
+      "iterations": 9792,
+      "elapsed_s": 51.03658590000123,
+      "initialization": "zeros",
+      "operator_checks": {
+        "inner_product_relative_error": 9.599015543247708e-16,
+        "lhs": 0.9252807391534031,
+        "rhs": 0.925280739153404,
+        "gradient_relative_error": 1.5689990394964327e-13,
+        "gradient_analytic": 0.08181619872978615,
+        "gradient_finite_difference": 0.08181619872977332,
+        "epsilon": 0.054846375735539236
+      },
+      "final_optimization": {
+        "iteration": 9792,
+        "data_term": 6.008274976168353e-07,
+        "regularization_term": 6.313360790552764e-05,
+        "objective": 6.373443540314447e-05,
+        "residual_norm": 0.0010962002532537887,
+        "residual_relative": 0.00029160186462555654,
+        "L": 1.1119578844619076,
+        "backtracks": 0,
+        "restarted": false,
+        "restarts_total": 1,
+        "momentum": 0.9989702994317655,
+        "extrapolated_negative_count": 0,
+        "projected_gradient_relative": 2.1078824769372896e-09,
+        "objective_relative_change": 9.956214594497495e-11,
+        "elapsed_s": 51.036583100001735
+      },
+      "certificate": {
+        "minimum_subgradient_norm": 7.649303546782262e-09,
+        "distance_upper_bound": 0.007223809474475614,
+        "distance_upper_bound_relative": 0.0006615288469885657,
+        "objective_gap_upper_bound": 2.762855571719281e-11,
+        "alpha": 1.0589016188494555e-06,
+        "positive_count": 319,
+        "zero_count": 2753
+      },
+      "certificate_passed": true,
+      "certificate_relative_threshold": 0.01,
+      "evaluation": {
+        "cube_relative_l2": 0.0792906018503671,
+        "cube_rmse": 0.015819356879270757,
+        "bands": [
+          {
+            "relative_l2": 0.03740946903264079,
+            "rmse": 0.008099387631088547,
+            "truth_power": 48.0,
+            "recovered_power": 47.97722057531433,
+            "power_on_truth_zero_pixels": 0.3880631437245041,
+            "power_at_other_band_only_truth_pixels": 0.113376154265743
+          },
+          {
+            "relative_l2": 0.04689572631522637,
+            "rmse": 0.00812257806358169,
+            "truth_power": 38.400000000000006,
+            "recovered_power": 38.462829682933275,
+            "power_on_truth_zero_pixels": 0.42134381366593543,
+            "power_at_other_band_only_truth_pixels": 0.16009056520169243
+          },
+          {
+            "relative_l2": 0.1206464182769307,
+            "rmse": 0.024883323769616956,
+            "truth_power": 72.6,
+            "recovered_power": 72.56074257108902,
+            "power_on_truth_zero_pixels": 1.9689845868489402,
+            "power_at_other_band_only_truth_pixels": 0.6952391857502902
+          }
+        ],
+        "sam_mean_deg": 0.548366765776161,
+        "sam_median_deg": 0.0,
+        "sam_valid_count": 191,
+        "sam_undefined_reconstruction_zero_count": 0,
+        "sam_truth_zero_excluded_count": 833,
+        "spectrum_norm_threshold": 1e-12
+      },
+      "recovered_to_truth_total_power": 1.0000049863480291,
+      "baseline_record": {
+        "identity": "continuous_lines_and_square_crop_alpha_0p01",
+        "scene": "lines_and_square",
+        "device": "continuous",
+        "mode": "crop",
+        "alpha_factor": 0.01,
+        "alpha": 1.0589016188494555e-06,
+        "baseline_alpha": 0.00010589016188494556,
+        "stricter": false,
+        "solver_config": {
+          "max_iterations": 5000,
+          "gradient_tolerance": 1e-05,
+          "objective_tolerance": 1e-07,
+          "backtracking_factor": 2.0,
+          "max_backtracks": 50
+        },
+        "solver_status": "converged",
+        "iterations": 3500,
+        "elapsed_s": 21.891287700000248,
+        "final_optimization": {
+          "iteration": 3500,
+          "data_term": 5.924107253006864e-07,
+          "regularization_term": 6.314797673817298e-05,
+          "objective": 6.374038746347367e-05,
+          "residual_norm": 0.0010884950393094922,
+          "residual_relative": 0.00028955218916997574,
+          "L": 1.1119578844619076,
+          "backtracks": 0,
+          "restarted": false,
+          "restarts_total": 0,
+          "momentum": 0.9991442168212654,
+          "extrapolated_negative_count": 1,
+          "projected_gradient_relative": 1.6798601116779865e-07,
+          "objective_relative_change": 9.639550308659927e-08,
+          "elapsed_s": 21.891284500001348
+        },
+        "certificate": {
+          "minimum_subgradient_norm": 6.096051372927991e-07,
+          "distance_upper_bound": 0.5756957270073518,
+          "distance_upper_bound_relative": 0.05271401479579191,
+          "objective_gap_upper_bound": 1.7547353635059727e-07,
+          "alpha": 1.0589016188494555e-06,
+          "positive_count": 342,
+          "zero_count": 2730
+        },
+        "evaluation": {
+          "cube_relative_l2": 0.07832404852048368,
+          "cube_rmse": 0.015626518740683687,
+          "bands": [
+            {
+              "relative_l2": 0.03714563956345996,
+              "rmse": 0.008042266875444157,
+              "truth_power": 48.0,
+              "recovered_power": 47.976631405206085,
+              "power_on_truth_zero_pixels": 0.3935803458552385,
+              "power_at_other_band_only_truth_pixels": 0.1104807497975595
+            },
+            {
+              "relative_l2": 0.048423481016211675,
+              "rmse": 0.008387192939942565,
+              "truth_power": 38.400000000000006,
+              "recovered_power": 38.46561406139106,
+              "power_on_truth_zero_pixels": 0.42570167689014665,
+              "power_at_other_band_only_truth_pixels": 0.15468958110114053
+            },
+            {
+              "relative_l2": 0.1185195437458458,
+              "rmse": 0.024444655897580696,
+              "truth_power": 72.6,
+              "recovered_power": 72.55784446782066,
+              "power_on_truth_zero_pixels": 1.9156715296872846,
+              "power_at_other_band_only_truth_pixels": 0.6492713830413934
+            }
+          ],
+          "sam_mean_deg": 0.5276735250019188,
+          "sam_median_deg": 0.0,
+          "sam_valid_count": 191,
+          "sam_undefined_reconstruction_zero_count": 0,
+          "sam_truth_zero_excluded_count": 833,
+          "spectrum_norm_threshold": 1e-12
+        },
+        "recovered_to_truth_total_power": 1.000000565625269,
+        "baseline_reconstruction_relative_difference": 0.42473904858500156,
+        "baseline_match": null,
+        "certificate_relative_threshold": 0.05,
+        "certified_relative_distance_small": false
+      },
+      "baseline_reconstruction_relative_change": 0.00545569767041738,
+      "baseline_objective_decrease": 5.952060329198275e-09,
+      "baseline_cube_error_change": 0.0009665533298834211
+    }
+  ],
+  "regression_tests_passed": 200,
+  "regression_elapsed_s": 151.616,
+  "entry_audit": {
+    "missing_source_failed": true,
+    "iteration_limit_exit": 2,
+    "budget_partial_exit": 2,
+    "report_write_failure": true,
+    "show_failure": true,
+    "default_no_save_exit": 2,
+    "default_no_save_stability_passed": false,
+    "no_save_files_unchanged": true,
+    "files_checked": 9211,
+    "mock_show_called_once": true,
+    "figures_closed": true,
+    "real_PyCharm_and_GUI_verified": false
+  },
+  "independent_audits": [
+    {
+      "implementation_audit_passed": true,
+      "all_reconstructions_converged": true,
+      "run_dir": "outputs\\jeon2019_optics\\results\\stage02e2\\run_20261002_230253",
+      "source_unchanged": true,
+      "records": [
+        {
+          "identity": "continuous_coincident_points_crop_alpha_0p01_refined",
+          "objective": 2.339624358955667e-06,
+          "projected_gradient_relative": 8.079206821456236e-08,
+          "solver_status": "converged",
+          "cube_relative_l2": 0.18129073512731447,
+          "relative_distance_upper_bound": 0.00397715532335251
+        },
+        {
+          "identity": "continuous_lines_and_square_crop_alpha_0p01_refined",
+          "objective": 6.373502613891623e-05,
+          "projected_gradient_relative": 3.411086112237168e-08,
+          "solver_status": "converged",
+          "cube_relative_l2": 0.0792946225893053,
+          "relative_distance_upper_bound": 0.010704923267335829
+        }
+      ]
+    },
+    {
+      "implementation_audit_passed": true,
+      "all_reconstructions_converged": true,
+      "run_dir": "outputs\\jeon2019_optics\\results\\stage02e2\\run_20261002_230506",
+      "source_unchanged": true,
+      "records": [
+        {
+          "identity": "continuous_lines_and_square_crop_alpha_0p01_refined",
+          "objective": 6.373443540314447e-05,
+          "projected_gradient_relative": 2.1078824769389787e-09,
+          "solver_status": "converged",
+          "cube_relative_l2": 0.07929060185036708,
+          "relative_distance_upper_bound": 0.0006615288469885657
+        }
+      ]
+    }
+  ],
+  "source_manifest_matches": true,
+  "extra_entry_files": {
+    "main_stage02e2_extra.py": "99956dce56a6690db74bd801282dbd91a699d4919374de31059b2fddc42b04d1",
+    "config_stage02e2_extra.json": "5e5de210bc390428ce4885c39c1927ba0b819135d4d5cc85fd62529c7284f117"
+  },
+  "real_PyCharm_and_GUI_verified": false,
+  "additional_GUI_no_save_individually_verified": false,
+  "next_stage_executed": false,
+  "next_plan": "D:\\PyCharmProjects\\Jeon2019\\outputs\\执行_阶段02E2_20261002\\下一阶段02E3详细规划.md"
+}

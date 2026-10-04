@@ -1,0 +1,47 @@
+test_airy_central_line_three_apertures (test_propagation.TestContinuousAccuracy)
+三个孔径/焦距组合的焦平面中心截线对解析 Airy（含 D=1 mm 论文尺度）。 ... ok
+test_fft_vs_analytic_free_gaussian_on_native_grid (test_propagation.TestContinuousAccuracy)
+单次 FFT 的原生输出网格上也与解析解比较（补足填充避免回绕）。 ... ok
+test_lens_focal_plane_peak_matches_discrete_pupil (test_propagation.TestContinuousAccuracy)
+z=f 时焦平面是孔径 Fourier 强度：峰值对离散孔径理论。 ... ok
+test_numeric_vs_analytic_free_gaussian (test_propagation.TestContinuousAccuracy)
+数值传播器 vs 连续自由空间高斯解析复场（审核要求 5）。 ... ok
+test_paper_scale_first_ring_reference (test_propagation.TestContinuousAccuracy) ... ok
+test_tilted_gaussian_peak_and_width (test_propagation.TestContinuousAccuracy)
+倾斜高斯：检验数值场的峰值幅值、横向位移与束宽（不依赖倾斜解析相位）。 ... ok
+test_extent_center_vs_pixel (test_propagation.TestCoordinates) ... ok
+test_grid_index_convention (test_propagation.TestCoordinates) ... ok
+test_index_increases_with_coordinate (test_propagation.TestCoordinates)
+索引增加 → x、y 都增加（与旧文档相反的说法已在修正版统一）。 ... ok
+test_units_roundtrip (test_propagation.TestCoordinates) ... ok
+test_case_n24_dx10um_M48 (test_propagation.TestDiscreteIdentity)
+原先被错误解释的算例（审核要求 3，不能接受 1e10 差异）。 ... ok
+test_case_n64_dx5um_M256 (test_propagation.TestDiscreteIdentity) ... ok
+test_fft_power_conservation (test_propagation.TestDiscreteIdentity)
+原生 FFT 全输出功率相对误差 ≤1e-10（审核要求 4）。 ... ok
+test_kernel_matrix_matches_explicit_2d_sum (test_propagation.TestDiscreteIdentity)
+矩阵形式与显式二维求和一致（独立求积自身的交叉核对）。 ... ok
+test_non_square_and_different_spacing (test_propagation.TestDiscreteIdentity)
+非方形网格、x/y 间距不同（审核要求 7）。 ... ok
+test_odd_input_supported_and_origin_aligned (test_propagation.TestDiscreteIdentity)
+奇数输入：输出坐标仍以 0 为中心且含原点（审核要求 7）。 ... ok
+test_original_case_n48_dx40um_M96 (test_propagation.TestDiscreteIdentity)
+原 B 组参数（审核要求 2：离散恒等必须成立，即使连续采样不足）。 ... ok
+test_global_phase_switch_only_controls_exp_ikz (test_propagation.TestInterfaceSemantics) ... ok
+test_omit_output_quadratic_phase_semantics (test_propagation.TestInterfaceSemantics)
+该选项返回的是**另一种场表示**：与完整场逐点相差一个单位模纯相位因子。 ... ok
+test_spectral_forms_are_distinct (test_propagation.TestInterfaceSemantics)
+频域 Fresnel 近似与精确角谱必须区分名称。 ... ok
+test_exact_vs_leading_path_difference (test_propagation.TestParaxialDiagnostics) ... ok
+test_known_phase_error_value (test_propagation.TestParaxialDiagnostics)
+审核基准：ρ=1.25 mm、z=50 mm、λ=550 nm → 0.02788185 rad。 ... ok
+test_sampling_diagnostics_covers_three_terms (test_propagation.TestParaxialDiagnostics) ... ok
+test_three_input_levels_fixed_pupil_and_window (test_propagation.TestSamplingConvergence)
+固定物理孔径与观察窗口，改变输入采样精度（审核要求 8）。 ... ok
+test_two_padding_factors (test_propagation.TestSamplingConvergence)
+两个不同零填充倍率：结果应收敛到同一连续解（审核要求 8）。 ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 1.709s
+
+OK

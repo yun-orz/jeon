@@ -1,0 +1,1704 @@
+{
+  "status": "completed",
+  "validation_passed": true,
+  "budget_exhausted": false,
+  "planned_jobs": 18,
+  "completed_jobs": 18,
+  "records": [
+    {
+      "identity": "continuous_coincident_points_G_1000",
+      "device": "continuous",
+      "scene": "coincident_points",
+      "gain_e_per_relative_power": 1000.0,
+      "direct_relative_error": 3.123580103944578e-16,
+      "roundoff_repair": {
+        "relative_tolerance": 1e-12,
+        "absolute_tolerance": 1.6136924716763533e-11,
+        "negative_count": 0,
+        "minimum_raw": 0.0011096333270792821,
+        "added_electrons": 0.0
+      },
+      "statistics": {
+        "passed": true,
+        "checks": {
+          "shot_mean": {
+            "z": -0.0871533279906392,
+            "passed": true
+          },
+          "shot_second_moment": {
+            "z": -1.1144495997381199,
+            "passed": true
+          },
+          "read_mean": {
+            "z": 0.07068796652265201,
+            "passed": true
+          },
+          "read_second_moment": {
+            "z": -1.5638419365324245,
+            "passed": true
+          },
+          "joint_mean": {
+            "z": 0.043596032873814076,
+            "passed": true
+          },
+          "joint_second_moment": {
+            "z": -2.347567141440346,
+            "passed": true
+          }
+        },
+        "metrics": {
+          "shot": {
+            "residual_mean_e": -6.586750809014903e-05,
+            "observed_second_moment_e2": 0.3341722696839737,
+            "expected_second_moment_e2": 0.3368968543787499,
+            "second_moment_ratio": 0.9919127036677132
+          },
+          "read": {
+            "residual_mean_e": 0.0001840832461527396,
+            "observed_second_moment_e2": 3.9884812162705625,
+            "expected_second_moment_e2": 4.0,
+            "second_moment_ratio": 0.9971203040676406
+          },
+          "joint": {
+            "residual_mean_e": 0.00011821573806259023,
+            "observed_second_moment_e2": 4.3173443770306354,
+            "expected_second_moment_e2": 4.336896854378751,
+            "second_moment_ratio": 0.995491597332232
+          }
+        },
+        "repeats": 64,
+        "sufficient_statistics": {
+          "shot": -38.85023709176406,
+          "shot_square": 197102.82479408008,
+          "read": 108.57671657879348,
+          "read_square": 2352501.9449055684,
+          "joint": 69.72647948702922,
+          "joint_square": 2546473.3298377176
+        },
+        "block_size": 8,
+        "sample_count": 589824,
+        "z_tolerance": 8.0,
+        "interpretation": "按已知像元均值的残差二阶矩；shot比值检验泊松Fano，不能对结构化图像的原始像素直接计算Fano",
+        "theory": "Var(eps)=mu+sigma²；Var(eps²)=mu+2*(mu+sigma²)²。标准化门槛是大样本标准误筛查，非确定性百分比容差。"
+      },
+      "mean_total_e": 3104.841409954559,
+      "negative_readout_pixels": 4258
+    },
+    {
+      "identity": "continuous_coincident_points_G_10000",
+      "device": "continuous",
+      "scene": "coincident_points",
+      "gain_e_per_relative_power": 10000.0,
+      "direct_relative_error": 3.123580103944578e-16,
+      "roundoff_repair": {
+        "relative_tolerance": 1e-12,
+        "absolute_tolerance": 1.6136924716763533e-10,
+        "negative_count": 0,
+        "minimum_raw": 0.01109633327079282,
+        "added_electrons": 0.0
+      },
+      "statistics": {
+        "passed": true,
+        "checks": {
+          "shot_mean": {
+            "z": 1.246766285594159,
+            "passed": true
+          },
+          "shot_second_moment": {
+            "z": -0.39049517242705295,
+            "passed": true
+          },
+          "read_mean": {
+            "z": -0.614169138320333,
+            "passed": true
+          },
+          "read_second_moment": {
+            "z": -0.3124736516660688,
+            "passed": true
+          },
+          "joint_mean": {
+            "z": 0.3905091655552894,
+            "passed": true
+          },
+          "joint_second_moment": {
+            "z": -0.7581037503890773,
+            "passed": true
+          }
+        },
+        "metrics": {
+          "shot": {
+            "residual_mean_e": 0.002979698400001298,
+            "observed_second_moment_e2": 3.3598415696263633,
+            "expected_second_moment_e2": 3.3689685437874983,
+            "second_moment_ratio": 0.9972908698782702
+          },
+          "read": {
+            "residual_mean_e": -0.0015993987977092007,
+            "observed_second_moment_e2": 3.9976984141871332,
+            "expected_second_moment_e2": 4.0,
+            "second_moment_ratio": 0.9994246035467833
+          },
+          "joint": {
+            "residual_mean_e": 0.0013802996022920966,
+            "observed_second_moment_e2": 7.349026936226314,
+            "expected_second_moment_e2": 7.368968543787499,
+            "second_moment_ratio": 0.9972938400479403
+          }
+        },
+        "repeats": 64,
+        "sufficient_statistics": {
+          "shot": 1757.4976290823656,
+          "shot_square": 1981715.1939633002,
+          "read": -943.3637964600316,
+          "read_square": 2357938.4694495117,
+          "joint": 814.1338326223336,
+          "joint_square": 4334632.463632749
+        },
+        "block_size": 8,
+        "sample_count": 589824,
+        "z_tolerance": 8.0,
+        "interpretation": "按已知像元均值的残差二阶矩；shot比值检验泊松Fano，不能对结构化图像的原始像素直接计算Fano",
+        "theory": "Var(eps)=mu+sigma²；Var(eps²)=mu+2*(mu+sigma²)²。标准化门槛是大样本标准误筛查，非确定性百分比容差。"
+      },
+      "mean_total_e": 31048.414099545585,
+      "negative_readout_pixels": 3259
+    },
+    {
+      "identity": "continuous_coincident_points_G_100000",
+      "device": "continuous",
+      "scene": "coincident_points",
+      "gain_e_per_relative_power": 100000.0,
+      "direct_relative_error": 3.123580103944578e-16,
+      "roundoff_repair": {
+        "relative_tolerance": 1e-12,
+        "absolute_tolerance": 1.6136924716763536e-09,
+        "negative_count": 0,
+        "minimum_raw": 0.11096333270792821,
+        "added_electrons": 0.0
+      },
+      "statistics": {
+        "passed": true,
+        "checks": {
+          "shot_mean": {
+            "z": -0.8091691169177152,
+            "passed": true
+          },
+          "shot_second_moment": {
+            "z": 1.4405587188214892,
+            "passed": true
+          },
+          "read_mean": {
+            "z": 0.2850184637741135,
+            "passed": true
+          },
+          "read_second_moment": {
+            "z": -0.19919489535542725,
+            "passed": true
+          },
+          "joint_mean": {
+            "z": -0.6721744722314626,
+            "passed": true
+          },
+          "joint_second_moment": {
+            "z": 1.3985544193942763,
+            "passed": true
+          }
+        },
+        "metrics": {
+          "shot": {
+            "residual_mean_e": -0.006115423769084398,
+            "observed_second_moment_e2": 34.024796730245306,
+            "expected_second_moment_e2": 33.68968543787499,
+            "second_moment_ratio": 1.0099469997423478
+          },
+          "read": {
+            "residual_mean_e": 0.0007422355827450872,
+            "observed_second_moment_e2": 3.998532791028296,
+            "expected_second_moment_e2": 4.0,
+            "second_moment_ratio": 0.999633197757074
+          },
+          "joint": {
+            "residual_mean_e": -0.005373188186339308,
+            "observed_second_moment_e2": 38.01792279852072,
+            "expected_second_moment_e2": 37.68968543787499,
+            "second_moment_ratio": 1.0087089440209518
+          }
+        },
+        "repeats": 64,
+        "sufficient_statistics": {
+          "shot": -3607.0237091764357,
+          "shot_square": 20068641.70662021,
+          "read": 437.7883603570383,
+          "read_square": 2358430.6049354738,
+          "joint": -3169.2353488193958,
+          "joint_square": 22423883.296714686
+        },
+        "block_size": 8,
+        "sample_count": 589824,
+        "z_tolerance": 8.0,
+        "interpretation": "按已知像元均值的残差二阶矩；shot比值检验泊松Fano，不能对结构化图像的原始像素直接计算Fano",
+        "theory": "Var(eps)=mu+sigma²；Var(eps²)=mu+2*(mu+sigma²)²。标准化门槛是大样本标准误筛查，非确定性百分比容差。"
+      },
+      "mean_total_e": 310484.1409954559,
+      "negative_readout_pixels": 1058
+    },
+    {
+      "identity": "continuous_separated_points_G_1000",
+      "device": "continuous",
+      "scene": "separated_points",
+      "gain_e_per_relative_power": 1000.0,
+      "direct_relative_error": 3.4665615185206485e-16,
+      "roundoff_repair": {
+        "relative_tolerance": 1e-12,
+        "absolute_tolerance": 1.1226049136286334e-11,
+        "negative_count": 34,
+        "minimum_raw": -3.7962275028936014e-16,
+        "added_electrons": 3.737970946636711e-15
+      },
+      "statistics": {
+        "passed": true,
+        "checks": {
+          "shot_mean": {
+            "z": 0.37097683931274555,
+            "passed": true
+          },
+          "shot_second_moment": {
+            "z": -0.6475813260981056,
+            "passed": true
+          },
+          "read_mean": {
+            "z": 1.4685086607891604,
+            "passed": true
+          },
+          "read_second_moment": {
+            "z": -0.8938143339351714,
+            "passed": true
+          },
+          "joint_mean": {
+            "z": 1.5138125506404003,
+            "passed": true
+          },
+          "joint_second_moment": {
+            "z": -1.1997167234438686,
+            "passed": true
+          }
+        },
+        "metrics": {
+          "shot": {
+            "residual_mean_e": 0.0002783750298859682,
+            "observed_second_moment_e2": 0.3308112911993301,
+            "expected_second_moment_e2": 0.3321156950656001,
+            "second_moment_ratio": 0.9960724413641086
+          },
+          "read": {
+            "residual_mean_e": 0.0038242413041384388,
+            "observed_second_moment_e2": 3.993416435659924,
+            "expected_second_moment_e2": 4.0,
+            "second_moment_ratio": 0.998354108914981
+          },
+          "joint": {
+            "residual_mean_e": 0.004102616334024407,
+            "observed_second_moment_e2": 4.32227216943645,
+            "expected_second_moment_e2": 4.3321156950656,
+            "second_moment_ratio": 0.9977277786832051
+          }
+        },
+        "repeats": 64,
+        "sufficient_statistics": {
+          "shot": 164.1922736274613,
+          "shot_square": 195120.4390203537,
+          "read": 2255.6293029721505,
+          "read_square": 2355412.855746679,
+          "joint": 2419.821576599612,
+          "joint_square": 2549379.8600656847
+        },
+        "block_size": 8,
+        "sample_count": 589824,
+        "z_tolerance": 8.0,
+        "interpretation": "按已知像元均值的残差二阶矩；shot比值检验泊松Fano，不能对结构化图像的原始像素直接计算Fano",
+        "theory": "Var(eps)=mu+sigma²；Var(eps²)=mu+2*(mu+sigma²)²。标准化门槛是大样本标准误筛查，非确定性百分比容差。"
+      },
+      "mean_total_e": 3060.7782457245708,
+      "negative_readout_pixels": 4141
+    },
+    {
+      "identity": "continuous_separated_points_G_10000",
+      "device": "continuous",
+      "scene": "separated_points",
+      "gain_e_per_relative_power": 10000.0,
+      "direct_relative_error": 3.4665615185206485e-16,
+      "roundoff_repair": {
+        "relative_tolerance": 1e-12,
+        "absolute_tolerance": 1.1226049136286334e-10,
+        "negative_count": 34,
+        "minimum_raw": -3.796227502893601e-15,
+        "added_electrons": 3.7379709466367104e-14
+      },
+      "statistics": {
+        "passed": true,
+        "checks": {
+          "shot_mean": {
+            "z": -0.04506785885493541,
+            "passed": true
+          },
+          "shot_second_moment": {
+            "z": 0.9241103028525632,
+            "passed": true
+          },
+          "read_mean": {
+            "z": -1.2004213391592895,
+            "passed": true
+          },
+          "read_second_moment": {
+            "z": 0.2574189398335726,
+            "passed": true
+          },
+          "joint_mean": {
+            "z": -0.9176612778309351,
+            "passed": true
+          },
+          "joint_second_moment": {
+            "z": 1.6211236330916985,
+            "passed": true
+          }
+        },
+        "metrics": {
+          "shot": {
+            "residual_mean_e": -0.00010694251798058953,
+            "observed_second_moment_e2": 3.3385697900094233,
+            "expected_second_moment_e2": 3.3211569506560017,
+            "second_moment_ratio": 1.0052430040531455
+          },
+          "read": {
+            "residual_mean_e": -0.003126097237393983,
+            "observed_second_moment_e2": 4.001896069562106,
+            "expected_second_moment_e2": 4.0,
+            "second_moment_ratio": 1.0004740173905264
+          },
+          "joint": {
+            "residual_mean_e": -0.003233039755374575,
+            "observed_second_moment_e2": 7.357384522702962,
+            "expected_second_moment_e2": 7.321156950656002,
+            "second_moment_ratio": 1.0049483397625718
+          }
+        },
+        "repeats": 64,
+        "sufficient_statistics": {
+          "shot": -63.07726372538323,
+          "shot_square": 1969168.587822518,
+          "read": -1843.8471769486687,
+          "read_square": 2360414.3473333996,
+          "joint": -1906.9244406740534,
+          "joint_square": 4339561.968718752
+        },
+        "block_size": 8,
+        "sample_count": 589824,
+        "z_tolerance": 8.0,
+        "interpretation": "按已知像元均值的残差二阶矩；shot比值检验泊松Fano，不能对结构化图像的原始像素直接计算Fano",
+        "theory": "Var(eps)=mu+sigma²；Var(eps²)=mu+2*(mu+sigma²)²。标准化门槛是大样本标准误筛查，非确定性百分比容差。"
+      },
+      "mean_total_e": 30607.78245724571,
+      "negative_readout_pixels": 2985
+    },
+    {
+      "identity": "continuous_separated_points_G_100000",
+      "device": "continuous",
+      "scene": "separated_points",
+      "gain_e_per_relative_power": 100000.0,
+      "direct_relative_error": 3.4665615185206485e-16,
+      "roundoff_repair": {
+        "relative_tolerance": 1e-12,
+        "absolute_tolerance": 1.1226049136286335e-09,
+        "negative_count": 34,
+        "minimum_raw": -3.7962275028936015e-14,
+        "added_electrons": 3.7379709466367104e-13
+      },
+      "statistics": {
+        "passed": true,
+        "checks": {
+          "shot_mean": {
+            "z": 1.467534899429153,
+            "passed": true
+          },
+          "shot_second_moment": {
+            "z": -0.7217178338477372,
+            "passed": true
+          },
+          "read_mean": {
+            "z": -0.3352834392316717,
+            "passed": true
+          },
+          "read_second_moment": {
+            "z": 0.9266126841217533,
+            "passed": true
+          },
+          "joint_mean": {
+            "z": 1.2764911803889782,
+            "passed": true
+          },
+          "joint_second_moment": {
+            "z": -0.655046092968422,
+            "passed": true
+          }
+        },
+        "metrics": {
+          "shot": {
+            "residual_mean_e": 0.011012144915680082,
+            "observed_second_moment_e2": 33.076551551745645,
+            "expected_second_moment_e2": 33.21156950656002,
+            "second_moment_ratio": 0.9959346108353083
+          },
+          "read": {
+            "residual_mean_e": -0.0008731339563324784,
+            "observed_second_moment_e2": 4.006825147004958,
+            "expected_second_moment_e2": 4.0,
+            "second_moment_ratio": 1.0017062867512394
+          },
+          "joint": {
+            "residual_mean_e": 0.010139010959347602,
+            "observed_second_moment_e2": 37.08736341560315,
+            "expected_second_moment_e2": 37.21156950656002,
+            "second_moment_ratio": 0.9966621646814716
+          }
+        },
+        "repeats": 64,
+        "sufficient_statistics": {
+          "shot": 6495.227362746089,
+          "shot_square": 19509343.942456823,
+          "read": -514.9953626598477,
+          "read_square": 2363321.6355070523,
+          "joint": 5980.23200008624,
+          "joint_square": 21875017.03924471
+        },
+        "block_size": 8,
+        "sample_count": 589824,
+        "z_tolerance": 8.0,
+        "interpretation": "按已知像元均值的残差二阶矩；shot比值检验泊松Fano，不能对结构化图像的原始像素直接计算Fano",
+        "theory": "Var(eps)=mu+sigma²；Var(eps²)=mu+2*(mu+sigma²)²。标准化门槛是大样本标准误筛查，非确定性百分比容差。"
+      },
+      "mean_total_e": 306077.8245724571,
+      "negative_readout_pixels": 1078
+    },
+    {
+      "identity": "continuous_lines_and_square_G_1000",
+      "device": "continuous",
+      "scene": "lines_and_square",
+      "gain_e_per_relative_power": 1000.0,
+      "direct_relative_error": 3.60349902441266e-16,
+      "roundoff_repair": {
+        "relative_tolerance": 1e-12,
+        "absolute_tolerance": 2.6929189858699896e-10,
+        "negative_count": 0,
+        "minimum_raw": 0.14550134954476657,
+        "added_electrons": 0.0
+      },
+      "statistics": {
+        "passed": true,
+        "checks": {
+          "shot_mean": {
+            "z": 0.11200415470201819,
+            "passed": true
+          },
+          "shot_second_moment": {
+            "z": 3.3434357894983044,
+            "passed": true
+          },
+          "read_mean": {
+            "z": 0.3785245645389905,
+            "passed": true
+          },
+          "read_second_moment": {
+            "z": 0.36956398566603355,
+            "passed": true
+          },
+          "joint_mean": {
+            "z": 0.2702522988453619,
+            "passed": true
+          },
+          "joint_second_moment": {
+            "z": 3.228164353695741,
+            "passed": true
+          }
+        },
+        "metrics": {
+          "shot": {
+            "residual_mean_e": 0.0005793707193265136,
+            "observed_second_moment_e2": 16.033118236278018,
+            "expected_second_moment_e2": 15.782189726502894,
+            "second_moment_ratio": 1.0158994736550242
+          },
+          "read": {
+            "residual_mean_e": 0.0009857410534869545,
+            "observed_second_moment_e2": 4.002722095836946,
+            "expected_second_moment_e2": 4.0,
+            "second_moment_ratio": 1.0006805239592365
+          },
+          "joint": {
+            "residual_mean_e": 0.0015651117728134685,
+            "observed_second_moment_e2": 20.034628036426355,
+            "expected_second_moment_e2": 19.782189726502892,
+            "second_moment_ratio": 1.0127608881227774
+          }
+        },
+        "repeats": 64,
+        "sufficient_statistics": {
+          "shot": 341.7267551560415,
+          "shot_square": 9456717.930594446,
+          "read": 581.4137311318894,
+          "read_square": 2360901.5574549306,
+          "joint": 923.1404862879313,
+          "joint_square": 11816904.446957137
+        },
+        "block_size": 8,
+        "sample_count": 589824,
+        "z_tolerance": 8.0,
+        "interpretation": "按已知像元均值的残差二阶矩；shot比值检验泊松Fano，不能对结构化图像的原始像素直接计算Fano",
+        "theory": "Var(eps)=mu+sigma²；Var(eps²)=mu+2*(mu+sigma²)²。标准化门槛是大样本标准误筛查，非确定性百分比容差。"
+      },
+      "mean_total_e": 145448.66051945067,
+      "negative_readout_pixels": 1394
+    },
+    {
+      "identity": "continuous_lines_and_square_G_10000",
+      "device": "continuous",
+      "scene": "lines_and_square",
+      "gain_e_per_relative_power": 10000.0,
+      "direct_relative_error": 3.60349902441266e-16,
+      "roundoff_repair": {
+        "relative_tolerance": 1e-12,
+        "absolute_tolerance": 2.6929189858699895e-09,
+        "negative_count": 0,
+        "minimum_raw": 1.4550134954476657,
+        "added_electrons": 0.0
+      },
+      "statistics": {
+        "passed": true,
+        "checks": {
+          "shot_mean": {
+            "z": 1.7248111581226535,
+            "passed": true
+          },
+          "shot_second_moment": {
+            "z": 0.05241074212799314,
+            "passed": true
+          },
+          "read_mean": {
+            "z": -0.02831193326494787,
+            "passed": true
+          },
+          "read_second_moment": {
+            "z": 0.5814450726288909,
+            "passed": true
+          },
+          "joint_mean": {
+            "z": 1.698909130782658,
+            "passed": true
+          },
+          "joint_second_moment": {
+            "z": -0.058934436762938955,
+            "passed": true
+          }
+        },
+        "metrics": {
+          "shot": {
+            "residual_mean_e": 0.02821395458909855,
+            "observed_second_moment_e2": 157.861147924279,
+            "expected_second_moment_e2": 157.82189726502895,
+            "second_moment_ratio": 1.0002487022392346
+          },
+          "read": {
+            "residual_mean_e": -7.372899287746842e-05,
+            "observed_second_moment_e2": 4.004282747434827,
+            "expected_second_moment_e2": 4.0,
+            "second_moment_ratio": 1.0010706868587067
+          },
+          "joint": {
+            "residual_mean_e": 0.02814022559622109,
+            "observed_second_moment_e2": 161.77759072043216,
+            "expected_second_moment_e2": 161.82189726502895,
+            "second_moment_ratio": 0.9997262017974968
+          }
+        },
+        "repeats": 64,
+        "sufficient_statistics": {
+          "shot": 16641.267551560464,
+          "shot_square": 93110293.71328995,
+          "read": -43.48712949495993,
+          "read_square": 2361822.0672229994,
+          "joint": 16597.78042206551,
+          "joint_square": 95420305.66908817
+        },
+        "block_size": 8,
+        "sample_count": 589824,
+        "z_tolerance": 8.0,
+        "interpretation": "按已知像元均值的残差二阶矩；shot比值检验泊松Fano，不能对结构化图像的原始像素直接计算Fano",
+        "theory": "Var(eps)=mu+sigma²；Var(eps²)=mu+2*(mu+sigma²)²。标准化门槛是大样本标准误筛查，非确定性百分比容差。"
+      },
+      "mean_total_e": 1454486.605194507,
+      "negative_readout_pixels": 34
+    },
+    {
+      "identity": "continuous_lines_and_square_G_100000",
+      "device": "continuous",
+      "scene": "lines_and_square",
+      "gain_e_per_relative_power": 100000.0,
+      "direct_relative_error": 3.60349902441266e-16,
+      "roundoff_repair": {
+        "relative_tolerance": 1e-12,
+        "absolute_tolerance": 2.6929189858699896e-08,
+        "negative_count": 0,
+        "minimum_raw": 14.550134954476656,
+        "added_electrons": 0.0
+      },
+      "statistics": {
+        "passed": true,
+        "checks": {
+          "shot_mean": {
+            "z": 0.45301840120304804,
+            "passed": true
+          },
+          "shot_second_moment": {
+            "z": -0.8982341410524871,
+            "passed": true
+          },
+          "read_mean": {
+            "z": 0.9729667443488347,
+            "passed": true
+          },
+          "read_second_moment": {
+            "z": -1.7751453281131437,
+            "passed": true
+          },
+          "joint_mean": {
+            "z": 0.5013663313204036,
+            "passed": true
+          },
+          "joint_second_moment": {
+            "z": -0.8869854363634773,
+            "passed": true
+          }
+        },
+        "metrics": {
+          "shot": {
+            "residual_mean_e": 0.023433559020326924,
+            "observed_second_moment_e2": 1571.493497887358,
+            "expected_second_moment_e2": 1578.2189726502895,
+            "second_moment_ratio": 0.9957385667771833
+          },
+          "read": {
+            "residual_mean_e": 0.002533767563408424,
+            "observed_second_moment_e2": 3.9869248198010374,
+            "expected_second_moment_e2": 4.0,
+            "second_moment_ratio": 0.9967312049502594
+          },
+          "joint": {
+            "residual_mean_e": 0.02596732658373533,
+            "observed_second_moment_e2": 1575.5751833500408,
+            "expected_second_moment_e2": 1582.2189726502895,
+            "second_moment_ratio": 0.995800967239623
+          }
+        },
+        "repeats": 64,
+        "sufficient_statistics": {
+          "shot": 13821.675515605308,
+          "shot_square": 926904580.897913,
+          "read": 1494.4769193198101,
+          "read_square": 2351583.944914327,
+          "joint": 15316.152434925107,
+          "joint_square": 929312056.9442545
+        },
+        "block_size": 8,
+        "sample_count": 589824,
+        "z_tolerance": 8.0,
+        "interpretation": "按已知像元均值的残差二阶矩；shot比值检验泊松Fano，不能对结构化图像的原始像素直接计算Fano",
+        "theory": "Var(eps)=mu+sigma²；Var(eps²)=mu+2*(mu+sigma²)²。标准化门槛是大样本标准误筛查，非确定性百分比容差。"
+      },
+      "mean_total_e": 14544866.051945068,
+      "negative_readout_pixels": 0
+    },
+    {
+      "identity": "nearest_depth_coincident_points_G_1000",
+      "device": "nearest_depth",
+      "scene": "coincident_points",
+      "gain_e_per_relative_power": 1000.0,
+      "direct_relative_error": 3.00594293993669e-16,
+      "roundoff_repair": {
+        "relative_tolerance": 1e-12,
+        "absolute_tolerance": 1.5723224574787585e-11,
+        "negative_count": 0,
+        "minimum_raw": 0.0011210498582227616,
+        "added_electrons": 0.0
+      },
+      "statistics": {
+        "passed": true,
+        "checks": {
+          "shot_mean": {
+            "z": 0.8756578248029292,
+            "passed": true
+          },
+          "shot_second_moment": {
+            "z": -1.171818378489661,
+            "passed": true
+          },
+          "read_mean": {
+            "z": -0.26942512302309646,
+            "passed": true
+          },
+          "read_second_moment": {
+            "z": 0.256772615320354,
+            "passed": true
+          },
+          "joint_mean": {
+            "z": -0.017891607164248088,
+            "passed": true
+          },
+          "joint_second_moment": {
+            "z": 0.3902716983329811,
+            "passed": true
+          }
+        },
+        "metrics": {
+          "shot": {
+            "residual_mean_e": 0.0006531615943434971,
+            "observed_second_moment_e2": 0.3253722325790875,
+            "expected_second_moment_e2": 0.3281669610185037,
+            "second_moment_ratio": 0.9914838214342404
+          },
+          "read": {
+            "residual_mean_e": -0.0007016279245393137,
+            "observed_second_moment_e2": 4.001891308932459,
+            "expected_second_moment_e2": 4.0,
+            "second_moment_ratio": 1.0004728272331147
+          },
+          "joint": {
+            "residual_mean_e": -4.8466330195815805e-05,
+            "observed_second_moment_e2": 4.331405124065132,
+            "expected_second_moment_e2": 4.328166961018503,
+            "second_moment_ratio": 1.0007481603819335
+          }
+        },
+        "repeats": 64,
+        "sufficient_statistics": {
+          "shot": 385.25038422205887,
+          "shot_square": 191912.35170872769,
+          "read": -413.8369889634762,
+          "read_square": 2360411.5393997785,
+          "joint": -28.586604741416863,
+          "joint_square": 2554766.695896592
+        },
+        "block_size": 8,
+        "sample_count": 589824,
+        "z_tolerance": 8.0,
+        "interpretation": "按已知像元均值的残差二阶矩；shot比值检验泊松Fano，不能对结构化图像的原始像素直接计算Fano",
+        "theory": "Var(eps)=mu+sigma²；Var(eps²)=mu+2*(mu+sigma²)²。标准化门槛是大样本标准误筛查，非确定性百分比容差。"
+      },
+      "mean_total_e": 3024.38671274653,
+      "negative_readout_pixels": 4284
+    },
+    {
+      "identity": "nearest_depth_coincident_points_G_10000",
+      "device": "nearest_depth",
+      "scene": "coincident_points",
+      "gain_e_per_relative_power": 10000.0,
+      "direct_relative_error": 3.00594293993669e-16,
+      "roundoff_repair": {
+        "relative_tolerance": 1e-12,
+        "absolute_tolerance": 1.5723224574787587e-10,
+        "negative_count": 0,
+        "minimum_raw": 0.011210498582227616,
+        "added_electrons": 0.0
+      },
+      "statistics": {
+        "passed": true,
+        "checks": {
+          "shot_mean": {
+            "z": -0.7406921282133261,
+            "passed": true
+          },
+          "shot_second_moment": {
+            "z": -0.20668384813119814,
+            "passed": true
+          },
+          "read_mean": {
+            "z": 0.8574044160331687,
+            "passed": true
+          },
+          "read_second_moment": {
+            "z": -0.3077103570142003,
+            "passed": true
+          },
+          "joint_mean": {
+            "z": 0.1382334328745641,
+            "passed": true
+          },
+          "joint_second_moment": {
+            "z": -0.17976354351182858,
+            "passed": true
+          }
+        },
+        "metrics": {
+          "shot": {
+            "residual_mean_e": -0.0017471248334747363,
+            "observed_second_moment_e2": 3.2769622775461125,
+            "expected_second_moment_e2": 3.281669610185037,
+            "second_moment_ratio": 0.9985655677755265
+          },
+          "read": {
+            "residual_mean_e": 0.002232824000086377,
+            "observed_second_moment_e2": 3.9977334991657703,
+            "expected_second_moment_e2": 4.0,
+            "second_moment_ratio": 0.9994333747914426
+          },
+          "joint": {
+            "residual_mean_e": 0.00048569916661164156,
+            "observed_second_moment_e2": 7.27704441303869,
+            "expected_second_moment_e2": 7.281669610185036,
+            "second_moment_ratio": 0.9993648163959711
+          }
+        },
+        "repeats": 64,
+        "sufficient_statistics": {
+          "shot": -1030.496157779403,
+          "shot_square": 1932830.9983913582,
+          "read": 1316.9731830269473,
+          "read_square": 2357959.163411951,
+          "joint": 286.4770252475449,
+          "joint_square": 4292175.443876132
+        },
+        "block_size": 8,
+        "sample_count": 589824,
+        "z_tolerance": 8.0,
+        "interpretation": "按已知像元均值的残差二阶矩；shot比值检验泊松Fano，不能对结构化图像的原始像素直接计算Fano",
+        "theory": "Var(eps)=mu+sigma²；Var(eps²)=mu+2*(mu+sigma²)²。标准化门槛是大样本标准误筛查，非确定性百分比容差。"
+      },
+      "mean_total_e": 30243.867127465302,
+      "negative_readout_pixels": 3261
+    },
+    {
+      "identity": "nearest_depth_coincident_points_G_100000",
+      "device": "nearest_depth",
+      "scene": "coincident_points",
+      "gain_e_per_relative_power": 100000.0,
+      "direct_relative_error": 3.00594293993669e-16,
+      "roundoff_repair": {
+        "relative_tolerance": 1e-12,
+        "absolute_tolerance": 1.5723224574787587e-09,
+        "negative_count": 0,
+        "minimum_raw": 0.11210498582227615,
+        "added_electrons": 0.0
+      },
+      "statistics": {
+        "passed": true,
+        "checks": {
+          "shot_mean": {
+            "z": -0.7637050518648175,
+            "passed": true
+          },
+          "shot_second_moment": {
+            "z": 0.0005423214082914962,
+            "passed": true
+          },
+          "read_mean": {
+            "z": 0.24106417702721758,
+            "passed": true
+          },
+          "read_second_moment": {
+            "z": -0.3078617275956602,
+            "passed": true
+          },
+          "joint_mean": {
+            "z": -0.6415671176810894,
+            "passed": true
+          },
+          "joint_second_moment": {
+            "z": -0.056587100087344015,
+            "passed": true
+          }
+        },
+        "metrics": {
+          "shot": {
+            "residual_mean_e": -0.005696549441518094,
+            "observed_second_moment_e2": 32.81681902076472,
+            "expected_second_moment_e2": 32.816696101850376,
+            "second_moment_ratio": 1.0000037456212523
+          },
+          "read": {
+            "residual_mean_e": 0.0006277712943417124,
+            "observed_second_moment_e2": 3.9977323842161385,
+            "expected_second_moment_e2": 4.0,
+            "second_moment_ratio": 0.9994330960540346
+          },
+          "joint": {
+            "residual_mean_e": -0.005068778147176379,
+            "observed_second_moment_e2": 36.80375308906915,
+            "expected_second_moment_e2": 36.816696101850376,
+            "second_moment_ratio": 0.9996484471951143
+          }
+        },
+        "repeats": 64,
+        "sufficient_statistics": {
+          "shot": -3359.9615777939684,
+          "shot_square": 19356147.46210353,
+          "read": 370.2745759138062,
+          "read_square": 2357958.5057878997,
+          "joint": -2989.6870018801606,
+          "joint_square": 21707736.86200712
+        },
+        "block_size": 8,
+        "sample_count": 589824,
+        "z_tolerance": 8.0,
+        "interpretation": "按已知像元均值的残差二阶矩；shot比值检验泊松Fano，不能对结构化图像的原始像素直接计算Fano",
+        "theory": "Var(eps)=mu+sigma²；Var(eps²)=mu+2*(mu+sigma²)²。标准化门槛是大样本标准误筛查，非确定性百分比容差。"
+      },
+      "mean_total_e": 302438.67127465305,
+      "negative_readout_pixels": 1155
+    },
+    {
+      "identity": "nearest_depth_separated_points_G_1000",
+      "device": "nearest_depth",
+      "scene": "separated_points",
+      "gain_e_per_relative_power": 1000.0,
+      "direct_relative_error": 3.4283827241951827e-16,
+      "roundoff_repair": {
+        "relative_tolerance": 1e-12,
+        "absolute_tolerance": 1.0959023735088511e-11,
+        "negative_count": 57,
+        "minimum_raw": -2.9094257735680407e-16,
+        "added_electrons": 5.925355447354474e-15
+      },
+      "statistics": {
+        "passed": true,
+        "checks": {
+          "shot_mean": {
+            "z": -0.2584898563854159,
+            "passed": true
+          },
+          "shot_second_moment": {
+            "z": -1.5644555774984616,
+            "passed": true
+          },
+          "read_mean": {
+            "z": -0.3919671670203663,
+            "passed": true
+          },
+          "read_second_moment": {
+            "z": -0.7217950884575105,
+            "passed": true
+          },
+          "joint_mean": {
+            "z": -0.4477263188483153,
+            "passed": true
+          },
+          "joint_second_moment": {
+            "z": -1.6565544404860884,
+            "passed": true
+          }
+        },
+        "metrics": {
+          "shot": {
+            "residual_mean_e": -0.00019144110480441491,
+            "observed_second_moment_e2": 0.3204446481668536,
+            "expected_second_moment_e2": 0.3235234859181725,
+            "second_moment_ratio": 0.9904834180968932
+          },
+          "read": {
+            "residual_mean_e": -0.001020747830782204,
+            "observed_second_moment_e2": 3.994683477065881,
+            "expected_second_moment_e2": 4.0,
+            "second_moment_ratio": 0.9986708692664702
+          },
+          "joint": {
+            "residual_mean_e": -0.001212188935586619,
+            "observed_second_moment_e2": 4.309973862415753,
+            "expected_second_moment_e2": 4.323523485918172,
+            "second_moment_ratio": 0.996866069180253
+          }
+        },
+        "repeats": 64,
+        "sufficient_statistics": {
+          "shot": -112.91655820015922,
+          "shot_square": 189005.94416036626,
+          "read": -602.0615685432826,
+          "read_square": 2356160.187176906,
+          "joint": -714.9781267434419,
+          "joint_square": 2542126.023425509
+        },
+        "block_size": 8,
+        "sample_count": 589824,
+        "z_tolerance": 8.0,
+        "interpretation": "按已知像元均值的残差二阶矩；shot比值检验泊松Fano，不能对结构化图像的原始像素直接计算Fano",
+        "theory": "Var(eps)=mu+sigma²；Var(eps²)=mu+2*(mu+sigma²)²。标准化门槛是大样本标准误筛查，非确定性百分比容差。"
+      },
+      "mean_total_e": 2981.5924462218777,
+      "negative_readout_pixels": 4268
+    },
+    {
+      "identity": "nearest_depth_separated_points_G_10000",
+      "device": "nearest_depth",
+      "scene": "separated_points",
+      "gain_e_per_relative_power": 10000.0,
+      "direct_relative_error": 3.4283827241951827e-16,
+      "roundoff_repair": {
+        "relative_tolerance": 1e-12,
+        "absolute_tolerance": 1.095902373508851e-10,
+        "negative_count": 57,
+        "minimum_raw": -2.909425773568041e-15,
+        "added_electrons": 5.925355447354475e-14
+      },
+      "statistics": {
+        "passed": true,
+        "checks": {
+          "shot_mean": {
+            "z": -2.3434235366664504,
+            "passed": true
+          },
+          "shot_second_moment": {
+            "z": -0.8019808538928054,
+            "passed": true
+          },
+          "read_mean": {
+            "z": 3.0662551099089206,
+            "passed": true
+          },
+          "read_second_moment": {
+            "z": -1.1089027584699676,
+            "passed": true
+          },
+          "joint_mean": {
+            "z": 0.7128496292857144,
+            "passed": true
+          },
+          "joint_second_moment": {
+            "z": -1.00066281477502,
+            "passed": true
+          }
+        },
+        "metrics": {
+          "shot": {
+            "residual_mean_e": -0.005488358530683041,
+            "observed_second_moment_e2": 3.220492062132263,
+            "expected_second_moment_e2": 3.2352348591817246,
+            "second_moment_ratio": 0.9954430519912268
+          },
+          "read": {
+            "residual_mean_e": 0.007985039348721147,
+            "observed_second_moment_e2": 3.9918321597896815,
+            "expected_second_moment_e2": 4.0,
+            "second_moment_ratio": 0.9979580399474204
+          },
+          "joint": {
+            "residual_mean_e": 0.0024966808180381045,
+            "observed_second_moment_e2": 7.2133126058802315,
+            "expected_second_moment_e2": 7.235234859181724,
+            "second_moment_ratio": 0.9969700702564378
+          }
+        },
+        "repeats": 64,
+        "sufficient_statistics": {
+          "shot": -3237.165582001594,
+          "shot_square": 1899523.5100550998,
+          "read": 4709.767848820102,
+          "read_square": 2354478.411815789,
+          "joint": 1472.602266818507,
+          "joint_square": 4254584.894450702
+        },
+        "block_size": 8,
+        "sample_count": 589824,
+        "z_tolerance": 8.0,
+        "interpretation": "按已知像元均值的残差二阶矩；shot比值检验泊松Fano，不能对结构化图像的原始像素直接计算Fano",
+        "theory": "Var(eps)=mu+sigma²；Var(eps²)=mu+2*(mu+sigma²)²。标准化门槛是大样本标准误筛查，非确定性百分比容差。"
+      },
+      "mean_total_e": 29815.924462218773,
+      "negative_readout_pixels": 2994
+    },
+    {
+      "identity": "nearest_depth_separated_points_G_100000",
+      "device": "nearest_depth",
+      "scene": "separated_points",
+      "gain_e_per_relative_power": 100000.0,
+      "direct_relative_error": 3.4283827241951827e-16,
+      "roundoff_repair": {
+        "relative_tolerance": 1e-12,
+        "absolute_tolerance": 1.095902373508851e-09,
+        "negative_count": 57,
+        "minimum_raw": -2.909425773568041e-14,
+        "added_electrons": 5.925355447354475e-13
+      },
+      "statistics": {
+        "passed": true,
+        "checks": {
+          "shot_mean": {
+            "z": 1.3012664698163658,
+            "passed": true
+          },
+          "shot_second_moment": {
+            "z": -0.003944871323583186,
+            "passed": true
+          },
+          "read_mean": {
+            "z": -0.22190839768624757,
+            "passed": true
+          },
+          "read_second_moment": {
+            "z": -1.1318301514678517,
+            "passed": true
+          },
+          "joint_mean": {
+            "z": 1.1539786607585543,
+            "passed": true
+          },
+          "joint_second_moment": {
+            "z": 0.10431954929892229,
+            "passed": true
+          }
+        },
+        "metrics": {
+          "shot": {
+            "residual_mean_e": 0.009637356533447364,
+            "observed_second_moment_e2": 32.35162872323512,
+            "expected_second_moment_e2": 32.35234859181725,
+            "second_moment_ratio": 0.9999777491089996
+          },
+          "read": {
+            "residual_mean_e": -0.0005778864523079363,
+            "observed_second_moment_e2": 3.991663283591101,
+            "expected_second_moment_e2": 4.0,
+            "second_moment_ratio": 0.9979158208977752
+          },
+          "joint": {
+            "residual_mean_e": 0.009059470081139434,
+            "observed_second_moment_e2": 36.37164956931107,
+            "expected_second_moment_e2": 36.35234859181725,
+            "second_moment_ratio": 1.0005309416926687
+          }
+        },
+        "repeats": 64,
+        "sufficient_statistics": {
+          "shot": 5684.344179984058,
+          "shot_square": 19081767.060053434,
+          "read": -340.85129884607625,
+          "read_square": 2354378.8045808375,
+          "joint": 5343.492881137985,
+          "joint_square": 21452871.83556933
+        },
+        "block_size": 8,
+        "sample_count": 589824,
+        "z_tolerance": 8.0,
+        "interpretation": "按已知像元均值的残差二阶矩；shot比值检验泊松Fano，不能对结构化图像的原始像素直接计算Fano",
+        "theory": "Var(eps)=mu+sigma²；Var(eps²)=mu+2*(mu+sigma²)²。标准化门槛是大样本标准误筛查，非确定性百分比容差。"
+      },
+      "mean_total_e": 298159.24462218775,
+      "negative_readout_pixels": 1081
+    },
+    {
+      "identity": "nearest_depth_lines_and_square_G_1000",
+      "device": "nearest_depth",
+      "scene": "lines_and_square",
+      "gain_e_per_relative_power": 1000.0,
+      "direct_relative_error": 3.5391694099830037e-16,
+      "roundoff_repair": {
+        "relative_tolerance": 1e-12,
+        "absolute_tolerance": 2.637147382486643e-10,
+        "negative_count": 0,
+        "minimum_raw": 0.14345453859515003,
+        "added_electrons": 0.0
+      },
+      "statistics": {
+        "passed": true,
+        "checks": {
+          "shot_mean": {
+            "z": 0.4440973140269778,
+            "passed": true
+          },
+          "shot_second_moment": {
+            "z": 0.20546477298479807,
+            "passed": true
+          },
+          "read_mean": {
+            "z": 0.07258121686651786,
+            "passed": true
+          },
+          "read_second_moment": {
+            "z": 0.698210963386284,
+            "passed": true
+          },
+          "joint_mean": {
+            "z": 0.42867270233676963,
+            "passed": true
+          },
+          "joint_second_moment": {
+            "z": 0.008967038452238545,
+            "passed": true
+          }
+        },
+        "metrics": {
+          "shot": {
+            "residual_mean_e": 0.002270910379870337,
+            "observed_second_moment_e2": 15.437977461632057,
+            "expected_second_moment_e2": 15.422903378899642,
+            "second_moment_ratio": 1.000977382945486
+          },
+          "read": {
+            "residual_mean_e": 0.00018901358558989027,
+            "observed_second_moment_e2": 4.005142809446971,
+            "expected_second_moment_e2": 4.0,
+            "second_moment_ratio": 1.0012857023617427
+          },
+          "joint": {
+            "residual_mean_e": 0.002459923965460228,
+            "observed_second_moment_e2": 19.423589528089245,
+            "expected_second_moment_e2": 19.422903378899644,
+            "second_moment_ratio": 1.0000353268085733
+          }
+        },
+        "repeats": 64,
+        "sufficient_statistics": {
+          "shot": 1339.4374438966418,
+          "shot_square": 9105689.618329667,
+          "read": 111.48474910697144,
+          "read_square": 2362329.3524392503,
+          "joint": 1450.9221930036135,
+          "joint_square": 11456499.269815711
+        },
+        "block_size": 8,
+        "sample_count": 589824,
+        "z_tolerance": 8.0,
+        "interpretation": "按已知像元均值的残差二阶矩；shot比值检验泊松Fano，不能对结构化图像的原始像素直接计算Fano",
+        "theory": "Var(eps)=mu+sigma²；Var(eps²)=mu+2*(mu+sigma²)²。标准化门槛是大样本标准误筛查，非确定性百分比容差。"
+      },
+      "mean_total_e": 142137.4775399391,
+      "negative_readout_pixels": 1477
+    },
+    {
+      "identity": "nearest_depth_lines_and_square_G_10000",
+      "device": "nearest_depth",
+      "scene": "lines_and_square",
+      "gain_e_per_relative_power": 10000.0,
+      "direct_relative_error": 3.5391694099830037e-16,
+      "roundoff_repair": {
+        "relative_tolerance": 1e-12,
+        "absolute_tolerance": 2.6371473824866423e-09,
+        "negative_count": 0,
+        "minimum_raw": 1.4345453859515003,
+        "added_electrons": 0.0
+      },
+      "statistics": {
+        "passed": true,
+        "checks": {
+          "shot_mean": {
+            "z": -1.1713106230766988,
+            "passed": true
+          },
+          "shot_second_moment": {
+            "z": -0.4011992035406011,
+            "passed": true
+          },
+          "read_mean": {
+            "z": -0.3854068038264848,
+            "passed": true
+          },
+          "read_second_moment": {
+            "z": -1.4876136713864352,
+            "passed": true
+          },
+          "joint_mean": {
+            "z": -1.2176888377417643,
+            "passed": true
+          },
+          "joint_second_moment": {
+            "z": -0.43432814573102685,
+            "passed": true
+          }
+        },
+        "metrics": {
+          "shot": {
+            "residual_mean_e": -0.018940608657893893,
+            "observed_second_moment_e2": 153.93533504233375,
+            "expected_second_moment_e2": 154.22903378899642,
+            "second_moment_ratio": 0.9980956974218972
+          },
+          "read": {
+            "residual_mean_e": -0.0010036635516314707,
+            "observed_second_moment_e2": 3.9890426904705922,
+            "expected_second_moment_e2": 4.0,
+            "second_moment_ratio": 0.9972606726176481
+          },
+          "joint": {
+            "residual_mean_e": -0.019944272209525358,
+            "observed_second_moment_e2": 157.90982820164393,
+            "expected_second_moment_e2": 158.22903378899642,
+            "second_moment_ratio": 0.9979826358051446
+          }
+        },
+        "repeats": 64,
+        "sufficient_statistics": {
+          "shot": -11171.625561033608,
+          "shot_square": 90794755.05600946,
+          "read": -591.9848506774806,
+          "read_square": 2352833.1158641265,
+          "joint": -11763.610411711084,
+          "joint_square": 93139006.50920643
+        },
+        "block_size": 8,
+        "sample_count": 589824,
+        "z_tolerance": 8.0,
+        "interpretation": "按已知像元均值的残差二阶矩；shot比值检验泊松Fano，不能对结构化图像的原始像素直接计算Fano",
+        "theory": "Var(eps)=mu+sigma²；Var(eps²)=mu+2*(mu+sigma²)²。标准化门槛是大样本标准误筛查，非确定性百分比容差。"
+      },
+      "mean_total_e": 1421374.775399391,
+      "negative_readout_pixels": 29
+    },
+    {
+      "identity": "nearest_depth_lines_and_square_G_100000",
+      "device": "nearest_depth",
+      "scene": "lines_and_square",
+      "gain_e_per_relative_power": 100000.0,
+      "direct_relative_error": 3.5391694099830037e-16,
+      "roundoff_repair": {
+        "relative_tolerance": 1e-12,
+        "absolute_tolerance": 2.6371473824866426e-08,
+        "negative_count": 0,
+        "minimum_raw": 14.345453859515004,
+        "added_electrons": 0.0
+      },
+      "statistics": {
+        "passed": true,
+        "checks": {
+          "shot_mean": {
+            "z": -1.0670190937997608,
+            "passed": true
+          },
+          "shot_second_moment": {
+            "z": 0.20698584836078152,
+            "passed": true
+          },
+          "read_mean": {
+            "z": -0.4927178044565715,
+            "passed": true
+          },
+          "read_second_moment": {
+            "z": -0.09396900584474649,
+            "passed": true
+          },
+          "joint_mean": {
+            "z": -1.0906981942544542,
+            "passed": true
+          },
+          "joint_second_moment": {
+            "z": 0.19075829027586172,
+            "passed": true
+          }
+        },
+        "metrics": {
+          "shot": {
+            "residual_mean_e": -0.0545624722126223,
+            "observed_second_moment_e2": 1543.8052495417917,
+            "expected_second_moment_e2": 1542.2903378899643,
+            "second_moment_ratio": 1.0009822480337263
+          },
+          "read": {
+            "residual_mean_e": -0.0012831192824389883,
+            "observed_second_moment_e2": 3.9993078529036024,
+            "expected_second_moment_e2": 4.0,
+            "second_moment_ratio": 0.9998269632259006
+          },
+          "joint": {
+            "residual_mean_e": -0.055845591495061284,
+            "observed_second_moment_e2": 1547.6870272561753,
+            "expected_second_moment_e2": 1546.2903378899643,
+            "second_moment_ratio": 1.0009032516934153
+          }
+        },
+        "repeats": 64,
+        "sufficient_statistics": {
+          "shot": -32182.255610337736,
+          "shot_square": 910573387.5057378,
+          "read": -756.8145476452938,
+          "read_square": 2358887.7550310143,
+          "joint": -32939.07015798303,
+          "joint_square": 912862953.1643463
+        },
+        "block_size": 8,
+        "sample_count": 589824,
+        "z_tolerance": 8.0,
+        "interpretation": "按已知像元均值的残差二阶矩；shot比值检验泊松Fano，不能对结构化图像的原始像素直接计算Fano",
+        "theory": "Var(eps)=mu+sigma²；Var(eps²)=mu+2*(mu+sigma²)²。标准化门槛是大样本标准误筛查，非确定性百分比容差。"
+      },
+      "mean_total_e": 14213747.753993912,
+      "negative_readout_pixels": 0
+    }
+  ],
+  "controls": {
+    "zero": {
+      "passed": true,
+      "checks": {
+        "shot_mean": {
+          "z": 0.0,
+          "passed": true
+        },
+        "shot_second_moment": {
+          "z": 0.0,
+          "passed": true
+        },
+        "read_mean": {
+          "z": 0.0,
+          "passed": true
+        },
+        "read_second_moment": {
+          "z": 0.0,
+          "passed": true
+        },
+        "joint_mean": {
+          "z": 0.0,
+          "passed": true
+        },
+        "joint_second_moment": {
+          "z": 0.0,
+          "passed": true
+        }
+      },
+      "metrics": {
+        "shot": {
+          "residual_mean_e": 0.0,
+          "observed_second_moment_e2": 0.0,
+          "expected_second_moment_e2": 0.0,
+          "second_moment_ratio": null
+        },
+        "read": {
+          "residual_mean_e": 0.0,
+          "observed_second_moment_e2": 0.0,
+          "expected_second_moment_e2": 0.0,
+          "second_moment_ratio": null
+        },
+        "joint": {
+          "residual_mean_e": 0.0,
+          "observed_second_moment_e2": 0.0,
+          "expected_second_moment_e2": 0.0,
+          "second_moment_ratio": null
+        }
+      },
+      "repeats": 64,
+      "sufficient_statistics": {
+        "shot": 0.0,
+        "shot_square": 0.0,
+        "read": 0.0,
+        "read_square": 0.0,
+        "joint": 0.0,
+        "joint_square": 0.0
+      },
+      "block_size": 8,
+      "sample_count": 65536,
+      "z_tolerance": 8.0,
+      "interpretation": "按已知像元均值的残差二阶矩；shot比值检验泊松Fano，不能对结构化图像的原始像素直接计算Fano",
+      "theory": "Var(eps)=mu+sigma²；Var(eps²)=mu+2*(mu+sigma²)²。标准化门槛是大样本标准误筛查，非确定性百分比容差。"
+    },
+    "read_only": {
+      "passed": true,
+      "checks": {
+        "shot_mean": {
+          "z": 0.0,
+          "passed": true
+        },
+        "shot_second_moment": {
+          "z": 0.0,
+          "passed": true
+        },
+        "read_mean": {
+          "z": -1.1169706240367205,
+          "passed": true
+        },
+        "read_second_moment": {
+          "z": -1.6683014486312724,
+          "passed": true
+        },
+        "joint_mean": {
+          "z": -1.1169706240367205,
+          "passed": true
+        },
+        "joint_second_moment": {
+          "z": -1.6683014486312724,
+          "passed": true
+        }
+      },
+      "metrics": {
+        "shot": {
+          "residual_mean_e": 0.0,
+          "observed_second_moment_e2": 0.0,
+          "expected_second_moment_e2": 0.0,
+          "second_moment_ratio": null
+        },
+        "read": {
+          "residual_mean_e": -0.00872633300028688,
+          "observed_second_moment_e2": 3.9631353978940465,
+          "expected_second_moment_e2": 4.0,
+          "second_moment_ratio": 0.9907838494735116
+        },
+        "joint": {
+          "residual_mean_e": -0.00872633300028688,
+          "observed_second_moment_e2": 3.9631353978940465,
+          "expected_second_moment_e2": 4.0,
+          "second_moment_ratio": 0.9907838494735116
+        }
+      },
+      "repeats": 64,
+      "sufficient_statistics": {
+        "shot": 0.0,
+        "shot_square": 0.0,
+        "read": -571.8889595068009,
+        "read_square": 259728.04143638423,
+        "joint": -571.8889595068009,
+        "joint_square": 259728.04143638423
+      },
+      "block_size": 8,
+      "sample_count": 65536,
+      "z_tolerance": 8.0,
+      "interpretation": "按已知像元均值的残差二阶矩；shot比值检验泊松Fano，不能对结构化图像的原始像素直接计算Fano",
+      "theory": "Var(eps)=mu+sigma²；Var(eps²)=mu+2*(mu+sigma²)²。标准化门槛是大样本标准误筛查，非确定性百分比容差。"
+    },
+    "shot_only": {
+      "passed": true,
+      "checks": {
+        "shot_mean": {
+          "z": -0.5940228003819561,
+          "passed": true
+        },
+        "shot_second_moment": {
+          "z": -1.3732059626950206,
+          "passed": true
+        },
+        "read_mean": {
+          "z": 0.0,
+          "passed": true
+        },
+        "read_second_moment": {
+          "z": 0.0,
+          "passed": true
+        },
+        "joint_mean": {
+          "z": -0.5940228003819561,
+          "passed": true
+        },
+        "joint_second_moment": {
+          "z": -1.3732059626950206,
+          "passed": true
+        }
+      },
+      "metrics": {
+        "shot": {
+          "residual_mean_e": -0.0095672607421875,
+          "observed_second_moment_e2": 16.869155883789062,
+          "expected_second_moment_e2": 17.0,
+          "second_moment_ratio": 0.9923032872817096
+        },
+        "read": {
+          "residual_mean_e": 0.0,
+          "observed_second_moment_e2": 0.0,
+          "expected_second_moment_e2": 0.0,
+          "second_moment_ratio": null
+        },
+        "joint": {
+          "residual_mean_e": -0.0095672607421875,
+          "observed_second_moment_e2": 16.869155883789062,
+          "expected_second_moment_e2": 17.0,
+          "second_moment_ratio": 0.9923032872817096
+        }
+      },
+      "repeats": 64,
+      "sufficient_statistics": {
+        "shot": -627.0,
+        "shot_square": 1105537.0,
+        "read": 0.0,
+        "read_square": 0.0,
+        "joint": -627.0,
+        "joint_square": 1105537.0
+      },
+      "block_size": 8,
+      "sample_count": 65536,
+      "z_tolerance": 8.0,
+      "interpretation": "按已知像元均值的残差二阶矩；shot比值检验泊松Fano，不能对结构化图像的原始像素直接计算Fano",
+      "theory": "Var(eps)=mu+sigma²；Var(eps²)=mu+2*(mu+sigma²)²。标准化门槛是大样本标准误筛查，非确定性百分比容差。"
+    }
+  },
+  "environment": {
+    "timestamp_local": "2026-10-04T09:47:30",
+    "python_version": "3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)]",
+    "python_executable": "D:\\dev\\python\\python3.10.4\\python.exe",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "platform_machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "os_cpu_count": 20,
+    "cwd_at_invocation": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+    "project_root_resolved": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+    "argv": [
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main_stage02f1.py"
+    ],
+    "numpy_version": "2.2.6",
+    "scipy_version": "1.15.3",
+    "matplotlib_version": "3.10.9",
+    "pytest_version": null,
+    "pytest_import_error": "ModuleNotFoundError: No module named 'pytest'"
+  },
+  "elapsed_s": 13.334022700000787,
+  "config": {
+    "source_run": "results/stage02e4/run_20261002_233752",
+    "devices": [
+      "continuous",
+      "nearest_depth"
+    ],
+    "scenes": [
+      "coincident_points",
+      "separated_points",
+      "lines_and_square"
+    ],
+    "detector": {
+      "reference_wavelength_m": 5.4e-07,
+      "quantum_efficiency": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "gains_e_per_relative_power": [
+        1000.0,
+        10000.0,
+        100000.0
+      ],
+      "read_sigma_e": 2.0,
+      "background_e": 0.0
+    },
+    "statistics": {
+      "repeats": 64,
+      "block_size": 8,
+      "z_tolerance": 8.0
+    },
+    "seed": 2019,
+    "roundoff_relative": 1e-12,
+    "direct_relative_tolerance": 1e-12,
+    "budget_seconds": 180.0,
+    "runtime": {
+      "save_results": true,
+      "show_plots": false
+    },
+    "plots": {
+      "dpi": 150
+    }
+  },
+  "runtime": {
+    "save_results": true,
+    "show_plots": false
+  },
+  "backend": {
+    "backend": "Agg",
+    "available": false,
+    "reason": "未请求显示"
+  },
+  "source_unchanged": true,
+  "scope": "Jeon光学编码复现＋合成电子数测量验证；没有噪声重建",
+  "assumptions": [
+    "G、QE、读出标准差、背景均为预先设定的合成假设，不是论文相机标定。",
+    "固定DOE与有限窗口核保持通光效率；不重新归一化核，不再乘像元面积。",
+    "相对波段积分功率经QE与lambda因子换算电子数；无ADC/满阱/暗电流漂移。",
+    "读出后负值保留；仅泊松均值的FFT微负舍入记录并修正。",
+    "论文旋转方向对应、真实GUI/PyCharm手动点击尚未验证。"
+  ]
+}

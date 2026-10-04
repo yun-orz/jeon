@@ -1,0 +1,2 @@
+﻿iteration,data_term,regularization_term,objective,residual_norm,residual_relative,L,backtracks,restarted,restarts_total,momentum,extrapolated_negative_count,projected_gradient_relative,objective_relative_change,elapsed_s
+1,0.0024911668490364665,4.139795962609239e-07,0.0024915808286327273,0.07058564796099086,0.5834772055985683,1.053496836325091,0,False,0,0.0,0,0.2420742091707509,0.6594977756319768,0.006346699999994598

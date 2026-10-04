@@ -1,0 +1,35 @@
+2026-10-02 22:25:49 [INFO] continuous_coincident_points_crop：converged，581轮，数据残差0.04726，cube误差0.8649，投影梯度3.257e-06
+2026-10-02 22:25:53 [INFO] continuous_separated_points_crop：converged，679轮，数据残差0.08913，cube误差0.6255，投影梯度9.964e-06
+2026-10-02 22:25:58 [INFO] continuous_lines_and_square_crop：converged，765轮，数据残差0.009884，cube误差0.3696，投影梯度1.073e-06
+2026-10-02 22:26:03 [INFO] continuous_lines_and_square_full：converged，765轮，数据残差0.009884，cube误差0.3695，投影梯度1.085e-06
+2026-10-02 22:26:06 [INFO] nearest_depth_coincident_points_crop：converged，577轮，数据残差0.04725，cube误差0.865，投影梯度4.262e-06
+2026-10-02 22:26:11 [INFO] nearest_depth_separated_points_crop：converged，677轮，数据残差0.0891，cube误差0.6257，投影梯度1e-05
+2026-10-02 22:26:15 [INFO] nearest_depth_lines_and_square_crop：converged，769轮，数据残差0.009855，cube误差0.3702，投影梯度1.037e-06
+2026-10-02 22:26:20 [INFO] nearest_depth_lines_and_square_full：converged，769轮，数据残差0.009855，cube误差0.3701，投影梯度1.027e-06
+
+Traceback (most recent call last):
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02d3.py", line 208, in <module>
+    if __name__=='__main__':raise SystemExit(main())
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02d3.py", line 204, in main
+    r=run(c,args.no_save,args.show_plots)
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02d3.py", line 186, in run
+    write_json(dest/'metrics'/'validation.json',report)
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02d3.py", line 25, in write_json
+    path.write_text(json.dumps(value,ensure_ascii=False,indent=2,allow_nan=False),encoding='utf-8')
+  File "D:\dev\python\python3.10.4\lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "D:\dev\python\python3.10.4\lib\json\encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "D:\dev\python\python3.10.4\lib\json\encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "D:\dev\python\python3.10.4\lib\json\encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "D:\dev\python\python3.10.4\lib\json\encoder.py", line 325, in _iterencode_list
+    yield from chunks
+  File "D:\dev\python\python3.10.4\lib\json\encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "D:\dev\python\python3.10.4\lib\json\encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "D:\dev\python\python3.10.4\lib\json\encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bool is not JSON serializable

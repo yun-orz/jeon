@@ -1,0 +1,10 @@
+continuous_coincident_points_G_10000_unweighted_ideal_control: converged, 322轮, 基线=0.941988, 噪声扰动=0.0207755, 交叉项=0.00379734
+无保存模式：未写结果文件
+continuous_coincident_points_G_10000_unweighted_ideal_control: converged, 322轮, 基线=0.941988, 噪声扰动=0.0207755, 交叉项=0.00379734
+continuous_coincident_points_G_10000_unweighted_ideal_control: converged, 322轮, 基线=0.941988, 噪声扰动=0.0207755, 交叉项=0.00379734
+continuous_coincident_points_G_10000_unweighted_ideal_control: converged, 322轮, 基线=0.941988, 噪声扰动=0.0207755, 交叉项=0.00379734
+无保存模式：未写结果文件
+Traceback (most recent call last):
+  File "D:\PyCharmProjects\Jeon2019\outputs\执行_阶段02F3_1_20261004\失败路径验收.py", line 53, in <module>
+    assert report['status']=='incomplete' and not report['validation_passed'] and report['records'][0]['solver_status']=='iteration_limit';result['injected_iteration_limit_not_completed']=True
+AssertionError

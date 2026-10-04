@@ -1,0 +1,251 @@
+{
+  "created_local_time": "2026-10-01T20:19:49.097452+08:00",
+  "purpose": "只读核对当前基线并新增交接记录；本轮未执行阶段02A代码或传播仿真。",
+  "workspace_root": "D:\\PyCharmProjects\\Jeon2019",
+  "python_project_root": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+  "requested_executor": {
+    "application": "Antigravity",
+    "user_named_model": "Gemini3.8flash",
+    "connected_by_reviewer": false,
+    "model_version_verified_by_reviewer": false
+  },
+  "authorized_scope": "02A；完成后交原审核者检查，02B及以后未授权自动执行",
+  "environment_observed_at_handoff": {
+    "python_executable": "D:\\dev\\python\\python3.10.4\\python.exe",
+    "python_version": "3.10.4",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "packages": {
+      "numpy": "2.2.6",
+      "scipy": "1.15.3",
+      "matplotlib": "3.10.9"
+    }
+  },
+  "stage01_baseline": {
+    "acceptance_json_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage01\\run_20261001_173406\\acceptance_check.json",
+    "sha256": "f2f3318faac2130a75052133f112cf3cab1f74f9450dd4e6faa13b79c16751cb",
+    "check_count": 14,
+    "all_checks_pass": true,
+    "latest_test_records_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\测试入口修复_20261001_200838\\验证记录.json",
+    "latest_recorded_test_commands": [
+      {
+        "name": "包名加载单测试",
+        "command": [
+          "D:\\dev\\python\\python3.10.4\\python.exe",
+          "-B",
+          "-m",
+          "unittest",
+          "tests.test_validation_completion",
+          "-v"
+        ],
+        "cwd": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+        "exit_code": 0,
+        "elapsed_s": 0.945174099993892
+      },
+      {
+        "name": "项目外直接运行单文件",
+        "command": [
+          "D:\\dev\\python\\python3.10.4\\python.exe",
+          "-B",
+          "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\tests\\test_validation_completion.py"
+        ],
+        "cwd": "D:\\PyCharmProjects\\Jeon2019",
+        "exit_code": 0,
+        "elapsed_s": 0.9032137000467628
+      },
+      {
+        "name": "完整测试发现",
+        "command": [
+          "D:\\dev\\python\\python3.10.4\\python.exe",
+          "-B",
+          "-m",
+          "unittest",
+          "discover",
+          "-s",
+          "tests",
+          "-v"
+        ],
+        "cwd": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+        "exit_code": 0,
+        "elapsed_s": 17.7533922001021
+      }
+    ],
+    "test_log_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\测试入口修复_20261001_200838\\完整测试发现.log",
+    "test_log_sha256": "4caec55dc3d7c1f93677bd0145967d60fca9749efe5569de49867117b5f6a0a3",
+    "recorded_test_count": 50,
+    "tests_rerun_this_handoff": false,
+    "gui_manually_verified": false
+  },
+  "papers": [
+    {
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\work\\papers\\main.pdf",
+      "size_bytes": 13269896,
+      "sha256": "493f49f1a998dd51a60757f8b121bd55b03fcfcb692d8828cc08f0c7d718bdcc"
+    },
+    {
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\work\\papers\\supplement.pdf",
+      "size_bytes": 59342087,
+      "sha256": "638d42815b92be6fa101dfd144f0f290abd61e8ec18346194f4dc223ceeb5bb9"
+    }
+  ],
+  "current_source_file_count": 23,
+  "current_source_fingerprints": [
+    {
+      "project_relative_path": "config.json",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\config.json",
+      "size_bytes": 6835,
+      "sha256": "05ceb9aa2f8c86b49af051fb0e1ea50c582ffe8a2c99283a95342d4d956adafe"
+    },
+    {
+      "project_relative_path": "docs\\assumptions.md",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\docs\\assumptions.md",
+      "size_bytes": 9909,
+      "sha256": "72c02d434ca6f3c2d213e0191bfde1e8c336d30ff4a401630e1cc6bf98b515d5"
+    },
+    {
+      "project_relative_path": "docs\\equations_and_parameters.md",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\docs\\equations_and_parameters.md",
+      "size_bytes": 19444,
+      "sha256": "1227f000fdebb4864f9cd6aff7b4bb9f41c02cc976e78aa962573d4dc1e36fed"
+    },
+    {
+      "project_relative_path": "docs\\reproduction_log.md",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\docs\\reproduction_log.md",
+      "size_bytes": 21525,
+      "sha256": "f57c44db246fec76b1d3de365bcda909d686cf60f3e893cbca4d8800b64d937a"
+    },
+    {
+      "project_relative_path": "docs\\revision_notes.md",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\docs\\revision_notes.md",
+      "size_bytes": 12086,
+      "sha256": "84f00abd4a31a4bf014d899b81feda446710e661dd4e45c068fa36d0ba4c4746"
+    },
+    {
+      "project_relative_path": "docs\\revision_round2.md",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\docs\\revision_round2.md",
+      "size_bytes": 25256,
+      "sha256": "e7ee40af868fc6a03867a67039dd4c81ee005e670bacce5f1a4b8f35e2cf7fcb"
+    },
+    {
+      "project_relative_path": "docs\\source_manifest.json",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\docs\\source_manifest.json",
+      "size_bytes": 6089,
+      "sha256": "f6c64572ba371bed7643cbd7d18b10e4487b5293ee6a3fc03051c86a7434796a"
+    },
+    {
+      "project_relative_path": "docs\\stage01_completed.md",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\docs\\stage01_completed.md",
+      "size_bytes": 10266,
+      "sha256": "4339bbc224268a83333b5c29c5f05bbc9496534d08cb28957860963cf41e6dab"
+    },
+    {
+      "project_relative_path": "docs\\verify_config_switches.py",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\docs\\verify_config_switches.py",
+      "size_bytes": 9319,
+      "sha256": "7c9bbea76b502c2d7a66126fa4db860e61b7935ab6365a88f740787498507a91"
+    },
+    {
+      "project_relative_path": "main.py",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main.py",
+      "size_bytes": 104210,
+      "sha256": "63fbdfae7372bfb01ac21a2afe156ce9f95efeedd1f88479474acc2791790cd7"
+    },
+    {
+      "project_relative_path": "optics\\__init__.py",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\optics\\__init__.py",
+      "size_bytes": 852,
+      "sha256": "12f8bb8fc42fc39fa60b0e46b861b8bb0d8d18cca6b114d671db4c67ab891472"
+    },
+    {
+      "project_relative_path": "optics\\coordinates.py",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\optics\\coordinates.py",
+      "size_bytes": 9307,
+      "sha256": "c0b3db54d901e7960a537cf5dd42cfae6083a35d20622f40ded3015421c9c707"
+    },
+    {
+      "project_relative_path": "optics\\metrics.py",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\optics\\metrics.py",
+      "size_bytes": 16964,
+      "sha256": "8b10ee395a70384041ff2011389908899eabb0f3b03fe2aa559f6f13c560a2fc"
+    },
+    {
+      "project_relative_path": "optics\\propagation.py",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\optics\\propagation.py",
+      "size_bytes": 32770,
+      "sha256": "20078bcaf95c53e9073d909a04cc70c7a265c11cb4517f7b4b298a5ee71460ca"
+    },
+    {
+      "project_relative_path": "optics\\runutil.py",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\optics\\runutil.py",
+      "size_bytes": 5053,
+      "sha256": "a031e73b80d093b4ade35d8553e66db1eb26cc30b8505be5e11c8e9628db4b70"
+    },
+    {
+      "project_relative_path": "optics\\units.py",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\optics\\units.py",
+      "size_bytes": 1646,
+      "sha256": "31408e61a8972474e41c597486368c6a8e592540cb7dc0451fb247a746cdcfbb"
+    },
+    {
+      "project_relative_path": "optics\\validation.py",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\optics\\validation.py",
+      "size_bytes": 5509,
+      "sha256": "62c75277403096305dd5bb85744d1a8e7a34e8d6b5dabcd9f5f64c72359aacfb"
+    },
+    {
+      "project_relative_path": "README.md",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\README.md",
+      "size_bytes": 13493,
+      "sha256": "989233360ab7c36abd38b6565e22d8e2b5fde68074083b3c46e8d43fc6886b71"
+    },
+    {
+      "project_relative_path": "requirements.txt",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\requirements.txt",
+      "size_bytes": 497,
+      "sha256": "7b3dc0cb202ef1d10d0184124ca7ad01a0be056dbf5e8561065d2aa988c42f8f"
+    },
+    {
+      "project_relative_path": "tests\\__init__.py",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\tests\\__init__.py",
+      "size_bytes": 89,
+      "sha256": "8355ba42001a0866e808e2528534cbc5e0f2de37906a73603eebf16881e505a4"
+    },
+    {
+      "project_relative_path": "tests\\test_negative_paths.py",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\tests\\test_negative_paths.py",
+      "size_bytes": 11590,
+      "sha256": "624626246a939b505fd332cf36fefd9f63e16b4ba1840c405d7f17e840c1fd51"
+    },
+    {
+      "project_relative_path": "tests\\test_propagation.py",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\tests\\test_propagation.py",
+      "size_bytes": 34735,
+      "sha256": "5c1ffa284851b8eccb9bc6f0377aca88650c986d07ac8c41c26d8009a0b4b01c"
+    },
+    {
+      "project_relative_path": "tests\\test_validation_completion.py",
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\tests\\test_validation_completion.py",
+      "size_bytes": 5686,
+      "sha256": "3ebe1be43c8d055555aa6752f1081ed091f891c96cf50993ae5de38de763286a"
+    }
+  ],
+  "handoff_documents": [
+    {
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\Antigravity交接_阶段02_20261001\\00_交接总览与审核路线.md",
+      "sha256": "a15a6bb5e8dcf2aca96d247a544bf2caa2e8439e863698a7f7482055e325e031",
+      "line_count": 75
+    },
+    {
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\Antigravity交接_阶段02_20261001\\01_阶段02A_详细执行任务.md",
+      "sha256": "3df2b29ff1d6e36118a929cf3251a4519bc25e6f9a2a57c1a92927c0ee2bc91b",
+      "line_count": 305
+    },
+    {
+      "absolute_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\Antigravity交接_阶段02_20261001\\02_给Gemini的启动提示词.md",
+      "sha256": "677b82f5216fd7ec2c67886c7de14e9e194005dde0164d7775c2e0bcb9601dbb",
+      "line_count": 34
+    }
+  ],
+  "fingerprint_note": "当前指纹在最近测试导入修复之后计算；历史接手指纹不能替代本记录。结果目录/缓存/历史备份未纳入源码指纹。",
+  "source_of_stage02_material_model": "https://opg.optica.org/josa/abstract.cfm?URI=josa-55-10-1205",
+  "unimplemented_entry_target": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main_stage02.py"
+}

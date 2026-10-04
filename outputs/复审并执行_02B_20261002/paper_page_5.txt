@@ -1,0 +1,121 @@
+Compact Snapshot Hyperspectral Imaging with Diffracted Rotation
+•
+117:5
+matching is formed as
+λ (θ) =
+(
+λmin + (λmax −λmin) N
+2π θ
+0 ≤θ < 2π
+N
+λ
+
+θ −2π
+N
+
+θ ≥2π
+N
+,
+(10)
+which is a periodic function with the period 2π
+N and matches linearly
+onto the wavelength range of the visible spectrum from 420 nm to
+660 nm in each period. The number of periods N is called the number
+of wings since it actually produces a spiral-shaped PSF with N wings.
+Now we can write the entire height map ∆h (r,θ) with this angular
+wavelength matching λ (θ) as follows:
+∆h (r,θ) =
+nλ (θ) −
+p
+r2 + f 2 −f
+
+∆ηλ
+,
+(11)
+h (r,θ) = h (0, 0) + ∆h (r,θ) ,
+(12)
+whereh (0, 0) is set as the maximum height determined by the height
+resolution of DOE fabrication. Figure 2 shows our DOE height map
+designed with three wings (N = 3) and its spectrally-varying PSFs.
+The spiral shape of the period is symmetrical about the center of the
+120-degree rotation. We found that setting N = 3 in Equation (10)
+gives the best reconstruction accuracy.
+When the wavelength increases, the size of the PSF barely changes
+and its shape rotates clockwise about its center. These PSFs have a
+very clear spectral cue, diffracted rotation of the anisotropic shape.
+Also, the size consistency and anisotropy of the PSFs are expected
+to improve the accuracy of the reconstruction process. Figure 3
+compares a traditional Fresnel lens and our DOE with their PSFs
+with different wavelengths1. Refer to Section 7 for an evaluation in
+terms of spectral reconstruction.
+4.2
+Spectral Image Formation
+Our main objective is to capture hyperspectral images using a con-
+ventional RGB image sensor with our diffractive lens under natural
+incoherent illumination. Therefore, our image formation includes
+the camera response function through color filters, but the quantum-
+efficiency function for a monochromatic sensor can be used alter-
+natively. Suppose that we want to capture a hyperspectral image
+Iλ (x,y) from a captured RGB image on the sensor Jc (x,y) with a
+spectrally-varying point spread functionpλ(x,y) and that the sensor
+has the sensor spectral sensitivity function Ωc (λ) for each color
+channel c ∈{r,д,b}. The captured image Jc can be represented as
+Jc (x,y) =
+∭
+Ωc (λ) Iλ (µ,ν)pλ (x −µ,y −ν)dµdνdλ.
+(13)
+The spectral image formation model can be simply expressed as
+Jc (x,y) =
+∫
+Ωc (λ) (Iλ ∗pλ) (x,y)dλ,
+(14)
+where ∗is defined as the convolution operator.
+We can write the image formation model in a discrete vector-and-
+matrix form. Let I ∈RW HΛ×1 be the original hyperspectral image
+vector and J ∈RW H3×1 be the captured RGB image vector, where
+W , H, and Λ are the width, height, and the number of wavelength
+channels of a spectral image, respectively. We can represent the
+1We simulate PSFs using a reference simulation tool of diffraction, LightPipes (http:
+//www.okotech.com/lightpipes).
+Fig. 4. Overview of our network architecture that consists of unfolded L-
+time iterations as a chain of the subnetwork architecture that includes a
+prior network (Figure 5). We learn parameters in an end-to-end manner.
+Fig. 5. Network architecture of the prior network, based on U-net. Our
+network consists of the feature encoding and the decoding parts with skip-
+connections with soft-thresholding.
+sensor sensitivity Ωc (λ) and the convolution by the PSF pλ (x,y)
+as matrices Ω∈RW H3×W HΛ and P ∈RW HΛ×W HΛ, respectively.
+The measurement matrix Φ ∈RW H3×W HΛ is the product of Ω
+and P. We then represent the continuous image formation model in
+Equation (14) in a discrete matrix form:
+J = ΦI.
+(15)
+5
+SPECTRAL RECONSTRUCTION FROM DIFFRACTION
+Our spectral reconstruction problem is to solve a combined mixture
+of two subproblems: First, when capturing the input data, each spec-
+tral channel is convolved with its spectrally-varying point spread
+function. Therefore, a non-blind deconvolution needs to be con-
+sidered to reconstruct clear spectral channels. Second, the blurred
+spectral channels of the entire visible spectrum are also projected
+to three color channels of the image sensor (or one channel for
+a monochromatic sensor). The combination of these two inverse
+problems significantly increases the ill-posedness of spectral recon-
+struction. State-of-the-art spectral reconstruction methods take a
+data-driven approach [Choi et al. 2017; Lin et al. 2014] that mainly
+learns the prior information of natural spectral images and then
+formulates an optimization problem separately to reconstruct hy-
+perspectral images with a handcrafted prior. They are not fully
+end-to-end solutions and also require heavy computational costs for
+the optimization process. In this work, we devise a complete end-
+to-end reconstruction method based on the optimization procedure
+with a spatial-spectral prior to account for spectral deconvolution
+with the rotating PSF.
+5.1
+Optimization Problem
+Since W H3 ≪W HΛ in Equation (15), our hyperspectral image re-
+construction problem is a severely under-determined system. There
+could be many solutions that satisfy the input measurement. To
+reconstruct a hyperspectral image ˆI ∈RW HΛ×1, an objective func-
+tion of spectral reconstruction requires a prior of spectral images in
+ACM Trans. Graph., Vol. 38, No. 4, Article 117. Publication date: July 2019.

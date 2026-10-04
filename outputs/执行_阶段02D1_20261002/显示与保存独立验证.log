@@ -1,0 +1,10 @@
+{"status": "completed", "validation_passed": true, "run_dir": null, "elapsed_s": 3.983868399998755}
+禁止保存+显示生命周期通过；真实图窗未人工验证
+
+源run重验通过：三张固定高度、九组q8复场；源文件只读
+continuous/coincident_points：通量误差0，直接平移叠加误差3.24e-16，crop保留0.9991
+continuous/separated_points：通量误差0，直接平移叠加误差4.04e-16，crop保留0.9844
+continuous/lines_and_square：通量误差0，直接平移叠加误差4.89e-16，crop保留0.9940
+nearest_depth/coincident_points：通量误差0，直接平移叠加误差3.2e-16，crop保留0.9991
+nearest_depth/separated_points：通量误差1.42e-16，直接平移叠加误差4.02e-16，crop保留0.9844
+nearest_depth/lines_and_square：通量误差2.05e-16，直接平移叠加误差5.6e-16，crop保留0.9940

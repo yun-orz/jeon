@@ -1,0 +1,10 @@
+# Jeon2019 光学复现 —— 阶段 01 运行依赖
+# 版本为本机实际导入并运行验证过的版本（Python 3.10.4, 64 位, Windows 11）。
+# 光学主程序只依赖 NumPy / SciPy / Matplotlib；测试用标准库 unittest，无需额外依赖。
+numpy==2.2.6
+scipy==1.15.3
+matplotlib==3.10.9
+
+# 说明：本阶段未使用 pytest。若你的环境已装 pytest，也可以直接
+#   python -m pytest tests -v
+# 运行同一套测试（测试用 unittest 编写，两者兼容）。

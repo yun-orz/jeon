@@ -1,0 +1,33 @@
+{
+  "timestamp_local": "2026-10-01T19:59:08",
+  "python_version": "3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)]",
+  "python_executable": "D:\\dev\\python\\python3.10.4\\python.exe",
+  "python_implementation": "CPython",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "platform_machine": "AMD64",
+  "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+  "os_cpu_count": 20,
+  "cwd_at_invocation": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+  "project_root_resolved": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+  "argv": [
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main.py"
+  ],
+  "numpy_version": "2.2.6",
+  "scipy_version": "1.15.3",
+  "matplotlib_version": "3.10.9",
+  "pytest_version": null,
+  "pytest_import_error": "ModuleNotFoundError: No module named 'pytest'",
+  "config_path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\config.json",
+  "stage": "stage01",
+  "run_id": "run_20261001_195908",
+  "random_seed": 0,
+  "backend": "Agg",
+  "no_save": false,
+  "effective_show_plots": false,
+  "effective_save_results": true,
+  "settings_sources": {
+    "show_source": "默认 false",
+    "save_source": "配置 runtime.save_results=True"
+  },
+  "output_root": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results"
+}

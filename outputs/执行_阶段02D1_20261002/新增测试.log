@@ -1,0 +1,19 @@
+
+test_corner_impulses_do_not_wrap_or_flip (tests.test_imaging.ImagingTests) ... ok
+test_crop_is_explicit_projection (tests.test_imaging.ImagingTests) ... ok
+test_even_scene_coordinates_and_impulse_center (tests.test_imaging.ImagingTests) ... ok
+test_full_and_crop_adjoint_and_gradient (tests.test_imaging.ImagingTests) ... ok
+test_invalid_shapes_and_values_rejected (tests.test_imaging.ImagingTests) ... ok
+test_signed_direct_reference_and_flux (tests.test_imaging.ImagingTests) ... ok
+test_weighted_incoherent_superposition (tests.test_imaging.ImagingTests) ... ok
+test_zero_scene_exact (tests.test_imaging.ImagingTests) ... ok
+test_config_negative_paths (tests.test_stage02d1_source.SourceTests) ... ok
+test_real_source_verifies_and_preserves_eta (tests.test_stage02d1_source.SourceTests) ... ok
+test_reject_center_point_and_wrong_pitch (tests.test_stage02d1_source.SourceTests) ... ok
+test_reject_missing_source (tests.test_stage02d1_source.SourceTests) ... ok
+test_reject_wrong_input_power_even_with_saved_metadata (tests.test_stage02d1_source.SourceTests) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 3.792s
+
+OK

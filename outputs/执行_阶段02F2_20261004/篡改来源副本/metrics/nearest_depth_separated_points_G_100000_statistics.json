@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "checks": {
+    "shot_mean": {
+      "z": 1.3012664698163658,
+      "passed": true
+    },
+    "shot_second_moment": {
+      "z": -0.003944871323583186,
+      "passed": true
+    },
+    "read_mean": {
+      "z": -0.22190839768624757,
+      "passed": true
+    },
+    "read_second_moment": {
+      "z": -1.1318301514678517,
+      "passed": true
+    },
+    "joint_mean": {
+      "z": 1.1539786607585543,
+      "passed": true
+    },
+    "joint_second_moment": {
+      "z": 0.10431954929892229,
+      "passed": true
+    }
+  },
+  "metrics": {
+    "shot": {
+      "residual_mean_e": 0.009637356533447364,
+      "observed_second_moment_e2": 32.35162872323512,
+      "expected_second_moment_e2": 32.35234859181725,
+      "second_moment_ratio": 0.9999777491089996
+    },
+    "read": {
+      "residual_mean_e": -0.0005778864523079363,
+      "observed_second_moment_e2": 3.991663283591101,
+      "expected_second_moment_e2": 4.0,
+      "second_moment_ratio": 0.9979158208977752
+    },
+    "joint": {
+      "residual_mean_e": 0.009059470081139434,
+      "observed_second_moment_e2": 36.37164956931107,
+      "expected_second_moment_e2": 36.35234859181725,
+      "second_moment_ratio": 1.0005309416926687
+    }
+  },
+  "repeats": 64,
+  "sufficient_statistics": {
+    "shot": 5684.344179984058,
+    "shot_square": 19081767.060053434,
+    "read": -340.85129884607625,
+    "read_square": 2354378.8045808375,
+    "joint": 5343.492881137985,
+    "joint_square": 21452871.83556933
+  },
+  "block_size": 8,
+  "sample_count": 589824,
+  "z_tolerance": 8.0,
+  "interpretation": "按已知像元均值的残差二阶矩；shot比值检验泊松Fano，不能对结构化图像的原始像素直接计算Fano",
+  "theory": "Var(eps)=mu+sigma²；Var(eps²)=mu+2*(mu+sigma²)²。标准化门槛是大样本标准误筛查，非确定性百分比容差。"
+}

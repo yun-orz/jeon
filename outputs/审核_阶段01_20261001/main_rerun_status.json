@@ -1,0 +1,37 @@
+{
+  "command": [
+    "D:\\dev\\python\\python3.10.4\\python.exe",
+    "-B",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main.py",
+    "--run-dir",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\审核_阶段01_20261001\\main_rerun"
+  ],
+  "returncode": 0,
+  "acceptance": {
+    "airy_first_dark_ring": {
+      "threshold": 0.02,
+      "measured": 0.0010680230771768929,
+      "unit": "相对误差",
+      "pass": true
+    },
+    "direct_vs_fft_rel_l2": {
+      "threshold": 1e-06,
+      "measured": 625000000.0,
+      "unit": "相对 L2",
+      "pass": false
+    },
+    "energy_rel_err": {
+      "threshold": 0.01,
+      "measured": 8.689116851423293e-05,
+      "unit": "相对误差",
+      "pass": true
+    },
+    "shape_l1": {
+      "threshold": 0.02,
+      "measured": 0.012834578997893106,
+      "unit": "归一化强度 L1",
+      "pass": true
+    }
+  },
+  "cwd": "D:\\PyCharmProjects\\Jeon2019"
+}

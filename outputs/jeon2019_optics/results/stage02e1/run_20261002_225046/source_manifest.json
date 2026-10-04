@@ -1,0 +1,8 @@
+{
+  "main_stage02e1.py": "8db4d517a909ac0a9829cee42b4122d2199d453e27fe8f878f3ab168dbee5927",
+  "config_stage02e1.json": "d650a2b32f3b0bbede6c0b88357cdd71d4d5d24f69d0cab0fc0cf002dfd1b55f",
+  "optics/ridge_certificate.py": "66e210942829cd68a0f5b6dcf5cc128c1b07fc52c8256d8a3545c48f41b980e3",
+  "optics/stage02d3_source.py": "6d196a4162a4700326ec2ba571688ccdd732fe952753db3a39fad262a82a86df",
+  "optics/reconstruction_accelerated.py": "eb684753fae83f1294f87788dd6c0de387f869fdf72e0858c11036e07067e402",
+  "optics/imaging.py": "179922df5a1fc8008a7566f672a46359e0718cce16b53d53abf74ca0e69404d7"
+}

@@ -1,0 +1,175 @@
+{
+  "source_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02c\\run_20261002_172338",
+  "sha256": {
+    "arrays/continuous_420nm_q1.npz": "a4de8ef83cbcc417519f28a98f2706e53c332d0555f2695bd9cdff63950ec466",
+    "arrays/continuous_420nm_q4.npz": "16991561659abe5b3fa00047de3ddfad68fb675e0747c33f9d9acfd865616c44",
+    "arrays/continuous_420nm_q8.npz": "d1d50d7c25cc528b6ecfe91af953b5534acb57b50846633048aa3fef72183887",
+    "arrays/continuous_540nm_q1.npz": "f0126dbb0d86eb084b5c6db6e17c8461193457bcaedc17d6c18d21ac817c71d8",
+    "arrays/continuous_540nm_q4.npz": "86b33c2eb1d4b198864867e3b68f628ba33ffc5fa4ea5e47b90f012a182dea7c",
+    "arrays/continuous_540nm_q8.npz": "9c26c381b1ac21a3d80cc028866f2eeacfd95c9a3a4641c6e1ba04bad6c72aed",
+    "arrays/continuous_660nm_q1.npz": "ec40fbc4fab608c99fd3cacfb8ef5709f0899b8c35215bd83e922802012af0cd",
+    "arrays/continuous_660nm_q4.npz": "c53b8de2e373c71ce94c85ba796958847881da487be214bf2f19ea315f68b51f",
+    "arrays/continuous_660nm_q8.npz": "77f698f9ebdf5079f39800564feb9e328a6f5ac240cd106601130f0dada9f900",
+    "arrays/floor_depth_420nm_q1.npz": "8bb9351a2e82f1e28d06f1aaeaabd2c76aeefb95f19c5c0d4a03994efab6ec57",
+    "arrays/floor_depth_420nm_q4.npz": "66ecee05c51ecce14ffed958e34d3ba7f67bed3f47e1a98c44356e2c589f597e",
+    "arrays/floor_depth_420nm_q8.npz": "9dd7d8564fa7a9b29e7627ec0fad4dc4af2ff342d1ce8c458dcdd2714d46166d",
+    "arrays/floor_depth_540nm_q1.npz": "f683ee3b8121597d58155af8752ffbc659505d917a5f626cd8863ecd8cb3d4e6",
+    "arrays/floor_depth_540nm_q4.npz": "176b60b04cc2a588f5ae040e207904ed0b415d94f05d63e69f67baaa38701d65",
+    "arrays/floor_depth_540nm_q8.npz": "0d6b4166c01e785ed01c1e23e750faafb85225d56056ef2f109a7890c8d81e37",
+    "arrays/floor_depth_660nm_q1.npz": "675bb9378886613a613f18d51b85909856c75b9a1574d2b24fce44ce51429fa5",
+    "arrays/floor_depth_660nm_q4.npz": "44b03f92bf9f926746219f193157672f8c987170986f4f9995f1287a05a2ffad",
+    "arrays/floor_depth_660nm_q8.npz": "3b4a3ddccf0d67af1e4b0f4a46ebbc0d7695457836dc081ecd2058f62fd8769f",
+    "arrays/height_continuous.npz": "922babc75141f1cbbb4db5514e25063aebe7cf495a8bd0a1b632d66a92c74b52",
+    "arrays/height_floor_depth.npz": "dce7e02e2161aa3906ab14141f8f59fa53819026a5038a205b647e9a366905e5",
+    "arrays/height_nearest_depth.npz": "bb675a4d2dbd4f59327cbdf31ed6145348098ea6194312b99794603622cdce34",
+    "arrays/nearest_depth_420nm_q1.npz": "8fff6821131b1b037161fa9366359eb4d67115f8259fb998adada60e2aadbd29",
+    "arrays/nearest_depth_420nm_q4.npz": "5e9f9ed6566e438ddd1c4eb9878563365b547775cb08dd4c7fcc15e62fa72f9b",
+    "arrays/nearest_depth_420nm_q8.npz": "5dedc7d46c534a433a94d9a89da21016c5e3eabbf7388a32c8f285af807d5178",
+    "arrays/nearest_depth_540nm_q1.npz": "5429c61f227b4c6ec8e9e0fc1eb10587c5e0eee8263abaf416e19edbe8e98447",
+    "arrays/nearest_depth_540nm_q4.npz": "d43fb3f6f9489d6ab7a8e362cd0a0d6e9e2a08f3c3e6258bb260095a866904a7",
+    "arrays/nearest_depth_540nm_q8.npz": "3e5cf843f7b90bd63f0f9b1e4c0760e05f773baedf72fa9123ff38500576c24e",
+    "arrays/nearest_depth_660nm_q1.npz": "3a15f298b5eb6af0cb7dafeb8ebb7cf8d280b33ed97db5c9a3786c1cc1a70e47",
+    "arrays/nearest_depth_660nm_q4.npz": "916298b3b4be2e7e1d3ca5e7fcc1098898979e0827e24ce2ee126eb3d37254d5",
+    "arrays/nearest_depth_660nm_q8.npz": "1e7b0a97e589703cb6faf4304e8308d3e25a9f4d997bd69cdf7f9b22dc66fcb6",
+    "config_effective.json": "b6b381ba6d097df37b05c2e6a96bc9d09c46694dd156423f30f1fbe2f14a51c6",
+    "figures/integration_checks.png": "a5a38d93549c6a82e18182a5066923774e5677102ddea73b712e70c7f343bd06",
+    "figures/pixel_psfs.png": "3b3dfcc9a3af3f3da94ccac04d3ad7e2b1ac28bd3939f7ce509bfcbc8570f979",
+    "metrics/summary.csv": "c88715dbcc1f1493e55a172d14bc3da6fae3f5f749117a451e88ef71ee0b8698",
+    "metrics/validation.json": "83d4397c702327eb777f37a945fa3329d4ab83d8cbac33f818e16365f4e0f55c",
+    "report_stage02c.md": "b0b7b2dac3f7e1fe43829be62060dc2e1e9e66597da72c7e1b761abdcd53442c",
+    "run.log": "7713240218aed8441d1b2df380c9f9198da497a1777445ef9a0550ff14a32f8a",
+    "source_manifest.json": "53255fb3bb8552b2ef660cee690bac32ebd3f95172edc4953204311092546263"
+  },
+  "validated_fields": [
+    {
+      "identity": "continuous_420nm_q8",
+      "wavelength_m": 4.2e-07,
+      "Pin": 7.85349e-07,
+      "Pwindow": 7.031193902324373e-07,
+      "eta": 0.8952954549282387,
+      "fingerprint": "8527724f6aeffc0314d09313d89fdca0c2c864827e6a47308480968bcabc1350"
+    },
+    {
+      "identity": "continuous_540nm_q8",
+      "wavelength_m": 5.4e-07,
+      "Pin": 7.85349e-07,
+      "Pwindow": 7.393021452774208e-07,
+      "eta": 0.9413676534603351,
+      "fingerprint": "8527724f6aeffc0314d09313d89fdca0c2c864827e6a47308480968bcabc1350"
+    },
+    {
+      "identity": "continuous_660nm_q8",
+      "wavelength_m": 6.6e-07,
+      "Pin": 7.85349e-07,
+      "Pwindow": 6.791267881269185e-07,
+      "eta": 0.8647452127995561,
+      "fingerprint": "8527724f6aeffc0314d09313d89fdca0c2c864827e6a47308480968bcabc1350"
+    },
+    {
+      "identity": "nearest_depth_420nm_q8",
+      "wavelength_m": 4.2e-07,
+      "Pin": 7.85349e-07,
+      "Pwindow": 6.74136189024993e-07,
+      "eta": 0.8583905868919334,
+      "fingerprint": "8e81ae5b4449114ba262b8b7fca4af4ccb27479192767c58f2dc33bcc920b6cd"
+    },
+    {
+      "identity": "nearest_depth_540nm_q8",
+      "wavelength_m": 5.4e-07,
+      "Pin": 7.85349e-07,
+      "Pwindow": 7.219469378125326e-07,
+      "eta": 0.9192689337002181,
+      "fingerprint": "8e81ae5b4449114ba262b8b7fca4af4ccb27479192767c58f2dc33bcc920b6cd"
+    },
+    {
+      "identity": "nearest_depth_660nm_q8",
+      "wavelength_m": 6.6e-07,
+      "Pin": 7.85349e-07,
+      "Pwindow": 6.693308901944728e-07,
+      "eta": 0.8522719073869996,
+      "fingerprint": "8e81ae5b4449114ba262b8b7fca4af4ccb27479192767c58f2dc33bcc920b6cd"
+    },
+    {
+      "identity": "floor_depth_420nm_q8",
+      "wavelength_m": 4.2e-07,
+      "Pin": 7.85349e-07,
+      "Pwindow": 6.768706326139646e-07,
+      "eta": 0.8618724065529652,
+      "fingerprint": "fb25864ab60fb5f1a6ddac35f5b2b00430b7e8815736aa6dcd45e75fa20dd328"
+    },
+    {
+      "identity": "floor_depth_540nm_q8",
+      "wavelength_m": 5.4e-07,
+      "Pin": 7.85349e-07,
+      "Pwindow": 7.217178658371502e-07,
+      "eta": 0.9189772519442314,
+      "fingerprint": "fb25864ab60fb5f1a6ddac35f5b2b00430b7e8815736aa6dcd45e75fa20dd328"
+    },
+    {
+      "identity": "floor_depth_660nm_q8",
+      "wavelength_m": 6.6e-07,
+      "Pin": 7.85349e-07,
+      "Pwindow": 6.669773281152794e-07,
+      "eta": 0.8492750714844985,
+      "fingerprint": "fb25864ab60fb5f1a6ddac35f5b2b00430b7e8815736aa6dcd45e75fa20dd328"
+    }
+  ],
+  "fingerprints": {
+    "continuous": "8527724f6aeffc0314d09313d89fdca0c2c864827e6a47308480968bcabc1350",
+    "nearest_depth": "8e81ae5b4449114ba262b8b7fca4af4ccb27479192767c58f2dc33bcc920b6cd",
+    "floor_depth": "fb25864ab60fb5f1a6ddac35f5b2b00430b7e8815736aa6dcd45e75fa20dd328"
+  },
+  "source_config": {
+    "optical": {
+      "diameter_m": 0.001,
+      "focal_length_m": 0.05,
+      "distance_m": 0.05,
+      "wings_N": 3,
+      "lambda_min_m": 4.2e-07,
+      "lambda_max_m": 6.6e-07,
+      "wavelengths_m": [
+        4.2e-07,
+        5.4e-07,
+        6.6e-07
+      ]
+    },
+    "input": {
+      "n": 1101,
+      "spacing_m": 1e-06
+    },
+    "fabrication": {
+      "levels": 16,
+      "depth_step_m": 1e-07,
+      "substrate_height_m": 0.0005,
+      "methods": [
+        "nearest_depth",
+        "floor_depth"
+      ]
+    },
+    "detector": {
+      "pixels_per_axis": 97,
+      "pitch_m": 6.22e-06,
+      "quadrature_per_axis": [
+        4,
+        8
+      ],
+      "response": "uniform_unit_radiometric",
+      "fill_factor": 1.0
+    },
+    "thresholds": {
+      "pixel_l1": 0.005,
+      "pixel_l2": 0.01,
+      "eta_absolute": 0.001,
+      "angle_deg": 0.5,
+      "radius_pixels": 1.0
+    },
+    "runtime": {
+      "save_results": true,
+      "show_plots": false
+    },
+    "plots": {
+      "dpi": 150
+    }
+  },
+  "source_unchanged": true
+}

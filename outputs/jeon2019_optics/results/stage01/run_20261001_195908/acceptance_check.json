@@ -1,0 +1,133 @@
+{
+  "checks": {
+    "airy_cases_complete": {
+      "threshold": 0.0,
+      "measured": 0.0,
+      "status": "pass",
+      "detail": "配置中的全部Airy算例必须各自返回，不能缺项或重名"
+    },
+    "airy_first_dark_ring_rel_err": {
+      "threshold": 0.02,
+      "measured": 0.0020876826722341004,
+      "status": "pass",
+      "detail": "暗环相对误差；最差算例=D1mm_f50mm（共 3 个算例各自判定）"
+    },
+    "airy_line_L1_vs_analytic": {
+      "threshold": 0.01,
+      "measured": 0.00039143368847814836,
+      "status": "pass",
+      "detail": "截线相对 L1；最差算例=D0.1mm_f50mm（共 3 个算例各自判定）"
+    },
+    "discrete_identity_rel_L2": {
+      "threshold": 1e-06,
+      "measured": 2.516476083620672e-13,
+      "status": "pass",
+      "detail": "B 组各规模与 D3 恒等算例的最大值；复场相对 L2"
+    },
+    "native_fft_parseval_rel_err": {
+      "threshold": 1e-10,
+      "measured": 2.1538326677728037e-14,
+      "status": "pass",
+      "detail": "原生 FFT 全输出 Parseval 相对功率误差"
+    },
+    "energy_absolute_abs_diff": {
+      "threshold": 0.005,
+      "measured": 4.630875731470585e-05,
+      "status": "pass",
+      "detail": "绝对包围能量 P_disk(R)/P_in 对解析的最大绝对差"
+    },
+    "input_sampling_intensity_L1": {
+      "threshold": 0.02,
+      "measured": 0.0026060846403884565,
+      "status": "pass",
+      "detail": "D1 最后一级输入采样对的原始强度相对 L1（dx1.0um->dx0.5um）"
+    },
+    "padding_sampling_intensity_L1": {
+      "threshold": 0.02,
+      "measured": 0.0022402140851161883,
+      "status": "pass",
+      "detail": "D2 最细填充对公共坐标完整核参考的原始强度 L1"
+    },
+    "energy_windows_valid": {
+      "threshold": 0.0,
+      "measured": 0.0,
+      "status": "pass",
+      "detail": ""
+    },
+    "energy_grid_stable": {
+      "threshold": 0.0,
+      "measured": 0.0,
+      "status": "pass",
+      "detail": ""
+    },
+    "padding_windows_valid": {
+      "threshold": 0.0,
+      "measured": 0.0,
+      "status": "pass",
+      "detail": ""
+    },
+    "padding_finer_not_worse": {
+      "threshold": 0.0,
+      "measured": 0.0,
+      "status": "pass",
+      "detail": ""
+    },
+    "airy_absolute_energy": {
+      "threshold": 0.005,
+      "measured": 2.8607297573923773e-05,
+      "status": "pass",
+      "detail": ""
+    },
+    "phase_representation_relL2": {
+      "threshold": 1e-10,
+      "measured": 5.1242163578100426e-14,
+      "status": "pass",
+      "detail": ""
+    }
+  },
+  "per_airy_case": {
+    "D0.1mm_f50mm": {
+      "first_ring_rel_err": 0.0017889087656524614,
+      "first_ring_status": "pass",
+      "line_L1_vs_airy": 0.00039143368847814836,
+      "line_L1_status": "pass",
+      "encircled_energy_abs_diff": 1.5885663046999454e-05
+    },
+    "D0.2mm_f25mm": {
+      "first_ring_rel_err": 0.0019083969465651103,
+      "first_ring_status": "pass",
+      "line_L1_vs_airy": 0.00021338049754446585,
+      "line_L1_status": "pass",
+      "encircled_energy_abs_diff": 2.8607297573923773e-05
+    },
+    "D1mm_f50mm": {
+      "first_ring_rel_err": 0.0020876826722341004,
+      "first_ring_status": "pass",
+      "line_L1_vs_airy": 4.819106264914474e-05,
+      "line_L1_status": "pass",
+      "encircled_energy_abs_diff": 2.1107816364551724e-05
+    }
+  },
+  "status": "pass",
+  "exit_code": 0,
+  "not_run": [],
+  "ran": [
+    "airy",
+    "direct",
+    "energy",
+    "sampling"
+  ],
+  "failures": [],
+  "required_groups": [
+    "airy",
+    "direct",
+    "energy",
+    "sampling"
+  ],
+  "missing_required_groups": [],
+  "status_semantics": {
+    "pass": "默认完整运行，全部必需项实际测量并通过",
+    "partial": "用户主动选择子集，已执行项全部通过（返回 0，并列出未执行项）",
+    "fail": "任一已执行项超阈值 / 缺测 / 非有限 / 计算异常（返回非零）"
+  }
+}

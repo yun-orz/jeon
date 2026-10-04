@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "formal_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02f1\\run_20261004_093359",
+  "jobs": 18,
+  "statistic_repeats_per_job": 64,
+  "tests": 223,
+  "test_seconds": 416.706,
+  "formal_seconds": 95.51105689999531,
+  "max_abs_z": 3.3434357894983044,
+  "negative_readout_pixels": 36756,
+  "frozen_source_runs": 9,
+  "source_and_code_fingerprints_unchanged": true,
+  "artifacts": {
+    "npz": 18,
+    "png": 18,
+    "statistics_csv_rows": 108
+  },
+  "entry_checks": {
+    "bad_source_exit": 1,
+    "budget_exit": 2,
+    "alternate_cwd_no_save_exit": 0,
+    "no_save_tree_unchanged": true,
+    "hashed_files": 11531,
+    "mock_show_once_closed": true,
+    "mock_show_failure_closed": true,
+    "report_failure_no_completed_marker": true,
+    "report_failure_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02f1\\run_20261004_094401",
+    "real_gui_verified": false,
+    "passed": true
+  },
+  "environment": {
+    "timestamp_local": "2026-10-04T09:35:34",
+    "python_version": "3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)]",
+    "python_executable": "D:\\dev\\python\\python3.10.4\\python.exe",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "platform_machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "os_cpu_count": 20,
+    "cwd_at_invocation": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+    "project_root_resolved": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+    "argv": [
+      "main_stage02f1.py"
+    ],
+    "numpy_version": "2.2.6",
+    "scipy_version": "1.15.3",
+    "matplotlib_version": "3.10.9",
+    "pytest_version": null,
+    "pytest_import_error": "ModuleNotFoundError: No module named 'pytest'"
+  },
+  "scope": "Jeon光学编码复现＋合成电子数测量验证；没有噪声重建",
+  "not_verified": [
+    "真实PyCharm点击与GUI交互",
+    "真实相机标定",
+    "噪声重建",
+    "论文PSF旋转方向对应",
+    "原论文网络",
+    "双孔径"
+  ]
+}
