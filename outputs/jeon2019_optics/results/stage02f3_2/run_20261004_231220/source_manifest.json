@@ -1,0 +1,10 @@
+{
+  "main_stage02f3_2.py": "1ff54dab6bc13fe7f69dfeb4ad0ef5c2cfb2ca16d4b41550afbc1e91310570f2",
+  "config_stage02f3_2.json": "c3cd6baf6d3e44292d7239cf33474c2e14e28bad8c463854b66bc14caac0a8c1",
+  "optics/detector_holdout.py": "cff2aa78025ebb652a83a32ed80376e93a1841fbd7a5cc664995867d6178f2c0",
+  "optics/stage02f3_1_source.py": "4ee745cf58d9166ecce574300c422b569156ff67057d1ff6098fc2d99d441332",
+  "optics/reconstruction.py": "c405b5cfca8c23693c612d2576720085b592824b5d4280a5dccb0dbeb5481681",
+  "optics/reconstruction_accelerated.py": "eb684753fae83f1294f87788dd6c0de387f869fdf72e0858c11036e07067e402",
+  "optics/ridge_certificate.py": "66e210942829cd68a0f5b6dcf5cc128c1b07fc52c8256d8a3545c48f41b980e3",
+  "main_stage02f2.py": "887fe638cd8cb4794a61e606327ddec5dc7e43c2402796615a319c9fbf93e54a"
+}

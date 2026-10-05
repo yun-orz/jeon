@@ -1,0 +1,10 @@
+candidate_00 factor=0.01: converged, 225轮, 验证MSE=16.009404, 距离相对上界=3.28706e-07
+选择factor=0.01；全数据converged，193轮；最终cube=0.979184（仅作评价）
+无保存模式：未写结果文件
+candidate_00 factor=0.01: converged, 225轮, 验证MSE=16.009404, 距离相对上界=3.28706e-07
+选择factor=0.01；全数据converged，193轮；最终cube=0.979184（仅作评价）
+candidate_00 factor=0.01: converged, 225轮, 验证MSE=16.009404, 距离相对上界=3.28706e-07
+选择factor=0.01；全数据converged，193轮；最终cube=0.979184（仅作评价）
+candidate_00 factor=0.01: converged, 225轮, 验证MSE=16.009404, 距离相对上界=3.28706e-07
+结果目录：D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\results\stage02f3_2\run_20261004_231606
+{"bad_source_exit": 1, "budget_exit": 2, "iteration_limit_exit": 2, "tampered_ideal_source_exit": 1, "mock_show_once_closed": true, "show_failure_no_completed_closed": true, "report_failure_no_completed_closed": true, "injected_certificate_failure_no_selection": true, "passed": true, "real_gui_verified": false, "retained_fault_runs": ["D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02f3_2\\run_20261004_231537", "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02f3_2\\run_20261004_231551", "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02f3_2\\run_20261004_231606"]}

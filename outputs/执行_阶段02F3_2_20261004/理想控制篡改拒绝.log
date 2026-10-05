@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02f3_2.py", line 129, in <module>
+    if __name__=='__main__':raise SystemExit(main())
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02f3_2.py", line 127, in main
+    c=json.loads(resolve_project_path(a.config,ROOT).read_text(encoding='utf-8'));return 0 if run(c,a.no_save,a.show_plots)['validation_passed'] else 2
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02f3_2.py", line 43, in run
+    items,evidence=load_holdout_source(resolve_project_path(c['source_run'],ROOT),ROOT)
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\optics\stage02f3_1_source.py", line 39, in load_holdout_source
+    if not np.array_equal(v['ideal_measurement_e'],ideal) or not np.array_equal(v['ideal_weighted_target'],target) or np.any(x<0) or not np.all(np.isfinite(x)) or not np.array_equal(v['ideal_prediction_e'],base.forward(x)+float(v['background_e'])) or not np.array_equal(v['ideal_residual_e'],v['ideal_prediction_e']-ideal):raise ValueError('F3.1理想目标/预测错误')
+ValueError: F3.1理想目标/预测错误

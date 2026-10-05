@@ -1,0 +1,6 @@
+candidate_00 factor=0.01: converged, 225轮, 验证MSE=16.009404, 距离相对上界=3.28706e-07
+candidate_01 factor=0.001: converged, 629轮, 验证MSE=8.9386659, 距离相对上界=1.85789e-06
+candidate_02 factor=0.0001: converged, 1627轮, 验证MSE=7.3242395, 距离相对上界=1.18135e-05
+candidate_03 factor=1e-05: converged, 3887轮, 验证MSE=7.0477496, 距离相对上界=8.39104e-05
+选择factor=1e-05；全数据converged，3698轮；最终cube=0.680358（仅作评价）
+结果目录：D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\results\stage02f3_2\run_20261004_231220

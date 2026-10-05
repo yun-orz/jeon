@@ -1,0 +1,14 @@
+test_explicit_scatter_adjoint (test_stage02f3_2.HoldoutTests) ... ok
+test_full_alpha_uses_full_operator (test_stage02f3_2.HoldoutTests) ... ok
+test_incomplete_candidates_never_select (test_stage02f3_2.HoldoutTests) ... ok
+test_invalid_indices_and_fraction (test_stage02f3_2.HoldoutTests) ... ok
+test_negative_observation_and_background (test_stage02f3_2.HoldoutTests) ... ok
+test_score_independent_and_strict_tie (test_stage02f3_2.HoldoutTests) ... ok
+test_split_partition_and_repeat (test_stage02f3_2.HoldoutTests) ... ok
+test_truth_and_ideal_context_isolation (test_stage02f3_2.HoldoutTests) ... ok
+test_validation_changes_do_not_change_training (test_stage02f3_2.HoldoutTests) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.028s
+
+OK

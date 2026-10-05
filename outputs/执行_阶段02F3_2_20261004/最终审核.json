@@ -1,0 +1,95 @@
+{
+  "passed": true,
+  "formal_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02f3_2\\run_20261004_231220",
+  "new_jobs": 5,
+  "candidates": 4,
+  "refits": 1,
+  "tests": 250,
+  "test_seconds": 274.725,
+  "formal_seconds": 68.12152649999916,
+  "training_pixels": 7373,
+  "validation_pixels": 1843,
+  "selected_factor": 1e-05,
+  "selected_at_grid_boundary": true,
+  "selected_alpha_train": 863.8039834358005,
+  "selected_alpha_full": 1066.7304998722275,
+  "final_cube_error": 0.6803580229657734,
+  "baseline_cube_error": 0.9442303658887441,
+  "final_error_optimization_interval": [
+    0.6803180664753646,
+    0.6803979794561822
+  ],
+  "baseline_error_optimization_interval": [
+    0.9441746629573423,
+    0.9442860688201459
+  ],
+  "frozen_source_runs": 12,
+  "source_and_code_fingerprints_unchanged": true,
+  "artifacts": {
+    "npz": 8,
+    "png": 2,
+    "history_json": 5,
+    "history_csv": 5
+  },
+  "independent_checks": [
+    "独立复现随机拆分/索引/训练目标",
+    "空间域训练散射伴随与目标/证书",
+    "逐候选留出MSE和严格最小选择",
+    "实际训练/完整alpha标度",
+    "选择后最终评价与旧基线优化误差区间",
+    "候选轨迹CSV逐字段"
+  ],
+  "failure_checks": {
+    "bad_source_exit": 1,
+    "budget_exit": 2,
+    "iteration_limit_exit": 2,
+    "tampered_ideal_source_exit": 1,
+    "mock_show_once_closed": true,
+    "show_failure_no_completed_closed": true,
+    "report_failure_no_completed_closed": true,
+    "injected_certificate_failure_no_selection": true,
+    "passed": true,
+    "real_gui_verified": false,
+    "retained_fault_runs": [
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02f3_2\\run_20261004_231537",
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02f3_2\\run_20261004_231551",
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\stage02f3_2\\run_20261004_231606"
+    ]
+  },
+  "no_save_checks": {
+    "passed": true,
+    "exit_code": 0,
+    "hashed_files": 14125,
+    "file_set_unchanged": true,
+    "sha_unchanged": true,
+    "alternate_cwd": "D:\\PyCharmProjects\\Jeon2019\\outputs\\执行_阶段02F3_2_20261004",
+    "scope": "使用首候选小批检验CLI无保存协议；完整四候选另有正式运行证据"
+  },
+  "environment": {
+    "timestamp_local": "2026-10-04T23:13:28",
+    "python_version": "3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)]",
+    "python_executable": "D:\\dev\\python\\python3.10.4\\python.exe",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "platform_machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "os_cpu_count": 20,
+    "cwd_at_invocation": "D:\\PyCharmProjects\\Jeon2019",
+    "project_root_resolved": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+    "argv": [
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main_stage02f3_2.py"
+    ],
+    "numpy_version": "2.2.6",
+    "scipy_version": "1.15.3",
+    "matplotlib_version": "3.10.9",
+    "pytest_version": null,
+    "pytest_import_error": "ModuleNotFoundError: No module named 'pytest'"
+  },
+  "scope": "Jeon光学编码复现＋仅观测留出选参基础验证；非网络、非双孔径",
+  "limitations": [
+    "仅一个场景一次随机拆分，验证预测准则不等于光谱cube误差",
+    "选中最弱网格边界，不证明网格外最优",
+    "恢复相对误差仍约0.68",
+    "真实GUI/PyCharm点击/相机标定/论文旋转方向对应/网络/双孔径未验证"
+  ]
+}

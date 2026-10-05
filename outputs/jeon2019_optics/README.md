@@ -577,3 +577,8 @@ PyCharm直接运行`main_stage02f2.py`，配置`config_stage02f2.json`，G=10000
 ## 02F-3.1冻结目标诊断（2026-10-04）
 
 PyCharm运行`main_stage02f3_1.py`，配置`config_stage02f3_1.json`。固定原权重/alpha，12项理想控制；结论与解释见[中文阶段说明](docs/stage02f3_1_completed.md)。理想基线误差明显高于本次噪声扰动，尚未确定各偏差来源，不宣称恢复质量改善。最终正式目录`results/stage02f3_1/run_20261004_101012`。
+
+
+## 02F-3.2仅观测留出选参（2026-10-04）
+
+PyCharm运行`main_stage02f3_2.py`，参数`config_stage02f3_2.json`。7373训练像元、1843验证像元，四候选＋全数据重拟合CPU约68秒。见[中文阶段说明](docs/stage02f3_2_completed.md)。本场景选中最弱网格因子1e-5，最终相对误差约0.680（旧基线0.944），不是全局最优或普遍改善结论。正式目录`results/stage02f3_2/run_20261004_231220`。

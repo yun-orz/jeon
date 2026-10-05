@@ -1,0 +1,10 @@
+{
+  "main_stage02f3_1.py": "d61889fe6d5879eb63d92559bdb456c5b9a58565227e018a1e0a1a4c26bc885b",
+  "config_stage02f3_1.json": "b2f08ce3d2ead6ebff6000237d34e971a0da0b497667e82406ec5a404c1f0d90",
+  "optics/fixed_target_control.py": "3cf534dc89d4648268686d0d5930550d2f17791b1d4d098f054ef067119ffc41",
+  "optics/stage02f2_source.py": "738be220b3d3b97c54b6c6d732a1a7090c7d6a5f609661242ecb2a0b25cf8830",
+  "optics/electron_reconstruction.py": "c80c25707786da101b97fff43b480aa0ee8285fab1b3e79dc66a4974f88fc6a3",
+  "optics/reconstruction_accelerated.py": "eb684753fae83f1294f87788dd6c0de387f869fdf72e0858c11036e07067e402",
+  "optics/ridge_certificate.py": "66e210942829cd68a0f5b6dcf5cc128c1b07fc52c8256d8a3545c48f41b980e3",
+  "main_stage02f2.py": "887fe638cd8cb4794a61e606327ddec5dc7e43c2402796615a319c9fbf93e54a"
+}

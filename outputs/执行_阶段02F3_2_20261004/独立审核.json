@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "candidates": 4,
+  "refits": 1,
+  "selected_factor": 1e-05,
+  "selected_at_weakest_grid_boundary": true,
+  "candidate_records": [
+    {
+      "identity": "candidate_00",
+      "factor": 0.01,
+      "validation_mse_e2": 16.009403660849422,
+      "iterations": 225,
+      "certificate_relative": 3.2870630438329307e-07
+    },
+    {
+      "identity": "candidate_01",
+      "factor": 0.001,
+      "validation_mse_e2": 8.93866594950309,
+      "iterations": 629,
+      "certificate_relative": 1.8578930634342591e-06
+    },
+    {
+      "identity": "candidate_02",
+      "factor": 0.0001,
+      "validation_mse_e2": 7.32423953352173,
+      "iterations": 1627,
+      "certificate_relative": 1.1813543442906737e-05
+    },
+    {
+      "identity": "candidate_03",
+      "factor": 1e-05,
+      "validation_mse_e2": 7.047749564730143,
+      "iterations": 3887,
+      "certificate_relative": 8.391041130467488e-05
+    }
+  ],
+  "final_cube_error": 0.6803580229657734,
+  "baseline_cube_error": 0.9442303658887441,
+  "final_error_optimization_interval": [
+    0.6803180664753646,
+    0.6803979794561822
+  ],
+  "baseline_error_optimization_interval": [
+    0.9441746629573423,
+    0.9442860688201459
+  ],
+  "checks": [
+    "独立复现随机拆分/索引/训练目标",
+    "空间域训练散射伴随与目标/证书",
+    "逐候选留出MSE和严格最小选择",
+    "实际训练/完整alpha标度",
+    "选择后最终评价与旧基线优化误差区间",
+    "候选轨迹CSV逐字段"
+  ]
+}

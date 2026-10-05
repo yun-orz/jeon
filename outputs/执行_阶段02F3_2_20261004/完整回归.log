@@ -1,0 +1,476 @@
+test_energy_scaling_detected (test_convergence.TestConvergence) ... ok
+test_linear_intensity_interpolates_exactly (test_convergence.TestConvergence) ... ok
+test_native_extraction_rejects_shift (test_convergence.TestConvergence) ... ok
+test_three_fold_angle_period (test_convergence.TestConvergence) ... ok
+test_angular_periodicity_continuous (test_doe.TestDOE)
+测试 N=3 螺旋设计的连续角向周期性：同一半径下 θ 与 θ+2π/3 高度相等。 ... ok
+test_aperture_area_conservation (test_doe.TestDOE)
+掩膜面积与理论圆面积 π(D/2)^2 相对误差 <= 1%，无截断。 ... ok
+test_fingerprint_deterministic_and_unique (test_doe.TestDOE)
+测试器件指纹的确定性与敏感性。 ... ok
+test_global_height_offset_invariance (test_doe.TestDOE)
+全局高度偏置 h 与 h+C 比较：出射场仅相差全局相位因子，强度严格恒等。 ... ok
+test_height_range_and_origin (test_doe.TestDOE)
+孔径内逐点合法范围 -lambda_design/(n_design-1) <= delta_h <= 0，原点高度严格为 0。 ... ok
+test_local_focusing_phase_identity (test_doe.TestDOE)
+孔径内局部设计聚焦相位恒等检查： ... ok
+test_bad_shape_and_negative_intensity_rejected (test_fabrication_detector.TestFabricationDetector) ... ok
+test_constant_intensity_integrates_area (test_fabrication_detector.TestFabricationDetector) ... ok
+test_even_nodes_are_symmetric_and_inside_fixed_edges (test_fabrication_detector.TestFabricationDetector) ... ok
+test_gaussian_matches_erf_and_converges (test_fabrication_detector.TestFabricationDetector) ... ok
+test_half_level_rule_and_depth_floor (test_fabrication_detector.TestFabricationDetector) ... ok
+test_range_rejected_without_clipping (test_fabrication_detector.TestFabricationDetector) ... ok
+test_uniform_substrate_only_adds_global_phase (test_fabrication_detector.TestFabricationDetector) ... ok
+test_corner_impulses_do_not_wrap_or_flip (test_imaging.ImagingTests) ... ok
+test_crop_is_explicit_projection (test_imaging.ImagingTests) ... ok
+test_even_scene_coordinates_and_impulse_center (test_imaging.ImagingTests) ... ok
+test_full_and_crop_adjoint_and_gradient (test_imaging.ImagingTests) ... ok
+test_invalid_shapes_and_values_rejected (test_imaging.ImagingTests) ... ok
+test_signed_direct_reference_and_flux (test_imaging.ImagingTests) ... ok
+test_weighted_incoherent_superposition (test_imaging.ImagingTests) ... ok
+test_zero_scene_exact (test_imaging.ImagingTests) ... ok
+test_delta_refractive_index (test_materials.TestMaterials)
+折射率差 Δn = n - n_air，对 n_air=1 应满足 Δn = n - 1。 ... ok
+test_independent_point_check_550nm (test_materials.TestMaterials)
+550nm 处折射率独立验算：标准熔融石英 n ≈ 1.459917，误差 <= 2e-5。 ... ok
+test_invalid_wavelengths_raise (test_materials.TestMaterials)
+非正数、NaN、Inf、超出有效范围均应报错。 ... ok
+test_metadata_completeness (test_materials.TestMaterials)
+元数据包含文献、DOI、温度及范围。 ... ok
+test_visible_spectrum_monotonicity (test_materials.TestMaterials)
+可见光区（420nm 到 660nm）折射率正常且随波长增大单调递减（正常色散）。 ... ok
+test_case1_direct_identity_threshold_zero_fails (test_negative_paths.TestNegativePaths) ... ok
+test_case2_airy_second_case_fails (test_negative_paths.TestNegativePaths) ... ok
+test_case3_airy_third_paper_scale_fails (test_negative_paths.TestNegativePaths) ... ok
+test_case4_nan_inf_missing_fields_fail (test_negative_paths.TestNegativePaths) ... ok
+test_case5_study_exception_fails_with_traceback (test_negative_paths.TestNegativePaths) ... ok
+test_case6_subset_pass_is_partial_and_direct_measured (test_negative_paths.TestNegativePaths) ... ok
+test_case7_all_groups_pass (test_negative_paths.TestNegativePaths) ... ok
+test_airy_central_line_three_apertures (test_propagation.TestContinuousAccuracy)
+三个孔径/焦距组合的焦平面中心截线对解析 Airy（含 D=1 mm 论文尺度）。 ... ok
+test_fft_vs_analytic_free_gaussian_on_native_grid (test_propagation.TestContinuousAccuracy)
+单次 FFT 的原生输出网格上也与解析解比较（补足填充避免回绕）。 ... ok
+test_lens_focal_plane_peak_matches_discrete_pupil (test_propagation.TestContinuousAccuracy)
+z=f 时焦平面是孔径 Fourier 强度：峰值对离散孔径理论。 ... ok
+test_numeric_vs_analytic_free_gaussian (test_propagation.TestContinuousAccuracy)
+数值传播器 vs 连续自由空间高斯解析复场（审核要求 5）。 ... ok
+test_paper_scale_first_ring_reference (test_propagation.TestContinuousAccuracy) ... ok
+test_tilted_gaussian_analytic_matches_direct_kernel_full_field (test_propagation.TestContinuousAccuracy)
+整幅复场对照（含绝对幅度与相位），比只核峰值更强。 ... ok
+test_tilted_gaussian_envelope_is_shifted (test_propagation.TestContinuousAccuracy)
+包络中心必须落在 (z·θx, z·θy)，而不是原点（防回归）。 ... ok
+test_tilted_gaussian_full_complex_field (test_propagation.TestContinuousAccuracy)
+S8：非零倾斜高斯必须与**完整解析复场**（包络平移到 zθ）逐点一致。 ... ok
+test_extent_center_vs_pixel (test_propagation.TestCoordinates) ... ok
+test_grid_index_convention (test_propagation.TestCoordinates) ... ok
+test_index_increases_with_coordinate (test_propagation.TestCoordinates)
+索引增加 → x、y 都增加（与旧文档相反的说法已在修正版统一）。 ... ok
+test_units_roundtrip (test_propagation.TestCoordinates) ... ok
+test_case_n24_dx10um_M48 (test_propagation.TestDiscreteIdentity)
+原先被错误解释的算例（审核要求 3，不能接受 1e10 差异）。 ... ok
+test_case_n64_dx5um_M256 (test_propagation.TestDiscreteIdentity) ... ok
+test_fft_power_conservation (test_propagation.TestDiscreteIdentity)
+原生 FFT 全输出功率相对误差 ≤1e-10（审核要求 4）。 ... ok
+test_kernel_matrix_matches_explicit_2d_sum (test_propagation.TestDiscreteIdentity)
+矩阵形式与显式二维求和一致（独立求积自身的交叉核对）。 ... ok
+test_non_square_and_different_spacing (test_propagation.TestDiscreteIdentity)
+非方形网格、x/y 间距不同（审核要求 7）。 ... ok
+test_odd_input_supported_and_origin_aligned (test_propagation.TestDiscreteIdentity)
+奇数输入：输出坐标仍以 0 为中心且含原点（审核要求 7）。 ... ok
+test_original_case_n48_dx40um_M96 (test_propagation.TestDiscreteIdentity)
+原 B 组参数（审核要求 2：离散恒等必须成立，即使连续采样不足）。 ... ok
+test_global_phase_switch_only_controls_exp_ikz (test_propagation.TestInterfaceSemantics) ... ok
+test_omit_output_quadratic_phase_semantics (test_propagation.TestInterfaceSemantics)
+**reduced 场 = C·F**（未乘输出二次相位），与完整场相差**一次** ``exp(+iq)``。 ... ok
+test_reduced_full_non_square_and_global_phase_combo (test_propagation.TestInterfaceSemantics)
+非方形 dx≠dy 网格 + 全局相位开关与本开关同时使用（S1 要求）。 ... ok
+test_spectral_forms_are_distinct (test_propagation.TestInterfaceSemantics)
+频域 Fresnel 近似与精确角谱必须区分名称。 ... ok
+test_spectral_global_phase_switch_both_methods (test_propagation.TestInterfaceSemantics)
+S5：两种频域传播的 ``include_global_phase`` 都必须真的生效。 ... ok
+test_exact_vs_leading_path_difference (test_propagation.TestParaxialDiagnostics) ... ok
+test_known_phase_error_value (test_propagation.TestParaxialDiagnostics)
+审核基准：ρ=1.25 mm、z=50 mm、λ=550 nm → 0.02788185 rad。 ... ok
+test_sampling_diagnostics_covers_three_terms (test_propagation.TestParaxialDiagnostics) ... ok
+test_sampling_diagnostics_output_not_used_as_input_term (test_propagation.TestParaxialDiagnostics)
+S7：输出二次相位是常量项，绝不能当作输入求积的变化项。 ... ok
+test_sampling_diagnostics_rectangular_dy_larger (test_propagation.TestParaxialDiagnostics)
+S7：矩形网格且 dy > dx 时，y 方向必须被单独检出（不能漏）。 ... ok
+test_sampling_diagnostics_uses_output_spacing_not_input (test_propagation.TestParaxialDiagnostics)
+S7：输出二次相位步进必须用**实际输出间距**，并且能标记"未评估"。 ... ok
+test_three_input_levels_fixed_pupil_and_window (test_propagation.TestSamplingConvergence)
+固定物理孔径与观察窗口，改变输入采样精度（审核要求 8）。 ... ok
+test_two_padding_factors (test_propagation.TestSamplingConvergence)
+S2 要求：``test_two_padding_factors`` 必须**实际执行 FFT**，且参数真的改变 M。 ... ok
+test_backtrack_exhaustion_raises (test_reconstruction.ReconstructionTests) ... ok
+test_backtracking_and_monotone_objective (test_reconstruction.ReconstructionTests) ... ok
+test_diagonal_analytic_solution (test_reconstruction.ReconstructionTests) ... ok
+test_evaluation_does_not_change_reconstruction_and_sam_undefined (test_reconstruction.ReconstructionTests) ... ok
+test_explicit_augmented_nnls_reference (test_reconstruction.ReconstructionTests) ... ok
+test_iteration_limit_is_not_converged (test_reconstruction.ReconstructionTests) ... ok
+test_reject_bad_measurement_or_config (test_reconstruction.ReconstructionTests) ... ok
+test_zero_measurement_and_zero_operator (test_reconstruction.ReconstructionTests) ... ok
+test_bad_inputs (test_reconstruction_accelerated.AcceleratedTests) ... ok
+test_diagonal_and_restart (test_reconstruction_accelerated.AcceleratedTests) ... ok
+test_full_crop_explicit_nnls (test_reconstruction_accelerated.AcceleratedTests) ... ok
+test_iteration_and_backtrack_limits (test_reconstruction_accelerated.AcceleratedTests) ... ok
+test_negative_extrapolation_is_not_clipped (test_reconstruction_accelerated.AcceleratedTests) ... ok
+test_zero_data_and_zero_operator (test_reconstruction_accelerated.AcceleratedTests) ... ok
+test_alpha_solutions_against_nnls (test_ridge_sensitivity.CertificateTests) ... ok
+test_exact_zero_vs_tiny_positive (test_ridge_sensitivity.CertificateTests) ... ok
+test_independent_nnls_bounds (test_ridge_sensitivity.CertificateTests) ... ok
+test_invalid_inputs (test_ridge_sensitivity.CertificateTests) ... ok
+test_invalid_config (test_ridge_sensitivity.SourceTests) ... ok
+test_real_source_and_readonly (test_ridge_sensitivity.SourceTests) ... ok
+test_tampered_alpha_rejected (test_ridge_sensitivity.SourceTests) ... ok
+test_entry_no_save_mode (test_stage02_entry.TestStage02Entry)
+测试 --no-save 模式：内存完成自检，退出码为 0，不创建垃圾文件。 ... ok
+test_invalid_config_fails_cleanly (test_stage02_entry.TestStage02Entry)
+测试非法配置时非零退出并给出明确错误（永久保留测试配置与日志证据，严禁自动删除）。 ... ok
+test_invocation_from_outside_project (test_stage02_entry.TestStage02Entry)
+测试从项目外部工作目录调用 main_stage02.py 能够正常通过 __file__ 解析路径。 ... ok
+test_only_height_is_partial_not_all_pass (test_stage02_entry.TestStage02Entry)
+测试 --only height 运行结果状态必须是 partial，未运行项在 self_check 中标为 not_run。 ... ok
+test_duplicate_wavelengths_rejected (test_stage02_failure_paths.TestStage02FailurePaths)
+测试预览波长列表中有重复项时在配置加载阶段报错。 ... ok
+test_empty_wavelengths_rejected_at_validation (test_stage02_failure_paths.TestStage02FailurePaths)
+测试波长列表为空时在配置加载阶段立即报错。 ... ok
+test_invalid_acceptance_threshold_rejected (test_stage02_failure_paths.TestStage02FailurePaths)
+测试验收阈值为 NaN 或 <=0 时被拒绝。 ... ok
+test_nan_field_fails_acceptance (test_stage02_failure_paths.TestStage02FailurePaths)
+测试包含 NaN 的场在自检中必须被拦截并抛出错误。 ... 执行过程中捕获异常: 试算波长 540.0 nm 结果异常: finite=False, peak=nan
+Traceback (most recent call last):
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02.py", line 903, in run_stage02a
+    raise RuntimeError(f"试算波长 {trial_lam*1e9:.1f} nm 结果异常: finite={trial_finite}, peak={trial_peak}")
+RuntimeError: 试算波长 540.0 nm 结果异常: finite=False, peak=nan
+ok
+test_zero_field_fails_acceptance (test_stage02_failure_paths.TestStage02FailurePaths)
+测试全零场（审核反例）在自检中必须被判定为 fail，状态必须为 failed。 ... 执行过程中捕获异常: 试算波长 540.0 nm 结果异常: finite=True, peak=0.0
+Traceback (most recent call last):
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02.py", line 903, in run_stage02a
+    raise RuntimeError(f"试算波长 {trial_lam*1e9:.1f} nm 结果异常: finite={trial_finite}, peak={trial_peak}")
+RuntimeError: 试算波长 540.0 nm 结果异常: finite=True, peak=0.0
+ok
+test_backend_probe_before_pyplot_and_fallback (test_stage02_r2.TestStage02R2) ... ok
+test_config_and_cli_show_reach_backend (test_stage02_r2.TestStage02R2) ... ok
+test_control_absolute_power_excess_fails (test_stage02_r2.TestStage02R2) ... 2026-10-04 23:12:45 [INFO] 有效配置路径：D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\config_stage02a.json
+2026-10-04 23:12:45 [INFO] === 阶段 02A 开始执行 ===
+2026-10-04 23:12:45 [INFO] 光学参数: D=1.00 mm, f=50.00 mm, z=50.00 mm, N=3
+2026-10-04 23:12:45 [INFO] 设计波长范围: [420.0, 660.0] nm
+2026-10-04 23:12:45 [INFO] 控制波长: 550.0 nm, 预览波长: [420, 540, 660] nm
+2026-10-04 23:12:45 [INFO] 执行模式: only_mode=control, 结果保存: 关闭(--no-save)
+2026-10-04 23:12:45 [INFO] 全局相位开关: include_global_phase=True
+2026-10-04 23:12:45 [INFO] 输入网格: shape=(1101, 1101), dx=1.00 μm, 实际半宽=550.0 μm
+2026-10-04 23:12:45 [INFO] 输出网格: shape=(301, 301), dx=1.00 μm, 实际半宽=150.0 μm
+2026-10-04 23:12:45 [INFO] 传播采样与近轴理论诊断（在最小波长 420 nm 处）: 最差输入相位步进=0.2096 rad, 三阶近轴高阶光程相位误差估计=0.014365 rad
+2026-10-04 23:12:45 [INFO] --- [F2] 正在执行 550nm 传统单色 Fresnel 透镜控制检验 ---
+2026-10-04 23:12:45 [ERROR] 执行过程中捕获异常: 控制光场物理检查失败：光场非零/有限/模平方/绝对功率检查失败
+Traceback (most recent call last):
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02.py", line 754, in run_stage02a
+    raise RuntimeError('控制光场物理检查失败：' + control_health['reason'])
+RuntimeError: 控制光场物理检查失败：光场非零/有限/模平方/绝对功率检查失败
+ok
+test_control_invalid_fields_write_failed_state (test_stage02_r2.TestStage02R2) ... 2026-10-04 23:12:45 [INFO] 有效配置路径：D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\config_stage02a.json
+2026-10-04 23:12:45 [INFO] === 阶段 02A 开始执行 ===
+2026-10-04 23:12:45 [INFO] 光学参数: D=1.00 mm, f=50.00 mm, z=50.00 mm, N=3
+2026-10-04 23:12:45 [INFO] 设计波长范围: [420.0, 660.0] nm
+2026-10-04 23:12:45 [INFO] 控制波长: 550.0 nm, 预览波长: [420, 540, 660] nm
+2026-10-04 23:12:45 [INFO] 执行模式: only_mode=control, 结果保存: 开启
+2026-10-04 23:12:45 [INFO] 全局相位开关: include_global_phase=True
+2026-10-04 23:12:45 [INFO] 输入网格: shape=(1101, 1101), dx=1.00 μm, 实际半宽=550.0 μm
+2026-10-04 23:12:45 [INFO] 输出网格: shape=(301, 301), dx=1.00 μm, 实际半宽=150.0 μm
+2026-10-04 23:12:45 [INFO] 传播采样与近轴理论诊断（在最小波长 420 nm 处）: 最差输入相位步进=0.2096 rad, 三阶近轴高阶光程相位误差估计=0.014365 rad
+2026-10-04 23:12:45 [INFO] --- [F2] 正在执行 550nm 传统单色 Fresnel 透镜控制检验 ---
+2026-10-04 23:12:45 [ERROR] 执行过程中捕获异常: 控制光场物理检查失败：光场非零/有限/模平方/绝对功率检查失败
+Traceback (most recent call last):
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02.py", line 754, in run_stage02a
+    raise RuntimeError('控制光场物理检查失败：' + control_health['reason'])
+RuntimeError: 控制光场物理检查失败：光场非零/有限/模平方/绝对功率检查失败
+2026-10-04 23:12:45 [INFO] 有效配置路径：D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\config_stage02a.json
+2026-10-04 23:12:45 [INFO] === 阶段 02A 开始执行 ===
+2026-10-04 23:12:45 [INFO] 光学参数: D=1.00 mm, f=50.00 mm, z=50.00 mm, N=3
+2026-10-04 23:12:45 [INFO] 设计波长范围: [420.0, 660.0] nm
+2026-10-04 23:12:45 [INFO] 控制波长: 550.0 nm, 预览波长: [420, 540, 660] nm
+2026-10-04 23:12:45 [INFO] 执行模式: only_mode=control, 结果保存: 开启
+2026-10-04 23:12:45 [INFO] 全局相位开关: include_global_phase=True
+2026-10-04 23:12:45 [INFO] 输入网格: shape=(1101, 1101), dx=1.00 μm, 实际半宽=550.0 μm
+2026-10-04 23:12:45 [INFO] 输出网格: shape=(301, 301), dx=1.00 μm, 实际半宽=150.0 μm
+2026-10-04 23:12:45 [INFO] 传播采样与近轴理论诊断（在最小波长 420 nm 处）: 最差输入相位步进=0.2096 rad, 三阶近轴高阶光程相位误差估计=0.014365 rad
+2026-10-04 23:12:45 [INFO] --- [F2] 正在执行 550nm 传统单色 Fresnel 透镜控制检验 ---
+2026-10-04 23:12:46 [ERROR] 执行过程中捕获异常: 控制光场物理检查失败：复场/强度包含NaN或Inf
+Traceback (most recent call last):
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02.py", line 754, in run_stage02a
+    raise RuntimeError('控制光场物理检查失败：' + control_health['reason'])
+RuntimeError: 控制光场物理检查失败：复场/强度包含NaN或Inf
+2026-10-04 23:12:46 [INFO] 有效配置路径：D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\config_stage02a.json
+2026-10-04 23:12:46 [INFO] === 阶段 02A 开始执行 ===
+2026-10-04 23:12:46 [INFO] 光学参数: D=1.00 mm, f=50.00 mm, z=50.00 mm, N=3
+2026-10-04 23:12:46 [INFO] 设计波长范围: [420.0, 660.0] nm
+2026-10-04 23:12:46 [INFO] 控制波长: 550.0 nm, 预览波长: [420, 540, 660] nm
+2026-10-04 23:12:46 [INFO] 执行模式: only_mode=control, 结果保存: 开启
+2026-10-04 23:12:46 [INFO] 全局相位开关: include_global_phase=True
+2026-10-04 23:12:46 [INFO] 输入网格: shape=(1101, 1101), dx=1.00 μm, 实际半宽=550.0 μm
+2026-10-04 23:12:46 [INFO] 输出网格: shape=(301, 301), dx=1.00 μm, 实际半宽=150.0 μm
+2026-10-04 23:12:46 [INFO] 传播采样与近轴理论诊断（在最小波长 420 nm 处）: 最差输入相位步进=0.2096 rad, 三阶近轴高阶光程相位误差估计=0.014365 rad
+2026-10-04 23:12:46 [INFO] --- [F2] 正在执行 550nm 传统单色 Fresnel 透镜控制检验 ---
+2026-10-04 23:12:46 [ERROR] 执行过程中捕获异常: 控制光场物理检查失败：复场或强度shape与物理网格不符
+Traceback (most recent call last):
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02.py", line 754, in run_stage02a
+    raise RuntimeError('控制光场物理检查失败：' + control_health['reason'])
+RuntimeError: 控制光场物理检查失败：复场或强度shape与物理网格不符
+ok
+test_control_only_report_marks_doe_not_run (test_stage02_r2.TestStage02R2) ... 2026-10-04 23:12:46 [INFO] 有效配置路径：D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\config_stage02a.json
+2026-10-04 23:12:46 [INFO] === 阶段 02A 开始执行 ===
+2026-10-04 23:12:46 [INFO] 光学参数: D=1.00 mm, f=50.00 mm, z=50.00 mm, N=3
+2026-10-04 23:12:46 [INFO] 设计波长范围: [420.0, 660.0] nm
+2026-10-04 23:12:46 [INFO] 控制波长: 550.0 nm, 预览波长: [420, 540, 660] nm
+2026-10-04 23:12:46 [INFO] 执行模式: only_mode=control, 结果保存: 关闭(--no-save)
+2026-10-04 23:12:46 [INFO] 全局相位开关: include_global_phase=True
+2026-10-04 23:12:46 [INFO] 输入网格: shape=(1101, 1101), dx=1.00 μm, 实际半宽=550.0 μm
+2026-10-04 23:12:46 [INFO] 输出网格: shape=(301, 301), dx=1.00 μm, 实际半宽=150.0 μm
+2026-10-04 23:12:46 [INFO] 传播采样与近轴理论诊断（在最小波长 420 nm 处）: 最差输入相位步进=0.2096 rad, 三阶近轴高阶光程相位误差估计=0.014365 rad
+2026-10-04 23:12:46 [INFO] --- [F2] 正在执行 550nm 传统单色 Fresnel 透镜控制检验 ---
+2026-10-04 23:12:46 [INFO] [F2] 控制传播完成，耗时: 0.1747 s
+2026-10-04 23:12:46 [INFO] === 阶段 02A 执行完成，总耗时: 0.3682 s ===
+ok
+test_direct_run_rejects_existing_products (test_stage02_r2.TestStage02R2) ... ok
+test_figure_lifecycle_when_show_requested (test_stage02_r2.TestStage02R2) ... 2026-10-04 23:12:46 [INFO] 有效配置路径：D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\config_stage02a.json
+2026-10-04 23:12:46 [INFO] === 阶段 02A 开始执行 ===
+2026-10-04 23:12:46 [INFO] 光学参数: D=1.00 mm, f=50.00 mm, z=50.00 mm, N=3
+2026-10-04 23:12:46 [INFO] 设计波长范围: [420.0, 660.0] nm
+2026-10-04 23:12:46 [INFO] 控制波长: 550.0 nm, 预览波长: [420, 540, 660] nm
+2026-10-04 23:12:46 [INFO] 执行模式: only_mode=height, 结果保存: 关闭(--no-save)
+2026-10-04 23:12:46 [INFO] 全局相位开关: include_global_phase=True
+2026-10-04 23:12:46 [INFO] 输入网格: shape=(1101, 1101), dx=1.00 μm, 实际半宽=550.0 μm
+2026-10-04 23:12:46 [INFO] 输出网格: shape=(301, 301), dx=1.00 μm, 实际半宽=150.0 μm
+2026-10-04 23:12:46 [INFO] 传播采样与近轴理论诊断（在最小波长 420 nm 处）: 最差输入相位步进=0.2096 rad, 三阶近轴高阶光程相位误差估计=0.014365 rad
+2026-10-04 23:12:46 [INFO] --- [F1] 正在设计 Jeon 2019 N=3 连续 DOE 高度与自检 ---
+2026-10-04 23:12:47 [INFO] [F1] DOE 高度设计完成，耗时: 0.1768 s, 器件指纹: 8527724f6aeffc0314d09313d89fdca0c2c864827e6a47308480968bcabc1350
+2026-10-04 23:12:47 [INFO] === 阶段 02A 执行完成，总耗时: 0.3682 s ===
+ok
+test_fractional_nm_rejected (test_stage02_r2.TestStage02R2) ... ok
+test_global_phase_switch_reaches_propagation (test_stage02_r2.TestStage02R2) ... 2026-10-04 23:12:47 [INFO] 有效配置路径：D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\config_stage02a.json
+2026-10-04 23:12:47 [INFO] === 阶段 02A 开始执行 ===
+2026-10-04 23:12:47 [INFO] 光学参数: D=1.00 mm, f=50.00 mm, z=50.00 mm, N=3
+2026-10-04 23:12:47 [INFO] 设计波长范围: [420.0, 660.0] nm
+2026-10-04 23:12:47 [INFO] 控制波长: 550.0 nm, 预览波长: [420, 540, 660] nm
+2026-10-04 23:12:47 [INFO] 执行模式: only_mode=control, 结果保存: 关闭(--no-save)
+2026-10-04 23:12:47 [INFO] 全局相位开关: include_global_phase=False
+2026-10-04 23:12:47 [INFO] 输入网格: shape=(1101, 1101), dx=1.00 μm, 实际半宽=550.0 μm
+2026-10-04 23:12:47 [INFO] 输出网格: shape=(301, 301), dx=1.00 μm, 实际半宽=150.0 μm
+2026-10-04 23:12:47 [INFO] 传播采样与近轴理论诊断（在最小波长 420 nm 处）: 最差输入相位步进=0.2096 rad, 三阶近轴高阶光程相位误差估计=0.014365 rad
+2026-10-04 23:12:47 [INFO] --- [F2] 正在执行 550nm 传统单色 Fresnel 透镜控制检验 ---
+2026-10-04 23:12:47 [INFO] [F2] 控制传播完成，耗时: 0.1581 s
+2026-10-04 23:12:47 [INFO] === 阶段 02A 执行完成，总耗时: 0.2511 s ===
+ok
+test_missing_artifact_rejected (test_stage02_r2.TestStage02R2) ... ok
+test_missing_fields_and_offset_rejected (test_stage02_r2.TestStage02R2) ... ok
+test_nonempty_directory_preserved_before_logging (test_stage02_r2.TestStage02R2) ... ok
+test_relative_config_cli_outside_project (test_stage02_r2.TestStage02R2) ... ok
+test_report_uses_configured_control_and_threshold (test_stage02_r2.TestStage02R2) ... ok
+test_required_checks_not_replaced_by_count (test_stage02_r2.TestStage02R2) ... ok
+test_runtime_combinations_and_cli (test_stage02_r2.TestStage02R2) ... ok
+test_same_integer_file_identifier_rejected (test_stage02_r2.TestStage02R2) ... ok
+test_r1_corner_only_field_returns_not_reached (test_stage02b1.TestAuditCounterexamples)
+审核反例：强度只在 r>155 μm 的方窗角落时，150 μm 圆盘能量为 0。 ... ok
+test_r1_disk_beyond_Rlimit_rejected (test_stage02b1.TestAuditCounterexamples)
+超过完整圆盘上限的评价半径必须被拒绝，不能给出看似有效的 Eabs。 ... ok
+test_r1_gaussian_still_matches_analytic (test_stage02b1.TestAuditCounterexamples)
+保留高斯解析验证（回归）：修正不得破坏正确行为。 ... ok
+test_r1_radius_scale_is_not_float_noise (test_stage02b1.TestAuditCounterexamples)
+径向分辨率必须是明确采样尺度，不是约 1e-20 m 的浮点最小差。 ... ok
+test_r1_square_reaches_but_inscribed_circle_does_not (test_stage02b1.TestAuditCounterexamples)
+宽分布：方窗内达标但内切圆（150 μm）内不达标 —— 必须 not_reached。 ... ok
+test_r2_both_power_fields_doubled_rejected (test_stage02b1.TestAuditCounterexamples)
+审核反例：Pin 与 Pwindow **同时乘 2** 必须被拒绝（旧实现仍 pass）。 ... ok
+test_r2_design_lambda_tampering_rejected (test_stage02b1.TestAuditCounterexamples)
+改高度文件里的设计 λ 图（保留旧指纹字段）必须被独立重算发现。 ... ok
+test_r2_metadata_tampering_rejected (test_stage02b1.TestAuditCounterexamples)
+改 η / n(λ) / 振幅 / y 轴 / 设计 λ / dtype 都必须被拒绝。 ... ok
+test_r2_self_consistent_synthetic_passes (test_stage02b1.TestAuditCounterexamples) ... ok
+test_r2_single_power_field_changed_rejected (test_stage02b1.TestAuditCounterexamples)
+只改 Pwindow（保持 Pin）也必须被拒绝：重积分会发现不符。 ... ok
+test_r2_tampered_height_content_rejected (test_stage02b1.TestAuditCounterexamples)
+改高度内容（不改指纹字段）必须被独立重算指纹发现。 ... ok
+test_r3_propagation_uses_configured_distance (test_stage02b1.TestAuditCounterexamples)
+小网格反例：z=60 mm 必须与 z=50 mm 不同，且与直接参考一致。 ... ok
+test_r3_psf_records_both_z_and_f (test_stage02b1.TestAuditCounterexamples)
+PSF 必须同时记录实际传播距离与器件设计焦距。 ... ok
+test_r7_empty_band_and_mixed_sequence (test_stage02b1.TestAuditCounterexamples)
+无环带能量、以及可靠/不可靠混合序列都必须正常处理，不崩溃。 ... ok
+test_r7_reliable_alpha_present (test_stage02b1.TestAuditCounterexamples)
+可靠时 alpha 必须给出数值（不能一律置空）。 ... ok
+test_r7_unreliable_alpha_is_null (test_stage02b1.TestAuditCounterexamples)
+轴对称高斯：A3 极低 → alpha 必须为 null，原始相位另名且标注无效。 ... ok
+test_a3_equals_analytic_value (test_stage02b1.TestC3AgainstAnalyticThreeFold)
+对 ``I = g(r)[1+a·cos(3(θ−α))]``，``A3 = |C3|/Pband = a/2``。 ... ok
+test_alpha_recovered_modulo_120deg (test_stage02b1.TestC3AgainstAnalyticThreeFold)
+理论 arg(C3)/3 = α（模 120°）：跨周期的正负角都必须正确。 ... ok
+test_ambiguity_flagged_near_pi (test_stage02b1.TestC3AgainstAnalyticThreeFold)
+相邻三倍相位包裹差接近 π 时必须标记角度采样歧义。 ... ok
+test_axisymmetric_gaussian_gives_zero_c3 (test_stage02b1.TestC3AgainstAnalyticThreeFold)
+轴对称高斯：C3 应接近 0，且必须判为方向不可靠。 ... ok
+test_band_excludes_axis_and_outside (test_stage02b1.TestC3AgainstAnalyticThreeFold)
+环带外权重为 0、光轴 r=0 不计入：只改环带外的像素不得改变 C3。 ... ok
+test_sign_convention_counterclockwise_positive (test_stage02b1.TestC3AgainstAnalyticThreeFold)
+逆时针为正：α 增大时 arg(C3) 增大（同号）。 ... ok
+test_unwrap_across_120deg_period (test_stage02b1.TestC3AgainstAnalyticThreeFold)
+跨 120° 周期的连续段必须正确展开，且分段不跨不可靠间隙。 ... ok
+test_unwrap_does_not_cross_unreliable_gap (test_stage02b1.TestC3AgainstAnalyticThreeFold)
+低可靠点把序列切断，方向不得跨间隙续接。 ... ok
+test_aperture_not_covered_rejected (test_stage02b1.TestConfigAndModes) ... ok
+test_grid_inconsistency_rejected (test_stage02b1.TestConfigAndModes) ... ok
+test_identity_expected_size_is_18 (test_stage02b1.TestConfigAndModes) ... ok
+test_required_checks_respect_save_mode (test_stage02b1.TestConfigAndModes) ... ok
+test_valid_config_loads (test_stage02b1.TestConfigAndModes) ... ok
+test_wings_N_must_be_three (test_stage02b1.TestConfigAndModes) ... ok
+test_wrong_wavelength_count_rejected (test_stage02b1.TestConfigAndModes) ... ok
+test_R50_R80_match_analytic_radius (test_stage02b1.TestGaussianEnergyAnalytic)
+R50/R80 应等于 σ·sqrt(2·ln(1/(1−q)))。 ... ok
+test_absolute_encircled_energy_matches_analytic (test_stage02b1.TestGaussianEnergyAnalytic)
+E(R) = 1 − exp[−R²/(2σ²)]，分母用解析全平面功率。 ... ok
+test_not_reached_reported_when_window_too_small (test_stage02b1.TestGaussianEnergyAnalytic)
+窗口不足时必须报 not_reached，**不插值**、不假装测出。 ... ok
+test_threshold_area_radius_matches_analytic (test_stage02b1.TestGaussianEnergyAnalytic)
+高斯阈值面积 A_q = −2πσ²ln(q)，r_eq = σ·sqrt(−2 ln q)。 ... ok
+test_threshold_area_truncated_by_roi (test_stage02b1.TestGaussianEnergyAnalytic)
+固定 ROI 截断必须真的生效并如实反映在面积上。 ... ok
+test_bad_eta_on_either_device_rejected (test_stage02b1.TestIdentitySetAndReverify)
+两个器件都要检查功率：不能只检查 Jeon。 ... ok
+test_complete_synthetic_set_passes (test_stage02b1.TestIdentitySetAndReverify) ... ok
+test_duplicate_identity_rejected (test_stage02b1.TestIdentitySetAndReverify) ... ok
+test_missing_one_wavelength_rejected (test_stage02b1.TestIdentitySetAndReverify) ... ok
+test_tampered_height_rejected (test_stage02b1.TestIdentitySetAndReverify) ... ok
+test_wrong_wavelength_label_rejected (test_stage02b1.TestIdentitySetAndReverify) ... ok
+test_nan_intensity_rejected (test_stage02b1.TestSizeSummaryAndValidation) ... ok
+test_summarize_empty (test_stage02b1.TestSizeSummaryAndValidation) ... ok
+test_summarize_reports_valid_sample_count (test_stage02b1.TestSizeSummaryAndValidation) ... ok
+test_wrong_shape_rejected (test_stage02b1.TestSizeSummaryAndValidation) ... ok
+test_zero_energy_and_bad_pin_rejected (test_stage02b1.TestSizeSummaryAndValidation) ... ok
+test_all_requires_analysis_and_delivery (test_stage02b_final_audit.TestFinalAudit) ... ok
+test_from_run_rejects_forged_power (test_stage02b_final_audit.TestFinalAudit) ... ok
+test_height_partial_and_report_failure_recorded (test_stage02b_final_audit.TestFinalAudit) ... 报告生成失败：RuntimeError: 报告写入反例
+
+Traceback (most recent call last):
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02b.py", line 1422, in run_stage02b1
+    report_text = build_report(
+  File "D:\dev\python\python3.10.4\lib\unittest\mock.py", line 1104, in __call__
+    return self._mock_call(*args, **kwargs)
+  File "D:\dev\python\python3.10.4\lib\unittest\mock.py", line 1108, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+  File "D:\dev\python\python3.10.4\lib\unittest\mock.py", line 1163, in _execute_mock_call
+    raise effect
+RuntimeError: 报告写入反例
+
+阶段 02B-1 执行失败：RuntimeError: 报告写入反例
+
+Traceback (most recent call last):
+  File "D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\main_stage02b.py", line 1422, in run_stage02b1
+    report_text = build_report(
+  File "D:\dev\python\python3.10.4\lib\unittest\mock.py", line 1104, in __call__
+    return self._mock_call(*args, **kwargs)
+  File "D:\dev\python\python3.10.4\lib\unittest\mock.py", line 1108, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+  File "D:\dev\python\python3.10.4\lib\unittest\mock.py", line 1163, in _execute_mock_call
+    raise effect
+RuntimeError: 报告写入反例
+
+ok
+test_no_save_show_creates_figures_and_calls_show (test_stage02b_final_audit.TestFinalAudit) ... ok
+test_reject_invalid_physics (test_stage02c_contract.Stage02CContract) ... ok
+test_reject_unimplemented_camera (test_stage02c_contract.Stage02CContract) ... ok
+test_unreliable_angles_are_not_invented (test_stage02c_contract.Stage02CContract) ... ok
+test_valid_default (test_stage02c_contract.Stage02CContract) ... ok
+test_config_negative_paths (test_stage02d1_source.SourceTests) ... ok
+test_real_source_verifies_and_preserves_eta (test_stage02d1_source.SourceTests) ... ok
+test_reject_center_point_and_wrong_pitch (test_stage02d1_source.SourceTests) ... ok
+test_reject_missing_source (test_stage02d1_source.SourceTests) ... ok
+test_reject_wrong_input_power_even_with_saved_metadata (test_stage02d1_source.SourceTests) ... ok
+test_config_validation (test_stage02d2_source.SourceReconstructionTests) ... ok
+test_reject_missing_or_modified_model (test_stage02d2_source.SourceReconstructionTests) ... ok
+test_source_identity_and_readonly (test_stage02d2_source.SourceReconstructionTests) ... ok
+test_incomplete_run_report_is_serializable (test_stage02d3_source.AcceleratedSourceTests) ... continuous_coincident_points_crop：iteration_limit，1轮，数据残差0.5834，cube误差0.9981，投影梯度0.2419
+continuous_separated_points_crop：iteration_limit，1轮，数据残差0.8485，cube误差0.9985，投影梯度0.47
+continuous_lines_and_square_crop：iteration_limit，1轮，数据残差0.3229，cube误差0.9377，投影梯度0.1407
+continuous_lines_and_square_full：iteration_limit，1轮，数据残差0.3229，cube误差0.9377，投影梯度0.1407
+nearest_depth_coincident_points_crop：iteration_limit，1轮，数据残差0.5835，cube误差0.9981，投影梯度0.2421
+nearest_depth_separated_points_crop：iteration_limit，1轮，数据残差0.8482，cube误差0.9985，投影梯度0.4701
+nearest_depth_lines_and_square_crop：iteration_limit，1轮，数据残差0.323，cube误差0.9374，投影梯度0.1407
+nearest_depth_lines_and_square_full：iteration_limit，1轮，数据残差0.3231，cube误差0.9374，投影梯度0.1407
+ok
+test_missing_source_and_bad_configuration (test_stage02d3_source.AcceleratedSourceTests) ... ok
+test_real_source_fixed_alpha_and_readonly (test_stage02d3_source.AcceleratedSourceTests) ... ok
+test_reject_altered_actual_alpha (test_stage02d3_source.AcceleratedSourceTests) ... ok
+test_actual_iteration_limit_report_json (test_stage02e2.Tests) ... ok
+test_forged_total_optimization_flag_rejected (test_stage02e2.Tests) ... ok
+test_invalid_configuration (test_stage02e2.Tests) ... ok
+test_missing_source (test_stage02e2.Tests) ... ok
+test_real_incomplete_optimization_source_allowed (test_stage02e2.Tests) ... ok
+test_tampered_alpha_rejected (test_stage02e2.Tests) ... ok
+test_actual_one_iteration_report_json (test_stage02e3.Tests) ... ok
+test_duplicate_references_rejected (test_stage02e3.Tests) ... ok
+test_forged_reference_certificate_total_rejected (test_stage02e3.Tests) ... ok
+test_invalid_configurations (test_stage02e3.Tests) ... ok
+test_real_pair_source_and_reference_status (test_stage02e3.Tests) ... ok
+test_tampered_reference_alpha_rejected (test_stage02e3.Tests) ... ok
+test_invalid_interval_inputs (test_stage02e4.IntervalTests) ... ok
+test_triangle_bounds_and_zero_crossing (test_stage02e4.IntervalTests) ... ok
+test_actual_one_iteration_falls_back (test_stage02e4.Tests) ... ok
+test_cached_execution_exact_and_no_solver_call (test_stage02e4.Tests) ... ok
+test_invalid_config (test_stage02e4.Tests) ... ok
+test_real_source_alpha_and_readonly (test_stage02e4.Tests) ... ok
+test_strict_reuse_conditions (test_stage02e4.Tests) ... ok
+test_tampered_cached_reconstruction_rejected (test_stage02e4.Tests) ... ok
+test_bad_reference (test_stage02f1.ElectronNoiseTests) ... ok
+test_blocks_do_not_change_random_draws (test_stage02f1.ElectronNoiseTests) ... ok
+test_invalid_parameters (test_stage02f1.ElectronNoiseTests) ... ok
+test_negative_readout (test_stage02f1.ElectronNoiseTests) ... ok
+test_negative_roundoff (test_stage02f1.ElectronNoiseTests) ... ok
+test_photon_response (test_stage02f1.ElectronNoiseTests) ... ok
+test_roles_and_order (test_stage02f1.ElectronNoiseTests) ... ok
+test_spatial_moments_independent (test_stage02f1.ElectronNoiseTests) ... ok
+test_zero_and_single_noise_controls (test_stage02f1.ElectronNoiseTests) ... ok
+test_bad_inputs (test_stage02f2.ElectronReconstructionTests) ... ok
+test_electron_direct_and_scale (test_stage02f2.ElectronReconstructionTests) ... ok
+test_iteration_limit_is_not_convergence (test_stage02f2.ElectronReconstructionTests) ... ok
+test_negative_target_and_background (test_stage02f2.ElectronReconstructionTests) ... ok
+test_objective_certificate_and_status (test_stage02f2.ElectronReconstructionTests) ... ok
+test_signed_adjoint_and_gradient (test_stage02f2.ElectronReconstructionTests) ... ok
+test_truth_isolation (test_stage02f2.ElectronReconstructionTests) ... ok
+test_weight_variance_floor (test_stage02f2.ElectronReconstructionTests) ... ok
+test_weighted_chain_explicit (test_stage02f2.ElectronReconstructionTests) ... ok
+test_changed_alpha_or_L_rejected (test_stage02f3_1.FrozenControlTests) ... ok
+test_cross_term_can_be_negative (test_stage02f3_1.FrozenControlTests) ... ok
+test_frozen_weight_recomputed_rejected (test_stage02f3_1.FrozenControlTests) ... ok
+test_intervals_clip_lower_at_zero (test_stage02f3_1.FrozenControlTests) ... ok
+test_invalid_decomposition (test_stage02f3_1.FrozenControlTests) ... ok
+test_negative_ideal_target_retained (test_stage02f3_1.FrozenControlTests) ... ok
+test_no_parameter_estimation_in_control (test_stage02f3_1.FrozenControlTests) ... ok
+test_nonzero_background_and_limit (test_stage02f3_1.FrozenControlTests) ... ok
+test_truth_isolation (test_stage02f3_1.FrozenControlTests) ... ok
+test_explicit_scatter_adjoint (test_stage02f3_2.HoldoutTests) ... ok
+test_full_alpha_uses_full_operator (test_stage02f3_2.HoldoutTests) ... ok
+test_incomplete_candidates_never_select (test_stage02f3_2.HoldoutTests) ... ok
+test_invalid_indices_and_fraction (test_stage02f3_2.HoldoutTests) ... ok
+test_negative_observation_and_background (test_stage02f3_2.HoldoutTests) ... ok
+test_score_independent_and_strict_tie (test_stage02f3_2.HoldoutTests) ... ok
+test_split_partition_and_repeat (test_stage02f3_2.HoldoutTests) ... ok
+test_truth_and_ideal_context_isolation (test_stage02f3_2.HoldoutTests) ... ok
+test_validation_changes_do_not_change_training (test_stage02f3_2.HoldoutTests) ... ok
+test_bad_energy_window_fails_despite_small_numeric_error (test_validation_completion.TestCompletionAcceptance) ... ok
+test_bad_padding_trend_fails_despite_small_finest_error (test_validation_completion.TestCompletionAcceptance) ... ok
+test_disabled_explicitly_requested_group_fails (test_validation_completion.TestCompletionAcceptance) ... ok
+test_missing_paper_scale_case_fails (test_validation_completion.TestCompletionAcceptance) ... ok
+test_missing_requested_direct_measurement_fails (test_validation_completion.TestCompletionAcceptance) ... ok
+test_negative_ring_error_is_checked_by_absolute_value (test_validation_completion.TestCompletionAcceptance) ... ok
+test_non_first_airy_nan_and_missing_measurement_fail (test_validation_completion.TestCompletionAcceptance) ... ok
+test_valid_airy_fixture_passes (test_validation_completion.TestCompletionAcceptance) ... ok
+test_absolute_airy_energy_and_output_grid_refinement (test_validation_completion.TestFiniteEnergy) ... ok
+test_off_center_rectangular_support_matches_full_kernel (test_validation_completion.TestFiniteEnergy)
+裁去全零输入后仍使用原坐标，不能把非对称支撑重新居中。 ... ok
+test_zero_input_rejected (test_validation_completion.TestFiniteEnergy) ... ok
+
+----------------------------------------------------------------------
+Ran 250 tests in 274.725s
+
+OK
