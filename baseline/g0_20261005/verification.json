@@ -1,0 +1,47 @@
+{
+  "timestamp_local": "2026-10-05T22:18:11.458031+08:00",
+  "passed": true,
+  "full_local": {
+    "passed": true,
+    "checked": 767,
+    "skipped": 0,
+    "failures": [],
+    "mode": "full_local"
+  },
+  "negative_checks": {
+    "missing_rejected": true,
+    "tampered_rejected": true,
+    "traversal_rejected": true,
+    "duplicate_rejected": true,
+    "bad_digest_rejected": true,
+    "empty_rejected": true
+  },
+  "cli": {
+    "full_local": {
+      "exit_code": 0,
+      "stdout": "G0冻结核对：通过\n模式=full_local，核对=767，跳过=0\n",
+      "stderr": ""
+    },
+    "code_only_external_cwd": {
+      "exit_code": 0,
+      "stdout": "G0冻结核对：通过\n模式=code_only，核对=131，跳过=636\n代码文档通过不能证明本地数值证据齐全。\n",
+      "stderr": ""
+    },
+    "restored_code_only": {
+      "exit_code": 0,
+      "stdout": "G0冻结核对：通过\n模式=code_only，核对=131，跳过=636\n代码文档通过不能证明本地数值证据齐全。\n",
+      "stderr": ""
+    }
+  },
+  "archive_sha256": "ae2477e9f62adc372e02724f105ca465adda25575d697af90dee388b292419ae",
+  "archive_bytes": 562915,
+  "restored_directory": "work\\g0_restore_check_20261005_221805",
+  "raw_code_archive_restore_passed": true,
+  "manifest_sha256": "a912fc33b1f4195a6f7d96d20f79f297afd1f2d48e423acf2ec2a858dd045269",
+  "manifest_file_count": 767,
+  "manifest_bytes": 998857668,
+  "unchanged_original_physics_code": true,
+  "full_regression_rerun": false,
+  "pure_git_clone_full_numeric_restore_verified": false,
+  "note": "原始代码字节ZIP已在新目录实际恢复；数组归档和纯Git克隆完整恢复未验证；不删除解包证据。"
+}
