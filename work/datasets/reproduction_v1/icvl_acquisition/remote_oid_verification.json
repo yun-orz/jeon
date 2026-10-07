@@ -1,0 +1,19 @@
+{
+  "artifact": "remote_oid_verification.json",
+  "generated_at": "2026-10-07T13:38:50+0800",
+  "repo_id": "ICVL-BGU/ICVL_HS_2016",
+  "revision": "d2cf6714224029431cf4cec551ca6753ed59bc52",
+  "credential_used": true,
+  "credential_value_recorded": false,
+  "remote_entry_count": 202,
+  "oids_redacted": 0,
+  "compared_count": 202,
+  "matched_count": 202,
+  "mismatched_count": 0,
+  "remote_only_missing_count": 0,
+  "malformed_oid_count": 0,
+  "mismatched": [],
+  "remote_missing": [],
+  "malformed": [],
+  "status": "passed"
+}

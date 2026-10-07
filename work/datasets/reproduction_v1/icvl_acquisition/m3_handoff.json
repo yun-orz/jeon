@@ -1,0 +1,126 @@
+{
+  "artifact": "m3_handoff.json",
+  "purpose": "Machine-readable handoff from the ICVL acquisition work package to Codex/M3. States exactly what M3 must configure, what was verified, and what was NOT decided here.",
+  "generated_at": "2026-10-07T05:30:00Z",
+  "generated_at_local": "2026-10-07T13:30:00+08:00",
+  "status": "passed",
+
+  "m3_integration": {
+    "config_file": "outputs/jeon2019_optics/reproduction_v1/config_m3.json",
+    "config_key": "local_icvl_dir",
+    "current_value_in_m3_config": null,
+    "value_to_set": "H:\\我的云端硬盘\\Jeon2019_data\\reproduction_v1\\icvl\\mat",
+    "portable_value_to_set": "H:/Jeon2019_data/reproduction_v1/icvl/mat",
+    "why_this_path": "m3_pipeline.source_records() enumerates *.mat inside the directory given by local_icvl_dir, validates each filename against the official catalog and each size against catalog[filename]['size'], then counts them. It needs the directory that CONTAINS the .mat files.",
+    "m3_gate_satisfied": true,
+    "m3_gate_requirement": "availability.icvl_files >= 150",
+    "m3_gate_available": 202,
+    "note_do_not_do": "This work package does NOT edit config_m3.json. Codex/M3 owns that file. It was verified to still have local_icvl_dir = null."
+  },
+
+  "verified_data": {
+    "mat_file_count": 202,
+    "unique_scene_count": 202,
+    "total_bytes": 28199177384,
+    "all_sha256_computed_on_disk": true,
+    "sha256_matched_against_repo_declared_oids": 202,
+    "sha256_mismatched": 0,
+    "all_hdf5_openable": true,
+    "all_have_rad": true,
+    "all_have_bands": true,
+    "all_wavelengths_strictly_increasing": true,
+    "all_are_400_700_31_10nm": true,
+    "all_contain_420_660_10nm": true,
+    "cloud_placeholder_detected": false,
+    "raw_downloaded": false,
+    "preview_downloaded": false,
+    "failure_count": 0
+  },
+
+  "rad_layout_warning": {
+    "rad_shape_stored": "[31, 1392, W]",
+    "band_axis": "FIRST (axis 0), not last",
+    "rad_dtype": "float64",
+    "bands_shape_stored": "[31, 1]",
+    "bands_nm": "400,410,...,700 (identical for all 202 scenes)",
+    "target_band_indices_420_660": "[2,3,4,...,26]",
+    "indices_source": "value matching against each file's own bands array; never a hardcoded slice",
+    "width_is_not_constant": true,
+    "width_distribution": {"1300": 186, "1083": 5, "1084": 2, "1082": 1, "1202": 1, "1196": 1, "1194": 1, "1191": 1, "1027": 1, "1023": 1, "1018": 1, "1021": 1},
+    "warning": "M3 must NOT assume (H, W, C) axis order and must NOT assume a constant width. Read the actual shape per scene. rad_shape_stored in icvl_hdf5_audit.json is recorded exactly as stored, never transposed."
+  },
+
+  "verified_interface_agreement": {
+    "m3_catalog_file": "work/datasets/reproduction_v1/source_review/run_20261007_initial/icvl_catalog.txt",
+    "m3_catalog_mat_count": 202,
+    "m3_catalog_total_bytes": 28199177384,
+    "independent_acquisition_inventory_mat_count": 202,
+    "independent_acquisition_inventory_total_bytes": 28199177384,
+    "agree": true,
+    "meaning": "M3's catalog and this work package's independent API fetch agree exactly, so the size-based validation M3 performs is consistent with the manifest produced here."
+  },
+
+  "what_this_work_package_verified_beyond_m3_validation": {
+    "m3_checks": "filename present in official catalog + file size equals catalog size",
+    "additional_here": [
+      "SHA256 of every file computed from the bytes on disk",
+      "SHA256 compared against the repository's own declared LFS oid: 202/202 matched, 0 mismatched",
+      "HDF5 open + rad/bands presence: 202/202",
+      "rad_shape_stored recorded exactly as stored, never transposed",
+      "actual wavelength values read and checked strictly increasing: 202/202",
+      "400-700 nm / 31 bands / 10 nm structure enforced: 202/202",
+      "420-660 nm / 25 target bands verified, indices derived by value matching: 202/202",
+      "cloud-placeholder / read-failure detection on the Google Drive mount: 0 problems",
+      "post-audit re-hash proved the audit was read-only"
+    ],
+    "note": "Size-only validation cannot detect a same-size corrupted file; the SHA256 layer here can, and it is now anchored to the repository's own published digests."
+  },
+
+  "deliberately_not_done_by_this_work_package": [
+    "no train/val/test scene split",
+    "no selection of the formal 150-scene subset (no random / first-N / speed-based / content-based choice)",
+    "no normalization fitting",
+    "no measurement gain fitting",
+    "no training patch generation",
+    "no reconstruction network run",
+    "no reading of any sealed test set for prediction or metrics",
+    "no modification of the M2 operator package",
+    "no modification of M1 GPU environment",
+    "no modification of M3 source or results"
+  ],
+
+  "scene_split_note": "All 202 scenes were downloaded in full. Scene names are visible in mat/ (e.g. Lehavim_*, nachal_*, objects_*, negev_*). This work package did NOT use them to select anything. All split and subset decisions belong to Codex/M3 per task doc sections 12.2 and 23.",
+
+  "handoff_files": [
+    "icvl_source.json",
+    "icvl_file_manifest.json",
+    "icvl_hdf5_audit.json",
+    "remote_oid_verification.json",
+    "storage_probe.json",
+    "dataset_roots.json",
+    "dry_run.txt",
+    "download_stdout.txt",
+    "download_stderr.txt",
+    "acquisition_report.md",
+    "m3_handoff.json"
+  ],
+
+  "reproduce_command": "& 'D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\icvl_acquisition\\run_download_and_audit.ps1' -DataRoot 'H:\\我的云端硬盘\\Jeon2019_data\\reproduction_v1\\icvl' -OutDir 'D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\icvl_acquisition'",
+
+  "storage_caveat_for_m3": {
+    "g_and_h_are_the_same_volume": true,
+    "volume_serial_numbers": {"G": "19831116", "H": "19831116"},
+    "meaning": "G: and H: are two account labels over ONE volume and share a single pool of free space. Treating them as independent storage, or falling back to the other letter when one looks full, is invalid on this host.",
+    "free_space_is_account_quota_not_local_disk": true,
+    "post_download_free_space_gib": 275.47,
+    "recommendation_for_cache": "M3 keeps its <=512 MiB per-scene cache on D: as section 22 requires; D: had 121.27 GiB free when measured, so the cache is not space-constrained."
+  },
+
+  "environment_notes": {
+    "proxy_required": "HTTPS_PROXY/HTTP_PROXY must be set explicitly to http://127.0.0.1:7897 for huggingface_hub/httpx and pip on this host. Without it, TLS handshake fails and the error is easily misread as a network fault.",
+    "gated_repo_redacts_oids_when_anonymous": "huggingface.co returns lfs.oid as 64 asterisks for anonymous requests to a gated repo, without any error. Any tooling that reads the tree must authenticate or its digest comparison becomes vacuous. fetch_pinned_tree.py refuses to write a tree whose digests are redacted.",
+    "iso_env": "D:\\PyCharmProjects\\Jeon2019\\work\\environments\\icvl_download (python 3.10.4, h5py 3.16.0, numpy 2.2.6, httpx 0.28.1, huggingface_hub 2.1.1)"
+  },
+
+  "concurrent_activity_note": "Codex/M3 was observed running its own parallel acquisition during this work package (work/m3_parallel_acquisition_20261007.log), downloading HARVARD data (CZ_hsdb, CZ_hsdbi, scene0*_reflectance), not ICVL. There is no data conflict. Bandwidth is shared, so the ICVL download used --max-workers 2 to limit contention as task doc section 6 requires."
+}

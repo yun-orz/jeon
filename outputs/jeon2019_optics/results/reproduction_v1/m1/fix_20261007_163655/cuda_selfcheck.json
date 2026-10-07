@@ -1,0 +1,37 @@
+{
+  "checked_at": "2026-10-07T16:37:16+0800",
+  "kind": "m1_cuda_selfcheck",
+  "executable": "D:\\PyCharmProjects\\Jeon2019\\work\\environments\\jeon_gpu_cu121\\Scripts\\python.exe",
+  "python": "3.10.4",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "cwd": "D:\\PyCharmProjects\\Jeon2019",
+  "torch_version": "2.5.1+cu121",
+  "torch_file": "D:\\PyCharmProjects\\Jeon2019\\work\\environments\\jeon_gpu_cu121\\lib\\site-packages\\torch\\__init__.py",
+  "cuda_runtime": "12.1",
+  "cudnn_version": 90100,
+  "cuda_available": true,
+  "device_count": 1,
+  "arch_list": [
+    "sm_50",
+    "sm_60",
+    "sm_61",
+    "sm_70",
+    "sm_75",
+    "sm_80",
+    "sm_86",
+    "sm_90"
+  ],
+  "tf32_matmul_default_allowed": false,
+  "tf32_cudnn_default_allowed": true,
+  "device_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "capability": [
+    8,
+    9
+  ],
+  "total_memory_mib": 8188,
+  "fp64_matmul_relative_error": 7.609441444769919e-16,
+  "fp32_finite": true,
+  "fp64_matmul_relative_error_tf32_off": 7.609441444769919e-16,
+  "cuda_peak_allocated_bytes": 55574528,
+  "cuda_peak_reserved_bytes": 58720256
+}

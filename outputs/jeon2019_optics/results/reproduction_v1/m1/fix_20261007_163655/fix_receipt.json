@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "milestone": "M1",
+  "scope": "缺失前缀入口修复、设备诊断修复和实际GPU恢复重验",
+  "regression_tests_passed": 15,
+  "cuda_available": true,
+  "cuda_selfcheck_passed": true,
+  "gpu_independent_audit_passed": true,
+  "no_save_summary_exact": true,
+  "gpu_environment_ready": true,
+  "M0_protection_passed": true,
+  "M2_passed": true,
+  "M3_passed": true,
+  "M3_fingerprint_unchanged": true,
+  "production_entry_main_modified": false,
+  "user_restored_gpu_mode": true,
+  "deleted_files": 0,
+  "sha256": {
+    "outputs\\jeon2019_optics\\results\\reproduction_v1\\m1\\fix_20261007_163655\\M1_fix_report.md": "7da2743ec5668034557940dc1512e8d4f44883272d7c9888dc0c0967f85bd3fb",
+    "outputs\\jeon2019_optics\\results\\reproduction_v1\\m1\\fix_20261007_163655\\cuda_selfcheck.json": "7658e51b65f05abb2fd6be174be6d9d45934ac9376929e770e879446a54ee8a7",
+    "outputs\\jeon2019_optics\\results\\reproduction_v1\\m1\\fix_20261007_163655\\independent_audit.json": "498facba9b2662afbf7308860348f1ee21d63c0ff840509f900c9fba33365d9e",
+    "outputs\\jeon2019_optics\\results\\reproduction_v1\\m1\\fix_20261007_163655\\最终审核.json": "6804ac8a80c1f7dff1541cd90f5c40ac9eb935836e645acbd1d33877b73946ca",
+    "outputs\\jeon2019_optics\\results\\reproduction_v1\\m1\\fix_20261007_163655\\independent_gpu_rerun.log": "f866f5435437bd6ffc3263f0f9021eb1c766c3c000d06c8d016c7b16212a6b6d",
+    "outputs\\jeon2019_optics\\results\\reproduction_v1\\m3\\run_20261007_164140_M1_entry_fixes_20261007\\main_check_M1_entry_fixes_20261007.json": "d1c7b785916af9ad97d136959a18f1761f35b2707fd5fc56ee5a2356cb0c8d30",
+    "work\\m1_prefix_device_fix_tests_20261007.log": "b11fd1e94c73d02d603cd9d27bcb6c423471b06d6ddabb4ba9c53926c5c29fbb",
+    "work\\m1_audit_adapter_after_fix_tests_20261007.log": "837d0c5779864194874897b72c6625c16649d7536c5ace71cb90f7b3e25a3140",
+    "outputs\\jeon2019_optics\\reproduction_v1\\m1_environment.py": "9bb9769bdceddf2fd1f876aaabfa5c6e84c3d60370bfeaf088b963318f1c0301",
+    "outputs\\jeon2019_optics\\reproduction_v1\\m1_download.py": "9ac5369aa6ffd4478d7794186c673de34e248731c52ed6aa9aa681f1e31966bb",
+    "outputs\\jeon2019_optics\\reproduction_v1\\tests\\test_m1_missing_prefix.py": "57eba34092ae13f78bd11612562bc58b3ce4c5351a434326e0aa69a61cc1e392"
+  }
+}

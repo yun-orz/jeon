@@ -1,0 +1,20 @@
+test_adapted_adds_no_relaxed_comparison (test_m1_audit.TestAuditAdapter)
+适配层不得新增任何放宽比较的运算符或阈值替换。 ... ok
+test_adapted_writes_only_into_new_m1_directory (test_m1_audit.TestAuditAdapter)
+适配层不得再指向历史审核目录下的固定输出名。 ... ok
+test_both_scripts_exist (test_m1_audit.TestAuditAdapter) ... ok
+test_engine_integrity_scope_matches_m0_exclusions (test_m1_audit.TestAuditAdapter)
+引擎完整性比较必须排除M0已排除的新结果目录，并同时记录该子树的差异。 ... ok
+test_norm_error_identical (test_m1_audit.TestAuditAdapter) ... ok
+test_original_audit_untouched (test_m1_audit.TestAuditAdapter)
+原审核器本体必须与M1开始前记录的SHA一致。 ... ok
+test_thresholds_and_counts_unchanged (test_m1_audit.TestAuditAdapter)
+审核阈值、容差与追溯阶段数必须逐字保留。 ... ok
+test_engine_scope_helper_excludes_new_results_only (test_m1_audit.TestSummaryExtraction) ... ok
+test_missing_or_broken_output_returns_none (test_m1_audit.TestSummaryExtraction) ... ok
+test_nested_json_before_trailing_lines (test_m1_audit.TestSummaryExtraction) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 8.291s
+
+OK

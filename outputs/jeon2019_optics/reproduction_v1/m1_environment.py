@@ -158,7 +158,9 @@ def inherited_packages(base_prefix, environment):
 
 def current_prefix_bytes():
     if not PREFIX.is_file():
-        return {"exists": False, "path": str(PREFIX), "bytes": 0}
+        return {"exists": False, "path": str(PREFIX), "bytes": 0,
+                "remaining_bytes": TORCH_BYTES,
+                "note": "旧下载前缀不存在；重新获取需下载整包，不表示已安装GPU环境缺失"}
     size = PREFIX.stat().st_size
     return {"exists": True, "path": str(PREFIX), "bytes": size,
             "remaining_bytes": max(TORCH_BYTES - size, 0),
@@ -200,12 +202,16 @@ def check(persist=True):
         report["status"] = "space_stopped"
     elif not gpu.get("exists"):
         report["status"] = "environment_missing"
+    elif not gpu.get("cuda_available") and resolved and gpu.get("cuda_runtime"):
+        # 已有CUDA版Torch但运行时看不到设备；重装轮子不能代替设备/驱动排查。
+        report["status"] = "gpu_device_unavailable"
     elif not gpu.get("cuda_available"):
         report["status"] = "gpu_runtime_pending"
     else:
         report["status"] = "gpu_ready"
     report["next_action"] = {"space_stopped": "记录需求后停止；腾出空间再重跑 check",
                              "environment_missing": "先创建 work/environments/jeon_gpu_cu121 解释器",
+                             "gpu_device_unavailable": "CUDA版Torch已安装；检查Windows显卡连接状态、笔记本GPU模式和NVIDIA驱动，再重跑CUDA自检；不要据此重新下载Torch",
                              "gpu_runtime_pending": "执行 m1_download.py all 续传并通过整包SHA后离线安装",
                              "gpu_ready": "运行 main_g3_gpu.py 正式验收，再跑独立审核"}[report["status"]]
     report["paper_alignment_passed"] = False

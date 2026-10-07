@@ -181,3 +181,16 @@ Forvard4096相机核对参考L1差420/540/660nm为0.17895%/0.11757%/0.34799%，�
 M1验收后经用户明确同意清理了冗余下载产物：33个分块part_*.bin（1.03GiB，与整包后半段逐字节重复）、prefix.bin副本（1.25GiB，原件另有其物）、旧部分下载原件（1.25GiB，已被完整整包取代），共35个文件3.534GiB；D盘可用90.60→93.37GiB。整包wheel（官方SHA已通过）、sympy wheel、全部清单与审核证据保留，故仍可免联网离线重装Torch；删除后实测GPU环境torch2.5.1+cu121、cuda_available=True、FP64相对误差6.59e-17仍正常。逐文件SHA与授权记录见 outputs/执行_M1_GPU环境_20261007/删除记录.json 与报告第13节。此外为执行该删除，work、work/dependencies、gpu_cu121_resume_m1_20261007 三个目录补了当前用户完全控制项，备份/回滚脚本在 work/acl_repair_20261007/。
 
 随后发生一次**外部删除**，须与上述操作区分：并发执行M2/M3的另一个会话把 work/dependencies/gpu_cu121_resume_m1_20261007 与 work/dependencies/gpu_cu121_20261006 两个目录整个删除，其中包括上述特意保留的整包wheel、sympy wheel及download_manifest.json/probe.json/resume_state.json/install_result.json/install_log.txt。这不是本阶段执行的删除，也不在本阶段授权范围内；可观察证据为work下m2_*/m3_*日志（最新11:36）、work/datasets/reproduction_v1于11:37写入、D盘可用由93.37升至121.39GiB；具体发起者与理由未从本会话确认。因此"仍可免联网重装Torch"已不成立，重装需重新联网下载约2.3GiB。两个目录本就不在M0保护清单内（15942项命中0），删除不构成保护清单违规；M1判定不依赖这些二进制，GPU虚拟环境与全部审核证据完好、实测仍可用。更正与登记见 outputs/执行_M1_GPU环境_20261007/空间清理说明.json 与报告第13.1节；paper_alignment_passed=false。
+
+
+## 项目导航整理：停在 M3，后续以 M7 正式仿真为目标（2026-10-07）
+
+本轮按用户确认的范围新增 [START_HERE.md](D:/PyCharmProjects/Jeon2019/START_HERE.md) 与 [项目地图](D:/PyCharmProjects/Jeon2019/docs/PROJECT_GUIDE.md)，统一说明 stage01/stage02、G0–G5 与 M0–M7 的用途，固定正式交付链接，记录模块输入输出、命令实际副作用和 M4–M7 执行路线。先完成正式结果，再结合最终图件回看模块原理和代码；本轮停在 M3，未启动 M4。
+
+当前状态依据既有正式记录：M0 协议冻结通过；M1 在 fix_20261007_163655 完成缺失前缀入口、设备诊断修复及实际 GPU 恢复重验；M2 父物理包为 run_20261007_104321_03d47940；M3 正式 masked_v3 数据交付为 run_20261007_154644_d46e6171，203 幅训练、25 幅验证、10 幅 KAIST 测试封存至 M7，30,000 条训练补丁索引。后续使用绑定该数据版本和共同增益的 M3 最终 Jeon/Fresnel 算子。M3 原回执的 GPU 未就绪状态已被后续 M1 修复记录更新，旧回执原文保留；正式 main.py 的 milestones.M1 静态占位不能替代实际 M1 审核。
+
+本轮实测核对新导航 60 个本地链接、19 个 M0 交接对象 SHA、17 个 M1/M3 回执登记文件 SHA、M2 来源桥接及父包、M3 当前配置与输入指纹、数据/测试封条/最终算子内容指纹和索引重放 SHA，均通过。整理前全量只读核对 M0 历史保护 15,942 文件、20,181,153,673 字节通过。已有 GPU、训练及数据审核结论来自原记录，本轮没有执行 GPU 验算、重算光学、数据预处理或训练，没有读取原始场景或解析封存测试像元。
+
+ICVL 原始来源依赖 H:/我的云端硬盘/Jeon2019_data/reproduction_v1/icvl/mat；本轮在当前权限下访问被拒绝，不据此判断数据丢失。后续核验和训练需确认 H 盘挂载与文件访问，以及独显启用和 GPU 解释器可用。新文档明确 check 会写新检查记录、report 会读取来源核验，smoke/train/evaluate 尚未实现。
+
+旧 README、冻结代码、配置、数据、结果与已有工作区修改全部保留；本轮仅新增导航并在本文件末尾追加，不删除、不迁移。后续目标为当前声明协议下完整 M7 仿真及公平对照，并如实报告论文差异；paper_alignment_passed=false。

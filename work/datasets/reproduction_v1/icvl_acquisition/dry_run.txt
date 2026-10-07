@@ -1,0 +1,29 @@
+﻿ICVL acquisition -- task doc section 9, dry-run full evidence
+executed_at_local : 2026-10-07T11:34:37+08:00
+repo_id           : ICVL-BGU/ICVL_HS_2016
+repo_type         : dataset
+revision          : d2cf6714224029431cf4cec551ca6753ed59bc52   (pinned full commit SHA; never the moving ref main)
+include           : mat/*
+local-dir         : H:\我的云端硬盘\Jeon2019_data\reproduction_v1\icvl
+max-workers       : 2
+HTTPS_PROXY       : http://127.0.0.1:7897   (required on this host; see acquisition_report.md section 4)
+
+COMMAND:
+hf download ICVL-BGU/ICVL_HS_2016 --repo-type dataset --revision "d2cf6714224029431cf4cec551ca6753ed59bc52" --include "mat/*" --local-dir "H:\我的云端硬盘\Jeon2019_data\reproduction_v1\icvl" --max-workers 2 --dry-run
+
+STDOUT:
+[exit=1]
+
+STDERR (PowerShell call-site noise removed; error text preserved verbatim):
+[dry-run] Fetching 202 files:   0%|          | 0/202 [00:00<?, ?it/s]
+[dry-run] Fetching 202 files:   0%|          | 0/202 [00:00<?, ?it/s]
+Error: Access denied. This repository requires approval.
+Hint: set HF_DEBUG=1 as environment variable for full traceback.
+
+DRY-RUN STATISTICS:
+  files enumerated      : 202
+  total bytes           : 28199177384  (26.263 GiB)
+  target dir            : H:\我的云端硬盘\Jeon2019_data\reproduction_v1\icvl
+  free space now        : 306.42 GiB
+  projected free after  : approx 280.15 GiB
+  outcome               : BLOCKED BY AUTHORIZATION (not by space, not by network)

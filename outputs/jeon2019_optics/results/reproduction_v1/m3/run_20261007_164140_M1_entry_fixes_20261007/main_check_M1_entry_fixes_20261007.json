@@ -1,0 +1,239 @@
+{
+  "status": "passed",
+  "scope": "M0历史保护、协议交接及M1只读环境检查；M2最新或指定物理算子包指纹与合同；M3数据/父物理包/场景及增益状态",
+  "protection": {
+    "passed": true,
+    "checked": 15942,
+    "checked_bytes": 20181153673,
+    "failures": [],
+    "read_only": true
+  },
+  "protocol": {
+    "passed": true,
+    "parameters": 39,
+    "tasks": 8,
+    "failures": []
+  },
+  "g0": {
+    "passed": true,
+    "checked": 767,
+    "skipped": 0,
+    "failures": [],
+    "mode": "full_local"
+  },
+  "environment": {
+    "stage": "M1_entry_fixes_20261007",
+    "status": "gpu_ready",
+    "gpu_hardware": {
+      "query": {
+        "command": [
+          "nvidia-smi",
+          "--query-gpu=name,driver_version,memory.total,compute_cap",
+          "--format=csv,noheader,nounits"
+        ],
+        "returncode": 0,
+        "stdout": "NVIDIA GeForce RTX 4060 Laptop GPU, 537.53, 8188, 8.9",
+        "stderr": ""
+      },
+      "devices": [
+        {
+          "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+          "driver_version": "537.53",
+          "memory_total_mib": "8188",
+          "compute_capability": "8.9"
+        }
+      ],
+      "driver_cuda_banner": "| NVIDIA-SMI 537.53                 Driver Version: 537.53       CUDA Version: 12.2     |",
+      "available": true
+    },
+    "interpreters": {
+      "cpu": {
+        "label": "原CPU解释器",
+        "requested_python": "D:\\dev\\python\\python3.10.4\\python.exe",
+        "exists": true,
+        "probe": {
+          "command": [
+            "D:\\dev\\python\\python3.10.4\\python.exe",
+            "-B",
+            "-c",
+            "import json,sys,configparser,importlib.metadata as md,os,pathlib\nhere=pathlib.Path(sys.executable).resolve().parent\ncfg={}\np=here.parent/'pyvenv.cfg'\nif p.is_file():\n    c=configparser.ConfigParser()\n    c.read_string('[root]\\n'+p.read_text(encoding='utf-8'))\n    cfg=dict(c['root'])\nversions={}\nfor name in ['torch','sympy','numpy','scipy','matplotlib']:\n    try: versions[name]=md.version(name)\n    except Exception: versions[name]=None\nout=dict(executable=sys.executable,version=sys.version.split()[0],prefix=sys.prefix,\n         base_prefix=sys.base_prefix,is_virtualenv=sys.prefix!=sys.base_prefix,\n         pyvenv_cfg=cfg,versions=versions,sys_path=sys.path[:8],\n         torch_file=None,torch_version=None,cuda_runtime=None,cuda_available=False,cuda_error=None)\ntry:\n    import torch\n    out['torch_file']=torch.__file__\n    out['torch_version']=torch.__version__\n    out['cuda_runtime']=torch.version.cuda\n    out['cuda_available']=bool(torch.cuda.is_available())\n    out['torch_cuda_arch_list']=torch.cuda.get_arch_list() if out['cuda_available'] else []\n    if out['cuda_available']:\n        out['device_name']=torch.cuda.get_device_name(0)\n        out['device_capability']=list(torch.cuda.get_device_capability(0))\nexcept Exception as exc:\n    out['cuda_error']=repr(exc)\nprint(json.dumps(out,ensure_ascii=False))\n"
+          ],
+          "returncode": 0,
+          "stdout": "{\"executable\": \"D:\\\\dev\\\\python\\\\python3.10.4\\\\python.exe\", \"version\": \"3.10.4\", \"prefix\": \"D:\\\\dev\\\\python\\\\python3.10.4\", \"base_prefix\": \"D:\\\\dev\\\\python\\\\python3.10.4\", \"is_virtualenv\": false, \"pyvenv_cfg\": {}, \"versions\": {\"torch\": \"2.14.1\", \"sympy\": \"1.14.0\", \"numpy\": \"2.2.6\", \"scipy\": \"1.15.3\", \"matplotlib\": \"3.10.9\"}, \"sys_path\": [\"\", \"D:\\\\dev\\\\python\\\\python3.10.4\\\\python310.zip\", \"D:\\\\dev\\\\python\\\\python3.10.4\\\\DLLs\", \"D:\\\\dev\\\\python\\\\python3.10.4\\\\lib\", \"D:\\\\dev\\\\python\\\\python3.10.4\", \"D:\\\\dev\\\\python\\\\python3.10.4\\\\lib\\\\site-packages\"], \"torch_file\": \"D:\\\\dev\\\\python\\\\python3.10.4\\\\lib\\\\site-packages\\\\torch\\\\__init__.py\", \"torch_version\": \"2.14.1+cpu\", \"cuda_runtime\": null, \"cuda_available\": false, \"cuda_error\": null, \"torch_cuda_arch_list\": []}",
+          "stderr": ""
+        },
+        "executable": "D:\\dev\\python\\python3.10.4\\python.exe",
+        "version": "3.10.4",
+        "prefix": "D:\\dev\\python\\python3.10.4",
+        "base_prefix": "D:\\dev\\python\\python3.10.4",
+        "is_virtualenv": false,
+        "pyvenv_cfg": {},
+        "versions": {
+          "torch": "2.14.1",
+          "sympy": "1.14.0",
+          "numpy": "2.2.6",
+          "scipy": "1.15.3",
+          "matplotlib": "3.10.9"
+        },
+        "sys_path": [
+          "",
+          "D:\\dev\\python\\python3.10.4\\python310.zip",
+          "D:\\dev\\python\\python3.10.4\\DLLs",
+          "D:\\dev\\python\\python3.10.4\\lib",
+          "D:\\dev\\python\\python3.10.4",
+          "D:\\dev\\python\\python3.10.4\\lib\\site-packages"
+        ],
+        "torch_file": "D:\\dev\\python\\python3.10.4\\lib\\site-packages\\torch\\__init__.py",
+        "torch_version": "2.14.1+cpu",
+        "cuda_runtime": null,
+        "cuda_available": false,
+        "cuda_error": null,
+        "torch_cuda_arch_list": []
+      },
+      "gpu_environment": {
+        "label": "新GPU环境解释器",
+        "requested_python": "D:\\PyCharmProjects\\Jeon2019\\work\\environments\\jeon_gpu_cu121\\Scripts\\python.exe",
+        "exists": true,
+        "probe": {
+          "command": [
+            "D:\\PyCharmProjects\\Jeon2019\\work\\environments\\jeon_gpu_cu121\\Scripts\\python.exe",
+            "-B",
+            "-c",
+            "import json,sys,configparser,importlib.metadata as md,os,pathlib\nhere=pathlib.Path(sys.executable).resolve().parent\ncfg={}\np=here.parent/'pyvenv.cfg'\nif p.is_file():\n    c=configparser.ConfigParser()\n    c.read_string('[root]\\n'+p.read_text(encoding='utf-8'))\n    cfg=dict(c['root'])\nversions={}\nfor name in ['torch','sympy','numpy','scipy','matplotlib']:\n    try: versions[name]=md.version(name)\n    except Exception: versions[name]=None\nout=dict(executable=sys.executable,version=sys.version.split()[0],prefix=sys.prefix,\n         base_prefix=sys.base_prefix,is_virtualenv=sys.prefix!=sys.base_prefix,\n         pyvenv_cfg=cfg,versions=versions,sys_path=sys.path[:8],\n         torch_file=None,torch_version=None,cuda_runtime=None,cuda_available=False,cuda_error=None)\ntry:\n    import torch\n    out['torch_file']=torch.__file__\n    out['torch_version']=torch.__version__\n    out['cuda_runtime']=torch.version.cuda\n    out['cuda_available']=bool(torch.cuda.is_available())\n    out['torch_cuda_arch_list']=torch.cuda.get_arch_list() if out['cuda_available'] else []\n    if out['cuda_available']:\n        out['device_name']=torch.cuda.get_device_name(0)\n        out['device_capability']=list(torch.cuda.get_device_capability(0))\nexcept Exception as exc:\n    out['cuda_error']=repr(exc)\nprint(json.dumps(out,ensure_ascii=False))\n"
+          ],
+          "returncode": 0,
+          "stdout": "{\"executable\": \"D:\\\\PyCharmProjects\\\\Jeon2019\\\\work\\\\environments\\\\jeon_gpu_cu121\\\\Scripts\\\\python.exe\", \"version\": \"3.10.4\", \"prefix\": \"D:\\\\PyCharmProjects\\\\Jeon2019\\\\work\\\\environments\\\\jeon_gpu_cu121\", \"base_prefix\": \"D:\\\\dev\\\\python\\\\python3.10.4\", \"is_virtualenv\": true, \"pyvenv_cfg\": {\"home\": \"D:\\\\dev\\\\python\\\\python3.10.4\", \"include-system-site-packages\": \"true\", \"version\": \"3.10.4\"}, \"versions\": {\"torch\": \"2.5.1+cu121\", \"sympy\": \"1.13.1\", \"numpy\": \"2.2.6\", \"scipy\": \"1.15.3\", \"matplotlib\": \"3.10.9\"}, \"sys_path\": [\"\", \"D:\\\\dev\\\\python\\\\python3.10.4\\\\python310.zip\", \"D:\\\\dev\\\\python\\\\python3.10.4\\\\DLLs\", \"D:\\\\dev\\\\python\\\\python3.10.4\\\\lib\", \"D:\\\\dev\\\\python\\\\python3.10.4\", \"D:\\\\PyCharmProjects\\\\Jeon2019\\\\work\\\\environments\\\\jeon_gpu_cu121\", \"D:\\\\PyCharmProjects\\\\Jeon2019\\\\work\\\\environments\\\\jeon_gpu_cu121\\\\lib\\\\site-packages\", \"D:\\\\dev\\\\python\\\\python3.10.4\\\\lib\\\\site-packages\"], \"torch_file\": \"D:\\\\PyCharmProjects\\\\Jeon2019\\\\work\\\\environments\\\\jeon_gpu_cu121\\\\lib\\\\site-packages\\\\torch\\\\__init__.py\", \"torch_version\": \"2.5.1+cu121\", \"cuda_runtime\": \"12.1\", \"cuda_available\": true, \"cuda_error\": null, \"torch_cuda_arch_list\": [\"sm_50\", \"sm_60\", \"sm_61\", \"sm_70\", \"sm_75\", \"sm_80\", \"sm_86\", \"sm_90\"], \"device_name\": \"NVIDIA GeForce RTX 4060 Laptop GPU\", \"device_capability\": [8, 9]}",
+          "stderr": ""
+        },
+        "executable": "D:\\PyCharmProjects\\Jeon2019\\work\\environments\\jeon_gpu_cu121\\Scripts\\python.exe",
+        "version": "3.10.4",
+        "prefix": "D:\\PyCharmProjects\\Jeon2019\\work\\environments\\jeon_gpu_cu121",
+        "base_prefix": "D:\\dev\\python\\python3.10.4",
+        "is_virtualenv": true,
+        "pyvenv_cfg": {
+          "home": "D:\\dev\\python\\python3.10.4",
+          "include-system-site-packages": "true",
+          "version": "3.10.4"
+        },
+        "versions": {
+          "torch": "2.5.1+cu121",
+          "sympy": "1.13.1",
+          "numpy": "2.2.6",
+          "scipy": "1.15.3",
+          "matplotlib": "3.10.9"
+        },
+        "sys_path": [
+          "",
+          "D:\\dev\\python\\python3.10.4\\python310.zip",
+          "D:\\dev\\python\\python3.10.4\\DLLs",
+          "D:\\dev\\python\\python3.10.4\\lib",
+          "D:\\dev\\python\\python3.10.4",
+          "D:\\PyCharmProjects\\Jeon2019\\work\\environments\\jeon_gpu_cu121",
+          "D:\\PyCharmProjects\\Jeon2019\\work\\environments\\jeon_gpu_cu121\\lib\\site-packages",
+          "D:\\dev\\python\\python3.10.4\\lib\\site-packages"
+        ],
+        "torch_file": "D:\\PyCharmProjects\\Jeon2019\\work\\environments\\jeon_gpu_cu121\\lib\\site-packages\\torch\\__init__.py",
+        "torch_version": "2.5.1+cu121",
+        "cuda_runtime": "12.1",
+        "cuda_available": true,
+        "cuda_error": null,
+        "torch_cuda_arch_list": [
+          "sm_50",
+          "sm_60",
+          "sm_61",
+          "sm_70",
+          "sm_75",
+          "sm_80",
+          "sm_86",
+          "sm_90"
+        ],
+        "device_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "device_capability": [
+          8,
+          9
+        ]
+      }
+    },
+    "environment_inheritance": {
+      "base_site_packages": [
+        "D:\\dev\\python\\python3.10.4\\lib\\site-packages",
+        "D:\\dev\\python\\python3.10.4\\Lib\\site-packages"
+      ],
+      "inherit_flag": true,
+      "note": "原科学计算包由pyvenv.cfg继承，不在新环境重复安装"
+    },
+    "prefix": {
+      "exists": false,
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_20261006\\torch-2.5.1+cu121-cp310-cp310-win_amd64.whl",
+      "bytes": 0,
+      "remaining_bytes": 2449372784,
+      "note": "旧下载前缀不存在；重新获取需下载整包，不表示已安装GPU环境缺失"
+    },
+    "space": {
+      "project_root": "D:\\PyCharmProjects\\Jeon2019",
+      "free_on_project_drive": 88226668544.0,
+      "temp_dir": "C:\\Users\\李咏晨\\AppData\\Local\\Temp",
+      "free_on_temp_drive": 308515426304,
+      "budget": {
+        "passed": true,
+        "components": {
+          "remaining_download": 2456610537.0,
+          "assembled_copy": 2449372784.0,
+          "install_estimate": 3918996454.0,
+          "audit_reserve": 536870912.0
+        },
+        "peak_bytes": 9361850687.0,
+        "safety_margin_bytes": 468092534.35,
+        "required_bytes": 9829943221.35,
+        "free_bytes": 88226668544.0,
+        "headroom_bytes": 78396725322.65,
+        "shortfall_bytes": 0.0,
+        "stop_reason": null
+      },
+      "note": "数据留在D盘；TEMP在C盘，pip不得使用缓存/构建隔离，只读取D盘已核验轮子"
+    },
+    "gpu_environment_ready": true,
+    "torch_from_environment": true,
+    "gpu_execution_verified": true,
+    "next_action": "运行 main_g3_gpu.py 正式验收，再跑独立审核",
+    "note": "M1只读检查：不安装、不下载、不删除；GPU是否真正生效以Torch实际导入位置为准"
+  },
+  "milestones": {
+    "M0": "passed",
+    "M1": "dependency_pending",
+    "M2": "passed",
+    "M3": "passed",
+    "M4": "dependency_pending",
+    "M5": "dependency_pending",
+    "M6": "dependency_pending",
+    "M7": "dependency_pending"
+  },
+  "paper_alignment_passed": false,
+  "M2": {
+    "status": "passed",
+    "run_dir": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\reproduction_v1\\m2\\run_20261007_104321_03d47940",
+    "gain_pending": true,
+    "entry_source_bridge": "work/datasets/reproduction_v1/parent_m2_20261007_verified/bridge.json",
+    "paper_alignment_passed": false
+  },
+  "M3": {
+    "status": "passed",
+    "acceptance_passed": true,
+    "run_dir": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\reproduction_v1\\m3\\run_20261007_154644_d46e6171",
+    "failures": [],
+    "M4_ready": true
+  },
+  "stage": "M1_entry_fixes_20261007",
+  "run_dir": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\reproduction_v1\\m3\\run_20261007_164140_M1_entry_fixes_20261007",
+  "operator": {
+    "executable": "D:\\dev\\python\\python3.10.4\\python.exe",
+    "argv": [
+      "outputs/jeon2019_optics/reproduction_v1/main.py",
+      "check",
+      "--m3-run",
+      "outputs/jeon2019_optics/results/reproduction_v1/m3/run_20261007_154644_d46e6171",
+      "--stage",
+      "M1_entry_fixes_20261007"
+    ]
+  }
+}

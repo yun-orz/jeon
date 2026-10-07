@@ -1,0 +1,24 @@
+Microsoft PnP Utility
+
+Failed to scan for devices.
+Access is denied.
+
+Microsoft PnP Utility
+
+Instance ID:                ROOT\DISPLAY\0000
+Device Description:         GameViewer Virtual Display Adapter
+Class Name:                 Display
+Class GUID:                 {4d36e968-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          GameViewer
+Status:                     Started
+Driver Name:                oem111.inf
+
+Instance ID:                PCI\VEN_8086&DEV_A78B&SUBSYS_03531558&REV_04\3&11583659&0&10
+Device Description:         Intel(R) UHD Graphics
+Class Name:                 Display
+Class GUID:                 {4d36e968-e325-11ce-bfc1-08002be10318}
+Manufacturer Name:          Intel Corporation
+Status:                     Started
+Driver Name:                oem1.inf
+Extension Driver Names:     oem103.inf
+

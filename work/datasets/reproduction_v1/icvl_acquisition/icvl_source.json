@@ -1,0 +1,60 @@
+{
+  "artifact": "icvl_source.json",
+  "status": "resolved_and_downloaded",
+  "repo_id": "ICVL-BGU/ICVL_HS_2016",
+  "repo_type": "dataset",
+  "resolved_revision": "d2cf6714224029431cf4cec551ca6753ed59bc52",
+  "revision_resolution_method": "Hugging Face public API GET /api/datasets/ICVL-BGU/ICVL_HS_2016 -> field 'sha' (the commit that 'main' currently points at); the same SHA was then used to fetch the file tree via GET /api/datasets/ICVL-BGU/ICVL_HS_2016/tree/<sha>?recursive=1",
+  "revision_is_full_commit_sha": true,
+  "revision_floating": false,
+  "source_url": "https://huggingface.co/datasets/ICVL-BGU/ICVL_HS_2016",
+  "source_tree_url": "https://huggingface.co/api/datasets/ICVL-BGU/ICVL_HS_2016/tree/d2cf6714224029431cf4cec551ca6753ed59bc52?recursive=1",
+  "scope": "mat/* only",
+  "excluded": [
+    "raw/*",
+    "preview/*"
+  ],
+  "access_date": "2026-10-07T03:23:00Z",
+  "access_date_local": "2026-10-07T11:23:00+08:00",
+  "dataset_visibility": {
+    "private": false,
+    "gated": "auto",
+    "disabled": false,
+    "downloads": 516,
+    "last_modified": "2026-07-14T10:47:11.000Z"
+  },
+  "gating_note": "The repository is public but gated ('auto'). Repository metadata and the file tree are readable anonymously; the file BLOBS are not. An unauthenticated HEAD on /datasets/ICVL-BGU/ICVL_HS_2016/resolve/<sha>/mat/<file>.mat returns HTTP 401. After the user accepted the gate and logged in (user: yunorz), the same request succeeded and the full mat/* set was downloaded.",
+  "remote_inventory_at_pinned_revision": {
+    "mat_files": 202,
+    "mat_total_bytes": 28199177384,
+    "mat_min_file_bytes": 82587964,
+    "mat_max_file_bytes": 161439465,
+    "raw_files": 404,
+    "preview_files": 203,
+    "total_tree_entries": 814
+  },
+  "per_file_digest_availability": {
+    "lfs_oid_present_in_api_response": true,
+    "lfs_oid_usable_while_unauthenticated": false,
+    "observed_value_while_unauthenticated": "64 asterisk characters (redacted)",
+    "redaction_is_server_side": true,
+    "redaction_is_silent": true,
+    "evidence": "The 64-asterisk sequence is present in the RAW HTTP response bytes, before any local write. Control test: the same endpoint returns real 64-hex oids for the public non-gated datasets princeton-nlp/SWE-bench and openai/gsm8k. With an Authorization header the same gated endpoint returns real 64-hex oids.",
+    "consequence": "The file list and file sizes are authoritative either way, but the repository-declared SHA256 per file is only present on AUTHENTICATED requests. An anonymous tree capture therefore yields a manifest whose remote-digest comparison is vacuously true. fetch_pinned_tree.py refuses to write a tree whose digests are redacted, and verify_against_remote_oids.py refuses to report a pass in that state.",
+    "resolved_outcome": "After authentication the pinned tree was re-captured with 606 of 606 LFS entries carrying real digests, and all 202 mat/* files matched the repository's own declared oid."
+  },
+  "documented_expectation": {
+    "scenes": 202,
+    "format": "MATLAB v7.3 / HDF5",
+    "spatial_resolution": "approx 1392 x 1300",
+    "bands": 31,
+    "range_nm": "400-700",
+    "step_nm": 10,
+    "variables": [
+      "rad",
+      "bands"
+    ]
+  },
+  "download_command_template": "hf download ICVL-BGU/ICVL_HS_2016 --repo-type dataset --revision \"d2cf6714224029431cf4cec551ca6753ed59bc52\" --include \"mat/*\" --local-dir \"<DATA_ROOT>\" --max-workers 2",
+  "pinning_rule": "Every download for this work package must pass --revision with the full SHA above. The moving ref 'main' must never be used for the formal download."
+}

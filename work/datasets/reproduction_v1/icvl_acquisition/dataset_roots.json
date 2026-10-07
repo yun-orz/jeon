@@ -1,0 +1,42 @@
+{
+  "artifact": "dataset_roots.json",
+  "purpose": "Drive-letter-decoupled dataset roots for M3, per task doc sections 21 and 27. M3 must read dataset_root from configuration and must NEVER hardcode a drive letter (G:\\ or H:\\).",
+  "generated_at": "2026-10-07T03:35:00Z",
+  "generated_at_local": "2026-10-07T11:35:00+08:00",
+  "dataset_roots": {
+    "icvl": "H:/Jeon2019_data/reproduction_v1/icvl"
+  },
+  "local_mount_paths": {
+    "icvl": "H:\\我的云端硬盘\\Jeon2019_data\\reproduction_v1\\icvl"
+  },
+  "host_notes": {
+    "cloud_mount_vendor": "Google Drive for desktop",
+    "drive_letter_is_not_identity": true,
+    "why_local_path_differs": "Google Drive for desktop mounts a virtual root. Writing to <letter>:\\ is silently discarded (CreateDirectory appears to succeed while Test-Path immediately returns False), and 'G:\\My Drive' does not resolve on this host. The only user-writable root is the localized 'My Drive' folder, hence the extra path component.",
+    "drive_letter_swap_procedure": "To move data from H: to G: only dataset_roots.icvl needs to change. The data fingerprint (SHA256 + source revision + scene ID) is unchanged because drive letters are only physical storage locations.",
+    "g_and_h_are_the_same_volume": true,
+    "volume_serial_number_g": "19831116",
+    "volume_serial_number_h": "19831116",
+    "capacity_implication": "G: and H: resolve to the SAME volume under two Google account labels, so they share ONE pool of free space. The two drive letters are NOT independent storage and switching between them gains NO additional capacity. A 'if G: is full use H:' strategy is invalid on this host.",
+    "space_is_volatile": "The reported free space is Google Drive account quota, not fixed local disk, and it changed by about 2.5 GiB within 10 minutes while other work wrote to the same pool. Always re-measure immediately before a download instead of trusting a cached probe."
+  },
+  "data_identity": {
+    "rule": "dataset identity = SHA256 + source revision + scene ID",
+    "repo_id": "ICVL-BGU/ICVL_HS_2016",
+    "repo_type": "dataset",
+    "resolved_revision": "d2cf6714224029431cf4cec551ca6753ed59bc52",
+    "scope": "mat/* only"
+  },
+  "not_on_google_drive": [
+    "work/environments/",
+    "work/cache/",
+    "training checkpoints",
+    "PyTorch temporaries",
+    "CUDA/Torch environments",
+    "Git repository",
+    "high-frequency random-access cache",
+    "runtime temp directories",
+    "Hugging Face token/credentials"
+  ],
+  "status": "passed_data_present"
+}

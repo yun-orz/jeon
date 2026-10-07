@@ -1,0 +1,42 @@
+test_check_installed_environment_without_download_prefix (test_m1_missing_prefix.TestMissingPrefix) ... ok
+test_existing_prefix_still_resumes_without_changing_original (test_m1_missing_prefix.TestMissingPrefix) ... ok
+test_from_zero_does_not_bypass_whole_sha (test_m1_missing_prefix.TestMissingPrefix) ... ok
+test_installed_cuda_without_device_does_not_recommend_reinstall (test_m1_missing_prefix.TestMissingPrefix) ... ok
+test_missing_prefix_and_directory_download_from_zero (test_m1_missing_prefix.TestMissingPrefix) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 1.759s
+
+OK
+[事件] prefix_copied {'source': 'D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\fixtures\\m1_missing_8433330481a642fb8342aa40a0166589\\old.whl', 'path': 'D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\fixtures\\m1_missing_8433330481a642fb8342aa40a0166589\\new_download\\prefix.bin', 'bytes': 8192, 'sha256': 'dc404a613fedaeb54034514bc6505f56b933caa5250299ba7d094377a51caa46', 'seconds': 0.003}
+[事件] plan {'offset': 8192, 'total': 65536, 'blocks': 7, 'block_bytes': 8192}
+[事件] verified {'offset': 8192, 'ok': 0, 'pending': 7}
+[下载] 块0 8192-16383
+[下载] 块1 16384-24575
+[下载] 块2 24576-32767
+[下载] 块3 32768-40959
+[下载] 块4 40960-49151
+[下载] 块5 49152-57343
+[下载] 块6 57344-65535
+[事件] whole_sha_passed {'path': 'D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\fixtures\\m1_missing_8433330481a642fb8342aa40a0166589\\new_download\\torch-2.5.1+cu121-cp310-cp310-win_amd64.whl', 'bytes': 65536, 'sha256': '7daca2095d0438260fa849183dfc67faa459fdf4936e1bc91eec6b281b27e4c2'}
+[事件] plan {'offset': 0, 'total': 65536, 'blocks': 8, 'block_bytes': 8192}
+[事件] verified {'offset': 0, 'ok': 0, 'pending': 8}
+[下载] 块0 0-8191
+[下载] 块1 8192-16383
+[下载] 块2 16384-24575
+[下载] 块3 24576-32767
+[下载] 块4 32768-40959
+[下载] 块5 40960-49151
+[下载] 块6 49152-57343
+[下载] 块7 57344-65535
+[事件] plan {'offset': 0, 'total': 65536, 'blocks': 8, 'block_bytes': 8192}
+[事件] verified {'offset': 0, 'ok': 0, 'pending': 8}
+[下载] 块0 0-8191
+[下载] 块1 8192-16383
+[下载] 块2 16384-24575
+[下载] 块3 24576-32767
+[下载] 块4 32768-40959
+[下载] 块5 40960-49151
+[下载] 块6 49152-57343
+[下载] 块7 57344-65535
+[事件] whole_sha_passed {'path': 'D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\fixtures\\m1_missing_f17992b81b484a7dac3703ce56f329b9\\new_download\\torch-2.5.1+cu121-cp310-cp310-win_amd64.whl', 'bytes': 65536, 'sha256': '7daca2095d0438260fa849183dfc67faa459fdf4936e1bc91eec6b281b27e4c2'}

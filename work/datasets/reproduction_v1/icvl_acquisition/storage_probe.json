@@ -1,0 +1,92 @@
+﻿{
+    "artifact":  "storage_probe.json",
+    "status":  "storage_selected",
+    "probed_at_utc":  "2026-10-07T05:29:02Z",
+    "probed_at_local":  "2026-10-07T13:29:02+08:00",
+    "host":  "DESKTOP-SQD15JU",
+    "powershell":  "5.1.26100.9444",
+    "drives":  {
+                   "G":  {
+                             "letter":  "G",
+                             "exists":  true,
+                             "root_writable":  false,
+                             "my_drive_path":  "G:\\我的云端硬盘",
+                             "my_drive_writable":  true,
+                             "free_bytes":  295788937216,
+                             "total_bytes":  586402492416,
+                             "file_system":  "FAT32",
+                             "volume_label":  "bestyongcli@gmail.com - Googl...",
+                             "drive_type":  "Fixed",
+                             "is_cloud_mount":  true,
+                             "cloud_vendor":  "Google Drive for desktop",
+                             "write_test_ok":  true,
+                             "write_test_bytes":  8388608,
+                             "write_test_readback":  true,
+                             "write_test_seconds":  0.066,
+                             "write_test_mbps":  121.97,
+                             "probe_dir":  "G:\\我的云端硬盘\\.dsh_icvl_probe",
+                             "probe_dir_removed":  true,
+                             "root_entries":  [
+                                                  ".shortcut-targets-by-id",
+                                                  "我的云端硬盘",
+                                                  "$RECYCLE.BIN",
+                                                  ".Encrypted"
+                                              ],
+                             "errors":  [
+                                            "root write: 使用“1”个参数调用“CreateDirectory”时发生异常:“未能找到文件“G:\\_dsh_probe_root”。”"
+                                        ]
+                         },
+                   "H":  {
+                             "letter":  "H",
+                             "exists":  true,
+                             "root_writable":  false,
+                             "my_drive_path":  "H:\\我的云端硬盘",
+                             "my_drive_writable":  true,
+                             "free_bytes":  295780966400,
+                             "total_bytes":  586402492416,
+                             "file_system":  "FAT32",
+                             "volume_label":  "19xingyunli@gmail.com - Googl...",
+                             "drive_type":  "Fixed",
+                             "is_cloud_mount":  true,
+                             "cloud_vendor":  "Google Drive for desktop",
+                             "write_test_ok":  true,
+                             "write_test_bytes":  8388608,
+                             "write_test_readback":  true,
+                             "write_test_seconds":  0.045,
+                             "write_test_mbps":  175.83,
+                             "probe_dir":  "H:\\我的云端硬盘\\.dsh_icvl_probe",
+                             "probe_dir_removed":  true,
+                             "root_entries":  [
+                                                  ".shortcut-targets-by-id",
+                                                  "我的云端硬盘",
+                                                  "$RECYCLE.BIN",
+                                                  ".Encrypted"
+                                              ],
+                             "errors":  [
+                                            "root write: 使用“1”个参数调用“CreateDirectory”时发生异常:“未能找到文件“H:\\_dsh_probe_root”。”"
+                                        ]
+                         }
+               },
+    "google_drive_client_running":  true,
+    "google_drive_client_path":  "C:\\Program Files\\Google\\Drive File Stream\\132.0.0.0\\GoogleDriveFS.exe",
+    "requirement":  {
+                        "mat_payload_bytes":  28199177384,
+                        "ten_percent_bytes":  2819917738,
+                        "twenty_gib_bytes":  21474836480,
+                        "safety_margin_bytes":  21474836480,
+                        "required_free_bytes":  49674013864,
+                        "formula":  "need + max(20GiB, 10% of need)"
+                    },
+    "algorithmic_preference_drive":  "G:",
+    "volume_serial_numbers":  {
+                                  "H":  "19831116",
+                                  "G":  "19831116"
+                              },
+    "drive_letters_are_independent":  false,
+    "independence_note":  "G: and H: share volume serial 19831116 -- they are the SAME volume under two account labels, so they share one pool of free space. Switching drive letters gains NO additional capacity.",
+    "selected_drive":  "H:",
+    "selected_data_root":  "H:/Jeon2019_data/reproduction_v1/icvl",
+    "selected_local_folder":  "H:\\我的云端硬盘\\Jeon2019_data\\reproduction_v1\\icvl",
+    "selection_reason":  "USER decision 2026-10-07: H: chosen (algorithmic G:-first preference also satisfied the space check, but the operative data root is H:)",
+    "my_drive_mount_note":  "Google Drive for desktop mounts a VIRTUAL root. Writing to \u003cletter\u003e:\\ is silently discarded (CreateDirectory appears to succeed, Test-Path immediately returns False). The only user-writable root is the localized \"My Drive\" folder, so the literal path \u003cletter\u003e:\\Jeon2019_data\\... cannot be created. selected_local_folder is the real on-disk path; selected_data_root is the drive-letter-independent logical root for configuration."
+}

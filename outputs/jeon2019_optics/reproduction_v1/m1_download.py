@@ -37,9 +37,11 @@ BLOCK_BYTES = 32 * 1024 * 1024
 
 
 def resumer(block_bytes=BLOCK_BYTES, attempts=3):
+    # 旧前缀是可选优化；不存在时从零获取，整包官方SHA门槛保持不变。
+    prefix = PREFIX if PREFIX.is_file() else None
     return Resumer(url=TORCH_URL, total_bytes=TORCH_BYTES, sha256=TORCH_SHA256,
                    destination=WORKDIR / "torch-2.5.1+cu121-cp310-cp310-win_amd64.whl",
-                   block_bytes=block_bytes, attempts=attempts, prefix=PREFIX,
+                   block_bytes=block_bytes, attempts=attempts, prefix=prefix,
                    expected_headers={"last-modified": "Tue, 29 Oct 2024 23:16:21 GMT"})
 
 

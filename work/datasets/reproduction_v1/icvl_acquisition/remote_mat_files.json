@@ -1,0 +1,3436 @@
+[
+ {
+  "type": "file",
+  "oid": "7643045357e86a198c970e146d28bafbed8ba719",
+  "size": 139299387,
+  "lfs": {
+   "oid": "2aec04bcef68188ae0449f5392d41a3fd5e297f71f758d807f63ba1b08d3dfdf",
+   "size": 139299387,
+   "pointerSize": 134
+  },
+  "xetHash": "861ac7779b6696e1eba62e0be787d44217848d0bf3cdf655c2144f1a5b872fd1",
+  "path": "mat/4cam_0411-1640-1.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "124bb6452abff6cf7ccd6cb3380aecf7d4aafd45",
+  "size": 140251514,
+  "lfs": {
+   "oid": "f490da75e3226cc6cc85b83e5b4adf7f21ca44e4c949a5214a6b0ea3035b7f38",
+   "size": 140251514,
+   "pointerSize": 134
+  },
+  "xetHash": "5476678fc57c830e96b3be11183f922c0aec67c5ee41367798e757be39c272ed",
+  "path": "mat/4cam_0411-1648.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "b0d2395059d0d743dae367666b9f678a4b92ba5d",
+  "size": 150546524,
+  "lfs": {
+   "oid": "9d8ae497eb0bdb38147d4b8981ae639a29292a226da6730ad07ebb9020db6ed5",
+   "size": 150546524,
+   "pointerSize": 134
+  },
+  "xetHash": "6695c38ee7781d5a647c1555ccc3253e7cbe2ed13c276bab064df2c5cb7e2499",
+  "path": "mat/BGU_0403-1419-1.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "d5f584849212fff22fd2286ac5ad1b8caba5108b",
+  "size": 143415792,
+  "lfs": {
+   "oid": "5d28e7be61f191ed87943b85c25122aa140d3d7b4318cef060320326ec768b2a",
+   "size": 143415792,
+   "pointerSize": 134
+  },
+  "xetHash": "9f3d03407242a45f559370bb27c83427503f44fdfd8fe57dd7a8647ebd240bea",
+  "path": "mat/BGU_0522-1113-1.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "24bb641125fe9cc985d87eb88d52bcd7d9fcec52",
+  "size": 151933757,
+  "lfs": {
+   "oid": "a50182b16dff8df094a3d92d6c0a3345fa5bc238c056804b935bca74906c1a4d",
+   "size": 151933757,
+   "pointerSize": 134
+  },
+  "xetHash": "c45a78707ef3dc299d296f7400a5c25b0c7ff2461491667feafe80dc85e6e8bc",
+  "path": "mat/BGU_0522-1127.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "852b612ff0ef87b30edd9540f28f49d444d027ad",
+  "size": 148152731,
+  "lfs": {
+   "oid": "05b17155942581e3f1dd87b0081cd7c03a8a977833e097e48e48fd9afa09170e",
+   "size": 148152731,
+   "pointerSize": 134
+  },
+  "xetHash": "18e9939d42439837bf35bbdfb2d3e6001c0f005ae168fd2006a88ead62fd6210",
+  "path": "mat/BGU_0522-1136.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "2a1b46d4acb935ec527686b92df2536e94882ca2",
+  "size": 144498335,
+  "lfs": {
+   "oid": "33070f52794e400f846d924faaeb2a327cbdb4b61d7d4a2fe1103ab9cc91d4c4",
+   "size": 144498335,
+   "pointerSize": 134
+  },
+  "xetHash": "bac2b3b5a798045c29da9424438f6089d3c08a5c726d9ac725106ebf2ed7a2ea",
+  "path": "mat/BGU_0522-1201.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "92ca51b7097828c3ce9991187be0f1328cfec8c4",
+  "size": 142777369,
+  "lfs": {
+   "oid": "276ac7b686f17df999c983611eb8077733064b618afad8dba15d9fdac9908e7b",
+   "size": 142777369,
+   "pointerSize": 134
+  },
+  "xetHash": "0e07c93d386eec0f33362c89431c5482da0f34a10c05530da0ac2ab9df89c237",
+  "path": "mat/BGU_0522-1203.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "4a093dc35347b7a1f16014a5a6e6d5d12a753c84",
+  "size": 148500473,
+  "lfs": {
+   "oid": "08de1594eb6bb2a793ebcb21052bb36f4f7b2e8a42740d0fceb8307135fd5372",
+   "size": 148500473,
+   "pointerSize": 134
+  },
+  "xetHash": "d650c2d31be056f2eaab5126d17e4ff7410a17291b46fb3cc76c29bddd64debc",
+  "path": "mat/BGU_0522-1211.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "003114edc495ce35c48626c2a628198d2f45937c",
+  "size": 141241323,
+  "lfs": {
+   "oid": "8f317379ad68ffdbe09c0abfaac9f5be2b8bb6e90c8c515e7c9c8a1e66fa3ec1",
+   "size": 141241323,
+   "pointerSize": 134
+  },
+  "xetHash": "f4b01dfc73ce96780b35062ffc8d7a5aa528d05c95d0c818b5466710c98a39c7",
+  "path": "mat/BGU_0522-1216.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "652ce657d253bae909cf1b65570cce86fdc28b8b",
+  "size": 148360078,
+  "lfs": {
+   "oid": "4a56265a13ce70c202096c0d2e384eee4570006372461d7a3123cad9a1c3472d",
+   "size": 148360078,
+   "pointerSize": 134
+  },
+  "xetHash": "6d4f9328c55b318a83b582303553fc11a6b2ac32014b9b39945a341c587f8ce3",
+  "path": "mat/BGU_0522-1217.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "165b4110fecbabbd8d51a1627cd3a8810059d0ec",
+  "size": 127424439,
+  "lfs": {
+   "oid": "bf156379b542f9ba23249d44857c6d392339248df92517d0b41a8a276def46ec",
+   "size": 127424439,
+   "pointerSize": 134
+  },
+  "xetHash": "b61c8d70099480da4051e685ccbb74a26c3e520a84850814cb521d56122fd10a",
+  "path": "mat/CC_40D_2_1103-0917.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "b4790e6682aa068d7bbdf7cf1a68e229b03f0271",
+  "size": 151026291,
+  "lfs": {
+   "oid": "0ee857a7b9cc8ba1415b8ee5510199604142d1633a837daa94b1fd9229990bfb",
+   "size": 151026291,
+   "pointerSize": 134
+  },
+  "xetHash": "743baba3a7855becefdc49a7709e1cdcf8721ee7a91cb723cbbdec43baf7828e",
+  "path": "mat/Flower_0325-1336.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "85d9133aab13b11d454fc8b6a4be7bf6c6e2b2a0",
+  "size": 118579931,
+  "lfs": {
+   "oid": "d307d4aa91f33ba8d7e0cd1f0dcdb1eeed1e700e5e3b027548c385e942545ffd",
+   "size": 118579931,
+   "pointerSize": 134
+  },
+  "xetHash": "e7ed06a31b7d247891d977c22458b7f2f9de14079ae4eaeb4b5fcab0bb168c45",
+  "path": "mat/IDS_COLORCHECK_1020-1215-1.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "52f0a94d9f0d334e91dc8bc6a8bb4bfa1c40c523",
+  "size": 113210237,
+  "lfs": {
+   "oid": "396c92a10e386e71b2a88e6664b86fc6b6a8bfdfb6f088a7eb874f8726825f66",
+   "size": 113210237,
+   "pointerSize": 134
+  },
+  "xetHash": "d21696c4b025504185b2708aa7beb902f4b153a1f23f771172a826c9b9647926",
+  "path": "mat/IDS_COLORCHECK_1020-1223.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "5677de9a6fa2d56a1ecaeb6c9f33e0af389b2090",
+  "size": 131082646,
+  "lfs": {
+   "oid": "f1e9d62b75dd88ce2d48bae21c0e1e0516bcbe40b364d07c7b98d6e3e85fa007",
+   "size": 131082646,
+   "pointerSize": 134
+  },
+  "xetHash": "e617c2c0f3ec737273555f4f1028450e85f8026c9a87b27fa11626b79368af2b",
+  "path": "mat/Labtest_0910-1502.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "b6d22bb94778e5bc56ba8e8296d44dc8dd5c3f52",
+  "size": 132590640,
+  "lfs": {
+   "oid": "ea06c1a99223781b804081235c48b7d1dd434ca02567de2f62d237dfb4530915",
+   "size": 132590640,
+   "pointerSize": 134
+  },
+  "xetHash": "f44f03a36a1e3c9b7ec234f1fedd08de19178ea2bc313f0304737e071baf2356",
+  "path": "mat/Labtest_0910-1504.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "424d569211d9ec2fb65709ca8d8ccd93e670951f",
+  "size": 127775020,
+  "lfs": {
+   "oid": "0212ac3b90ee5639bd9d6db922c3e257593ddce4b666a64e9e95c224e01e02a1",
+   "size": 127775020,
+   "pointerSize": 134
+  },
+  "xetHash": "423a5e8db5a02ca7e97dd8cb1cb50f97627e896a69d547749edd439bb7f2f3e5",
+  "path": "mat/Labtest_0910-1506.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "08b485607fea1eafa2baa98542272f0013679f85",
+  "size": 126059083,
+  "lfs": {
+   "oid": "7fce6827f19d92bc08435623a774b8b68636cf45c3be9cb4151ed598e79e1e4e",
+   "size": 126059083,
+   "pointerSize": 134
+  },
+  "xetHash": "ce192660d753748ec890241741400ac21eb9fe752a23785743b9e61f8b4928f2",
+  "path": "mat/Labtest_0910-1509.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "a5166bf08fbd4fcdfc09413815db41a017cd967b",
+  "size": 139047451,
+  "lfs": {
+   "oid": "494512ce0a74b97e80b25c831415b7d1783f3f1e307e6a6f3b6b34346e902f3b",
+   "size": 139047451,
+   "pointerSize": 134
+  },
+  "xetHash": "0014af1602f2436a8a15d96065b4a63e3601a5ac00d7c030fccac4cff3139ef6",
+  "path": "mat/Labtest_0910-1510.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "f5450f3da92aace0259b3e7b739354334eebcff4",
+  "size": 129355336,
+  "lfs": {
+   "oid": "cbe57741aa3c97e45d788e52dd05fa2e6d019413d8f78037901bff814797826c",
+   "size": 129355336,
+   "pointerSize": 134
+  },
+  "xetHash": "546fafe30a766e70916d9dffc6f395e50750e15bc79823057bbf2a702eb282b8",
+  "path": "mat/Labtest_0910-1511.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "9d1eeded8856c2a7eecbff329b0c4d04a6c6e303",
+  "size": 134415903,
+  "lfs": {
+   "oid": "903c8be1601677bcaf1cfc3d9e1aadb1dd9d91cacc91e4643b89859c68ae0c50",
+   "size": 134415903,
+   "pointerSize": 134
+  },
+  "xetHash": "318422e9dc9c501b6c14b8b6b41a1016ec0e56dc2b27dd3acfd60f1ef252d72c",
+  "path": "mat/Labtest_0910-1513.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "9bbc16c527fa429a2ae0060db2d85de063c05af1",
+  "size": 133900042,
+  "lfs": {
+   "oid": "963133e387bce468251785c7e64653c884e2cd46d862c59532728cedf4705d17",
+   "size": 133900042,
+   "pointerSize": 134
+  },
+  "xetHash": "5eac33e99e1fc1b65828b5fe64326f486b9abb312d07a9b736b24457116fc7fa",
+  "path": "mat/Lehavim_0910-1622.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "6a346b34beaa1d64642df7155dfc6da9bc7797fe",
+  "size": 133550887,
+  "lfs": {
+   "oid": "dac1b0d2c3a6cdfd972d95b161f18469ccb23df28a9836faf0e10537f5b02b5b",
+   "size": 133550887,
+   "pointerSize": 134
+  },
+  "xetHash": "b093bc319ac14494a236752f40f2a5ac38b92560c4c380fb1b0e17376cbace07",
+  "path": "mat/Lehavim_0910-1626.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "5ea59201afff0a1e9b81c208e227b9a210cd4a7e",
+  "size": 135971154,
+  "lfs": {
+   "oid": "2e9d1ca99c64b3140d1d2e7c7392a12338200b8dc2ca10b6ac7cb17a83a8f939",
+   "size": 135971154,
+   "pointerSize": 134
+  },
+  "xetHash": "a09f000a3ee9983beff3389932ff4c06810b9abc684e947a8c41d233cec99200",
+  "path": "mat/Lehavim_0910-1627.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "aa95d89af89c8283677ff371697aa9c533216733",
+  "size": 143955706,
+  "lfs": {
+   "oid": "11f087204ec3f5c0f6ab7b4f5b39c5ef8313dde503e89e18e905d331d2b6ee75",
+   "size": 143955706,
+   "pointerSize": 134
+  },
+  "xetHash": "7b0a58f23ed781aa33feb4bea614d51294c7aa05abe93a3ab6121b6142569f55",
+  "path": "mat/Lehavim_0910-1629.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "4767eb3cfbecf3210a878c2f163c62d40be6184b",
+  "size": 148908985,
+  "lfs": {
+   "oid": "8eaa488a4ef9467eadd1a3116f449cb5ac56aa14f74908d25e451fa6df62347d",
+   "size": 148908985,
+   "pointerSize": 134
+  },
+  "xetHash": "573f972affeddf2aabf2ee791a74c8f264915d55a19a2ff0fcc1cac0f97b937f",
+  "path": "mat/Lehavim_0910-1630.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "0b5d1611d85b946c3b42416be1ea2d88b10b365f",
+  "size": 135153421,
+  "lfs": {
+   "oid": "6e7d3670d200d954748c983466aee6d1802855e94aea0d5fc0e0f41c7a2c8ebe",
+   "size": 135153421,
+   "pointerSize": 134
+  },
+  "xetHash": "84110e19bcb6c815b706ebd1c6381ebeef5210bf80adbc9cdd0b0550889dc9f0",
+  "path": "mat/Lehavim_0910-1633.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "2d20afbef2d8a029bfae2761c21428f4c67c1a0f",
+  "size": 118401840,
+  "lfs": {
+   "oid": "7bf0327ae31680b05999bdc97269f3e71c42a03c1400e69b71eacaddda462d3a",
+   "size": 118401840,
+   "pointerSize": 134
+  },
+  "xetHash": "fabcca481f28bf61c2ce295e9ddaf50cc80945b469d9ec31cfb952686b7ae3d8",
+  "path": "mat/Lehavim_0910-1635.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "a5ec847e99529aa9f009933c70e04bb1d01d2177",
+  "size": 124650272,
+  "lfs": {
+   "oid": "ec38c5f5367501db769e0a9ef50059f4952a617fdc8d1dd797faa2f96264300a",
+   "size": 124650272,
+   "pointerSize": 134
+  },
+  "xetHash": "de51f18cf4a60f9963868273c5d29edddee8a0e8361074c58e6324ef30d6d412",
+  "path": "mat/Lehavim_0910-1636.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "4d01d498a7f5f9a182c9a5b36a3f1be659866563",
+  "size": 146386127,
+  "lfs": {
+   "oid": "429b7068ea005358947ca25b523df59dd1b2f6a9edf07650fd299c32b7c38484",
+   "size": 146386127,
+   "pointerSize": 134
+  },
+  "xetHash": "2f0164c40bacdcd475acb203d46af0463779cf4f418cd9df553b5cb6584cfa8a",
+  "path": "mat/Lehavim_0910-1640.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "8f582bb99e98bdcbcccc4c321dcdb74fb82e3c9e",
+  "size": 144237568,
+  "lfs": {
+   "oid": "3516ea2d66b765f4c0c3835642f7e496292e9c0cd02fbd685feeee73e1236100",
+   "size": 144237568,
+   "pointerSize": 134
+  },
+  "xetHash": "68e5e8fe5ebe36ebd6023ad584d96d2ecc94ce06ca166688f9cad0c1b1047872",
+  "path": "mat/Lehavim_0910-1708.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "0aa90ad869b0e3ffff7833435c4ac51bc1dd57b0",
+  "size": 141773034,
+  "lfs": {
+   "oid": "b164f04d47eae97233189ec8024fd6cbd03acd0c2f9af90c88b43c5cfb9364ca",
+   "size": 141773034,
+   "pointerSize": 134
+  },
+  "xetHash": "9405de3570bb4022080e44533453d84dcb32dba92dd5079caa22b28c8285590e",
+  "path": "mat/Lehavim_0910-1716.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "1d9c564e3ed34c3961970b383bdb028d03b5d131",
+  "size": 136927331,
+  "lfs": {
+   "oid": "b10ab17aeb53e6dd20a3856d6731fafcc2f4d0cd7ab06d62915b9ba3cd621e38",
+   "size": 136927331,
+   "pointerSize": 134
+  },
+  "xetHash": "6801e4123696323be3cb9dc3e5290b36263855ecfd237831f447f0bd6428d80f",
+  "path": "mat/Lehavim_0910-1717.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "d78922dc84d0ef73d13b8f43ba93ac6ebf6f4bef",
+  "size": 132054189,
+  "lfs": {
+   "oid": "9b4e2306e337f397bd9123f37661b1030c660840bb6c47e6a4de9931fd9f80e3",
+   "size": 132054189,
+   "pointerSize": 134
+  },
+  "xetHash": "dfc6534d9f4f35d3f7dfd686f29b61e5aaa514ab27056df1d1d79133a79057c7",
+  "path": "mat/Lehavim_0910-1718.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "e3aabe7b9faad8d78fa5fa1aba70d8e2b2950cdb",
+  "size": 132918206,
+  "lfs": {
+   "oid": "e2d6138ae5028175edaf86bfa654d1162d43bedfd66a55256bf7c675054d5fdb",
+   "size": 132918206,
+   "pointerSize": 134
+  },
+  "xetHash": "8ebf06252397878e2c88fb72ce0255f7db46d25c5c9b5bdce1ef36cdeb212545",
+  "path": "mat/Lehavim_0910-1725.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "f48a6a4da02d35dab205f815d41f3af111569cf0",
+  "size": 138396901,
+  "lfs": {
+   "oid": "28119fbfeab83529aca7ebb63079493552050974c5df43f5503391f3ee3091d4",
+   "size": 138396901,
+   "pointerSize": 134
+  },
+  "xetHash": "c448b999c6b3aef918cc513dea60cfb8d48e4311ff7d3a54daa52c54e75355d2",
+  "path": "mat/Master20150112_f2_colorchecker.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "1bb8c0603b8444ea38af854d4ce91ec05dfdf39b",
+  "size": 82587964,
+  "lfs": {
+   "oid": "14e5cd2244f22153fbe2aa18b3540245102e74caade6535e24b54cfbfeb193b3",
+   "size": 82587964,
+   "pointerSize": 133
+  },
+  "xetHash": "a630b3d266dcbb0310fbd536259849890dd3ecc8bbd8bbf754d83b92dc42c77f",
+  "path": "mat/Master2900k.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "63a92962b2615d827af9617227a19010f419fa58",
+  "size": 83857432,
+  "lfs": {
+   "oid": "7ec21438159bc3b4e3ebaafa8c363c4b0479bcbb91f015b1d40a4be5a29764d1",
+   "size": 83857432,
+   "pointerSize": 133
+  },
+  "xetHash": "700b001dfc11e971e850360c3ad16fef096c618ac0630e6c446a9275ef5bac96",
+  "path": "mat/Master5000K.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "4816f7efe51ff2092de8693e1820b0fb85542ca0",
+  "size": 85908526,
+  "lfs": {
+   "oid": "ea1fde2e33fd8cd9e8503ff52c0777fa8d337f4213f44a6db656f3212c2ff3c9",
+   "size": 85908526,
+   "pointerSize": 133
+  },
+  "xetHash": "da812c6164c1efaf3968f81b528e8808a8653ddcccc25b1a85d55852aeb316bc",
+  "path": "mat/Master5000K_2900K.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "03316c53cd4f7875d554f27b84857f0f69d1b88e",
+  "size": 147333271,
+  "lfs": {
+   "oid": "90cd33d164027ec795e1548b5950c1f543bd82692dc06dc89fbd4a2aea8495c9",
+   "size": 147333271,
+   "pointerSize": 134
+  },
+  "xetHash": "df7b4d2a80fb4b0ad60ada3d8a4b271da9b2ca5ba0ff0cac8ab07f73bc989003",
+  "path": "mat/Maz0326-1038.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "6262fc2ea86595efb4b79b2608fa9f709e9fea46",
+  "size": 130448743,
+  "lfs": {
+   "oid": "cb5b73aed89f3341945ac8c4e000a04d967d5d3860ccb6f9783dac3f13e0a72d",
+   "size": 130448743,
+   "pointerSize": 134
+  },
+  "xetHash": "377acf630302b25ae696c7dfa1354dc88cf6633f75793f3800de82752e9d3769",
+  "path": "mat/Ramot0325-1364.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "67a2a41bfca8ea82d360a2cb574cbdb85f6bae54",
+  "size": 147583086,
+  "lfs": {
+   "oid": "89c8be4d293111871dbec690e49d948abdb95c3d5605d5691760200d13a8ef75",
+   "size": 147583086,
+   "pointerSize": 134
+  },
+  "xetHash": "e432440fef0c224552dd6a5d6590cab136be8a72c30906e11030468055cf0f6f",
+  "path": "mat/bguCAMP_0514-1659.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "e20c59bf4db531442d102846052207f4fce9f791",
+  "size": 130321595,
+  "lfs": {
+   "oid": "4ae93945b9abd19ae80ed40da72f47bfcf56632cf6cb181e6203ca0c36307019",
+   "size": 130321595,
+   "pointerSize": 134
+  },
+  "xetHash": "8b5a25ac4cfd7e326e35b8cb24449501c6d9ec06202b38293de7d5d3518b6c3c",
+  "path": "mat/bguCAMP_0514-1711.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "c7eb301e0dd4f14a3c5eb07b9ba21da3fffe5e14",
+  "size": 139358123,
+  "lfs": {
+   "oid": "9f7878313de842300b2f8d08695986c63070bce99c4b160aa724d302bdc3be6b",
+   "size": 139358123,
+   "pointerSize": 134
+  },
+  "xetHash": "4fb5d600e58f92be02aa2cf7a02e4e657b19c450cc4bc5a078f1b83e919c6ff5",
+  "path": "mat/bguCAMP_0514-1712.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "ba4dc2a4358f590fbc194c370b7d64a8b50f3ac0",
+  "size": 137144273,
+  "lfs": {
+   "oid": "d406e876826841930638a7e84721529ec607cdaea21d0e9d8a61cb10f1870b32",
+   "size": 137144273,
+   "pointerSize": 134
+  },
+  "xetHash": "bb3b71ecdb37c7fd9dcf5b7750fb529af02cee17e0f5739867f0579f34b922cb",
+  "path": "mat/bguCAMP_0514-1718.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "7b7685510f4b8120cd7d0b196615afe8259d5896",
+  "size": 139405282,
+  "lfs": {
+   "oid": "3f166f4a72588410d3273226763430c00b5a690195e28cff5610a70f289b322a",
+   "size": 139405282,
+   "pointerSize": 134
+  },
+  "xetHash": "845036229ef3b2a1631abcfd6663c888c269ad2491d5aa36a6c739091ed05683",
+  "path": "mat/bguCAMP_0514-1723.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "c0dba1bdb4dbef04f1b5417ae6fe119c27767acf",
+  "size": 131350370,
+  "lfs": {
+   "oid": "1101051d4210476732dd218e0488e01a3778884a3f38e643988a9386eb6e6737",
+   "size": 131350370,
+   "pointerSize": 134
+  },
+  "xetHash": "2863513a75c252c1e1cd56a853c5d029468e2dff3d77016d52b2ea212a95f6c1",
+  "path": "mat/bguCAMP_0514-1724.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "74deee6c819b7567e5d925d506057e9664651085",
+  "size": 147269642,
+  "lfs": {
+   "oid": "2e9b537a82af632a751a4d326ccf6a327846968a404b47e0f0985ff0d4de3c11",
+   "size": 147269642,
+   "pointerSize": 134
+  },
+  "xetHash": "521923a988130c619c8a7e333709b586c5b4da3d9ffc4212fe259bd04fb65c43",
+  "path": "mat/bgu_0403-1439.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "d6c9829bc2c739a711a41a95db633f09c4732c89",
+  "size": 143554805,
+  "lfs": {
+   "oid": "f7404ff65ea30250278b47b94a9018b3c07140d75944d2c5122a952cc4f7edd0",
+   "size": 143554805,
+   "pointerSize": 134
+  },
+  "xetHash": "8cccd87f6797b193e3045dcb212306a0263cc1c5222c79e0129b4f648f320cc6",
+  "path": "mat/bgu_0403-1444.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "ca53876d2c310492d689fb36a6b040ccb27f415c",
+  "size": 148043271,
+  "lfs": {
+   "oid": "528cb837b30f1e3dc95aa7f29ad78506bf323fc3678ff8a9b7dfa524512b134c",
+   "size": 148043271,
+   "pointerSize": 134
+  },
+  "xetHash": "f873eba2f254485f18103c2be82ad7c7b15c984b3f9c05003a5d78b2b351e60e",
+  "path": "mat/bgu_0403-1459.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "296a2ee682289d3379f674836f3482399d294d16",
+  "size": 161439465,
+  "lfs": {
+   "oid": "2d52f5aa76b95012e5cb22ab0ff1556c5ec987502dfa20035c172cb763162b0c",
+   "size": 161439465,
+   "pointerSize": 134
+  },
+  "xetHash": "e14ce57b18c4e855f78b51d3d4ebaa8151aee624a3a439a973a9e6da4163bc5f",
+  "path": "mat/bgu_0403-1511.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "a5dbf2ed2b8069541d8dde8f96b15991feb2c174",
+  "size": 158401722,
+  "lfs": {
+   "oid": "0a50dfbe1a31ebab379b072eec6f7d307e951ec862e66dc4127f6592380650c3",
+   "size": 158401722,
+   "pointerSize": 134
+  },
+  "xetHash": "f690d247bc2bb46d93661bc181cab0493d22fde04317e1708c85f7cb64093047",
+  "path": "mat/bgu_0403-1523.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "32649411a73e1ce39f5f0e8c258554925b54827c",
+  "size": 153850284,
+  "lfs": {
+   "oid": "05f2637bc97c3f31b4c0191b01da793f774346364969b81fdf9ffca66b0a5649",
+   "size": 153850284,
+   "pointerSize": 134
+  },
+  "xetHash": "b17863a5c66f23b37a0c16df01ff132dacbd6620eece823f340ec76cfb608547",
+  "path": "mat/bgu_0403-1525.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "27a077ef00d625e61aa33e3335a854418111cf43",
+  "size": 114906219,
+  "lfs": {
+   "oid": "d9a5147750ce4339046a73285c509237776051f621727f55824ed21b2469235e",
+   "size": 114906219,
+   "pointerSize": 134
+  },
+  "xetHash": "325ce2726db8ed74312971088e6ab2b302a63900e0c03df2003f659148c41173",
+  "path": "mat/bulb_0822-0903.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "319b98b0bff76d7c0c5a5330350941bfb1b90bcd",
+  "size": 141266202,
+  "lfs": {
+   "oid": "49d46bfc9323ec7efb25640c91b3b9eaefb5ccc6a17f2fb11b615a1f990ad9b3",
+   "size": 141266202,
+   "pointerSize": 134
+  },
+  "xetHash": "20faed7826dc36c343320fe3b3441783582a355e9c85e5dc28cc589695c20147",
+  "path": "mat/bulb_0822-0909.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "3d92fdc3191dda19e6c78fee42fee45d3a693d59",
+  "size": 138244534,
+  "lfs": {
+   "oid": "1085b67518b74c8c7946fcecf98a4e4a4400e2282e4b0456a751fa8407b4b0aa",
+   "size": 138244534,
+   "pointerSize": 134
+  },
+  "xetHash": "a843f8be1d9eb74bd5a2dcaae3c5c07a18c0be0c5b3d79e3cf9bca52fe18ac12",
+  "path": "mat/eve_0331-1549.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "229bf01d742a2bc631248a78a81a94222617c95a",
+  "size": 142451422,
+  "lfs": {
+   "oid": "ac2dd32ca754380bfa14b7df062d9a4662338e80f8f1396f2db3caeb4cf6ef3a",
+   "size": 142451422,
+   "pointerSize": 134
+  },
+  "xetHash": "7258b5d3edc9e218225ad5c640e7c7824e6568ad4e252b47e8fe75112444f00c",
+  "path": "mat/eve_0331-1551.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "a91c7d1979f814199d08b618d42286338be248dd",
+  "size": 147250515,
+  "lfs": {
+   "oid": "bf6037d91aa2a45ca3db24ffb13d17d4be6b1e231fe93bc25f240d0d49453402",
+   "size": 147250515,
+   "pointerSize": 134
+  },
+  "xetHash": "924ea573d99b7d37fd65dd358154d19eeaa8ecc5f01db5c27eb24ed4562d5161",
+  "path": "mat/eve_0331-1601.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "66ad935ce4256f2068be2bf798de61a4a488573b",
+  "size": 140125324,
+  "lfs": {
+   "oid": "da5337224b115e2bc4451e0c0f5b54800052e2e5afb8f311341810cae76b247f",
+   "size": 140125324,
+   "pointerSize": 134
+  },
+  "xetHash": "2efc4b76afd072a80b5b934f55169fac7366e9699e2d87889a3d4341e85c4d00",
+  "path": "mat/eve_0331-1602.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "65c463028f3f16f057ee8b063af23950770439e0",
+  "size": 140263877,
+  "lfs": {
+   "oid": "94ae6e84d9f3f64df927065957903c043457b9f9246acb9f4e5fbf917da998a1",
+   "size": 140263877,
+   "pointerSize": 134
+  },
+  "xetHash": "99fe769f0b1f7cdeee2202940a473f97f4c64d39c9f19ee3784a4a42bc4bd57c",
+  "path": "mat/eve_0331-1606.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "7cf74952ea7c0980e7379a2755a9f03ff4649c9e",
+  "size": 137026772,
+  "lfs": {
+   "oid": "ff3688ab4c5c8f3da5df018395a6ec9548702f2772c04156f74689e830af23ab",
+   "size": 137026772,
+   "pointerSize": 134
+  },
+  "xetHash": "29ddc0907fb0d55529e5b21752e4a871369091c42a98fcb55ae4ec67fd68d10a",
+  "path": "mat/eve_0331-1618.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "1cbc138372b9effcad5a5b288f191731dfd2ce2c",
+  "size": 146844934,
+  "lfs": {
+   "oid": "78c213f327e7a245b5354d7457f3ae2eedbc53942187e45e6cb03bd4555c74a8",
+   "size": 146844934,
+   "pointerSize": 134
+  },
+  "xetHash": "f68af5cef94f5a80d3f835a47da11770f81790ad63326725726dc950fce0c48f",
+  "path": "mat/eve_0331-1632.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "e90de8abd13656a6b9308a6062e0a641902b5f8b",
+  "size": 140452050,
+  "lfs": {
+   "oid": "520880d0201d4cbca9d9de7fbdb3b6d8be144d7d0946ee750c80cc4ef3391817",
+   "size": 140452050,
+   "pointerSize": 134
+  },
+  "xetHash": "56d41896168b3d93ee69d14d03032856e2d51ee999f016a3a533f52ed464dbe5",
+  "path": "mat/eve_0331-1633.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "e77cc82edd05e6ec4eb055a30b2d668533b0be60",
+  "size": 143681900,
+  "lfs": {
+   "oid": "23785124d00ef12fa495b4b9fe7dadda308f25a0758022f4d3e231617199f671",
+   "size": 143681900,
+   "pointerSize": 134
+  },
+  "xetHash": "a372e177212f9c183edad2e5ddf1708e7d8229d6708c6a67764894e00c683e05",
+  "path": "mat/eve_0331-1646.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "a69b141ddff204ed8d28fa0579f7a8118afe5255",
+  "size": 147593094,
+  "lfs": {
+   "oid": "a437ea9f9bfe545f5bed4fc792ff40faed89d18281ff0fa92646f7b69bf24e64",
+   "size": 147593094,
+   "pointerSize": 134
+  },
+  "xetHash": "1cea5922dd154a7388fae954d723a7acea0d27b0c3f7ef2f7c3e03c9e3413918",
+  "path": "mat/eve_0331-1647.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "a59885ba44c5884df43dc3865d81d2870c70112b",
+  "size": 146754084,
+  "lfs": {
+   "oid": "913c4e2d9105212242aac7d889e3faf6678cb7fd2bcd47e2af4bce0141505a9d",
+   "size": 146754084,
+   "pointerSize": 134
+  },
+  "xetHash": "eb52c0fde74b27d985e2e9abb44999142256e31ba184902779f5bd940ac5e200",
+  "path": "mat/eve_0331-1656.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "b96a7c10e5c7e2918e86ab3947daab3495bdca18",
+  "size": 142962941,
+  "lfs": {
+   "oid": "b4df53fda93334b4968d1237db8d0b532b21d5dc7fbd6330e46ccafc15a9a933",
+   "size": 142962941,
+   "pointerSize": 134
+  },
+  "xetHash": "42c1c49cfa12fb2a85a75d6c45dbe3e418713f949d25178bc03921709a63fd69",
+  "path": "mat/eve_0331-1657.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "0badfe6b1d69bcc059773d381f95203ec46a7968",
+  "size": 141608561,
+  "lfs": {
+   "oid": "cdfc6ca286770144ea614f0a96fce63d43ffc3fc04b5676e42b8c589f07fafdb",
+   "size": 141608561,
+   "pointerSize": 134
+  },
+  "xetHash": "4e0da84e6ac016227107e1d4d125526352f3736ff382fffd9e17815bbf7f43f9",
+  "path": "mat/eve_0331-1702.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "60c8b7801fedc1af98dbcabf3969bcc8097f4158",
+  "size": 147093157,
+  "lfs": {
+   "oid": "539f8b099c3533af1644a0048e5dee8a2f714c3848d1919eda3e96e95a504e34",
+   "size": 147093157,
+   "pointerSize": 134
+  },
+  "xetHash": "579814781ad2320531eed6d26d531314bb119c56decf91d5eba3902615308d5a",
+  "path": "mat/eve_0331-1705.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "657f19cf6feb7b8fb6eea68194f10100569bec30",
+  "size": 148940266,
+  "lfs": {
+   "oid": "916e230ac0cbe4c6888daf674078afdf84a0079831017897aa5e2ab313138494",
+   "size": 148940266,
+   "pointerSize": 134
+  },
+  "xetHash": "abb148c0efeec9ecf685ffa6cb8268889e4e5cac6cc0958b1b9ad6d44b5a3fee",
+  "path": "mat/gavyam_0823-0930.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "2d15e7d4d413123660ce0204595538658252f527",
+  "size": 148578847,
+  "lfs": {
+   "oid": "4a86a5f3f3e50a60466a9635f74b330e25a813bca14a224712fa05365d93d4ea",
+   "size": 148578847,
+   "pointerSize": 134
+  },
+  "xetHash": "3b6abfa8840aa29ece9d33c523b55ab8e359a3b12bd88777287f08453a379fe5",
+  "path": "mat/gavyam_0823-0933.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "c4db807b90d62dd1e953990006d0143c27b19ab2",
+  "size": 153946850,
+  "lfs": {
+   "oid": "9214002e7119308f5772debdd5f722f9c18781d6575349f3689babfcd09e4168",
+   "size": 153946850,
+   "pointerSize": 134
+  },
+  "xetHash": "4236a569a536fec70767ab63e8f234fe159f74b71d9219b005687d3231840ee3",
+  "path": "mat/gavyam_0823-0944.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "06bf0fc0abc14fb4740ceb827b5de36fad2a1657",
+  "size": 147197946,
+  "lfs": {
+   "oid": "dee0c6f6ca2354325ada3809160d0760eed52467ed4770422c669f0715b8fe0d",
+   "size": 147197946,
+   "pointerSize": 134
+  },
+  "xetHash": "d408f1670f478eb0bd92cfbe301c1b24b68f71cc1f0c7e70e767493ca5ad5b44",
+  "path": "mat/gavyam_0823-0945.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "e36c32673a9a9f1c6caea6901fc0bd824828fac7",
+  "size": 146623479,
+  "lfs": {
+   "oid": "11bf6f538acca569e0a6d1d89ad280ca6e690c7bb426649b6b8bad870678a4a3",
+   "size": 146623479,
+   "pointerSize": 134
+  },
+  "xetHash": "e2ff3921bc91a1ddfae5eae511c6c4ee232f4852e0cce07d79cf879806824b94",
+  "path": "mat/gavyam_0823-0950-1.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "ff91610124ae4e48f6a5a23e9a1b206a15ea9a2b",
+  "size": 140545124,
+  "lfs": {
+   "oid": "a59dafeff24a31e32592ba51a460336da0500873d8ef3e15be552e8fdbdd6cba",
+   "size": 140545124,
+   "pointerSize": 134
+  },
+  "xetHash": "e185c7cc0e24f1a5dfbd0a6e8909d9cc480769a51bf2b1efabf6ec292aba077e",
+  "path": "mat/grf_0328-0949.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "f6ff5ed8bf6b402029a331d448cfdea66271b6e3",
+  "size": 132653633,
+  "lfs": {
+   "oid": "c36165cee4f62ff5bfa8a475d318189f44a87d978002a21d64b74cea8b9054c1",
+   "size": 132653633,
+   "pointerSize": 134
+  },
+  "xetHash": "71180d49ee892d70f39a93285ea58faea669b8feeba7f7c581dc1f5f67ab2d57",
+  "path": "mat/hill_0325-1219.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "ed9cc03bc1690c712eeb67d140c51b56404c5769",
+  "size": 126813997,
+  "lfs": {
+   "oid": "211065784f5b30650f2e6838ef6ef6a33d2e68087dcdb4b2441aed01cd62d4cd",
+   "size": 126813997,
+   "pointerSize": 134
+  },
+  "xetHash": "7f2bc507a6280a413c375aa539c2699c495fdfc4d9f77b2f3d8e11ddf3a2533a",
+  "path": "mat/hill_0325-1228.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "71116fda4cee39160fcef16b5d4d9f32faa0aba2",
+  "size": 135082285,
+  "lfs": {
+   "oid": "05b91e89587ff7ac3df61432ece93dc4e4272ce4a2755d09a2e62142d75bb3d7",
+   "size": 135082285,
+   "pointerSize": 134
+  },
+  "xetHash": "ff7114569e77da8b5cae1c12009b2a7563c5fb7eb06ffbcb51a1a2249815f687",
+  "path": "mat/hill_0325-1235.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "99f4e56fc4893ccd46b52a3e05314fbdad5153fc",
+  "size": 142194885,
+  "lfs": {
+   "oid": "ae143281f7172ee7eb3e5f4dc17ae5298350d0bef9bca82d380c0471d3e4feab",
+   "size": 142194885,
+   "pointerSize": 134
+  },
+  "xetHash": "131f3cca8dc13ea32d823b2489e816795f1e38bcc2ef68aec94393b412437479",
+  "path": "mat/hill_0325-1242.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "c8e278fc97af7414a9f592ab677bffbb6c005121",
+  "size": 151492939,
+  "lfs": {
+   "oid": "03ee9054a9125bd60f76236eb9d602e7f1c373f8776f173e20b2412e551cdbc7",
+   "size": 151492939,
+   "pointerSize": 134
+  },
+  "xetHash": "b6dc43b92b0ffac44e42a2d23dc2e4cc1df3686a4774e9d08388f1206498b28c",
+  "path": "mat/lehavim_0910-1600.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "40ae03f0fac1fe189cfbe4210f509c66ddd6e0cb",
+  "size": 141128230,
+  "lfs": {
+   "oid": "5f840e60cf7c8033e83106da6ef7368795369dc408efe77ee4d6618e11e713d4",
+   "size": 141128230,
+   "pointerSize": 134
+  },
+  "xetHash": "86dbbe673ee5731f4b0a0010a0504e7e29ca7ae596c8e6bfe3c01cda4d7b77a4",
+  "path": "mat/lehavim_0910-1602.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "2ba4d08fcb47e6d16501d7573810c1923b924443",
+  "size": 135574785,
+  "lfs": {
+   "oid": "b87980d7d557db0de7c5c27c756c23e731399221de3df3e577cb4c302e6172fd",
+   "size": 135574785,
+   "pointerSize": 134
+  },
+  "xetHash": "536cb153c4ee8df25b929ea14d50a1540adb8345ff3ba54b934247846e76a9e1",
+  "path": "mat/lehavim_0910-1605.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "5a4d1cc7c2f45ba11a3e2d41bf26d0d04be655d3",
+  "size": 132294118,
+  "lfs": {
+   "oid": "35ff9dfcf3f2606fc5fb67fa41966c2e96eaf2ef32b3672079a078c119302c4d",
+   "size": 132294118,
+   "pointerSize": 134
+  },
+  "xetHash": "a609005ef050cd88d4fe882d15190951ff0787383fd5543d09d14b2831adae03",
+  "path": "mat/lehavim_0910-1607.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "4066192895a6da94c5483e0622b8a8df2c03c98d",
+  "size": 139660691,
+  "lfs": {
+   "oid": "62391fea7b072c199b3aaace1735e76a3c1b293d18de59b8337fb407c8ebcba8",
+   "size": 139660691,
+   "pointerSize": 134
+  },
+  "xetHash": "6d9583bac36f44a73416ae16415f33c1243eeae08bebdc641511227edd25b71b",
+  "path": "mat/lehavim_0910-1610.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "6f9ffcd38d4563835c61c96201fa3b0a38f8df18",
+  "size": 127721124,
+  "lfs": {
+   "oid": "d87cde990da6fe469b6fb57de8c1e77fb58d95a715b8cc5b2223d1f159de754c",
+   "size": 127721124,
+   "pointerSize": 134
+  },
+  "xetHash": "584a55f1698b8cd2947b0ce43dabab86467340d412fb17e80d65c78f03aeb67b",
+  "path": "mat/lst_0408-0950.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "7d58386a18eee5333fead504daa17ef773280202",
+  "size": 123772821,
+  "lfs": {
+   "oid": "53fd2ce0f013913ba01868622768ae0b54f72cac739402ea7be3fbe061401cdb",
+   "size": 123772821,
+   "pointerSize": 134
+  },
+  "xetHash": "d95fa1091b604640c40734269e71c12f8ac55c597667814bb2ecc8b01c13ec7a",
+  "path": "mat/lst_0408-1004.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "37fe793d5313b5ba7aa15d222003540941ae59e2",
+  "size": 139802016,
+  "lfs": {
+   "oid": "94dcba30509960a105858071cbba8c3800c6f68661e6229cf4be1fc26516a8cd",
+   "size": 139802016,
+   "pointerSize": 134
+  },
+  "xetHash": "872a6a0d8e016570796530cdd864a402e7ec27634bee1091e638b60c13e9bef1",
+  "path": "mat/lst_0408-1012.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "d8ad96b1673dbb72a2465b060113ebe76fe4a9b4",
+  "size": 140987473,
+  "lfs": {
+   "oid": "67dacf84bfc8433ce32aa364ca261ad46eb03c9f98da5ec147abfa052844ad26",
+   "size": 140987473,
+   "pointerSize": 134
+  },
+  "xetHash": "0a64bd04eb9b7eafc09be880b186f13b8cacbb369ec5decd06474d34b5cd96ff",
+  "path": "mat/maz_0326-1048.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "cd38c78e3c4fd171b40b65a4340d54adeefe3f1f",
+  "size": 121357092,
+  "lfs": {
+   "oid": "414508fbd7281d04aadb6781e1582cb783e405dbf1716e1151fe69b64685095d",
+   "size": 121357092,
+   "pointerSize": 134
+  },
+  "xetHash": "e979f37a349d5f8042b3695f8f6cf07ebc01596ac68e14c02bed25570e2a213e",
+  "path": "mat/mor_0328-1209-2.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "4ba2b0560f0cceda408cb061b9684700176bc2fe",
+  "size": 150576663,
+  "lfs": {
+   "oid": "0e1b24cf0a4cc5daa93cbb2465201b6ee3bf5aa86d156c7f4e8d2d6cb1dc8044",
+   "size": 150576663,
+   "pointerSize": 134
+  },
+  "xetHash": "dc3c58335ef9b30d25d9c5086f4365ce7afbd182e700de54a9753c1c554a05a1",
+  "path": "mat/nachal_0823-1038.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "94b349ffc5d7754f620d54dd79101712619f196c",
+  "size": 152790080,
+  "lfs": {
+   "oid": "e61a3cf24faefd34ce84c1b8ce98ac7677a3edae1b482da399ab40062efec238",
+   "size": 152790080,
+   "pointerSize": 134
+  },
+  "xetHash": "fb39717bf0a331469ea09659870c80e3a8c5e7500b9074620101a8cb8370ab39",
+  "path": "mat/nachal_0823-1040.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "10e56ccc132c94291609fab17b4ab9c40f8ea964",
+  "size": 151753603,
+  "lfs": {
+   "oid": "1db19e33b90ebeeb6f3691e362f7bb430eab3270673ec1f5508d336c43fde977",
+   "size": 151753603,
+   "pointerSize": 134
+  },
+  "xetHash": "93096649373e57f6fa89340888124de4d37c1bd0fa2a5407cabd481d5e076923",
+  "path": "mat/nachal_0823-1047.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "55d78dd6c2b00f52ea562887697490ec98ed82fb",
+  "size": 141804723,
+  "lfs": {
+   "oid": "aa34773c8012367153fa3f8ae7221b3b961af02af0cf39453460e97b5a50de52",
+   "size": 141804723,
+   "pointerSize": 134
+  },
+  "xetHash": "1ad6eebf9a235f57b68d30e0b7ab517f5685f908d49ed6401d22d89daa5ce346",
+  "path": "mat/nachal_0823-1110.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "35c65bfea59526d78461ff1145c5111363458f26",
+  "size": 150988679,
+  "lfs": {
+   "oid": "7fd6abed283a68f8eb1545501a196b805e88b85066d3c28fd047ff362fd68397",
+   "size": 150988679,
+   "pointerSize": 134
+  },
+  "xetHash": "ca38e60496278037c99a266831f9e9f3ba3498db6d7a215630257f04539bc751",
+  "path": "mat/nachal_0823-1117.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "b6bbccb6bb483a81a7d84707adc0a32734e9b135",
+  "size": 146571722,
+  "lfs": {
+   "oid": "ca595f31c499169b3e14442e3def6831bc3cc874ad73ff9a412bbca07feca233",
+   "size": 146571722,
+   "pointerSize": 134
+  },
+  "xetHash": "16be6f2c0d4cbe29b60bf4c0e01bc4b4cf29ebb413af18667204d1465d2329f1",
+  "path": "mat/nachal_0823-1118.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "2d4100a5dfe2dae211f7e303035a9e7554ac3ee8",
+  "size": 141333417,
+  "lfs": {
+   "oid": "9e9d1ed4f30304f4c5cd640bc47470c4d3a8e606b1f698915488a05d77a8a91d",
+   "size": 141333417,
+   "pointerSize": 134
+  },
+  "xetHash": "e1dcc1a8e602e34457d60faa0340baf4b73f2a4ae4b8440aac4af08b218fb342",
+  "path": "mat/nachal_0823-1121.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "ec81265009283f6bf5cf1493639afce1f7e20b88",
+  "size": 147541197,
+  "lfs": {
+   "oid": "2b997b29ca4877ffd254a8672d18297b841b3a2ec15cefdc635e4817ef825a11",
+   "size": 147541197,
+   "pointerSize": 134
+  },
+  "xetHash": "8dc5a582094b94fceb202174bc776a1a6b11e489aa3a0add749c80e604104105",
+  "path": "mat/nachal_0823-1127.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "be5cd7742529afef13efd1d3d84aba702f95262a",
+  "size": 142031713,
+  "lfs": {
+   "oid": "0665704e3a8ae38abe6a549ac7a423dfb15b1c3e4565eb6682e47b1ae1e5a9ba",
+   "size": 142031713,
+   "pointerSize": 134
+  },
+  "xetHash": "366747bb0a9e07c97c96529323d93c9be62aaadf29d358b16a42363962658143",
+  "path": "mat/nachal_0823-1132.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "42dafaa817e5357969c8e44eda9a30a308208d9c",
+  "size": 144706907,
+  "lfs": {
+   "oid": "77afb1bd44c3d798b4270b7993a05f4808c6ae4f5958760888d956649cdf9dac",
+   "size": 144706907,
+   "pointerSize": 134
+  },
+  "xetHash": "2c3cd02700b94d230b42a3d3d7a020c8353a9a9d3e020207cfe6daf8f173808b",
+  "path": "mat/nachal_0823-1144.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "c0d8770e9caf1290ab5e6789f4aceeef2af24278",
+  "size": 143877092,
+  "lfs": {
+   "oid": "519787313bdf76a7f939c6aa28d5fe8e6247610aea098ada51233921fb6607ea",
+   "size": 143877092,
+   "pointerSize": 134
+  },
+  "xetHash": "9885d5a115c89e875dcf0a7faaa4254794f488774c57c86fe4ec5c7657b4e7ed",
+  "path": "mat/nachal_0823-1145.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "87994bdf89272b768bea27934aa4221fe94cee88",
+  "size": 147749200,
+  "lfs": {
+   "oid": "9decb48eb23c825d6563aa61f7acf47039098c5861604467d2f511bf629addd1",
+   "size": 147749200,
+   "pointerSize": 134
+  },
+  "xetHash": "cfada1e3edb01545a3cb13bbd37a6e24d0806cef081413e0be3fe8f3c211ae3e",
+  "path": "mat/nachal_0823-1147.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "ec6e331315308e43ffc9a66a9045f4f7c2a1ad8e",
+  "size": 147278415,
+  "lfs": {
+   "oid": "7751042a3c007454371908243114439e3c218ff42e03c1802a326fcc56214643",
+   "size": 147278415,
+   "pointerSize": 134
+  },
+  "xetHash": "6e4d9c11b401d1d0272a50b269ccfeaf65f846a460ee84a5270e5d14a33c21cb",
+  "path": "mat/nachal_0823-1149.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "38d534cde3c78a9398d33c7af6482aff739cd195",
+  "size": 153379885,
+  "lfs": {
+   "oid": "c467c66ea11efed61e7556d7f9aecc73763e8ce0f7b47912872dd9696202515c",
+   "size": 153379885,
+   "pointerSize": 134
+  },
+  "xetHash": "ca9a665680176391962e53086a21798fabb782f5261ac129dd4e34cbaedacbeb",
+  "path": "mat/nachal_0823-1152.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "9387a62fefc0b7502b28d1a63ae2d577cff29d9b",
+  "size": 149712508,
+  "lfs": {
+   "oid": "0dae5403a13ddb0e745fadd87e101956b6f17980406a2c29fa2cce8fdd232255",
+   "size": 149712508,
+   "pointerSize": 134
+  },
+  "xetHash": "a35f938870634f3f2ceb856aa3e2034bdd390d210a4416f35f3c082adf4d5d6a",
+  "path": "mat/nachal_0823-1210-4.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "176ef9a4517495d857bf67ba97d2709fd100539a",
+  "size": 147911753,
+  "lfs": {
+   "oid": "a90513af1f7bbac7a70331553da3dccd543f56ca8ab4a47021eabdb0ca7de208",
+   "size": 147911753,
+   "pointerSize": 134
+  },
+  "xetHash": "9ae262debe503712b64840e55f6fab64873f0bb7f1ee988e1821b57fc06fad57",
+  "path": "mat/nachal_0823-1213.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "e206d27fdcc6492438a4c3c965fa56462985a05b",
+  "size": 146017428,
+  "lfs": {
+   "oid": "c84072b1b20554f3ba121d84352f497de25f5638aa4e439ea8e02ceb04c56c6b",
+   "size": 146017428,
+   "pointerSize": 134
+  },
+  "xetHash": "43ccdfc5c2e324cb3f1af0740397fd5582aa7f076e36fa20c6e135ae1eba7dc6",
+  "path": "mat/nachal_0823-1214.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "15d77ffc7385ea572f824c54aea896270279c744",
+  "size": 157286353,
+  "lfs": {
+   "oid": "077e11d7b42641b47f3f054497165a2d4d4f920849f4e964081789d0d2ea33c9",
+   "size": 157286353,
+   "pointerSize": 134
+  },
+  "xetHash": "db27653d60ce503d2be48e0d348ab9a59f75d1d79ca9d319ba76d3d61acacadf",
+  "path": "mat/nachal_0823-1217.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "8e4315932c5e89679fa2a9cba4c390d35912b43c",
+  "size": 143658611,
+  "lfs": {
+   "oid": "3ef13c16beff9ec27fce13d3985dba502dd9182a30c9a91caa53b3f00d1cea75",
+   "size": 143658611,
+   "pointerSize": 134
+  },
+  "xetHash": "9391aff2323cd534fb6d1ffe74b00369765feb9a02a8d38b235813048753b052",
+  "path": "mat/nachal_0823-1220.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "ab712c211f3ce8ab4d2e93989d8aa1caf8d54f18",
+  "size": 154371187,
+  "lfs": {
+   "oid": "ad2d419047620372455abfdd15ad3f024468d6c12717479c4d59a86b33979855",
+   "size": 154371187,
+   "pointerSize": 134
+  },
+  "xetHash": "832c2316fc32e3c57a07f902f214398e996a73bddd9d9e73ff439ee72b6c6b61",
+  "path": "mat/nachal_0823-1222.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "32b7aba4c614ddc7456aa2b26b1be056399f6145",
+  "size": 149628871,
+  "lfs": {
+   "oid": "2f366815db46a917872367a3993c61f2791feca464bfa530a30b7a55b66e2ab3",
+   "size": 149628871,
+   "pointerSize": 134
+  },
+  "xetHash": "04ebceadc0525c0578afd1770ba5637011068f18738af9faf11cc00ab5debc62",
+  "path": "mat/nachal_0823-1223.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "ff6062d0200412b519c713adda44a61a926bc99d",
+  "size": 149399413,
+  "lfs": {
+   "oid": "05b8fad3da9b8b06c31051acbf302ff26dd89f0aee1401ff8cd8baea7bf2de16",
+   "size": 149399413,
+   "pointerSize": 134
+  },
+  "xetHash": "d3946d30aaed83f7948e9d43aaf5436ea315678acf1ab80e5ff485ec8998f210",
+  "path": "mat/negev_0823-1003.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "8d879a76670534dc1a003ba4ad0ee47531229497",
+  "size": 150216939,
+  "lfs": {
+   "oid": "8240df25a01bbb1402204d1a34bbec1302602d1143f4cc0416923dabb407d90a",
+   "size": 150216939,
+   "pointerSize": 134
+  },
+  "xetHash": "54b50ca561735e5da28add10afe302e329116af6ad0e903c2dd0a11b11b0f62b",
+  "path": "mat/negev_0823-1005.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "9b0d3a950c3c5d729a624e79eec5f647b979a874",
+  "size": 137821706,
+  "lfs": {
+   "oid": "9f0d9e2dbfd5306ba828a4ee5126ec1b0d1e16865f5421c61a87bdb828d498e2",
+   "size": 137821706,
+   "pointerSize": 134
+  },
+  "xetHash": "ff2c8e62ae9c819f3807903c6f52b9216e041fdf130f22ee4f978394288c200f",
+  "path": "mat/objects_0924-1550.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "9e5134f032f55f9518a19abd3490e50236af3773",
+  "size": 138361945,
+  "lfs": {
+   "oid": "8d4cfa5ce6a21d6ba42fb67ac94c39e7d88688d6cf220c2669d940a95bf768fa",
+   "size": 138361945,
+   "pointerSize": 134
+  },
+  "xetHash": "0afcc9062b6dbed131089a4af95e1e9799e296c6bfa1a13620cc724c8dde3ea6",
+  "path": "mat/objects_0924-1556.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "7fd6c8b5f46a8a993fe51eefc7da43821e37dd28",
+  "size": 138082185,
+  "lfs": {
+   "oid": "906a0283b07287a169a1934ab12e74a6a20e35f2d1ae42310cb18f995a64a40f",
+   "size": 138082185,
+   "pointerSize": 134
+  },
+  "xetHash": "7eac5de7b24679a84f4a03b782a7bb4840a42d0d8f5cd010a58112576e2b8563",
+  "path": "mat/objects_0924-1557.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "52e5c281b664cb6d1f8b24098ab2b625ee5202d9",
+  "size": 138224669,
+  "lfs": {
+   "oid": "dec82281382b974a3fb7788aabdf2da3d92a6e5ac6c8e98d71c4b02b3d05137b",
+   "size": 138224669,
+   "pointerSize": 134
+  },
+  "xetHash": "d44e0d2c948e0e021854ce8e23f39db4c7974a51b659d5f1880cc5a471172d51",
+  "path": "mat/objects_0924-1558.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "6a0cd7371a80e239d701a42fa3f0fa852f3220cb",
+  "size": 138169099,
+  "lfs": {
+   "oid": "f3ce3a813391e8d47f2dfe8ac8e5b52c55f5025754f26279ff50c1f653bacb44",
+   "size": 138169099,
+   "pointerSize": 134
+  },
+  "xetHash": "b3a8b39125c63be99b27961b36478f93b238ea1cdd02c2dd0b26aa8304b4b8a6",
+  "path": "mat/objects_0924-1600.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "940e3f3dc58381a5d6f53beae468e53b9f08d9a5",
+  "size": 137914591,
+  "lfs": {
+   "oid": "17c9d9b91932436978e2bc44d2a8086cd7233aa2520b6a9a36bf229a5c59478e",
+   "size": 137914591,
+   "pointerSize": 134
+  },
+  "xetHash": "858c3f6619c46fb31ef778a74e163dba1150bb6bfb650d6e94f412b4719770e0",
+  "path": "mat/objects_0924-1601.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "dc5a61a6b463293f9da41144c7ea1ea0241cd053",
+  "size": 137865338,
+  "lfs": {
+   "oid": "99dabf8319686612b1ffb4dd658765a8fb7fb3d278277dc96c763db23106229a",
+   "size": 137865338,
+   "pointerSize": 134
+  },
+  "xetHash": "c637d10018a3d4f50e3efea8f480a022b9323cc406ed65e04d96640e37fa860d",
+  "path": "mat/objects_0924-1602.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "3a6e0dcc9be44559da5902a91141f8ae45c5075c",
+  "size": 137274549,
+  "lfs": {
+   "oid": "5295878015e5a508d988d1a040e6ca7b2896a57e3f1c893ec1b3b6decb62735a",
+   "size": 137274549,
+   "pointerSize": 134
+  },
+  "xetHash": "2fce3e20e591efdb0fab3a7df0ccacd747eaf0eb0ddb3c161c456eda5050d542",
+  "path": "mat/objects_0924-1605.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "645b8a8b306eedb69b63b18ba606509a27fe1fe4",
+  "size": 137312009,
+  "lfs": {
+   "oid": "312d22a5a71fdf82da7aeb0a0e074ede86243fc6c8e8debcd3bb3a9a03d853f3",
+   "size": 137312009,
+   "pointerSize": 134
+  },
+  "xetHash": "d18f03a719b113466f6030986f57266485b972b12c6e28287a38d18973d56514",
+  "path": "mat/objects_0924-1607.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "f862ee50b2e477d5efceaf7c2d8d6b634583955f",
+  "size": 137488386,
+  "lfs": {
+   "oid": "18941948809d5af6ae6a9e3bab31921508e8d75c17d87aa7e2b4ba51d3903f56",
+   "size": 137488386,
+   "pointerSize": 134
+  },
+  "xetHash": "8e5746e28c6c8edfa16bbd6faeaddf20c16a66d3fe427036926c2e154ec8d84c",
+  "path": "mat/objects_0924-1608.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "b581db70829912ff0e9b5326b643800f7914bc9f",
+  "size": 137738340,
+  "lfs": {
+   "oid": "828ee1ad6fa4cdad2438160eecf14cd892fb1ef13406a80854179b58b224925f",
+   "size": 137738340,
+   "pointerSize": 134
+  },
+  "xetHash": "bd2d7521c674c5d2abfa00f1946de31e26e553fc3916ee5e11797dc77c753ddf",
+  "path": "mat/objects_0924-1610.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "7da949515eee78ac18e05ab32f77a016f4ded535",
+  "size": 137190862,
+  "lfs": {
+   "oid": "d21302394d99bb48bb1f36486b3173677b49f1c3b2721470915fdd04631d22f1",
+   "size": 137190862,
+   "pointerSize": 134
+  },
+  "xetHash": "6f8c6b23d10693a53860c744396fe4b4093d742f740a468481e48fffaa6228e7",
+  "path": "mat/objects_0924-1611.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "764cbaf866ef15ad3acb8f4b5c032850c9321397",
+  "size": 137580080,
+  "lfs": {
+   "oid": "26a40271829a89c6c85ab3d60b3c9a23d963615e07b07ac866a9d6c8d7278219",
+   "size": 137580080,
+   "pointerSize": 134
+  },
+  "xetHash": "7f417018a192cf828cad15d8b8aee9190b77d6840c22fd363f70ba88daf0f3cc",
+  "path": "mat/objects_0924-1612.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "2cb7a8b64f3ebefb03277b06e56c20fbeed3da33",
+  "size": 136678703,
+  "lfs": {
+   "oid": "beb5aa5080f2e3f47289eda4d39cd6c2973de6b99ff7015d158af447c37e5b7f",
+   "size": 136678703,
+   "pointerSize": 134
+  },
+  "xetHash": "e54aac026bf8a1e8b2f0a218ac3d84a244ab355a22e0b6fa163e5f13d329cc72",
+  "path": "mat/objects_0924-1614.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "e0262edd5386e6760461b5320b438819e3cb4f76",
+  "size": 136613636,
+  "lfs": {
+   "oid": "e195ca144d7e6cda63c22bae84788854aa5aa02dd637ab6c3696402328b723e5",
+   "size": 136613636,
+   "pointerSize": 134
+  },
+  "xetHash": "b572c570cc06a9074938389beeff188d6fb19d812898331e1e3902914b1970c0",
+  "path": "mat/objects_0924-1617.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "15e30c3736e957be8eab9bf0ef36e9b2580617db",
+  "size": 136564214,
+  "lfs": {
+   "oid": "4f918638f9fba569714d0fc55ae8fbff0379d58610b6b4bfb22c08642debf9b9",
+   "size": 136564214,
+   "pointerSize": 134
+  },
+  "xetHash": "536fe780b754659237bd2aacc237f55c3012ddf498cf488336dad145d52faa0a",
+  "path": "mat/objects_0924-1619.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "5c0721e37cf492abfa497932ed49ca6daa3d05ce",
+  "size": 136492213,
+  "lfs": {
+   "oid": "80133d49745e547a44b939afe0903ac46f7cec29def3b54ac3251134f5f78c44",
+   "size": 136492213,
+   "pointerSize": 134
+  },
+  "xetHash": "c216569689cc88c18dc4c86c0a791cfa69293e41308e4516c4d2b605c5ac555c",
+  "path": "mat/objects_0924-1620.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "1a5951c34960a2735e2e3fce9ffe4b458cfe04e9",
+  "size": 136603430,
+  "lfs": {
+   "oid": "73302b1dfaf87cbdc26ddad98acf9f4e31f95fd8f08ee2a5d563ccee46f0e325",
+   "size": 136603430,
+   "pointerSize": 134
+  },
+  "xetHash": "b32e026492a2ac8e98ad11b0da3f77f9713df99eeb48f9699ab7b94429ac9a4b",
+  "path": "mat/objects_0924-1622.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "52d507842aca9ef1aaef95788e393c3d7f1caa78",
+  "size": 136070939,
+  "lfs": {
+   "oid": "a8493b8ef259349da9d0380b1b7000e7054497a1a499d3e2a3154d30774ff18b",
+   "size": 136070939,
+   "pointerSize": 134
+  },
+  "xetHash": "2209d07b32029ec1d07331eca9ab0f7bf95881a70ff855d6d44002ae53c37a03",
+  "path": "mat/objects_0924-1623.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "a990e06d97661f70e14da3f95e164a97b3dd2fda",
+  "size": 136223680,
+  "lfs": {
+   "oid": "eba72f45cd4930aa70cd99c749ed2cf4d24db0c592b5b3f0fa9800f8520d7663",
+   "size": 136223680,
+   "pointerSize": 134
+  },
+  "xetHash": "d8da28e70a1ab194b8e70f8b906fbd33a88be466abf49e22314e43fa6b085b65",
+  "path": "mat/objects_0924-1624.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "2f930b0dedc304c32a2b2f733b9eb616f3b3c2f8",
+  "size": 136329852,
+  "lfs": {
+   "oid": "21b1c5e1dc34f276a8b778d24572ce95af728ed331ffd230c73096d13ab805a8",
+   "size": 136329852,
+   "pointerSize": 134
+  },
+  "xetHash": "79c987d17b8d632e96e4f736ec32edef5dac5c6b72124536436be5c8bc5e956d",
+  "path": "mat/objects_0924-1625.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "907c51f6f0ea352ef84d811f68535792d4f140aa",
+  "size": 135752286,
+  "lfs": {
+   "oid": "8f2743deb7019cf5da1c18713e6c059da2b11ec105dd818fb0d0c9f2bdb8257b",
+   "size": 135752286,
+   "pointerSize": 134
+  },
+  "xetHash": "1099649678b2637231491f1aaf1b1f79437309986be47bbe9965190123e8115e",
+  "path": "mat/objects_0924-1627.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "265de667d13a6091dd0cc074c3aaab7974743cf8",
+  "size": 135514969,
+  "lfs": {
+   "oid": "4c9bbc5852479e9e2af7d5bb210cc420c9fbc144cb6ba946232bfed9d35f0ba9",
+   "size": 135514969,
+   "pointerSize": 134
+  },
+  "xetHash": "0fc2c9c2ea528400607930f37814c492563adc26f26cb16a3e455e95522620c5",
+  "path": "mat/objects_0924-1628.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "a6b03b5b1dd9efda8cb4a782a5e82e81d88b6cc7",
+  "size": 135241192,
+  "lfs": {
+   "oid": "256cd1e486446d5736a66f0e5112ecb21f11f71af4b3d1a914574ab76dd9763e",
+   "size": 135241192,
+   "pointerSize": 134
+  },
+  "xetHash": "b231f0008f3bff3b7d8e5bf19b9f567d302d96ef47d8533bdd14c8b8b43d0043",
+  "path": "mat/objects_0924-1629.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "3afc0da16305c999d5bc8e2d4ea0deb7c70f8bf4",
+  "size": 135436589,
+  "lfs": {
+   "oid": "6fdeb86ede49c0f82cc7da49b7d25498603de3838c47982f00eb0efce2e5c5f8",
+   "size": 135436589,
+   "pointerSize": 134
+  },
+  "xetHash": "e960d53dfc9d16d2927cad884fc23907d38353c73762675226a30532db44fc53",
+  "path": "mat/objects_0924-1631.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "cea951c86b00fc88ec9b5d8bbfba3d49c8960021",
+  "size": 135635153,
+  "lfs": {
+   "oid": "7fd646e6d6401c1caf1d128170c64595ee2a5bfaec73fc3890f59900a08fc9ce",
+   "size": 135635153,
+   "pointerSize": 134
+  },
+  "xetHash": "3590535c69d68474f119f1da4594d34add15b5b7197fb1a6835b7d99c4028ed3",
+  "path": "mat/objects_0924-1632.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "bf56d743e16fd9b8797ad02acd9f96d673f3bd4c",
+  "size": 134651943,
+  "lfs": {
+   "oid": "fdb43d9b43741d879ec7a98c7a83d1335e339f11b40908e39f95868ee33827e0",
+   "size": 134651943,
+   "pointerSize": 134
+  },
+  "xetHash": "bba4daa959fee269d4be6e9b25c916fcd51382ed8bdefde91828c3796d0712b3",
+  "path": "mat/objects_0924-1633.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "9817da242caef402afd9e4abbc1b17d8fc437438",
+  "size": 135522917,
+  "lfs": {
+   "oid": "bf3b2bf822bd0f146de4773de93d4ad7465d961392cb03a8fb3bd8897164796b",
+   "size": 135522917,
+   "pointerSize": 134
+  },
+  "xetHash": "b95190679b50a850b2c2a555e097292035c1c06ec1f2fc63668e00fb8942789d",
+  "path": "mat/objects_0924-1634.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "69f4ac88970aca178aeeb26ff4108cf29c89b519",
+  "size": 134776007,
+  "lfs": {
+   "oid": "eb2864b939bb94a7153e9df5ba1cbf6739ccf3dab040ee1a5a9e5b717cd0a47c",
+   "size": 134776007,
+   "pointerSize": 134
+  },
+  "xetHash": "fafb6069c36c89ec2c3a21a32f92d158841909923a38a005e378cd71780d80c9",
+  "path": "mat/objects_0924-1636.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "a7c3c812466ebe69c4c863e3e307c82d643ea73a",
+  "size": 134239455,
+  "lfs": {
+   "oid": "c296d161eebbaaff2674723cde881ee11a0661fcc688f3ff2c6130374e1f2db8",
+   "size": 134239455,
+   "pointerSize": 134
+  },
+  "xetHash": "4f46d9531aed481c15f14f38a0b6b47677f9557e9f3a0203b791c9f76c2aa577",
+  "path": "mat/objects_0924-1637.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "afb242d866960073ec56b89113cf295bdaa9d76e",
+  "size": 134269099,
+  "lfs": {
+   "oid": "205feaaed23ddb5a6660dd75b116443d002b0ed099cc9b50217e65c656270e2b",
+   "size": 134269099,
+   "pointerSize": 134
+  },
+  "xetHash": "e309f3f418a7ef54d6522da834f5fcefe1110b7c23a5f3c3bd8353cbc9d99210",
+  "path": "mat/objects_0924-1638.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "3e1889a9c0a51d9418c3273f0b4a4b0945d5c3e7",
+  "size": 134998630,
+  "lfs": {
+   "oid": "d1d10f5dbad50789d577c813791ac58937cc5fa6bd4e30d98342e3db8c560ed4",
+   "size": 134998630,
+   "pointerSize": 134
+  },
+  "xetHash": "1e95c7d81205eb43cf3c53ae2c3a13770f1f2effb25996547bffe8ff37d35f48",
+  "path": "mat/objects_0924-1639.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "d83ad67e3e70c16ebc9b4de24eb18c9b81fbd64e",
+  "size": 134484057,
+  "lfs": {
+   "oid": "6cde547a6fa811dc4393649978b6e3dd105347be831497834931856a2cd477fd",
+   "size": 134484057,
+   "pointerSize": 134
+  },
+  "xetHash": "159290c17a2d5c5820e8f6ce8eb17b60bd6c4cc5246e80b15e2c99a53c713fcb",
+  "path": "mat/objects_0924-1641.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "d5fb0898b5f429b7e786f0560f204b74f87b3631",
+  "size": 133909136,
+  "lfs": {
+   "oid": "68016f1821f665364f8710254ff4ec09b163fa7e3abe5ba8788920ca0b81ccac",
+   "size": 133909136,
+   "pointerSize": 134
+  },
+  "xetHash": "88630282af3992f870768f04bf6a6b80157731c5f87e2492456bff4381bf4869",
+  "path": "mat/objects_0924-1645.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "5a416e536c1452ddbd50a3279bbc67ae60d0ee5a",
+  "size": 133273925,
+  "lfs": {
+   "oid": "0b08dfd8db785effec7e70dabcc44171d79fd48b8a37032a32162c5a861f6722",
+   "size": 133273925,
+   "pointerSize": 134
+  },
+  "xetHash": "0aea68c91fbf8047ea523c3c631ad2780789d83bbd008ad54a4017203a5c43e4",
+  "path": "mat/objects_0924-1648.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "a159ad13ac1d6e51438ec465a51211fde06686d9",
+  "size": 134554489,
+  "lfs": {
+   "oid": "a5a71301866990b31d68a8d14501e75e10ca888e788510f3c02eb6357c27ee0e",
+   "size": 134554489,
+   "pointerSize": 134
+  },
+  "xetHash": "5c47508ef627095461588fc66294713427d5578a90bf7f967bb2edcec5f970d2",
+  "path": "mat/objects_0924-1650.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "a8c456646e87150327d5c5efa8dae56b965d4a96",
+  "size": 126621648,
+  "lfs": {
+   "oid": "bbc17e907a2196910843200cc3dab6607da9f6d1ad285cc3e45f7c771b72a2ea",
+   "size": 126621648,
+   "pointerSize": 134
+  },
+  "xetHash": "890ad7cbe8f7c7c1e3bbd7e305dde885ba1fa8a31ca00580c83c32f2f379cac5",
+  "path": "mat/objects_0924-1652.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "f96c620264f2e146113ab8aeb580efe4523a1c6c",
+  "size": 150604305,
+  "lfs": {
+   "oid": "7c1019d8976f1bfe4fd92faba9ab46877fbe3bb734081f1b4ed44470808b1f66",
+   "size": 150604305,
+   "pointerSize": 134
+  },
+  "xetHash": "13e3ee8666d8a1ad52e6ef75b3b17ebd328312377c11137fc1797296edddd451",
+  "path": "mat/omer_0331-1055.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "18eb200256170fee9588a6a583a3b807b0a3cb15",
+  "size": 146276949,
+  "lfs": {
+   "oid": "c3297f21b2afcf03fa01758aa584fb5b43099880136d9e731ee63e48c9342e30",
+   "size": 146276949,
+   "pointerSize": 134
+  },
+  "xetHash": "dad6c1d2c294a04694ebe72d94bdf619762339c04098d102f03a6bfed6022246",
+  "path": "mat/omer_0331-1102.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "778df1e7031815b3d86e7c7715babd268eda93d9",
+  "size": 143666987,
+  "lfs": {
+   "oid": "e87e6634ed065d7128af74b56cf4ac2671570ab95dab0cd845de34f6190750bc",
+   "size": 143666987,
+   "pointerSize": 134
+  },
+  "xetHash": "a74e04180b73ebc05b90d68016333cbe2fd2d2cd3775f6f1e16fa563c0404cbe",
+  "path": "mat/omer_0331-1104.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "156e839bb4777169d6dad80e437f80ea32a70eaa",
+  "size": 147851450,
+  "lfs": {
+   "oid": "a7993ac57e2e510045dd2db5345df47514726b6e651cbdd8e22a3b3656867fc5",
+   "size": 147851450,
+   "pointerSize": 134
+  },
+  "xetHash": "8283be5580df2a65fd9007d600668c26bba11cc61ba16eaa678c48c8274337f1",
+  "path": "mat/omer_0331-1118.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "b42ffa1b0fa790cce2d5653825f85fa28b480d55",
+  "size": 146279219,
+  "lfs": {
+   "oid": "55e4e0daab29645f5142f4072e73da24b4fcfa24642d52ec94cb3313ed05ea69",
+   "size": 146279219,
+   "pointerSize": 134
+  },
+  "xetHash": "e430bae117d30eba7a15f74ccbdd1900d4449fa863aaa76f85d836b717240e08",
+  "path": "mat/omer_0331-1119.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "625196ee278e6825130f173f8edc78473002c93e",
+  "size": 154072473,
+  "lfs": {
+   "oid": "226d283e459c017beea6486d78d9d55bc6858d7492b041c9e343f897fc38eb67",
+   "size": 154072473,
+   "pointerSize": 134
+  },
+  "xetHash": "51efa8c4255ccdc6b5e8974febd1b3f44b114520e0b4d3561331ea20f74efa86",
+  "path": "mat/omer_0331-1130.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "c7617ead33fba9d090fba8b15e8744fc80d8ec1a",
+  "size": 143565019,
+  "lfs": {
+   "oid": "52faeda3c7de378573b9635bbbe21e93be051433532471dd5ad051a183da5477",
+   "size": 143565019,
+   "pointerSize": 134
+  },
+  "xetHash": "b0120712681bf88006ca6a037008e950d58917135834530883e06c1dd33c0914",
+  "path": "mat/omer_0331-1131.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "0c0b4ec2cfdb860f6e80967262143d107d89c18e",
+  "size": 147272455,
+  "lfs": {
+   "oid": "9230f2500e4226eb7680a46cd85c5dc261548b3f6553ad7278468b5b3bd1ec9d",
+   "size": 147272455,
+   "pointerSize": 134
+  },
+  "xetHash": "a377102f51f56c90cf4e35c1d9579e62e8a04b2dee8e7f6172bbd1d5f8d28f0d",
+  "path": "mat/omer_0331-1135.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "57b97a869cd9f800006edcec303af992108394e7",
+  "size": 152832565,
+  "lfs": {
+   "oid": "d2ecee7a46869b5e825ddf5094f1c5ed0edf4bf0738ad5b19ff12a7b0e3fac58",
+   "size": 152832565,
+   "pointerSize": 134
+  },
+  "xetHash": "055f2220735af33ef90fd24b2ff0675ac845bc5be2f5f3579f53e530bb9fea93",
+  "path": "mat/omer_0331-1150.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "b1324085fe7cdfafd337384298b79c21b14e7c98",
+  "size": 145288843,
+  "lfs": {
+   "oid": "cfa656433bfafbb822cbcecf761295ea60b8e223b1769686cfd7a9252bf518de",
+   "size": 145288843,
+   "pointerSize": 134
+  },
+  "xetHash": "f4cf9ae90e0325523a95af0a76a88da248d54c6522dda3b7704a085e248d999c",
+  "path": "mat/omer_0331-1159.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "cd8eccd3e221ffb8120f738224ecaf53599b648d",
+  "size": 141326062,
+  "lfs": {
+   "oid": "24531ce627a3a30c67da9c1d48349bcc8f1a695aa4581399871e34aaa2c17fce",
+   "size": 141326062,
+   "pointerSize": 134
+  },
+  "xetHash": "c67818f4344de8d8e7dfc9361f3d610aad7c3919bc464b297740c58f67938d53",
+  "path": "mat/pepper_0503-1228.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "4730a5bbb1e9e7e868356659f1a4f7dd26039d86",
+  "size": 140177731,
+  "lfs": {
+   "oid": "787599887f5f79f5aa4fd68a7377b96beddba1e0d07f872624ee1367ba79d71e",
+   "size": 140177731,
+   "pointerSize": 134
+  },
+  "xetHash": "ade9ed2f1a262a965c0e1e2ff024a99dbe4fb359c78228881ab0e6f5f7dac33e",
+  "path": "mat/pepper_0503-1229.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "3156eb6ad5e7d2d39015345d7f06a240633d3b4a",
+  "size": 141739000,
+  "lfs": {
+   "oid": "2f901177520f681813c8a53668720a255629823293206fe0650d8a8ef8a815e2",
+   "size": 141739000,
+   "pointerSize": 134
+  },
+  "xetHash": "3b6c8545de01eecde90692282674bab23de46a6807115e4258f70dba256b4a5f",
+  "path": "mat/pepper_0503-1236.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "c12661d66021a5bd80fb27100ffe797a6fcdb2c5",
+  "size": 139788340,
+  "lfs": {
+   "oid": "e2b69bc4d87ddedc50249983f3318b0c5c5fcadbb40ef15af76c15d6797a77eb",
+   "size": 139788340,
+   "pointerSize": 134
+  },
+  "xetHash": "612af0e71ae0f020c795861969b67e59a525f994027dc9a1fe291ec2ab3a6ee0",
+  "path": "mat/peppers_0503-1308.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "363fa58ef2e120d10ed02ee280295bb5e6697358",
+  "size": 141289499,
+  "lfs": {
+   "oid": "aad5ac8e287a7e1ffae09087522c37e0f1ad7512377a7ca8af81b3829c2efd66",
+   "size": 141289499,
+   "pointerSize": 134
+  },
+  "xetHash": "ec682333c533fbd4bc29b57469876c2b2170117ad9ef929e421308108bbf11d4",
+  "path": "mat/peppers_0503-1311.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "f5e03768361454b6b9822c720051db1a5404daeb",
+  "size": 139520858,
+  "lfs": {
+   "oid": "4c105f8e78669a79e32abe635ed5ea2fd9ac6810e38879a2b330d3e2287d6c97",
+   "size": 139520858,
+   "pointerSize": 134
+  },
+  "xetHash": "1df1a2618654277b213f5dcb297347a115a663fc32ba1295f4938e87e4918b6f",
+  "path": "mat/peppers_0503-1315.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "a0ba4d41a68b6ea28df2d3ebc8c1b27f73e4d28d",
+  "size": 142287362,
+  "lfs": {
+   "oid": "3a79d021ddbf94958c02e746623d37ff870cf703d9af408d685f8d1c948f2cc3",
+   "size": 142287362,
+   "pointerSize": 134
+  },
+  "xetHash": "a4af96f3747e15293e1fbdedcf83311414417f01e71833372190f3b5302a57e3",
+  "path": "mat/peppers_0503-1330.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "183880fdbd27966479f0bb992bd8135e32030120",
+  "size": 151090292,
+  "lfs": {
+   "oid": "ac0fe62e530cda29eeb66b8d2a7166f4ace7fbed3293b9f8be1b952c657a642c",
+   "size": 151090292,
+   "pointerSize": 134
+  },
+  "xetHash": "d2cf60a3fb728d265195e5760b45f3f377dda3534e327f065eb9401789f3160d",
+  "path": "mat/peppers_0503-1332.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "85ecc6419a39bc4ea75a8d44dc7751816a542fe3",
+  "size": 142255769,
+  "lfs": {
+   "oid": "130cf971a4f933a91cd796c31d601cc9803528b51c05b38c307cede843612ca4",
+   "size": 142255769,
+   "pointerSize": 134
+  },
+  "xetHash": "2a9d09e55885df0399e240bd67a21f797778348991392947ce5304b67496b427",
+  "path": "mat/plt_0411-1037.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "a3684ca5a082a6db15bb6a3ce6d1461162dd2548",
+  "size": 147536297,
+  "lfs": {
+   "oid": "c4664fa88311e19ccf847148204acf9efdb794abc98c4a5f9402b471d0234b00",
+   "size": 147536297,
+   "pointerSize": 134
+  },
+  "xetHash": "3b5b66049432e7333e2533f229d51b8a2a112c9f2bbf57c1d1ec5a45c1f6f73f",
+  "path": "mat/plt_0411-1046.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "41ac35590de8b1952e9b1dd5318dda7dbe5dd03d",
+  "size": 140810086,
+  "lfs": {
+   "oid": "319a9f66ab21113d5190c48bde1d2cea17803984816096c6dfc339ae563bfa62",
+   "size": 140810086,
+   "pointerSize": 134
+  },
+  "xetHash": "f639bff5920f9005fe62a89df97ceb00ab9800aef88d0c991b0e8cfd7b411d99",
+  "path": "mat/plt_0411-1116.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "2347485d744ae8efc8c513f59d95d7f2530c5d4c",
+  "size": 154203783,
+  "lfs": {
+   "oid": "52da482f14e24ba9f8508a94c00aeebf27c74963fd3713c07f1b49c35141fdb3",
+   "size": 154203783,
+   "pointerSize": 134
+  },
+  "xetHash": "6240a6355573cefc7b9224b22ddfba07100f6fae74ce6b5cb1dd770e08081f45",
+  "path": "mat/plt_0411-1155.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "a0d201f67b8528dd318e90ebcdcdbe66b5786b4f",
+  "size": 147650746,
+  "lfs": {
+   "oid": "bd619937d26795e5b298b450963c1b9aeb1ff97845163dbb1aae403a9d92cef7",
+   "size": 147650746,
+   "pointerSize": 134
+  },
+  "xetHash": "81dd02595f46e3021ca212763fa9ddf4adaa1f4175eafb2cd50aa426a794c69e",
+  "path": "mat/plt_0411-1200-1.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "ab9d643eceedf0f1820f88889d8e0abe4db75f42",
+  "size": 133810933,
+  "lfs": {
+   "oid": "b5cf55a792e2a0ca98b9471bc35d6b6e84059c87f052086953ceef1f00786638",
+   "size": 133810933,
+   "pointerSize": 134
+  },
+  "xetHash": "f36121d76c6f578eccba1522e852db988cac628e27a03417e3dd383f00588dcc",
+  "path": "mat/plt_0411-1207.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "9987ace67a4cef6424654ad3a244fdf989c9e8f5",
+  "size": 139717051,
+  "lfs": {
+   "oid": "70ba70170cedaeab90cf3d39e37550261a4e69f88f6abfbd1c5fedb2f9ec7684",
+   "size": 139717051,
+   "pointerSize": 134
+  },
+  "xetHash": "ae81a8954bc49b45db3f79dfb3a2f35ce8f5e4f48f365ab5441b3d4b8a62c93d",
+  "path": "mat/plt_0411-1210.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "93d2c7f4b447f03e95877cddcca00bb119a99315",
+  "size": 149009081,
+  "lfs": {
+   "oid": "ca1044b04a70141a69d8e7e9d5bd909a92e1c7f5c9dd66a9a5e3a6832e99038b",
+   "size": 149009081,
+   "pointerSize": 134
+  },
+  "xetHash": "75bee71bb94c329bf7182a313288ca2acec1ba7ccac34a40817873b25c69e90e",
+  "path": "mat/plt_0411-1211.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "54e2f69edfcd223202100f549276c215c81140d1",
+  "size": 152464499,
+  "lfs": {
+   "oid": "3cabc5a31a89b3604e40bdce3955869f65ca550ba7722d156ba6d25f3cbc6443",
+   "size": 152464499,
+   "pointerSize": 134
+  },
+  "xetHash": "b0d4bc65120a6fccb7b2cc11f25c551be663f8a80eaa71f80edb77d659688221",
+  "path": "mat/plt_0411-1232-1.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "7bc36fd2f499a99dae5e35126f0379411f490065",
+  "size": 141054591,
+  "lfs": {
+   "oid": "ce3cf890adad18040c0b4488e668483138c5d0de092d03c1246a2766fb6b88c3",
+   "size": 141054591,
+   "pointerSize": 134
+  },
+  "xetHash": "b04ea2bb77ab29c3d3761d8aab28bbb636e5f822e9cf9f7dba0e299729b408cd",
+  "path": "mat/prk_0328-0945.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "97b2bd61612e506cd4f614a2909ffe1547ef394f",
+  "size": 141965647,
+  "lfs": {
+   "oid": "5d2d4f875c972dc449c3131c0ca0eb8832997aa32d087cea2af9dcee0965da4a",
+   "size": 141965647,
+   "pointerSize": 134
+  },
+  "xetHash": "7dd8eb99ab5b0674c84891890d3f9174f0f36e361a856b6c6098b1432ecaf7e3",
+  "path": "mat/prk_0328-1025.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "b2e394466610ab96a539172859124b8642ef8b7a",
+  "size": 142801065,
+  "lfs": {
+   "oid": "d73b103d949aefa9305f3a7b040519117432c57926961410a49d5c1391e71b09",
+   "size": 142801065,
+   "pointerSize": 134
+  },
+  "xetHash": "e6695969fe19cd7eb5c089de0947d2a0be376662080d1f557ae963a471fec412",
+  "path": "mat/prk_0328-1031.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "1d6889fd542c668c90b3745d94c1411a8358f76d",
+  "size": 142957199,
+  "lfs": {
+   "oid": "fd24ba9f018e600c7b55d99419bbf13a6f00b08af30dcdfbfa2bd7b129727708",
+   "size": 142957199,
+   "pointerSize": 134
+  },
+  "xetHash": "5ca440083cede839592d1293de0ff85aa7cd0459af67623e4b47dfcd2089b803",
+  "path": "mat/prk_0328-1034.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "00aefb0f5609ac2e576bb9ba9d825a839f81d6f2",
+  "size": 140469667,
+  "lfs": {
+   "oid": "481d6ccb0316a2bc64314ba031faee37abf483a4bf8594e5ca19e8a96fe4ef3c",
+   "size": 140469667,
+   "pointerSize": 134
+  },
+  "xetHash": "1b2bc4ebe42ae4f302226432e37567318d4ef3ae6b74dce8801e0881676fccc9",
+  "path": "mat/prk_0328-1037.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "7f56a5ef925069f630ce8344850335e1d708c99a",
+  "size": 145861555,
+  "lfs": {
+   "oid": "383d37151e9a9dfde3f7293ee389f10f1143e34d670454ae1631d6d862f5e523",
+   "size": 145861555,
+   "pointerSize": 134
+  },
+  "xetHash": "5a0f3850eb6282c51e8c4ed8c9a04dd8277912ffaa19addec88b1c1b34613e04",
+  "path": "mat/prk_0328-1045.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "185a578fa95312e2c8667d2794ebffeb3a3afb5e",
+  "size": 144042290,
+  "lfs": {
+   "oid": "341e06ec97d3bd40f879ed0eedbbf6f222c6cc79ef9adc769759adc87af94d4a",
+   "size": 144042290,
+   "pointerSize": 134
+  },
+  "xetHash": "34d8e8c1be2482908385478ac42fb33d74f9c1030f5679cd422ee263151ee3df",
+  "path": "mat/ramot_0325-1322.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "8bf442b5ae3f8d2c8f6a4dc9e9eea1295abae88d",
+  "size": 114720115,
+  "lfs": {
+   "oid": "368847e16a4c6c193ce3f200909a073aea838a39f636ed2f13a96087db96e5e1",
+   "size": 114720115,
+   "pointerSize": 134
+  },
+  "xetHash": "5d75de1f3b19ba5bd63092e69e074a785e946d3f40bd609828fa5cdd7e3ff5ca",
+  "path": "mat/rmt_0328-1241-1.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "876f4badff13357a4e966d5eddd6263b2e573d82",
+  "size": 104151395,
+  "lfs": {
+   "oid": "58791f31a51de6c03eb8882c392f6311cee6b0c9c13fc7340ff2d5eba6e0126d",
+   "size": 104151395,
+   "pointerSize": 134
+  },
+  "xetHash": "f70760581e6b2a891781f73d7ae1edfd33aabaeaba37e667652450105dfff951",
+  "path": "mat/rmt_0328-1249-1.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "a32acb418704a38a02a2616bf928af4e7f6c0fb7",
+  "size": 139249230,
+  "lfs": {
+   "oid": "e17d6d943b00582f9e79c670c41d9e38f15426edd59195316d2febda456e4ae6",
+   "size": 139249230,
+   "pointerSize": 134
+  },
+  "xetHash": "2bc2c86b62db29ec5cea1048d0942637c2fdb818d573931890ee2df98f59229c",
+  "path": "mat/rsh2_0406-1505.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "b1625b5af28ae5f09e7013cef581aad98778d21e",
+  "size": 135547287,
+  "lfs": {
+   "oid": "6dc1ae6951791c1d47843be743631824498a25117e09f1530f476db4de9b75ad",
+   "size": 135547287,
+   "pointerSize": 134
+  },
+  "xetHash": "d26fa694d222461c30795505f529bfdc66a2f63affce682ad701d54c3a7c6891",
+  "path": "mat/rsh_0406-1343.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "6d9e0b6ee616faf27877cc0dd60087870f72402d",
+  "size": 151960759,
+  "lfs": {
+   "oid": "b180df7d9d63b8d5d13a0d7564b652bbcaaeb20db823e67db8f48df6d1203057",
+   "size": 151960759,
+   "pointerSize": 134
+  },
+  "xetHash": "4ce8414fce85cb8b181b2e89e7836c0b43e795fe865c16abc8e2b130126f3adb",
+  "path": "mat/rsh_0406-1356.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "54fb83a009089341fdd45c8d42ec41d973bf9f88",
+  "size": 146840843,
+  "lfs": {
+   "oid": "a29c96b703efe980699a804575562054410cb8b8c2d6793eb335529c8d4e92f0",
+   "size": 146840843,
+   "pointerSize": 134
+  },
+  "xetHash": "a937590d108a429080467e238301998e8f5d245fe0af409401c6dcbd8c5b4226",
+  "path": "mat/rsh_0406-1413.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "cc393a43798f3a1f14b608efefb30305fb7ba74a",
+  "size": 149474476,
+  "lfs": {
+   "oid": "cb6c37c6a5e95f34a97de51760baf5fb311674124c9eec34d774a210c5962060",
+   "size": 149474476,
+   "pointerSize": 134
+  },
+  "xetHash": "7d8134f594fdf5a475b8f6992ef96e9c46d4839cc5104dac1e0ad97f94a00a6a",
+  "path": "mat/rsh_0406-1427.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "0a587349f6a84c0a0e6a6b36bb791c811fcdd0c8",
+  "size": 148699685,
+  "lfs": {
+   "oid": "f1274a98d9cce744e45375bbe069beb99505a92e0da4858310158b1cf79eb6dd",
+   "size": 148699685,
+   "pointerSize": 134
+  },
+  "xetHash": "89c253b51e65a0e3a91c022d525f41866bc4cfca670a35a690d85e1a201572bd",
+  "path": "mat/rsh_0406-1441-1.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "287b79520f87ea362068850382dba70c40b0af8f",
+  "size": 143289690,
+  "lfs": {
+   "oid": "35256ea9a0159cb2638ec11be09273ed97b8e02fe342eb767f4aeeb2896a665f",
+   "size": 143289690,
+   "pointerSize": 134
+  },
+  "xetHash": "0219347d37d58821921fe2f3916d4a2c4bb9573878830a60e7232e276436c4ac",
+  "path": "mat/rsh_0406-1443.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "6f349cff43f9153030561a3ea5ba43940108f3d9",
+  "size": 148667501,
+  "lfs": {
+   "oid": "3badd81bae56e03e1dd82a119e952356f54edceffb0572b1889475c5df647cf4",
+   "size": 148667501,
+   "pointerSize": 134
+  },
+  "xetHash": "7b4509759763cea9156226b54cdabe5747995de69c27b31c30477adb65e06067",
+  "path": "mat/sami_0331-1019.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "069fecd6efb43bd543f843b35d1905148491063e",
+  "size": 131022039,
+  "lfs": {
+   "oid": "b8799886f1b1efb49a235170e0265290494e2baa8d2e3b75460a9c500e131014",
+   "size": 131022039,
+   "pointerSize": 134
+  },
+  "xetHash": "b880d646a1780f4dbe068339588b9b23f317994c923204e5abc9cf0ded9fd913",
+  "path": "mat/sat_0406-1107.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "dbd67e895392d23c12dce78ca742898bbd34ed7a",
+  "size": 135932878,
+  "lfs": {
+   "oid": "497e47d11cba38529eddb03e31581367bf7746bd3a4e074c9311f4e1154b7366",
+   "size": 135932878,
+   "pointerSize": 134
+  },
+  "xetHash": "1e7c298615412fdf96bc6855d1122d090f1f0f1e95d8d896c41f47b88ef6fa47",
+  "path": "mat/sat_0406-1129.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "7ffcd289e379cbe184a1d0238ff45e4e6e262e12",
+  "size": 144115042,
+  "lfs": {
+   "oid": "10d05dd7a8ef1ff24983610acd8f71ff2799cec25ac134ef1e7eee916a71065a",
+   "size": 144115042,
+   "pointerSize": 134
+  },
+  "xetHash": "9160ebdf9099dc343d2c071e58693db9b5692bd37eb2edbbae2775af25b973f5",
+  "path": "mat/sat_0406-1130.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "46e52c4883ed3c3061f540edc7e5fffb79d1a07c",
+  "size": 141329476,
+  "lfs": {
+   "oid": "a7cf668a398def14f3cd780c35d09aa72339e11657a67f8445146984ba369f3d",
+   "size": 141329476,
+   "pointerSize": 134
+  },
+  "xetHash": "31c3dcdbe5d27a8abb920801715ee83c760403d72bb779e7c369ff980c1b6087",
+  "path": "mat/sat_0406-1157-1.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "ac826d86206efe2449e85201b520b2adcb7f65d7",
+  "size": 141118923,
+  "lfs": {
+   "oid": "e24bc4e8c73561ea20dfe84bdfafb8592a0f56dfc0554e04d8e791d08b2bac5d",
+   "size": 141118923,
+   "pointerSize": 134
+  },
+  "xetHash": "36fa1b2d7bff858842cdd5f07904032616a07400b27b3b0151035a8a5b6b5df9",
+  "path": "mat/selfie_0822-0906.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "562cc1a040bdc1db113b9deaf01e31b598a03578",
+  "size": 144659210,
+  "lfs": {
+   "oid": "b71429a10db44c863d0ab864cf71e23f911237b9920a2ab263db806d18ae44d9",
+   "size": 144659210,
+   "pointerSize": 134
+  },
+  "xetHash": "23675622357ae7098dfb12ed8789a1e239b582b98ce8cbad5243ccc53f2ab0eb",
+  "path": "mat/strt_0331-1027.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "d57960dde83ccbad7425532122d1fc4c47620f7b",
+  "size": 130107245,
+  "lfs": {
+   "oid": "93dfbe30287e25c4daabe5d253dd90d136a8b6a191bdb2e430ee14bbb1aef05a",
+   "size": 130107245,
+   "pointerSize": 134
+  },
+  "xetHash": "d0e016aad3712e60d38686d7cab64ad2c0264396c9c30bb9dc0fd0c3144e4606",
+  "path": "mat/tree_0822-0853.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ },
+ {
+  "type": "file",
+  "oid": "f400343f9d28c60cad7f1fe653c864f531086da4",
+  "size": 105201678,
+  "lfs": {
+   "oid": "39b3f0c488a74b82e2523be9a897ec779a13a6de79a04ff597d347d79db5c109",
+   "size": 105201678,
+   "pointerSize": 134
+  },
+  "xetHash": "6090c57fccfd2abe3c99de1a4b67314ef0603e159da258fb36c0c2d88cd53705",
+  "path": "mat/ulm_0328-1118.mat",
+  "lastCommit": {
+   "id": "731d3f6086218dde06bf6485a15d025ae55d61cf",
+   "title": "Initial release: ICVL Hyperspectral Dataset (2016)",
+   "date": "2026-07-14T10:23:20.000Z"
+  }
+ }
+]
