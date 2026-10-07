@@ -1,0 +1,41 @@
+{
+  "kind": "actual_ICVL_fixed_whole_image_metadata_crosscheck_only",
+  "file_name": "4cam_0411-1640-1.mat",
+  "target_band_indices_by_value": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+  ],
+  "axis_layout_checked": [
+    31,
+    1392,
+    1300
+  ],
+  "max_absolute_descriptor_difference": 0.0,
+  "passed": true,
+  "predictions_generated": false,
+  "roi_selected": false,
+  "process_type": "仅读取完整性及固定整图重复元数据，独立直接HDF5索引核对空间块读取"
+}

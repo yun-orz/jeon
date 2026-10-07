@@ -1,0 +1,26 @@
+{
+  "status": "needs_attention",
+  "historical_archive_review": "passed",
+  "current_cuda_execution": "not_passed",
+  "installed_files_integrity": "passed",
+  "regression_tests": 26,
+  "production_code_modified": false,
+  "deleted_files": 0,
+  "findings": [
+    "环境检查缺失remaining_bytes",
+    "恢复下载强制要求已缺失前缀",
+    "当前执行环境CUDA_ERROR_NO_DEVICE，原因未确定"
+  ],
+  "sha256": {
+    "current_entry_failures.json": "424406e2225dc0a9f873b13314c62d10b8a4eaba676be3272752c18e7f45b230",
+    "current_gpu_access.json": "c7c7b99cd69483324acce87dee64c32b4218c687191454fe7fc7e240564d6340",
+    "independent_adapter_rerun.log": "16bf5f5b1c80bc1af0e15b8a6820875b9cff55e2fd2efcaf2aceb5dca3f1e2d5",
+    "installed_integrity.json": "d34a872bfcba10b7067f171d285c9bbdf8b10f3c40a6e92a15bc9cce1499a53e",
+    "m1_regression_tests.log": "e8ad355de6356e2585bc2f48fa6844043087791679704ea414450cf762165836",
+    "M1_review.md": "16020f12f17c17dc4db01a3b14ee1fd48bbaeda812aac345895669430ad49e97",
+    "offline_archive_review.json": "cd08c740514dab2986483ac8f9fe2286dc0125f88220ea4cceb17b7a816ce9fc",
+    "offline_archive_review.log": "fcf56986b00a56ba5a02cc8c836094285b443959166d46fedb9b4225419e4325",
+    "offline_archive_review.py": "08d635163c55b2f61fee2417a53eb9c5a2ac7d392cfef53627a816f882beca56",
+    "offline_archive_review_retry.log": "57fec05bb8a7eb6ca690876bb91fd20904078fc9d0e576d3f4284f0d927e23d6"
+  }
+}

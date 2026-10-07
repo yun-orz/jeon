@@ -1,0 +1,27 @@
+{
+  "milestone": "M3",
+  "status": "running",
+  "formal_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\reproduction_v1\\m3\\run_20261007_140558_2fcb7fca",
+  "candidate_source_counts": {
+    "harvard": 77,
+    "kaist": 30,
+    "icvl": 202
+  },
+  "icvl_official_sha_matched": 202,
+  "icvl_revision": "d2cf6714224029431cf4cec551ca6753ed59bc52",
+  "config": "outputs/jeon2019_optics/reproduction_v1/config_m3_icvl_ready_20261007.json",
+  "reader_real_data_crosscheck": "work/m3_icvl_direct_metadata_crosscheck_20261007.json",
+  "test_log": "work/m3_tests_icvl_block_verified_20261007.log",
+  "not_yet_frozen": [
+    "正式场景划分",
+    "训练共同尺度",
+    "两器件共同测量增益",
+    "30000索引及重放SHA",
+    "最终算子与数据指纹",
+    "M7测试封条"
+  ],
+  "M4_ready": false,
+  "raw_ICVL_read_only_external": true,
+  "preprocessing_and_cache_on_D": true,
+  "deleted_files": false
+}
