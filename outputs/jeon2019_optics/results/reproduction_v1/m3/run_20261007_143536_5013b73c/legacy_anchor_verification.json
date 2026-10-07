@@ -1,0 +1,46 @@
+{
+  "schema": "jeon2019-m3-legacy-anchor-v1",
+  "status": "passed",
+  "scope": "实际历史MAT字节SHA与官方候选的身份匹配及关联组排除登记；正式集合排除还由外部完整审核验证",
+  "checks": [
+    {
+      "historical_file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\harvard_g4_20261006\\img3.mat",
+      "historical_sha256": "d1d59fb149bbf127a354ef8893d801eeb06f21266c7d8af8b34b213609a863b6",
+      "matching_official_scene_ids": [
+        "harvard:CZ_hsdbi:img3"
+      ],
+      "excluded_group_ids": [
+        "group:5b7b45288d88fe1405b377e0b6715d4c64c1cca0b4355fdead3583df2f2ec8ba"
+      ],
+      "exclusion_reasons": [
+        "历史已查看诊断场景及其关联组，明确排除正式训练/验证/测试"
+      ]
+    },
+    {
+      "historical_file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\harvard_g4_20261006\\img4.mat",
+      "historical_sha256": "4f9e10f7873c6d1c06fb66a24edb05b052392e92d3190cc2f7254a0dcd107f3d",
+      "matching_official_scene_ids": [
+        "harvard:CZ_hsdbi:img4"
+      ],
+      "excluded_group_ids": [
+        "group:6f2c863a1353e7aa1bb96705a4a587ce36b9ac87a55b1ac64bb4b79e65c1f3d4"
+      ],
+      "exclusion_reasons": [
+        "历史已查看诊断场景及其关联组，明确排除正式训练/验证/测试"
+      ]
+    },
+    {
+      "historical_file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\harvard_g5_test_20261006_retry1\\img5.mat",
+      "historical_sha256": "280c639ba8987960922d7f0cf6575e742318c07127d5d9d3aabdeecf3ea93394",
+      "matching_official_scene_ids": [
+        "harvard:CZ_hsdbi:img5"
+      ],
+      "excluded_group_ids": [
+        "group:a88e2f5ce9f2cca4f62f44c154d67ab7d3907c0a95f2ffaa8fde39e8d2112c10"
+      ],
+      "exclusion_reasons": [
+        "历史已查看诊断场景及其关联组，明确排除正式训练/验证/测试"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "status": "dependency_pending",
+  "reason": "仅用文件命名与允许的固定整图重复元数据，识别Master2900k/5000K/组合照明谱变体；其整谱余弦0.973–0.992低于原0.9999阈值，增加明确采集族，禁止跨训练/验证。变更发生于划分、预处理及尺度/增益拟合前。",
+  "new_config": "outputs\\jeon2019_optics\\reproduction_v1\\config_m3_icvl_groups_20261007.json",
+  "preprocessing_started": false,
+  "measurement_gain_fitted": false,
+  "test_seal_frozen": false,
+  "previous_metadata_cache_retained": true
+}

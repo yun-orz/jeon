@@ -1,0 +1,207 @@
+{
+  "milestone": "M3",
+  "status": "dependency_pending",
+  "commands": [
+    [
+      "D:\\dev\\python\\python3.10.4\\python.exe",
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\reproduction_v1\\main.py",
+      "data",
+      "--config",
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\reproduction_v1\\config_m3.json",
+      "--phase",
+      "all",
+      "--resume",
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\reproduction_v1\\m3\\run_20261007_113235_bfc0e21e"
+    ]
+  ],
+  "effective_config": {
+    "config": {
+      "schema": "jeon2019-m3-config-v1",
+      "data_version": "m3_20261007_v1",
+      "data_dir": "work/datasets/reproduction_v1/m3_20261007_v1",
+      "source_review": "work/datasets/reproduction_v1/source_review/run_20261007_initial",
+      "m2_run": "outputs/jeon2019_optics/results/reproduction_v1/m2/run_20261007_104321_03d47940",
+      "parent_bridge": "work/datasets/reproduction_v1/parent_m2_20261007_verified/bridge.json",
+      "protocol": "outputs/jeon2019_optics/reproduction_v1/m3_protocol.json",
+      "local_icvl_dir": null,
+      "acquisition_mode": "existing",
+      "budget_seconds": 28800,
+      "cache_max_bytes": 67108864
+    },
+    "protocol": {
+      "schema": "jeon2019-m3-preregistered-v1",
+      "seed": 20261006,
+      "legacy_policy": "历史img3/img4/img5及其关联组明确排除正式训练、验证和新测试",
+      "normalization": "Harvard/ICVL各用全部有效训练像元与25谱带的共同RMS；FP64分块累加；不逐图/逐谱带拟合、不裁剪",
+      "kaist": "保留原始反射率，不拟合尺度；作为相对信号前向是平坦照明谱代理的实施假设，不称绝对辐亮度",
+      "gain": "每训练场景选择索引哈希最小的一条256×256样本；两器件、三通道、全部有效像元等权RGB RMS；共同增益=0.25/RMS",
+      "gain_target_rms": 0.25,
+      "valid_mask": "所选25波段全部有限非负；Harvard额外要求lbl非零且有限；2×2面积平均的全部原像元有效；训练patch全部有效",
+      "grouping": "源场景ID、ICVL地点/日期捕获前缀、原始SHA及固定整图24×24×25曝光不变重复描述；近重复余弦阈值0.9999；跨库关联组保守排除",
+      "base_scale": 0.5,
+      "base_resize": "2×2等面积平均，保持像元中心关系，奇数末行/列丢弃并登记",
+      "augmentation": "0.5等面积平均、1原值、2像元中心对齐双线性；仅在线处理局部块",
+      "patch_size": 256,
+      "patch_count": 30000,
+      "cache_max_bytes": 67108864,
+      "test_policy": "M7前只核对原始文件、通道、完整性和重复元数据；测试半尺寸预处理推迟M7，不生成测试patch、预测、成绩或选择ROI",
+      "cross_dataset_calibration": "实施假设，不是绝对辐射标定；谱带因子10nm只由M2能量算子计一次"
+    },
+    "phase": "all"
+  },
+  "input_fingerprints": {
+    "outputs/jeon2019_optics/reproduction_v1/m3_acquire.py": "ea307b3adefeb408338d9ebb0273f9dc27a7b676be6884afcf105e304892c48b",
+    "outputs/jeon2019_optics/reproduction_v1/m3_common.py": "351ecdbd86da1dce21ed4ddb59b570f0e4bd915320d96d280ca8f97377dac9e5",
+    "outputs/jeon2019_optics/reproduction_v1/m3_discover.py": "889f779158ef09e82d3396392491d9995cbade75626b149f1e2f378130b88ab5",
+    "outputs/jeon2019_optics/reproduction_v1/m3_download.py": "02a3e8d0db99dc6e8a798b73d8fbccb2dc646c8a9436281196be2fee79d6083c",
+    "outputs/jeon2019_optics/reproduction_v1/m3_index.py": "f859562c7d5155f60336eac8b4f4fba35b4a7d8f709577200d713d21b1955579",
+    "outputs/jeon2019_optics/reproduction_v1/m3_pipeline.py": "121517178e4039bf3002b726b575a73237589b5a8f29febae781356b3fdcce5e",
+    "outputs/jeon2019_optics/reproduction_v1/m3_readers.py": "9d0a3a97399262028a30391d1228f5585e5490edbb23f5911e6d0fbf4a1f0976",
+    "outputs/jeon2019_optics/reproduction_v1/m3_validate.py": "e707f8a8600c231bb512961e9fb1921d6f04a507cf921eb722a2615421234dfe",
+    "outputs/jeon2019_optics/reproduction_v1/main.py": "e7f3765c280fd24894b4cf30542d2b79cf316f5051ac62d214a5f03123e5bddd",
+    "outputs/jeon2019_optics/reproduction_v1/config_m3.json": "d313e0c89e8a3a862cc5c330f71ed4fc275315c165bd7cb8a3ac0ae964985ce9",
+    "outputs/jeon2019_optics/reproduction_v1/m3_protocol.json": "88daad42e31de86bcd35d8c5a7a85287725ad6bcd0c8e99187060379bb9ee1eb",
+    "work/datasets/reproduction_v1/parent_m2_20261007_verified/bridge.json": "2a130f0e346909a1faecf3405c5a7872e46212326edb247e76ae3c5e0e89f74c",
+    "outputs/jeon2019_optics/reproduction_v1/contracts.json": "71cc15e5a2c98421d9aa3409e1340eb09ba8781f0ee72eb7675884f17c1b3a8a"
+  },
+  "output_fingerprints": {},
+  "key_numbers": {
+    "counts": {
+      "harvard": {
+        "test": 0,
+        "validation": 0,
+        "train": 0,
+        "available_scenes": 0,
+        "selected_scenes": 0,
+        "target": {
+          "total": 58,
+          "train": 52,
+          "validation": 6,
+          "test": 0
+        },
+        "scale_difference": true
+      },
+      "icvl": {
+        "test": 0,
+        "validation": 0,
+        "train": 0,
+        "available_scenes": 0,
+        "selected_scenes": 0,
+        "target": {
+          "total": 150,
+          "train": 135,
+          "validation": 15,
+          "test": 0
+        },
+        "scale_difference": true
+      },
+      "kaist": {
+        "test": 1,
+        "validation": 0,
+        "train": 0,
+        "available_scenes": 1,
+        "selected_scenes": 1,
+        "target": {
+          "total": 30,
+          "train": 16,
+          "validation": 4,
+          "test": 10
+        },
+        "scale_difference": true
+      }
+    }
+  },
+  "failures": [
+    {
+      "reason": "真实来源未完整取得：ICVL需要官方授权后提供不少于150幅官方MAT，Harvard两归档及KAIST30幅也须取得"
+    }
+  ],
+  "acceptance": {
+    "all_passed": false,
+    "source_acquisition_complete": false
+  },
+  "resume_command": [
+    "D:\\dev\\python\\python3.10.4\\python.exe",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\reproduction_v1\\main.py",
+    "data",
+    "--config",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\reproduction_v1\\config_m3.json",
+    "--phase",
+    "all",
+    "--resume",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\reproduction_v1\\m3\\run_20261007_113609_2196ca91"
+  ],
+  "next_inputs": [
+    "全部验收通过后M4；目前不允许进入M4"
+  ],
+  "paper_alignment_passed": false,
+  "run_dir": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\reproduction_v1\\m3\\run_20261007_113609_2196ca91",
+  "scene_progress": [
+    {
+      "scene_id": "kaist:scene01_reflectance",
+      "metadata": "passed",
+      "raw_sha256": "a20457f2bd8965ebe48250fd7bae6b26dea120adf2746c70492c5a7e70e4b37f"
+    }
+  ],
+  "measurement_gain": {
+    "status": "pending",
+    "value": null
+  },
+  "test_seal_status": "not_finalized",
+  "historical_protection": {
+    "passed": true,
+    "checked": 15942,
+    "checked_bytes": 20181153673,
+    "failures": [],
+    "read_only": true
+  },
+  "space": {
+    "components": {
+      "compressed": 45014485227,
+      "unpacked": 9370080993,
+      "decoded_mat": 0,
+      "preprocessed": 18959509920,
+      "checkpoint_retention": 8589934592,
+      "cache_reserve": 536870912
+    },
+    "already_present_bytes": 1495880153,
+    "safety_bytes": 8097500149,
+    "required_bytes": 89072501640,
+    "free_bytes": 130183553024,
+    "passed": true,
+    "note": "D盘10%余量；不删除历史、不移盘；任何未知项必须另记为未核实",
+    "evidence": {
+      "harvard_bytes": 8147896516,
+      "kaist_bytes": 8667411327,
+      "icvl_public_mat_count": 202,
+      "icvl_bytes": 28199177384,
+      "harvard_unpacked_upper_factor": 1.15,
+      "kaist_shape_bound": [
+        2704,
+        3376
+      ],
+      "decoded_mat_disk_bytes": 0,
+      "decoded_mat_reason": "MAT-v5按波段64列块流式解码，无整ref缓存文件；已用实际旧样本验证",
+      "processed_policy": "估计含全部候选；真正只预处理训练/验证，测试半尺寸推迟M7",
+      "remaining_unknowns": [
+        "新Harvard/KAIST实际形状须逐场景确认；超过预估即重新检查空间并停下"
+      ]
+    }
+  },
+  "availability": {
+    "harvard_archives": 0,
+    "kaist_files": 1,
+    "icvl_files": 0,
+    "icvl_authorization_pending": true
+  },
+  "elapsed_seconds": 122.06199999999808,
+  "unfinished": [
+    "all_passed",
+    "source_acquisition_complete",
+    "全部真实来源验收",
+    "仅训练尺度/共同增益正式冻结",
+    "最终算子/数据指纹",
+    "不可变测试封条",
+    "完整独立审核及main.py check"
+  ]
+}

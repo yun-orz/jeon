@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "scope": "仅已保存GPU验收结果的独立存档核对；不代表本次CUDA执行通过",
+  "official_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\g3_gpu\\run_20261007_103806",
+  "run_files_checked": 6,
+  "run_sha_difference": [],
+  "code_files_checked": 57,
+  "code_sha_difference": [],
+  "sources_unchanged": {
+    "expanded": true,
+    "g4": true,
+    "g3": true,
+    "g2": true
+  },
+  "configuration_exact": true,
+  "independent_scipy_optical": {
+    "forward": 5.043957083998871e-16,
+    "adjoint": 4.378535335614107e-16,
+    "gradient": 3.763083987296275e-16
+  },
+  "independent_predictions": {
+    "gpu_vs_new_cpu": 5.345473720904052e-07,
+    "new_cpu_vs_saved_cpu": 1.0585271278799687e-07,
+    "gpu_vs_saved_cpu": 5.347286106872278e-07
+  },
+  "independent_stages": {
+    "initial": 2.3960811514478716e-07,
+    "previous": 2.6133309043732116e-07,
+    "prior": 4.040122798326835e-07,
+    "data_gradient": 8.522681673504887e-07,
+    "updated": 3.323746073247311e-07,
+    "epsilon": 0.0,
+    "rho": 7.417368620331088e-08,
+    "threshold": 7.675341893170983e-08
+  },
+  "independent_equation21": [
+    7.666523158379051e-08,
+    5.124449322509327e-08,
+    7.327916796847407e-08
+  ],
+  "summary_metric_max_error": 0.0,
+  "loss_relative_from_saved_scalars": 2.3672541520750107e-07,
+  "gradient_adam_scope": "梯度及Adam参数完整数组未保存，当前CUDA不可用，只核对原记录门槛及历史独立审核，不宣称本次重算",
+  "cpu_dependencies_unchanged": true,
+  "protection": {
+    "passed": true,
+    "checked": 15942,
+    "checked_bytes": 20181153673,
+    "failures": [],
+    "read_only": true
+  },
+  "g0": {
+    "passed": true,
+    "checked": 767,
+    "skipped": 0,
+    "failures": [],
+    "mode": "full_local"
+  },
+  "cuda_rerun_passed": false,
+  "test_predictions_read": false
+}

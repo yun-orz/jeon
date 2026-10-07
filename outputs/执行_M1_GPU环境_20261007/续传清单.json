@@ -1,0 +1,453 @@
+{
+  "schema": "jeon2019-m1-resume-manifest-v1",
+  "milestone": "M1",
+  "status": "complete_whole_sha_passed",
+  "checked_at": "2026-10-07T11:00:41+0800",
+  "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+  "frozen_total_bytes": 2449372784,
+  "official_sha256": "9b22d6d98aa56f9317902dec0e066814a6edba1aada90110ceea2bb0678df22f",
+  "assembled_sha256": "9b22d6d98aa56f9317902dec0e066814a6edba1aada90110ceea2bb0678df22f",
+  "whole_sha256_passed": true,
+  "existing_prefix": {
+    "source": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_20261006\\torch-2.5.1+cu121-cp310-cp310-win_amd64.whl",
+    "bytes": 1345187968,
+    "sha256": "001bd6fc93d5ac0a0a67e89c9ddc1fcef2068eb20a94a9334ca48efc79d2395a",
+    "policy": "只读复制为 prefix.bin；原文件未修改、未删除"
+  },
+  "block_bytes": 33554432,
+  "block_count": 33,
+  "first_block": {
+    "index": 0,
+    "start": 1345187968,
+    "end": 1378742399,
+    "bytes": 33554432,
+    "range": "bytes 1345187968-1378742399/2449372784",
+    "sha256": "ba8434b970397a7f53c39c035c3c5ce050d179dd78cf0d77973cbe8f2c0643aa",
+    "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+    "completed_at": "2026-10-07T10:13:26+0800"
+  },
+  "last_block": {
+    "index": 32,
+    "start": 2418929792,
+    "end": 2449372783,
+    "bytes": 30442992,
+    "range": "bytes 2418929792-2449372783/2449372784",
+    "sha256": "5b08a58a123688cbe49196734fa9c786c8cb9ff2ea07a26fdeb6ac3e86f692df",
+    "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+    "completed_at": "2026-10-07T10:32:41+0800"
+  },
+  "blocks": [
+    {
+      "index": 0,
+      "start": 1345187968,
+      "end": 1378742399,
+      "bytes": 33554432,
+      "range": "bytes 1345187968-1378742399/2449372784",
+      "sha256": "ba8434b970397a7f53c39c035c3c5ce050d179dd78cf0d77973cbe8f2c0643aa",
+      "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+      "completed_at": "2026-10-07T10:13:26+0800"
+    },
+    {
+      "index": 1,
+      "start": 1378742400,
+      "end": 1412296831,
+      "bytes": 33554432,
+      "range": "bytes 1378742400-1412296831/2449372784",
+      "sha256": "2c6054875f34fdabff3121e13385d05c9d21408436334fc4d770725eda0e5779",
+      "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+      "completed_at": "2026-10-07T10:13:43+0800"
+    },
+    {
+      "index": 2,
+      "start": 1412296832,
+      "end": 1445851263,
+      "bytes": 33554432,
+      "range": "bytes 1412296832-1445851263/2449372784",
+      "sha256": "6ff68f43e68da16161afc064d7eadebbdb14b01cd13912e891860c37ae952a77",
+      "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+      "completed_at": "2026-10-07T10:13:50+0800"
+    },
+    {
+      "index": 3,
+      "start": 1445851264,
+      "end": 1479405695,
+      "bytes": 33554432,
+      "range": "bytes 1445851264-1479405695/2449372784",
+      "sha256": "8fc5fc26e850493202eb4b3d7ff0d285d3012eb4a5382f4280a12b1eeeece860",
+      "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+      "completed_at": "2026-10-07T10:13:59+0800"
+    },
+    {
+      "index": 4,
+      "start": 1479405696,
+      "end": 1512960127,
+      "bytes": 33554432,
+      "range": "bytes 1479405696-1512960127/2449372784",
+      "sha256": "7a0320ae0b4e95dae8002dfd1beba1b886ee1b23c51ae1e621e162476b3b0cf9",
+      "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+      "completed_at": "2026-10-07T10:14:18+0800"
+    },
+    {
+      "index": 5,
+      "start": 1512960128,
+      "end": 1546514559,
+      "bytes": 33554432,
+      "range": "bytes 1512960128-1546514559/2449372784",
+      "sha256": "36cda019a488b0cc3f2fdf785872d262e80fde4d38e3977543a812b8d09831da",
+      "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+      "completed_at": "2026-10-07T10:14:30+0800"
+    },
+    {
+      "index": 6,
+      "start": 1546514560,
+      "end": 1580068991,
+      "bytes": 33554432,
+      "range": "bytes 1546514560-1580068991/2449372784",
+      "sha256": "46d9aa4f24d8c3a73003ada180f63eadeb4eba13ea4657cfbc2ac702751f2a50",
+      "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+      "completed_at": "2026-10-07T10:14:51+0800"
+    },
+    {
+      "index": 7,
+      "start": 1580068992,
+      "end": 1613623423,
+      "bytes": 33554432,
+      "range": "bytes 1580068992-1613623423/2449372784",
+      "sha256": "2ddfc109b3253248f46c64e2e5423c45bf6fb18d74b0c26c9c7de2828806203d",
+      "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+      "completed_at": "2026-10-07T10:15:12+0800"
+    },
+    {
+      "index": 8,
+      "start": 1613623424,
+      "end": 1647177855,
+      "bytes": 33554432,
+      "range": "bytes 1613623424-1647177855/2449372784",
+      "sha256": "ee05bd1cf3aba8d18e9dab6912f0867f8b5c279596c1958b9b4ae97988fbe572",
+      "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+      "completed_at": "2026-10-07T10:15:29+0800"
+    },
+    {
+      "index": 9,
+      "start": 1647177856,
+      "end": 1680732287,
+      "bytes": 33554432,
+      "range": "bytes 1647177856-1680732287/2449372784",
+      "sha256": "b3b2786fc49b60f7a64f5f27dd9cc40ad8610500e177c80f41af23bb59490502",
+      "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+      "completed_at": "2026-10-07T10:15:57+0800"
+    },
+    {
+      "index": 10,
+      "start": 1680732288,
+      "end": 1714286719,
+      "bytes": 33554432,
+      "range": "bytes 1680732288-1714286719/2449372784",
+      "sha256": "91d2ea916a04ce188f9732fb9e9241e107b245f4a9823d2cf62f7539ef16786a",
+      "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+      "completed_at": "2026-10-07T10:16:26+0800"
+    },
+    {
+      "index": 11,
+      "start": 1714286720,
+      "end": 1747841151,
+      "bytes": 33554432,
+      "range": "bytes 1714286720-1747841151/2449372784",
+      "sha256": "242f1424b2e74ad09ae177520210dfe8f876d5692f7de7c5db5e35990fa6356d",
+      "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+      "completed_at": "2026-10-07T10:17:12+0800"
+    },
+    {
+      "index": 12,
+      "start": 1747841152,
+      "end": 1781395583,
+      "bytes": 33554432,
+      "range": "bytes 1747841152-1781395583/2449372784",
+      "sha256": "d3719791c776a9523d9d7336961f40455a76b53355991842817a0f6d60db5bb7",
+      "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+      "completed_at": "2026-10-07T10:17:52+0800"
+    },
+    {
+      "index": 13,
+      "start": 1781395584,
+      "end": 1814950015,
+      "bytes": 33554432,
+      "range": "bytes 1781395584-1814950015/2449372784",
+      "sha256": "3ad82b54c964bec882c9988a669197f5532074b9ef3530ca65a120a38aa5a646",
+      "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+      "completed_at": "2026-10-07T10:18:05+0800"
+    },
+    {
+      "index": 14,
+      "start": 1814950016,
+      "end": 1848504447,
+      "bytes": 33554432,
+      "range": "bytes 1814950016-1848504447/2449372784",
+      "sha256": "a270e59e5ee3ffac4a7b94e875c58f4a6886d2ef51a2e4a9be1399e299c50302",
+      "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+      "completed_at": "2026-10-07T10:18:38+0800"
+    },
+    {
+      "index": 15,
+      "start": 1848504448,
+      "end": 1882058879,
+      "bytes": 33554432,
+      "range": "bytes 1848504448-1882058879/2449372784",
+      "sha256": "e1cc783c41b0b2444dcaff747f0a6261581e6036790225caf1cefeb38cf6f311",
+      "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+      "completed_at": "2026-10-07T10:19:39+0800"
+    },
+    {
+      "index": 16,
+      "start": 1882058880,
+      "end": 1915613311,
+      "bytes": 33554432,
+      "range": "bytes 1882058880-1915613311/2449372784",
+      "sha256": "c0c2ec33bfa322f7d98f34714a41dc5b945b1f3cbcdab66ad5548d3d5600f263",
+      "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+      "completed_at": "2026-10-07T10:20:15+0800"
+    },
+    {
+      "index": 17,
+      "start": 1915613312,
+      "end": 1949167743,
+      "bytes": 33554432,
+      "range": "bytes 1915613312-1949167743/2449372784",
+      "sha256": "6fe23b742f78e4418cc087ffc42ed9d29c8edbc89144c42e391588302a7b32fc",
+      "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+      "completed_at": "2026-10-07T10:21:18+0800"
+    },
+    {
+      "index": 18,
+      "start": 1949167744,
+      "end": 1982722175,
+      "bytes": 33554432,
+      "range": "bytes 1949167744-1982722175/2449372784",
+      "sha256": "c7a9b5696d1f2e082ccaab7f3fb479ff1ffe5fb4524ff2a56932ed91a8f81d0d",
+      "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+      "completed_at": "2026-10-07T10:22:49+0800"
+    },
+    {
+      "index": 19,
+      "start": 1982722176,
+      "end": 2016276607,
+      "bytes": 33554432,
+      "range": "bytes 1982722176-2016276607/2449372784",
+      "sha256": "5295f185a7f24f128416e22cbfc684d5693e2e4afddb214ae893da4e484be428",
+      "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+      "completed_at": "2026-10-07T10:23:53+0800"
+    },
+    {
+      "index": 20,
+      "start": 2016276608,
+      "end": 2049831039,
+      "bytes": 33554432,
+      "range": "bytes 2016276608-2049831039/2449372784",
+      "sha256": "d72cffb5598e6bd62cf2caed108218f897ca527adf4b4313b9310a0090cdd43a",
+      "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+      "completed_at": "2026-10-07T10:24:47+0800"
+    },
+    {
+      "index": 21,
+      "start": 2049831040,
+      "end": 2083385471,
+      "bytes": 33554432,
+      "range": "bytes 2049831040-2083385471/2449372784",
+      "sha256": "e9b683fe247c51fc949820b3296a52a00fa1a1bcd864880dc0d1c8efdef48948",
+      "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+      "completed_at": "2026-10-07T10:25:33+0800"
+    },
+    {
+      "index": 22,
+      "start": 2083385472,
+      "end": 2116939903,
+      "bytes": 33554432,
+      "range": "bytes 2083385472-2116939903/2449372784",
+      "sha256": "3356f090816a8207979da593550193780bfcd253c7a794bbe6bd0c03d2ce174c",
+      "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+      "completed_at": "2026-10-07T10:26:26+0800"
+    },
+    {
+      "index": 23,
+      "start": 2116939904,
+      "end": 2150494335,
+      "bytes": 33554432,
+      "range": "bytes 2116939904-2150494335/2449372784",
+      "sha256": "474b3b4aaf20742947a978eec1f5836cf9ad2a7d794591d5143e9c11553a440b",
+      "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+      "completed_at": "2026-10-07T10:26:53+0800"
+    },
+    {
+      "index": 24,
+      "start": 2150494336,
+      "end": 2184048767,
+      "bytes": 33554432,
+      "range": "bytes 2150494336-2184048767/2449372784",
+      "sha256": "3ca194c8fb390c0d3eb60a7d2e3225a1686e3d2da56a57f27a8db84bc76a805d",
+      "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+      "completed_at": "2026-10-07T10:27:14+0800"
+    },
+    {
+      "index": 25,
+      "start": 2184048768,
+      "end": 2217603199,
+      "bytes": 33554432,
+      "range": "bytes 2184048768-2217603199/2449372784",
+      "sha256": "de97fd609a6fde301e67df20ebf7e9d9d30963bffdceb000ab386375ade43a8f",
+      "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+      "completed_at": "2026-10-07T10:27:39+0800"
+    },
+    {
+      "index": 26,
+      "start": 2217603200,
+      "end": 2251157631,
+      "bytes": 33554432,
+      "range": "bytes 2217603200-2251157631/2449372784",
+      "sha256": "325a386edac99355abd3902efcb20cb671ad8dfcc54a363d2725fd2f3f78739a",
+      "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+      "completed_at": "2026-10-07T10:27:56+0800"
+    },
+    {
+      "index": 27,
+      "start": 2251157632,
+      "end": 2284712063,
+      "bytes": 33554432,
+      "range": "bytes 2251157632-2284712063/2449372784",
+      "sha256": "ffdad855917a6896107cc807ab304c461cdbdff6cac4f680eefd0179ab208e78",
+      "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+      "completed_at": "2026-10-07T10:28:11+0800"
+    },
+    {
+      "index": 28,
+      "start": 2284712064,
+      "end": 2318266495,
+      "bytes": 33554432,
+      "range": "bytes 2284712064-2318266495/2449372784",
+      "sha256": "f21d187630266f20c9c065ea2e037c5aa3290665ae3c33584ae34e07ebcbcb7a",
+      "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+      "completed_at": "2026-10-07T10:28:54+0800"
+    },
+    {
+      "index": 29,
+      "start": 2318266496,
+      "end": 2351820927,
+      "bytes": 33554432,
+      "range": "bytes 2318266496-2351820927/2449372784",
+      "sha256": "798d33b8339dc4b753ace93580143f60991c5784e4ece8ee6e0ae423ca5ce0e2",
+      "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+      "completed_at": "2026-10-07T10:29:27+0800"
+    },
+    {
+      "index": 30,
+      "start": 2351820928,
+      "end": 2385375359,
+      "bytes": 33554432,
+      "range": "bytes 2351820928-2385375359/2449372784",
+      "sha256": "1646b3ecc0913799b5df4f5d948f475f5025a14fc04d3493cce6b69badd6b314",
+      "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+      "completed_at": "2026-10-07T10:30:25+0800"
+    },
+    {
+      "index": 31,
+      "start": 2385375360,
+      "end": 2418929791,
+      "bytes": 33554432,
+      "range": "bytes 2385375360-2418929791/2449372784",
+      "sha256": "eabf0a8943503a2c4d041d9e5e993247f915b7ad73a20ac74319be2a0b454710",
+      "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+      "completed_at": "2026-10-07T10:31:45+0800"
+    },
+    {
+      "index": 32,
+      "start": 2418929792,
+      "end": 2449372783,
+      "bytes": 30442992,
+      "range": "bytes 2418929792-2449372783/2449372784",
+      "sha256": "5b08a58a123688cbe49196734fa9c786c8cb9ff2ea07a26fdeb6ac3e86f692df",
+      "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+      "completed_at": "2026-10-07T10:32:41+0800"
+    }
+  ],
+  "incomplete_block_files_kept": [],
+  "events": [
+    {
+      "kind": "prefix_copied",
+      "at": "2026-10-07T10:13:14+0800",
+      "source": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_20261006\\torch-2.5.1+cu121-cp310-cp310-win_amd64.whl",
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\prefix.bin",
+      "bytes": 1345187968,
+      "sha256": "001bd6fc93d5ac0a0a67e89c9ddc1fcef2068eb20a94a9334ca48efc79d2395a",
+      "seconds": 2.467
+    },
+    {
+      "kind": "plan",
+      "at": "2026-10-07T10:13:14+0800",
+      "offset": 1345187968,
+      "total": 2449372784,
+      "blocks": 33,
+      "block_bytes": 33554432
+    },
+    {
+      "kind": "verified",
+      "at": "2026-10-07T10:13:14+0800",
+      "offset": 1345187968,
+      "ok": 0,
+      "pending": 33
+    },
+    {
+      "kind": "whole_sha_passed",
+      "at": "2026-10-07T10:32:52+0800",
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\torch-2.5.1+cu121-cp310-cp310-win_amd64.whl",
+      "bytes": 2449372784,
+      "sha256": "9b22d6d98aa56f9317902dec0e066814a6edba1aada90110ceea2bb0678df22f"
+    }
+  ],
+  "recovery": {
+    "command": "python -B outputs/jeon2019_optics/reproduction_v1/m1_download.py download",
+    "workdir": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007",
+    "behaviour": "重跑先按块长度与SHA复核磁盘，只补齐缺失或损坏的块；整包SHA未通过不安装"
+  },
+  "no_delete_performed": true,
+  "sympy": {
+    "url": "https://files.pythonhosted.org/packages/b2/fe/81695a1aa331a842b582453b605175f419fe8540355886031328089d840a/sympy-1.13.1-py3-none-any.whl",
+    "sha256": "db36cdc64bf61b9b24578b6f7bab1ecdd2452cf008f34faa33776680c26d66f8",
+    "sha256_passed": true
+  },
+  "head_probe": {
+    "status": "passed",
+    "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+    "frozen_total_bytes": 2449372784,
+    "frozen_sha256": "9b22d6d98aa56f9317902dec0e066814a6edba1aada90110ceea2bb0678df22f",
+    "head": {
+      "status": 200,
+      "content_length": "2449372784",
+      "accept_ranges": "bytes",
+      "last_modified": "Tue, 29 Oct 2024 23:16:21 GMT",
+      "etag": "\"2d16c009c58b027dcfd24aea355ae300\""
+    },
+    "head_problems": [],
+    "workdir": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007",
+    "prefix": {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_20261006\\torch-2.5.1+cu121-cp310-cp310-win_amd64.whl",
+      "exists": true,
+      "bytes": 1345187968,
+      "remaining_bytes": 1104184816
+    },
+    "assembled": {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\torch-2.5.1+cu121-cp310-cp310-win_amd64.whl",
+      "exists": true,
+      "bytes": 2449372784,
+      "matches_frozen_bytes": true
+    },
+    "block_bytes": 33554432,
+    "checked_at": "2026-10-07T10:59:45+0800"
+  },
+  "official_link_recheck": {
+    "index": "https://download.pytorch.org/whl/cu121/torch/",
+    "index_href": "https://download-r2.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl#sha256=9b22d6d98aa56f9317902dec0e066814a6edba1aada90110ceea2bb0678df22f",
+    "frozen_url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+    "sha256_matches_frozen": true,
+    "content_length_matches_frozen": true,
+    "note": "索引页href指向官方R2端点；冻结URL实时重定向到同一对象，二者内容长度一致，整包SHA一致。"
+  }
+}

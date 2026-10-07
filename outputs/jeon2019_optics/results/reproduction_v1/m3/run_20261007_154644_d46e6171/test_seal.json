@@ -1,0 +1,75 @@
+{
+  "schema": "jeon2019-test-seal-v1",
+  "open_milestone": "M7",
+  "test_scene_count": 10,
+  "scene_ids": [
+    "kaist:scene03_reflectance",
+    "kaist:scene04_reflectance",
+    "kaist:scene07_reflectance",
+    "kaist:scene09_reflectance",
+    "kaist:scene11_reflectance",
+    "kaist:scene16_reflectance",
+    "kaist:scene17_reflectance",
+    "kaist:scene24_reflectance",
+    "kaist:scene28_reflectance",
+    "kaist:scene30_reflectance"
+  ],
+  "scene_groups": [
+    "group:805607d7faa5e907fff2aa74783892ad2b683055b5b6e2d0b4d2e785c4562335",
+    "group:9c4fdcadaf865918549922d4f7691fa219622ecff6e9093b2c3b0cc286b91247",
+    "group:8e4935f48563b8392662de9a8170af93954a293ccb04037dd1504aa6e0408a69",
+    "group:70bf39420b196dec7bae28e210d51932bbed73b145830b5813f5892bce5d340d",
+    "group:f8da583f5c8facf24cc54acfa74267f24023f8ab975e78919c73d67dd2146719",
+    "group:8c8456abe71eb21a7f468258f266fd4039e4dec38f3d94bb9e12e7e6950987fb",
+    "group:1208a7dbc10d4c1d099331720501e97e834d5a597ea846d6ac5129f6077fb14d",
+    "group:3545db434018c300f60df40560cecf92330d3cf626147805f1360e1eeff2f1ca",
+    "group:73eb41002ddeb4d1082bc0687a91d24d073d42cea7bc722073e63ebbffc6939a",
+    "group:4e7f9ca4223e4baf55ef92a8f27855a48991d58f625eec3d68e1bd2f7c63e96e"
+  ],
+  "source_sha256": {
+    "kaist:scene03_reflectance": {
+      "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene03_reflectance\\payload_30a3bb9e79d749c99e63584cc04b72f5.bin": "e2f2b3e7a6185ba48f4b9ea043b4695852c6e28ec5fe8c6de9e95cc256750267"
+    },
+    "kaist:scene04_reflectance": {
+      "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene04_reflectance\\payload_17976ccecd1c46b6a7904a71cacfc930.bin": "14f54daa1402c0ef21901d5e4f9afdae763669e66b10b0ae5f3549b83acf0f26"
+    },
+    "kaist:scene07_reflectance": {
+      "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene07_reflectance\\payload_acd5e352345e477d9db40f774c25fd04.bin": "1993a46132844c12f69836cae2f0cbd082002e5c989531f037271e8595ea49e8"
+    },
+    "kaist:scene09_reflectance": {
+      "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene09_reflectance\\payload_18a571ab9122469ca6174555149bb402.bin": "5e1de04bf7d3087763180d646ad9b099fb674e165f9d31f798b36ee7d8a5ce91"
+    },
+    "kaist:scene11_reflectance": {
+      "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene11_reflectance\\payload_269e5128d5334520a860cc6a966be254.bin": "bbe89e7ec1981f25b1f071f7ef1ae4998f35744cf98548e160c22af7921e9836"
+    },
+    "kaist:scene16_reflectance": {
+      "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene16_reflectance\\payload_5a439697706c49c193732e282c7eb983.bin": "e4bf8ca8341708701e44246be04d779fa01963b853438e4eaba5f137b5b02812"
+    },
+    "kaist:scene17_reflectance": {
+      "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene17_reflectance\\payload_0714929710fd47cb9f5c309775fb572e.bin": "3f676b26403803f055cba30921ba3895271e9acff28cad9db84586e5f0913c69"
+    },
+    "kaist:scene24_reflectance": {
+      "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene24_reflectance\\payload_a84724f80cc54a378d68ea7146271b61.bin": "a34cb22e5b8b792e23d54ced711e61f018048ac2a425c7adc9e8cda360fb6d53"
+    },
+    "kaist:scene28_reflectance": {
+      "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene28_reflectance\\payload_2b7fc5453071440e966d9d1c880f6bb1.bin": "840cba5bf625f82d914246291f1cf9809fdb9b72a4914951bf4e0fd10fda6873"
+    },
+    "kaist:scene30_reflectance": {
+      "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene30_reflectance\\payload_19cfd65592dd4632aadd35b7476ee6d9.bin": "8d6f4cbc07533db668ddacd438c2f05779ab738d25c924b69d2e410734f9810c"
+    }
+  },
+  "data_version_fingerprint": "4d966a84c3a19e5744f73b81277dddbdf3631d91d9df71c21e90a34bc7f0ce2b",
+  "operator_fingerprints": {
+    "jeon": "2257b7e533bfa356a819cb787e33f9666042138bbd438664ff7923b27e0ba146",
+    "fresnel": "9250ed2ef46ce7a2eb86ccd94d6a18825541e559a1b478c21436ca368d85ba1d"
+  },
+  "prohibited_before_M7": [
+    "预测",
+    "成绩",
+    "ROI选择",
+    "尺度/增益拟合",
+    "测试patch读取"
+  ],
+  "preprocessed_before_M7": false,
+  "fingerprint": "d16432ba619f99db4d7a417d299cd5f2cc4275239bb3b046f19647ac6a4d7a6c"
+}

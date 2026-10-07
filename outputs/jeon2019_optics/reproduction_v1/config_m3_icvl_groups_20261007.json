@@ -1,0 +1,18 @@
+{
+  "schema": "jeon2019-m3-config-v1",
+  "data_version": "m3_20261007_grouped_v2",
+  "data_dir": "work/datasets/reproduction_v1/m3_20261007_v1",
+  "source_review": "work/datasets/reproduction_v1/source_review/run_20261007_initial",
+  "m2_run": "outputs/jeon2019_optics/results/reproduction_v1/m2/run_20261007_104321_03d47940",
+  "parent_bridge": "work/datasets/reproduction_v1/parent_m2_20261007_verified/bridge.json",
+  "protocol": "outputs/jeon2019_optics/reproduction_v1/m3_protocol_icvl_groups_20261007.json",
+  "local_icvl_dir": "H:/我的云端硬盘/Jeon2019_data/reproduction_v1/icvl/mat",
+  "icvl_provenance": {
+    "source": "work/datasets/reproduction_v1/icvl_acquisition/icvl_source.json",
+    "manifest": "work/datasets/reproduction_v1/icvl_acquisition/icvl_file_manifest.json",
+    "tree": "work/datasets/reproduction_v1/icvl_acquisition/remote_tree_pinned.json"
+  },
+  "acquisition_mode": "existing",
+  "budget_seconds": 28800,
+  "cache_max_bytes": 67108864
+}

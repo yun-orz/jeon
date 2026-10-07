@@ -1,0 +1,48 @@
+{
+  "schema": "jeon2019-m3-actual-shape-space-v1",
+  "status": "passed",
+  "actual_raw_shapes": {
+    "harvard": {
+      "min_hw": [
+        1040,
+        1392
+      ],
+      "max_hw": [
+        1040,
+        1392
+      ]
+    },
+    "icvl": {
+      "min_hw": [
+        1018,
+        1392
+      ],
+      "max_hw": [
+        1300,
+        1392
+      ]
+    },
+    "kaist": {
+      "min_hw": [
+        2704,
+        3376
+      ],
+      "max_hw": [
+        2704,
+        3376
+      ]
+    }
+  },
+  "train_validation_base_files_upper_bytes": 13524781720,
+  "by_dataset_bytes": {
+    "harvard": 2120142208,
+    "icvl": 6794638872,
+    "kaist": 4610000640
+  },
+  "checkpoint_cache_retention_bytes": 9126805504,
+  "required_with_10_percent_margin_bytes": 24916745946,
+  "current_D_free_bytes": 98493747200,
+  "already_written_preprocessing_not_deducted": true,
+  "test_preprocessing_reserved_now": false,
+  "note": "全部原始来源已完整取得，按实际正式训练/验证形状重新核算；已写预处理不扣除，故剩余写入预算保守；ICVL原始文件只读位于H盘，预处理及缓存仍在D盘。"
+}

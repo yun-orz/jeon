@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "superseded_run": "outputs\\jeon2019_optics\\results\\reproduction_v1\\m3\\run_20261007_143536_5013b73c",
+  "source_groups_splits_preprocessed_unchanged": true,
+  "prior_missing_training_scenes": [
+    "harvard:CZ_hsdb:imgb4",
+    "harvard:CZ_hsdb:imgc9",
+    "harvard:CZ_hsdb:imge5"
+  ],
+  "zero_fully_valid_scale2_positions": [
+    "harvard:CZ_hsdb:imgb4",
+    "harvard:CZ_hsdb:imgc9"
+  ],
+  "prior_gain_frozen": false,
+  "prior_final_operators_frozen": false,
+  "revision": "保留真实mask，拒绝全无效patch；先覆盖每训练场景；仅有效像元拟合"
+}

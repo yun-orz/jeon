@@ -1,0 +1,17 @@
+{
+  "environment_check": {
+    "status": "failed",
+    "error": "KeyError('remaining_bytes')",
+    "prefix": {
+      "exists": false,
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_20261006\\torch-2.5.1+cu121-cp310-cp310-win_amd64.whl",
+      "bytes": 0
+    }
+  },
+  "documented_recovery_prefix_check": {
+    "status": "failed",
+    "error": "ResumeError('找不到已有前缀文件：D:\\\\PyCharmProjects\\\\Jeon2019\\\\work\\\\dependencies\\\\gpu_cu121_20261006\\\\torch-2.5.1+cu121-cp310-cp310-win_amd64.whl')",
+    "network_requested": false,
+    "downloaded_bytes": 0
+  }
+}

@@ -165,3 +165,19 @@ Forvard4096相机核对参考L1差420/540/660nm为0.17895%/0.11757%/0.34799%，�
 历史保护覆盖15942个文件，状态文档原始字节前缀只读；G0全部767项通过。本阶段未下载大包、未更换旧算子、未训练或读取新测试；paper_alignment_passed=false。
 
 实际验收和恢复/交接入口见 outputs/jeon2019_optics/results/reproduction_v1/m0/run_20261006_230835_592a12d3/report.md，索引见 outputs/jeon2019_optics/reproduction_v1/m0_index.json。M1–M7尚未完成；无删除操作。
+
+## 正式仿真基线 M1：GPU环境与执行一致性验收通过（2026-10-07）
+
+已新增可重复分块续传器 m1_resume.py/m1_download.py、环境检查 m1_environment.py/m1_check.py、CUDA自检 m1_cuda_selfcheck.py 及 tests/test_m1_resume.py、tests/test_m1_audit.py。既有 work/resume_gpu_cu121.ps1 只读复用其URL/总长/SHA；旧部分下载1345187968字节只读复制为prefix.bin，原文件未改未删。
+
+官方链接、头信息与长度重新核对一致；剩余1104184816字节按32MiB切33块全部返回合规206，拼接后整包2449372784字节、SHA 9b22d6d98aa56f9317902dec0e066814a6edba1aada90110ceea2bb0678df22f 与官方一致，才离线安装Torch2.5.1+cu121与SymPy1.13.1到 work/environments/jeon_gpu_cu121。实际CUDA可用（RTX4060 Laptop 8GiB、驱动537.53、CUDA12.1），Torch实际导入位置在该环境自身lib/site-packages。峰值空间按剩余下载+整包副本+解压安装+审核输出核算为7.466GiB（含5%余量7.839GiB），D盘可用99.84GiB，通过。
+
+正式GPU验收 results/g3_gpu/run_20261007_103806：gpu_validation_passed=true。FP64算子最大5.04e−16（≤1e−10）、FP32预测最大5.35e−07与阶段最大8.52e−07（≤1e−5）、损失2.37e−07（≤1e−5）、全梯度3.15e−06（≤1e−4）、一步Adam参数1.81e−09（≤1e−5）；AMP/TF32关闭，确定性算法开启，峰值显存0.442GiB，实际60.6430秒。
+
+独立审核 outputs/执行_M1_GPU环境_20261007：既有 audit_gpu.py 的固定输出路径会覆盖历史产物，故用只改落盘位置的适配层 audit_gpu_m1.py（判定与阈值逐条一致，另有AST对比测试）。passed=true：独立SciPy最大5.04e−16、独立式(21)最大7.67e−08、无保存重跑汇总逐字段一致、源码与配置SHA一致、4项HQS测试通过、原CPU依赖指纹不变、G0 767项通过。安装前后 main.py check 均核对15942个保护文件通过。
+
+如实记录版本差异：CPU Torch2.14.1+cpu、GPU Torch2.5.1+cu121，门槛未放宽。失败与偏差全部保留：审核三次失败尝试（GBK解码、标准输出编码、汇总解析取错花括号）、并发M2写入导致引擎指纹作用域初次误判、G0输出GBK解码、install子命令缺失。完整记录见 outputs/执行_M1_GPU环境_20261007/报告.md、最终审核.json、续传清单.json、下载SHA.json、环境清单.json、运行记录.json；协议版本未变；paper_alignment_passed=false；无删除操作，M2及以后尚未由本阶段执行。
+
+M1验收后经用户明确同意清理了冗余下载产物：33个分块part_*.bin（1.03GiB，与整包后半段逐字节重复）、prefix.bin副本（1.25GiB，原件另有其物）、旧部分下载原件（1.25GiB，已被完整整包取代），共35个文件3.534GiB；D盘可用90.60→93.37GiB。整包wheel（官方SHA已通过）、sympy wheel、全部清单与审核证据保留，故仍可免联网离线重装Torch；删除后实测GPU环境torch2.5.1+cu121、cuda_available=True、FP64相对误差6.59e-17仍正常。逐文件SHA与授权记录见 outputs/执行_M1_GPU环境_20261007/删除记录.json 与报告第13节。此外为执行该删除，work、work/dependencies、gpu_cu121_resume_m1_20261007 三个目录补了当前用户完全控制项，备份/回滚脚本在 work/acl_repair_20261007/。
+
+随后发生一次**外部删除**，须与上述操作区分：并发执行M2/M3的另一个会话把 work/dependencies/gpu_cu121_resume_m1_20261007 与 work/dependencies/gpu_cu121_20261006 两个目录整个删除，其中包括上述特意保留的整包wheel、sympy wheel及download_manifest.json/probe.json/resume_state.json/install_result.json/install_log.txt。这不是本阶段执行的删除，也不在本阶段授权范围内；可观察证据为work下m2_*/m3_*日志（最新11:36）、work/datasets/reproduction_v1于11:37写入、D盘可用由93.37升至121.39GiB；具体发起者与理由未从本会话确认。因此"仍可免联网重装Torch"已不成立，重装需重新联网下载约2.3GiB。两个目录本就不在M0保护清单内（15942项命中0），删除不构成保护清单违规；M1判定不依赖这些二进制，GPU虚拟环境与全部审核证据完好、实测仍可用。更正与登记见 outputs/执行_M1_GPU环境_20261007/空间清理说明.json 与报告第13.1节；paper_alignment_passed=false。

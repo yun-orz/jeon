@@ -1,0 +1,27 @@
+{
+  "installed_record_integrity": {
+    "torch": {
+      "checked_files": 10818,
+      "checked_bytes": 4549978622,
+      "hash_mismatch": [],
+      "missing_files": [],
+      "passed": true
+    },
+    "sympy": {
+      "checked_files": 1558,
+      "checked_bytes": 26280417,
+      "hash_mismatch": [],
+      "missing_files": [],
+      "passed": true
+    }
+  },
+  "executable": "D:\\PyCharmProjects\\Jeon2019\\work\\environments\\jeon_gpu_cu121\\Scripts\\python.exe",
+  "torch_version": "2.5.1+cu121",
+  "torch_file": "D:\\PyCharmProjects\\Jeon2019\\work\\environments\\jeon_gpu_cu121\\lib\\site-packages\\torch\\__init__.py",
+  "sympy_version": "1.13.1",
+  "sympy_file": "D:\\PyCharmProjects\\Jeon2019\\work\\environments\\jeon_gpu_cu121\\lib\\site-packages\\sympy\\__init__.py",
+  "cuda_available": false,
+  "device_count": 0,
+  "cuda_runtime": "12.1",
+  "scope": "与已安装dist-info RECORD核对；不能替代已删除官方wheel的原始SHA认证"
+}

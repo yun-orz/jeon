@@ -1,0 +1,15 @@
+[
+  {
+    "dataset": "kaist",
+    "scene_id": "kaist:scene01_reflectance",
+    "stem": "scene01_reflectance",
+    "raw_file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene01_reflectance\\payload_5aa2e2739f0e4a18b8c59e9d6169e20a.bin",
+    "raw_sha256": "a20457f2bd8965ebe48250fd7bae6b26dea120adf2746c70492c5a7e70e4b37f",
+    "source_files": [
+      "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene01_reflectance\\payload_5aa2e2739f0e4a18b8c59e9d6169e20a.bin"
+    ],
+    "source_sha256": {
+      "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene01_reflectance\\payload_5aa2e2739f0e4a18b8c59e9d6169e20a.bin": "a20457f2bd8965ebe48250fd7bae6b26dea120adf2746c70492c5a7e70e4b37f"
+    }
+  }
+]

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "<stdin>", line 6, in <module>
+  File "D:\PyCharmProjects\Jeon2019\outputs\执行_M1_GPU环境_20261007\audit_gpu_m1.py", line 85, in main
+    raise RuntimeError('实际CUDA不可用，拒绝验收GPU')
+RuntimeError: 实际CUDA不可用，拒绝验收GPU

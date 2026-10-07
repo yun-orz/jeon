@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "completed_bands": 50,
+  "sampling_maxima": {
+    "pixel_l1": 0.0013723742682505897,
+    "pixel_l2": 0.0009451732815352998,
+    "kernel_l1": 0.0013740366716886072,
+    "kernel_l2": 0.0009551036312297362,
+    "eta_absolute": 3.0039855802632687e-05,
+    "angle_deg": 0.01554193684367533,
+    "radius_pixels": 0.14948760174481185
+  },
+  "independent_mapping": {
+    "jeon": {
+      "mass_max_absolute_error": 2.220446049250313e-16,
+      "rectangle_overlap_relative_error": 6.724399767238456e-16
+    },
+    "fresnel": {
+      "mass_max_absolute_error": 1.1102230246251565e-16,
+      "rectangle_overlap_relative_error": 3.1163824775912655e-16
+    }
+  },
+  "failures": []
+}

@@ -1,0 +1,18 @@
+{
+  "native": {
+    "forward_relative": 6.654736989598927e-16,
+    "adjoint_relative": 3.4925709129389544e-16,
+    "autograd_relative": 3.4925709129389544e-16,
+    "inner_product_relative": 2.2052639717674195e-15,
+    "directional_derivative_relative": 2.412589233434263e-12,
+    "passed": true
+  },
+  "training": {
+    "forward_relative": 5.474697102036586e-16,
+    "adjoint_relative": 2.6794670003654733e-16,
+    "autograd_relative": 2.6794670003654733e-16,
+    "inner_product_relative": 2.073800133615233e-14,
+    "directional_derivative_relative": 1.6250362051834608e-12,
+    "passed": true
+  }
+}

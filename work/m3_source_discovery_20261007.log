@@ -1,0 +1,553 @@
+harvard available
+icvl dependency_pending
+icvl_catalog available
+icvl_card dependency_pending
+kaist available
+kaist_example available
+{
+  "access_utc": "2026-10-07T03:03:39Z",
+  "sources": {
+    "harvard": {
+      "url": "https://vision.seas.harvard.edu/hyperspec/d2x5g3/",
+      "final_url": "https://vision.seas.harvard.edu/hyperspec/d2x5g3/",
+      "status": "available",
+      "file": "harvard.txt",
+      "sha256": "a810778752694b0a4906f4ae3105f43bf76d67207507c506804098859aa31382",
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:03:43 GMT",
+        "Server": "Apache",
+        "Last-Modified": "Thu, 07 Apr 2011 19:59:22 GMT",
+        "ETag": "\"494-4a0598ba19a80\"",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "1172",
+        "Connection": "close",
+        "Content-Type": "text/html; charset=UTF-8"
+      }
+    },
+    "icvl": {
+      "url": "https://icvl.cs.bgu.ac.il/pages/researches/hyperspectral-imaging.html",
+      "status": "dependency_pending",
+      "error": "URLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:997)'))"
+    },
+    "icvl_catalog": {
+      "url": "https://huggingface.co/api/datasets/ICVL-BGU/ICVL_HS_2016/tree/main/mat?recursive=false&expand=false&limit=1000",
+      "final_url": "https://huggingface.co/api/datasets/ICVL-BGU/ICVL_HS_2016/tree/main/mat?recursive=false&expand=false&limit=1000",
+      "status": "available",
+      "file": "icvl_catalog.txt",
+      "sha256": "1ee888544c502b30cab6afa4226a64aebad95e2b1699bdef5c3e168501a4e4f3",
+      "headers": {
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "62294",
+        "Connection": "close",
+        "Date": "Wed, 07 Oct 2026 03:04:07 GMT",
+        "ETag": "W/\"f356-yqICge1l5sBV0HpQD/GY30W9HLQ\"",
+        "X-Powered-By": "huggingface-moon",
+        "X-Request-Id": "Root=1-6ac5b6a7-3037299948860559393ee50c",
+        "RateLimit": "\"api\";r=499;t=83",
+        "RateLimit-Policy": "\"fixed window\";\"api\";q=500;w=300",
+        "cross-origin-opener-policy": "same-origin",
+        "Referrer-Policy": "strict-origin-when-cross-origin",
+        "Access-Control-Max-Age": "86400",
+        "Access-Control-Allow-Origin": "https://huggingface.co",
+        "Vary": "Origin",
+        "Access-Control-Expose-Headers": "X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash",
+        "X-Cache": "Miss from cloudfront",
+        "Via": "1.1 8d1d313256de173f45b1d3b2f94b6760.cloudfront.net (CloudFront)",
+        "X-Amz-Cf-Pop": "NRT12-P2",
+        "Alt-Svc": "h3=\":443\"; ma=86400",
+        "X-Amz-Cf-Id": "GZriHe4vMbnAB0MBBXh06VyS91lOtJFUbAODrK05tZOQsBg6hnz9EA==",
+        "Strict-Transport-Security": "max-age=31536000"
+      }
+    },
+    "icvl_card": {
+      "url": "https://huggingface.co/datasets/ICVL-BGU/ICVL_HS_2016/raw/main/README.md",
+      "status": "dependency_pending",
+      "error": "<HTTPError 401: 'Unauthorized'>"
+    },
+    "kaist": {
+      "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset.html",
+      "final_url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset.html",
+      "status": "available",
+      "file": "kaist.txt",
+      "sha256": "b09e4d5ef2ccf59f6b4580897e44eb1f7f8cf5b08046b33df8620bff5c3d7d15",
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:04:19 GMT",
+        "Server": "Apache",
+        "Upgrade": "h2,h2c",
+        "Connection": "Upgrade, close",
+        "Last-Modified": "Mon, 13 Feb 2023 07:00:17 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "15868",
+        "Content-Type": "text/html"
+      }
+    },
+    "kaist_example": {
+      "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/example.m",
+      "final_url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/example.m",
+      "status": "available",
+      "file": "kaist_example.txt",
+      "sha256": "686b9dbfeb452fb2c1362eb3d2594e76e7a3bfc1681c0da8d462358274b324da",
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:07:13 GMT",
+        "Server": "Apache",
+        "Upgrade": "h2,h2c",
+        "Connection": "Upgrade, close",
+        "Last-Modified": "Thu, 01 Feb 2018 05:55:30 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "703"
+      }
+    }
+  },
+  "downloads": [
+    {
+      "dataset": "harvard",
+      "url": "https://vision.seas.harvard.edu/hyperspec/d2x5g3/CZ_hsdb.tgz",
+      "bytes": 5764797612,
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:03:49 GMT",
+        "Server": "Apache",
+        "Last-Modified": "Thu, 07 Apr 2011 19:57:40 GMT",
+        "ETag": "\"1579bd4ac-4a059858d3500\"",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "5764797612",
+        "Connection": "close",
+        "Content-Type": "application/x-gzip"
+      }
+    },
+    {
+      "dataset": "harvard",
+      "url": "https://vision.seas.harvard.edu/hyperspec/d2x5g3/CZ_hsdbi.tgz",
+      "bytes": 2383098904,
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:03:54 GMT",
+        "Server": "Apache",
+        "Last-Modified": "Thu, 07 Apr 2011 19:59:22 GMT",
+        "ETag": "\"8e0b3418-4a0598ba19a80\"",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "2383098904",
+        "Connection": "close",
+        "Content-Type": "application/x-gzip"
+      }
+    },
+    {
+      "dataset": "kaist",
+      "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene01_reflectance.exr",
+      "bytes": 287920601,
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:04:26 GMT",
+        "Server": "Apache",
+        "Upgrade": "h2,h2c",
+        "Connection": "Upgrade, close",
+        "Last-Modified": "Tue, 30 Jan 2018 01:12:07 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "287920601"
+      }
+    },
+    {
+      "dataset": "kaist",
+      "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene02_reflectance.exr",
+      "bytes": 301997518,
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:04:32 GMT",
+        "Server": "Apache",
+        "Upgrade": "h2,h2c",
+        "Connection": "Upgrade, close",
+        "Last-Modified": "Tue, 30 Jan 2018 01:21:28 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "301997518"
+      }
+    },
+    {
+      "dataset": "kaist",
+      "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene03_reflectance.exr",
+      "bytes": 326591883,
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:04:37 GMT",
+        "Server": "Apache",
+        "Upgrade": "h2,h2c",
+        "Connection": "Upgrade, close",
+        "Last-Modified": "Tue, 30 Jan 2018 01:09:58 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "326591883"
+      }
+    },
+    {
+      "dataset": "kaist",
+      "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene04_reflectance.exr",
+      "bytes": 273404150,
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:04:43 GMT",
+        "Server": "Apache",
+        "Upgrade": "h2,h2c",
+        "Connection": "Upgrade, close",
+        "Last-Modified": "Tue, 30 Jan 2018 01:30:25 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "273404150"
+      }
+    },
+    {
+      "dataset": "kaist",
+      "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene05_reflectance.exr",
+      "bytes": 278039774,
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:04:49 GMT",
+        "Server": "Apache",
+        "Upgrade": "h2,h2c",
+        "Connection": "Upgrade, close",
+        "Last-Modified": "Tue, 30 Jan 2018 01:31:35 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "278039774"
+      }
+    },
+    {
+      "dataset": "kaist",
+      "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene06_reflectance.exr",
+      "bytes": 278656698,
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:04:55 GMT",
+        "Server": "Apache",
+        "Upgrade": "h2,h2c",
+        "Connection": "Upgrade, close",
+        "Last-Modified": "Tue, 30 Jan 2018 01:04:43 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "278656698"
+      }
+    },
+    {
+      "dataset": "kaist",
+      "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene07_reflectance.exr",
+      "bytes": 278145391,
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:05:01 GMT",
+        "Server": "Apache",
+        "Upgrade": "h2,h2c",
+        "Connection": "Upgrade, close",
+        "Last-Modified": "Tue, 30 Jan 2018 01:27:17 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "278145391"
+      }
+    },
+    {
+      "dataset": "kaist",
+      "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene08_reflectance.exr",
+      "bytes": 271282046,
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:05:06 GMT",
+        "Server": "Apache",
+        "Upgrade": "h2,h2c",
+        "Connection": "Upgrade, close",
+        "Last-Modified": "Tue, 30 Jan 2018 01:01:09 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "271282046"
+      }
+    },
+    {
+      "dataset": "kaist",
+      "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene09_reflectance.exr",
+      "bytes": 280508381,
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:05:12 GMT",
+        "Server": "Apache",
+        "Upgrade": "h2,h2c",
+        "Connection": "Upgrade, close",
+        "Last-Modified": "Tue, 30 Jan 2018 01:17:35 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "280508381"
+      }
+    },
+    {
+      "dataset": "kaist",
+      "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene10_reflectance.exr",
+      "bytes": 275672864,
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:05:17 GMT",
+        "Server": "Apache",
+        "Upgrade": "h2,h2c",
+        "Connection": "Upgrade, close",
+        "Last-Modified": "Tue, 30 Jan 2018 01:32:32 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "275672864"
+      }
+    },
+    {
+      "dataset": "kaist",
+      "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene11_reflectance.exr",
+      "bytes": 277563772,
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:05:23 GMT",
+        "Server": "Apache",
+        "Upgrade": "h2,h2c",
+        "Connection": "Upgrade, close",
+        "Last-Modified": "Tue, 30 Jan 2018 01:23:50 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "277563772"
+      }
+    },
+    {
+      "dataset": "kaist",
+      "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene12_reflectance.exr",
+      "bytes": 274047343,
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:05:28 GMT",
+        "Server": "Apache",
+        "Upgrade": "h2,h2c",
+        "Connection": "Upgrade, close",
+        "Last-Modified": "Tue, 30 Jan 2018 01:14:16 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "274047343"
+      }
+    },
+    {
+      "dataset": "kaist",
+      "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene13_reflectance.exr",
+      "bytes": 270799429,
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:05:34 GMT",
+        "Server": "Apache",
+        "Upgrade": "h2,h2c",
+        "Connection": "Upgrade, close",
+        "Last-Modified": "Tue, 30 Jan 2018 01:22:41 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "270799429"
+      }
+    },
+    {
+      "dataset": "kaist",
+      "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene14_reflectance.exr",
+      "bytes": 296424350,
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:05:40 GMT",
+        "Server": "Apache",
+        "Upgrade": "h2,h2c",
+        "Connection": "Upgrade, close",
+        "Last-Modified": "Tue, 30 Jan 2018 01:29:34 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "296424350"
+      }
+    },
+    {
+      "dataset": "kaist",
+      "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene15_reflectance.exr",
+      "bytes": 273607770,
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:05:45 GMT",
+        "Server": "Apache",
+        "Upgrade": "h2,h2c",
+        "Connection": "Upgrade, close",
+        "Last-Modified": "Tue, 30 Jan 2018 01:15:13 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "273607770"
+      }
+    },
+    {
+      "dataset": "kaist",
+      "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene16_reflectance.exr",
+      "bytes": 276711912,
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:05:51 GMT",
+        "Server": "Apache",
+        "Upgrade": "h2,h2c",
+        "Connection": "Upgrade, close",
+        "Last-Modified": "Tue, 30 Jan 2018 01:20:08 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "276711912"
+      }
+    },
+    {
+      "dataset": "kaist",
+      "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene17_reflectance.exr",
+      "bytes": 297132965,
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:05:56 GMT",
+        "Server": "Apache",
+        "Upgrade": "h2,h2c",
+        "Connection": "Upgrade, close",
+        "Last-Modified": "Tue, 30 Jan 2018 01:13:15 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "297132965"
+      }
+    },
+    {
+      "dataset": "kaist",
+      "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene18_reflectance.exr",
+      "bytes": 280946221,
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:06:02 GMT",
+        "Server": "Apache",
+        "Upgrade": "h2,h2c",
+        "Connection": "Upgrade, close",
+        "Last-Modified": "Tue, 30 Jan 2018 01:16:29 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "280946221"
+      }
+    },
+    {
+      "dataset": "kaist",
+      "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene19_reflectance.exr",
+      "bytes": 291792677,
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:06:07 GMT",
+        "Server": "Apache",
+        "Upgrade": "h2,h2c",
+        "Connection": "Upgrade, close",
+        "Last-Modified": "Tue, 30 Jan 2018 01:28:21 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "291792677"
+      }
+    },
+    {
+      "dataset": "kaist",
+      "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene20_reflectance.exr",
+      "bytes": 294238177,
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:06:13 GMT",
+        "Server": "Apache",
+        "Upgrade": "h2,h2c",
+        "Connection": "Upgrade, close",
+        "Last-Modified": "Tue, 30 Jan 2018 01:07:16 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "294238177"
+      }
+    },
+    {
+      "dataset": "kaist",
+      "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene21_reflectance.exr",
+      "bytes": 297814500,
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:06:18 GMT",
+        "Server": "Apache",
+        "Upgrade": "h2,h2c",
+        "Connection": "Upgrade, close",
+        "Last-Modified": "Tue, 30 Jan 2018 01:03:33 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "297814500"
+      }
+    },
+    {
+      "dataset": "kaist",
+      "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene22_reflectance.exr",
+      "bytes": 306775783,
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:06:24 GMT",
+        "Server": "Apache",
+        "Upgrade": "h2,h2c",
+        "Connection": "Upgrade, close",
+        "Last-Modified": "Tue, 30 Jan 2018 01:02:15 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "306775783"
+      }
+    },
+    {
+      "dataset": "kaist",
+      "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene23_reflectance.exr",
+      "bytes": 302335690,
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:06:30 GMT",
+        "Server": "Apache",
+        "Upgrade": "h2,h2c",
+        "Connection": "Upgrade, close",
+        "Last-Modified": "Tue, 30 Jan 2018 01:26:08 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "302335690"
+      }
+    },
+    {
+      "dataset": "kaist",
+      "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene24_reflectance.exr",
+      "bytes": 301290505,
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:06:35 GMT",
+        "Server": "Apache",
+        "Upgrade": "h2,h2c",
+        "Connection": "Upgrade, close",
+        "Last-Modified": "Tue, 30 Jan 2018 01:06:02 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "301290505"
+      }
+    },
+    {
+      "dataset": "kaist",
+      "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene25_reflectance.exr",
+      "bytes": 294076888,
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:06:40 GMT",
+        "Server": "Apache",
+        "Upgrade": "h2,h2c",
+        "Connection": "Upgrade, close",
+        "Last-Modified": "Tue, 30 Jan 2018 01:11:11 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "294076888"
+      }
+    },
+    {
+      "dataset": "kaist",
+      "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene26_reflectance.exr",
+      "bytes": 306783730,
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:06:46 GMT",
+        "Server": "Apache",
+        "Upgrade": "h2,h2c",
+        "Connection": "Upgrade, close",
+        "Last-Modified": "Tue, 30 Jan 2018 01:08:23 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "306783730"
+      }
+    },
+    {
+      "dataset": "kaist",
+      "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene27_reflectance.exr",
+      "bytes": 288175026,
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:06:51 GMT",
+        "Server": "Apache",
+        "Upgrade": "h2,h2c",
+        "Connection": "Upgrade, close",
+        "Last-Modified": "Tue, 30 Jan 2018 01:18:56 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "288175026"
+      }
+    },
+    {
+      "dataset": "kaist",
+      "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene28_reflectance.exr",
+      "bytes": 316364550,
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:06:57 GMT",
+        "Server": "Apache",
+        "Upgrade": "h2,h2c",
+        "Connection": "Upgrade, close",
+        "Last-Modified": "Tue, 30 Jan 2018 01:33:53 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "316364550"
+      }
+    },
+    {
+      "dataset": "kaist",
+      "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene29_reflectance.exr",
+      "bytes": 283984680,
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:07:02 GMT",
+        "Server": "Apache",
+        "Upgrade": "h2,h2c",
+        "Connection": "Upgrade, close",
+        "Last-Modified": "Tue, 30 Jan 2018 01:24:56 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "283984680"
+      }
+    },
+    {
+      "dataset": "kaist",
+      "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene30_reflectance.exr",
+      "bytes": 284326053,
+      "headers": {
+        "Date": "Wed, 07 Oct 2026 03:07:08 GMT",
+        "Server": "Apache",
+        "Upgrade": "h2,h2c",
+        "Connection": "Upgrade, close",
+        "Last-Modified": "Tue, 30 Jan 2018 01:34:56 GMT",
+        "Accept-Ranges": "bytes",
+        "Content-Length": "284326053"
+      }
+    }
+  ]
+}

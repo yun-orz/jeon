@@ -1,0 +1,77 @@
+{
+  "schema": "jeon2019-m1-cleanup-final-state-v1",
+  "milestone": "M1",
+  "recorded_at": "2026-10-07T12:08:58+0800",
+  "my_authorized_deletion": {
+    "count": 35,
+    "freed_bytes": 3794560752,
+    "freed_gib": 3.534,
+    "deleted_at": "2026-10-07T11:30:25+0800",
+    "scope": "33个分块part_*.bin + prefix.bin副本 + 旧部分下载原件",
+    "source": "D:\\PyCharmProjects\\Jeon2019\\outputs\\执行_M1_GPU环境_20261007\\删除记录.json",
+    "evidence": "删除前逐个核对路径、文件名模式与续传清单记录的块长度，并记录每个文件的SHA256与字节数"
+  },
+  "external_deletion_by_concurrent_session": {
+    "detected_at": "2026-10-07T12:08:58+0800",
+    "what": [
+      "work/dependencies/gpu_cu121_resume_m1_20261007（整个工作目录）",
+      "work/dependencies/gpu_cu121_20261006（旧部分下载目录）"
+    ],
+    "previously_kept_but_now_gone": [
+      "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\torch-2.5.1+cu121-cp310-cp310-win_amd64.whl",
+      "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\sympy-1.13.1-py3-none-any.whl",
+      "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\download_manifest.json",
+      "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\probe.json",
+      "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\resume_state.json",
+      "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\install_result.json",
+      "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\install_log.txt"
+    ],
+    "attribution": "不是我执行的删除，也不在本阶段授权范围内；本机同时有另一会话在执行M2/M3（work目录存在m2_*/m3_*日志，且work/datasets/reproduction_v1下有M3数据写入）。",
+    "not_verified": "我无法从本会话确认该删除的具体发起者与理由，仅登记可观察事实（目录消失、D盘可用空间由93.37GiB升至121.39GiB）。",
+    "impact": {
+      "m1_conclusions": "不受影响：M1判定依据是运行时的核验结果与已保存审核文件，不依赖这些二进制继续存在",
+      "local_offline_reinstall": "已不可用：整包wheel被外部删除后，重装Torch需要重新联网下载约2.3GiB",
+      "gpu_execution": "不受影响：GPU运行只依赖虚拟环境内已安装的包"
+    }
+  },
+  "current_state": {
+    "resume_workdir": false,
+    "old_partial_dir": false,
+    "gpu_environment_python": true,
+    "torch_in_environment": true
+  },
+  "d_free_bytes": 129753235456,
+  "preserved_m1_evidence": [
+    "audit_gpu_m1.py",
+    "audit_run_log.txt",
+    "audit_run_log_attempt1_encoding_failure.txt",
+    "audit_run_log_attempt2_stdout_encoding_failure.txt",
+    "audit_run_log_attempt3.txt",
+    "build_m1_manifests.py",
+    "delete_redundant_artifacts.py",
+    "independent_audit.json",
+    "independent_audit_attempt1_engine_scope_failure.json",
+    "independent_audit_attempt2_parser_failure.json",
+    "independent_audit_attempt3_g0_decode_mojibake.json",
+    "record_cleanup_final_state.py",
+    "下载SHA.json",
+    "删除记录.json",
+    "报告.md",
+    "最终审核.json",
+    "最终审核_attempt3_g0_decode_mojibake.json",
+    "环境清单.json",
+    "续传清单.json",
+    "运行记录.json"
+  ],
+  "restore_commands": [
+    "python -B outputs/jeon2019_optics/reproduction_v1/m1_download.py download",
+    "python -B outputs/jeon2019_optics/reproduction_v1/m1_download.py install"
+  ],
+  "note_on_manifests": "download_manifest.json / probe.json / resume_state.json / install_result.json / install_log.txt 已随工作目录被外部删除，因此无法再把删除标注写入它们；这些文件的核验数值已固化在 续传清单.json 与 下载SHA.json 中。",
+  "recovery_source": {
+    "url": "https://download.pytorch.org/whl/cu121/torch-2.5.1%2Bcu121-cp310-cp310-win_amd64.whl",
+    "official_sha256": "9b22d6d98aa56f9317902dec0e066814a6edba1aada90110ceea2bb0678df22f",
+    "frozen_total_bytes": 2449372784
+  },
+  "correction": "报告第13节原先写有'整包wheel保留，仍可免联网重装'；该结论在外部删除后不再成立，已同步修订。"
+}

@@ -1,0 +1,105 @@
+{
+  "schema": "jeon2019-m0-audit-v1",
+  "milestone": "M0",
+  "status": "passed",
+  "created_at": "2026-10-06T23:08:35.412524+08:00",
+  "commands": [
+    "\"D:\\dev\\python\\python3.10.4\\python.exe\" -B \"D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\reproduction_v1\\build_m0.py\"",
+    "\"D:\\dev\\python\\python3.10.4\\python.exe\" -B \"D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\reproduction_v1\\tests\\test_m0.py\""
+  ],
+  "effective_config": "protocol.json",
+  "input_fingerprints": {
+    "outputs/jeon2019_optics/reproduction_v1/protocol.json": "a30d5a4c64dac27fd9aaa5dac67234b8482a4b3e5aaa95cd1a9ba577e3924735",
+    "outputs/jeon2019_optics/reproduction_v1/sources.json": "d69feebc00a0d4c082abbe8a39160b6d39dde9448cb1964051538c82a586eea8",
+    "outputs/jeon2019_optics/reproduction_v1/parameter_evidence.json": "8a297ef6ef650c71dd6c58b799fe75fe6cf0a2ef9da650e989122ac55d28b2f7",
+    "outputs/jeon2019_optics/reproduction_v1/contracts.json": "71cc15e5a2c98421d9aa3409e1340eb09ba8781f0ee72eb7675884f17c1b3a8a",
+    "outputs/jeon2019_optics/reproduction_v1/tasks/M0_freeze_protocol.md": "f678a7a7d6bcd6541e30a05a8eb7d339b2251e245b2425fdf69b904c33f0a2f8",
+    "outputs/jeon2019_optics/reproduction_v1/tasks/M1_gpu_environment.md": "cdec4f53cf9e154f14f04e95537ad066dd9e4022a7901fea2ac6222974764e83",
+    "outputs/jeon2019_optics/reproduction_v1/tasks/M2_freeze_optics.md": "914023866f754e992a10bdadc88bdca865715e275fa3a161b1f595e927087200",
+    "outputs/jeon2019_optics/reproduction_v1/tasks/M3_data_pipeline.md": "b79ef64911539ef81ea2515292f5ea7094aa77b5ed7bd0bb6ddaa165e279d7c4",
+    "outputs/jeon2019_optics/reproduction_v1/tasks/M4_resumable_training.md": "6b36b39fbc679ea19e2c4e471b8cf3f5eb05b1acc062985b723656d39ce7551c",
+    "outputs/jeon2019_optics/reproduction_v1/tasks/M5_smoothing_diagnosis.md": "c01e162fd1da1ac6764de23b04c5fb27e4a4f5fee40d4742697f1b6841fb51fc",
+    "outputs/jeon2019_optics/reproduction_v1/tasks/M6_formal_training.md": "4ac0274dfd53cef41dc3f2a42965409324c67c11b1cb14ea1e11cde65942a69e",
+    "outputs/jeon2019_optics/reproduction_v1/tasks/M7_final_evaluation.md": "fd4202b448e50bcd06a962c0600d7633a433aa5d48042bcba718dbff96ac4ef6",
+    "outputs/jeon2019_optics/reproduction_v1/tasks/README.md": "53ed6b0be00f5b697e2711d51f18a4a6b965fc1ccf1baddc19fe3ec4d17b5e79",
+    "outputs/jeon2019_optics/reproduction_v1/docs/validation_history.md": "f6fe7e5286fcc28630a52f823426aaa535e33e9cce9620ee0deeeedbffb42fd4"
+  },
+  "output_fingerprints": {
+    "protection.json": "bdfc6412ba4571984fc46a65c9fc5758f851e94f391202fc16d394b8df8fd940",
+    "historical_stages.json": "e3297440bd6a5ee7cfc21f622d422a8b1ecf7d3b8e9859c2b2fa47fc36ca0223"
+  },
+  "key_numbers": {
+    "protected_files": 15942,
+    "protected_bytes": 20181153673,
+    "parameters": 39,
+    "tasks": 8
+  },
+  "failures": [
+    {
+      "phase": "development_first_unit_run",
+      "resolved": true,
+      "error": "M4/M5任务缺明确输入段，已补齐；门槛保持",
+      "evidence": "docs/validation_history.md"
+    }
+  ],
+  "code_fingerprints": {
+    "outputs/jeon2019_optics/reproduction_v1/__init__.py": "c58e6ba8b2b2b5cc3501ee82783068fb6fc5648579aef882730f1e73cad6d467",
+    "outputs/jeon2019_optics/reproduction_v1/audit.py": "591f778403c28f4e7356785ed4ea5c10bf8d6251ba1fbb4748c40108d0d1f07d",
+    "outputs/jeon2019_optics/reproduction_v1/build_m0.py": "8c66d2856a05851b37c36fb7f450784d9270d1cc8e4412c673c70026622aaccb",
+    "outputs/jeon2019_optics/reproduction_v1/main.py": "4b68500ecf3a6297cc5f8a89bb48f9b3d0f207719c711ece438ebfc065fc31d6",
+    "outputs/jeon2019_optics/reproduction_v1/tests/test_m0.py": "4e4ab471a26c0327cc8f4327006d092581648773871f6a9f6ed01b3130be5461"
+  },
+  "acceptance": {
+    "all_passed": true,
+    "protocol": {
+      "passed": true,
+      "parameters": 39,
+      "tasks": 8,
+      "failures": []
+    },
+    "historical_sources": true,
+    "protection": {
+      "passed": true,
+      "checked": 15942,
+      "checked_bytes": 20181153673,
+      "failures": [],
+      "read_only": true
+    },
+    "g0_before": {
+      "passed": true,
+      "checked": 767,
+      "skipped": 0,
+      "failures": [],
+      "mode": "full_local"
+    },
+    "g0_after": {
+      "passed": true,
+      "checked": 767,
+      "skipped": 0,
+      "failures": [],
+      "mode": "full_local"
+    },
+    "status_historical_prefix_unchanged": true,
+    "unit_tests": {
+      "returncode": 0,
+      "stdout": "{\"status\": \"failed\", \"error\": \"该命令尚未实现；请按tasks执行对应里程碑：train\", \"paper_alignment_passed\": false}\n",
+      "stderr": "test_append_only_cannot_accept_truncation (__main__.TestProtection) ... ok\ntest_append_only_limited_to_status (__main__.TestProtection) ... ok\ntest_append_only_prefix_accepts_suffix (__main__.TestProtection) ... ok\ntest_bad_sha_rejected (__main__.TestProtection) ... ok\ntest_bad_size_rejected (__main__.TestProtection) ... ok\ntest_bool_size_and_unknown_mode_rejected (__main__.TestProtection) ... ok\ntest_duplicate_rejected (__main__.TestProtection) ... ok\ntest_empty_and_bad_schema_rejected (__main__.TestProtection) ... ok\ntest_missing_rejected (__main__.TestProtection) ... ok\ntest_path_traversal_rejected (__main__.TestProtection) ... ok\ntest_pending_command_cannot_claim_success (__main__.TestProtection) ... ok\ntest_protocol_sources_and_tasks (__main__.TestProtection) ... ok\ntest_valid_content (__main__.TestProtection) ... ok\ntest_windows_case_alias_rejected (__main__.TestProtection) ... ok\n\n----------------------------------------------------------------------\nRan 14 tests in 0.098s\n\nOK\n"
+    }
+  },
+  "resume_command": "\"D:\\dev\\python\\python3.10.4\\python.exe\" -B \"D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\reproduction_v1\\main.py\" check",
+  "next_inputs": [
+    "tasks/M1_gpu_environment.md",
+    "tasks/M2_freeze_optics.md"
+  ],
+  "pending": [
+    "真实GPU验收",
+    "CW全25波段细采样/实测替代响应",
+    "多数据集空间预检和封存",
+    "恢复训练器",
+    "预演",
+    "正式配对训练",
+    "最终测试"
+  ],
+  "elapsed_seconds": 296.66589350000004,
+  "paper_alignment_passed": false
+}

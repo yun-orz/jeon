@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "independent_scipy_optical": {
+    "forward": 5.043957083998871e-16,
+    "adjoint": 4.378535335614107e-16,
+    "gradient": 3.763083987296275e-16
+  },
+  "independent_equation21_errors": [
+    7.666523158379051e-08,
+    5.124449322509327e-08,
+    7.327916796847407e-08
+  ],
+  "summary_metric_max_error": 0.0,
+  "source_code_exact": true,
+  "config_exact": true,
+  "tests_run": 4,
+  "tests_returncode": 0,
+  "tests_stderr": "test_autograd_equals_adjoint (test_g3.TestG3) ... ok\ntest_matches_numpy_and_transpose (test_g3.TestG3) ... ok\ntest_one_stage_equation21_and_gradients (test_g3.TestG3) ... ok\ntest_prior_odd_size_and_zero_threshold (test_g3.TestG3) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.146s\n\nOK\n",
+  "no_save_returncode": 0,
+  "no_save_summary_exact": true,
+  "engine_sha_unchanged": true,
+  "files_checked": 14628,
+  "sources_unchanged": true,
+  "original_cpu_environment_unchanged": true,
+  "g0_returncode": 0,
+  "g0_stdout": "G0����˶ԣ�ͨ��\nģʽ=full_local���˶�=767������=0\n",
+  "no_save_stderr": "",
+  "paper_alignment_passed": false,
+  "audit_script": "D:\\PyCharmProjects\\Jeon2019\\outputs\\执行_M1_GPU环境_20261007\\audit_gpu_m1.py",
+  "adapted_from": "D:\\PyCharmProjects\\Jeon2019\\outputs\\执行_GPU验证_20261006\\audit_gpu.py",
+  "official_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\g3_gpu\\run_20261007_103806",
+  "cuda_runtime_reported": "12.1",
+  "torch_version_reported": "2.5.1+cu121",
+  "engine_scope": {
+    "excluded_prefix": "results/reproduction_v1",
+    "reason": "M0保护清单排除\"新reproduction_v1代码/数据/结果\"；并发里程碑可向其中写入",
+    "engine_files_checked": 14628,
+    "engine_files_changed": [],
+    "new_results_files_changed": []
+  }
+}

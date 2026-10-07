@@ -1,0 +1,104 @@
+{
+  "status": "failed",
+  "reason": "检查报告目录规则修正后中断本次执行，须从最终源码重建指纹包；并非采样阈值失败",
+  "completed_bands": 26,
+  "unfinished": [
+    {
+      "method": "fresnel",
+      "wavelength_nm": 430
+    },
+    {
+      "method": "fresnel",
+      "wavelength_nm": 440
+    },
+    {
+      "method": "fresnel",
+      "wavelength_nm": 450
+    },
+    {
+      "method": "fresnel",
+      "wavelength_nm": 460
+    },
+    {
+      "method": "fresnel",
+      "wavelength_nm": 470
+    },
+    {
+      "method": "fresnel",
+      "wavelength_nm": 480
+    },
+    {
+      "method": "fresnel",
+      "wavelength_nm": 490
+    },
+    {
+      "method": "fresnel",
+      "wavelength_nm": 500
+    },
+    {
+      "method": "fresnel",
+      "wavelength_nm": 510
+    },
+    {
+      "method": "fresnel",
+      "wavelength_nm": 520
+    },
+    {
+      "method": "fresnel",
+      "wavelength_nm": 530
+    },
+    {
+      "method": "fresnel",
+      "wavelength_nm": 540
+    },
+    {
+      "method": "fresnel",
+      "wavelength_nm": 550
+    },
+    {
+      "method": "fresnel",
+      "wavelength_nm": 560
+    },
+    {
+      "method": "fresnel",
+      "wavelength_nm": 570
+    },
+    {
+      "method": "fresnel",
+      "wavelength_nm": 580
+    },
+    {
+      "method": "fresnel",
+      "wavelength_nm": 590
+    },
+    {
+      "method": "fresnel",
+      "wavelength_nm": 600
+    },
+    {
+      "method": "fresnel",
+      "wavelength_nm": 610
+    },
+    {
+      "method": "fresnel",
+      "wavelength_nm": 620
+    },
+    {
+      "method": "fresnel",
+      "wavelength_nm": 630
+    },
+    {
+      "method": "fresnel",
+      "wavelength_nm": 640
+    },
+    {
+      "method": "fresnel",
+      "wavelength_nm": 650
+    },
+    {
+      "method": "fresnel",
+      "wavelength_nm": 660
+    }
+  ],
+  "files_preserved": true
+}

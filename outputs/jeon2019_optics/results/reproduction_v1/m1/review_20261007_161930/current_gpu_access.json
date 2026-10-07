@@ -1,0 +1,19 @@
+{
+  "executable": "D:\\PyCharmProjects\\Jeon2019\\work\\environments\\jeon_gpu_cu121\\Scripts\\python.exe",
+  "torch_version": "2.5.1+cu121",
+  "torch_file": "D:\\PyCharmProjects\\Jeon2019\\work\\environments\\jeon_gpu_cu121\\lib\\site-packages\\torch\\__init__.py",
+  "cuda_available": false,
+  "device_count": 0,
+  "cuda_driver_init": {
+    "status": 100,
+    "name": "CUDA_ERROR_NO_DEVICE",
+    "message": "no CUDA-capable device is detected"
+  },
+  "cuda_matrix_passed": false,
+  "cuda_matrix_error": "RuntimeError('No CUDA GPUs are available')",
+  "nvidia_smi": {
+    "returncode": 4,
+    "stdout": "NVIDIA-SMI has failed because you are not:\n\ta) running as an administrator or\n\tb) there is not at least one TCC device in the system\n\n",
+    "stderr": ""
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "schema": "jeon2019-m2-config-v1",
+  "budget_seconds": 28800,
+  "reserve_bytes": 536870912,
+  "spectral_input": "relative_energy_density_per_nm",
+  "response_source_dir": "outputs/jeon2019_optics/reproduction_v1/data/m2_response_20261007"
+}

@@ -1,0 +1,12 @@
+test_30000_index_reproduction_and_cache (test_m3.TestM3) ... ok
+test_common_gain_independent_scalar (test_m3.TestM3) ... ok
+test_exr_channel_names_and_scanlines (test_m3.TestM3) ... ok
+test_groups_exposure_and_legacy_no_crossing (test_m3.TestM3) ... ok
+test_harvard_stream_calibration_and_area (test_m3.TestM3) ... ok
+test_icvl_actual_bands_and_axis (test_m3.TestM3) ... ok
+test_train_only_scales_and_sealed_test (test_m3.TestM3) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 1.600s
+
+OK

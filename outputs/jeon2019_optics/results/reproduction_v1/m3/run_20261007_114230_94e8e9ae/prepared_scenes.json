@@ -1,0 +1,62 @@
+[
+  {
+    "dataset": "kaist",
+    "scene_id": "kaist:scene01_reflectance",
+    "stem": "scene01_reflectance",
+    "raw_file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene01_reflectance\\payload_5aa2e2739f0e4a18b8c59e9d6169e20a.bin",
+    "raw_sha256": "a20457f2bd8965ebe48250fd7bae6b26dea120adf2746c70492c5a7e70e4b37f",
+    "source_files": [
+      "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene01_reflectance\\payload_5aa2e2739f0e4a18b8c59e9d6169e20a.bin"
+    ],
+    "source_sha256": {
+      "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene01_reflectance\\payload_5aa2e2739f0e4a18b8c59e9d6169e20a.bin": "a20457f2bd8965ebe48250fd7bae6b26dea120adf2746c70492c5a7e70e4b37f"
+    },
+    "metadata": {
+      "shape_hwc": [
+        2704,
+        3376,
+        25
+      ],
+      "channel_names": [
+        "w420nm",
+        "w430nm",
+        "w440nm",
+        "w450nm",
+        "w460nm",
+        "w470nm",
+        "w480nm",
+        "w490nm",
+        "w500nm",
+        "w510nm",
+        "w520nm",
+        "w530nm",
+        "w540nm",
+        "w550nm",
+        "w560nm",
+        "w570nm",
+        "w580nm",
+        "w590nm",
+        "w600nm",
+        "w610nm",
+        "w620nm",
+        "w630nm",
+        "w640nm",
+        "w650nm",
+        "w660nm"
+      ],
+      "selected_indices": "按w{波长}nm名称，不按通道位置",
+      "units": "相对Spectralon参考白的反射率，保留原值，不拟合场景尺度",
+      "mask": "所选全部谱通道有限非负",
+      "reader": "EXR旧扫描行API按全部25通道有界扫描行块，总输出块不超过64MiB",
+      "data_window_origin_y": 0
+    },
+    "scene_group_id": "group:a69bd0ae0668cfc8cead7a355e91f97f1920319bba7d4ebc9f4c9f2168eefea1",
+    "split": "test",
+    "data_file": null,
+    "mask_file": null,
+    "preprocessing": {
+      "status": "deferred_to_M7",
+      "reason": "M7前只核对原始文件、通道、完整性和重复元数据；测试半尺寸预处理推迟M7，不生成测试patch、预测、成绩或选择ROI"
+    }
+  }
+]

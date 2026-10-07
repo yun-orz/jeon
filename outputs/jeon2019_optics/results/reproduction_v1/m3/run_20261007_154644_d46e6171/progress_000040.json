@@ -1,0 +1,352 @@
+{
+  "milestone": "M3",
+  "status": "dependency_pending",
+  "commands": [
+    [
+      "D:\\dev\\python\\python3.10.4\\python.exe",
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\reproduction_v1\\main.py",
+      "data",
+      "--config",
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\reproduction_v1\\config_m3_masked_index_20261007.json",
+      "--phase",
+      "all"
+    ]
+  ],
+  "effective_config": {
+    "config": {
+      "schema": "jeon2019-m3-config-v1",
+      "data_version": "m3_20261007_masked_v3",
+      "data_dir": "work/datasets/reproduction_v1/m3_20261007_v1",
+      "source_review": "work/datasets/reproduction_v1/source_review/run_20261007_initial",
+      "m2_run": "outputs/jeon2019_optics/results/reproduction_v1/m2/run_20261007_104321_03d47940",
+      "parent_bridge": "work/datasets/reproduction_v1/parent_m2_20261007_verified/bridge.json",
+      "protocol": "outputs/jeon2019_optics/reproduction_v1/m3_protocol_masked_index_20261007.json",
+      "local_icvl_dir": "H:/我的云端硬盘/Jeon2019_data/reproduction_v1/icvl/mat",
+      "icvl_provenance": {
+        "source": "work/datasets/reproduction_v1/icvl_acquisition/icvl_source.json",
+        "manifest": "work/datasets/reproduction_v1/icvl_acquisition/icvl_file_manifest.json",
+        "tree": "work/datasets/reproduction_v1/icvl_acquisition/remote_tree_pinned.json"
+      },
+      "acquisition_mode": "existing",
+      "budget_seconds": 28800,
+      "cache_max_bytes": 67108864
+    },
+    "protocol": {
+      "schema": "jeon2019-m3-preregistered-v3",
+      "seed": 20261006,
+      "legacy_policy": "历史img3/img4/img5及其关联组明确排除正式训练、验证和新测试",
+      "normalization": "Harvard/ICVL各用全部有效训练像元与25谱带的共同RMS；FP64分块累加；不逐图/逐谱带拟合、不裁剪",
+      "kaist": "保留原始反射率，不拟合尺度；作为相对信号前向是平坦照明谱代理的实施假设，不称绝对辐亮度",
+      "gain": "每训练场景选择索引哈希最小的一条256×256样本；两器件、三通道、全部有效像元等权RGB RMS；共同增益=0.25/RMS",
+      "gain_target_rms": 0.25,
+      "valid_mask": "所选25波段全部有限非负；Harvard额外要求lbl非零且有限；2×2平均全部原像元有效；训练patch保留真实逐像元mask且至少一个有效像元，拟合只统计有效像元",
+      "grouping": "源场景ID、ICVL地点/日期捕获前缀、原始SHA及固定整图24×24×25曝光不变重复描述；近重复余弦阈值0.9999；跨库关联组保守排除；ICVL Master数字K及组合色温文件按同采集照明族保守同组，不含Master日期_colorchecker文件",
+      "base_scale": 0.5,
+      "base_resize": "2×2等面积平均，保持像元中心关系，奇数末行/列丢弃并登记",
+      "augmentation": "0.5等面积平均、1原值、2像元中心对齐双线性；仅在线处理局部块",
+      "patch_size": 256,
+      "patch_count": 30000,
+      "cache_max_bytes": 67108864,
+      "test_policy": "M7前只核对原始文件、通道、完整性和重复元数据；测试半尺寸预处理推迟M7，不生成测试patch、预测、成绩或选择ROI",
+      "cross_dataset_calibration": "实施假设，不是绝对辐射标定；谱带因子10nm只由M2能量算子计一次",
+      "grouping_revision_reason": "仅用文件命名与允许的固定整图重复元数据，识别Master2900k/5000K/组合照明谱变体；其整谱余弦0.973–0.992低于原0.9999阈值，增加明确采集族，禁止跨训练/验证。变更发生于划分、预处理及尺度/增益拟合前。",
+      "patch_sampling": "固定种子先按scene_id排序每个训练场景采样一条，再从全部训练场景可用增强尺度随机采样至30000；拒绝全无效patch；保留逐像元mask",
+      "index_revision_reason": "真实Harvard训练imgb4/imgc9没有任何全有效256×256增强位置；原额外全有效patch约束导致203场景中两幅无法进入增益索引。失败运行未产生增益或最终冻结。本修订保留原划分、校正和像元有效规则，允许带真实掩码补丁并保证每场景覆盖，不剔除场景，不使用测试。"
+    },
+    "phase": "all"
+  },
+  "input_fingerprints": {
+    "outputs/jeon2019_optics/reproduction_v1/m3_acquire.py": "ea307b3adefeb408338d9ebb0273f9dc27a7b676be6884afcf105e304892c48b",
+    "outputs/jeon2019_optics/reproduction_v1/m3_common.py": "351ecdbd86da1dce21ed4ddb59b570f0e4bd915320d96d280ca8f97377dac9e5",
+    "outputs/jeon2019_optics/reproduction_v1/m3_discover.py": "889f779158ef09e82d3396392491d9995cbade75626b149f1e2f378130b88ab5",
+    "outputs/jeon2019_optics/reproduction_v1/m3_download.py": "02a3e8d0db99dc6e8a798b73d8fbccb2dc646c8a9436281196be2fee79d6083c",
+    "outputs/jeon2019_optics/reproduction_v1/m3_icvl_provenance.py": "275c4bc320b5349bbe4ec6ceb4b74bc0a3a7df58876f2c89aadb1090f38906ec",
+    "outputs/jeon2019_optics/reproduction_v1/m3_index.py": "f713f6aa03d6949f5edbb793d99e44c1366cb196a97a31baf06472b10a17656f",
+    "outputs/jeon2019_optics/reproduction_v1/m3_pipeline.py": "9e4c488b11499cc7fb53157f9237971b417cec972027e3ad9baa2192963d13d2",
+    "outputs/jeon2019_optics/reproduction_v1/m3_readers.py": "b41f90b8e0493457ce8c4bf719470f159565c330e920f201684e37a176f9f36b",
+    "outputs/jeon2019_optics/reproduction_v1/m3_validate.py": "e707f8a8600c231bb512961e9fb1921d6f04a507cf921eb722a2615421234dfe",
+    "outputs/jeon2019_optics/reproduction_v1/main.py": "d6dd03b82120e37f93db2aec686bb91ce11789255ecc674dc7a5c961955c1b11",
+    "outputs/jeon2019_optics/reproduction_v1/config_m3_masked_index_20261007.json": "bfe71ec0098ae284e946b1feefb546066d69dff9cc8f4f7275ba8e310e573cc0",
+    "outputs/jeon2019_optics/reproduction_v1/m3_protocol_masked_index_20261007.json": "5158c59cbef91fc2a6b7ff95707a41285610ca6ac24779679b99f2edebfb71c6",
+    "work/datasets/reproduction_v1/parent_m2_20261007_verified/bridge.json": "2a130f0e346909a1faecf3405c5a7872e46212326edb247e76ae3c5e0e89f74c",
+    "outputs/jeon2019_optics/reproduction_v1/contracts.json": "71cc15e5a2c98421d9aa3409e1340eb09ba8781f0ee72eb7675884f17c1b3a8a",
+    "work/datasets/reproduction_v1/icvl_acquisition/icvl_source.json": "15b4109f09adee9a820f5eeeb4dc16dcfa46e47c8dc274256e5c7c94496aea4b",
+    "work/datasets/reproduction_v1/icvl_acquisition/icvl_file_manifest.json": "fb73f32e96253f18a586da42a09729c8ba63236ad0fdb48c63cb013320c72c36",
+    "work/datasets/reproduction_v1/icvl_acquisition/remote_tree_pinned.json": "23510eea14947b48555f2952f30e2a1d317caa7c0909d32b70fa8d8827baa607"
+  },
+  "output_fingerprints": {},
+  "key_numbers": {},
+  "failures": [],
+  "acceptance": {
+    "all_passed": false
+  },
+  "resume_command": [
+    "D:\\dev\\python\\python3.10.4\\python.exe",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\reproduction_v1\\main.py",
+    "data",
+    "--config",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\reproduction_v1\\config_m3_masked_index_20261007.json",
+    "--phase",
+    "all",
+    "--resume",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\reproduction_v1\\m3\\run_20261007_154644_d46e6171"
+  ],
+  "next_inputs": [
+    "全部验收通过后M4；目前不允许进入M4"
+  ],
+  "paper_alignment_passed": false,
+  "run_dir": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\reproduction_v1\\m3\\run_20261007_154644_d46e6171",
+  "scene_progress": [
+    {
+      "scene_id": "harvard:CZ_hsdb:img1",
+      "metadata": "passed",
+      "raw_sha256": "d8024825029635f9f23f9e9db7856a38a556aefc983e5040391622b5149b97a7"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:img2",
+      "metadata": "passed",
+      "raw_sha256": "f0ab34998a6bbccc2dd9e83b4c6985b10ebbc98372991a82f4c7dca4b7b28c02"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imga1",
+      "metadata": "passed",
+      "raw_sha256": "8ad0e5f9ed1e70667c4dfc0f6c46cc3f5a36fe0de933d4c972efc73b9e882951"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imga2",
+      "metadata": "passed",
+      "raw_sha256": "880b98e1d0a3d43d62cd2bf9fcc685f9fc924f58a164ffe7427e54e27f5ca763"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imga5",
+      "metadata": "passed",
+      "raw_sha256": "15f81e10bfca944eb910d56024a5844aabef08e2253568e2d2c8a4ef9d32655c"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imga6",
+      "metadata": "passed",
+      "raw_sha256": "01f9c39b7f287660fba374972f79c1ef2721cb5887c36c5ec5bd74caeefb6582"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imga7",
+      "metadata": "passed",
+      "raw_sha256": "5aa174acce6d787a9ab64c095bd21884e235fa845f16d105def4ab3d2083e31a"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgb0",
+      "metadata": "passed",
+      "raw_sha256": "d01a9ca3a9aa01a1f37e6970eae52d3af8754678f5cb2921b74451ada0eea499"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgb1",
+      "metadata": "passed",
+      "raw_sha256": "68fbcc520010925c39af659511ecfb75cb21ca9a8a60e42008fdcc4473d1ce8e"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgb2",
+      "metadata": "passed",
+      "raw_sha256": "cfb85fcca91e5e2a9bbe0341196a766f0d4dd8e267809a93c9b9e4b66b9abbe3"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgb3",
+      "metadata": "passed",
+      "raw_sha256": "c86fb81f247bd61ead55d619d07498b69e71dd043849e32e68c8b8e481590b93"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgb4",
+      "metadata": "passed",
+      "raw_sha256": "dfc7cb69ea8961ddf582958d2e283b0093eb0c464fc5dcfb36731855cfa0dcc0"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgb5",
+      "metadata": "passed",
+      "raw_sha256": "f4d91ebf281bafda8f29f4f08ec4a156551b0c561fd8a4f7227d750e2386f336"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgb6",
+      "metadata": "passed",
+      "raw_sha256": "b8d6a2c4962e71dcf9c6b8a7827da377f08698eca39ff99e0bafd4c410550872"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgb7",
+      "metadata": "passed",
+      "raw_sha256": "f640766de566cab3a26511c46c4fe777c9696475c475957d4a3e92c3092358d4"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgb8",
+      "metadata": "passed",
+      "raw_sha256": "7714d2a792f8f0a7e8f53463a52f7bed73afafd15082c3a7c35f79349a587a16"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgb9",
+      "metadata": "passed",
+      "raw_sha256": "13ae21c99aa137c80f1eb0910f7c8dd486e8fc9c74e6ac8b8284cef46b470007"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgc1",
+      "metadata": "passed",
+      "raw_sha256": "6f05318389f2c07a0b6f50cadd4482ee6d91c16a2e59af9399dfd98aac79c331"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgc2",
+      "metadata": "passed",
+      "raw_sha256": "e8778ed30dfd414f1dbdf16fa797b4d4ae6ba42765c5aea13d2b5a6cfcaf03c1"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgc4",
+      "metadata": "passed",
+      "raw_sha256": "51a40c93c9bafe43015fad6259069bba84047309fc447e2269bea24ddf043fe9"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgc5",
+      "metadata": "passed",
+      "raw_sha256": "b7192de76421fc16f846d4b0f84a8b2e79fcb8c6fedfb80fa189d5ad34b8b57f"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgc7",
+      "metadata": "passed",
+      "raw_sha256": "be64889b45dd231156461488a9761ea99238d445db82a8d9a7c540628ee25159"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgc8",
+      "metadata": "passed",
+      "raw_sha256": "d3593f2982a9ea9f6351b06b407cbce142795da3984dcc5722c56ca03a70854d"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgc9",
+      "metadata": "passed",
+      "raw_sha256": "bbcf86d47656e6da77e17e0a89f1b015c861cd0c107ac7477b8e4a6e5c05e972"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgd2",
+      "metadata": "passed",
+      "raw_sha256": "0cb1f7ff9dc6f76ff51eb874b369dc72e8719f111b2dd2e2c80c196d017b0a2a"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgd3",
+      "metadata": "passed",
+      "raw_sha256": "62bdc89f05e71ab130ad94e714c64d7d3b5285da9f39382d1af97dd694debaaf"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgd4",
+      "metadata": "passed",
+      "raw_sha256": "2765a0f81fe790654a5f470dd5abc6f970f30a02641b057af7af593b4d64f45a"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgd7",
+      "metadata": "passed",
+      "raw_sha256": "dcb89a25f3c83f5ce8a615e81323ce66fe6dcf7757188124d7933d35c14799dc"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgd8",
+      "metadata": "passed",
+      "raw_sha256": "72511e45961ebb2050219a1be3be5ed00dbf05b237379eab0f462999cb9c92d5"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgd9",
+      "metadata": "passed",
+      "raw_sha256": "a85a5687cb6112fd3fa58430ebde076ebe0e9437713eb4b263d6668bdf38c0e9"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imge0",
+      "metadata": "passed",
+      "raw_sha256": "a7cf1f121692f3f050c84fb95e7941678ed2302c0617315e6560271ba33041bc"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imge1",
+      "metadata": "passed",
+      "raw_sha256": "3a6a4efba10dde4d26ac2c285aab17f1eb4c9211c7d4f403c33e2a8ce0d30751"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imge2",
+      "metadata": "passed",
+      "raw_sha256": "a5a324415c6eb5bdcafc7832e4d64775c4ba9bb26d32279386dd93585a1051f2"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imge3",
+      "metadata": "passed",
+      "raw_sha256": "6a70d9dfef27f9c451bc6b31ec16b57997d0a81f270599bfc85bda8e8a33ecff"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imge4",
+      "metadata": "passed",
+      "raw_sha256": "5f5ccb55b445be8d8ff3352ded1d9c1eeb0fec72d210186696e3912ba4d5bdaf"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imge5",
+      "metadata": "passed",
+      "raw_sha256": "d86d9f0d1ffff49955a2a08311bf0efbf7c93d7d40a6ee90d9919f38d3592c9f"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imge6",
+      "metadata": "passed",
+      "raw_sha256": "8dbd1d268b2d657f1b4ca3b1744563f82f931d84c639ed08c2c3ef93ba171340"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imge7",
+      "metadata": "passed",
+      "raw_sha256": "3488670e4fed55d3f9dd1f5a9e3a6ba945d07a8ae998889b0a61ca8b68ca0774"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgf1",
+      "metadata": "passed",
+      "raw_sha256": "a0bf62cfab72858088352e2876fbdbbe219c7936acdcef29c8d8b3df6c7818db"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgf2",
+      "metadata": "passed",
+      "raw_sha256": "21c4089fd5d983d685fd803f689225d5a782b31248f3a82af7ed25d463eee173"
+    }
+  ],
+  "measurement_gain": {
+    "status": "pending",
+    "value": null
+  },
+  "test_seal_status": "not_finalized",
+  "historical_protection": {
+    "passed": true,
+    "checked": 15942,
+    "checked_bytes": 20181153673,
+    "failures": [],
+    "read_only": true
+  },
+  "space": {
+    "components": {
+      "compressed": 45014485227,
+      "unpacked": 9370080993,
+      "decoded_mat": 0,
+      "preprocessed": 18959509920,
+      "checkpoint_retention": 8589934592,
+      "cache_reserve": 536870912
+    },
+    "already_present_bytes": 38622580295,
+    "safety_bytes": 4384830134,
+    "required_bytes": 48233131483,
+    "free_bytes": 88503971840,
+    "passed": true,
+    "note": "D盘10%余量；不删除历史、不移盘；任何未知项必须另记为未核实",
+    "evidence": {
+      "harvard_bytes": 8147896516,
+      "kaist_bytes": 8667411327,
+      "icvl_public_mat_count": 202,
+      "icvl_bytes": 28199177384,
+      "harvard_unpacked_upper_factor": 1.15,
+      "kaist_shape_bound": [
+        2704,
+        3376
+      ],
+      "decoded_mat_disk_bytes": 0,
+      "decoded_mat_reason": "MAT-v5按波段64列块流式解码，无整ref缓存文件；已用实际旧样本验证",
+      "processed_policy": "估计含全部候选；真正只预处理训练/验证，测试半尺寸推迟M7",
+      "remaining_unknowns": [
+        "新Harvard/KAIST实际形状须逐场景确认；超过预估即重新检查空间并停下"
+      ]
+    }
+  },
+  "availability": {
+    "harvard_archives": 2,
+    "kaist_files": 30,
+    "icvl_files": 202,
+    "icvl_authorization_pending": false
+  }
+}

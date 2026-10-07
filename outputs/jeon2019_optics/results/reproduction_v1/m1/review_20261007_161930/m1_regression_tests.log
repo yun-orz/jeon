@@ -1,0 +1,50 @@
+test_adapted_adds_no_relaxed_comparison (test_m1_audit.TestAuditAdapter)
+适配层不得新增任何放宽比较的运算符或阈值替换。 ... ok
+test_adapted_writes_only_into_new_m1_directory (test_m1_audit.TestAuditAdapter)
+适配层不得再指向历史审核目录下的固定输出名。 ... ok
+test_both_scripts_exist (test_m1_audit.TestAuditAdapter) ... ok
+test_engine_integrity_scope_matches_m0_exclusions (test_m1_audit.TestAuditAdapter)
+引擎完整性比较必须排除M0已排除的新结果目录，并同时记录该子树的差异。 ... ok
+test_norm_error_identical (test_m1_audit.TestAuditAdapter) ... ok
+test_original_audit_untouched (test_m1_audit.TestAuditAdapter)
+原审核器本体必须与M1开始前记录的SHA一致。 ... ok
+test_thresholds_and_counts_unchanged (test_m1_audit.TestAuditAdapter)
+审核阈值、容差与追溯阶段数必须逐字保留。 ... ok
+test_engine_scope_helper_excludes_new_results_only (test_m1_audit.TestSummaryExtraction) ... ok
+test_missing_or_broken_output_returns_none (test_m1_audit.TestSummaryExtraction) ... ok
+test_nested_json_before_trailing_lines (test_m1_audit.TestSummaryExtraction) ... ok
+test_process_killed_midway_then_resumed (test_m1_resume.TestHardKillRecovery) ... Exception in thread Thread-2 (_readerthread):
+Traceback (most recent call last):
+  File "D:\dev\python\python3.10.4\lib\threading.py", line 1009, in _bootstrap_inner
+    self.run()
+  File "D:\dev\python\python3.10.4\lib\threading.py", line 946, in run
+    self._target(*self._args, **self._kwargs)
+  File "D:\dev\python\python3.10.4\lib\subprocess.py", line 1494, in _readerthread
+    buffer.append(fh.read())
+  File "D:\dev\python\python3.10.4\lib\codecs.py", line 322, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xcd in position 0: invalid continuation byte
+ok
+test_block_plan_covers_every_byte (test_m1_resume.TestResumer) ... ok
+test_corrupted_block_is_redownloaded (test_m1_resume.TestResumer)
+已登记SHA的块被破坏后必须重下，不能凭大小相同蒙混过关。 ... ok
+test_existing_prefix_is_copied_and_never_modified (test_m1_resume.TestResumer) ... ok
+test_full_download_uses_206_and_passes_whole_sha (test_m1_resume.TestResumer) ... ok
+test_ignored_range_with_prefix_accepted_by_skipping_prefix (test_m1_resume.TestResumer)
+200 整包响应配合已有前缀：跳过前缀字节，仍拼出正确整包。 ... ok
+test_length_mismatch_retries_then_succeeds (test_m1_resume.TestResumer) ... ok
+test_permanent_ignored_range_with_short_body_fails_without_fake_block (test_m1_resume.TestResumer)
+服务端返回200但正文被截断：必须失败，且状态文件不得登记任何完成块。 ... ok
+test_probe_detects_wrong_frozen_total (test_m1_resume.TestResumer) ... ok
+test_second_run_short_circuits_when_whole_package_present (test_m1_resume.TestResumer) ... ok
+test_server_ignoring_range_is_accepted_only_as_one_whole_block (test_m1_resume.TestResumer) ... ok
+test_state_file_removed_still_recovers_from_disk (test_m1_resume.TestResumer) ... ok
+test_existing_prefix_reduces_remaining_download (test_m1_resume.TestSpaceBudget) ... ok
+test_insufficient_space_stops_with_requirement (test_m1_resume.TestSpaceBudget) ... ok
+test_peak_is_sum_of_components (test_m1_resume.TestSpaceBudget) ... ok
+test_sufficient_space_passes_with_margin (test_m1_resume.TestSpaceBudget) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 13.135s
+
+OK

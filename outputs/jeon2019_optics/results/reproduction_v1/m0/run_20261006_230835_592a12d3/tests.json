@@ -1,0 +1,5 @@
+{
+  "returncode": 0,
+  "stdout": "{\"status\": \"failed\", \"error\": \"该命令尚未实现；请按tasks执行对应里程碑：train\", \"paper_alignment_passed\": false}\n",
+  "stderr": "test_append_only_cannot_accept_truncation (__main__.TestProtection) ... ok\ntest_append_only_limited_to_status (__main__.TestProtection) ... ok\ntest_append_only_prefix_accepts_suffix (__main__.TestProtection) ... ok\ntest_bad_sha_rejected (__main__.TestProtection) ... ok\ntest_bad_size_rejected (__main__.TestProtection) ... ok\ntest_bool_size_and_unknown_mode_rejected (__main__.TestProtection) ... ok\ntest_duplicate_rejected (__main__.TestProtection) ... ok\ntest_empty_and_bad_schema_rejected (__main__.TestProtection) ... ok\ntest_missing_rejected (__main__.TestProtection) ... ok\ntest_path_traversal_rejected (__main__.TestProtection) ... ok\ntest_pending_command_cannot_claim_success (__main__.TestProtection) ... ok\ntest_protocol_sources_and_tasks (__main__.TestProtection) ... ok\ntest_valid_content (__main__.TestProtection) ... ok\ntest_windows_case_alias_rejected (__main__.TestProtection) ... ok\n\n----------------------------------------------------------------------\nRan 14 tests in 0.098s\n\nOK\n"
+}

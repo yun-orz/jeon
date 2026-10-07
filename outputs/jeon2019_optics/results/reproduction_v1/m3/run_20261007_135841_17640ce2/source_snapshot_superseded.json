@@ -1,0 +1,8 @@
+{
+  "status": "dependency_pending",
+  "reason": "Harvard两归档与KAIST30幅已完整取得，改用全部来源新快照；保留此运行源码指纹、原始清单、场景级进度和元数据缓存，不删除任何文件。",
+  "metadata_only": true,
+  "preprocessing_started": false,
+  "final_gain_fitted": false,
+  "test_seal_frozen": false
+}

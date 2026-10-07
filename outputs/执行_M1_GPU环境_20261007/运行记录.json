@@ -1,0 +1,187 @@
+{
+  "schema": "jeon2019-m1-runs-v1",
+  "milestone": "M1",
+  "generated_at": "2026-10-07T11:00:57+0800",
+  "commands": [
+    {
+      "purpose": "安装前check（原CPU解释器）",
+      "command": "D:\\dev\\python\\python3.10.4\\python.exe -B outputs/jeon2019_optics/reproduction_v1/main.py check --stage pre_install",
+      "cwd": "D:\\PyCharmProjects\\Jeon2019",
+      "result": "status=passed",
+      "evidence": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\reproduction_v1\\m1\\run_20261007_101648_pre_install\\main_check_pre_install.json"
+    },
+    {
+      "purpose": "官方链接与头信息核对、已有前缀",
+      "command": "python -B outputs/jeon2019_optics/reproduction_v1/m1_download.py probe",
+      "cwd": "D:\\PyCharmProjects\\Jeon2019",
+      "result": "head通过，前缀1345187968字节，剩余1104184816字节",
+      "evidence": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\probe.json"
+    },
+    {
+      "purpose": "分块续传并核对整包官方SHA",
+      "command": "python -B outputs/jeon2019_optics/reproduction_v1/m1_download.py download",
+      "cwd": "D:\\PyCharmProjects\\Jeon2019",
+      "result": "33块全部通过，整包SHA通过",
+      "evidence": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\download_manifest.json"
+    },
+    {
+      "purpose": "离线安装到新GPU环境",
+      "command": "python -B outputs/jeon2019_optics/reproduction_v1/m1_download.py install",
+      "cwd": "D:\\PyCharmProjects\\Jeon2019",
+      "result": "torch-2.5.1+cu121、sympy-1.13.1 安装成功",
+      "evidence": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\install_result.json"
+    },
+    {
+      "purpose": "新解释器CUDA自检",
+      "command": "work/environments/jeon_gpu_cu121/Scripts/python.exe -B outputs/jeon2019_optics/reproduction_v1/m1_cuda_selfcheck.py",
+      "cwd": "D:\\PyCharmProjects\\Jeon2019",
+      "result": "cuda_available=True，FP64相对误差7.6e-16，TF32默认关闭后复算一致",
+      "evidence": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\reproduction_v1\\m1\\cuda_selfcheck.json"
+    },
+    {
+      "purpose": "安装后check（新GPU解释器）",
+      "command": "work/environments/jeon_gpu_cu121/Scripts/python.exe -B outputs/jeon2019_optics/reproduction_v1/main.py check --stage post_install",
+      "cwd": "D:\\PyCharmProjects\\Jeon2019",
+      "result": "status=passed，环境status=gpu_ready",
+      "evidence": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\reproduction_v1\\m1\\run_20261007_103754_post_install\\main_check_post_install.json"
+    },
+    {
+      "purpose": "正式GPU验收",
+      "command": "work/environments/jeon_gpu_cu121/Scripts/python.exe -B D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main_g3_gpu.py",
+      "cwd": "D:\\PyCharmProjects\\Jeon2019\\work",
+      "result": "gpu_validation_passed=true",
+      "evidence": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\g3_gpu\\run_20261007_103806\\metrics\\validation.json"
+    },
+    {
+      "purpose": "独立审核（适配层，写入新M1目录）",
+      "command": "work/environments/jeon_gpu_cu121/Scripts/python.exe -B outputs/执行_M1_GPU环境_20261007/audit_gpu_m1.py --run results/g3_gpu/run_20261007_103806",
+      "cwd": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+      "result": "passed=true",
+      "evidence": "D:\\PyCharmProjects\\Jeon2019\\outputs\\执行_M1_GPU环境_20261007\\independent_audit.json"
+    },
+    {
+      "purpose": "续传器与空间核算测试",
+      "command": "python -B -m unittest discover -s tests -p test_m1_resume.py",
+      "cwd": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\reproduction_v1",
+      "result": "16项通过",
+      "evidence": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\reproduction_v1\\m1\\resume_tests.txt"
+    }
+  ],
+  "frozen_inputs": {
+    "audit_gpu_py_sha256": {
+      "recorded": "21b9a89f34bb14ac270f8cc4b9c89e3c2fd47f4e046eb18623a0a1d1ccdeab86",
+      "recomputed": "21b9a89f34bb14ac270f8cc4b9c89e3c2fd47f4e046eb18623a0a1d1ccdeab86",
+      "unchanged": true
+    },
+    "cpu_preflight_json_sha256": {
+      "recorded": "85208af5b2161c0fb86c1473e62fe114a207091f173c260ddeb0ff20563ac551",
+      "recomputed": "85208af5b2161c0fb86c1473e62fe114a207091f173c260ddeb0ff20563ac551",
+      "unchanged": true
+    },
+    "cpu_environment_before_sha256": {
+      "recorded": "37f94b5c12c2c5bdc1a91cf25820fdcc1f0fb0338900eec7d25921914ae5596c",
+      "recomputed": "37f94b5c12c2c5bdc1a91cf25820fdcc1f0fb0338900eec7d25921914ae5596c",
+      "unchanged": true
+    },
+    "main_g3_gpu_py_sha256": {
+      "recorded": "bfb942ab978dc729fbaa09061a7fff3c203b6c99291929250bc2d7e487dfc72b",
+      "recomputed": "bfb942ab978dc729fbaa09061a7fff3c203b6c99291929250bc2d7e487dfc72b",
+      "unchanged": true
+    },
+    "config_g3_gpu_json_sha256": {
+      "recorded": "e924d0c8d1f06ade213a131cd95145cb88f9116e84157538f612edf7e530c186",
+      "recomputed": "e924d0c8d1f06ade213a131cd95145cb88f9116e84157538f612edf7e530c186",
+      "unchanged": true
+    }
+  },
+  "pre_post_check": {
+    "pre_status": "passed",
+    "post_status": "passed",
+    "pre_protection": {
+      "passed": true,
+      "checked": 15942,
+      "checked_bytes": 20181153673,
+      "read_only": true
+    },
+    "post_protection": {
+      "passed": true,
+      "checked": 15942,
+      "checked_bytes": 20181153673,
+      "read_only": true
+    },
+    "pre_g0": {
+      "passed": true,
+      "checked": 767
+    },
+    "post_g0": {
+      "passed": true,
+      "checked": 767
+    },
+    "cpu_torch_pre": "2.14.1+cpu",
+    "cpu_torch_post": "2.14.1+cpu",
+    "gpu_torch_post": "2.5.1+cu121"
+  },
+  "gpu_run_fingerprints": {
+    "arrays/gpu_checks.npz": "a10565be3e7430365676a61083e28ed890a4f4762fb3fbc674f0ec3e192341cf",
+    "config_effective.json": "3b6ce9723d6f62eec58991aebba727fbcf071ea59c62efe806e32b2eb22cdca9",
+    "figures/cpu_gpu_comparison.png": "788f772a2b1097f4c173fcf63997b66f832fe9ad736e7d13ab81305b4771d4b6",
+    "metrics/validation.json": "21d9ff54979392fa466914091c75d87ff1d5224a206f619abfe79c8b58b9f3be",
+    "source_evidence.json": "0e88f7f2e911abdad70e6a8928cd7645d18ff6c0c9783e60f37a8036ec82fe60",
+    "source_manifest.json": "23b22a61d0c0657ac7a2b62c59345891749d1b8e77dab6180a0d2c4ab25c1a72"
+  },
+  "audit_fingerprints": {
+    "audit_gpu_m1.py": "8ed1aabb6ece381532e529c3e4a562697873512211668878c5836948061dcf55",
+    "audit_run_log.txt": "0a0e8706992abc4e84eea597ba79dcc89a5212e206e7b1ea5cd2ecaa0bc7364d",
+    "audit_run_log_attempt1_encoding_failure.txt": "38c665faa04df37bcdf912e82d67e4664c02e751d465f5f0af5ad2aa5e7bbdd4",
+    "audit_run_log_attempt2_stdout_encoding_failure.txt": "6d8454003c1ca44b6bb4c8aebc7a9ef7f5f4e8a156bb280e47dd0b80be91b43f",
+    "audit_run_log_attempt3.txt": "be44810752e05a29d73ce6187b07dc16e71fee4c58b9e555519bf7322c8dee10",
+    "build_m1_manifests.py": "ee65b155c5d8c7e7d0064f6094f6e696557800cc8d10660a52f1f8a5c1af5e88",
+    "independent_audit.json": "275c298b99bce859958debb169b973b9e7e75a548fb1346053ed9c7d55d93c9f",
+    "independent_audit_attempt1_engine_scope_failure.json": "0342c17945131a4b111d65f5ec6a7faa3bc1de8ef62b75191e7944be105c8676",
+    "independent_audit_attempt2_parser_failure.json": "5ec27dacadb58e4680220961d9ff01173ac4279ff01254d7f87ace5fa3f67b26",
+    "independent_audit_attempt3_g0_decode_mojibake.json": "5e098b9fb55e83a2ec6c51ec71881669c0e1033f9004814089f4356492884bf6",
+    "下载SHA.json": "35e9e66b7c13a7b2e83b368cd6849a40478738f8e1bfc2a0a8aac93b4da53d32",
+    "最终审核.json": "ab32be4c957b4419ca8af7392d35ffce6aec519a11e3ff65de79dd191d596c9b",
+    "最终审核_attempt3_g0_decode_mojibake.json": "e3dcbdac4bab9cac787395ff7dfa0d572e26c92899e0cd705907060c3e76fac6",
+    "环境清单.json": "628445de6f7629498e610bba0fb8340a4d717761f85575c4cde9df768fea5bf6",
+    "续传清单.json": "928b803d367319e726aee7fdc706de4181e650fd75a1bea11fb4bbb44cda9203"
+  },
+  "code_fingerprints": {
+    "outputs\\jeon2019_optics\\reproduction_v1\\m1_check.py": "7b2c5bed3b2ec00ad8e16ec19db3001b3b7dda6600f71463ae0f54c8020c3e25",
+    "outputs\\jeon2019_optics\\reproduction_v1\\m1_download.py": "25f924cb22b75db4480a89c51cad96ea0fc3d670997492685e0406529604a879",
+    "outputs\\jeon2019_optics\\reproduction_v1\\m1_environment.py": "0586ff38e7176bdcecd46afa4bbf43cad33333f527feb6e69c99c2be6e98e50f",
+    "outputs\\jeon2019_optics\\reproduction_v1\\m1_fixture_server.py": "63bb5e8e3bef356ee5a80e851485cb7b64db53d4b9b638ec5223d07b0f58eb72",
+    "outputs\\jeon2019_optics\\reproduction_v1\\m1_resume.py": "8d977706d749916928993527171486896881bce58d5e92628d2cf47b871a09cd",
+    "outputs\\jeon2019_optics\\reproduction_v1\\main.py": "cb9c91e1fb9a12553475754c9c1ccaeb63ad424bc13e9a4a5835297572433d53",
+    "outputs\\jeon2019_optics\\reproduction_v1\\tests\\m1_frozen_audit_sha.json": "3d44ccdab3ab25c204fefb75ca549c9166684934f42e5bbcdc57a29d5cd4a36f",
+    "outputs\\jeon2019_optics\\reproduction_v1\\tests\\m1_resume_cli_fixture.py": "b59b73b7c5a5c8d53eda4aed89fb7c22df3371925f283193f056c95d1ebc3295",
+    "outputs\\jeon2019_optics\\reproduction_v1\\tests\\test_m1_audit.py": "8930ed5f1bf3533fa28e39aeec444d02fb45efee2ec13892c2a291fb3e9951ef",
+    "outputs\\jeon2019_optics\\reproduction_v1\\tests\\test_m1_resume.py": "0585f36063904db628c51e3fc80b6ae95dc1645efa0ae0d82b738af30274e5a5",
+    "outputs\\执行_M1_GPU环境_20261007\\audit_gpu_m1.py": "8ed1aabb6ece381532e529c3e4a562697873512211668878c5836948061dcf55"
+  },
+  "key_numbers": {
+    "optical_fp64_threshold": 1e-10,
+    "optical_fp64_max": 5.043957083998871e-16,
+    "prediction_fp32_threshold": 1e-05,
+    "prediction_fp32_max": 5.347286106872278e-07,
+    "stage_fp32_threshold": 1e-05,
+    "stage_fp32_max": 8.522681673504887e-07,
+    "gradient_fp32_threshold": 0.0001,
+    "gradient_fp32": 3.1476099982866705e-06,
+    "adam_parameter_threshold": 1e-05,
+    "adam_parameter_fp32": 1.8052314512781213e-09,
+    "independent_equation21_threshold": 1e-05,
+    "independent_equation21_max": 7.666523158379051e-08,
+    "summary_metric_max_error": 0.0
+  },
+  "failures_kept": [
+    "audit_run_log_attempt1_encoding_failure.txt",
+    "audit_run_log_attempt2_stdout_encoding_failure.txt",
+    "audit_run_log_attempt3.txt",
+    "independent_audit_attempt1_engine_scope_failure.json",
+    "independent_audit_attempt2_parser_failure.json",
+    "independent_audit_attempt3_g0_decode_mojibake.json",
+    "最终审核_attempt3_g0_decode_mojibake.json"
+  ],
+  "paper_alignment_passed": false
+}

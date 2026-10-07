@@ -1,0 +1,204 @@
+{
+  "schema": "jeon2019-m1-environment-v1",
+  "milestone": "M1",
+  "checked_at": "2026-10-07T11:00:52+0800",
+  "host": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "machine": "AMD64",
+    "python_operator": "3.10.4"
+  },
+  "gpu": {
+    "query": {
+      "command": [
+        "nvidia-smi",
+        "--query-gpu=name,driver_version,memory.total,compute_cap",
+        "--format=csv,noheader,nounits"
+      ],
+      "returncode": 0,
+      "stdout": "NVIDIA GeForce RTX 4060 Laptop GPU, 537.53, 8188, 8.9",
+      "stderr": ""
+    },
+    "devices": [
+      {
+        "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "driver_version": "537.53",
+        "memory_total_mib": "8188",
+        "compute_capability": "8.9"
+      }
+    ],
+    "driver_cuda_banner": "| NVIDIA-SMI 537.53                 Driver Version: 537.53       CUDA Version: 12.2     |",
+    "available": true
+  },
+  "frozen_execution": {
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "torch": "2.5.1+cu121",
+    "sympy": "1.13.1",
+    "gpu_environment": "work/environments/jeon_gpu_cu121",
+    "train_dtype": "float32",
+    "operator_audit_dtype": "float64",
+    "amp": false,
+    "tf32": false,
+    "max_hours_per_work_package": 8,
+    "peak_gpu_memory_gib": 7,
+    "delete_without_explicit_permission": false,
+    "checkpoint_on_budget_stop": true
+  },
+  "new_gpu_environment": {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\work\\environments\\jeon_gpu_cu121",
+    "base_interpreter": "D:\\dev\\python\\python3.10.4\\python.exe",
+    "base_python": "3.10.4",
+    "pyvenv_cfg": {
+      "home": "D:\\dev\\python\\python3.10.4",
+      "include-system-site-packages": "true",
+      "version": "3.10.4"
+    },
+    "torch_version": "2.5.1+cu121",
+    "cuda_runtime": "12.1",
+    "torch_file": "D:\\PyCharmProjects\\Jeon2019\\work\\environments\\jeon_gpu_cu121\\lib\\site-packages\\torch\\__init__.py",
+    "cuda_available": true,
+    "device_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "site_packages_bytes": 4595006265,
+    "installed_from_verified_wheels": {
+      "torch_sha256": "9b22d6d98aa56f9317902dec0e066814a6edba1aada90110ceea2bb0678df22f",
+      "sympy_sha256": "db36cdc64bf61b9b24578b6f7bab1ecdd2452cf008f34faa33776680c26d66f8"
+    },
+    "install_command": [
+      "D:\\PyCharmProjects\\Jeon2019\\work\\environments\\jeon_gpu_cu121\\Scripts\\python.exe",
+      "-B",
+      "-m",
+      "pip",
+      "install",
+      "--ignore-installed",
+      "--no-deps",
+      "--no-index",
+      "--no-cache-dir",
+      "--no-compile",
+      "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\torch-2.5.1+cu121-cp310-cp310-win_amd64.whl",
+      "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\sympy-1.13.1-py3-none-any.whl"
+    ],
+    "install_returncode": 0
+  },
+  "original_cpu_environment": {
+    "path": "D:\\dev\\python\\python3.10.4\\python.exe",
+    "torch_version": "2.14.1+cpu",
+    "cuda_available": false,
+    "torch_file": "D:\\dev\\python\\python3.10.4\\lib\\site-packages\\torch\\__init__.py",
+    "versions": {
+      "torch": "2.14.1",
+      "sympy": "1.14.0",
+      "numpy": "2.2.6",
+      "scipy": "1.15.3",
+      "matplotlib": "3.10.9"
+    },
+    "note": "原CPU环境全程未安装、未替换依赖；新Torch/SymPy只装在新虚拟环境"
+  },
+  "environment_inheritance": {
+    "base_site_packages": [
+      "D:\\dev\\python\\python3.10.4\\lib\\site-packages",
+      "D:\\dev\\python\\python3.10.4\\Lib\\site-packages"
+    ],
+    "inherit_flag": true,
+    "note": "原科学计算包由pyvenv.cfg继承，不在新环境重复安装"
+  },
+  "version_difference": {
+    "cpu_torch": "2.14.1+cpu",
+    "gpu_torch": "2.5.1+cu121",
+    "recorded_honestly": true,
+    "thresholds_relaxed": false
+  },
+  "space": {
+    "pre_install": {
+      "project_root": "D:\\PyCharmProjects\\Jeon2019",
+      "free_on_project_drive": 105483579392.0,
+      "temp_dir": "C:\\Users\\李咏晨\\AppData\\Local\\Temp",
+      "free_on_temp_drive": 346906304512,
+      "budget": {
+        "passed": true,
+        "components": {
+          "remaining_download": 1111422569.0,
+          "assembled_copy": 2449372784.0,
+          "install_estimate": 3918996454.0,
+          "audit_reserve": 536870912.0
+        },
+        "peak_bytes": 8016662719.0,
+        "safety_margin_bytes": 400833135.95000005,
+        "required_bytes": 8417495854.95,
+        "free_bytes": 105483579392.0,
+        "headroom_bytes": 97066083537.05,
+        "shortfall_bytes": 0.0,
+        "stop_reason": null
+      },
+      "note": "数据留在D盘；TEMP在C盘，pip不得使用缓存/构建隔离，只读取D盘已核验轮子"
+    },
+    "post_install": {
+      "project_root": "D:\\PyCharmProjects\\Jeon2019",
+      "free_on_project_drive": 97689567232.0,
+      "temp_dir": "C:\\Users\\李咏晨\\AppData\\Local\\Temp",
+      "free_on_temp_drive": 346794110976,
+      "budget": {
+        "passed": true,
+        "components": {
+          "remaining_download": 1111422569.0,
+          "assembled_copy": 2449372784.0,
+          "install_estimate": 3918996454.0,
+          "audit_reserve": 536870912.0
+        },
+        "peak_bytes": 8016662719.0,
+        "safety_margin_bytes": 400833135.95000005,
+        "required_bytes": 8417495854.95,
+        "free_bytes": 97689567232.0,
+        "headroom_bytes": 89272071377.05,
+        "shortfall_bytes": 0.0,
+        "stop_reason": null
+      },
+      "note": "数据留在D盘；TEMP在C盘，pip不得使用缓存/构建隔离，只读取D盘已核验轮子"
+    }
+  },
+  "cuda_selfcheck": {
+    "checked_at": "2026-10-07T11:00:20+0800",
+    "kind": "m1_cuda_selfcheck",
+    "executable": "D:\\PyCharmProjects\\Jeon2019\\work\\environments\\jeon_gpu_cu121\\Scripts\\python.exe",
+    "python": "3.10.4",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "cwd": "D:\\PyCharmProjects\\Jeon2019",
+    "torch_version": "2.5.1+cu121",
+    "torch_file": "D:\\PyCharmProjects\\Jeon2019\\work\\environments\\jeon_gpu_cu121\\lib\\site-packages\\torch\\__init__.py",
+    "cuda_runtime": "12.1",
+    "cudnn_version": 90100,
+    "cuda_available": true,
+    "device_count": 1,
+    "arch_list": [
+      "sm_50",
+      "sm_60",
+      "sm_61",
+      "sm_70",
+      "sm_75",
+      "sm_80",
+      "sm_86",
+      "sm_90"
+    ],
+    "tf32_matmul_default_allowed": false,
+    "tf32_cudnn_default_allowed": true,
+    "device_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "capability": [
+      8,
+      9
+    ],
+    "total_memory_mib": 8188,
+    "fp64_matmul_relative_error": 7.609441444769919e-16,
+    "fp32_finite": true,
+    "fp64_matmul_relative_error_tf32_off": 7.609441444769919e-16,
+    "cuda_peak_allocated_bytes": 55574528,
+    "cuda_peak_reserved_bytes": 58720256
+  },
+  "peak_memory": {
+    "cuda_peak_allocated_bytes": 474520064,
+    "cuda_peak_reserved_bytes": 492830720,
+    "cuda_peak_allocated_gib": 0.442,
+    "protocol_peak_gpu_memory_gib": 7,
+    "within_protocol_budget": true
+  },
+  "disk_after": {
+    "d_free_bytes": 97567305728
+  }
+}

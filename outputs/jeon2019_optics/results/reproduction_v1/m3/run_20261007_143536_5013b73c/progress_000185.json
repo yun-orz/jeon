@@ -1,0 +1,1075 @@
+{
+  "milestone": "M3",
+  "status": "dependency_pending",
+  "commands": [
+    [
+      "D:\\dev\\python\\python3.10.4\\python.exe",
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\reproduction_v1\\main.py",
+      "data",
+      "--config",
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\reproduction_v1\\config_m3_icvl_groups_20261007.json",
+      "--phase",
+      "all"
+    ]
+  ],
+  "effective_config": {
+    "config": {
+      "schema": "jeon2019-m3-config-v1",
+      "data_version": "m3_20261007_grouped_v2",
+      "data_dir": "work/datasets/reproduction_v1/m3_20261007_v1",
+      "source_review": "work/datasets/reproduction_v1/source_review/run_20261007_initial",
+      "m2_run": "outputs/jeon2019_optics/results/reproduction_v1/m2/run_20261007_104321_03d47940",
+      "parent_bridge": "work/datasets/reproduction_v1/parent_m2_20261007_verified/bridge.json",
+      "protocol": "outputs/jeon2019_optics/reproduction_v1/m3_protocol_icvl_groups_20261007.json",
+      "local_icvl_dir": "H:/我的云端硬盘/Jeon2019_data/reproduction_v1/icvl/mat",
+      "icvl_provenance": {
+        "source": "work/datasets/reproduction_v1/icvl_acquisition/icvl_source.json",
+        "manifest": "work/datasets/reproduction_v1/icvl_acquisition/icvl_file_manifest.json",
+        "tree": "work/datasets/reproduction_v1/icvl_acquisition/remote_tree_pinned.json"
+      },
+      "acquisition_mode": "existing",
+      "budget_seconds": 28800,
+      "cache_max_bytes": 67108864
+    },
+    "protocol": {
+      "schema": "jeon2019-m3-preregistered-v2",
+      "seed": 20261006,
+      "legacy_policy": "历史img3/img4/img5及其关联组明确排除正式训练、验证和新测试",
+      "normalization": "Harvard/ICVL各用全部有效训练像元与25谱带的共同RMS；FP64分块累加；不逐图/逐谱带拟合、不裁剪",
+      "kaist": "保留原始反射率，不拟合尺度；作为相对信号前向是平坦照明谱代理的实施假设，不称绝对辐亮度",
+      "gain": "每训练场景选择索引哈希最小的一条256×256样本；两器件、三通道、全部有效像元等权RGB RMS；共同增益=0.25/RMS",
+      "gain_target_rms": 0.25,
+      "valid_mask": "所选25波段全部有限非负；Harvard额外要求lbl非零且有限；2×2面积平均的全部原像元有效；训练patch全部有效",
+      "grouping": "源场景ID、ICVL地点/日期捕获前缀、原始SHA及固定整图24×24×25曝光不变重复描述；近重复余弦阈值0.9999；跨库关联组保守排除；ICVL Master数字K及组合色温文件按同采集照明族保守同组，不含Master日期_colorchecker文件",
+      "base_scale": 0.5,
+      "base_resize": "2×2等面积平均，保持像元中心关系，奇数末行/列丢弃并登记",
+      "augmentation": "0.5等面积平均、1原值、2像元中心对齐双线性；仅在线处理局部块",
+      "patch_size": 256,
+      "patch_count": 30000,
+      "cache_max_bytes": 67108864,
+      "test_policy": "M7前只核对原始文件、通道、完整性和重复元数据；测试半尺寸预处理推迟M7，不生成测试patch、预测、成绩或选择ROI",
+      "cross_dataset_calibration": "实施假设，不是绝对辐射标定；谱带因子10nm只由M2能量算子计一次",
+      "grouping_revision_reason": "仅用文件命名与允许的固定整图重复元数据，识别Master2900k/5000K/组合照明谱变体；其整谱余弦0.973–0.992低于原0.9999阈值，增加明确采集族，禁止跨训练/验证。变更发生于划分、预处理及尺度/增益拟合前。"
+    },
+    "phase": "all"
+  },
+  "input_fingerprints": {
+    "outputs/jeon2019_optics/reproduction_v1/m3_acquire.py": "ea307b3adefeb408338d9ebb0273f9dc27a7b676be6884afcf105e304892c48b",
+    "outputs/jeon2019_optics/reproduction_v1/m3_common.py": "351ecdbd86da1dce21ed4ddb59b570f0e4bd915320d96d280ca8f97377dac9e5",
+    "outputs/jeon2019_optics/reproduction_v1/m3_discover.py": "889f779158ef09e82d3396392491d9995cbade75626b149f1e2f378130b88ab5",
+    "outputs/jeon2019_optics/reproduction_v1/m3_download.py": "02a3e8d0db99dc6e8a798b73d8fbccb2dc646c8a9436281196be2fee79d6083c",
+    "outputs/jeon2019_optics/reproduction_v1/m3_icvl_provenance.py": "275c4bc320b5349bbe4ec6ceb4b74bc0a3a7df58876f2c89aadb1090f38906ec",
+    "outputs/jeon2019_optics/reproduction_v1/m3_index.py": "3904ff88bc5da7adaf9fd83db12ca5329080bb148d02f53e154bd59e33d56974",
+    "outputs/jeon2019_optics/reproduction_v1/m3_pipeline.py": "9e4c488b11499cc7fb53157f9237971b417cec972027e3ad9baa2192963d13d2",
+    "outputs/jeon2019_optics/reproduction_v1/m3_readers.py": "b41f90b8e0493457ce8c4bf719470f159565c330e920f201684e37a176f9f36b",
+    "outputs/jeon2019_optics/reproduction_v1/m3_validate.py": "e707f8a8600c231bb512961e9fb1921d6f04a507cf921eb722a2615421234dfe",
+    "outputs/jeon2019_optics/reproduction_v1/main.py": "d6dd03b82120e37f93db2aec686bb91ce11789255ecc674dc7a5c961955c1b11",
+    "outputs/jeon2019_optics/reproduction_v1/config_m3_icvl_groups_20261007.json": "2ffa470c3c42bcda971381ede032486abc0f706b88bf89a83b42a1560961fee1",
+    "outputs/jeon2019_optics/reproduction_v1/m3_protocol_icvl_groups_20261007.json": "e6163fd5d855fc1d0db493134be755e180a6f8a3f080c0a46721116397f93f4e",
+    "work/datasets/reproduction_v1/parent_m2_20261007_verified/bridge.json": "2a130f0e346909a1faecf3405c5a7872e46212326edb247e76ae3c5e0e89f74c",
+    "outputs/jeon2019_optics/reproduction_v1/contracts.json": "71cc15e5a2c98421d9aa3409e1340eb09ba8781f0ee72eb7675884f17c1b3a8a",
+    "work/datasets/reproduction_v1/icvl_acquisition/icvl_source.json": "15b4109f09adee9a820f5eeeb4dc16dcfa46e47c8dc274256e5c7c94496aea4b",
+    "work/datasets/reproduction_v1/icvl_acquisition/icvl_file_manifest.json": "fb73f32e96253f18a586da42a09729c8ba63236ad0fdb48c63cb013320c72c36",
+    "work/datasets/reproduction_v1/icvl_acquisition/remote_tree_pinned.json": "23510eea14947b48555f2952f30e2a1d317caa7c0909d32b70fa8d8827baa607"
+  },
+  "output_fingerprints": {},
+  "key_numbers": {},
+  "failures": [],
+  "acceptance": {
+    "all_passed": false
+  },
+  "resume_command": [
+    "D:\\dev\\python\\python3.10.4\\python.exe",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\reproduction_v1\\main.py",
+    "data",
+    "--config",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\reproduction_v1\\config_m3_icvl_groups_20261007.json",
+    "--phase",
+    "all",
+    "--resume",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\reproduction_v1\\m3\\run_20261007_143536_5013b73c"
+  ],
+  "next_inputs": [
+    "全部验收通过后M4；目前不允许进入M4"
+  ],
+  "paper_alignment_passed": false,
+  "run_dir": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\reproduction_v1\\m3\\run_20261007_143536_5013b73c",
+  "scene_progress": [
+    {
+      "scene_id": "harvard:CZ_hsdb:img1",
+      "metadata": "passed",
+      "raw_sha256": "d8024825029635f9f23f9e9db7856a38a556aefc983e5040391622b5149b97a7"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:img2",
+      "metadata": "passed",
+      "raw_sha256": "f0ab34998a6bbccc2dd9e83b4c6985b10ebbc98372991a82f4c7dca4b7b28c02"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imga1",
+      "metadata": "passed",
+      "raw_sha256": "8ad0e5f9ed1e70667c4dfc0f6c46cc3f5a36fe0de933d4c972efc73b9e882951"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imga2",
+      "metadata": "passed",
+      "raw_sha256": "880b98e1d0a3d43d62cd2bf9fcc685f9fc924f58a164ffe7427e54e27f5ca763"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imga5",
+      "metadata": "passed",
+      "raw_sha256": "15f81e10bfca944eb910d56024a5844aabef08e2253568e2d2c8a4ef9d32655c"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imga6",
+      "metadata": "passed",
+      "raw_sha256": "01f9c39b7f287660fba374972f79c1ef2721cb5887c36c5ec5bd74caeefb6582"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imga7",
+      "metadata": "passed",
+      "raw_sha256": "5aa174acce6d787a9ab64c095bd21884e235fa845f16d105def4ab3d2083e31a"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgb0",
+      "metadata": "passed",
+      "raw_sha256": "d01a9ca3a9aa01a1f37e6970eae52d3af8754678f5cb2921b74451ada0eea499"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgb1",
+      "metadata": "passed",
+      "raw_sha256": "68fbcc520010925c39af659511ecfb75cb21ca9a8a60e42008fdcc4473d1ce8e"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgb2",
+      "metadata": "passed",
+      "raw_sha256": "cfb85fcca91e5e2a9bbe0341196a766f0d4dd8e267809a93c9b9e4b66b9abbe3"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgb3",
+      "metadata": "passed",
+      "raw_sha256": "c86fb81f247bd61ead55d619d07498b69e71dd043849e32e68c8b8e481590b93"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgb4",
+      "metadata": "passed",
+      "raw_sha256": "dfc7cb69ea8961ddf582958d2e283b0093eb0c464fc5dcfb36731855cfa0dcc0"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgb5",
+      "metadata": "passed",
+      "raw_sha256": "f4d91ebf281bafda8f29f4f08ec4a156551b0c561fd8a4f7227d750e2386f336"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgb6",
+      "metadata": "passed",
+      "raw_sha256": "b8d6a2c4962e71dcf9c6b8a7827da377f08698eca39ff99e0bafd4c410550872"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgb7",
+      "metadata": "passed",
+      "raw_sha256": "f640766de566cab3a26511c46c4fe777c9696475c475957d4a3e92c3092358d4"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgb8",
+      "metadata": "passed",
+      "raw_sha256": "7714d2a792f8f0a7e8f53463a52f7bed73afafd15082c3a7c35f79349a587a16"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgb9",
+      "metadata": "passed",
+      "raw_sha256": "13ae21c99aa137c80f1eb0910f7c8dd486e8fc9c74e6ac8b8284cef46b470007"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgc1",
+      "metadata": "passed",
+      "raw_sha256": "6f05318389f2c07a0b6f50cadd4482ee6d91c16a2e59af9399dfd98aac79c331"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgc2",
+      "metadata": "passed",
+      "raw_sha256": "e8778ed30dfd414f1dbdf16fa797b4d4ae6ba42765c5aea13d2b5a6cfcaf03c1"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgc4",
+      "metadata": "passed",
+      "raw_sha256": "51a40c93c9bafe43015fad6259069bba84047309fc447e2269bea24ddf043fe9"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgc5",
+      "metadata": "passed",
+      "raw_sha256": "b7192de76421fc16f846d4b0f84a8b2e79fcb8c6fedfb80fa189d5ad34b8b57f"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgc7",
+      "metadata": "passed",
+      "raw_sha256": "be64889b45dd231156461488a9761ea99238d445db82a8d9a7c540628ee25159"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgc8",
+      "metadata": "passed",
+      "raw_sha256": "d3593f2982a9ea9f6351b06b407cbce142795da3984dcc5722c56ca03a70854d"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgc9",
+      "metadata": "passed",
+      "raw_sha256": "bbcf86d47656e6da77e17e0a89f1b015c861cd0c107ac7477b8e4a6e5c05e972"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgd2",
+      "metadata": "passed",
+      "raw_sha256": "0cb1f7ff9dc6f76ff51eb874b369dc72e8719f111b2dd2e2c80c196d017b0a2a"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgd3",
+      "metadata": "passed",
+      "raw_sha256": "62bdc89f05e71ab130ad94e714c64d7d3b5285da9f39382d1af97dd694debaaf"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgd4",
+      "metadata": "passed",
+      "raw_sha256": "2765a0f81fe790654a5f470dd5abc6f970f30a02641b057af7af593b4d64f45a"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgd7",
+      "metadata": "passed",
+      "raw_sha256": "dcb89a25f3c83f5ce8a615e81323ce66fe6dcf7757188124d7933d35c14799dc"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgd8",
+      "metadata": "passed",
+      "raw_sha256": "72511e45961ebb2050219a1be3be5ed00dbf05b237379eab0f462999cb9c92d5"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgd9",
+      "metadata": "passed",
+      "raw_sha256": "a85a5687cb6112fd3fa58430ebde076ebe0e9437713eb4b263d6668bdf38c0e9"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imge0",
+      "metadata": "passed",
+      "raw_sha256": "a7cf1f121692f3f050c84fb95e7941678ed2302c0617315e6560271ba33041bc"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imge1",
+      "metadata": "passed",
+      "raw_sha256": "3a6a4efba10dde4d26ac2c285aab17f1eb4c9211c7d4f403c33e2a8ce0d30751"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imge2",
+      "metadata": "passed",
+      "raw_sha256": "a5a324415c6eb5bdcafc7832e4d64775c4ba9bb26d32279386dd93585a1051f2"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imge3",
+      "metadata": "passed",
+      "raw_sha256": "6a70d9dfef27f9c451bc6b31ec16b57997d0a81f270599bfc85bda8e8a33ecff"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imge4",
+      "metadata": "passed",
+      "raw_sha256": "5f5ccb55b445be8d8ff3352ded1d9c1eeb0fec72d210186696e3912ba4d5bdaf"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imge5",
+      "metadata": "passed",
+      "raw_sha256": "d86d9f0d1ffff49955a2a08311bf0efbf7c93d7d40a6ee90d9919f38d3592c9f"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imge6",
+      "metadata": "passed",
+      "raw_sha256": "8dbd1d268b2d657f1b4ca3b1744563f82f931d84c639ed08c2c3ef93ba171340"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imge7",
+      "metadata": "passed",
+      "raw_sha256": "3488670e4fed55d3f9dd1f5a9e3a6ba945d07a8ae998889b0a61ca8b68ca0774"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgf1",
+      "metadata": "passed",
+      "raw_sha256": "a0bf62cfab72858088352e2876fbdbbe219c7936acdcef29c8d8b3df6c7818db"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgf2",
+      "metadata": "passed",
+      "raw_sha256": "21c4089fd5d983d685fd803f689225d5a782b31248f3a82af7ed25d463eee173"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgf3",
+      "metadata": "passed",
+      "raw_sha256": "9b96d72978bcf5e67fd3ad0083b41a53e6c7db2dcc89fef8fd37761707f52621"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgf4",
+      "metadata": "passed",
+      "raw_sha256": "0cfd8ab699d60718afe1701ad1a410bce42b5874b97a9ea1e25a06e3fdb9e659"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgf5",
+      "metadata": "passed",
+      "raw_sha256": "c31936c71b4ef3d593fb8e925136dd773717168d893343291f036e4f27520e78"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgf6",
+      "metadata": "passed",
+      "raw_sha256": "fd7a77164cca7d83aebb9cd0494a1fbc29f4e82da29ca53f2ed8f6c175454abb"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgf7",
+      "metadata": "passed",
+      "raw_sha256": "22d6480686864698a76f7f7e8e3237840bb2776e4f84210ddc7166a719a4740f"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgf8",
+      "metadata": "passed",
+      "raw_sha256": "381b916851d3f6a9631be3ae4fd4f48b72193196a75ea6b3e9752bf12898f7f4"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgh0",
+      "metadata": "passed",
+      "raw_sha256": "5f11da38ade036791bd17ffad5253b542675528acd10f1b504b2d8c6ad0b5c7d"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgh1",
+      "metadata": "passed",
+      "raw_sha256": "0536d8d798b8f4e756e666883150d372ee119384b594ffb0ef441c1a3588152c"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgh2",
+      "metadata": "passed",
+      "raw_sha256": "f3f6f43596e406f9103d1514b28ddaa020305913e2de108efb61eff3b970de95"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imgh3",
+      "metadata": "passed",
+      "raw_sha256": "b60b55d4bd6b73fa12c72e90f444a498b711366b37ffe22603ed020389bd5e86"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdbi:img3",
+      "metadata": "passed",
+      "raw_sha256": "d1d59fb149bbf127a354ef8893d801eeb06f21266c7d8af8b34b213609a863b6"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdbi:img4",
+      "metadata": "passed",
+      "raw_sha256": "4f9e10f7873c6d1c06fb66a24edb05b052392e92d3190cc2f7254a0dcd107f3d"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdbi:img5",
+      "metadata": "passed",
+      "raw_sha256": "280c639ba8987960922d7f0cf6575e742318c07127d5d9d3aabdeecf3ea93394"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdbi:img6",
+      "metadata": "passed",
+      "raw_sha256": "d26be63b367e70a92f9b27bd67b10c3af945e13cd84f1f0e5a5eab6ec19658c9"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdbi:imga3",
+      "metadata": "passed",
+      "raw_sha256": "2eb3492af8dd6e810b4b0f0493fd8e9224b9b5b8ed55a502f2e4db124888c8f2"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdbi:imga4",
+      "metadata": "passed",
+      "raw_sha256": "ac7f70ac97a1b00a4322ce5b07182c479194d9a512ef7da74670e6eb5e8b19f1"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdbi:imga8",
+      "metadata": "passed",
+      "raw_sha256": "72819d80f7e72e330eef9f5d41697c81a75f2c09fe491620cbb1f76ca05d2c03"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdbi:imgc3",
+      "metadata": "passed",
+      "raw_sha256": "bba485faf480c8063d097df16f26b5f0eea2e0b88aa29aebdf4ccf78ad45a90e"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdbi:imgc6",
+      "metadata": "passed",
+      "raw_sha256": "ab2356f04fa8f1d0c802a94807ea2edcd728ca459a547c3e18bffb37fe2fcd77"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdbi:imgd0",
+      "metadata": "passed",
+      "raw_sha256": "433b307dd9debfb3d0e4114742303ac2284fe6e2e3e9923d4fdbcf4d82aed9bc"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdbi:imgd1",
+      "metadata": "passed",
+      "raw_sha256": "545207bacf232faa7625a8c2ae31ba0a17241344548214fc217b2445db3835c0"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdbi:imgd5",
+      "metadata": "passed",
+      "raw_sha256": "e1f7f64d2cfa9353f58c71797e2be029c3416c7c6154f11d8a8bbc150886d2b6"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdbi:imgd6",
+      "metadata": "passed",
+      "raw_sha256": "ff51d53ff7cfd11fe2f602da773445a984a4ac68f0afdd0cc05fd99df9514e77"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdbi:imgg0",
+      "metadata": "passed",
+      "raw_sha256": "0c2a445687527c856b27b28ddf3fa20c623b5f6dc492415c08edd8e7d7cd97c2"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdbi:imgg1",
+      "metadata": "passed",
+      "raw_sha256": "86e985835b4ab2c450d205fe2888edc57a65b9d33c54818bc8a1e701879c8032"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdbi:imgg2",
+      "metadata": "passed",
+      "raw_sha256": "32992627c15504ad53e32b44050f670f6845d0897b3ef02d22e73feebe732277"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdbi:imgg3",
+      "metadata": "passed",
+      "raw_sha256": "c00e5de10feb1f0507536b6099bac055f9f8576ef8b8902e1f50ac6452ac2079"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdbi:imgg4",
+      "metadata": "passed",
+      "raw_sha256": "a59559666f633ba0545ffeb5c671bc4c3f2402f543bc4f871092ef0094a34509"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdbi:imgg5",
+      "metadata": "passed",
+      "raw_sha256": "152f27f3904422b05203f6e2b2be25f059da3ec02ec127637e27a8d042b3eea3"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdbi:imgg6",
+      "metadata": "passed",
+      "raw_sha256": "3e511b5b36ca869347343eecb9266a2607156f986a5aa502647bcfc467f35092"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdbi:imgg7",
+      "metadata": "passed",
+      "raw_sha256": "ed7d96d8e2a2835284e791b63493afc0c65e0c80a55a49dabe2a63b869a2c310"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdbi:imgg8",
+      "metadata": "passed",
+      "raw_sha256": "a0a6b96c82212e7ac58b383d954c245945d8189d6de00af2d521da35e57da6c0"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdbi:imgg9",
+      "metadata": "passed",
+      "raw_sha256": "9159081b7f226d200b9f054d9ee8ad762fc1a89a8f709dd0b34c7319f3f68033"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdbi:imgh4",
+      "metadata": "passed",
+      "raw_sha256": "2e44c4b8126740c7935f5e2a30a17ae77573940717b3199eaf2b1ed93bfa3756"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdbi:imgh5",
+      "metadata": "passed",
+      "raw_sha256": "8cb36bc10a1f5071ce73debc5839693b2146ec7ab5691716c657b504aa949596"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdbi:imgh6",
+      "metadata": "passed",
+      "raw_sha256": "30b931794bcf1f9ca9545d6a77e12fb20b84c65190f3397241e2b196baef22e6"
+    },
+    {
+      "scene_id": "harvard:CZ_hsdbi:imgh7",
+      "metadata": "passed",
+      "raw_sha256": "ddb1a21a4f3434fa25d88dbd8def8718e5b39c59a40b7b10d1da6c88fa46683d"
+    },
+    {
+      "scene_id": "kaist:scene01_reflectance",
+      "metadata": "passed",
+      "raw_sha256": "a20457f2bd8965ebe48250fd7bae6b26dea120adf2746c70492c5a7e70e4b37f"
+    },
+    {
+      "scene_id": "kaist:scene02_reflectance",
+      "metadata": "passed",
+      "raw_sha256": "74a4ab4fdbcb9d7f0690265dacc8ce964179df725ae065a869bf6fb9398e9c5a"
+    },
+    {
+      "scene_id": "kaist:scene03_reflectance",
+      "metadata": "passed",
+      "raw_sha256": "e2f2b3e7a6185ba48f4b9ea043b4695852c6e28ec5fe8c6de9e95cc256750267"
+    },
+    {
+      "scene_id": "kaist:scene04_reflectance",
+      "metadata": "passed",
+      "raw_sha256": "14f54daa1402c0ef21901d5e4f9afdae763669e66b10b0ae5f3549b83acf0f26"
+    },
+    {
+      "scene_id": "kaist:scene05_reflectance",
+      "metadata": "passed",
+      "raw_sha256": "f9747dff4b8c71802f6cdf65398caef8c015cae9c6b55d0e5c5a223c025345b3"
+    },
+    {
+      "scene_id": "kaist:scene06_reflectance",
+      "metadata": "passed",
+      "raw_sha256": "86582d35c30671e1debb2d0e33196c872e3293f36b18610719c252c013c62924"
+    },
+    {
+      "scene_id": "kaist:scene07_reflectance",
+      "metadata": "passed",
+      "raw_sha256": "1993a46132844c12f69836cae2f0cbd082002e5c989531f037271e8595ea49e8"
+    },
+    {
+      "scene_id": "kaist:scene08_reflectance",
+      "metadata": "passed",
+      "raw_sha256": "973b5deb7038b3f0581db7e39d6b445e8b6400702a10d49ba103599fb37f91da"
+    },
+    {
+      "scene_id": "kaist:scene09_reflectance",
+      "metadata": "passed",
+      "raw_sha256": "5e1de04bf7d3087763180d646ad9b099fb674e165f9d31f798b36ee7d8a5ce91"
+    },
+    {
+      "scene_id": "kaist:scene10_reflectance",
+      "metadata": "passed",
+      "raw_sha256": "7fb1c21869da67aa21e2a6dfd81bee5b8ae17c859123943ad8e25a70160cac59"
+    },
+    {
+      "scene_id": "kaist:scene11_reflectance",
+      "metadata": "passed",
+      "raw_sha256": "bbe89e7ec1981f25b1f071f7ef1ae4998f35744cf98548e160c22af7921e9836"
+    },
+    {
+      "scene_id": "kaist:scene12_reflectance",
+      "metadata": "passed",
+      "raw_sha256": "1438edaa5767c9022b6f826874c70235463ed6ec165b8132f006d67da3e5f392"
+    },
+    {
+      "scene_id": "kaist:scene13_reflectance",
+      "metadata": "passed",
+      "raw_sha256": "799c23c41b61b4130e57b3323f85ded327888843a243c2c0985c08f5a68aa7cc"
+    },
+    {
+      "scene_id": "kaist:scene14_reflectance",
+      "metadata": "passed",
+      "raw_sha256": "fea732f573f9e0721408f001172924513322212dbaa897cd709bf57f1789c94a"
+    },
+    {
+      "scene_id": "kaist:scene15_reflectance",
+      "metadata": "passed",
+      "raw_sha256": "5d73774b90e7164fc903728e7426c6149ce7f67aeead5cdc0a82bbc6498cf641"
+    },
+    {
+      "scene_id": "kaist:scene16_reflectance",
+      "metadata": "passed",
+      "raw_sha256": "e4bf8ca8341708701e44246be04d779fa01963b853438e4eaba5f137b5b02812"
+    },
+    {
+      "scene_id": "kaist:scene17_reflectance",
+      "metadata": "passed",
+      "raw_sha256": "3f676b26403803f055cba30921ba3895271e9acff28cad9db84586e5f0913c69"
+    },
+    {
+      "scene_id": "kaist:scene18_reflectance",
+      "metadata": "passed",
+      "raw_sha256": "2e2f96c3a7a12488a6615f38817774e7ad09985daf5fb53f6fff635b6a7fd616"
+    },
+    {
+      "scene_id": "kaist:scene19_reflectance",
+      "metadata": "passed",
+      "raw_sha256": "6bdd483993217b4ffa7faf7edf34953673249314fa961660d0689c3171fb9043"
+    },
+    {
+      "scene_id": "kaist:scene20_reflectance",
+      "metadata": "passed",
+      "raw_sha256": "426d47ac4208e23a2ef7314b4831c0a0b7001064a741c52f598eddaf35e3cbff"
+    },
+    {
+      "scene_id": "kaist:scene21_reflectance",
+      "metadata": "passed",
+      "raw_sha256": "d4b3422154f70424c9f1e97c03631c9f400eaddb676ad6e32c204d03d80afbdd"
+    },
+    {
+      "scene_id": "kaist:scene22_reflectance",
+      "metadata": "passed",
+      "raw_sha256": "26bd0be5c8dcd8ad7825823f64a0f5615f471aa71eec204ff969412dd68ec2bb"
+    },
+    {
+      "scene_id": "kaist:scene23_reflectance",
+      "metadata": "passed",
+      "raw_sha256": "c940f9ac024dd0d25a93341b544399f29085544c29358b629916a41601cb82e0"
+    },
+    {
+      "scene_id": "kaist:scene24_reflectance",
+      "metadata": "passed",
+      "raw_sha256": "a34cb22e5b8b792e23d54ced711e61f018048ac2a425c7adc9e8cda360fb6d53"
+    },
+    {
+      "scene_id": "kaist:scene25_reflectance",
+      "metadata": "passed",
+      "raw_sha256": "0f1bfc01234a61c9977aae3cbc47f7b5681070d4f0509f6b38425199fe6b5c8b"
+    },
+    {
+      "scene_id": "kaist:scene26_reflectance",
+      "metadata": "passed",
+      "raw_sha256": "11eecf347aedb6a51ca6c0424359a755821643575dd140813d282f7bebcc5c2a"
+    },
+    {
+      "scene_id": "kaist:scene27_reflectance",
+      "metadata": "passed",
+      "raw_sha256": "13a5e6d0678a7518be3a5ff649122284350a84437139d4d8bf8a24da29728915"
+    },
+    {
+      "scene_id": "kaist:scene28_reflectance",
+      "metadata": "passed",
+      "raw_sha256": "840cba5bf625f82d914246291f1cf9809fdb9b72a4914951bf4e0fd10fda6873"
+    },
+    {
+      "scene_id": "kaist:scene29_reflectance",
+      "metadata": "passed",
+      "raw_sha256": "a0e055fed5c2b5c3d44aca8b42c58ac63d0adc0bc6a40fa96a9653dfeb398370"
+    },
+    {
+      "scene_id": "kaist:scene30_reflectance",
+      "metadata": "passed",
+      "raw_sha256": "8d6f4cbc07533db668ddacd438c2f05779ab738d25c924b69d2e410734f9810c"
+    },
+    {
+      "scene_id": "icvl:4cam_0411-1640-1",
+      "metadata": "passed",
+      "raw_sha256": "2aec04bcef68188ae0449f5392d41a3fd5e297f71f758d807f63ba1b08d3dfdf"
+    },
+    {
+      "scene_id": "icvl:4cam_0411-1648",
+      "metadata": "passed",
+      "raw_sha256": "f490da75e3226cc6cc85b83e5b4adf7f21ca44e4c949a5214a6b0ea3035b7f38"
+    },
+    {
+      "scene_id": "icvl:BGU_0403-1419-1",
+      "metadata": "passed",
+      "raw_sha256": "9d8ae497eb0bdb38147d4b8981ae639a29292a226da6730ad07ebb9020db6ed5"
+    },
+    {
+      "scene_id": "icvl:bgu_0403-1439",
+      "metadata": "passed",
+      "raw_sha256": "2e9b537a82af632a751a4d326ccf6a327846968a404b47e0f0985ff0d4de3c11"
+    },
+    {
+      "scene_id": "icvl:bgu_0403-1444",
+      "metadata": "passed",
+      "raw_sha256": "f7404ff65ea30250278b47b94a9018b3c07140d75944d2c5122a952cc4f7edd0"
+    },
+    {
+      "scene_id": "icvl:bgu_0403-1459",
+      "metadata": "passed",
+      "raw_sha256": "528cb837b30f1e3dc95aa7f29ad78506bf323fc3678ff8a9b7dfa524512b134c"
+    },
+    {
+      "scene_id": "icvl:bgu_0403-1511",
+      "metadata": "passed",
+      "raw_sha256": "2d52f5aa76b95012e5cb22ab0ff1556c5ec987502dfa20035c172cb763162b0c"
+    },
+    {
+      "scene_id": "icvl:bgu_0403-1523",
+      "metadata": "passed",
+      "raw_sha256": "0a50dfbe1a31ebab379b072eec6f7d307e951ec862e66dc4127f6592380650c3"
+    },
+    {
+      "scene_id": "icvl:bgu_0403-1525",
+      "metadata": "passed",
+      "raw_sha256": "05f2637bc97c3f31b4c0191b01da793f774346364969b81fdf9ffca66b0a5649"
+    },
+    {
+      "scene_id": "icvl:BGU_0522-1113-1",
+      "metadata": "passed",
+      "raw_sha256": "5d28e7be61f191ed87943b85c25122aa140d3d7b4318cef060320326ec768b2a"
+    },
+    {
+      "scene_id": "icvl:BGU_0522-1127",
+      "metadata": "passed",
+      "raw_sha256": "a50182b16dff8df094a3d92d6c0a3345fa5bc238c056804b935bca74906c1a4d"
+    },
+    {
+      "scene_id": "icvl:BGU_0522-1136",
+      "metadata": "passed",
+      "raw_sha256": "05b17155942581e3f1dd87b0081cd7c03a8a977833e097e48e48fd9afa09170e"
+    },
+    {
+      "scene_id": "icvl:BGU_0522-1201",
+      "metadata": "passed",
+      "raw_sha256": "33070f52794e400f846d924faaeb2a327cbdb4b61d7d4a2fe1103ab9cc91d4c4"
+    },
+    {
+      "scene_id": "icvl:BGU_0522-1203",
+      "metadata": "passed",
+      "raw_sha256": "276ac7b686f17df999c983611eb8077733064b618afad8dba15d9fdac9908e7b"
+    },
+    {
+      "scene_id": "icvl:BGU_0522-1211",
+      "metadata": "passed",
+      "raw_sha256": "08de1594eb6bb2a793ebcb21052bb36f4f7b2e8a42740d0fceb8307135fd5372"
+    },
+    {
+      "scene_id": "icvl:BGU_0522-1216",
+      "metadata": "passed",
+      "raw_sha256": "8f317379ad68ffdbe09c0abfaac9f5be2b8bb6e90c8c515e7c9c8a1e66fa3ec1"
+    },
+    {
+      "scene_id": "icvl:BGU_0522-1217",
+      "metadata": "passed",
+      "raw_sha256": "4a56265a13ce70c202096c0d2e384eee4570006372461d7a3123cad9a1c3472d"
+    },
+    {
+      "scene_id": "icvl:bguCAMP_0514-1659",
+      "metadata": "passed",
+      "raw_sha256": "89c8be4d293111871dbec690e49d948abdb95c3d5605d5691760200d13a8ef75"
+    },
+    {
+      "scene_id": "icvl:bguCAMP_0514-1711",
+      "metadata": "passed",
+      "raw_sha256": "4ae93945b9abd19ae80ed40da72f47bfcf56632cf6cb181e6203ca0c36307019"
+    },
+    {
+      "scene_id": "icvl:bguCAMP_0514-1712",
+      "metadata": "passed",
+      "raw_sha256": "9f7878313de842300b2f8d08695986c63070bce99c4b160aa724d302bdc3be6b"
+    },
+    {
+      "scene_id": "icvl:bguCAMP_0514-1718",
+      "metadata": "passed",
+      "raw_sha256": "d406e876826841930638a7e84721529ec607cdaea21d0e9d8a61cb10f1870b32"
+    },
+    {
+      "scene_id": "icvl:bguCAMP_0514-1723",
+      "metadata": "passed",
+      "raw_sha256": "3f166f4a72588410d3273226763430c00b5a690195e28cff5610a70f289b322a"
+    },
+    {
+      "scene_id": "icvl:bguCAMP_0514-1724",
+      "metadata": "passed",
+      "raw_sha256": "1101051d4210476732dd218e0488e01a3778884a3f38e643988a9386eb6e6737"
+    },
+    {
+      "scene_id": "icvl:bulb_0822-0903",
+      "metadata": "passed",
+      "raw_sha256": "d9a5147750ce4339046a73285c509237776051f621727f55824ed21b2469235e"
+    },
+    {
+      "scene_id": "icvl:bulb_0822-0909",
+      "metadata": "passed",
+      "raw_sha256": "49d46bfc9323ec7efb25640c91b3b9eaefb5ccc6a17f2fb11b615a1f990ad9b3"
+    },
+    {
+      "scene_id": "icvl:CC_40D_2_1103-0917",
+      "metadata": "passed",
+      "raw_sha256": "bf156379b542f9ba23249d44857c6d392339248df92517d0b41a8a276def46ec"
+    },
+    {
+      "scene_id": "icvl:eve_0331-1549",
+      "metadata": "passed",
+      "raw_sha256": "1085b67518b74c8c7946fcecf98a4e4a4400e2282e4b0456a751fa8407b4b0aa"
+    },
+    {
+      "scene_id": "icvl:eve_0331-1551",
+      "metadata": "passed",
+      "raw_sha256": "ac2dd32ca754380bfa14b7df062d9a4662338e80f8f1396f2db3caeb4cf6ef3a"
+    },
+    {
+      "scene_id": "icvl:eve_0331-1601",
+      "metadata": "passed",
+      "raw_sha256": "bf6037d91aa2a45ca3db24ffb13d17d4be6b1e231fe93bc25f240d0d49453402"
+    },
+    {
+      "scene_id": "icvl:eve_0331-1602",
+      "metadata": "passed",
+      "raw_sha256": "da5337224b115e2bc4451e0c0f5b54800052e2e5afb8f311341810cae76b247f"
+    },
+    {
+      "scene_id": "icvl:eve_0331-1606",
+      "metadata": "passed",
+      "raw_sha256": "94ae6e84d9f3f64df927065957903c043457b9f9246acb9f4e5fbf917da998a1"
+    },
+    {
+      "scene_id": "icvl:eve_0331-1618",
+      "metadata": "passed",
+      "raw_sha256": "ff3688ab4c5c8f3da5df018395a6ec9548702f2772c04156f74689e830af23ab"
+    },
+    {
+      "scene_id": "icvl:eve_0331-1632",
+      "metadata": "passed",
+      "raw_sha256": "78c213f327e7a245b5354d7457f3ae2eedbc53942187e45e6cb03bd4555c74a8"
+    },
+    {
+      "scene_id": "icvl:eve_0331-1633",
+      "metadata": "passed",
+      "raw_sha256": "520880d0201d4cbca9d9de7fbdb3b6d8be144d7d0946ee750c80cc4ef3391817"
+    },
+    {
+      "scene_id": "icvl:eve_0331-1646",
+      "metadata": "passed",
+      "raw_sha256": "23785124d00ef12fa495b4b9fe7dadda308f25a0758022f4d3e231617199f671"
+    },
+    {
+      "scene_id": "icvl:eve_0331-1647",
+      "metadata": "passed",
+      "raw_sha256": "a437ea9f9bfe545f5bed4fc792ff40faed89d18281ff0fa92646f7b69bf24e64"
+    },
+    {
+      "scene_id": "icvl:eve_0331-1656",
+      "metadata": "passed",
+      "raw_sha256": "913c4e2d9105212242aac7d889e3faf6678cb7fd2bcd47e2af4bce0141505a9d"
+    },
+    {
+      "scene_id": "icvl:eve_0331-1657",
+      "metadata": "passed",
+      "raw_sha256": "b4df53fda93334b4968d1237db8d0b532b21d5dc7fbd6330e46ccafc15a9a933"
+    },
+    {
+      "scene_id": "icvl:eve_0331-1702",
+      "metadata": "passed",
+      "raw_sha256": "cdfc6ca286770144ea614f0a96fce63d43ffc3fc04b5676e42b8c589f07fafdb"
+    },
+    {
+      "scene_id": "icvl:eve_0331-1705",
+      "metadata": "passed",
+      "raw_sha256": "539f8b099c3533af1644a0048e5dee8a2f714c3848d1919eda3e96e95a504e34"
+    },
+    {
+      "scene_id": "icvl:Flower_0325-1336",
+      "metadata": "passed",
+      "raw_sha256": "0ee857a7b9cc8ba1415b8ee5510199604142d1633a837daa94b1fd9229990bfb"
+    },
+    {
+      "scene_id": "icvl:gavyam_0823-0930",
+      "metadata": "passed",
+      "raw_sha256": "916e230ac0cbe4c6888daf674078afdf84a0079831017897aa5e2ab313138494"
+    },
+    {
+      "scene_id": "icvl:gavyam_0823-0933",
+      "metadata": "passed",
+      "raw_sha256": "4a86a5f3f3e50a60466a9635f74b330e25a813bca14a224712fa05365d93d4ea"
+    },
+    {
+      "scene_id": "icvl:gavyam_0823-0944",
+      "metadata": "passed",
+      "raw_sha256": "9214002e7119308f5772debdd5f722f9c18781d6575349f3689babfcd09e4168"
+    },
+    {
+      "scene_id": "icvl:gavyam_0823-0945",
+      "metadata": "passed",
+      "raw_sha256": "dee0c6f6ca2354325ada3809160d0760eed52467ed4770422c669f0715b8fe0d"
+    },
+    {
+      "scene_id": "icvl:gavyam_0823-0950-1",
+      "metadata": "passed",
+      "raw_sha256": "11bf6f538acca569e0a6d1d89ad280ca6e690c7bb426649b6b8bad870678a4a3"
+    },
+    {
+      "scene_id": "icvl:grf_0328-0949",
+      "metadata": "passed",
+      "raw_sha256": "a59dafeff24a31e32592ba51a460336da0500873d8ef3e15be552e8fdbdd6cba"
+    },
+    {
+      "scene_id": "icvl:hill_0325-1219",
+      "metadata": "passed",
+      "raw_sha256": "c36165cee4f62ff5bfa8a475d318189f44a87d978002a21d64b74cea8b9054c1"
+    },
+    {
+      "scene_id": "icvl:hill_0325-1228",
+      "metadata": "passed",
+      "raw_sha256": "211065784f5b30650f2e6838ef6ef6a33d2e68087dcdb4b2441aed01cd62d4cd"
+    },
+    {
+      "scene_id": "icvl:hill_0325-1235",
+      "metadata": "passed",
+      "raw_sha256": "05b91e89587ff7ac3df61432ece93dc4e4272ce4a2755d09a2e62142d75bb3d7"
+    },
+    {
+      "scene_id": "icvl:hill_0325-1242",
+      "metadata": "passed",
+      "raw_sha256": "ae143281f7172ee7eb3e5f4dc17ae5298350d0bef9bca82d380c0471d3e4feab"
+    },
+    {
+      "scene_id": "icvl:IDS_COLORCHECK_1020-1215-1",
+      "metadata": "passed",
+      "raw_sha256": "d307d4aa91f33ba8d7e0cd1f0dcdb1eeed1e700e5e3b027548c385e942545ffd"
+    },
+    {
+      "scene_id": "icvl:IDS_COLORCHECK_1020-1223",
+      "metadata": "passed",
+      "raw_sha256": "396c92a10e386e71b2a88e6664b86fc6b6a8bfdfb6f088a7eb874f8726825f66"
+    },
+    {
+      "scene_id": "icvl:Labtest_0910-1502",
+      "metadata": "passed",
+      "raw_sha256": "f1e9d62b75dd88ce2d48bae21c0e1e0516bcbe40b364d07c7b98d6e3e85fa007"
+    },
+    {
+      "scene_id": "icvl:Labtest_0910-1504",
+      "metadata": "passed",
+      "raw_sha256": "ea06c1a99223781b804081235c48b7d1dd434ca02567de2f62d237dfb4530915"
+    },
+    {
+      "scene_id": "icvl:Labtest_0910-1506",
+      "metadata": "passed",
+      "raw_sha256": "0212ac3b90ee5639bd9d6db922c3e257593ddce4b666a64e9e95c224e01e02a1"
+    },
+    {
+      "scene_id": "icvl:Labtest_0910-1509",
+      "metadata": "passed",
+      "raw_sha256": "7fce6827f19d92bc08435623a774b8b68636cf45c3be9cb4151ed598e79e1e4e"
+    },
+    {
+      "scene_id": "icvl:Labtest_0910-1510",
+      "metadata": "passed",
+      "raw_sha256": "494512ce0a74b97e80b25c831415b7d1783f3f1e307e6a6f3b6b34346e902f3b"
+    },
+    {
+      "scene_id": "icvl:Labtest_0910-1511",
+      "metadata": "passed",
+      "raw_sha256": "cbe57741aa3c97e45d788e52dd05fa2e6d019413d8f78037901bff814797826c"
+    },
+    {
+      "scene_id": "icvl:Labtest_0910-1513",
+      "metadata": "passed",
+      "raw_sha256": "903c8be1601677bcaf1cfc3d9e1aadb1dd9d91cacc91e4643b89859c68ae0c50"
+    },
+    {
+      "scene_id": "icvl:lehavim_0910-1600",
+      "metadata": "passed",
+      "raw_sha256": "03ee9054a9125bd60f76236eb9d602e7f1c373f8776f173e20b2412e551cdbc7"
+    },
+    {
+      "scene_id": "icvl:lehavim_0910-1602",
+      "metadata": "passed",
+      "raw_sha256": "5f840e60cf7c8033e83106da6ef7368795369dc408efe77ee4d6618e11e713d4"
+    },
+    {
+      "scene_id": "icvl:lehavim_0910-1605",
+      "metadata": "passed",
+      "raw_sha256": "b87980d7d557db0de7c5c27c756c23e731399221de3df3e577cb4c302e6172fd"
+    },
+    {
+      "scene_id": "icvl:lehavim_0910-1607",
+      "metadata": "passed",
+      "raw_sha256": "35ff9dfcf3f2606fc5fb67fa41966c2e96eaf2ef32b3672079a078c119302c4d"
+    },
+    {
+      "scene_id": "icvl:lehavim_0910-1610",
+      "metadata": "passed",
+      "raw_sha256": "62391fea7b072c199b3aaace1735e76a3c1b293d18de59b8337fb407c8ebcba8"
+    },
+    {
+      "scene_id": "icvl:Lehavim_0910-1622",
+      "metadata": "passed",
+      "raw_sha256": "963133e387bce468251785c7e64653c884e2cd46d862c59532728cedf4705d17"
+    },
+    {
+      "scene_id": "icvl:Lehavim_0910-1626",
+      "metadata": "passed",
+      "raw_sha256": "dac1b0d2c3a6cdfd972d95b161f18469ccb23df28a9836faf0e10537f5b02b5b"
+    },
+    {
+      "scene_id": "icvl:Lehavim_0910-1627",
+      "metadata": "passed",
+      "raw_sha256": "2e9d1ca99c64b3140d1d2e7c7392a12338200b8dc2ca10b6ac7cb17a83a8f939"
+    },
+    {
+      "scene_id": "icvl:Lehavim_0910-1629",
+      "metadata": "passed",
+      "raw_sha256": "11f087204ec3f5c0f6ab7b4f5b39c5ef8313dde503e89e18e905d331d2b6ee75"
+    },
+    {
+      "scene_id": "icvl:Lehavim_0910-1630",
+      "metadata": "passed",
+      "raw_sha256": "8eaa488a4ef9467eadd1a3116f449cb5ac56aa14f74908d25e451fa6df62347d"
+    },
+    {
+      "scene_id": "icvl:Lehavim_0910-1633",
+      "metadata": "passed",
+      "raw_sha256": "6e7d3670d200d954748c983466aee6d1802855e94aea0d5fc0e0f41c7a2c8ebe"
+    },
+    {
+      "scene_id": "icvl:Lehavim_0910-1635",
+      "metadata": "passed",
+      "raw_sha256": "7bf0327ae31680b05999bdc97269f3e71c42a03c1400e69b71eacaddda462d3a"
+    },
+    {
+      "scene_id": "icvl:Lehavim_0910-1636",
+      "metadata": "passed",
+      "raw_sha256": "ec38c5f5367501db769e0a9ef50059f4952a617fdc8d1dd797faa2f96264300a"
+    },
+    {
+      "scene_id": "icvl:Lehavim_0910-1640",
+      "metadata": "passed",
+      "raw_sha256": "429b7068ea005358947ca25b523df59dd1b2f6a9edf07650fd299c32b7c38484"
+    },
+    {
+      "scene_id": "icvl:Lehavim_0910-1708",
+      "metadata": "passed",
+      "raw_sha256": "3516ea2d66b765f4c0c3835642f7e496292e9c0cd02fbd685feeee73e1236100"
+    },
+    {
+      "scene_id": "icvl:Lehavim_0910-1716",
+      "metadata": "passed",
+      "raw_sha256": "b164f04d47eae97233189ec8024fd6cbd03acd0c2f9af90c88b43c5cfb9364ca"
+    },
+    {
+      "scene_id": "icvl:Lehavim_0910-1717",
+      "metadata": "passed",
+      "raw_sha256": "b10ab17aeb53e6dd20a3856d6731fafcc2f4d0cd7ab06d62915b9ba3cd621e38"
+    },
+    {
+      "scene_id": "icvl:Lehavim_0910-1718",
+      "metadata": "passed",
+      "raw_sha256": "9b4e2306e337f397bd9123f37661b1030c660840bb6c47e6a4de9931fd9f80e3"
+    }
+  ],
+  "measurement_gain": {
+    "status": "pending",
+    "value": null
+  },
+  "test_seal_status": "not_finalized",
+  "historical_protection": {
+    "passed": true,
+    "checked": 15942,
+    "checked_bytes": 20181153673,
+    "failures": [],
+    "read_only": true
+  },
+  "space": {
+    "components": {
+      "compressed": 45014485227,
+      "unpacked": 9370080993,
+      "decoded_mat": 0,
+      "preprocessed": 18959509920,
+      "checkpoint_retention": 8589934592,
+      "cache_reserve": 536870912
+    },
+    "already_present_bytes": 25097798575,
+    "safety_bytes": 5737308306,
+    "required_bytes": 63110391375,
+    "free_bytes": 102178390016,
+    "passed": true,
+    "note": "D盘10%余量；不删除历史、不移盘；任何未知项必须另记为未核实",
+    "evidence": {
+      "harvard_bytes": 8147896516,
+      "kaist_bytes": 8667411327,
+      "icvl_public_mat_count": 202,
+      "icvl_bytes": 28199177384,
+      "harvard_unpacked_upper_factor": 1.15,
+      "kaist_shape_bound": [
+        2704,
+        3376
+      ],
+      "decoded_mat_disk_bytes": 0,
+      "decoded_mat_reason": "MAT-v5按波段64列块流式解码，无整ref缓存文件；已用实际旧样本验证",
+      "processed_policy": "估计含全部候选；真正只预处理训练/验证，测试半尺寸推迟M7",
+      "remaining_unknowns": [
+        "新Harvard/KAIST实际形状须逐场景确认；超过预估即重新检查空间并停下"
+      ]
+    }
+  },
+  "availability": {
+    "harvard_archives": 2,
+    "kaist_files": 30,
+    "icvl_files": 202,
+    "icvl_authorization_pending": false
+  }
+}

@@ -1,0 +1,23 @@
+test_30000_index_reproduction_and_cache (test_m3.TestM3) ... ok
+test_common_gain_independent_scalar (test_m3.TestM3) ... ok
+test_common_gain_spatial_kernel_boundary (test_m3.TestM3) ... ok
+test_exr_channel_names_and_scanlines (test_m3.TestM3) ... ok
+test_groups_exposure_and_legacy_no_crossing (test_m3.TestM3) ... ok
+test_harvard_stream_calibration_and_area (test_m3.TestM3) ... ok
+test_icvl_actual_bands_and_axis (test_m3.TestM3) ... ok
+test_train_only_scales_and_sealed_test (test_m3.TestM3) ... ok
+test_final_segment_resume_without_network (test_m3_download.TestDownload) ... ok
+test_noncontiguous_journal_rejected (test_m3_download.TestDownload) ... ok
+test_wrong_source_sha_rejected (test_m3_download.TestDownload) ... ok
+test_direct_kernel_indexing_and_zero_boundary (test_m3_external_audit.TestExternalAudit) ... ok
+test_scalar_area_and_center_mapping (test_m3_external_audit.TestExternalAudit) ... ok
+test_pinned_official_inventory (test_m3_icvl_provenance.TestPinnedICVL) ... ok
+test_redacted_oid_is_rejected (test_m3_icvl_provenance.TestPinnedICVL) ... ok
+test_revision_mismatch_is_rejected (test_m3_icvl_provenance.TestPinnedICVL) ... ok
+test_environment_error_is_explicit_without_aborting_data_check (test_m3_validation.TestIndependentAudit) ... ok
+test_valid_artifacts_and_changed_physical_attachment (test_m3_validation.TestIndependentAudit) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 6.721s
+
+OK

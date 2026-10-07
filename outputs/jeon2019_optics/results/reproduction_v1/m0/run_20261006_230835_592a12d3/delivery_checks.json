@@ -1,0 +1,45 @@
+{
+  "schema": "jeon2019-m0-delivery-checks-v1",
+  "milestone": "M0",
+  "status": "passed",
+  "date": "2026-10-06",
+  "audit": "audit.json",
+  "checks": {
+    "default_entry_from_other_cwd": {
+      "command": "D:/dev/python/python3.10.4/python.exe -B D:/PyCharmProjects/Jeon2019/outputs/jeon2019_optics/reproduction_v1/main.py",
+      "cwd": "D:/PyCharmProjects/Jeon2019/work",
+      "exit_code": 0,
+      "status": "passed",
+      "protection_files": 15942,
+      "protection_bytes": 20181153673,
+      "g0_checked": 767,
+      "protocol_parameters": 39,
+      "tasks": 8,
+      "failures": []
+    },
+    "historical_tests": {
+      "command": "D:/dev/python/python3.10.4/python.exe -B -m unittest tests.test_g3 tests.test_g5 tests.test_g5_boundary",
+      "cwd": "D:/PyCharmProjects/Jeon2019/outputs/jeon2019_optics",
+      "exit_code": 0,
+      "tests": 14,
+      "result": "OK"
+    },
+    "new_protection_tests": {"tests": 14, "exit_code": 0, "evidence": "tests.json"},
+    "python_ast": {"files": 5, "passed": true},
+    "report_entry": {"exit_code": 0, "M0": "passed", "M1_M7": "pending"},
+    "repeat_freeze": {
+      "command": "D:/dev/python/python3.10.4/python.exe -B outputs/jeon2019_optics/reproduction_v1/build_m0.py",
+      "powershell_exit_code": 1,
+      "expected": "非零拒绝覆盖，未创建新运行或修改冻结证据",
+      "passed": true
+    },
+    "status_append": {"original_bytes": 28052, "current_bytes": 28813, "historical_prefix_unchanged": true},
+    "new_source_fingerprints": {"checked": 5, "unchanged_since_audit": true},
+    "space": {"free_gib": 97.897, "large_stage_requirements_validated": false}
+  },
+  "resolved_command_failures": [
+    {"phase": "追加后独立前缀核对命令", "error": "Python一行验证命令多了一个右括号，SyntaxError；没有写文件", "resolved": true, "rerun_exit_code": 0}
+  ],
+  "unresolved_failures": [],
+  "paper_alignment_passed": false
+}

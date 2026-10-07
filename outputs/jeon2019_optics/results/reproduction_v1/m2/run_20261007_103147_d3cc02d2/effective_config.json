@@ -1,0 +1,99 @@
+{
+  "execution": {
+    "schema": "jeon2019-m2-config-v1",
+    "budget_seconds": 28800,
+    "reserve_bytes": 536870912,
+    "spectral_input": "relative_energy_density_per_nm"
+  },
+  "physics": {
+    "optical": {
+      "diameter_m": 0.001,
+      "focal_length_m": 0.05,
+      "distance_m": 0.05,
+      "wings_N": 3,
+      "lambda_min_m": 4.2e-07,
+      "lambda_max_m": 6.6e-07
+    },
+    "wavelengths_nm": [
+      420,
+      430,
+      440,
+      450,
+      460,
+      470,
+      480,
+      490,
+      500,
+      510,
+      520,
+      530,
+      540,
+      550,
+      560,
+      570,
+      580,
+      590,
+      600,
+      610,
+      620,
+      630,
+      640,
+      650,
+      660
+    ],
+    "input": {
+      "n": 1101,
+      "spacing_m": 1e-06,
+      "refinement_factor": 2
+    },
+    "detector": {
+      "pixels_per_axis": 97,
+      "pitch_m": 6.22e-06,
+      "quadrature_main": 8,
+      "quadrature_coarse": 4
+    },
+    "thresholds": {
+      "pixel_l1": 0.005,
+      "pixel_l2": 0.01,
+      "eta_absolute": 0.001,
+      "angle_deg": 0.5,
+      "radius_pixels": 1.0
+    },
+    "legacy_source": "results/stage02c/run_20261002_172338",
+    "g0_manifest": "../../baseline/g0_20261005/manifest.json",
+    "budget_seconds": 600.0,
+    "runtime": {
+      "save_results": true,
+      "show_plots": false
+    },
+    "plots": {
+      "dpi": 150
+    }
+  },
+  "chirality": "CW",
+  "origin_deg": 0,
+  "fresnel_design_nm": 550,
+  "material": {
+    "material_name": "fused_silica",
+    "dispersion_model": "Sellmeier_3term",
+    "reference": "Malitson (1965) J. Opt. Soc. Am. 55(10), 1205-1209",
+    "doi": "10.1364/JOSA.55.001205",
+    "assumed_temperature_celsius": 20.0,
+    "valid_wavelength_range_um": [
+      0.21,
+      3.71
+    ],
+    "coefficients_um2": {
+      "B1": 0.6961663,
+      "B2": 0.4079426,
+      "B3": 0.8974794,
+      "C1": 0.00467914825849,
+      "C2": 0.013512063073959999,
+      "C3": 97.93400253792099
+    },
+    "n_air_assumed": 1.0
+  },
+  "formula": "n²=1+sum(Bi*L²/(L²-Ci)), L以μm计；delta=r²/(sqrt(r²+f²)+f)；h=(floor(delta/lambda_design)*lambda_design-delta)/(n(lambda_design)-1)；U=mask*exp(i*2pi*(n(lambda)-1)*h/lambda)",
+  "propagation": "已审核直接可分离Fresnel积分；全局相位保留；相机像元q4/q8中点强度积分",
+  "physics_source": "M0历史索引G1_CW source_config，历史budget不作为本次执行预算"
+}

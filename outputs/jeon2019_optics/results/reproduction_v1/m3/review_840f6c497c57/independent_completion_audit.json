@@ -1,0 +1,264 @@
+{
+  "milestone": "M3",
+  "status": "passed",
+  "scope": "全部候选SHA及关联组、六幅训练/验证基础图独立像元、真实训练增强、共同增益哈希选择及两器件直接核求和核对",
+  "formal_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\reproduction_v1\\m3\\run_20261007_154644_d46e6171",
+  "candidate_counts": {
+    "harvard": 77,
+    "kaist": 30,
+    "icvl": 202
+  },
+  "source_files_sha_checked": 313,
+  "capture_or_sha_relationships_checked": 1304,
+  "actual_headers_wavelengths_checked": 309,
+  "index_mask_audit": {
+    "checked_indices": 30000,
+    "training_scenes_covered": 203,
+    "minimum_valid_pixels": 46,
+    "partially_masked_indices": 2912,
+    "test_masks_read": false
+  },
+  "near_duplicate_pairs_checked": 0,
+  "groups_disjoint": true,
+  "legacy_groups_excluded": true,
+  "half_pixel_checks": [
+    {
+      "scene_id": "harvard:CZ_hsdb:img1",
+      "split": "train",
+      "fixed_points_yx": [
+        [
+          0,
+          0
+        ],
+        [
+          173,
+          232
+        ],
+        [
+          260,
+          348
+        ],
+        [
+          519,
+          695
+        ]
+      ],
+      "relative_max_error": 0.0,
+      "mask_exact": true
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:imga1",
+      "split": "validation",
+      "fixed_points_yx": [
+        [
+          0,
+          0
+        ],
+        [
+          173,
+          232
+        ],
+        [
+          260,
+          348
+        ],
+        [
+          519,
+          695
+        ]
+      ],
+      "relative_max_error": 0.0,
+      "mask_exact": true
+    },
+    {
+      "scene_id": "icvl:BGU_0403-1419-1",
+      "split": "train",
+      "fixed_points_yx": [
+        [
+          0,
+          0
+        ],
+        [
+          216,
+          232
+        ],
+        [
+          325,
+          348
+        ],
+        [
+          649,
+          695
+        ]
+      ],
+      "relative_max_error": 0.0,
+      "mask_exact": true
+    },
+    {
+      "scene_id": "icvl:4cam_0411-1640-1",
+      "split": "validation",
+      "fixed_points_yx": [
+        [
+          0,
+          0
+        ],
+        [
+          216,
+          232
+        ],
+        [
+          325,
+          348
+        ],
+        [
+          649,
+          695
+        ]
+      ],
+      "relative_max_error": 0.0,
+      "mask_exact": true
+    },
+    {
+      "scene_id": "kaist:scene01_reflectance",
+      "split": "train",
+      "fixed_points_yx": [
+        [
+          0,
+          0
+        ],
+        [
+          450,
+          562
+        ],
+        [
+          676,
+          844
+        ],
+        [
+          1351,
+          1687
+        ]
+      ],
+      "relative_max_error": 0.0,
+      "mask_exact": true
+    },
+    {
+      "scene_id": "kaist:scene06_reflectance",
+      "split": "validation",
+      "fixed_points_yx": [
+        [
+          0,
+          0
+        ],
+        [
+          450,
+          562
+        ],
+        [
+          676,
+          844
+        ],
+        [
+          1351,
+          1687
+        ]
+      ],
+      "relative_max_error": 0.0,
+      "mask_exact": true
+    }
+  ],
+  "augmentation_checks": [
+    {
+      "scene_id": "harvard:CZ_hsdb:img1",
+      "scale": 0.5,
+      "mask_checked": true
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:img1",
+      "scale": 1.0,
+      "mask_checked": true
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:img1",
+      "scale": 2.0,
+      "mask_checked": true
+    },
+    {
+      "scene_id": "icvl:BGU_0403-1419-1",
+      "scale": 0.5,
+      "mask_checked": true
+    },
+    {
+      "scene_id": "icvl:BGU_0403-1419-1",
+      "scale": 1.0,
+      "mask_checked": true
+    },
+    {
+      "scene_id": "icvl:BGU_0403-1419-1",
+      "scale": 2.0,
+      "mask_checked": true
+    },
+    {
+      "scene_id": "kaist:scene01_reflectance",
+      "scale": 0.5,
+      "mask_checked": true
+    },
+    {
+      "scene_id": "kaist:scene01_reflectance",
+      "scale": 1.0,
+      "mask_checked": true
+    },
+    {
+      "scene_id": "kaist:scene01_reflectance",
+      "scale": 2.0,
+      "mask_checked": true
+    }
+  ],
+  "physical_gain_forward_checks": [
+    {
+      "scene_id": "harvard:CZ_hsdb:img1",
+      "method": "jeon",
+      "relative_max_error": 2.6159391175175465e-16
+    },
+    {
+      "scene_id": "harvard:CZ_hsdb:img1",
+      "method": "fresnel",
+      "relative_max_error": 3.865426009996315e-16
+    },
+    {
+      "scene_id": "icvl:BGU_0403-1419-1",
+      "method": "jeon",
+      "relative_max_error": 2.6976990061103964e-16
+    },
+    {
+      "scene_id": "icvl:BGU_0403-1419-1",
+      "method": "fresnel",
+      "relative_max_error": 1.459508473921733e-16
+    },
+    {
+      "scene_id": "kaist:scene01_reflectance",
+      "method": "jeon",
+      "relative_max_error": 2.0300968107311624e-16
+    },
+    {
+      "scene_id": "kaist:scene01_reflectance",
+      "method": "fresnel",
+      "relative_max_error": 4.319087408344891e-16
+    }
+  ],
+  "sealed_test_pixels_read": false,
+  "test_predictions_generated": false,
+  "cache_measurement": {
+    "peak_cache_bytes": 66191360,
+    "per_scene_peak_bytes": {
+      "harvard:CZ_hsdb:img1": 26476544,
+      "icvl:BGU_0403-1419-1": 26476544,
+      "kaist:scene01_reflectance": 26476544
+    },
+    "max_bytes": 67108864,
+    "peak_source_block_bytes": 26214400,
+    "observed_process_rss_bytes": 325943296,
+    "whole_dataset_loaded": false
+  },
+  "paper_alignment_passed": false
+}

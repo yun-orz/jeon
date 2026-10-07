@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "milestone": "M3",
+  "formal_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\reproduction_v1\\m3\\run_20261007_154644_d46e6171",
+  "external_review": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\reproduction_v1\\m3\\review_840f6c497c57\\independent_completion_audit.json",
+  "main_check": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\reproduction_v1\\m3\\run_20261007_160046_M3_masked_v3_verified\\main_check_M3_masked_v3_verified.json",
+  "data_fingerprint": "4d966a84c3a19e5744f73b81277dddbdf3631d91d9df71c21e90a34bc7f0ce2b",
+  "scenes": 238,
+  "training_scenes": 203,
+  "validation_scenes": 25,
+  "sealed_test_scenes": 10,
+  "patch_indices": 30000,
+  "M4_started": false,
+  "M1_gpu_ready": false,
+  "artifact_sha256": {
+    "outputs\\jeon2019_optics\\results\\reproduction_v1\\m3\\run_20261007_154644_d46e6171\\audit.json": "ce70e9d6ce791ea2f16a24fc319ff0309551f9ce31fea4e0f19574b080552026",
+    "outputs\\jeon2019_optics\\results\\reproduction_v1\\m3\\review_840f6c497c57\\independent_completion_audit.json": "15b4582a8b385c83955cf4358043738f5545d9f80608b314736ee382cd47c45a",
+    "outputs\\jeon2019_optics\\results\\reproduction_v1\\m3\\run_20261007_160046_M3_masked_v3_verified\\main_check_M3_masked_v3_verified.json": "59ec3c796623c2a7ac236c707b76cc8933b17f38032a32b627897ee7e0e712f5",
+    "outputs\\jeon2019_optics\\results\\reproduction_v1\\m3\\delivery_20261007_160046\\M3_delivery.md": "b68bb4dd4a0d41b6807248a471393978947a53283f4d26f97fb49d993d632076",
+    "outputs\\jeon2019_optics\\reproduction_v1\\tests\\audit_m3_result.py": "f96214c9ff4fd3b11beb72c6867727215fe970cf81c20764b56df5ae74d1c06e",
+    "work\\m3_tests_masked_v3_final_20261007.log": "60b8d590ea1fe4d237c165df0f3fbb0c0b4d48ff686d774760a49ec4546ebd62"
+  }
+}

@@ -1,0 +1,59 @@
+check结果已保存：D:\PyCharmProjects\Jeon2019\outputs\jeon2019_optics\results\reproduction_v1\m3\run_20261007_160046_M3_masked_v3_verified\main_check_M3_masked_v3_verified.json
+{
+  "status": "passed",
+  "scope": "M0历史保护、协议交接及M1只读环境检查；M2最新或指定物理算子包指纹与合同；M3数据/父物理包/场景及增益状态",
+  "protection": {
+    "passed": true,
+    "checked": 15942,
+    "checked_bytes": 20181153673,
+    "failures": [],
+    "read_only": true
+  },
+  "protocol": {
+    "passed": true,
+    "parameters": 39,
+    "tasks": 8,
+    "failures": []
+  },
+  "g0": {
+    "passed": true,
+    "checked": 767,
+    "skipped": 0,
+    "failures": [],
+    "mode": "full_local"
+  },
+  "environment": {
+    "stage": "M3_masked_v3_verified",
+    "status": "failed",
+    "error": "KeyError('remaining_bytes')",
+    "free_bytes": 88238600192,
+    "gpu_execution_verified": false,
+    "gpu_environment_ready": false,
+    "note": "M1环境检查异常，需单独修复；未将此状态视为M1通过。M3数据阶段不依赖GPU。"
+  },
+  "milestones": {
+    "M0": "passed",
+    "M1": "dependency_pending",
+    "M2": "passed",
+    "M3": "passed",
+    "M4": "dependency_pending",
+    "M5": "dependency_pending",
+    "M6": "dependency_pending",
+    "M7": "dependency_pending"
+  },
+  "paper_alignment_passed": false,
+  "M2": {
+    "status": "passed",
+    "run_dir": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\reproduction_v1\\m2\\run_20261007_104321_03d47940",
+    "gain_pending": true,
+    "entry_source_bridge": "work/datasets/reproduction_v1/parent_m2_20261007_verified/bridge.json",
+    "paper_alignment_passed": false
+  },
+  "M3": {
+    "status": "passed",
+    "acceptance_passed": true,
+    "run_dir": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\reproduction_v1\\m3\\run_20261007_154644_d46e6171",
+    "failures": [],
+    "M4_ready": true
+  }
+}

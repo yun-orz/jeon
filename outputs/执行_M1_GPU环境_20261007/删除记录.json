@@ -1,0 +1,238 @@
+{
+  "schema": "jeon2019-m1-deletion-record-v1",
+  "milestone": "M1",
+  "deleted_at": "2026-10-07T11:30:25+0800",
+  "authorization": "用户2026-10-07明确同意：删纯重复项并保留整包wheel；并允许删除旧部分下载原件",
+  "freed_bytes": 3794560752,
+  "freed_gib": 3.534,
+  "deleted_count": 35,
+  "deleted": [
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\part_000.bin",
+      "bytes": 33554432,
+      "sha256": "ba8434b970397a7f53c39c035c3c5ce050d179dd78cf0d77973cbe8f2c0643aa",
+      "role": "块文件（与整包后半段逐字节重复）"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\part_001.bin",
+      "bytes": 33554432,
+      "sha256": "2c6054875f34fdabff3121e13385d05c9d21408436334fc4d770725eda0e5779",
+      "role": "块文件（与整包后半段逐字节重复）"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\part_002.bin",
+      "bytes": 33554432,
+      "sha256": "6ff68f43e68da16161afc064d7eadebbdb14b01cd13912e891860c37ae952a77",
+      "role": "块文件（与整包后半段逐字节重复）"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\part_003.bin",
+      "bytes": 33554432,
+      "sha256": "8fc5fc26e850493202eb4b3d7ff0d285d3012eb4a5382f4280a12b1eeeece860",
+      "role": "块文件（与整包后半段逐字节重复）"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\part_004.bin",
+      "bytes": 33554432,
+      "sha256": "7a0320ae0b4e95dae8002dfd1beba1b886ee1b23c51ae1e621e162476b3b0cf9",
+      "role": "块文件（与整包后半段逐字节重复）"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\part_005.bin",
+      "bytes": 33554432,
+      "sha256": "36cda019a488b0cc3f2fdf785872d262e80fde4d38e3977543a812b8d09831da",
+      "role": "块文件（与整包后半段逐字节重复）"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\part_006.bin",
+      "bytes": 33554432,
+      "sha256": "46d9aa4f24d8c3a73003ada180f63eadeb4eba13ea4657cfbc2ac702751f2a50",
+      "role": "块文件（与整包后半段逐字节重复）"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\part_007.bin",
+      "bytes": 33554432,
+      "sha256": "2ddfc109b3253248f46c64e2e5423c45bf6fb18d74b0c26c9c7de2828806203d",
+      "role": "块文件（与整包后半段逐字节重复）"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\part_008.bin",
+      "bytes": 33554432,
+      "sha256": "ee05bd1cf3aba8d18e9dab6912f0867f8b5c279596c1958b9b4ae97988fbe572",
+      "role": "块文件（与整包后半段逐字节重复）"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\part_009.bin",
+      "bytes": 33554432,
+      "sha256": "b3b2786fc49b60f7a64f5f27dd9cc40ad8610500e177c80f41af23bb59490502",
+      "role": "块文件（与整包后半段逐字节重复）"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\part_010.bin",
+      "bytes": 33554432,
+      "sha256": "91d2ea916a04ce188f9732fb9e9241e107b245f4a9823d2cf62f7539ef16786a",
+      "role": "块文件（与整包后半段逐字节重复）"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\part_011.bin",
+      "bytes": 33554432,
+      "sha256": "242f1424b2e74ad09ae177520210dfe8f876d5692f7de7c5db5e35990fa6356d",
+      "role": "块文件（与整包后半段逐字节重复）"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\part_012.bin",
+      "bytes": 33554432,
+      "sha256": "d3719791c776a9523d9d7336961f40455a76b53355991842817a0f6d60db5bb7",
+      "role": "块文件（与整包后半段逐字节重复）"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\part_013.bin",
+      "bytes": 33554432,
+      "sha256": "3ad82b54c964bec882c9988a669197f5532074b9ef3530ca65a120a38aa5a646",
+      "role": "块文件（与整包后半段逐字节重复）"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\part_014.bin",
+      "bytes": 33554432,
+      "sha256": "a270e59e5ee3ffac4a7b94e875c58f4a6886d2ef51a2e4a9be1399e299c50302",
+      "role": "块文件（与整包后半段逐字节重复）"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\part_015.bin",
+      "bytes": 33554432,
+      "sha256": "e1cc783c41b0b2444dcaff747f0a6261581e6036790225caf1cefeb38cf6f311",
+      "role": "块文件（与整包后半段逐字节重复）"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\part_016.bin",
+      "bytes": 33554432,
+      "sha256": "c0c2ec33bfa322f7d98f34714a41dc5b945b1f3cbcdab66ad5548d3d5600f263",
+      "role": "块文件（与整包后半段逐字节重复）"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\part_017.bin",
+      "bytes": 33554432,
+      "sha256": "6fe23b742f78e4418cc087ffc42ed9d29c8edbc89144c42e391588302a7b32fc",
+      "role": "块文件（与整包后半段逐字节重复）"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\part_018.bin",
+      "bytes": 33554432,
+      "sha256": "c7a9b5696d1f2e082ccaab7f3fb479ff1ffe5fb4524ff2a56932ed91a8f81d0d",
+      "role": "块文件（与整包后半段逐字节重复）"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\part_019.bin",
+      "bytes": 33554432,
+      "sha256": "5295f185a7f24f128416e22cbfc684d5693e2e4afddb214ae893da4e484be428",
+      "role": "块文件（与整包后半段逐字节重复）"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\part_020.bin",
+      "bytes": 33554432,
+      "sha256": "d72cffb5598e6bd62cf2caed108218f897ca527adf4b4313b9310a0090cdd43a",
+      "role": "块文件（与整包后半段逐字节重复）"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\part_021.bin",
+      "bytes": 33554432,
+      "sha256": "e9b683fe247c51fc949820b3296a52a00fa1a1bcd864880dc0d1c8efdef48948",
+      "role": "块文件（与整包后半段逐字节重复）"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\part_022.bin",
+      "bytes": 33554432,
+      "sha256": "3356f090816a8207979da593550193780bfcd253c7a794bbe6bd0c03d2ce174c",
+      "role": "块文件（与整包后半段逐字节重复）"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\part_023.bin",
+      "bytes": 33554432,
+      "sha256": "474b3b4aaf20742947a978eec1f5836cf9ad2a7d794591d5143e9c11553a440b",
+      "role": "块文件（与整包后半段逐字节重复）"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\part_024.bin",
+      "bytes": 33554432,
+      "sha256": "3ca194c8fb390c0d3eb60a7d2e3225a1686e3d2da56a57f27a8db84bc76a805d",
+      "role": "块文件（与整包后半段逐字节重复）"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\part_025.bin",
+      "bytes": 33554432,
+      "sha256": "de97fd609a6fde301e67df20ebf7e9d9d30963bffdceb000ab386375ade43a8f",
+      "role": "块文件（与整包后半段逐字节重复）"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\part_026.bin",
+      "bytes": 33554432,
+      "sha256": "325a386edac99355abd3902efcb20cb671ad8dfcc54a363d2725fd2f3f78739a",
+      "role": "块文件（与整包后半段逐字节重复）"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\part_027.bin",
+      "bytes": 33554432,
+      "sha256": "ffdad855917a6896107cc807ab304c461cdbdff6cac4f680eefd0179ab208e78",
+      "role": "块文件（与整包后半段逐字节重复）"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\part_028.bin",
+      "bytes": 33554432,
+      "sha256": "f21d187630266f20c9c065ea2e037c5aa3290665ae3c33584ae34e07ebcbcb7a",
+      "role": "块文件（与整包后半段逐字节重复）"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\part_029.bin",
+      "bytes": 33554432,
+      "sha256": "798d33b8339dc4b753ace93580143f60991c5784e4ece8ee6e0ae423ca5ce0e2",
+      "role": "块文件（与整包后半段逐字节重复）"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\part_030.bin",
+      "bytes": 33554432,
+      "sha256": "1646b3ecc0913799b5df4f5d948f475f5025a14fc04d3493cce6b69badd6b314",
+      "role": "块文件（与整包后半段逐字节重复）"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\part_031.bin",
+      "bytes": 33554432,
+      "sha256": "eabf0a8943503a2c4d041d9e5e993247f915b7ad73a20ac74319be2a0b454710",
+      "role": "块文件（与整包后半段逐字节重复）"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\part_032.bin",
+      "bytes": 30442992,
+      "sha256": "5b08a58a123688cbe49196734fa9c786c8cb9ff2ea07a26fdeb6ac3e86f692df",
+      "role": "块文件（与整包后半段逐字节重复）"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\prefix.bin",
+      "bytes": 1345187968,
+      "sha256": "001bd6fc93d5ac0a0a67e89c9ddc1fcef2068eb20a94a9334ca48efc79d2395a",
+      "role": "prefix.bin 副本（原件另有其物）"
+    },
+    {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_20261006\\torch-2.5.1+cu121-cp310-cp310-win_amd64.whl",
+      "bytes": 1345187968,
+      "sha256": "001bd6fc93d5ac0a0a67e89c9ddc1fcef2068eb20a94a9334ca48efc79d2395a",
+      "role": "旧部分下载原件（已被完整整包取代）"
+    }
+  ],
+  "kept": [
+    "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\torch-2.5.1+cu121-cp310-cp310-win_amd64.whl",
+    "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\sympy-1.13.1-py3-none-any.whl",
+    "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\download_manifest.json",
+    "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\probe.json",
+    "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\resume_state.json",
+    "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\install_result.json",
+    "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\gpu_cu121_resume_m1_20261007\\install_log.txt"
+  ],
+  "kept_reason": "整包wheel已核验官方SHA，是唯一能免联网重装Torch的本地来源；清单与日志是M1证据，不随二进制删除",
+  "evidence_still_valid": "续传清单.json逐块记录字节范围与SHA256；下载SHA.json记录整包重算SHA与官方一致结论；M1判定不依赖这些文件继续存在",
+  "irreversible_cost": "整包wheel删除后需重新联网下载2.3GiB才能重装Torch；本次保留wheel故该成本未发生",
+  "recovery_commands": [
+    "python -B outputs/jeon2019_optics/reproduction_v1/m1_download.py download",
+    "python -B outputs/jeon2019_optics/reproduction_v1/m1_download.py install"
+  ],
+  "note": "GPU虚拟环境work/environments/jeon_gpu_cu121已含安装后的Torch，运行不依赖被删文件；原CPU环境未受影响"
+}
