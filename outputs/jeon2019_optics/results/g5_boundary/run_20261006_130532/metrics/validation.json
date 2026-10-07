@@ -1,0 +1,234 @@
+{
+  "status": "completed",
+  "boundary_diagnostic_completed": true,
+  "optimizer_steps": 0,
+  "checkpoint_frozen": true,
+  "fresh_blind_test": false,
+  "paper_alignment_passed": false,
+  "whole_image_convergence_proved": false,
+  "context_sizes": [
+    128,
+    160,
+    192,
+    256
+  ],
+  "support_size": 352,
+  "core_size": 32,
+  "selection": [
+    {
+      "original_index": 0,
+      "original_origin_yx": [
+        640,
+        1024
+      ],
+      "support_origin_yx": [
+        528,
+        912
+      ],
+      "in_bounds": true,
+      "accepted": false,
+      "invalid_pixels": 5025,
+      "reason": "官方掩码或光谱无效"
+    },
+    {
+      "original_index": 1,
+      "original_origin_yx": [
+        768,
+        512
+      ],
+      "support_origin_yx": [
+        656,
+        400
+      ],
+      "in_bounds": true,
+      "accepted": true,
+      "invalid_pixels": 0,
+      "reason": "完整有效支持域"
+    },
+    {
+      "original_index": 2,
+      "original_origin_yx": [
+        256,
+        640
+      ],
+      "support_origin_yx": [
+        144,
+        528
+      ],
+      "in_bounds": true,
+      "accepted": true,
+      "invalid_pixels": 0,
+      "reason": "完整有效支持域"
+    },
+    {
+      "original_index": 3,
+      "original_origin_yx": [
+        256,
+        1152
+      ],
+      "support_origin_yx": [
+        144,
+        1040
+      ],
+      "in_bounds": true,
+      "accepted": true,
+      "invalid_pixels": 0,
+      "reason": "完整有效支持域"
+    }
+  ],
+  "accepted_original_indices": [
+    1,
+    2,
+    3
+  ],
+  "original_roi_count": 4,
+  "evaluated_roi_count": 3,
+  "shared_measurement": true,
+  "forward_support_margin": 48,
+  "kernel_radius": 48,
+  "pooling_multiple": 8,
+  "pooling_phase_aligned": true,
+  "summary": {
+    "128": {
+      "mse_pooled": 0.0026219287908979933,
+      "psnr_pooled_db": 25.813791075124545,
+      "psnr_is_positive_infinity": false,
+      "ssim_mean": 0.78263430370771,
+      "sam_mean_rad": 0.2449763900942453,
+      "sam_valid_pixels": 3072,
+      "sam_undefined_pixels": 0
+    },
+    "160": {
+      "mse_pooled": 0.0026378587019520957,
+      "psnr_pooled_db": 25.78748471339312,
+      "psnr_is_positive_infinity": false,
+      "ssim_mean": 0.7817106381655013,
+      "sam_mean_rad": 0.2452897092086319,
+      "sam_valid_pixels": 3072,
+      "sam_undefined_pixels": 0
+    },
+    "192": {
+      "mse_pooled": 0.002639333117170428,
+      "psnr_pooled_db": 25.78505792872444,
+      "psnr_is_positive_infinity": false,
+      "ssim_mean": 0.7816377526613033,
+      "sam_mean_rad": 0.2453041656101974,
+      "sam_valid_pixels": 3072,
+      "sam_undefined_pixels": 0
+    },
+    "256": {
+      "mse_pooled": 0.0026392651651527734,
+      "psnr_pooled_db": 25.785169743205195,
+      "psnr_is_positive_infinity": false,
+      "ssim_mean": 0.7816660536927885,
+      "sam_mean_rad": 0.24529097871592553,
+      "sam_valid_pixels": 3072,
+      "sam_undefined_pixels": 0
+    }
+  },
+  "change_vs_largest": {
+    "128": {
+      "rmse": 0.00134950411372016,
+      "max_absolute": 0.010170161724090576,
+      "relative_l2": 0.0049742262172709755,
+      "reference_norm_zero": false
+    },
+    "160": {
+      "rmse": 0.00012776992282943322,
+      "max_absolute": 0.0011866092681884766,
+      "relative_l2": 0.00047095558542969236,
+      "reference_norm_zero": false
+    },
+    "192": {
+      "rmse": 1.8653699623425805e-05,
+      "max_absolute": 9.006261825561523e-05,
+      "relative_l2": 6.875690171862886e-05,
+      "reference_norm_zero": false
+    },
+    "256": {
+      "rmse": 0.0,
+      "max_absolute": 0.0,
+      "relative_l2": 0.0,
+      "reference_norm_zero": false
+    }
+  },
+  "adjacent_change": {
+    "128_to_160": {
+      "rmse": 0.0012425222397395898,
+      "max_absolute": 0.009114265441894531,
+      "relative_l2": 0.004578896270602549,
+      "reference_norm_zero": false
+    },
+    "160_to_192": {
+      "rmse": 0.0001260382385561822,
+      "max_absolute": 0.001115560531616211,
+      "relative_l2": 0.00046459451266526276,
+      "reference_norm_zero": false
+    },
+    "192_to_256": {
+      "rmse": 1.8653699623425805e-05,
+      "max_absolute": 9.006261825561523e-05,
+      "relative_l2": 6.875690171862886e-05,
+      "reference_norm_zero": false
+    }
+  },
+  "legacy_128_prediction_change": {
+    "rmse": 0.0008717360705255135,
+    "max_absolute": 0.005274713039398193,
+    "relative_l2": 0.0031950309765941165,
+    "reference_norm_zero": false
+  },
+  "legacy_128_measurement_change": {
+    "rmse": 0.22289487190450033,
+    "max_absolute": 2.3858283162117004,
+    "relative_l2": 0.1905002103125976,
+    "reference_norm_zero": false
+  },
+  "legacy_center_measurement_change": {
+    "rmse": 0.0,
+    "max_absolute": 0.0,
+    "relative_l2": 0.0,
+    "reference_norm_zero": false
+  },
+  "diagnostic_threshold": 0.01,
+  "last_pair_below_threshold": true,
+  "threshold_status": "engineering_diagnostic_only_not_paper_criterion",
+  "context_inference_seconds": {
+    "128": 0.7866360000043642,
+    "160": 0.9604612000111956,
+    "192": 1.5537748000060674,
+    "256": 2.8261712999956217
+  },
+  "response_status": "synthetic_not_calibrated",
+  "environment": {
+    "timestamp_local": "2026-10-06T13:05:32",
+    "python_version": "3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)]",
+    "python_executable": "D:\\dev\\python\\python3.10.4\\python.exe",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "platform_machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "os_cpu_count": 20,
+    "cwd_at_invocation": "D:\\PyCharmProjects\\Jeon2019\\work",
+    "project_root_resolved": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+    "argv": [
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main_g5_boundary.py"
+    ],
+    "numpy_version": "2.2.6",
+    "scipy_version": "1.15.3",
+    "matplotlib_version": "3.10.9",
+    "pytest_version": null,
+    "pytest_import_error": "ModuleNotFoundError: No module named 'pytest'"
+  },
+  "torch_version": "2.14.1+cpu",
+  "elapsed_seconds": 8.655771699995967,
+  "runtime": {
+    "save_results": true,
+    "show_plots": false
+  },
+  "backend": {
+    "backend": "Agg",
+    "available": false,
+    "reason": "未请求显示"
+  }
+}

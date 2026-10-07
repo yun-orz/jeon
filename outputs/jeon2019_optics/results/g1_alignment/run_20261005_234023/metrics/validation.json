@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "numerical_validation_passed": true,
+  "paper_alignment_passed": false,
+  "chirality_evidence_found": true,
+  "full_cw_bands": 25,
+  "propagated_fields": 31,
+  "refined_bands_nm": [
+    420,
+    540,
+    660
+  ],
+  "source_unchanged": true,
+  "height_fingerprint": "3469c7a4717a765d31e0433d9180c015520e00b99d08a0c656e791ac2b917f51",
+  "environment": {
+    "timestamp_local": "2026-10-05T23:40:36",
+    "python_version": "3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)]",
+    "python_executable": "D:\\dev\\python\\python3.10.4\\python.exe",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "platform_machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "os_cpu_count": 20,
+    "cwd_at_invocation": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+    "project_root_resolved": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+    "argv": [
+      "main_g1_alignment.py"
+    ],
+    "numpy_version": "2.2.6",
+    "scipy_version": "1.15.3",
+    "matplotlib_version": "3.10.9",
+    "pytest_version": null,
+    "pytest_import_error": "ModuleNotFoundError: No module named 'pytest'"
+  },
+  "runtime": {
+    "save_results": true,
+    "show_plots": false
+  },
+  "backend": {
+    "backend": "Agg",
+    "available": false,
+    "reason": "未请求显示"
+  },
+  "elapsed_s": 12.777175600000191,
+  "source_c3_span_deg": 135.75149017182628,
+  "source_registration_span_deg": 93.5,
+  "cw_c3_span_deg": -135.75149017182628,
+  "limitations": [
+    "角零点不是作者公开的坐标定义",
+    "CW仅三个波长重新进行采样筛查",
+    "尺寸变化仍存在",
+    "未取得原始PSF及图3物理标尺",
+    "C3累计角与模式配准累计角不同；高相邻相关不证明形状为严格刚性旋转"
+  ]
+}

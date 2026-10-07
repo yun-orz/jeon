@@ -1,0 +1,125 @@
+{
+  "status": "completed",
+  "fixed_scene_retest_completed": true,
+  "fresh_blind_test": false,
+  "held_out_from_gradient_updates": true,
+  "independent_scene_count": 1,
+  "roi_count": 4,
+  "optimizer_steps": 0,
+  "checkpoint_frozen": true,
+  "new_best_epoch": 8,
+  "old_summary_exact": false,
+  "old_summary_numerically_reproduced": true,
+  "old_summary_max_absolute_difference": 5.551115123125783e-17,
+  "summary": {
+    "original_g4": {
+      "mse_pooled": 0.09266959763463828,
+      "psnr_pooled_db": 10.330627226531686,
+      "psnr_is_positive_infinity": false,
+      "ssim_mean": 0.6456582033297026,
+      "sam_mean_rad": 0.49373230074290103,
+      "sam_valid_pixels": 4096,
+      "sam_undefined_pixels": 0
+    },
+    "expanded_g4": {
+      "mse_pooled": 0.0033694290045188924,
+      "psnr_pooled_db": 24.72443689988381,
+      "psnr_is_positive_infinity": false,
+      "ssim_mean": 0.7834790341585977,
+      "sam_mean_rad": 0.22306169112877994,
+      "sam_valid_pixels": 4096,
+      "sam_undefined_pixels": 0
+    }
+  },
+  "measurement_fit": {
+    "original_g4": {
+      "center_rgb_mse": 1.7734037079355192,
+      "center_relative_l2": 0.9043223171765222,
+      "zero_measurement_patches": 0,
+      "full_context_rgb_mse": 1.0304116607003466,
+      "convolution_scope": "full context FIRST, then center ROI",
+      "prediction_clipped": false
+    },
+    "expanded_g4": {
+      "center_rgb_mse": 0.0016586070784692132,
+      "center_relative_l2": 0.027656116743229386,
+      "zero_measurement_patches": 0,
+      "full_context_rgb_mse": 0.02112831685917742,
+      "convolution_scope": "full context FIRST, then center ROI",
+      "prediction_clipped": false
+    }
+  },
+  "protocol": {
+    "dataset_scope": "previously examined img5; fixed-scene repeated evaluation",
+    "target_unit": "relative_photons_train_scaled",
+    "normalization_scale": 0.019641629936370968,
+    "spectral_representation": "relative photons, sensitivity corrected; NOT absolute calibration or radiance",
+    "core_size": 32,
+    "halo": 48,
+    "psnr_formula": "10 log10(L^2 / pooled MSE), L fixed in training-scaled units",
+    "data_range": 1.0,
+    "ssim": "each band: Gaussian 11x11 sigma1.5, population moments, valid convolution, K1=.01 K2=.03; equal band/patch means; no downsampling",
+    "sam": "arccos(clipped normalized dot), radians; mean over valid pixel spectra; signed raw prediction",
+    "zero_norm_threshold": 1e-12,
+    "prediction_clipped": false,
+    "per_image_normalization": false,
+    "independent_test_set": false,
+    "checkpoint_frozen": true,
+    "optimizer_steps": 0,
+    "paper_table1": {
+      "pdf_page": 8,
+      "images": 10,
+      "ours_psnr_db": 35.88,
+      "ours_ssim": 0.93,
+      "ours_sam": 0.12,
+      "sam_unit_confirmed": false
+    },
+    "directly_comparable_to_paper": false,
+    "blockers": [
+      "not the ten KAIST test images",
+      "validation-selected checkpoint and small training subset",
+      "synthetic RGB response",
+      "optical size alignment unresolved",
+      "network implementation assumptions",
+      "paper PSNR range/aggregation and SSIM settings not fully specified",
+      "photon vs energy spectral representation not aligned"
+    ],
+    "fresh_blind_test": false,
+    "held_out_from_gradient_updates": true
+  },
+  "paper_alignment_passed": false,
+  "response_status": "synthetic_not_calibrated",
+  "height_fingerprint": "8527724f6aeffc0314d09313d89fdca0c2c864827e6a47308480968bcabc1350",
+  "device": "cpu",
+  "torch_version": "2.14.1+cpu",
+  "environment": {
+    "timestamp_local": "2026-10-06T09:31:37",
+    "python_version": "3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)]",
+    "python_executable": "D:\\dev\\python\\python3.10.4\\python.exe",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "platform_machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "os_cpu_count": 20,
+    "cwd_at_invocation": "D:\\PyCharmProjects\\Jeon2019\\work",
+    "project_root_resolved": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+    "argv": [
+      "D:/PyCharmProjects/Jeon2019/outputs/jeon2019_optics/main_g5_retest.py"
+    ],
+    "numpy_version": "2.2.6",
+    "scipy_version": "1.15.3",
+    "matplotlib_version": "3.10.9",
+    "pytest_version": null,
+    "pytest_import_error": "ModuleNotFoundError: No module named 'pytest'"
+  },
+  "runtime": {
+    "save_results": true,
+    "show_plots": false
+  },
+  "backend": {
+    "backend": "Agg",
+    "available": false,
+    "reason": "未请求显示"
+  },
+  "elapsed_s": 3.2166519000020344
+}

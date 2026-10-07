@@ -1,0 +1,202 @@
+[
+  {
+    "wavelength_nm": 420,
+    "pin": 7.85349e-07,
+    "pout": 7.853490000000006e-07,
+    "relative_error": 8.881784197001252e-16,
+    "native_spacing_m": 1.905626134301271e-05,
+    "passed": true
+  },
+  {
+    "wavelength_nm": 430,
+    "pin": 7.85349e-07,
+    "pout": 7.853490000000003e-07,
+    "relative_error": 4.440892098500626e-16,
+    "native_spacing_m": 1.9509981851179674e-05,
+    "passed": true
+  },
+  {
+    "wavelength_nm": 440,
+    "pin": 7.85349e-07,
+    "pout": 7.853490000000004e-07,
+    "relative_error": 4.440892098500626e-16,
+    "native_spacing_m": 1.9963702359346645e-05,
+    "passed": true
+  },
+  {
+    "wavelength_nm": 450,
+    "pin": 7.85349e-07,
+    "pout": 7.85349e-07,
+    "relative_error": 0.0,
+    "native_spacing_m": 2.0417422867513613e-05,
+    "passed": true
+  },
+  {
+    "wavelength_nm": 460,
+    "pin": 7.85349e-07,
+    "pout": 7.853490000000001e-07,
+    "relative_error": 2.220446049250313e-16,
+    "native_spacing_m": 2.0871143375680584e-05,
+    "passed": true
+  },
+  {
+    "wavelength_nm": 470,
+    "pin": 7.85349e-07,
+    "pout": 7.853490000000002e-07,
+    "relative_error": 2.220446049250313e-16,
+    "native_spacing_m": 2.1324863883847552e-05,
+    "passed": true
+  },
+  {
+    "wavelength_nm": 480,
+    "pin": 7.85349e-07,
+    "pout": 7.853490000000003e-07,
+    "relative_error": 4.440892098500626e-16,
+    "native_spacing_m": 2.177858439201452e-05,
+    "passed": true
+  },
+  {
+    "wavelength_nm": 490,
+    "pin": 7.85349e-07,
+    "pout": 7.853490000000001e-07,
+    "relative_error": 2.220446049250313e-16,
+    "native_spacing_m": 2.223230490018149e-05,
+    "passed": true
+  },
+  {
+    "wavelength_nm": 500,
+    "pin": 7.85349e-07,
+    "pout": 7.853489999999999e-07,
+    "relative_error": 1.1102230246251565e-16,
+    "native_spacing_m": 2.268602540834846e-05,
+    "passed": true
+  },
+  {
+    "wavelength_nm": 510,
+    "pin": 7.85349e-07,
+    "pout": 7.853490000000001e-07,
+    "relative_error": 2.220446049250313e-16,
+    "native_spacing_m": 2.3139745916515427e-05,
+    "passed": true
+  },
+  {
+    "wavelength_nm": 520,
+    "pin": 7.85349e-07,
+    "pout": 7.853489999999998e-07,
+    "relative_error": 2.220446049250313e-16,
+    "native_spacing_m": 2.3593466424682398e-05,
+    "passed": true
+  },
+  {
+    "wavelength_nm": 530,
+    "pin": 7.85349e-07,
+    "pout": 7.853489999999996e-07,
+    "relative_error": 5.551115123125783e-16,
+    "native_spacing_m": 2.404718693284937e-05,
+    "passed": true
+  },
+  {
+    "wavelength_nm": 540,
+    "pin": 7.85349e-07,
+    "pout": 7.853489999999999e-07,
+    "relative_error": 1.1102230246251565e-16,
+    "native_spacing_m": 2.450090744101634e-05,
+    "passed": true
+  },
+  {
+    "wavelength_nm": 550,
+    "pin": 7.85349e-07,
+    "pout": 7.85349e-07,
+    "relative_error": 0.0,
+    "native_spacing_m": 2.4954627949183305e-05,
+    "passed": true
+  },
+  {
+    "wavelength_nm": 560,
+    "pin": 7.85349e-07,
+    "pout": 7.853490000000001e-07,
+    "relative_error": 2.220446049250313e-16,
+    "native_spacing_m": 2.5408348457350276e-05,
+    "passed": true
+  },
+  {
+    "wavelength_nm": 570,
+    "pin": 7.85349e-07,
+    "pout": 7.853490000000002e-07,
+    "relative_error": 2.220446049250313e-16,
+    "native_spacing_m": 2.5862068965517248e-05,
+    "passed": true
+  },
+  {
+    "wavelength_nm": 580,
+    "pin": 7.85349e-07,
+    "pout": 7.853490000000008e-07,
+    "relative_error": 1.1102230246251565e-15,
+    "native_spacing_m": 2.6315789473684212e-05,
+    "passed": true
+  },
+  {
+    "wavelength_nm": 590,
+    "pin": 7.85349e-07,
+    "pout": 7.85349e-07,
+    "relative_error": 0.0,
+    "native_spacing_m": 2.6769509981851183e-05,
+    "passed": true
+  },
+  {
+    "wavelength_nm": 600,
+    "pin": 7.85349e-07,
+    "pout": 7.853489999999996e-07,
+    "relative_error": 5.551115123125783e-16,
+    "native_spacing_m": 2.7223230490018148e-05,
+    "passed": true
+  },
+  {
+    "wavelength_nm": 610,
+    "pin": 7.85349e-07,
+    "pout": 7.853490000000003e-07,
+    "relative_error": 4.440892098500626e-16,
+    "native_spacing_m": 2.7676950998185122e-05,
+    "passed": true
+  },
+  {
+    "wavelength_nm": 620,
+    "pin": 7.85349e-07,
+    "pout": 7.853489999999994e-07,
+    "relative_error": 7.771561172376096e-16,
+    "native_spacing_m": 2.813067150635209e-05,
+    "passed": true
+  },
+  {
+    "wavelength_nm": 630,
+    "pin": 7.85349e-07,
+    "pout": 7.853489999999997e-07,
+    "relative_error": 4.440892098500626e-16,
+    "native_spacing_m": 2.858439201451906e-05,
+    "passed": true
+  },
+  {
+    "wavelength_nm": 640,
+    "pin": 7.85349e-07,
+    "pout": 7.853489999999997e-07,
+    "relative_error": 4.440892098500626e-16,
+    "native_spacing_m": 2.903811252268603e-05,
+    "passed": true
+  },
+  {
+    "wavelength_nm": 650,
+    "pin": 7.85349e-07,
+    "pout": 7.853490000000001e-07,
+    "relative_error": 2.220446049250313e-16,
+    "native_spacing_m": 2.9491833030852997e-05,
+    "passed": true
+  },
+  {
+    "wavelength_nm": 660,
+    "pin": 7.85349e-07,
+    "pout": 7.853490000000001e-07,
+    "relative_error": 2.220446049250313e-16,
+    "native_spacing_m": 2.994555353901997e-05,
+    "passed": true
+  }
+]

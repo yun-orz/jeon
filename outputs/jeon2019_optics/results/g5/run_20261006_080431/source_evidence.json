@@ -1,0 +1,16 @@
+{
+  "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\g4\\run_20261006_074407",
+  "sha256": {
+    "arrays/best_checkpoint.pt": "c5042f981b4c117014552a73a9aa0e54a27680cfc32be0f1e4a8700bf892a1ad",
+    "arrays/g4_subset.npz": "2a8653c6b07e2fd72c626be377040ff5cf6d0a11d9611d4ae27db31d9a77e1c3",
+    "config_effective.json": "c244802e9e61af2f653f1bbf335687f4402277fb996333ec6aee60c73fa2ca00",
+    "dataset_manifest.json": "81d87c467f3cdf0fa13c87cdd32b34ef92f4a6f48366c2120f842bfdea9f7338",
+    "figures/training_validation_curve.png": "a6d366ed6f86d48cd7ca08511e50983ad4f6c4c36d3f1701e654b4e67d239c74",
+    "figures/validation_real_hsi.png": "f0c3e3ec6387fd3b35b7c860400411b7241387690ce2c1871feb6f1a64241994",
+    "metrics/training.json": "92a0c6c74c45ef3b2e0e61b903c45b39bc108ecb86688f2a04f249de13572faf",
+    "metrics/validation.json": "af7884698a7d2af4c4c6c034ce971221fefbbcf6959677b1407479209057ab10",
+    "report_g4.md": "67821b1d148e52e74a2a2796f77c5a2c6718f761a01a8f3ed898fa6b2b83c86a",
+    "source_evidence.json": "f980e42dff55f627da35765db825ef4eaddfc3111fa8bda09f14bc80bc2e93a1",
+    "source_manifest.json": "165c4a086bba576aa50b9e97a6d63d936bfc8540b87e97f71302708006d8ac15"
+  }
+}

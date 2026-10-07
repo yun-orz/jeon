@@ -1,0 +1,31 @@
+{
+  "g3": {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\g3\\run_20261006_000710",
+    "sha256": {
+      "arrays/g3_diagnostics.npz": "285f0b8fc949dde72986ffba2b6c1cdc35d4fa372e0272b9f3bc61bf16994fd4",
+      "arrays/smoke_checkpoint.pt": "466a37fbaf19068d3ff31e16df625d6a7248f308b803386e23bcd98ba983e591",
+      "config_effective.json": "9a522c79f11c68e9007cf47d841397493dd1160715d61a7f42ad837767a516fe",
+      "figures/stage_and_gradient_checks.png": "b72f67f720337bf5fe13e5fa7d0d5c618c448cf47fa4d67677266903a0ff00b6",
+      "figures/untrained_smoke_comparison.png": "4746a5df11b0d88567d51bcb88c563ff5d0d4609b95c573b3eddc1093ddf7aaf",
+      "metrics/gradient_smoke.json": "4cd01fc5f250d7c649f85a708d71e6dc00f44245b638172f7ae4cd9dac9179e7",
+      "metrics/optical_checks.json": "743cea1ec2368cc0908e4d7867fdc024095005f877c876dcdda49120d5857378",
+      "metrics/stage_checks.json": "17480cb881dbcd72fb05cda4136ea55017f14b201749a556018cddb9d5b4685d",
+      "metrics/validation.json": "748ba82f4d4711d6f657a3351e7e0a3c538b14ceef97fb0aebcb1c4bf02191ae",
+      "report_g3.md": "42bb82c32362cc3dcca030959d5ae3d42f4b0831ad36721048fee862255809ef",
+      "source_evidence.json": "0414f2a3b8f718e2fd20e5c81d6fbbe6b4320ce8891e68c1c6270660f005fff2",
+      "source_manifest.json": "1e0c8f75cbda7be88017275e6f5ba536c7f5a40a3c4f57136ea9b6afb725fadd"
+    }
+  },
+  "dataset": {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\harvard_g4_20261006",
+    "sha256": {
+      "calib.txt": "e8b0945a2e1f42fbc0219570b2d1f67112cacaded91a7b13859f22c78231801b",
+      "calibration_download_manifest.json": "b8974739bc4a8c5b04e32d4f2eb397cfbcf2c91b5e5b1b47aea16ab8907e0b16",
+      "capture_identity_preview.png": "d87edb30cbab0b7c3f8eeffc312d158af7181b79ab2d57a85dcde45ee79ea19a",
+      "download_manifest.json": "8f624c7b48627e760de70ccef84baecaafde9bb525766d0c6132acffdcb89d81",
+      "img3.mat": "d1d59fb149bbf127a354ef8893d801eeb06f21266c7d8af8b34b213609a863b6",
+      "img4.mat": "4f9e10f7873c6d1c06fb66a24edb05b052392e92d3190cc2f7254a0dcd107f3d",
+      "README.txt": "4d2451a370129e4db45ba7468b5f5e67d05f2ae12b40f0af4878b337808dac18"
+    }
+  }
+}

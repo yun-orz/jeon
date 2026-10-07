@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "numpy_forward_relative": 5.76871315127706e-16,
+  "numpy_adjoint_relative": 4.927312588584705e-16,
+  "adjoint_inner_product_relative": 0.0,
+  "autograd_adjoint_relative": 3.9351137576671926e-16
+}

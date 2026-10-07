@@ -1,0 +1,122 @@
+{
+  "summary": {
+    "equivalence": [
+      {
+        "wavelength_nm": 420,
+        "unit_phase_aligned_field_relative_l2": 1.5413405208480483e-10,
+        "detector_kernel_difference": {
+          "relative_l1": 1.2067151922535798e-10,
+          "relative_l2": 7.706416440916175e-11,
+          "max_absolute": 2.40990387367912e-13
+        }
+      },
+      {
+        "wavelength_nm": 540,
+        "unit_phase_aligned_field_relative_l2": 1.4304486148372647e-10,
+        "detector_kernel_difference": {
+          "relative_l1": 9.759541567618917e-11,
+          "relative_l2": 5.952914110487368e-11,
+          "max_absolute": 2.609080486382087e-13
+        }
+      },
+      {
+        "wavelength_nm": 660,
+        "unit_phase_aligned_field_relative_l2": 1.476317320978231e-10,
+        "detector_kernel_difference": {
+          "relative_l1": 1.3613193462814937e-10,
+          "relative_l2": 1.0946697181940943e-10,
+          "max_absolute": 2.966021525607765e-13
+        }
+      }
+    ],
+    "rows": [
+      {
+        "wavelength_nm": 420,
+        "change_4096_to_5120": {
+          "relative_l1": 0.0017914831760214435,
+          "relative_l2": 0.001108823960186936,
+          "max_absolute": 6.720240842997879e-06
+        },
+        "reference_difference": {
+          "relative_l1": 0.0016273295201566938,
+          "relative_l2": 0.0010082834007788155,
+          "max_absolute": 4.346114362765042e-06
+        },
+        "full_grid_power_over_input": 1.0000000000000004,
+        "detector_efficiency": 0.8954627670859712,
+        "same_input_height_fingerprint": "3469c7a4717a765d31e0433d9180c015520e00b99d08a0c656e791ac2b917f51"
+      },
+      {
+        "wavelength_nm": 540,
+        "change_4096_to_5120": {
+          "relative_l1": 0.0010885637667339652,
+          "relative_l2": 0.0005294382199931161,
+          "max_absolute": 3.372263355532444e-06
+        },
+        "reference_difference": {
+          "relative_l1": 0.0010607567338783684,
+          "relative_l2": 0.0006725985185340636,
+          "max_absolute": 4.3001698833075586e-06
+        },
+        "full_grid_power_over_input": 1.0,
+        "detector_efficiency": 0.9414672881688582,
+        "same_input_height_fingerprint": "3469c7a4717a765d31e0433d9180c015520e00b99d08a0c656e791ac2b917f51"
+      },
+      {
+        "wavelength_nm": 660,
+        "change_4096_to_5120": {
+          "relative_l1": 0.003540461724184598,
+          "relative_l2": 0.002038055314754882,
+          "max_absolute": 7.429137556480298e-06
+        },
+        "reference_difference": {
+          "relative_l1": 0.0010694743222061207,
+          "relative_l2": 0.0006481451321694169,
+          "max_absolute": 2.719463339148718e-06
+        },
+        "full_grid_power_over_input": 0.9999999999999999,
+        "detector_efficiency": 0.8649775444114365,
+        "same_input_height_fingerprint": "3469c7a4717a765d31e0433d9180c015520e00b99d08a0c656e791ac2b917f51"
+      }
+    ],
+    "last_padding_pair_below_threshold": true,
+    "reference_below_threshold": true,
+    "numerical_health_passed": true,
+    "comparison_threshold": 0.01,
+    "equivalence_threshold": 1e-07,
+    "new_padding_size": 5120,
+    "execution_backend": "scipy FFT periodic Fresnel; not a direct LightPipes5120 call",
+    "direct_lightpipes_5120_executed": false,
+    "lightpipes_4096_source_reproduced": true,
+    "height_fingerprint": "3469c7a4717a765d31e0433d9180c015520e00b99d08a0c656e791ac2b917f51",
+    "paper_alignment_passed": false,
+    "infinite_domain_convergence_proved": false,
+    "scope": "three control wavelengths and one adjacent padding pair; same sampled DOE and common detector pixels"
+  },
+  "environment": {
+    "timestamp_local": "2026-10-06T13:38:36",
+    "python_version": "3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)]",
+    "python_executable": "D:\\dev\\python\\python3.10.4\\python.exe",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "platform_machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "os_cpu_count": 20,
+    "cwd_at_invocation": "D:\\PyCharmProjects\\Jeon2019\\work",
+    "project_root_resolved": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+    "argv": [
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main_g1_padding.py"
+    ],
+    "numpy_version": "2.2.6",
+    "scipy_version": "1.15.3",
+    "matplotlib_version": "3.10.9",
+    "pytest_version": null,
+    "pytest_import_error": "ModuleNotFoundError: No module named 'pytest'"
+  },
+  "backend": {
+    "backend": "Agg",
+    "available": false,
+    "reason": "未请求显示"
+  },
+  "elapsed_seconds": 15.105613500025356
+}

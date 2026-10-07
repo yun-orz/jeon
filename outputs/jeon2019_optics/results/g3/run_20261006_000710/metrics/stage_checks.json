@@ -1,0 +1,60 @@
+{
+  "untrained": [
+    {
+      "stage": 0,
+      "epsilon": 0.05000000447034836,
+      "rho": 0.10000000149011612,
+      "threshold": 0.010000001639127731,
+      "equation21_relative": 5.613816256300197e-08,
+      "measurement_relative": 0.9533055424690247,
+      "finite": true
+    },
+    {
+      "stage": 1,
+      "epsilon": 0.05000000447034836,
+      "rho": 0.10000000149011612,
+      "threshold": 0.010000001639127731,
+      "equation21_relative": 5.6464276809720104e-08,
+      "measurement_relative": 0.8286362290382385,
+      "finite": true
+    },
+    {
+      "stage": 2,
+      "epsilon": 0.05000000447034836,
+      "rho": 0.10000000149011612,
+      "threshold": 0.010000001639127731,
+      "equation21_relative": 5.6592877939465325e-08,
+      "measurement_relative": 0.7227265238761902,
+      "finite": true
+    }
+  ],
+  "smoke": [
+    {
+      "stage": 0,
+      "epsilon": 0.050009749829769135,
+      "rho": 0.10001904517412186,
+      "threshold": 0.009998038411140442,
+      "equation21_relative": 6.242840555614748e-08,
+      "measurement_relative": 0.9531216025352478,
+      "finite": true
+    },
+    {
+      "stage": 1,
+      "epsilon": 0.050009749829769135,
+      "rho": 0.10001904517412186,
+      "threshold": 0.009998018853366375,
+      "equation21_relative": 6.190478529788379e-08,
+      "measurement_relative": 0.828281044960022,
+      "finite": true
+    },
+    {
+      "stage": 2,
+      "epsilon": 0.050009749829769135,
+      "rho": 0.10001904517412186,
+      "threshold": 0.009998084977269173,
+      "equation21_relative": 6.15034352335897e-08,
+      "measurement_relative": 0.7222548723220825,
+      "finite": true
+    }
+  ]
+}

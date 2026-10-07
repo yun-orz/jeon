@@ -1,0 +1,96 @@
+{
+  "status": "completed",
+  "metric_implementation_passed": true,
+  "model_reload_exact": true,
+  "validation_diagnostic_only": true,
+  "paper_alignment_passed": false,
+  "independent_test_set": false,
+  "best_epoch": 2,
+  "summary": {
+    "untrained": {
+      "mse_pooled": 0.030340042938284212,
+      "psnr_pooled_db": 15.179838089201947,
+      "psnr_pooled_is_positive_infinity": false,
+      "ssim_mean": 0.5282987296198062,
+      "sam_mean_rad": 0.4949207318541899,
+      "sam_valid_pixels": 2048,
+      "sam_undefined_pixels": 0
+    },
+    "best_epoch": {
+      "mse_pooled": 0.015939377989621337,
+      "psnr_pooled_db": 17.97528630301631,
+      "psnr_pooled_is_positive_infinity": false,
+      "ssim_mean": 0.5954618794897443,
+      "sam_mean_rad": 0.46305870440528124,
+      "sam_valid_pixels": 2048,
+      "sam_undefined_pixels": 0
+    }
+  },
+  "protocol": {
+    "dataset_scope": "G4 img4 validation: used to select best epoch, NOT independent test",
+    "target_unit": "relative_photons_train_scaled",
+    "normalization_scale": 0.019641629936370968,
+    "spectral_representation": "relative photons, sensitivity corrected; NOT absolute calibration or radiance",
+    "core_size": 32,
+    "halo": 48,
+    "psnr_formula": "10 log10(L^2 / pooled MSE), L fixed in training-scaled units",
+    "data_range": 1.0,
+    "ssim": "each band: Gaussian 11x11 sigma1.5, population moments, valid convolution, K1=.01 K2=.03; equal band/patch means; no downsampling",
+    "sam": "arccos(clipped normalized dot), radians; mean over valid pixel spectra; signed raw prediction",
+    "zero_norm_threshold": 1e-12,
+    "prediction_clipped": false,
+    "per_image_normalization": false,
+    "independent_test_set": false,
+    "checkpoint_frozen": true,
+    "optimizer_steps": 0,
+    "paper_table1": {
+      "pdf_page": 8,
+      "images": 10,
+      "ours_psnr_db": 35.88,
+      "ours_ssim": 0.93,
+      "ours_sam": 0.12,
+      "sam_unit_confirmed": false
+    },
+    "directly_comparable_to_paper": false,
+    "blockers": [
+      "not the ten KAIST test images",
+      "validation-selected checkpoint and small training subset",
+      "synthetic RGB response",
+      "optical size alignment unresolved",
+      "network implementation assumptions",
+      "paper PSNR range/aggregation and SSIM settings not fully specified",
+      "photon vs energy spectral representation not aligned"
+    ]
+  },
+  "environment": {
+    "timestamp_local": "2026-10-06T08:04:32",
+    "python_version": "3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)]",
+    "python_executable": "D:\\dev\\python\\python3.10.4\\python.exe",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "platform_machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "os_cpu_count": 20,
+    "cwd_at_invocation": "D:\\PyCharmProjects\\Jeon2019\\work",
+    "project_root_resolved": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+    "argv": [
+      "D:/PyCharmProjects/Jeon2019/outputs/jeon2019_optics/main_g5.py"
+    ],
+    "numpy_version": "2.2.6",
+    "scipy_version": "1.15.3",
+    "matplotlib_version": "3.10.9",
+    "pytest_version": null,
+    "pytest_import_error": "ModuleNotFoundError: No module named 'pytest'"
+  },
+  "torch_version": "2.14.1+cpu",
+  "device": "cpu",
+  "runtime": {
+    "save_results": true,
+    "show_plots": false
+  },
+  "backend": {
+    "backend": "Agg",
+    "available": false,
+    "reason": "未请求显示"
+  }
+}

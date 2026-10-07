@@ -1,0 +1,33 @@
+{
+  "original_test": {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\g5_test\\run_20261006_081215",
+    "sha256": {
+      "arrays/heldout_test.npz": "b13af394bd71d67d3877377b278e21826c83c7a2b3c5fe596032665483f2320b",
+      "config_effective.json": "4b94e955ec51e354b19643a900ef183c90f59c590408da42f157bc40c51a7f65",
+      "dataset_manifest.json": "695341469386a31544ad42e044e15b6443cad87582b2aea0389d851872127d92",
+      "figures/heldout_per_band.png": "6471f0a0c85247caa4df2a5b36c3af57e936d833def440d18a7f512a6c171607",
+      "figures/heldout_reconstruction.png": "27a39496a4a74f73214aa3d23b1aebab935ddd24fa03401fd46386298b9dfc92",
+      "metrics/per_band.csv": "e8ed8d715303c924f077c22393fa744db2685ed0d7802a9a535e51e1f35d40ca",
+      "metrics/scores.json": "116947abcf9233fdfbf021249db17df6b485ec9df81e6466908b82ed3451f65a",
+      "metrics/validation.json": "db80788bf8dea4c8ca25b3f2ee88da6e6d459f478a209ae4a6a4629613c84d02",
+      "source_evidence.json": "3fe66b1cb58d1d112750303cd00a8fdf01abc15b788670defbdd9f1856b00da2",
+      "source_manifest.json": "26a0668cbb6372aecfb4133a4b4f45a3fe5b7256127708266c9aa53498f4ea38"
+    }
+  },
+  "expanded_training": {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\g4_expand\\run_20261006_090723",
+    "sha256": {
+      "arrays/best_checkpoint.pt": "3f72bb6b065e70f0c15cedf6b58c8df38fd14353ac0c3b3799946e74c16398fb",
+      "arrays/expanded_subset.npz": "eb9aa89f3b8c231341b74a6f504c8b20125b86caeb9ae8f1eacd03c10ccb0eaa",
+      "config_effective.json": "5e1946db4ae264e0b71f4f9f2a0b1939a02d430dd3bce774af7f13f21d9cc752",
+      "dataset_manifest.json": "1315fdad205e8d0a133649737453748eaa5dd849282b6bae94175678383e8b7f",
+      "figures/expanded_training_curve.png": "a5230704520667dc736bfab95482cb77a3760f9a28fc8effb2a8b07c4db93ca8",
+      "figures/expanded_validation.png": "33b2643cafdd5ce1de733b42cfb268bfed667ca88eba6cc8b1b1a390a9a5eba4",
+      "metrics/scores.json": "fc69333ac34ee5dc8954d85da98e666a4304464c78bfec581c22c9fd1ea92fbb",
+      "metrics/training.json": "d521234f5c684d12a3341f0960e3558907f4b893c68451cfa114901006dc351e",
+      "metrics/validation.json": "686fd8b850294b17171765af8f3ef13fd96f4300f61c7e59c0ed9f4894ff0abc",
+      "source_evidence.json": "79c43217fd3f57d8f551840ff14dee3bca8ed7a8a9377264e2d2493e60148cef",
+      "source_manifest.json": "3960d168267926e817eaa33b9ec25c14b19fc42322c0527763c1ade60a1d997d"
+    }
+  }
+}

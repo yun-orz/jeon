@@ -1,0 +1,224 @@
+{
+  "adjacent": [
+    {
+      "angle_deg": 4.0,
+      "score": 0.9899934442206318,
+      "reliable": true,
+      "angular_resolution_deg": 0.5,
+      "boundary_peak": false,
+      "raw_angle_deg": 4.0
+    },
+    {
+      "angle_deg": 4.5,
+      "score": 0.9872946431815546,
+      "reliable": true,
+      "angular_resolution_deg": 0.5,
+      "boundary_peak": false,
+      "raw_angle_deg": 4.5
+    },
+    {
+      "angle_deg": 5.0,
+      "score": 0.9809944728569281,
+      "reliable": true,
+      "angular_resolution_deg": 0.5,
+      "boundary_peak": false,
+      "raw_angle_deg": 5.0
+    },
+    {
+      "angle_deg": 4.5,
+      "score": 0.9787045092323701,
+      "reliable": true,
+      "angular_resolution_deg": 0.5,
+      "boundary_peak": false,
+      "raw_angle_deg": 4.5
+    },
+    {
+      "angle_deg": 4.5,
+      "score": 0.9819448840120995,
+      "reliable": true,
+      "angular_resolution_deg": 0.5,
+      "boundary_peak": false,
+      "raw_angle_deg": 4.5
+    },
+    {
+      "angle_deg": 4.0,
+      "score": 0.9863221593258819,
+      "reliable": true,
+      "angular_resolution_deg": 0.5,
+      "boundary_peak": false,
+      "raw_angle_deg": 4.0
+    },
+    {
+      "angle_deg": 4.0,
+      "score": 0.9888593722692918,
+      "reliable": true,
+      "angular_resolution_deg": 0.5,
+      "boundary_peak": false,
+      "raw_angle_deg": 4.0
+    },
+    {
+      "angle_deg": 4.0,
+      "score": 0.9896557871726783,
+      "reliable": true,
+      "angular_resolution_deg": 0.5,
+      "boundary_peak": false,
+      "raw_angle_deg": 4.0
+    },
+    {
+      "angle_deg": 4.5,
+      "score": 0.9897231398293067,
+      "reliable": true,
+      "angular_resolution_deg": 0.5,
+      "boundary_peak": false,
+      "raw_angle_deg": 4.5
+    },
+    {
+      "angle_deg": 5.0,
+      "score": 0.9898315002582754,
+      "reliable": true,
+      "angular_resolution_deg": 0.5,
+      "boundary_peak": false,
+      "raw_angle_deg": 5.0
+    },
+    {
+      "angle_deg": 5.0,
+      "score": 0.9903718575065323,
+      "reliable": true,
+      "angular_resolution_deg": 0.5,
+      "boundary_peak": false,
+      "raw_angle_deg": 5.0
+    },
+    {
+      "angle_deg": 4.5,
+      "score": 0.9910309635037726,
+      "reliable": true,
+      "angular_resolution_deg": 0.5,
+      "boundary_peak": false,
+      "raw_angle_deg": 4.5
+    },
+    {
+      "angle_deg": 4.0,
+      "score": 0.991718424409664,
+      "reliable": true,
+      "angular_resolution_deg": 0.5,
+      "boundary_peak": false,
+      "raw_angle_deg": 4.0
+    },
+    {
+      "angle_deg": 4.0,
+      "score": 0.9920983815185139,
+      "reliable": true,
+      "angular_resolution_deg": 0.5,
+      "boundary_peak": false,
+      "raw_angle_deg": 4.0
+    },
+    {
+      "angle_deg": 3.5,
+      "score": 0.9919717388776421,
+      "reliable": true,
+      "angular_resolution_deg": 0.5,
+      "boundary_peak": false,
+      "raw_angle_deg": 3.5
+    },
+    {
+      "angle_deg": 3.0,
+      "score": 0.9907654819339701,
+      "reliable": true,
+      "angular_resolution_deg": 0.5,
+      "boundary_peak": false,
+      "raw_angle_deg": 3.0
+    },
+    {
+      "angle_deg": 3.0,
+      "score": 0.9885864768261265,
+      "reliable": true,
+      "angular_resolution_deg": 0.5,
+      "boundary_peak": false,
+      "raw_angle_deg": 3.0
+    },
+    {
+      "angle_deg": 3.5,
+      "score": 0.9857464455923147,
+      "reliable": true,
+      "angular_resolution_deg": 0.5,
+      "boundary_peak": false,
+      "raw_angle_deg": 3.5
+    },
+    {
+      "angle_deg": 3.5,
+      "score": 0.9835828574733805,
+      "reliable": true,
+      "angular_resolution_deg": 0.5,
+      "boundary_peak": false,
+      "raw_angle_deg": 3.5
+    },
+    {
+      "angle_deg": 3.5,
+      "score": 0.9839969502658995,
+      "reliable": true,
+      "angular_resolution_deg": 0.5,
+      "boundary_peak": false,
+      "raw_angle_deg": 3.5
+    },
+    {
+      "angle_deg": 3.5,
+      "score": 0.9872322267127779,
+      "reliable": true,
+      "angular_resolution_deg": 0.5,
+      "boundary_peak": false,
+      "raw_angle_deg": 3.5
+    },
+    {
+      "angle_deg": 3.0,
+      "score": 0.9913413802902498,
+      "reliable": true,
+      "angular_resolution_deg": 0.5,
+      "boundary_peak": false,
+      "raw_angle_deg": 3.0
+    },
+    {
+      "angle_deg": 3.0,
+      "score": 0.9945700753032757,
+      "reliable": true,
+      "angular_resolution_deg": 0.5,
+      "boundary_peak": false,
+      "raw_angle_deg": 3.0
+    },
+    {
+      "angle_deg": 2.5,
+      "score": 0.9967021113434639,
+      "reliable": true,
+      "angular_resolution_deg": 0.5,
+      "boundary_peak": false,
+      "raw_angle_deg": 2.5
+    }
+  ],
+  "cumulative_angle_deg": [
+    0.0,
+    4.0,
+    8.5,
+    13.5,
+    18.0,
+    22.5,
+    26.5,
+    30.5,
+    34.5,
+    39.0,
+    44.0,
+    49.0,
+    53.5,
+    57.5,
+    61.5,
+    65.0,
+    68.0,
+    71.0,
+    74.5,
+    78.0,
+    81.5,
+    85.0,
+    88.0,
+    91.0,
+    93.5
+  ],
+  "all_reliable": true
+}

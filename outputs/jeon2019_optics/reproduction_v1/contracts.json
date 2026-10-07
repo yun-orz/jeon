@@ -1,0 +1,21 @@
+{
+  "schema": "jeon2019-handoff-contracts-v1",
+  "tensor_shapes": {"hsi": "[N,25,H,W]", "rgb": "[N,3,H,W]"},
+  "operator_package": {
+    "required": ["schema", "version", "method", "wavelengths_nm", "kernels_native", "kernels_training", "kernel_sha256", "coordinates_m", "pixel_pitch_m", "spectral_response", "response_sha256", "spectral_weights", "measurement_gain", "radiometric_units", "height_sha256", "mapping", "sources", "assumptions", "audit", "fingerprint"],
+    "constraints": ["25中心波长", "两器件共同训练集增益", "有限窗口质量不逐波段归一化", "相对响应不是绝对QE", "同一固定高度", "谱带积分因子只计一次", "源文件和配置均纳入指纹"]
+  },
+  "data_manifest": {
+    "required": ["schema", "version", "dataset", "scene_id", "scene_group_id", "source_files", "source_sha256", "wavelength_mapping", "radiometric_units", "valid_mask", "calibration", "preprocessing_version", "split", "normalization_training_fit", "base_resolution", "augmentation_scales", "patch_index", "operator_fingerprint", "fingerprint"],
+    "constraints": ["场景组在拆patch前划分", "分组与重复无跨集", "不从测试补足数据", "只用训练拟合尺度和共同增益", "EXR波长按通道名", "测试冻结到M7", "单场景缓存≤512MiB"]
+  },
+  "checkpoint": {
+    "required": ["schema", "model", "adam", "scheduler", "epoch", "update_step", "sample_cursor", "sampler_state", "rng_python", "rng_numpy", "rng_torch_cpu", "rng_torch_cuda", "best_validation", "operator_fingerprint", "data_fingerprint", "config_fingerprint", "parent_checkpoint", "execution_id", "save_reason", "complete_epoch"],
+    "constraints": ["旧模型权重不能冒称恢复checkpoint", "只在安全优化器边界保存", "恢复到新执行目录", "每epoch/60分钟/预算停止保存新名字", "错误指纹拒绝", "写入失败无完成标记", "恢复样本/噪声/学习率序列一致"]
+  },
+  "milestone_report": {
+    "required": ["milestone", "status", "commands", "effective_config", "input_fingerprints", "output_fingerprints", "key_numbers", "failures", "acceptance", "resume_command", "next_inputs", "paper_alignment_passed"],
+    "statuses": ["passed", "failed", "budget_stopped", "space_stopped", "dependency_pending"],
+    "constraints": ["中文报告", "程序通过不推出论文对齐", "未执行检查不可标通过", "工作包有界执行完成不等于全部训练完成"]
+  }
+}

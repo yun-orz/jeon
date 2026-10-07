@@ -1,0 +1,130 @@
+{
+  "train": {
+    "scene": "img3.mat",
+    "sha256": "d1d59fb149bbf127a354ef8893d801eeb06f21266c7d8af8b34b213609a863b6",
+    "shape": [
+      1040,
+      1392,
+      31
+    ],
+    "eligible_tiles": 76,
+    "origins_yx": [
+      [
+        640,
+        640
+      ],
+      [
+        768,
+        512
+      ],
+      [
+        256,
+        512
+      ],
+      [
+        256,
+        1024
+      ]
+    ],
+    "patches": 4,
+    "all_context_pixels_valid": true,
+    "raw_min": 0.0,
+    "raw_max": 0.05334554055085069
+  },
+  "validation": {
+    "scene": "img4.mat",
+    "sha256": "4f9e10f7873c6d1c06fb66a24edb05b052392e92d3190cc2f7254a0dcd107f3d",
+    "shape": [
+      1040,
+      1392,
+      31
+    ],
+    "eligible_tiles": 80,
+    "origins_yx": [
+      [
+        128,
+        896
+      ],
+      [
+        896,
+        640
+      ]
+    ],
+    "patches": 2,
+    "all_context_pixels_valid": true,
+    "raw_min": 0.0,
+    "raw_max": 0.06163118944075685
+  },
+  "normalization_scale": 0.019641629936370968,
+  "normalization_fit": "train_context_only",
+  "normalization_percentile": 99.0,
+  "wavelengths_nm": [
+    420,
+    430,
+    440,
+    450,
+    460,
+    470,
+    480,
+    490,
+    500,
+    510,
+    520,
+    530,
+    540,
+    550,
+    560,
+    570,
+    580,
+    590,
+    600,
+    610,
+    620,
+    630,
+    640,
+    650,
+    660
+  ],
+  "sensitivity": [
+    0.07582223,
+    0.11085362,
+    0.15499444,
+    0.19669126,
+    0.25034297,
+    0.27651581,
+    0.31691581,
+    0.37851196,
+    0.4218334,
+    0.45967713,
+    0.51717121,
+    0.55704796,
+    0.58606052,
+    0.66835907,
+    0.67580378,
+    0.68838983,
+    0.70713197,
+    0.76301691,
+    0.77116192,
+    0.77402294,
+    0.80076054,
+    0.82445726,
+    0.92331913,
+    0.92700961,
+    0.92251713,
+    0.91098958,
+    0.90504569,
+    0.90276792,
+    1.0,
+    0.95739246,
+    0.87174851
+  ],
+  "sensitivity_sha256": "e8b0945a2e1f42fbc0219570b2d1f67112cacaded91a7b13859f22c78231801b",
+  "photon_conversion": "(ref / relative_sensitivity) * wavelength_nm / 540; absolute factor unknown",
+  "scene_split_disjoint": true,
+  "core_size": 32,
+  "halo": 48,
+  "context_size": 128,
+  "license_page": "https://vision.seas.harvard.edu/hyperspec/download.html",
+  "dataset_url": "https://vision.seas.harvard.edu/hyperspec/d2x5g3/CZ_hsdbi.tgz",
+  "absolute_photon_calibration": false
+}

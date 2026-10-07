@@ -1,0 +1,21 @@
+{
+  "source_g4": "results/g4/run_20261006_074407",
+  "source_audit": "../执行_G4_20261006/最终审核.json",
+  "source_g5": "results/g5/run_20261006_080431",
+  "g5_audit": "../执行_G5_20261006/最终审核.json",
+  "test_dataset": {
+    "directory": "../../work/datasets/harvard_g5_test_20261006_retry1",
+    "patches": 4,
+    "seed": 20261006
+  },
+  "data_range": 1.0,
+  "zero_norm_threshold": 1e-12,
+  "cpu_threads": 4,
+  "runtime": {
+    "save_results": true,
+    "show_plots": false
+  },
+  "plots": {
+    "dpi": 150
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "source_run": "results/g2/run_20261005_234941",
+  "source_audit": "../执行_G2_20261005/最终审核.json",
+  "network": {"stages": 3, "features": 64, "levels": 4, "epsilon_init": 0.05, "rho_init": 0.1, "threshold_init": 0.01},
+  "smoke": {"steps": 2, "patch_size": 32, "learning_rate": 0.0001, "normalization_photons": 1000.0},
+  "seed": 20261006,
+  "cpu_threads": 4,
+  "thresholds": {"numpy_operator_relative": 1e-11, "torch_adjoint_relative": 1e-11},
+  "runtime": {"save_results": true, "show_plots": false},
+  "plots": {"dpi": 150}
+}

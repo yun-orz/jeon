@@ -1,0 +1,125 @@
+{
+  "status": "completed",
+  "numerical_validation_passed": true,
+  "paper_alignment_passed": false,
+  "paper_rotation_direction": "正文为顺时针；与当前坐标对应未解决",
+  "g0_physics_check": {
+    "passed": true,
+    "files": 35
+  },
+  "completed_bands": 25,
+  "propagated_fields": 75,
+  "readback_passed": true,
+  "anchors": [
+    {
+      "wavelength_nm": 420,
+      "exact_equal": true
+    },
+    {
+      "wavelength_nm": 540,
+      "exact_equal": true
+    },
+    {
+      "wavelength_nm": 660,
+      "exact_equal": true
+    }
+  ],
+  "config": {
+    "optical": {
+      "diameter_m": 0.001,
+      "focal_length_m": 0.05,
+      "distance_m": 0.05,
+      "wings_N": 3,
+      "lambda_min_m": 4.2e-07,
+      "lambda_max_m": 6.6e-07
+    },
+    "wavelengths_nm": [
+      420,
+      430,
+      440,
+      450,
+      460,
+      470,
+      480,
+      490,
+      500,
+      510,
+      520,
+      530,
+      540,
+      550,
+      560,
+      570,
+      580,
+      590,
+      600,
+      610,
+      620,
+      630,
+      640,
+      650,
+      660
+    ],
+    "input": {
+      "n": 1101,
+      "spacing_m": 1e-06,
+      "refinement_factor": 2
+    },
+    "detector": {
+      "pixels_per_axis": 97,
+      "pitch_m": 6.22e-06,
+      "quadrature_main": 8,
+      "quadrature_coarse": 4
+    },
+    "thresholds": {
+      "pixel_l1": 0.005,
+      "pixel_l2": 0.01,
+      "eta_absolute": 0.001,
+      "angle_deg": 0.5,
+      "radius_pixels": 1.0
+    },
+    "legacy_source": "results/stage02c/run_20261002_172338",
+    "g0_manifest": "../../baseline/g0_20261005/manifest.json",
+    "budget_seconds": 600.0,
+    "runtime": {
+      "save_results": true,
+      "show_plots": false
+    },
+    "plots": {
+      "dpi": 150
+    }
+  },
+  "runtime": {
+    "save_results": true,
+    "show_plots": false
+  },
+  "backend": {
+    "backend": "Agg",
+    "available": false,
+    "reason": "未请求显示"
+  },
+  "environment": {
+    "timestamp_local": "2026-10-05T23:16:54",
+    "python_version": "3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)]",
+    "python_executable": "D:\\dev\\python\\python3.10.4\\python.exe",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "platform_machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "os_cpu_count": 20,
+    "cwd_at_invocation": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+    "project_root_resolved": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+    "argv": [
+      "main_g1.py"
+    ],
+    "numpy_version": "2.2.6",
+    "scipy_version": "1.15.3",
+    "matplotlib_version": "3.10.9",
+    "pytest_version": null,
+    "pytest_import_error": "ModuleNotFoundError: No module named 'pytest'"
+  },
+  "height_fingerprint": "8527724f6aeffc0314d09313d89fdca0c2c864827e6a47308480968bcabc1350",
+  "fine_height_fingerprint": "c8642edd4f86afb7bc965babc59a1b2433733a620a10ed83135636eb9bfbb99b",
+  "elapsed_s": 149.6880753999867,
+  "scope": "G1：Jeon连续光学编码25波段数值模型；非完整论文复现"
+}

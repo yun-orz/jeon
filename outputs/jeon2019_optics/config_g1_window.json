@@ -1,0 +1,11 @@
+{
+  "source_alignment": "results/g1_alignment/run_20261005_234023",
+  "source_g1": "results/g1/run_20261005_231424",
+  "wavelengths_nm": [420,450,480,510,540,570,600,630,660],
+  "pixels_per_axis": 161,
+  "quadrature_main": 8,
+  "quadrature_reference": 4,
+  "thresholds": {"crop_relative_l1": 1e-10, "quadrature_relative_l1": 0.005, "quadrature_relative_l2": 0.01, "phase_cycles": 1e-10},
+  "runtime": {"save_results": true, "show_plots": false},
+  "plots": {"dpi": 150}
+}

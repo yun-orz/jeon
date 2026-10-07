@@ -1,0 +1,23 @@
+{
+  "schema": "jeon2019-reproduction-sources-v1",
+  "review_date": "2026-10-06",
+  "search_scope": ["作者项目页", "正文", "补充材料", "公开演示资料入口", "论文引用的数据来源"],
+  "search_closed_for_m0": true,
+  "sources": [
+    {"id":"main_pdf", "kind":"local_paper", "path":"work/papers/main.pdf", "sha256":"493f49f1a998dd51a60757f8b121bd55b03fcfcb692d8828cc08f0c7d718bdcc", "pages":13, "evidence":"正文第3–7页物理与训练协议；第8–9页仿真结果"},
+    {"id":"supplement_pdf", "kind":"local_paper", "path":"work/papers/supplement.pdf", "sha256":"638d42815b92be6fa101dfd144f0f290abd61e8ec18346194f4dc223ceeb5bb9", "pages":19, "evidence":"补充第4页为图3高分辨率图；没有可用于核对物理尺寸的标尺"},
+    {"id":"historical_source_review", "kind":"local_evidence", "path":"outputs/jeon2019_optics/docs/source_manifest.json", "evidence":"前期逐页渲染核实和来源指纹；其历史网络访问字段保持原样"},
+    {"id":"kaust_project", "kind":"web", "url":"https://vccimaging.org/Publications/Jeon2019Hyperspectral/", "access":"本次审阅读取页面", "local_content_sha256":null, "evidence":"作者论文和补充入口；未取得可核实的2019作者代码、模型和训练名单"},
+    {"id":"kaist_project", "kind":"web", "url":"https://vclab.kaist.ac.kr/siggraph2019/index.html", "access":"本次审阅读取页面", "local_content_sha256":null, "evidence":"论文、补充、演示资料入口；没有据此认定所有资料已经下载或所有链接都可用"},
+    {"id":"rawtoaces_canon_5d_mark_iii", "kind":"web", "url":"https://raw.githubusercontent.com/AcademySoftwareFoundation/rawtoaces-data/main/data/camera/Canon_EOS_5D_Mark_III_380_780_5.json", "access":"本次审阅读取JSON", "local_content_sha256":null, "evidence":"Canon EOS 5D Mark III，380–780 nm/5 nm，相对单位，Weta Digital 测量来源；版本及原始文件由M2下载冻结", "author_calibration":false},
+    {"id":"physlight", "kind":"web", "url":"https://zenodo.org/records/6590768", "access":"此前只读审阅核对来源", "local_content_sha256":null, "evidence":"Physlight 相机光谱响应数据来源；不能标记为 Jeon 作者标定"},
+    {"id":"harvard", "kind":"web", "url":"https://vision.seas.harvard.edu/hyperspec/download.html", "access":"此前只读审阅核对官方入口", "local_content_sha256":null, "evidence":"ref/lbl/calib、原始场景；58幅作者子集名单未取得；页面人工光场景计数与旧README版本差异须在M3登记"},
+    {"id":"icvl", "kind":"web", "url":"https://icvl.cs.bgu.ac.il/pages/researches/hyperspectral-imaging.html", "access":"此前只读审阅核对官方入口", "local_content_sha256":null, "evidence":"官方采集和下载入口；按实际波长读取，不能假定所有发布格式相同"},
+    {"id":"kaist", "kind":"web", "url":"https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset.html", "access":"此前只读审阅核对官方入口", "local_content_sha256":null, "evidence":"30场景，多通道EXR，反射率；按通道名映射波长，2017项目代码不是2019作者实现"},
+    {"id":"pytorch_previous", "kind":"web", "url":"https://docs.pytorch.org/get-started/previous-versions/", "access":"此前只读审阅核对官方版本说明", "local_content_sha256":null, "evidence":"Torch 2.5.1/cu121 独立环境版本依据；官方wheel SHA还需M1整包核对"},
+    {"id":"metric_review", "kind":"local_evidence", "path":"outputs/执行_G5_20261006/指标来源核对.md", "evidence":"已审核PSNR、SSIM和SAM定义；SAM论文单位及论文实现仍未知"},
+    {"id":"gpu_cpu_preflight", "kind":"local_evidence", "path":"outputs/执行_GPU验证_20261006/cpu_preflight.json", "evidence":"仅CPU预审通过，不是GPU验收"}
+  ],
+  "unavailable_author_materials": ["精确训练/验证/测试场景名单", "作者相机实测响应原始文件", "2019光学传播脚本和参数", "精确网络层表和阶段数", "训练预算与最终epoch", "SAM单位及完整评价代码"],
+  "absence_statement": "在限定范围内未取得；不等于证明不存在。后续不无限搜索，不据此补造作者信息。"
+}

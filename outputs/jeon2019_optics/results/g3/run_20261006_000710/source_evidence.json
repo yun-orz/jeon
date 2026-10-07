@@ -1,0 +1,17 @@
+{
+  "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\g2\\run_20261005_234941",
+  "sha256": {
+    "arrays/g2_measurement.npz": "f0f33a016c825c1185644e5d0868aeda8e537d157afd8983c27d1e149f5c568c",
+    "config_effective.json": "abfa764a0505406d52531a496fb3d4f0701e1f2ce742384dd6b86c67af1c04ec",
+    "figures/rgb_linear_preview.png": "03d1532b8b1232bce2f13168f0bbf82187bc15092c82f9384aee5e30570fb403",
+    "figures/scene_rgb_planes.png": "ece95b73310947b98584b23c44abe066785122a0c1bb2e1570fe71662723769f",
+    "figures/synthetic_response.png": "562d11dfd203f8568d13771fbee6deea1d13057ff6d3200b15d6ab8704a81511",
+    "metrics/flux_ledger.json": "a1dc86e97cc0200a2e965bc80ea9e6f97b3709508ad87d9d2314947634e8b385",
+    "metrics/operator_checks.json": "6cd01a98678cd7ffcc3d3e0ad24d46995d61359d8db919dfdfd5513481f253ce",
+    "metrics/response.csv": "7aaefbdc2178584b196dfd5930e1d52d59f088042c0e50d099c18eb650444624",
+    "metrics/validation.json": "cf6ded722926798c7a6f9a81244b705688bfcd879444c06a50b5ffe7e1959e43",
+    "report_g2.md": "1e6b12c5eca0848661807743e5523918bb92069213d5419c8dc083641961bf45",
+    "source_evidence.json": "f436d7fc03207d4092b9e6569c9523a5008d67ad6964aa96524be400263e3936",
+    "source_manifest.json": "87b787f215e5ba6a941c6e8f72cbf93659f8a87bfc524a1155f053c2a074a1ee"
+  }
+}

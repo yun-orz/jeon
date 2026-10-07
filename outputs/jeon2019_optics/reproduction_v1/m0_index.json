@@ -1,0 +1,86 @@
+{
+  "schema": "jeon2019-m0-index-v1",
+  "created_at": "2026-10-06T23:08:35.412524+08:00",
+  "protection": "outputs/jeon2019_optics/results/reproduction_v1/m0/run_20261006_230835_592a12d3/protection.json",
+  "stages": "outputs/jeon2019_optics/results/reproduction_v1/m0/run_20261006_230835_592a12d3/historical_stages.json",
+  "audit": "outputs/jeon2019_optics/results/reproduction_v1/m0/run_20261006_230835_592a12d3/audit.json",
+  "report": "outputs/jeon2019_optics/results/reproduction_v1/m0/run_20261006_230835_592a12d3/report.md",
+  "artifacts": [
+    {
+      "path": "outputs/jeon2019_optics/results/reproduction_v1/m0/run_20261006_230835_592a12d3/protection.json",
+      "sha256": "bdfc6412ba4571984fc46a65c9fc5758f851e94f391202fc16d394b8df8fd940"
+    },
+    {
+      "path": "outputs/jeon2019_optics/results/reproduction_v1/m0/run_20261006_230835_592a12d3/historical_stages.json",
+      "sha256": "e3297440bd6a5ee7cfc21f622d422a8b1ecf7d3b8e9859c2b2fa47fc36ca0223"
+    },
+    {
+      "path": "outputs/jeon2019_optics/results/reproduction_v1/m0/run_20261006_230835_592a12d3/audit.json",
+      "sha256": "ee6536c08b024d6af060ab8e63286d19a59fcbc1d5336a4cdec4619d8006fd76"
+    },
+    {
+      "path": "outputs/jeon2019_optics/results/reproduction_v1/m0/run_20261006_230835_592a12d3/report.md",
+      "sha256": "44fafa3bebc6ca43fe16f65e4432b2cba023e9136b8390b7c61337aa104e7c70"
+    },
+    {
+      "path": "outputs/jeon2019_optics/results/reproduction_v1/m0/run_20261006_230835_592a12d3/tests.json",
+      "sha256": "cacc3dc046962946620c6d42a16de27d2dba4f3eda9335d4d74e68b7f7767afc"
+    },
+    {
+      "path": "outputs/jeon2019_optics/reproduction_v1/protocol.json",
+      "sha256": "a30d5a4c64dac27fd9aaa5dac67234b8482a4b3e5aaa95cd1a9ba577e3924735"
+    },
+    {
+      "path": "outputs/jeon2019_optics/reproduction_v1/sources.json",
+      "sha256": "d69feebc00a0d4c082abbe8a39160b6d39dde9448cb1964051538c82a586eea8"
+    },
+    {
+      "path": "outputs/jeon2019_optics/reproduction_v1/parameter_evidence.json",
+      "sha256": "8a297ef6ef650c71dd6c58b799fe75fe6cf0a2ef9da650e989122ac55d28b2f7"
+    },
+    {
+      "path": "outputs/jeon2019_optics/reproduction_v1/contracts.json",
+      "sha256": "71cc15e5a2c98421d9aa3409e1340eb09ba8781f0ee72eb7675884f17c1b3a8a"
+    },
+    {
+      "path": "outputs/jeon2019_optics/reproduction_v1/tasks/M0_freeze_protocol.md",
+      "sha256": "f678a7a7d6bcd6541e30a05a8eb7d339b2251e245b2425fdf69b904c33f0a2f8"
+    },
+    {
+      "path": "outputs/jeon2019_optics/reproduction_v1/tasks/M1_gpu_environment.md",
+      "sha256": "cdec4f53cf9e154f14f04e95537ad066dd9e4022a7901fea2ac6222974764e83"
+    },
+    {
+      "path": "outputs/jeon2019_optics/reproduction_v1/tasks/M2_freeze_optics.md",
+      "sha256": "914023866f754e992a10bdadc88bdca865715e275fa3a161b1f595e927087200"
+    },
+    {
+      "path": "outputs/jeon2019_optics/reproduction_v1/tasks/M3_data_pipeline.md",
+      "sha256": "b79ef64911539ef81ea2515292f5ea7094aa77b5ed7bd0bb6ddaa165e279d7c4"
+    },
+    {
+      "path": "outputs/jeon2019_optics/reproduction_v1/tasks/M4_resumable_training.md",
+      "sha256": "6b36b39fbc679ea19e2c4e471b8cf3f5eb05b1acc062985b723656d39ce7551c"
+    },
+    {
+      "path": "outputs/jeon2019_optics/reproduction_v1/tasks/M5_smoothing_diagnosis.md",
+      "sha256": "c01e162fd1da1ac6764de23b04c5fb27e4a4f5fee40d4742697f1b6841fb51fc"
+    },
+    {
+      "path": "outputs/jeon2019_optics/reproduction_v1/tasks/M6_formal_training.md",
+      "sha256": "4ac0274dfd53cef41dc3f2a42965409324c67c11b1cb14ea1e11cde65942a69e"
+    },
+    {
+      "path": "outputs/jeon2019_optics/reproduction_v1/tasks/M7_final_evaluation.md",
+      "sha256": "fd4202b448e50bcd06a962c0600d7633a433aa5d48042bcba718dbff96ac4ef6"
+    },
+    {
+      "path": "outputs/jeon2019_optics/reproduction_v1/tasks/README.md",
+      "sha256": "53ed6b0be00f5b697e2711d51f18a4a6b965fc1ccf1baddc19fe3ec4d17b5e79"
+    },
+    {
+      "path": "outputs/jeon2019_optics/reproduction_v1/docs/validation_history.md",
+      "sha256": "f6fe7e5286fcc28630a52f823426aaa535e33e9cce9620ee0deeeedbffb42fd4"
+    }
+  ]
+}

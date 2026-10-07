@@ -1,0 +1,11 @@
+{
+  "source_retest": "results/g5_retest/run_20261006_093137",
+  "retest_audit": "../执行_G5固定复测_20261006/最终审核.json",
+  "dataset_directory": "../../work/datasets/harvard_g5_test_20261006_retry1",
+  "context_sizes": [128, 160, 192, 256],
+  "support_size": 352,
+  "stability_relative_l2_threshold": 0.01,
+  "cpu_threads": 4,
+  "runtime": {"save_results": true, "show_plots": false},
+  "plots": {"dpi": 150}
+}

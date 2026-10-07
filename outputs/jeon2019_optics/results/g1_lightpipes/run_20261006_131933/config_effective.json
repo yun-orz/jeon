@@ -1,0 +1,24 @@
+{
+  "dependency_directory": "../../work/dependencies/lightpipes_2_1_5",
+  "source_window": "results/g1_window/run_20261006_131121",
+  "source_audit": "../执行_G1窗口补核_20261006/最终审核.json",
+  "source_alignment": "results/g1_alignment/run_20261005_234023",
+  "wavelengths_nm": [
+    420,
+    540,
+    660
+  ],
+  "padding_sizes": [
+    1536,
+    2048
+  ],
+  "fresnel_padding_size": 1536,
+  "comparison_relative_threshold": 0.01,
+  "runtime": {
+    "save_results": true,
+    "show_plots": false
+  },
+  "plots": {
+    "dpi": 150
+  }
+}

@@ -1,0 +1,705 @@
+{
+  "summary": {
+    "numerical_health_passed": true,
+    "rows": [
+      {
+        "wavelength_nm": 420,
+        "label": "Forvard_3072",
+        "n": 3072,
+        "nominal_step_m": 1e-06,
+        "effective_step_m": 1e-06,
+        "interface_size_adapted": false,
+        "native_intensity_difference": {
+          "relative_l1": 0.019953418672887753,
+          "relative_l2": 0.012260874373222404,
+          "max_absolute": 1.7078641021115573
+        },
+        "detector_kernel_difference": {
+          "relative_l1": 0.0031091152896590185,
+          "relative_l2": 0.0018105557518567723,
+          "max_absolute": 1.020309598869602e-05
+        },
+        "full_grid_power_over_input": 1.000000000000001,
+        "physical_area_step_used_m": 1e-06,
+        "detector_efficiency": 0.8959605475454133
+      },
+      {
+        "wavelength_nm": 420,
+        "label": "Forvard_4096",
+        "n": 4096,
+        "nominal_step_m": 1e-06,
+        "effective_step_m": 1e-06,
+        "interface_size_adapted": false,
+        "native_intensity_difference": {
+          "relative_l1": 0.012845259718797958,
+          "relative_l2": 0.008042840841957381,
+          "max_absolute": 1.17103584984649
+        },
+        "detector_kernel_difference": {
+          "relative_l1": 0.0017895441685887262,
+          "relative_l2": 0.0011371275803185121,
+          "max_absolute": 5.208506278599374e-06
+        },
+        "full_grid_power_over_input": 1.0000000000000009,
+        "physical_area_step_used_m": 1e-06,
+        "detector_efficiency": 0.8955775044636168
+      },
+      {
+        "wavelength_nm": 420,
+        "label": "Fresnel_adapted_1536",
+        "n": 1536,
+        "nominal_step_m": 9.993489583333333e-07,
+        "effective_step_m": 1e-06,
+        "interface_size_adapted": true,
+        "native_intensity_difference": {
+          "relative_l1": 0.00518124869172083,
+          "relative_l2": 0.003330477417300142,
+          "max_absolute": 0.22011155086098427
+        },
+        "detector_kernel_difference": {
+          "relative_l1": 0.005337093437782664,
+          "relative_l2": 0.0035725277811451553,
+          "max_absolute": 1.0104604202796885e-05
+        },
+        "full_grid_power_over_input": 0.9402019109895419,
+        "physical_area_step_used_m": 1e-06,
+        "detector_efficiency": 0.8920200727747686
+      },
+      {
+        "wavelength_nm": 420,
+        "label": "Fresnel_adapted_2048",
+        "n": 2048,
+        "nominal_step_m": 9.995117187499999e-07,
+        "effective_step_m": 1e-06,
+        "interface_size_adapted": true,
+        "native_intensity_difference": {
+          "relative_l1": 0.0036337834627812367,
+          "relative_l2": 0.002616154278353901,
+          "max_absolute": 0.15997099711061935
+        },
+        "detector_kernel_difference": {
+          "relative_l1": 0.003997339329313901,
+          "relative_l2": 0.0030067522271180038,
+          "max_absolute": 9.475152557015306e-06
+        },
+        "full_grid_power_over_input": 0.9587535032463126,
+        "physical_area_step_used_m": 1e-06,
+        "detector_efficiency": 0.892103757471284
+      },
+      {
+        "wavelength_nm": 540,
+        "label": "Forvard_3072",
+        "n": 3072,
+        "nominal_step_m": 1e-06,
+        "effective_step_m": 1e-06,
+        "interface_size_adapted": false,
+        "native_intensity_difference": {
+          "relative_l1": 0.013391867731866677,
+          "relative_l2": 0.007199485222111007,
+          "max_absolute": 1.5006016224481016
+        },
+        "detector_kernel_difference": {
+          "relative_l1": 0.004041713235404965,
+          "relative_l2": 0.0023008020290946007,
+          "max_absolute": 1.5170661488815226e-05
+        },
+        "full_grid_power_over_input": 1.000000000000001,
+        "physical_area_step_used_m": 1e-06,
+        "detector_efficiency": 0.9417903348179575
+      },
+      {
+        "wavelength_nm": 540,
+        "label": "Forvard_4096",
+        "n": 4096,
+        "nominal_step_m": 1e-06,
+        "effective_step_m": 1e-06,
+        "interface_size_adapted": false,
+        "native_intensity_difference": {
+          "relative_l1": 0.008875087468291843,
+          "relative_l2": 0.004685556031707417,
+          "max_absolute": 0.826307907004292
+        },
+        "detector_kernel_difference": {
+          "relative_l1": 0.001175742270502742,
+          "relative_l2": 0.000682749707112486,
+          "max_absolute": 4.170927525107455e-06
+        },
+        "full_grid_power_over_input": 1.0000000000000027,
+        "physical_area_step_used_m": 1e-06,
+        "detector_efficiency": 0.9415561162811769
+      },
+      {
+        "wavelength_nm": 540,
+        "label": "Fresnel_adapted_1536",
+        "n": 1536,
+        "nominal_step_m": 9.993489583333333e-07,
+        "effective_step_m": 1e-06,
+        "interface_size_adapted": true,
+        "native_intensity_difference": {
+          "relative_l1": 0.003764390511226467,
+          "relative_l2": 0.002265623208829759,
+          "max_absolute": 0.20730131035006338
+        },
+        "detector_kernel_difference": {
+          "relative_l1": 0.0038026283873995067,
+          "relative_l2": 0.0024426581398083566,
+          "max_absolute": 1.082111076683781e-05
+        },
+        "full_grid_power_over_input": 0.9708779975304345,
+        "physical_area_step_used_m": 1e-06,
+        "detector_efficiency": 0.9392943625584512
+      },
+      {
+        "wavelength_nm": 540,
+        "label": "Fresnel_adapted_2048",
+        "n": 2048,
+        "nominal_step_m": 9.995117187499999e-07,
+        "effective_step_m": 1e-06,
+        "interface_size_adapted": true,
+        "native_intensity_difference": {
+          "relative_l1": 0.0024329176551597265,
+          "relative_l2": 0.001789350992948567,
+          "max_absolute": 0.17776833252042934
+        },
+        "detector_kernel_difference": {
+          "relative_l1": 0.0026719836641008214,
+          "relative_l2": 0.002091707989408644,
+          "max_absolute": 1.0821110766836076e-05
+        },
+        "full_grid_power_over_input": 0.9779388758909798,
+        "physical_area_step_used_m": 1e-06,
+        "detector_efficiency": 0.9390955935400764
+      },
+      {
+        "wavelength_nm": 660,
+        "label": "Forvard_3072",
+        "n": 3072,
+        "nominal_step_m": 1e-06,
+        "effective_step_m": 1e-06,
+        "interface_size_adapted": false,
+        "native_intensity_difference": {
+          "relative_l1": 0.024891984413117338,
+          "relative_l2": 0.015572390350087832,
+          "max_absolute": 1.8672898959243227
+        },
+        "detector_kernel_difference": {
+          "relative_l1": 0.010010863021881042,
+          "relative_l2": 0.0065141638724425886,
+          "max_absolute": 2.7156909369959077e-05
+        },
+        "full_grid_power_over_input": 0.9999999999999998,
+        "physical_area_step_used_m": 1e-06,
+        "detector_efficiency": 0.8656549542440023
+      },
+      {
+        "wavelength_nm": 660,
+        "label": "Forvard_4096",
+        "n": 4096,
+        "nominal_step_m": 1e-06,
+        "effective_step_m": 1e-06,
+        "interface_size_adapted": false,
+        "native_intensity_difference": {
+          "relative_l1": 0.016102844569995115,
+          "relative_l2": 0.009755815995859157,
+          "max_absolute": 1.1351438371410225
+        },
+        "detector_kernel_difference": {
+          "relative_l1": 0.0034798608011005422,
+          "relative_l2": 0.0019717873860242356,
+          "max_absolute": 8.155935976691259e-06
+        },
+        "full_grid_power_over_input": 0.9999999999999987,
+        "physical_area_step_used_m": 1e-06,
+        "detector_efficiency": 0.8651327040753901
+      },
+      {
+        "wavelength_nm": 660,
+        "label": "Fresnel_adapted_1536",
+        "n": 1536,
+        "nominal_step_m": 9.993489583333333e-07,
+        "effective_step_m": 1e-06,
+        "interface_size_adapted": true,
+        "native_intensity_difference": {
+          "relative_l1": 0.00431578817032598,
+          "relative_l2": 0.0032214903561879815,
+          "max_absolute": 0.20615372062371173
+        },
+        "detector_kernel_difference": {
+          "relative_l1": 0.004061323987484478,
+          "relative_l2": 0.0030451468172689434,
+          "max_absolute": 9.389431000770932e-06
+        },
+        "full_grid_power_over_input": 0.9309861939536765,
+        "physical_area_step_used_m": 1e-06,
+        "detector_efficiency": 0.8624879626049804
+      },
+      {
+        "wavelength_nm": 660,
+        "label": "Fresnel_adapted_2048",
+        "n": 2048,
+        "nominal_step_m": 9.995117187499999e-07,
+        "effective_step_m": 1e-06,
+        "interface_size_adapted": true,
+        "native_intensity_difference": {
+          "relative_l1": 0.002143275966429293,
+          "relative_l2": 0.0014721568934668635,
+          "max_absolute": 0.06750658715021984
+        },
+        "detector_kernel_difference": {
+          "relative_l1": 0.0022468243064978828,
+          "relative_l2": 0.0016617170269481007,
+          "max_absolute": 4.833794886033391e-06
+        },
+        "full_grid_power_over_input": 0.9525471294117341,
+        "physical_area_step_used_m": 1e-06,
+        "detector_efficiency": 0.862907226386427
+      }
+    ],
+    "padding_changes": [
+      {
+        "wavelength_nm": 420,
+        "from_n": 1536,
+        "to_n": 2048,
+        "relative_l1": 0.030431182458729573,
+        "relative_l2": 0.017744578263719963,
+        "max_absolute": 7.630623194483785e-05
+      },
+      {
+        "wavelength_nm": 420,
+        "from_n": 2048,
+        "to_n": 3072,
+        "relative_l1": 0.013888810105462314,
+        "relative_l2": 0.008945232837232382,
+        "max_absolute": 4.3127420117720135e-05
+      },
+      {
+        "wavelength_nm": 420,
+        "from_n": 3072,
+        "to_n": 4096,
+        "relative_l1": 0.003164584787044137,
+        "relative_l2": 0.001885733321841579,
+        "max_absolute": 8.599864071514186e-06
+      },
+      {
+        "wavelength_nm": 540,
+        "from_n": 1536,
+        "to_n": 2048,
+        "relative_l1": 0.02357885691685391,
+        "relative_l2": 0.01286559701113843,
+        "max_absolute": 0.00011429222275921407
+      },
+      {
+        "wavelength_nm": 540,
+        "from_n": 2048,
+        "to_n": 3072,
+        "relative_l1": 0.011301784069909702,
+        "relative_l2": 0.005859350945009298,
+        "max_absolute": 3.781876051450446e-05
+      },
+      {
+        "wavelength_nm": 540,
+        "from_n": 3072,
+        "to_n": 4096,
+        "relative_l1": 0.003992558582220822,
+        "relative_l2": 0.0022667958092396465,
+        "max_absolute": 1.7151442195544042e-05
+      },
+      {
+        "wavelength_nm": 660,
+        "from_n": 1536,
+        "to_n": 2048,
+        "relative_l1": 0.051056770464789,
+        "relative_l2": 0.02972750441176483,
+        "max_absolute": 8.346800673578571e-05
+      },
+      {
+        "wavelength_nm": 660,
+        "from_n": 2048,
+        "to_n": 3072,
+        "relative_l1": 0.026750015152009938,
+        "relative_l2": 0.016368914385055947,
+        "max_absolute": 5.8723555521107956e-05
+      },
+      {
+        "wavelength_nm": 660,
+        "from_n": 3072,
+        "to_n": 4096,
+        "relative_l1": 0.010633642826958455,
+        "relative_l2": 0.006906654788607214,
+        "max_absolute": 2.9830145039494958e-05
+      }
+    ],
+    "cell_model_checks": [
+      {
+        "wavelength_nm": 420,
+        "n": 1536,
+        "kernel_support_complete": false,
+        "complex_unit_phase_aligned_relative_l2": 0.019916639294818735,
+        "native_intensity_difference": {
+          "relative_l1": 0.0016265349920075328,
+          "relative_l2": 0.002046633218847056,
+          "max_absolute": 0.22214891790635077
+        }
+      },
+      {
+        "wavelength_nm": 420,
+        "n": 2048,
+        "kernel_support_complete": true,
+        "complex_unit_phase_aligned_relative_l2": 2.3864822920200167e-14,
+        "native_intensity_difference": {
+          "relative_l1": 2.9126741841687125e-14,
+          "relative_l2": 2.1955066246598292e-14,
+          "max_absolute": 1.6200374375330284e-12
+        }
+      },
+      {
+        "wavelength_nm": 540,
+        "n": 1536,
+        "kernel_support_complete": false,
+        "complex_unit_phase_aligned_relative_l2": 0.02027743537936597,
+        "native_intensity_difference": {
+          "relative_l1": 0.00137159584391331,
+          "relative_l2": 0.0013926301515809016,
+          "max_absolute": 0.20609115536689854
+        }
+      },
+      {
+        "wavelength_nm": 540,
+        "n": 2048,
+        "kernel_support_complete": true,
+        "complex_unit_phase_aligned_relative_l2": 2.6038370735609682e-14,
+        "native_intensity_difference": {
+          "relative_l1": 3.296125907907272e-14,
+          "relative_l2": 2.462056852927931e-14,
+          "max_absolute": 3.0127011996228248e-12
+        }
+      },
+      {
+        "wavelength_nm": 660,
+        "n": 1536,
+        "kernel_support_complete": false,
+        "complex_unit_phase_aligned_relative_l2": 0.020344801457734207,
+        "native_intensity_difference": {
+          "relative_l1": 0.0022196095113558943,
+          "relative_l2": 0.0028500407167989673,
+          "max_absolute": 0.20680262355588508
+        }
+      },
+      {
+        "wavelength_nm": 660,
+        "n": 2048,
+        "kernel_support_complete": true,
+        "complex_unit_phase_aligned_relative_l2": 2.895274686680583e-14,
+        "native_intensity_difference": {
+          "relative_l1": 4.187520652484414e-14,
+          "relative_l2": 3.239209530918259e-14,
+          "max_absolute": 1.6768808563938364e-12
+        }
+      }
+    ],
+    "last_padding_pair_below_threshold": false,
+    "forvard_4096_reference_below_threshold": true,
+    "cell_model_verified": true,
+    "comparison_threshold": 0.01,
+    "cell_model_threshold": 1e-10,
+    "fixed_height_fingerprint": "3469c7a4717a765d31e0433d9180c015520e00b99d08a0c656e791ac2b917f51",
+    "lightpipes_version": "2.1.5",
+    "paper_alignment_passed": false,
+    "author_2019_implementation_known": false,
+    "infinite_domain_convergence_proved": false,
+    "interpolation_error_status": "same empirical interpolation diagnostic as prior stage; not a rigorous bound",
+    "adaptation_status": "Fresnel size=(N-1)*dx matches internal legacy dx; output nominal metadata differs and is not used as physical axis"
+  },
+  "timings": [
+    {
+      "wavelength_nm": 420,
+      "label": "Forvard_3072",
+      "n": 3072,
+      "nominal_step_m": 1e-06,
+      "effective_step_m": 1e-06,
+      "interface_size_adapted": false,
+      "native_intensity_difference": {
+        "relative_l1": 0.019953418672887753,
+        "relative_l2": 0.012260874373222404,
+        "max_absolute": 1.7078641021115573
+      },
+      "detector_kernel_difference": {
+        "relative_l1": 0.0031091152896590185,
+        "relative_l2": 0.0018105557518567723,
+        "max_absolute": 1.020309598869602e-05
+      },
+      "full_grid_power_over_input": 1.000000000000001,
+      "physical_area_step_used_m": 1e-06,
+      "detector_efficiency": 0.8959605475454133,
+      "elapsed_seconds": 1.5086579000053462
+    },
+    {
+      "wavelength_nm": 420,
+      "label": "Forvard_4096",
+      "n": 4096,
+      "nominal_step_m": 1e-06,
+      "effective_step_m": 1e-06,
+      "interface_size_adapted": false,
+      "native_intensity_difference": {
+        "relative_l1": 0.012845259718797958,
+        "relative_l2": 0.008042840841957381,
+        "max_absolute": 1.17103584984649
+      },
+      "detector_kernel_difference": {
+        "relative_l1": 0.0017895441685887262,
+        "relative_l2": 0.0011371275803185121,
+        "max_absolute": 5.208506278599374e-06
+      },
+      "full_grid_power_over_input": 1.0000000000000009,
+      "physical_area_step_used_m": 1e-06,
+      "detector_efficiency": 0.8955775044636168,
+      "elapsed_seconds": 3.4445091000234243
+    },
+    {
+      "wavelength_nm": 420,
+      "label": "Fresnel_adapted_1536",
+      "n": 1536,
+      "nominal_step_m": 9.993489583333333e-07,
+      "effective_step_m": 1e-06,
+      "interface_size_adapted": true,
+      "native_intensity_difference": {
+        "relative_l1": 0.00518124869172083,
+        "relative_l2": 0.003330477417300142,
+        "max_absolute": 0.22011155086098427
+      },
+      "detector_kernel_difference": {
+        "relative_l1": 0.005337093437782664,
+        "relative_l2": 0.0035725277811451553,
+        "max_absolute": 1.0104604202796885e-05
+      },
+      "full_grid_power_over_input": 0.9402019109895419,
+      "physical_area_step_used_m": 1e-06,
+      "detector_efficiency": 0.8920200727747686,
+      "elapsed_seconds": 1.5803042000043206
+    },
+    {
+      "wavelength_nm": 420,
+      "label": "Fresnel_adapted_2048",
+      "n": 2048,
+      "nominal_step_m": 9.995117187499999e-07,
+      "effective_step_m": 1e-06,
+      "interface_size_adapted": true,
+      "native_intensity_difference": {
+        "relative_l1": 0.0036337834627812367,
+        "relative_l2": 0.002616154278353901,
+        "max_absolute": 0.15997099711061935
+      },
+      "detector_kernel_difference": {
+        "relative_l1": 0.003997339329313901,
+        "relative_l2": 0.0030067522271180038,
+        "max_absolute": 9.475152557015306e-06
+      },
+      "full_grid_power_over_input": 0.9587535032463126,
+      "physical_area_step_used_m": 1e-06,
+      "detector_efficiency": 0.892103757471284,
+      "elapsed_seconds": 2.983291199983796
+    },
+    {
+      "wavelength_nm": 540,
+      "label": "Forvard_3072",
+      "n": 3072,
+      "nominal_step_m": 1e-06,
+      "effective_step_m": 1e-06,
+      "interface_size_adapted": false,
+      "native_intensity_difference": {
+        "relative_l1": 0.013391867731866677,
+        "relative_l2": 0.007199485222111007,
+        "max_absolute": 1.5006016224481016
+      },
+      "detector_kernel_difference": {
+        "relative_l1": 0.004041713235404965,
+        "relative_l2": 0.0023008020290946007,
+        "max_absolute": 1.5170661488815226e-05
+      },
+      "full_grid_power_over_input": 1.000000000000001,
+      "physical_area_step_used_m": 1e-06,
+      "detector_efficiency": 0.9417903348179575,
+      "elapsed_seconds": 1.3990936999907717
+    },
+    {
+      "wavelength_nm": 540,
+      "label": "Forvard_4096",
+      "n": 4096,
+      "nominal_step_m": 1e-06,
+      "effective_step_m": 1e-06,
+      "interface_size_adapted": false,
+      "native_intensity_difference": {
+        "relative_l1": 0.008875087468291843,
+        "relative_l2": 0.004685556031707417,
+        "max_absolute": 0.826307907004292
+      },
+      "detector_kernel_difference": {
+        "relative_l1": 0.001175742270502742,
+        "relative_l2": 0.000682749707112486,
+        "max_absolute": 4.170927525107455e-06
+      },
+      "full_grid_power_over_input": 1.0000000000000027,
+      "physical_area_step_used_m": 1e-06,
+      "detector_efficiency": 0.9415561162811769,
+      "elapsed_seconds": 2.5238688999961596
+    },
+    {
+      "wavelength_nm": 540,
+      "label": "Fresnel_adapted_1536",
+      "n": 1536,
+      "nominal_step_m": 9.993489583333333e-07,
+      "effective_step_m": 1e-06,
+      "interface_size_adapted": true,
+      "native_intensity_difference": {
+        "relative_l1": 0.003764390511226467,
+        "relative_l2": 0.002265623208829759,
+        "max_absolute": 0.20730131035006338
+      },
+      "detector_kernel_difference": {
+        "relative_l1": 0.0038026283873995067,
+        "relative_l2": 0.0024426581398083566,
+        "max_absolute": 1.082111076683781e-05
+      },
+      "full_grid_power_over_input": 0.9708779975304345,
+      "physical_area_step_used_m": 1e-06,
+      "detector_efficiency": 0.9392943625584512,
+      "elapsed_seconds": 1.541154499980621
+    },
+    {
+      "wavelength_nm": 540,
+      "label": "Fresnel_adapted_2048",
+      "n": 2048,
+      "nominal_step_m": 9.995117187499999e-07,
+      "effective_step_m": 1e-06,
+      "interface_size_adapted": true,
+      "native_intensity_difference": {
+        "relative_l1": 0.0024329176551597265,
+        "relative_l2": 0.001789350992948567,
+        "max_absolute": 0.17776833252042934
+      },
+      "detector_kernel_difference": {
+        "relative_l1": 0.0026719836641008214,
+        "relative_l2": 0.002091707989408644,
+        "max_absolute": 1.0821110766836076e-05
+      },
+      "full_grid_power_over_input": 0.9779388758909798,
+      "physical_area_step_used_m": 1e-06,
+      "detector_efficiency": 0.9390955935400764,
+      "elapsed_seconds": 2.792668700014474
+    },
+    {
+      "wavelength_nm": 660,
+      "label": "Forvard_3072",
+      "n": 3072,
+      "nominal_step_m": 1e-06,
+      "effective_step_m": 1e-06,
+      "interface_size_adapted": false,
+      "native_intensity_difference": {
+        "relative_l1": 0.024891984413117338,
+        "relative_l2": 0.015572390350087832,
+        "max_absolute": 1.8672898959243227
+      },
+      "detector_kernel_difference": {
+        "relative_l1": 0.010010863021881042,
+        "relative_l2": 0.0065141638724425886,
+        "max_absolute": 2.7156909369959077e-05
+      },
+      "full_grid_power_over_input": 0.9999999999999998,
+      "physical_area_step_used_m": 1e-06,
+      "detector_efficiency": 0.8656549542440023,
+      "elapsed_seconds": 1.3469258000259288
+    },
+    {
+      "wavelength_nm": 660,
+      "label": "Forvard_4096",
+      "n": 4096,
+      "nominal_step_m": 1e-06,
+      "effective_step_m": 1e-06,
+      "interface_size_adapted": false,
+      "native_intensity_difference": {
+        "relative_l1": 0.016102844569995115,
+        "relative_l2": 0.009755815995859157,
+        "max_absolute": 1.1351438371410225
+      },
+      "detector_kernel_difference": {
+        "relative_l1": 0.0034798608011005422,
+        "relative_l2": 0.0019717873860242356,
+        "max_absolute": 8.155935976691259e-06
+      },
+      "full_grid_power_over_input": 0.9999999999999987,
+      "physical_area_step_used_m": 1e-06,
+      "detector_efficiency": 0.8651327040753901,
+      "elapsed_seconds": 2.2738169000076596
+    },
+    {
+      "wavelength_nm": 660,
+      "label": "Fresnel_adapted_1536",
+      "n": 1536,
+      "nominal_step_m": 9.993489583333333e-07,
+      "effective_step_m": 1e-06,
+      "interface_size_adapted": true,
+      "native_intensity_difference": {
+        "relative_l1": 0.00431578817032598,
+        "relative_l2": 0.0032214903561879815,
+        "max_absolute": 0.20615372062371173
+      },
+      "detector_kernel_difference": {
+        "relative_l1": 0.004061323987484478,
+        "relative_l2": 0.0030451468172689434,
+        "max_absolute": 9.389431000770932e-06
+      },
+      "full_grid_power_over_input": 0.9309861939536765,
+      "physical_area_step_used_m": 1e-06,
+      "detector_efficiency": 0.8624879626049804,
+      "elapsed_seconds": 1.5202566999942064
+    },
+    {
+      "wavelength_nm": 660,
+      "label": "Fresnel_adapted_2048",
+      "n": 2048,
+      "nominal_step_m": 9.995117187499999e-07,
+      "effective_step_m": 1e-06,
+      "interface_size_adapted": true,
+      "native_intensity_difference": {
+        "relative_l1": 0.002143275966429293,
+        "relative_l2": 0.0014721568934668635,
+        "max_absolute": 0.06750658715021984
+      },
+      "detector_kernel_difference": {
+        "relative_l1": 0.0022468243064978828,
+        "relative_l2": 0.0016617170269481007,
+        "max_absolute": 4.833794886033391e-06
+      },
+      "full_grid_power_over_input": 0.9525471294117341,
+      "physical_area_step_used_m": 1e-06,
+      "detector_efficiency": 0.862907226386427,
+      "elapsed_seconds": 2.5942297000146937
+    }
+  ],
+  "environment": {
+    "timestamp_local": "2026-10-06T13:30:06",
+    "python_version": "3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)]",
+    "python_executable": "D:\\dev\\python\\python3.10.4\\python.exe",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "platform_machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "os_cpu_count": 20,
+    "cwd_at_invocation": "D:\\PyCharmProjects\\Jeon2019\\work",
+    "project_root_resolved": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+    "argv": [
+      "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main_g1_lp_sampling.py"
+    ],
+    "numpy_version": "2.2.6",
+    "scipy_version": "1.15.3",
+    "matplotlib_version": "3.10.9",
+    "pytest_version": null,
+    "pytest_import_error": "ModuleNotFoundError: No module named 'pytest'"
+  },
+  "backend": {
+    "backend": "Agg",
+    "available": false,
+    "reason": "未请求显示"
+  },
+  "elapsed_seconds": 33.964325900014956
+}

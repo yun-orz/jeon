@@ -1,0 +1,27 @@
+{
+  "source_run": "results/g1_lightpipes/run_20261006_131933",
+  "source_audit": "../执行_G1LightPipes_20261006/最终审核.json",
+  "dependency_directory": "../../work/dependencies/lightpipes_2_1_5",
+  "padding_sizes": [
+    3072,
+    4096
+  ],
+  "fresnel_padding_sizes": [
+    1536,
+    2048
+  ],
+  "wavelengths_nm": [
+    420,
+    540,
+    660
+  ],
+  "comparison_relative_threshold": 0.01,
+  "cell_model_relative_threshold": 1e-10,
+  "runtime": {
+    "save_results": true,
+    "show_plots": false
+  },
+  "plots": {
+    "dpi": 150
+  }
+}

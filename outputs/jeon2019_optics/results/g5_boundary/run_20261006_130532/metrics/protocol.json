@@ -1,0 +1,39 @@
+{
+  "dataset_scope": "previously examined img5; fixed-scene repeated evaluation",
+  "target_unit": "relative_photons_train_scaled",
+  "normalization_scale": 0.019641629936370968,
+  "spectral_representation": "relative photons, sensitivity corrected; NOT absolute calibration or radiance",
+  "core_size": 32,
+  "halo": 48,
+  "psnr_formula": "10 log10(L^2 / pooled MSE), L fixed in training-scaled units",
+  "data_range": 1.0,
+  "ssim": "each band: Gaussian 11x11 sigma1.5, population moments, valid convolution, K1=.01 K2=.03; equal band/patch means; no downsampling",
+  "sam": "arccos(clipped normalized dot), radians; mean over valid pixel spectra; signed raw prediction",
+  "zero_norm_threshold": 1e-12,
+  "prediction_clipped": false,
+  "per_image_normalization": false,
+  "independent_test_set": false,
+  "checkpoint_frozen": true,
+  "optimizer_steps": 0,
+  "paper_table1": {
+    "pdf_page": 8,
+    "images": 10,
+    "ours_psnr_db": 35.88,
+    "ours_ssim": 0.93,
+    "ours_sam": 0.12,
+    "sam_unit_confirmed": false
+  },
+  "directly_comparable_to_paper": false,
+  "blockers": [
+    "not the ten KAIST test images",
+    "validation-selected checkpoint and small training subset",
+    "synthetic RGB response",
+    "optical size alignment unresolved",
+    "network implementation assumptions",
+    "paper PSNR range/aggregation and SSIM settings not fully specified",
+    "photon vs energy spectral representation not aligned"
+  ],
+  "fresh_blind_test": false,
+  "held_out_from_gradient_updates": true,
+  "boundary_diagnostic": true
+}

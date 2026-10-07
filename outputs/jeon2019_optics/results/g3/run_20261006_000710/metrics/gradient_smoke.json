@@ -1,0 +1,72 @@
+{
+  "history": [
+    {
+      "step": 0,
+      "loss_before": 0.08465100079774857,
+      "loss_after": 0.08463124930858612,
+      "gradients": [
+        {
+          "stage": 0,
+          "prior_gradient_l1": 0.057236437229265746,
+          "epsilon_gradient": -0.0014804340898990631,
+          "rho_gradient": -0.00013194170605856925,
+          "threshold_gradient": 2.5734050268511055e-06,
+          "all_prior_gradients_finite": true
+        },
+        {
+          "stage": 1,
+          "prior_gradient_l1": 0.07189915016704429,
+          "epsilon_gradient": -0.0015196689637377858,
+          "rho_gradient": -0.00017784970987122506,
+          "threshold_gradient": 6.817999746999703e-06,
+          "all_prior_gradients_finite": true
+        },
+        {
+          "stage": 2,
+          "prior_gradient_l1": 0.06744768518478672,
+          "epsilon_gradient": -0.0015048278728500009,
+          "rho_gradient": -0.00017391424626111984,
+          "threshold_gradient": 1.0700227903726045e-06,
+          "all_prior_gradients_finite": true
+        }
+      ]
+    },
+    {
+      "step": 1,
+      "loss_before": 0.08463124930858612,
+      "loss_after": 0.08461123704910278,
+      "gradients": [
+        {
+          "stage": 0,
+          "prior_gradient_l1": 0.060702473166831084,
+          "epsilon_gradient": -0.0014861332019791007,
+          "rho_gradient": -0.00013741053408011794,
+          "threshold_gradient": 4.4530829654831905e-06,
+          "all_prior_gradients_finite": true
+        },
+        {
+          "stage": 1,
+          "prior_gradient_l1": 0.070609043459255,
+          "epsilon_gradient": -0.0015262147644534707,
+          "rho_gradient": -0.00018445210298523307,
+          "threshold_gradient": 9.058825526153669e-06,
+          "all_prior_gradients_finite": true
+        },
+        {
+          "stage": 2,
+          "prior_gradient_l1": 0.06752700192618821,
+          "epsilon_gradient": -0.0015105971833691,
+          "rho_gradient": -0.00018014934903476387,
+          "threshold_gradient": 2.7407859306549653e-06,
+          "all_prior_gradients_finite": true
+        }
+      ]
+    }
+  ],
+  "patch_origin_yx": [
+    32,
+    32
+  ],
+  "measurement_reencoded": true,
+  "genuine_hsi_training": false
+}

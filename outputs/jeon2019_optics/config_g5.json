@@ -1,0 +1,9 @@
+{
+  "source_g4": "results/g4/run_20261006_074407",
+  "source_audit": "../执行_G4_20261006/最终审核.json",
+  "data_range": 1.0,
+  "zero_norm_threshold": 1e-12,
+  "cpu_threads": 4,
+  "runtime": {"save_results": true, "show_plots": false},
+  "plots": {"dpi": 150}
+}

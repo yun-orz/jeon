@@ -1,0 +1,60 @@
+{
+  "status": "completed",
+  "small_real_hsi_training_passed": true,
+  "genuine_hsi_data": true,
+  "absolute_photon_calibration": false,
+  "paper_alignment_passed": false,
+  "real_rgb_response_verified": false,
+  "full_paper_training_reproduced": false,
+  "train_scenes": [
+    "img3.mat"
+  ],
+  "validation_scenes": [
+    "img4.mat"
+  ],
+  "scene_split_disjoint": true,
+  "train_patches": 4,
+  "validation_patches": 2,
+  "context_size": 128,
+  "core_size": 32,
+  "epochs": 3,
+  "optimizer_steps": 12,
+  "best_epoch": 2,
+  "best_validation_l1": 0.09995391219854355,
+  "optical_kernels_unchanged": true,
+  "source_and_dataset_unchanged": true,
+  "height_fingerprint": "8527724f6aeffc0314d09313d89fdca0c2c864827e6a47308480968bcabc1350",
+  "torch_version": "2.14.1+cpu",
+  "device": "cpu",
+  "model_dtype": "float32",
+  "environment": {
+    "timestamp_local": "2026-10-06T07:44:24",
+    "python_version": "3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)]",
+    "python_executable": "D:\\dev\\python\\python3.10.4\\python.exe",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "platform_machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "os_cpu_count": 20,
+    "cwd_at_invocation": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+    "project_root_resolved": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+    "argv": [
+      "main_g4.py"
+    ],
+    "numpy_version": "2.2.6",
+    "scipy_version": "1.15.3",
+    "matplotlib_version": "3.10.9",
+    "pytest_version": null,
+    "pytest_import_error": "ModuleNotFoundError: No module named 'pytest'"
+  },
+  "runtime": {
+    "save_results": true,
+    "show_plots": false
+  },
+  "backend": {
+    "backend": "Agg",
+    "available": false,
+    "reason": "未请求显示"
+  },
+  "elapsed_s": 17.977795600018
+}

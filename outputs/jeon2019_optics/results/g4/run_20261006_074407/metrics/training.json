@@ -1,0 +1,54 @@
+{
+  "baseline_train_l1": 0.27269112318754196,
+  "baseline_validation_l1": 0.1451236605644226,
+  "final_train_l1": 0.18657538574188948,
+  "best_validation_l1": 0.09995391219854355,
+  "best_epoch": 2,
+  "history": [
+    {
+      "epoch": 1,
+      "training_order": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "online_loss": 0.2694788109511137,
+      "train_l1": 0.25740930810570717,
+      "validation_l1": 0.13648638129234314,
+      "gradient_norm_max": 0.17351116240024567,
+      "selected_best": true
+    },
+    {
+      "epoch": 2,
+      "training_order": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "online_loss": 0.1955493427813053,
+      "train_l1": 0.18657538574188948,
+      "validation_l1": 0.09995391219854355,
+      "gradient_norm_max": 1.3526458740234375,
+      "selected_best": true
+    },
+    {
+      "epoch": 3,
+      "training_order": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "online_loss": 0.1483840076252818,
+      "train_l1": 0.23062947019934654,
+      "validation_l1": 0.13436389714479446,
+      "gradient_norm_max": 0.7695062160491943,
+      "selected_best": false
+    }
+  ],
+  "optimizer_steps": 12,
+  "metric_scope": "two_scene_small_subset_center_ROI; not paper PSNR/SSIM/SAM",
+  "independent_test_set": false
+}

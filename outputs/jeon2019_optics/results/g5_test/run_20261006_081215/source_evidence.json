@@ -1,0 +1,42 @@
+{
+  "g4": {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\g4\\run_20261006_074407",
+    "sha256": {
+      "arrays/best_checkpoint.pt": "c5042f981b4c117014552a73a9aa0e54a27680cfc32be0f1e4a8700bf892a1ad",
+      "arrays/g4_subset.npz": "2a8653c6b07e2fd72c626be377040ff5cf6d0a11d9611d4ae27db31d9a77e1c3",
+      "config_effective.json": "c244802e9e61af2f653f1bbf335687f4402277fb996333ec6aee60c73fa2ca00",
+      "dataset_manifest.json": "81d87c467f3cdf0fa13c87cdd32b34ef92f4a6f48366c2120f842bfdea9f7338",
+      "figures/training_validation_curve.png": "a6d366ed6f86d48cd7ca08511e50983ad4f6c4c36d3f1701e654b4e67d239c74",
+      "figures/validation_real_hsi.png": "f0c3e3ec6387fd3b35b7c860400411b7241387690ce2c1871feb6f1a64241994",
+      "metrics/training.json": "92a0c6c74c45ef3b2e0e61b903c45b39bc108ecb86688f2a04f249de13572faf",
+      "metrics/validation.json": "af7884698a7d2af4c4c6c034ce971221fefbbcf6959677b1407479209057ab10",
+      "report_g4.md": "67821b1d148e52e74a2a2796f77c5a2c6718f761a01a8f3ed898fa6b2b83c86a",
+      "source_evidence.json": "f980e42dff55f627da35765db825ef4eaddfc3111fa8bda09f14bc80bc2e93a1",
+      "source_manifest.json": "165c4a086bba576aa50b9e97a6d63d936bfc8540b87e97f71302708006d8ac15"
+    }
+  },
+  "g5": {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\g5\\run_20261006_080431",
+    "sha256": {
+      "arrays/g5_evaluation.npz": "391e8116625b7153004425d3e24ea7050fe2b80d085ec206aca897193889b944",
+      "config_effective.json": "0af94521423d1d900a8275feb727ab1d6648459a5f660bb81593cac049b24cde",
+      "figures/metric_maps.png": "1534477815b311692edf0d9d23c0b18a40e27eba80c5a23bd92e18d3f4a25dec",
+      "figures/per_band_metrics.png": "bd4f0ae05d4c3cae29d47ebee51fc60889c0bc6647aa4a12fb689f1288a710b0",
+      "metrics/per_band.csv": "64f7ed1954ae1a9916cdf01738c5c7814ca9dab0c2f033b877105e7aa977b4e3",
+      "metrics/protocol.json": "fb64f3d5972b76edfb72a872680b426217c8a0099cb9ee63508385d3c36991bf",
+      "metrics/scores.json": "d5ab3eadd7f2ecabbcd49ad7275fe996bd99f9a72cfe65fb67601e45e419eaf6",
+      "metrics/validation.json": "ebad40a9c75e36790b91516b411e45de949d12e2caa9591f7987d658e8101cdd",
+      "source_evidence.json": "dba9f0bb0eba351fbedd56e14021656863755403fd1ef3c1bce94b72db08156b",
+      "source_manifest.json": "0905d1e1b35485e4e663bbc1a842318bcee934915bb793b05880e9254e52220b"
+    }
+  },
+  "dataset": {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\harvard_g5_test_20261006_retry1",
+    "sha256": {
+      "calib.txt": "e8b0945a2e1f42fbc0219570b2d1f67112cacaded91a7b13859f22c78231801b",
+      "download_manifest.json": "15bcaa651b18b656882949a145e27a2f3db5217e49abe2719118ac24727d161c",
+      "img5.mat": "280c639ba8987960922d7f0cf6575e742318c07127d5d9d3aabdeecf3ea93394",
+      "README.txt": "4d2451a370129e4db45ba7468b5f5e67d05f2ae12b40f0af4878b337808dac18"
+    }
+  }
+}

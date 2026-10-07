@@ -1,0 +1,43 @@
+{
+  "retest": {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\g5_retest\\run_20261006_093137",
+    "sha256": {
+      "arrays/fixed_scene_retest.npz": "507ab62044163ad9554b53225a2990e66ffc236e4459c5f7b48256960150bd42",
+      "config_effective.json": "4e19225658b3b26e9a641d1639d31d30accefb26b8954cae6b48c7f869974938",
+      "dataset_manifest.json": "695341469386a31544ad42e044e15b6443cad87582b2aea0389d851872127d92",
+      "figures/fixed_scene_comparison.png": "2b74372717114a2bfe8866252e36ff455c4aefc235d52890d2d9244749089467",
+      "figures/fixed_scene_per_band.png": "b7ae0c6f82cc1c076ab80d19fa486df3e7f9e248ddb8d67f525b645188d04ab5",
+      "metrics/per_band.csv": "a8e14c135fdef6a55bf97d12eb22bc45468bafa87f0583b395278ea5b077267e",
+      "metrics/protocol.json": "2f1431678b413ef3122a1af5da0bfa6801ac973af71b0269eeafa569617d33a9",
+      "metrics/scores.json": "39b04e53eac87d60e59f03992daebfd4601304ae7403640b5cb9c7d0d51641ab",
+      "metrics/validation.json": "ddcf8d09119b53a24a51252358c65cb0910ed3ac517c15a9dd8f16c061fba04e",
+      "source_evidence.json": "e6f93e114a44c7c452309f1240917a17ebaed4415ebdc169f73da39e3f20d6e7",
+      "source_manifest.json": "91822960be4d28e1df76a852bfb4808032cd21129cd92bfe3f6d35266a019783"
+    }
+  },
+  "dataset": {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\harvard_g5_test_20261006_retry1",
+    "sha256": {
+      "calib.txt": "e8b0945a2e1f42fbc0219570b2d1f67112cacaded91a7b13859f22c78231801b",
+      "download_manifest.json": "15bcaa651b18b656882949a145e27a2f3db5217e49abe2719118ac24727d161c",
+      "img5.mat": "280c639ba8987960922d7f0cf6575e742318c07127d5d9d3aabdeecf3ea93394",
+      "README.txt": "4d2451a370129e4db45ba7468b5f5e67d05f2ae12b40f0af4878b337808dac18"
+    }
+  },
+  "expanded_training": {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\g4_expand\\run_20261006_090723",
+    "sha256": {
+      "arrays/best_checkpoint.pt": "3f72bb6b065e70f0c15cedf6b58c8df38fd14353ac0c3b3799946e74c16398fb",
+      "arrays/expanded_subset.npz": "eb9aa89f3b8c231341b74a6f504c8b20125b86caeb9ae8f1eacd03c10ccb0eaa",
+      "config_effective.json": "5e1946db4ae264e0b71f4f9f2a0b1939a02d430dd3bce774af7f13f21d9cc752",
+      "dataset_manifest.json": "1315fdad205e8d0a133649737453748eaa5dd849282b6bae94175678383e8b7f",
+      "figures/expanded_training_curve.png": "a5230704520667dc736bfab95482cb77a3760f9a28fc8effb2a8b07c4db93ca8",
+      "figures/expanded_validation.png": "33b2643cafdd5ce1de733b42cfb268bfed667ca88eba6cc8b1b1a390a9a5eba4",
+      "metrics/scores.json": "fc69333ac34ee5dc8954d85da98e666a4304464c78bfec581c22c9fd1ea92fbb",
+      "metrics/training.json": "d521234f5c684d12a3341f0960e3558907f4b893c68451cfa114901006dc351e",
+      "metrics/validation.json": "686fd8b850294b17171765af8f3ef13fd96f4300f61c7e59c0ed9f4894ff0abc",
+      "source_evidence.json": "79c43217fd3f57d8f551840ff14dee3bca8ed7a8a9377264e2d2493e60148cef",
+      "source_manifest.json": "3960d168267926e817eaa33b9ec25c14b19fc42322c0527763c1ade60a1d997d"
+    }
+  }
+}

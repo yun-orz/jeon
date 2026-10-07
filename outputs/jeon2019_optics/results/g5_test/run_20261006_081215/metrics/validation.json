@@ -1,0 +1,106 @@
+{
+  "status": "completed",
+  "heldout_test_passed": true,
+  "independent_test_scene": true,
+  "test_scene": "img5.mat",
+  "independent_scene_count": 1,
+  "roi_count": 4,
+  "whole_image_evaluated": false,
+  "optimizer_steps": 0,
+  "checkpoint_frozen": true,
+  "best_epoch": 2,
+  "initial_model_matches_g4": true,
+  "paper_alignment_passed": false,
+  "response_status": "synthetic_not_calibrated",
+  "summary": {
+    "untrained": {
+      "mse_pooled": 0.1626210562382724,
+      "psnr_pooled_db": 7.888232224809293,
+      "psnr_is_positive_infinity": false,
+      "ssim_mean": 0.5665261683814062,
+      "sam_mean_rad": 0.5286006013320897,
+      "sam_valid_pixels": 4096,
+      "sam_undefined_pixels": 0
+    },
+    "frozen_epoch2": {
+      "mse_pooled": 0.09266959763463828,
+      "psnr_pooled_db": 10.330627226531686,
+      "psnr_is_positive_infinity": false,
+      "ssim_mean": 0.6456582033297026,
+      "sam_mean_rad": 0.493732300742901,
+      "sam_valid_pixels": 4096,
+      "sam_undefined_pixels": 0
+    }
+  },
+  "metric_protocol": {
+    "dataset_scope": "one held-out Harvard img5 capture; four center ROIs, not validation or paper ten-image test",
+    "target_unit": "relative_photons_train_scaled",
+    "normalization_scale": 0.019641629936370968,
+    "spectral_representation": "relative photons, sensitivity corrected; NOT absolute calibration or radiance",
+    "core_size": 32,
+    "halo": 48,
+    "psnr_formula": "10 log10(L^2 / pooled MSE), L fixed in training-scaled units",
+    "data_range": 1.0,
+    "ssim": "each band: Gaussian 11x11 sigma1.5, population moments, valid convolution, K1=.01 K2=.03; equal band/patch means; no downsampling",
+    "sam": "arccos(clipped normalized dot), radians; mean over valid pixel spectra; signed raw prediction",
+    "zero_norm_threshold": 1e-12,
+    "prediction_clipped": false,
+    "per_image_normalization": false,
+    "independent_test_set": true,
+    "checkpoint_frozen": true,
+    "optimizer_steps": 0,
+    "paper_table1": {
+      "pdf_page": 8,
+      "images": 10,
+      "ours_psnr_db": 35.88,
+      "ours_ssim": 0.93,
+      "ours_sam": 0.12,
+      "sam_unit_confirmed": false
+    },
+    "directly_comparable_to_paper": false,
+    "blockers": [
+      "not the ten KAIST test images",
+      "validation-selected checkpoint and small training subset",
+      "synthetic RGB response",
+      "optical size alignment unresolved",
+      "network implementation assumptions",
+      "paper PSNR range/aggregation and SSIM settings not fully specified",
+      "photon vs energy spectral representation not aligned"
+    ]
+  },
+  "scope": "heldout scene replaces validation scope only; metric formula unchanged",
+  "device": "cpu",
+  "torch_version": "2.14.1+cpu",
+  "environment": {
+    "timestamp_local": "2026-10-06T08:12:15",
+    "python_version": "3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)]",
+    "python_executable": "D:\\dev\\python\\python3.10.4\\python.exe",
+    "python_implementation": "CPython",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "platform_machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "os_cpu_count": 20,
+    "cwd_at_invocation": "D:\\PyCharmProjects\\Jeon2019\\work",
+    "project_root_resolved": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+    "argv": [
+      "D:/PyCharmProjects/Jeon2019/outputs/jeon2019_optics/main_g5_test.py"
+    ],
+    "numpy_version": "2.2.6",
+    "scipy_version": "1.15.3",
+    "matplotlib_version": "3.10.9",
+    "pytest_version": null,
+    "pytest_import_error": "ModuleNotFoundError: No module named 'pytest'"
+  },
+  "runtime": {
+    "save_results": true,
+    "show_plots": false
+  },
+  "backend": {
+    "backend": "Agg",
+    "available": false,
+    "reason": "未请求显示"
+  },
+  "height_fingerprint": "8527724f6aeffc0314d09313d89fdca0c2c864827e6a47308480968bcabc1350",
+  "prediction_clipped": false,
+  "source_and_dataset_unchanged": true
+}

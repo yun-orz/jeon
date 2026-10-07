@@ -1,0 +1,9 @@
+{
+  "source_test": "results/g5_test/run_20261006_081215",
+  "test_audit": "../执行_G5独立测试_20261006/最终审核.json",
+  "source_expanded": "results/g4_expand/run_20261006_090723",
+  "expanded_audit": "../执行_G4扩充_20261006/最终审核.json",
+  "cpu_threads": 4,
+  "runtime": {"save_results": true, "show_plots": false},
+  "plots": {"dpi": 150}
+}

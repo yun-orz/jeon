@@ -1,0 +1,37 @@
+{
+  "source_g3": "results/g3/run_20261006_000710",
+  "source_audit": "../执行_G3_20261006/最终审核.json",
+  "source_g2": "results/g2/run_20261005_234941",
+  "dataset": {
+    "directory": "../../work/datasets/harvard_g4_20261006",
+    "train_scene": "img3.mat",
+    "validation_scene": "img4.mat",
+    "train_patches": 4,
+    "validation_patches": 2,
+    "core_size": 32,
+    "halo": 48,
+    "train_percentile": 99.0
+  },
+  "network": {
+    "stages": 3,
+    "features": 64,
+    "levels": 4,
+    "epsilon_init": 0.05,
+    "rho_init": 0.1,
+    "threshold_init": 0.01
+  },
+  "training": {
+    "epochs": 3,
+    "learning_rate": 0.001,
+    "gradient_clip_norm": 1.0
+  },
+  "seed": 20261006,
+  "cpu_threads": 4,
+  "runtime": {
+    "save_results": true,
+    "show_plots": false
+  },
+  "plots": {
+    "dpi": 150
+  }
+}

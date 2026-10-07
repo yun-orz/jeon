@@ -1,0 +1,10 @@
+{
+  "source_run": "results/g4_expand/run_20261006_090723",
+  "source_audit": "../执行_G4扩充_20261006/最终审核.json",
+  "seed": 20261006,
+  "cpu_threads": 4,
+  "thresholds": {"optical_float64": 1e-10, "prediction_float32": 1e-5, "gradient_float32": 1e-4, "parameter_float32": 1e-5},
+  "smoke": {"learning_rate": 0.0001, "gradient_clip_norm": 1.0},
+  "runtime": {"save_results": true, "show_plots": false},
+  "plots": {"dpi": 150}
+}

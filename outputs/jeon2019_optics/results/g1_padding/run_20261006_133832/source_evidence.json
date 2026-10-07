@@ -1,0 +1,83 @@
+{
+  "sampling": {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\g1_lp_sampling\\run_20261006_133000",
+    "sha256": {
+      "arrays/sampling.npz": "d6b24d6391af57f4643251cc403a0ae28d3fb5ddfff264cfc6a7cfbd708e69cc",
+      "config_effective.json": "c627c18529006326db382ac4bf5918548182eb35cfac96154cf9857caeefafaf",
+      "figures/sampling_decomposition.png": "120b2f1834cf1b40c7d755d2369af86d536946c4ae2a8310aa5062ac50f8bf3b",
+      "metrics/validation.json": "f0f0374b6a9bfd51fbad64950c0b389b2ece34656dec4af21548f7a4a8c24396",
+      "source_evidence.json": "81e7a0d0e28147d0051bd9922e8d7abe8fe1d7ba47ab87377d465820c18d01f9",
+      "source_manifest.json": "6ec1cf4f4f1f90055e17f3d8e2c2b4ae35d4fbb965a0131af415bdb40733e226"
+    }
+  },
+  "prior_crosscheck": {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\g1_lightpipes\\run_20261006_131933",
+    "sha256": {
+      "arrays/crosscheck.npz": "6909e07d8140ead74d4ea09c1c2288c646b1a243a60fd077d6aaae9137ee98bc",
+      "config_effective.json": "c20907a6a095fd546d6c043282943f8601340224a0ade4a1d988a934ed12d106",
+      "figures/lightpipes_comparison.png": "96fd940a8ab1bb2dbcb771690e1eeb1087173407f594fdb0414b6fd894b58eb5",
+      "metrics/validation.json": "0cad73c3b1c60b70bc4e336d3ef699f38099c39077433f47bd26660b8f6ba283",
+      "source_evidence.json": "8a24d00113984ec48c21245fc0980d7f715cdfac51128ed0dbb59afe0bc14569",
+      "source_manifest.json": "fb76c70cfe2776bde8eaadf9ca42298936fa4182a0c34f8667c77d69dfa8cfdd"
+    }
+  },
+  "window": {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\g1_window\\run_20261006_131121",
+    "sha256": {
+      "arrays/control_540nm.npz": "299f550083b3490ee7b74eae91cb4394bc153aea5613a332f151346a6c9f61c7",
+      "arrays/window_bank.npz": "ca1c0b2bec63aba5bc31d0be9996f0cd00cb48e03a353b1493d853f72335eefc",
+      "config_effective.json": "65930d9ceb5342817adae0593ce35e85de903a5f7520373659b1961a1870d7bb",
+      "figures/expanded_psf_shapes.png": "af841abdcf022e8932f1e6e23f6faf76fe8f67ad9805bf6fc4b65f2eed8e614a",
+      "figures/window_size_energy.png": "4276db49fb03d20be62bba2d3d93dc09f2173948afed1f3dcefe9322c18aa955",
+      "metrics/validation.json": "f881b5d4eddbed32f76899c62045a4851f3d8cfd5bf303590b88d3110cf8882f",
+      "source_evidence.json": "576bf8de8341120d6bf9a366480faa3ce5aa31e6751ce4a2970d677e9cbd001c",
+      "source_manifest.json": "3470f47213328b2386c76628b30d5345e0ae3138c977dbeccbe9b9208403e876"
+    }
+  },
+  "alignment": {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\g1_alignment\\run_20261005_234023",
+    "sha256": {
+      "arrays/alignment_data.npz": "69e8df65bc882d009b35513965268950ec22d07f936322cf05f25ca0c2fd4523",
+      "arrays/cw_field_420nm.npz": "9ca0f51f91d695379e563c5ff4b0b7b9033a5b48df0e3348dc8b081eb7ae0334",
+      "arrays/cw_field_540nm.npz": "3e6bf4adebc7df6397cb07b8a96a04d4a988c65388673dbc98816ef777f4d9b5",
+      "arrays/cw_field_660nm.npz": "3736b3833f376e17eb532e42e0ee12920667908d67b24aa362b59861f4081f6a",
+      "arrays/height_cw_fixed.npz": "ab7a0f689bd8d15e69151b3c6b87ce86e0f819ae00264e21e9f3167e64d99ce4",
+      "config_effective.json": "f7035d43821a9c167b3c7f12f522c960d7550229786311de1070f85f2804820d",
+      "figures/angle_size_diagnostics.png": "2cdfd1e247e074b9e7f562330e37c590daf7ca9ff1eb0929363910b458f8f534",
+      "figures/cw_propagation_comparison.png": "28186453c1e253e695108696f41e60d0387236cf7f38eca1fc656d4cce82e271",
+      "metrics/cw_checks.json": "bde9f6a5e480a9ef906d543eaadc9af22ff1223997ea2923c3561afb9cc7cd2e",
+      "metrics/cw_rotation.json": "cde53ae3e1f8162e46f58e0235c68b7f4e6ba6116694f5ca2f8cb966c679dd92",
+      "metrics/registration.json": "79273e8d7b4bac685b899dd5718b2ad1340179864a24190ba8c1fc259c0bee47",
+      "metrics/sizes.csv": "e729716dfe71c52aac044f791a88b558d68d99100bdfe4aa75d56db71d4fe3d6",
+      "metrics/sizes.json": "61d6d94db6c05aa8e09bbf73493c32a87ce26b0cc9002ba1ed40362a25735262",
+      "metrics/validation.json": "74e774a3ab3df4fae37976103577bf00a152b7d962a73fba59694e533e212cc2",
+      "report_alignment.md": "f64fb8c4b849ad9bd2c6b5aa4c0e571d2c45dfb7841c392abc50a5801d76e5eb",
+      "run.log": "0ed0ff1f8e1bc1407746613de85d59c8fe009013c60adaa5a25452cf76cbf584",
+      "source_evidence.json": "f436d7fc03207d4092b9e6569c9523a5008d67ad6964aa96524be400263e3936",
+      "source_manifest.json": "a05764614bde1eae077b0f96ebaccc3bd4060a4ba5aff756ceefeea77e609adb"
+    }
+  },
+  "lightpipes_package": {
+    "path": "D:\\PyCharmProjects\\Jeon2019\\work\\dependencies\\lightpipes_2_1_5\\LightPipes",
+    "sha256": {
+      "__init__.py": "2a522361c1c803ff9ef9a84a8688cf44a51f9d0762c20afd77516c8352a489b7",
+      "_version.py": "0ff5bf7df5578c3c72761867507f0356a50ef3958c0a1c7ee8b31e75812c5585",
+      "config.py": "9e93cd5b49aa92415e7c29b6a656250d3e0857de995261430b473bc00965ab2b",
+      "core.py": "2512d49172b787cf467e1a7c034fc3f488a8cbc734f86de34bb58bfdb096200c",
+      "field.py": "af1976a2e45603756a058120051f5e6853abc539f23cd8508551385e3c7ba549",
+      "lenses.py": "8083392ba8d5fe230b1bbf468bcde3c0f0d53d958b145ac35fcaf77621a3cde4",
+      "misc.py": "9095fcb8b271fe54ea494431bbcd73700a3a238e1caa8af9149de59330202990",
+      "plotutils.py": "784fd363bb460034b6333650cecbb55c27caf1a93fc60fd96e50a52f5db08004",
+      "propagators.py": "3a682184039a49b5c9cbaf5e0615532b3e5d36f49fcfbbfb91430d0c6933f939",
+      "sources.py": "2c38068af85d1513c2c15996cce44c973f0c429b83a276971252507fc8c4c95d",
+      "subs.py": "c9469a218292e00b43f3a69a805f1afa85404c45c9e15bb716b7818e1f956c28",
+      "tictoc.py": "244a219651dbe0cd821ca1572fe3ffcfe9bdfc859172abe6c02c0b156baa16e7",
+      "units.py": "227a87471655f82beb86d8ad6fb7b18ae35c891bc25b1047a7a4b8f13df4ede7",
+      "unwrap.py": "0132550f1c5541a238688ec35673ab42b7582825e045e44d0d6228561f890bfe",
+      "userfunc.py": "b4717799692b6ea1ceb96746c6dd5d15ec9eefc31e03aac8d59329acc72025b7",
+      "wavefront.py": "ed54a4b26772363775b63d4e49071db3977ad8351ab5c67396f24b510cce506a",
+      "zernike.py": "e231b1ffe51e0f8d62fbac3d33179f9b5aa84fd7ea36e1412c48c6817476fbd2",
+      "zernikemath.py": "e32f5bd2e2a0f0ab05cea188cfb1022f427be159c1c959a055b18c4a8aa09ed4"
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "source_run": "results/g1/run_20261005_231424",
+  "polar": {
+    "r_min_m": 2e-05,
+    "r_max_m": 0.0001,
+    "r_samples": 81,
+    "theta_samples": 720,
+    "correlation_min": 0.9
+  },
+  "size": {
+    "shape_roi_m": 0.00015,
+    "peak_thresholds": [
+      0.5,
+      0.1,
+      0.05
+    ]
+  },
+  "clockwise_variant": {
+    "enabled": true,
+    "angular_origin_deg": 0.0,
+    "refinement_wavelengths_nm": [
+      420,
+      540,
+      660
+    ]
+  },
+  "thresholds": {
+    "reflection_kernel_l1": 1e-10,
+    "angle_sign_deg": 1e-08
+  },
+  "runtime": {
+    "save_results": true,
+    "show_plots": false
+  },
+  "plots": {
+    "dpi": 150
+  },
+  "source_config": {
+    "optical": {
+      "diameter_m": 0.001,
+      "focal_length_m": 0.05,
+      "distance_m": 0.05,
+      "wings_N": 3,
+      "lambda_min_m": 4.2e-07,
+      "lambda_max_m": 6.6e-07
+    },
+    "wavelengths_nm": [
+      420,
+      430,
+      440,
+      450,
+      460,
+      470,
+      480,
+      490,
+      500,
+      510,
+      520,
+      530,
+      540,
+      550,
+      560,
+      570,
+      580,
+      590,
+      600,
+      610,
+      620,
+      630,
+      640,
+      650,
+      660
+    ],
+    "input": {
+      "n": 1101,
+      "spacing_m": 1e-06,
+      "refinement_factor": 2
+    },
+    "detector": {
+      "pixels_per_axis": 97,
+      "pitch_m": 6.22e-06,
+      "quadrature_main": 8,
+      "quadrature_coarse": 4
+    },
+    "thresholds": {
+      "pixel_l1": 0.005,
+      "pixel_l2": 0.01,
+      "eta_absolute": 0.001,
+      "angle_deg": 0.5,
+      "radius_pixels": 1.0
+    },
+    "legacy_source": "results/stage02c/run_20261002_172338",
+    "g0_manifest": "../../baseline/g0_20261005/manifest.json",
+    "budget_seconds": 600.0,
+    "runtime": {
+      "save_results": true,
+      "show_plots": false
+    },
+    "plots": {
+      "dpi": 150
+    }
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "reflection": [
+    {
+      "wavelength_nm": 420,
+      "reflection_kernel_l1": 1.2431231593309522e-16,
+      "angle_sign_error_deg": 1.4210854715202004e-14,
+      "passed": true
+    },
+    {
+      "wavelength_nm": 430,
+      "reflection_kernel_l1": 1.1810624468052023e-16,
+      "angle_sign_error_deg": 7.105427357601002e-15,
+      "passed": true
+    },
+    {
+      "wavelength_nm": 440,
+      "reflection_kernel_l1": 1.2058777516510857e-16,
+      "angle_sign_error_deg": 1.4210854715202004e-14,
+      "passed": true
+    },
+    {
+      "wavelength_nm": 450,
+      "reflection_kernel_l1": 1.237686663314449e-16,
+      "angle_sign_error_deg": 7.105427357601002e-15,
+      "passed": true
+    },
+    {
+      "wavelength_nm": 460,
+      "reflection_kernel_l1": 1.2884495142903766e-16,
+      "angle_sign_error_deg": 7.105427357601002e-15,
+      "passed": true
+    },
+    {
+      "wavelength_nm": 470,
+      "reflection_kernel_l1": 1.1967107767328975e-16,
+      "angle_sign_error_deg": 0.0,
+      "passed": true
+    },
+    {
+      "wavelength_nm": 480,
+      "reflection_kernel_l1": 1.2629447111578576e-16,
+      "angle_sign_error_deg": 7.105427357601002e-15,
+      "passed": true
+    },
+    {
+      "wavelength_nm": 490,
+      "reflection_kernel_l1": 1.2251584782893323e-16,
+      "angle_sign_error_deg": 7.105427357601002e-15,
+      "passed": true
+    },
+    {
+      "wavelength_nm": 500,
+      "reflection_kernel_l1": 1.0943365327031368e-16,
+      "angle_sign_error_deg": 0.0,
+      "passed": true
+    },
+    {
+      "wavelength_nm": 510,
+      "reflection_kernel_l1": 1.1048546085272881e-16,
+      "angle_sign_error_deg": 0.0,
+      "passed": true
+    },
+    {
+      "wavelength_nm": 520,
+      "reflection_kernel_l1": 1.0855217682555454e-16,
+      "angle_sign_error_deg": 0.0,
+      "passed": true
+    },
+    {
+      "wavelength_nm": 530,
+      "reflection_kernel_l1": 1.0733632826905936e-16,
+      "angle_sign_error_deg": 1.4210854715202004e-14,
+      "passed": true
+    },
+    {
+      "wavelength_nm": 540,
+      "reflection_kernel_l1": 1.1293205374218813e-16,
+      "angle_sign_error_deg": 0.0,
+      "passed": true
+    },
+    {
+      "wavelength_nm": 550,
+      "reflection_kernel_l1": 1.144623406248129e-16,
+      "angle_sign_error_deg": 7.105427357601002e-15,
+      "passed": true
+    },
+    {
+      "wavelength_nm": 560,
+      "reflection_kernel_l1": 1.208736398515559e-16,
+      "angle_sign_error_deg": 2.1316282072803006e-14,
+      "passed": true
+    },
+    {
+      "wavelength_nm": 570,
+      "reflection_kernel_l1": 1.1863869316566862e-16,
+      "angle_sign_error_deg": 2.1316282072803006e-14,
+      "passed": true
+    },
+    {
+      "wavelength_nm": 580,
+      "reflection_kernel_l1": 1.1510110376036088e-16,
+      "angle_sign_error_deg": 2.1316282072803006e-14,
+      "passed": true
+    },
+    {
+      "wavelength_nm": 590,
+      "reflection_kernel_l1": 1.2240708020957807e-16,
+      "angle_sign_error_deg": 2.842170943040401e-14,
+      "passed": true
+    },
+    {
+      "wavelength_nm": 600,
+      "reflection_kernel_l1": 1.1764707003926369e-16,
+      "angle_sign_error_deg": 2.842170943040401e-14,
+      "passed": true
+    },
+    {
+      "wavelength_nm": 610,
+      "reflection_kernel_l1": 1.1071100054113895e-16,
+      "angle_sign_error_deg": 0.0,
+      "passed": true
+    },
+    {
+      "wavelength_nm": 620,
+      "reflection_kernel_l1": 1.0734194576435276e-16,
+      "angle_sign_error_deg": 2.842170943040401e-14,
+      "passed": true
+    },
+    {
+      "wavelength_nm": 630,
+      "reflection_kernel_l1": 1.235984662885259e-16,
+      "angle_sign_error_deg": 0.0,
+      "passed": true
+    },
+    {
+      "wavelength_nm": 640,
+      "reflection_kernel_l1": 1.0795017211128836e-16,
+      "angle_sign_error_deg": 0.0,
+      "passed": true
+    },
+    {
+      "wavelength_nm": 650,
+      "reflection_kernel_l1": 1.1674930233319812e-16,
+      "angle_sign_error_deg": 0.0,
+      "passed": true
+    },
+    {
+      "wavelength_nm": 660,
+      "reflection_kernel_l1": 1.1655177575329838e-16,
+      "angle_sign_error_deg": 0.0,
+      "passed": true
+    }
+  ],
+  "sampling": [
+    {
+      "wavelength_nm": 420,
+      "method": "quadrature",
+      "pixel_l1": 0.0009051899518577803,
+      "pixel_l2": 0.0006349570204788454,
+      "eta_absolute": 1.3256842135156433e-07,
+      "angle_primary_deg": 0.0007010639772317973,
+      "reliability_primary_match": true,
+      "angle_sensitivity_deg": 0.00043485408593824104,
+      "reliability_sensitivity_match": true,
+      "R50_status_match": true,
+      "R50_difference_um": 0.0,
+      "R80_status_match": true,
+      "R80_difference_um": 0.0,
+      "kernel_l1": 0.0009051899518577792,
+      "kernel_l2": 0.0006349570204788448,
+      "passed": true
+    },
+    {
+      "wavelength_nm": 420,
+      "method": "input_refinement",
+      "pixel_l1": 0.0013699774108536806,
+      "pixel_l2": 0.0009440823645449788,
+      "eta_absolute": 1.618655374380218e-05,
+      "angle_primary_deg": 0.0006364167751442551,
+      "reliability_primary_match": true,
+      "angle_sensitivity_deg": 0.0015749570816225855,
+      "reliability_sensitivity_match": true,
+      "R50_status_match": true,
+      "R50_difference_um": 0.0,
+      "R80_status_match": true,
+      "R80_difference_um": 0.9298128828527297,
+      "kernel_l1": 0.0013716324992086159,
+      "kernel_l2": 0.0009540258168207722,
+      "passed": true
+    },
+    {
+      "wavelength_nm": 540,
+      "method": "quadrature",
+      "pixel_l1": 0.0006247609055346257,
+      "pixel_l2": 0.0004948879914510665,
+      "eta_absolute": 2.977826761840774e-07,
+      "angle_primary_deg": 0.00030471446156354887,
+      "reliability_primary_match": true,
+      "angle_sensitivity_deg": 0.00159499576201938,
+      "reliability_sensitivity_match": true,
+      "R50_status_match": true,
+      "R50_difference_um": 0.0,
+      "R80_status_match": true,
+      "R80_difference_um": 0.0,
+      "kernel_l1": 0.0006247609055346253,
+      "kernel_l2": 0.0004948879914510671,
+      "passed": true
+    },
+    {
+      "wavelength_nm": 540,
+      "method": "input_refinement",
+      "pixel_l1": 0.0007768532307806087,
+      "pixel_l2": 0.0004409201735128111,
+      "eta_absolute": 5.519074449455985e-06,
+      "angle_primary_deg": 0.008507033450300128,
+      "reliability_primary_match": true,
+      "angle_sensitivity_deg": 0.013763887175706202,
+      "reliability_sensitivity_match": true,
+      "R50_status_match": true,
+      "R50_difference_um": 0.0,
+      "R80_status_match": true,
+      "R80_difference_um": 0.0,
+      "kernel_l1": 0.0007743022611058953,
+      "kernel_l2": 0.00043546837845144813,
+      "passed": true
+    },
+    {
+      "wavelength_nm": 660,
+      "method": "quadrature",
+      "pixel_l1": 0.00037458407524625515,
+      "pixel_l2": 0.00032663059248220225,
+      "eta_absolute": 1.7691191378510496e-07,
+      "angle_primary_deg": 0.00031710943170537575,
+      "reliability_primary_match": true,
+      "angle_sensitivity_deg": 0.0004664113649965884,
+      "reliability_sensitivity_match": true,
+      "R50_status_match": true,
+      "R50_difference_um": 0.0,
+      "R80_status_match": true,
+      "R80_difference_um": 0.0,
+      "kernel_l1": 0.0003745840752462545,
+      "kernel_l2": 0.00032663059248220247,
+      "passed": true
+    },
+    {
+      "wavelength_nm": 660,
+      "method": "input_refinement",
+      "pixel_l1": 0.0010252112196595584,
+      "pixel_l2": 0.0007303589761767049,
+      "eta_absolute": 2.6894590313908395e-05,
+      "angle_primary_deg": 0.00509622136050325,
+      "reliability_primary_match": true,
+      "angle_sensitivity_deg": 0.004946763839754453,
+      "reliability_sensitivity_match": true,
+      "R50_status_match": true,
+      "R50_difference_um": 0.0,
+      "R80_status_match": true,
+      "R80_difference_um": 0.6122086028899218,
+      "kernel_l1": 0.0010202133903422848,
+      "kernel_l2": 0.0007178518771054203,
+      "passed": true
+    }
+  ],
+  "native_energy": [
+    {
+      "wavelength_nm": 420,
+      "pin": 7.85349e-07,
+      "pout": 7.853490000000003e-07,
+      "relative_error": 4.440892098500626e-16,
+      "native_spacing_m": 1.905626134301271e-05,
+      "passed": true
+    },
+    {
+      "wavelength_nm": 540,
+      "pin": 7.85349e-07,
+      "pout": 7.853490000000002e-07,
+      "relative_error": 2.220446049250313e-16,
+      "native_spacing_m": 2.450090744101634e-05,
+      "passed": true
+    },
+    {
+      "wavelength_nm": 660,
+      "pin": 7.85349e-07,
+      "pout": 7.853490000000001e-07,
+      "relative_error": 2.220446049250313e-16,
+      "native_spacing_m": 2.994555353901997e-05,
+      "passed": true
+    }
+  ],
+  "height_reflection_max_error_m": 1.8330322374175093e-21
+}

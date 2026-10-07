@@ -1,0 +1,13 @@
+{
+  "source_run": "results/g1/run_20261005_231424",
+  "source_kind": "g1_ccw_frozen",
+  "source_evidence": "results/g1_alignment/run_20261005_234023/source_evidence.json",
+  "response": {"kind": "synthetic_gaussian", "centers_nm": [610, 540, 460], "sigma_nm": [45, 35, 30], "peak_qe": [0.6, 0.6, 0.6]},
+  "scene": {"height": 96, "width": 96, "amplitude_photons_per_bin": 1000.0},
+  "input_unit": "photons_per_bin",
+  "bin_width_nm": 10.0,
+  "seed": 20261005,
+  "thresholds": {"adjoint_relative": 1e-10, "conservation_relative": 1e-10},
+  "runtime": {"save_results": true, "show_plots": false},
+  "plots": {"dpi": 150}
+}

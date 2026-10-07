@@ -1,0 +1,106 @@
+{
+  "original_metadata": {
+    "scene": "img5.mat",
+    "sha256": "280c639ba8987960922d7f0cf6575e742318c07127d5d9d3aabdeecf3ea93394",
+    "shape": [
+      1040,
+      1392,
+      31
+    ],
+    "origins_yx": [
+      [
+        640,
+        1024
+      ],
+      [
+        768,
+        512
+      ],
+      [
+        256,
+        640
+      ],
+      [
+        256,
+        1152
+      ]
+    ],
+    "eligible_tiles": 73,
+    "patches": 4,
+    "context_size": 128,
+    "core_size": 32,
+    "halo": 48,
+    "normalization_scale": 0.019641629936370968,
+    "normalization_fit": "G4 train_context_only; no test fitting",
+    "sensitivity_sha256": "e8b0945a2e1f42fbc0219570b2d1f67112cacaded91a7b13859f22c78231801b",
+    "selection_seed": 20261006,
+    "scene_file_split_disjoint": true,
+    "spatial_scope": "four nonoverlapping contexts from ONE held-out capture; not whole-image quality or four independent scenes",
+    "dataset_url": "https://vision.seas.harvard.edu/hyperspec/d2x5g3/CZ_hsdbi.tgz",
+    "license_page": "https://vision.seas.harvard.edu/hyperspec/download.html",
+    "absolute_photon_calibration": false
+  },
+  "selection": [
+    {
+      "original_index": 0,
+      "original_origin_yx": [
+        640,
+        1024
+      ],
+      "support_origin_yx": [
+        528,
+        912
+      ],
+      "in_bounds": true,
+      "accepted": false,
+      "invalid_pixels": 5025,
+      "reason": "官方掩码或光谱无效"
+    },
+    {
+      "original_index": 1,
+      "original_origin_yx": [
+        768,
+        512
+      ],
+      "support_origin_yx": [
+        656,
+        400
+      ],
+      "in_bounds": true,
+      "accepted": true,
+      "invalid_pixels": 0,
+      "reason": "完整有效支持域"
+    },
+    {
+      "original_index": 2,
+      "original_origin_yx": [
+        256,
+        640
+      ],
+      "support_origin_yx": [
+        144,
+        528
+      ],
+      "in_bounds": true,
+      "accepted": true,
+      "invalid_pixels": 0,
+      "reason": "完整有效支持域"
+    },
+    {
+      "original_index": 3,
+      "original_origin_yx": [
+        256,
+        1152
+      ],
+      "support_origin_yx": [
+        144,
+        1040
+      ],
+      "in_bounds": true,
+      "accepted": true,
+      "invalid_pixels": 0,
+      "reason": "完整有效支持域"
+    }
+  ],
+  "normalization_refit": false
+}
