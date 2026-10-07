@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "shape_hwc": [
+      2704,
+      3376,
+      25
+    ],
+    "channel_names": [
+      "w420nm",
+      "w430nm",
+      "w440nm",
+      "w450nm",
+      "w460nm",
+      "w470nm",
+      "w480nm",
+      "w490nm",
+      "w500nm",
+      "w510nm",
+      "w520nm",
+      "w530nm",
+      "w540nm",
+      "w550nm",
+      "w560nm",
+      "w570nm",
+      "w580nm",
+      "w590nm",
+      "w600nm",
+      "w610nm",
+      "w620nm",
+      "w630nm",
+      "w640nm",
+      "w650nm",
+      "w660nm"
+    ],
+    "selected_indices": "按w{波长}nm名称，不按通道位置",
+    "units": "相对Spectralon参考白的反射率，保留原值，不拟合场景尺度",
+    "mask": "所选全部谱通道有限非负",
+    "reader": "EXR旧扫描行API按全部25通道有界扫描行块，总输出块不超过64MiB",
+    "data_window_origin_y": 0
+  },
+  "source_sha256": {
+    "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene20_reflectance\\payload_e12cb5337a234b7f9489a10786b57d36.bin": "426d47ac4208e23a2ef7314b4831c0a0b7001064a741c52f598eddaf35e3cbff"
+  },
+  "reader_sha256": "b41f90b8e0493457ce8c4bf719470f159565c330e920f201684e37a176f9f36b",
+  "descriptor_sha256": "b358db6724fdc3668d087071278c34f18a9d1c788886ac8c4c9ccb715505ce0b"
+}

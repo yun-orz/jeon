@@ -1,0 +1,46 @@
+{
+  "scene_ids": [
+    "kaist:synthetic_test_0",
+    "kaist:synthetic_test_1",
+    "kaist:synthetic_test_2",
+    "kaist:synthetic_test_3",
+    "kaist:synthetic_test_4",
+    "kaist:synthetic_test_5",
+    "kaist:synthetic_test_6",
+    "kaist:synthetic_test_7",
+    "kaist:synthetic_test_8",
+    "kaist:synthetic_test_9"
+  ],
+  "scene_groups": [
+    "synthetic_test_group_0",
+    "synthetic_test_group_1",
+    "synthetic_test_group_2",
+    "synthetic_test_group_3",
+    "synthetic_test_group_4",
+    "synthetic_test_group_5",
+    "synthetic_test_group_6",
+    "synthetic_test_group_7",
+    "synthetic_test_group_8",
+    "synthetic_test_group_9"
+  ],
+  "source_sha256": {
+    "kaist:synthetic_test_0": {},
+    "kaist:synthetic_test_1": {},
+    "kaist:synthetic_test_2": {},
+    "kaist:synthetic_test_3": {},
+    "kaist:synthetic_test_4": {},
+    "kaist:synthetic_test_5": {},
+    "kaist:synthetic_test_6": {},
+    "kaist:synthetic_test_7": {},
+    "kaist:synthetic_test_8": {},
+    "kaist:synthetic_test_9": {}
+  },
+  "operator_fingerprints": {
+    "jeon": "762529f798f561d82cc1f936b50b7e4e3e08d0844b543a1a0aae842d2328e17b",
+    "fresnel": "a70878aa6b0bdf6464c4eee5ff8fd6ddeb05f397b365056988c06c8363fbed3c"
+  },
+  "open_milestone": "M7",
+  "preprocessed_before_M7": false,
+  "data_version_fingerprint": "8b929dfa43d6a967460da3ae3bee8ba047bb7c1bfbeb35d95a412c7d156311b1",
+  "fingerprint": "e76a7441e15ca1cce49a749895a65ee48d70c8ffe0190e076b92b6e0669e2ab3"
+}

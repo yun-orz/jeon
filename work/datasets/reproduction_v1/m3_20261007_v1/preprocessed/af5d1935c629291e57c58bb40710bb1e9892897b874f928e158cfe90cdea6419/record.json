@@ -1,0 +1,23 @@
+{
+  "source_sha256": {
+    "H:\\我的云端硬盘\\Jeon2019_data\\reproduction_v1\\icvl\\mat\\objects_0924-1614.mat": "beb5aa5080f2e3f47289eda4d39cd6c2973de6b99ff7015d158af447c37e5b7f"
+  },
+  "preprocessing": {
+    "shape_chw": [
+      25,
+      650,
+      696
+    ],
+    "dropped_odd_edge_yx": [
+      0,
+      0
+    ],
+    "valid_pixels": 452400,
+    "area_rule": "每2×2原像元等面积平均，几何像元中心对齐；奇数末行/列丢弃并登记",
+    "peak_source_block_bytes": 4126720
+  },
+  "sha256": {
+    "base.npy": "6afbd2d66261a1db19d1b5e63cb7565fbdf93ff02e37617460ac0e1c5bc2de21",
+    "mask.npy": "701310e1c19610da2e1e9f7bfd06c7347859e8e9b868c8ea0608b5a415da95b1"
+  }
+}

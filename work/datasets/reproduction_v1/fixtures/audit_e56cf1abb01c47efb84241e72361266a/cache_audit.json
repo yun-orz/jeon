@@ -1,0 +1,10 @@
+{
+  "peak_cache_bytes": 6619136,
+  "per_scene_peak_bytes": {
+    "kaist:synthetic_train": 6619136
+  },
+  "max_bytes": 67108864,
+  "peak_source_block_bytes": 26214400,
+  "observed_process_rss_bytes": 155074560,
+  "whole_dataset_loaded": false
+}

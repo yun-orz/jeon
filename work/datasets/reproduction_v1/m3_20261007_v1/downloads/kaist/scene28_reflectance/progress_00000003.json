@@ -1,0 +1,33 @@
+{
+  "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene28_reflectance.exr",
+  "file": "payload_2b7fc5453071440e966d9d1c880f6bb1.bin",
+  "expected_bytes": 316364550,
+  "source_identity": {
+    "etag": null,
+    "last_modified": "Tue, 30 Jan 2018 01:33:53 GMT"
+  },
+  "segments": [
+    {
+      "offset": 0,
+      "bytes": 67108864,
+      "sha256": "806b3a21b1be69040ef14b86b9bce25ae4dfaa859884f52701d8a89d83089645"
+    },
+    {
+      "offset": 67108864,
+      "bytes": 67108864,
+      "sha256": "31808747ae13e5f4c8555ee99c6c8e36e67090f7b27829640fdb6424a0c3783e"
+    },
+    {
+      "offset": 134217728,
+      "bytes": 67108864,
+      "sha256": "7c7168f98825b0ee819155bbc7e5433158c35159f467d35bdef3ac86e7272958"
+    },
+    {
+      "offset": 201326592,
+      "bytes": 67108864,
+      "sha256": "e8d65f84de8e2c2e5cfc8199aa4e3f2f767768103901ae08faa14457519e9f3a"
+    }
+  ],
+  "completed_bytes": 268435456,
+  "status": "partial"
+}

@@ -1,0 +1,25 @@
+{
+  "source_sha256": {
+    "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdbi\\CZ_hsdbi\\imgg7.mat": "ed7d96d8e2a2835284e791b63493afc0c65e0c80a55a49dabe2a63b869a2c310",
+    "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdbi\\CZ_hsdbi\\calib.txt": "e8b0945a2e1f42fbc0219570b2d1f67112cacaded91a7b13859f22c78231801b",
+    "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdbi\\CZ_hsdbi\\README.txt": "4d2451a370129e4db45ba7468b5f5e67d05f2ae12b40f0af4878b337808dac18"
+  },
+  "preprocessing": {
+    "shape_chw": [
+      25,
+      520,
+      696
+    ],
+    "dropped_odd_edge_yx": [
+      0,
+      0
+    ],
+    "valid_pixels": 360624,
+    "area_rule": "每2×2原像元等面积平均，几何像元中心对齐；奇数末行/列丢弃并登记",
+    "peak_source_block_bytes": 1980160
+  },
+  "sha256": {
+    "base.npy": "ab6852683e34b8c891a4a725d0c4670679c6bbb384cf565864c2e8d4a84fb22b",
+    "mask.npy": "5fd79ba74ae1e7be2eb1a78c4b18da188a3e4a82579824f7f0172743b1dd2629"
+  }
+}

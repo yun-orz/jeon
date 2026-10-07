@@ -1,0 +1,28 @@
+{
+  "url": "https://vision.seas.harvard.edu/hyperspec/d2x5g3/CZ_hsdbi.tgz",
+  "file": "payload_b68346f4c119454daefa03924a1c7b94.bin",
+  "expected_bytes": 2383098904,
+  "source_identity": {
+    "etag": "\"8e0b3418-4a0598ba19a80\"",
+    "last_modified": "Thu, 07 Apr 2011 19:59:22 GMT"
+  },
+  "segments": [
+    {
+      "offset": 0,
+      "bytes": 67108864,
+      "sha256": "9aed1eca2b8f8798c21bedba1c6a760c66e7d83a3e5424003f969e227b1be54c"
+    },
+    {
+      "offset": 67108864,
+      "bytes": 67108864,
+      "sha256": "db3149f39367a86f2742e59abc1ed7802dc9415e49424d63857eb7e3ff1f9bbc"
+    },
+    {
+      "offset": 134217728,
+      "bytes": 67108864,
+      "sha256": "e66c3068da27b63d7a330a4240a269483afa93ff6f763e9d60ed3c8864a7c7a3"
+    }
+  ],
+  "completed_bytes": 201326592,
+  "status": "partial"
+}

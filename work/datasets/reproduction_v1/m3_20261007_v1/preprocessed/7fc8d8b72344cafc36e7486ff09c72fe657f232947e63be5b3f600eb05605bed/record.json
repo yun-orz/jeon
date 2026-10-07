@@ -1,0 +1,23 @@
+{
+  "source_sha256": {
+    "H:\\我的云端硬盘\\Jeon2019_data\\reproduction_v1\\icvl\\mat\\hill_0325-1242.mat": "ae143281f7172ee7eb3e5f4dc17ae5298350d0bef9bca82d380c0471d3e4feab"
+  },
+  "preprocessing": {
+    "shape_chw": [
+      25,
+      595,
+      696
+    ],
+    "dropped_odd_edge_yx": [
+      1,
+      0
+    ],
+    "valid_pixels": 414120,
+    "area_rule": "每2×2原像元等面积平均，几何像元中心对齐；奇数末行/列丢弃并登记",
+    "peak_source_block_bytes": 3777536
+  },
+  "sha256": {
+    "base.npy": "3df96082d86dd46cdc1e265cac70d609c5051efbff15d8f85827c103057111fa",
+    "mask.npy": "e5688619458530e860fb64473baf7526c34dbf08e6d10dc8cc21f2139fd22503"
+  }
+}

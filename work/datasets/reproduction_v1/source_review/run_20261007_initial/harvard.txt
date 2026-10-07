@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Statistics of Real-World Hyperspectral Images</title>
+<link rel="stylesheet" href="http://www.w3.org/StyleSheets/Core/Swiss" type="text/css" />
+</head>
+
+<body>
+<h1>Real-World Hyperspectral Images Database</h1>
+
+This database is being made available for non-commercial research
+use. Please see the README.txt file in each archive for details.<p>
+
+<ul>
+<li> 50 Indoor &amp; outdoor images under daylight: <a
+  href="CZ_hsdb.tgz">CZ_hsdb.tgz</a> (5.3GB)
+<li> 27 Indoor images under artificial &amp; mixed illumination: <a
+  href="CZ_hsdbi.tgz">CZ_hsdbi.tgz</a> (2.2GB)
+</ul>
+
+If you use this data in an academic publication, kindly cite the
+following paper:<p>
+
+Ayan Chakrabarti and Todd Zickler, "<b>Statistics of Real-World
+Hyperspectral Images</b>," in <i>Proceedings of the IEEE Conference on
+Computer Vision and Pattern Recognition (CVPR)</i>,
+2011.&nbsp;<a href="http://vision.seas.harvard.edu/hyperspec/bib.html" target=_BLANK>[BibTeX]</a>
+
+<p>&nbsp;<br>
+
+If you wish to link to this database, please link to the project page
+below and not this download page.
+
+<p>&nbsp;<br>
+
+<a href="http://vision.seas.harvard.edu/hyperspec/">[Project Page]</a>

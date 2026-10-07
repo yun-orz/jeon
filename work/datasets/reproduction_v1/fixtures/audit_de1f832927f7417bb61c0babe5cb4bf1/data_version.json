@@ -1,0 +1,19 @@
+{
+  "kind": "synthetic_fixture_only",
+  "preprocessed_sha256": {
+    "harvard:synthetic_train": {
+      "base.npy": "e4c0be6dd5782a3928ccc0fdb4ad6b330343f404df72d6b71e118da4083e495f",
+      "mask.npy": "0acd32b99c7188ffb30eacfc6f0f0eae72734665c91e0c57c01f389ab059aaed"
+    },
+    "icvl:synthetic_train": {
+      "base.npy": "4d81a1b01d46a3a022d00e958123f874a589f48e16dafb8090113cda7f755e42",
+      "mask.npy": "0acd32b99c7188ffb30eacfc6f0f0eae72734665c91e0c57c01f389ab059aaed"
+    },
+    "kaist:synthetic_train": {
+      "base.npy": "400703fe6b78e883d764345bd78362eec217a9a1b5fa8f189f344bbef55770cb",
+      "mask.npy": "0acd32b99c7188ffb30eacfc6f0f0eae72734665c91e0c57c01f389ab059aaed"
+    }
+  },
+  "patch_index_sha256": "a0b9277a44c46fc63e6bca17c1321edbf9db4a4bffe968772b1620ffb3d85d4e",
+  "fingerprint": "31546f926142db7857729da6b689bb21066e4a09e238967169d5edf41e071e0e"
+}

@@ -1,0 +1,105 @@
+{
+  "stage": "stage01",
+  "generated_for": "Jeon2019 光学复现（阶段 01：传播基线）",
+  "note": "本文件只登记本阶段实际读取/核实的来源。页码均为 PDF 文件页码（1-based）；正文页脚对应 117:页码。核实方式为 PyMuPDF 渲染页面后逐条图像判读，不以文本提取结果为准。",
+  "network_access_performed": false,
+  "sources": [
+    {
+      "id": "main_pdf",
+      "kind": "paper",
+      "title": "Compact Snapshot Hyperspectral Imaging with Diffracted Rotation",
+      "authors": ["Daniel S. Jeon", "Seung-Hwan Baek", "Shinyoung Yi", "Qiang Fu", "Xiong Dun", "Wolfgang Heidrich", "Min H. Kim"],
+      "venue": "ACM Transactions on Graphics, Vol. 38, No. 4, Article 117",
+      "publication_date": "July 2019",
+      "doi": "https://doi.org/10.1145/3306346.3322946",
+      "local_path": "work/papers/main.pdf",
+      "bytes": 13269896,
+      "sha256": "493f49f1a998dd51a60757f8b121bd55b03fcfcb692d8828cc08f0c7d718bdcc",
+      "pages": 13,
+      "pdf_metadata": {
+        "title": "Compact Snapshot Hyperspectral Imaging with Diffracted Rotation",
+        "creator": "LaTeX with acmart 2019/03/29 v1.59",
+        "producer": "pdfTeX-1.40.19",
+        "creationDate": "2019-05-21"
+      },
+      "pages_read": [3, 4, 5, 6, 7],
+      "rendered_check_dir": "work/papers/stage01_check",
+      "verified_content": [
+        "式(1)-(5) 第 3 页：入射/DOE 后复振幅、DOE 相位、Fresnel 传播积分（含 e^{ikz}/(iλz)、k/(2z)、dx'dy'、条件 λ≪z）",
+        "式(6) 第 4 页：p_λ ∝ |F[A e^{iφ_h} e^{i(π/λz)(x'²+y'²)}]|²（用 ∝、无归一化常数、无 e^{ikz}）",
+        "式(7)-(9) 第 4 页：几何程差相位、高度相位、Δh 表达式与 −λ/Δη_λ ≤ Δh ≤ 0 约束",
+        "式(10)-(12) 第 5 页：λ(θ) 分段定义（周期 2π/N）、Δh(r,θ)、h(r,θ)=h(0,0)+Δh",
+        "式(13)-(15) 第 5 页：非相干成像三重积分、卷积形式、离散前向 J=ΦI",
+        "图 3 第 4 页图注：'by simulation'；2 行（Fresnel lens / Our DOE）× 9 列（420-660 nm，步长 30 nm）",
+        "图 6 第 7 页图注：'fabricated' / 'measured'；420-650 nm 共 24 幅",
+        "第 5 页脚注：PSF 仿真使用 LightPipes (http://www.okotech.com/lightpipes)",
+        "第 6-7 页器件参数：16 级、fused silica 0.5mm 4 英寸晶圆、1μm 制版分辨率、100 nm 步高、DOE 直径 1 mm、焦距 50 mm",
+        "第 7 页系统参数：Canon EOS 5D Mark III（5760×3840，像元 6.22 μm）、25 通道 420-660 nm、标定物距 8.03 m、1 mm 针孔"
+      ],
+      "quoted_wording_notes": [
+        "原文写 'the fabricated DOE (its diameter is 1 mm and its focal length is 50 mm)'；全文未出现 'aperture diameter' 或 'DOE-to-sensor distance' 的说法。",
+        "Δη_λ 的定义在第 3 页写作 'air and the substrate'、第 4 页写作 'substrate and the air'，顺序相反（符号约定互为反号），属原文内部不一致，阶段 02 需显式登记处理方式。",
+        "第 7 页 'The maximum height of our DOE at its center is 0.5 mm' 与第 6 页晶圆厚度 0.5 mm 同值；因式(9) 约束下 Δh 仅约 0.7-1.2 μm、16×100 nm=1.5 μm，该句很可能指晶圆总厚度或措辞有误（推测，阶段 02 需澄清）。",
+        "'θ_p' 并非原文符号；原文只有极角 θ 与周期 2π/N。"
+      ]
+    },
+    {
+      "id": "supplement_pdf",
+      "kind": "supplement",
+      "title": "Supplemental Material: Compact Snapshot Hyperspectral Imaging with Diffracted Rotation",
+      "local_path": "work/papers/supplement.pdf",
+      "bytes": 59342087,
+      "sha256": "638d42815b92be6fa101dfd144f0f290abd61e8ec18346194f4dc223ceeb5bb9",
+      "pages": 19,
+      "pdf_metadata": {
+        "title": "supplementary_v2",
+        "creator": "PowerPoint",
+        "producer": "macOS 버전 10.14.4(빌드 18E226) Quartz PDFContext",
+        "creationDate": "2019-04-30"
+      },
+      "pages_read": [4, 5],
+      "verified_content": [
+        "第 4 页：图 3 的高分辨率版本，整页一图，文字层仅 'Figure 3 / Our DOE / Fresnel lens / 420nm…660nm'（84 字符）",
+        "第 5 页：图 6 的高分辨率版本，文字层仅 'Figure 6 / (a) Our fabricated DOE / (b) Measured PSFs per wavelength'（65 字符）"
+      ],
+      "caveats": [
+        "补充材料文字层极稀（全 19 页共约 2065 字符），几乎全为位图，且**没有任何图注**，因此不能用来证明'是仿真'或'是实测'——只有正文图注能。",
+        "pypdf 对该文件报 39 条 'Ignoring wrong pointing object' 警告（对象偏移错误），页数读取正常。"
+      ]
+    }
+  ],
+  "author_pages": [
+    {
+      "id": "kaust_project_page",
+      "url": "https://vccimaging.org/Publications/Jeon2019Hyperspectral/",
+      "accessed": false,
+      "note": "仅登记 URL，本阶段未做网络下载。此前检索未发现可验证的官方代码入口。"
+    },
+    {
+      "id": "kaist_project_page",
+      "url": "https://mail.minhkim.org/siggraph2019/index.html",
+      "accessed": false,
+      "note": "仅登记 URL，本阶段未做网络下载。"
+    }
+  ],
+  "official_code": {
+    "found": false,
+    "evidence": "两个作者项目页未直接列出官方代码；检索到一个第三方文献列表把链接标为 'code'，实际点击后仍进入作者论文项目页，不能据此认定有官方仓库。",
+    "conclusion": "截至本阶段核查，未找到可验证的官方代码入口——是'未找到'，不是'证明不存在'。"
+  },
+  "external_software_referenced_by_paper": [
+    {
+      "name": "LightPipes",
+      "url": "http://www.okotech.com/lightpipes",
+      "role": "论文第 5 页脚注说明其 PSF 仿真使用该工具",
+      "used_here": false,
+      "note": "本阶段未复现 LightPipes 的具体设置（作者未公开）。本项目自行实现传播并按第 3 节判据验证。"
+    }
+  ],
+  "reading_tools": {
+    "pymupdf": "1.28.2",
+    "pypdf": "6.16.2",
+    "render_zoom": 3.0,
+    "render_dpi_approx": 216
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema": "jeon2019-m3-parent-bridge-v1",
+  "m2_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\reproduction_v1\\m2\\run_20261007_104321_03d47940",
+  "verified_before_m3": {
+    "status": "passed",
+    "run_dir": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\reproduction_v1\\m2\\run_20261007_104321_03d47940",
+    "failures": [],
+    "gain_pending": true,
+    "paper_alignment_passed": false
+  },
+  "replacements": {
+    "outputs/jeon2019_optics/reproduction_v1/main.py": "work/datasets/reproduction_v1/parent_m2_20261007_verified/m2_main_frozen.py"
+  },
+  "snapshot_sha256": "cb9c91e1fb9a12553475754c9c1ccaeb63ad424bc13e9a4a5835297572433d53",
+  "policy": "只替代M2冻结的历史入口源码读路径；物理源码、M2配置及产物不变"
+}

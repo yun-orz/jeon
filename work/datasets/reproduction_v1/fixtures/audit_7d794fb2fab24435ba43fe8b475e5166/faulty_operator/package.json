@@ -1,0 +1,523 @@
+{
+  "schema": "jeon2019-operator-final-v1",
+  "version": 2,
+  "method": "jeon",
+  "wavelengths_nm": [
+    420,
+    430,
+    440,
+    450,
+    460,
+    470,
+    480,
+    490,
+    500,
+    510,
+    520,
+    530,
+    540,
+    550,
+    560,
+    570,
+    580,
+    590,
+    600,
+    610,
+    620,
+    630,
+    640,
+    650,
+    660
+  ],
+  "kernels_native": "jeon_native.npy",
+  "kernels_training": "jeon_training.npy",
+  "kernel_sha256": {
+    "native": "e581a6eda3d161a57a15ae825f0198a20a976f826d8096155788630e6e8c3d3f",
+    "training": "cb6dbe0826728c690b8d02f7784556a1d877fdf8ffe13038fc521fbc31a379bf"
+  },
+  "coordinates_m": {
+    "native": [
+      -0.00029856,
+      -0.00029234,
+      -0.00028612,
+      -0.0002799,
+      -0.00027368,
+      -0.00026745999999999996,
+      -0.00026124,
+      -0.00025502,
+      -0.0002488,
+      -0.00024258,
+      -0.00023636,
+      -0.00023014,
+      -0.00022391999999999998,
+      -0.00021769999999999998,
+      -0.00021148,
+      -0.00020526,
+      -0.00019904,
+      -0.00019282,
+      -0.00018659999999999998,
+      -0.00018038,
+      -0.00017416,
+      -0.00016794,
+      -0.00016172,
+      -0.00015549999999999999,
+      -0.00014928,
+      -0.00014306,
+      -0.00013684,
+      -0.00013062,
+      -0.0001244,
+      -0.00011818,
+      -0.00011195999999999999,
+      -0.00010574,
+      -9.952e-05,
+      -9.329999999999999e-05,
+      -8.708e-05,
+      -8.086e-05,
+      -7.464e-05,
+      -6.842e-05,
+      -6.22e-05,
+      -5.5979999999999996e-05,
+      -4.976e-05,
+      -4.354e-05,
+      -3.732e-05,
+      -3.11e-05,
+      -2.488e-05,
+      -1.866e-05,
+      -1.244e-05,
+      -6.22e-06,
+      0.0,
+      6.22e-06,
+      1.244e-05,
+      1.866e-05,
+      2.488e-05,
+      3.11e-05,
+      3.732e-05,
+      4.354e-05,
+      4.976e-05,
+      5.5979999999999996e-05,
+      6.22e-05,
+      6.842e-05,
+      7.464e-05,
+      8.086e-05,
+      8.708e-05,
+      9.329999999999999e-05,
+      9.952e-05,
+      0.00010574,
+      0.00011195999999999999,
+      0.00011818,
+      0.0001244,
+      0.00013062,
+      0.00013684,
+      0.00014306,
+      0.00014928,
+      0.00015549999999999999,
+      0.00016172,
+      0.00016794,
+      0.00017416,
+      0.00018038,
+      0.00018659999999999998,
+      0.00019282,
+      0.00019904,
+      0.00020526,
+      0.00021148,
+      0.00021769999999999998,
+      0.00022391999999999998,
+      0.00023014,
+      0.00023636,
+      0.00024258,
+      0.0002488,
+      0.00025502,
+      0.00026124,
+      0.00026745999999999996,
+      0.00027368,
+      0.0002799,
+      0.00028612,
+      0.00029234,
+      0.00029856
+    ],
+    "training": [
+      -0.00029856,
+      -0.00028612,
+      -0.00027368,
+      -0.00026124,
+      -0.0002488,
+      -0.00023636,
+      -0.00022391999999999998,
+      -0.00021148,
+      -0.00019904,
+      -0.00018659999999999998,
+      -0.00017416,
+      -0.00016172,
+      -0.00014928,
+      -0.00013684,
+      -0.0001244,
+      -0.00011195999999999999,
+      -9.952e-05,
+      -8.708e-05,
+      -7.464e-05,
+      -6.22e-05,
+      -4.976e-05,
+      -3.732e-05,
+      -2.488e-05,
+      -1.244e-05,
+      0.0,
+      1.244e-05,
+      2.488e-05,
+      3.732e-05,
+      4.976e-05,
+      6.22e-05,
+      7.464e-05,
+      8.708e-05,
+      9.952e-05,
+      0.00011195999999999999,
+      0.0001244,
+      0.00013684,
+      0.00014928,
+      0.00016172,
+      0.00017416,
+      0.00018659999999999998,
+      0.00019904,
+      0.00021148,
+      0.00022391999999999998,
+      0.00023636,
+      0.0002488,
+      0.00026124,
+      0.00027368,
+      0.00028612,
+      0.00029856
+    ]
+  },
+  "pixel_pitch_m": {
+    "native": 6.22e-06,
+    "training": 1.244e-05
+  },
+  "spectral_response": "response.npy",
+  "response_sha256": "a4a0a72b231ba8eb53b63b401c42f6e636400b8fa1dd809bf276ec26b08388d0",
+  "spectral_weights": {
+    "values": [
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0,
+      10.0
+    ],
+    "units": "nm",
+    "applied_once": true
+  },
+  "measurement_gain": {
+    "status": "fitted",
+    "value": 0.25,
+    "fit_scope": "M3仅训练集，两器件共同单一增益",
+    "data_fingerprint": "31546f926142db7857729da6b689bb21066e4a09e238967169d5edf41e071e0e",
+    "audit_sha256": "9ec0ded85dc289ce2fa0328ba38bd46591e4d586530f28efd94c22fa408c7832"
+  },
+  "radiometric_units": {
+    "input": "相对能量谱密度/nm，中心波长分段常数近似",
+    "band_energy": "谱密度乘10nm",
+    "output": "共同相对响应加权的有限窗口相对能量RGB",
+    "kernel": "像元功率/入射孔径功率，无量纲；禁止归一化质量1",
+    "photon_conversion": false
+  },
+  "height_sha256": "3469c7a4717a765d31e0433d9180c015520e00b99d08a0c656e791ac2b917f51",
+  "mapping": {
+    "file": "area_mapping.npz",
+    "sha256": "77dbb5abf8a248cc1cab778e217e6a3c14f616a58212016ab9be6d290fc33e02",
+    "mass_preserving": true,
+    "outer_empty_area_m2": 7.544238000000034e-09,
+    "origin_m": [
+      0,
+      0
+    ],
+    "audit": {
+      "matrix_independent_max_error": 8.659739592076221e-15,
+      "column_mass_max_error": 5.10702591327572e-15,
+      "native_to_half_mass_max_error": 2.220446049250313e-16,
+      "symmetry_relative_error": 8.580967927496808e-17,
+      "symmetric_centroid_m": 1.156735035248138e-21,
+      "point_cases": [
+        {
+          "source_index_yx": [
+            48,
+            48
+          ],
+          "mass_error": 0.0,
+          "centroid_error_m": 0.0
+        },
+        {
+          "source_index_yx": [
+            48,
+            49
+          ],
+          "mass_error": 0.0,
+          "centroid_error_m": 1.6940658945086007e-21
+        },
+        {
+          "source_index_yx": [
+            0,
+            0
+          ],
+          "mass_error": 7.105427357601002e-15,
+          "centroid_error_m": 2.1141942363467336e-18
+        },
+        {
+          "source_index_yx": [
+            96,
+            96
+          ],
+          "mass_error": 7.105427357601002e-15,
+          "centroid_error_m": 2.1141942363467336e-18
+        }
+      ],
+      "actual_centroid_shift_m": [
+        2.8852059765849605e-21,
+        2.4881592825595072e-21,
+        2.7396221887756277e-21,
+        1.971998580326418e-21,
+        4.698385879301197e-21,
+        3.785178483042655e-21,
+        8.999725064576941e-21,
+        1.5352472168984194e-21,
+        8.470329472543003e-22,
+        5.227781471335135e-21,
+        4.658681209898652e-21,
+        4.910144116114772e-21,
+        1.61465655570351e-21,
+        1.8925892415213273e-21,
+        5.61159327555974e-21,
+        3.1234339930002325e-21,
+        1.3499587596865412e-21,
+        2.329340604949326e-21,
+        3.864587821847745e-21,
+        5.770411953169921e-21,
+        9.529120656610879e-22,
+        2.6469779601696886e-22,
+        1.6940658945086007e-21,
+        4.7645603283054394e-21,
+        5.399835038746165e-21
+      ],
+      "passed": true
+    }
+  },
+  "sources": {
+    "code_and_inputs": {
+      "outputs/jeon2019_optics/optics/comparison_uncertainty.py": "21dedde0b8724ef381b6056b458ab8c9e0272878ee396d40a7e5dbd41c378587",
+      "outputs/jeon2019_optics/optics/convergence.py": "3d89fc6bc9805dff77f98e2642d48860789985a8730698371c24a7c101f47224",
+      "outputs/jeon2019_optics/optics/coordinates.py": "c0b3db54d901e7960a537cf5dd42cfae6083a35d20622f40ded3015421c9c707",
+      "outputs/jeon2019_optics/optics/detector_holdout.py": "cff2aa78025ebb652a83a32ed80376e93a1841fbd7a5cc664995867d6178f2c0",
+      "outputs/jeon2019_optics/optics/doe.py": "8f6c6113bd9917aefd3b96bcdd21b96868534d4110744fe6977a86a4fe3a847f",
+      "outputs/jeon2019_optics/optics/electron_noise.py": "a493f5887cf1617c3ccb18641aa2c00cc6eb67d75083768394922e86f2b2211b",
+      "outputs/jeon2019_optics/optics/electron_reconstruction.py": "c80c25707786da101b97fff43b480aa0ee8285fab1b3e79dc66a4974f88fc6a3",
+      "outputs/jeon2019_optics/optics/fabrication_detector.py": "c47cf698121a9b3431a74adcdd5cac945e732342ba7f1650c5b9f3b1e38be1fe",
+      "outputs/jeon2019_optics/optics/fixed_target_control.py": "3cf534dc89d4648268686d0d5930550d2f17791b1d4d098f054ef067119ffc41",
+      "outputs/jeon2019_optics/optics/g1_alignment.py": "94a39918d07cbb67a66e6c97c522787b2de57286785697dbf9df4976fafca203",
+      "outputs/jeon2019_optics/optics/g1_forward.py": "2f166bd4995e49276f5f7e8a3f9143cc3b9bb4963adc2617756b64fa89386a60",
+      "outputs/jeon2019_optics/optics/g1_lp_sampling.py": "e74065147f75b0829de07387b4e178dc59936c216ac815092e8c82d6c0dd0513",
+      "outputs/jeon2019_optics/optics/g1_padding.py": "20924c3555fee1a29230973de610a5c3557ef0597ab8a741a400fc4413a204e2",
+      "outputs/jeon2019_optics/optics/g2_rgb.py": "c57173e99fd8d7c76fdd73682131f06399caa08ad30a171fb4a40c844e2f9ca9",
+      "outputs/jeon2019_optics/optics/g3_hqs.py": "e024832f0c63a3d7b7661172b0fc0ebbffc4f4b0af3e4d9232bb105cce5b6d40",
+      "outputs/jeon2019_optics/optics/g4_data.py": "614cda5c10d73725d7d0e780158359253fe5813d35ca2c884bd8bf4b1b8573f1",
+      "outputs/jeon2019_optics/optics/g4_expand_data.py": "1f38ba95a940e693c6673817c8a9336e3933f56e5e5d9bb024c22c9b172d0c89",
+      "outputs/jeon2019_optics/optics/g5_boundary.py": "fcbd1f6881f3776cf81b6d9a75b8bf9d2fc84901056ad7a3f0fa585c10fec484",
+      "outputs/jeon2019_optics/optics/g5_metrics.py": "bf6aa6d7f3b647065ffdddd7fe4da547d4e3899deb503791523a3f96da7a78e8",
+      "outputs/jeon2019_optics/optics/g5_retest_metrics.py": "44229cffce2bce724c14797d8f904919e84f74667428d54b955d1c55e966b6a9",
+      "outputs/jeon2019_optics/optics/g5_test_data.py": "5e59f12f3cd1f2015fc33916e1b430a4d06b24327f918836657d0abcb10a6060",
+      "outputs/jeon2019_optics/optics/imaging.py": "179922df5a1fc8008a7566f672a46359e0718cce16b53d53abf74ca0e69404d7",
+      "outputs/jeon2019_optics/optics/materials.py": "414d44ac75588031148fa13b246865e380298a45c4d368cd68321f654b9b50db",
+      "outputs/jeon2019_optics/optics/metrics.py": "8b10ee395a70384041ff2011389908899eabb0f3b03fe2aa559f6f13c560a2fc",
+      "outputs/jeon2019_optics/optics/propagation.py": "20078bcaf95c53e9073d909a04cc70c7a265c11cb4517f7b4b298a5ee71460ca",
+      "outputs/jeon2019_optics/optics/psf_analysis.py": "a4693fad3fe2f088d73c3a85745a457e25ed92755eb98e24f4f3de10fe3e85df",
+      "outputs/jeon2019_optics/optics/reconstruction.py": "c405b5cfca8c23693c612d2576720085b592824b5d4280a5dccb0dbeb5481681",
+      "outputs/jeon2019_optics/optics/reconstruction_accelerated.py": "eb684753fae83f1294f87788dd6c0de387f869fdf72e0858c11036e07067e402",
+      "outputs/jeon2019_optics/optics/ridge_certificate.py": "66e210942829cd68a0f5b6dcf5cc128c1b07fc52c8256d8a3545c48f41b980e3",
+      "outputs/jeon2019_optics/optics/runutil.py": "a031e73b80d093b4ade35d8553e66db1eb26cc30b8505be5e11c8e9628db4b70",
+      "outputs/jeon2019_optics/optics/stage02c_source.py": "95e3eb082d1dca4e857a21aa3f46c5c5deec025b5050f660b294e580c27525ce",
+      "outputs/jeon2019_optics/optics/stage02d1_source.py": "67e0a4d65b48b08e5c9c6fdc7550b64ca430843014c137c41b97d99557fd1873",
+      "outputs/jeon2019_optics/optics/stage02d2_source.py": "7bab6e5e6ea233cf533ed6f65538ee6c8cdd10e4e1b4d4baf3d4fe63ea08de79",
+      "outputs/jeon2019_optics/optics/stage02d3_source.py": "6d196a4162a4700326ec2ba571688ccdd732fe952753db3a39fad262a82a86df",
+      "outputs/jeon2019_optics/optics/stage02e1_source.py": "7bd7d5efc7e1974f687aed6a6b47b8d91236a10752f2ec69b6d3c016951ce3f9",
+      "outputs/jeon2019_optics/optics/stage02e2_source.py": "2bf756a6da644e638b782b2c545338660972f4e84f9971adfe7efe2721158f6b",
+      "outputs/jeon2019_optics/optics/stage02e3_source.py": "6ccf27b0db732249f47911b68469e2a8d56fda1ee87df91eaae96ff2059bd056",
+      "outputs/jeon2019_optics/optics/stage02e4_source.py": "bec05890dbcddbc8959c40dc24d859102152851fe58582b3633eaedcdce35873",
+      "outputs/jeon2019_optics/optics/stage02f1_source.py": "d2b894cae9651a483d048050bea755eb6423268c091340ef3ac8e13f30e43358",
+      "outputs/jeon2019_optics/optics/stage02f2_source.py": "738be220b3d3b97c54b6c6d732a1a7090c7d6a5f609661242ecb2a0b25cf8830",
+      "outputs/jeon2019_optics/optics/stage02f3_1_source.py": "4ee745cf58d9166ecce574300c422b569156ff67057d1ff6098fc2d99d441332",
+      "outputs/jeon2019_optics/optics/stage02_runtime.py": "924df32ce7229024b3b85f043c27e99772818b2f242759c3b253081ff77add54",
+      "outputs/jeon2019_optics/optics/units.py": "31408e61a8972474e41c597486368c6a8e592540cb7dc0451fb247a746cdcfbb",
+      "outputs/jeon2019_optics/optics/validation.py": "62c75277403096305dd5bb85744d1a8e7a34e8d6b5dabcd9f5f64c72359aacfb",
+      "outputs/jeon2019_optics/optics/__init__.py": "12f8bb8fc42fc39fa60b0e46b861b8bb0d8d18cca6b114d671db4c67ab891472",
+      "outputs/jeon2019_optics/reproduction_v1/main.py": "cb9c91e1fb9a12553475754c9c1ccaeb63ad424bc13e9a4a5835297572433d53",
+      "outputs/jeon2019_optics/reproduction_v1/m2_optics.py": "9e3f1b69506a117d0076feb3c8781ce7f5f88024ff305f5c26145819a874f3ef",
+      "outputs/jeon2019_optics/reproduction_v1/m2_operator.py": "fabc177d7fa69d55e6777eb62d2b6c4e3d2c0d0c0da9b8808c09bd934cdb237c",
+      "outputs/jeon2019_optics/reproduction_v1/config_m2.json": "ad9de52fda221e37508753b59c43de8d7fe02d6f7737a85bc63693cf0401075b",
+      "outputs/jeon2019_optics/reproduction_v1/contracts.json": "71cc15e5a2c98421d9aa3409e1340eb09ba8781f0ee72eb7675884f17c1b3a8a",
+      "outputs/jeon2019_optics/reproduction_v1/sources.json": "d69feebc00a0d4c082abbe8a39160b6d39dde9448cb1964051538c82a586eea8",
+      "outputs/jeon2019_optics/results/g1_alignment/run_20261005_234023/config_effective.json": "f7035d43821a9c167b3c7f12f522c960d7550229786311de1070f85f2804820d",
+      "outputs/jeon2019_optics/results/g1_alignment/run_20261005_234023/source_manifest.json": "a05764614bde1eae077b0f96ebaccc3bd4060a4ba5aff756ceefeea77e609adb",
+      "outputs/执行_G1对齐_20261005/independent_audit.json": "048159967426cae65ab90a3b575d46117e16f655664829bcc6df7f057d584996",
+      "outputs/jeon2019_optics/reproduction_v1/data/m2_response_20261007/Canon_EOS_5D_Mark_III_380_780_5.json": "d8f9db387399dd6611edf5d1660764cf7b78f402e0a9bb68eeea9cdc64628e88",
+      "outputs/jeon2019_optics/reproduction_v1/data/m2_response_20261007/RAWtoACES_LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "outputs/执行_G1窗口补核_20261006/最终审核.json": "af84f2db8f2eaedde670dc03c8952a98eb2782fdef90bb04ce92552351d1d7e4",
+      "outputs/执行_G1LightPipes_20261006/最终审核.json": "dc02c6786ff42a54b1702da546a51c8fb6d96fb583837fc551d26963d1b2b7f0",
+      "outputs/执行_G1LP采样拆分_20261006/最终审核.json": "7f5218864c142d4a65838e5e53042e3353604b04daeb279f618861229206e90a",
+      "outputs/执行_G1填充5120_20261006/最终审核.json": "e67f2ca36cd997476226b5627258d83cf2d67495f4645684b009036e0e96f361",
+      "outputs/jeon2019_optics/results/g1_alignment/run_20261005_234023/arrays/height_cw_fixed.npz": "ab7a0f689bd8d15e69151b3c6b87ce86e0f819ae00264e21e9f3167e64d99ce4"
+    },
+    "response": {
+      "url": "https://raw.githubusercontent.com/AcademySoftwareFoundation/rawtoaces-data/main/data/camera/Canon_EOS_5D_Mark_III_380_780_5.json",
+      "raw_file": "Canon_EOS_5D_Mark_III_380_780_5.json",
+      "raw_sha256": "d8f9db387399dd6611edf5d1660764cf7b78f402e0a9bb68eeea9cdc64628e88",
+      "license_url": "https://raw.githubusercontent.com/AcademySoftwareFoundation/rawtoaces-data/main/LICENSE",
+      "license_file": "RAWtoACES_LICENSE",
+      "license_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "license": "Apache-2.0",
+      "access_utc": "2026-10-07T02:43:21Z",
+      "version": "0.1.0",
+      "header": {
+        "schema_version": "0.1.0",
+        "manufacturer": "Canon",
+        "model": "EOS 5D Mark III",
+        "description": "camera spectral sensitivity data",
+        "document_creator": "wetadigital",
+        "document_creation_date": "2025-11-07T00:08:25Z",
+        "measurement_equipment": "lightsaber",
+        "license": "Apache-2.0"
+      },
+      "version_freeze": "访问内容SHA，未取得提交号",
+      "common_scale_factor": 1.0,
+      "author_calibration": false,
+      "absolute_QE": false
+    },
+    "effective_config": "0f13f4e1410550e565f43b3d35c526a8ee646b2c6b6298f4e0663b4ff2ff553b",
+    "m0": [
+      {
+        "path": "outputs/jeon2019_optics/results/reproduction_v1/m0/run_20261006_230835_592a12d3/protection.json",
+        "sha256": "bdfc6412ba4571984fc46a65c9fc5758f851e94f391202fc16d394b8df8fd940"
+      },
+      {
+        "path": "outputs/jeon2019_optics/results/reproduction_v1/m0/run_20261006_230835_592a12d3/historical_stages.json",
+        "sha256": "e3297440bd6a5ee7cfc21f622d422a8b1ecf7d3b8e9859c2b2fa47fc36ca0223"
+      },
+      {
+        "path": "outputs/jeon2019_optics/results/reproduction_v1/m0/run_20261006_230835_592a12d3/audit.json",
+        "sha256": "ee6536c08b024d6af060ab8e63286d19a59fcbc1d5336a4cdec4619d8006fd76"
+      },
+      {
+        "path": "outputs/jeon2019_optics/results/reproduction_v1/m0/run_20261006_230835_592a12d3/report.md",
+        "sha256": "44fafa3bebc6ca43fe16f65e4432b2cba023e9136b8390b7c61337aa104e7c70"
+      },
+      {
+        "path": "outputs/jeon2019_optics/results/reproduction_v1/m0/run_20261006_230835_592a12d3/tests.json",
+        "sha256": "cacc3dc046962946620c6d42a16de27d2dba4f3eda9335d4d74e68b7f7767afc"
+      },
+      {
+        "path": "outputs/jeon2019_optics/reproduction_v1/protocol.json",
+        "sha256": "a30d5a4c64dac27fd9aaa5dac67234b8482a4b3e5aaa95cd1a9ba577e3924735"
+      },
+      {
+        "path": "outputs/jeon2019_optics/reproduction_v1/sources.json",
+        "sha256": "d69feebc00a0d4c082abbe8a39160b6d39dde9448cb1964051538c82a586eea8"
+      },
+      {
+        "path": "outputs/jeon2019_optics/reproduction_v1/parameter_evidence.json",
+        "sha256": "8a297ef6ef650c71dd6c58b799fe75fe6cf0a2ef9da650e989122ac55d28b2f7"
+      },
+      {
+        "path": "outputs/jeon2019_optics/reproduction_v1/contracts.json",
+        "sha256": "71cc15e5a2c98421d9aa3409e1340eb09ba8781f0ee72eb7675884f17c1b3a8a"
+      },
+      {
+        "path": "outputs/jeon2019_optics/reproduction_v1/tasks/M0_freeze_protocol.md",
+        "sha256": "f678a7a7d6bcd6541e30a05a8eb7d339b2251e245b2425fdf69b904c33f0a2f8"
+      },
+      {
+        "path": "outputs/jeon2019_optics/reproduction_v1/tasks/M1_gpu_environment.md",
+        "sha256": "cdec4f53cf9e154f14f04e95537ad066dd9e4022a7901fea2ac6222974764e83"
+      },
+      {
+        "path": "outputs/jeon2019_optics/reproduction_v1/tasks/M2_freeze_optics.md",
+        "sha256": "914023866f754e992a10bdadc88bdca865715e275fa3a161b1f595e927087200"
+      },
+      {
+        "path": "outputs/jeon2019_optics/reproduction_v1/tasks/M3_data_pipeline.md",
+        "sha256": "b79ef64911539ef81ea2515292f5ea7094aa77b5ed7bd0bb6ddaa165e279d7c4"
+      },
+      {
+        "path": "outputs/jeon2019_optics/reproduction_v1/tasks/M4_resumable_training.md",
+        "sha256": "6b36b39fbc679ea19e2c4e471b8cf3f5eb05b1acc062985b723656d39ce7551c"
+      },
+      {
+        "path": "outputs/jeon2019_optics/reproduction_v1/tasks/M5_smoothing_diagnosis.md",
+        "sha256": "c01e162fd1da1ac6764de23b04c5fb27e4a4f5fee40d4742697f1b6841fb51fc"
+      },
+      {
+        "path": "outputs/jeon2019_optics/reproduction_v1/tasks/M6_formal_training.md",
+        "sha256": "4ac0274dfd53cef41dc3f2a42965409324c67c11b1cb14ea1e11cde65942a69e"
+      },
+      {
+        "path": "outputs/jeon2019_optics/reproduction_v1/tasks/M7_final_evaluation.md",
+        "sha256": "fd4202b448e50bcd06a962c0600d7633a433aa5d48042bcba718dbff96ac4ef6"
+      },
+      {
+        "path": "outputs/jeon2019_optics/reproduction_v1/tasks/README.md",
+        "sha256": "53ed6b0be00f5b697e2711d51f18a4a6b965fc1ccf1baddc19fe3ec4d17b5e79"
+      },
+      {
+        "path": "outputs/jeon2019_optics/reproduction_v1/docs/validation_history.md",
+        "sha256": "f6fe7e5286fcc28630a52f823426aaa535e33e9cce9620ee0deeeedbffb42fd4"
+      }
+    ],
+    "parent_m2_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\reproduction_v1\\m2\\run_20261007_104321_03d47940"
+  },
+  "assumptions": [
+    "替代同型号相对响应，不是作者标定或绝对QE",
+    "25波段局部采样检查不证明无限域收敛",
+    "旧G1–G5模型仅作历史诊断，后续从头训练"
+  ],
+  "audit": {
+    "sampling_passed": true,
+    "numerical": {
+      "native": {
+        "forward_relative": 6.654736989598927e-16,
+        "adjoint_relative": 3.4925709129389544e-16,
+        "autograd_relative": 3.4925709129389544e-16,
+        "inner_product_relative": 2.2052639717674195e-15,
+        "directional_derivative_relative": 2.412589233434263e-12,
+        "passed": true
+      },
+      "training": {
+        "forward_relative": 5.474697102036586e-16,
+        "adjoint_relative": 2.6794670003654733e-16,
+        "autograd_relative": 2.6794670003654733e-16,
+        "inner_product_relative": 2.073800133615233e-14,
+        "directional_derivative_relative": 1.6250362051834608e-12,
+        "passed": true
+      }
+    },
+    "physical_package_passed": true,
+    "final_training_ready": true,
+    "gain_fit_passed": true
+  },
+  "parent_fingerprint": "1bec4f5f9cb28eda349bfbbe832beeeff93209aad830503dea363a433dfe4d67",
+  "fingerprint": "c6a14e94afe808c166d9846700f779d504f292e4389a589163bb8bf4668ce14e",
+  "data_fingerprint": "31546f926142db7857729da6b689bb21066e4a09e238967169d5edf41e071e0e"
+}

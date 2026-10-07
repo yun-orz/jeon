@@ -1,0 +1,220 @@
+[
+  {
+    "scene_id": "harvard:synthetic_train",
+    "scene_group_id": "harvard:synthetic_group",
+    "split": "train",
+    "dataset": "harvard",
+    "source_sha256": {},
+    "base_resolution": {
+      "data_file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\fixtures\\run_aa9e077dab654dd39324bf7ed29ae3fe\\harvard_training.npy",
+      "sha256": {
+        "base.npy": "e4c0be6dd5782a3928ccc0fdb4ad6b330343f404df72d6b71e118da4083e495f",
+        "mask.npy": "0acd32b99c7188ffb30eacfc6f0f0eae72734665c91e0c57c01f389ab059aaed"
+      },
+      "details": {
+        "valid_pixels": 262144,
+        "shape_chw": [
+          25,
+          512,
+          512
+        ]
+      }
+    },
+    "valid_mask": {
+      "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\fixtures\\run_aa9e077dab654dd39324bf7ed29ae3fe\\harvard_training_mask.npy"
+    },
+    "fingerprint": "276196d6cba51de0509809093d91ea70d429b5e88de72a5bbbb80c5557e4dc7d"
+  },
+  {
+    "scene_id": "icvl:synthetic_train",
+    "scene_group_id": "icvl:synthetic_group",
+    "split": "train",
+    "dataset": "icvl",
+    "source_sha256": {},
+    "base_resolution": {
+      "data_file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\fixtures\\run_aa9e077dab654dd39324bf7ed29ae3fe\\icvl_training.npy",
+      "sha256": {
+        "base.npy": "4d81a1b01d46a3a022d00e958123f874a589f48e16dafb8090113cda7f755e42",
+        "mask.npy": "0acd32b99c7188ffb30eacfc6f0f0eae72734665c91e0c57c01f389ab059aaed"
+      },
+      "details": {
+        "valid_pixels": 262144,
+        "shape_chw": [
+          25,
+          512,
+          512
+        ]
+      }
+    },
+    "valid_mask": {
+      "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\fixtures\\run_aa9e077dab654dd39324bf7ed29ae3fe\\icvl_training_mask.npy"
+    },
+    "fingerprint": "32a5239461a3964d94caae3416a17287fe85be32eb0c7dc361f383a44291343d"
+  },
+  {
+    "scene_id": "kaist:synthetic_train",
+    "scene_group_id": "kaist:synthetic_group",
+    "split": "train",
+    "dataset": "kaist",
+    "source_sha256": {},
+    "base_resolution": {
+      "data_file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\fixtures\\run_aa9e077dab654dd39324bf7ed29ae3fe\\kaist_training.npy",
+      "sha256": {
+        "base.npy": "400703fe6b78e883d764345bd78362eec217a9a1b5fa8f189f344bbef55770cb",
+        "mask.npy": "0acd32b99c7188ffb30eacfc6f0f0eae72734665c91e0c57c01f389ab059aaed"
+      },
+      "details": {
+        "valid_pixels": 262144,
+        "shape_chw": [
+          25,
+          512,
+          512
+        ]
+      }
+    },
+    "valid_mask": {
+      "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\fixtures\\run_aa9e077dab654dd39324bf7ed29ae3fe\\kaist_training_mask.npy"
+    },
+    "fingerprint": "37977527c34133eaf96747b9cac270fb17b380ff8e0ba37d1b46cb53436900a6"
+  },
+  {
+    "scene_id": "kaist:synthetic_test_0",
+    "scene_group_id": "synthetic_test_group_0",
+    "split": "test",
+    "dataset": "kaist",
+    "source_sha256": {},
+    "base_resolution": {
+      "data_file": null
+    },
+    "valid_mask": {
+      "file": null
+    },
+    "fingerprint": "7d21424aec2b5953b7ba44d2f87902c84b7f34ab93dbc2aaaccfe6715a0b7814"
+  },
+  {
+    "scene_id": "kaist:synthetic_test_1",
+    "scene_group_id": "synthetic_test_group_1",
+    "split": "test",
+    "dataset": "kaist",
+    "source_sha256": {},
+    "base_resolution": {
+      "data_file": null
+    },
+    "valid_mask": {
+      "file": null
+    },
+    "fingerprint": "ea2d50486da5d0aeeb4c6f73ad30019f849302cfa821afe2564700d097d7419d"
+  },
+  {
+    "scene_id": "kaist:synthetic_test_2",
+    "scene_group_id": "synthetic_test_group_2",
+    "split": "test",
+    "dataset": "kaist",
+    "source_sha256": {},
+    "base_resolution": {
+      "data_file": null
+    },
+    "valid_mask": {
+      "file": null
+    },
+    "fingerprint": "3db2ceed3ff6a22c02700eebc6bef11000785c0be2e211142285368260cb8ee2"
+  },
+  {
+    "scene_id": "kaist:synthetic_test_3",
+    "scene_group_id": "synthetic_test_group_3",
+    "split": "test",
+    "dataset": "kaist",
+    "source_sha256": {},
+    "base_resolution": {
+      "data_file": null
+    },
+    "valid_mask": {
+      "file": null
+    },
+    "fingerprint": "b6b826e59c9549d98c737652029799759f583301df596a9b193a9efcb5f6baca"
+  },
+  {
+    "scene_id": "kaist:synthetic_test_4",
+    "scene_group_id": "synthetic_test_group_4",
+    "split": "test",
+    "dataset": "kaist",
+    "source_sha256": {},
+    "base_resolution": {
+      "data_file": null
+    },
+    "valid_mask": {
+      "file": null
+    },
+    "fingerprint": "4febae6860bafb3e6e5df45f69768bb1a7f494df2df5b53c3e460e85191ec1a8"
+  },
+  {
+    "scene_id": "kaist:synthetic_test_5",
+    "scene_group_id": "synthetic_test_group_5",
+    "split": "test",
+    "dataset": "kaist",
+    "source_sha256": {},
+    "base_resolution": {
+      "data_file": null
+    },
+    "valid_mask": {
+      "file": null
+    },
+    "fingerprint": "996b6f0ec9f39e726dca090071965dcdf0f67342f7dde3ea92bcfb81c4b9fa74"
+  },
+  {
+    "scene_id": "kaist:synthetic_test_6",
+    "scene_group_id": "synthetic_test_group_6",
+    "split": "test",
+    "dataset": "kaist",
+    "source_sha256": {},
+    "base_resolution": {
+      "data_file": null
+    },
+    "valid_mask": {
+      "file": null
+    },
+    "fingerprint": "a11d8afc354fe520c736ccf9f80f46720ad5e466ebc8abe40c21a8b973924b1b"
+  },
+  {
+    "scene_id": "kaist:synthetic_test_7",
+    "scene_group_id": "synthetic_test_group_7",
+    "split": "test",
+    "dataset": "kaist",
+    "source_sha256": {},
+    "base_resolution": {
+      "data_file": null
+    },
+    "valid_mask": {
+      "file": null
+    },
+    "fingerprint": "894cd9d3414aea59549f62c3043052cad40e5a37c7ba1e1a796f55adc164289a"
+  },
+  {
+    "scene_id": "kaist:synthetic_test_8",
+    "scene_group_id": "synthetic_test_group_8",
+    "split": "test",
+    "dataset": "kaist",
+    "source_sha256": {},
+    "base_resolution": {
+      "data_file": null
+    },
+    "valid_mask": {
+      "file": null
+    },
+    "fingerprint": "9bc3572b59b1a349f2aab2cd06436c2fcdc4d352cc2576edb879854fc5d723e4"
+  },
+  {
+    "scene_id": "kaist:synthetic_test_9",
+    "scene_group_id": "synthetic_test_group_9",
+    "split": "test",
+    "dataset": "kaist",
+    "source_sha256": {},
+    "base_resolution": {
+      "data_file": null
+    },
+    "valid_mask": {
+      "file": null
+    },
+    "fingerprint": "97169c50634ebd64a8ac6a0757f8e80955e57cb7fabdbe2996b697665b9c6104"
+  }
+]

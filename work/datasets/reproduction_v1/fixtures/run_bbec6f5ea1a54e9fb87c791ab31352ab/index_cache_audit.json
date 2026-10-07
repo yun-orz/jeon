@@ -1,0 +1,17 @@
+{
+  "kind": "synthetic_fixture_only",
+  "index_count": 30000,
+  "same_seed_sha": "20bf51d63ec1aad637cdbfce9d2aa66d072fe5eae921ea4896beec54d16629ff",
+  "cache": {
+    "peak_cache_bytes": 13238272,
+    "per_scene_peak_bytes": {
+      "kaist:synthetic_train": 13238272,
+      "icvl:synthetic_train": 13238272,
+      "harvard:synthetic_train": 13238272
+    },
+    "max_bytes": 16777216,
+    "peak_source_block_bytes": 26214400,
+    "observed_process_rss_bytes": 170823680,
+    "whole_dataset_loaded": false
+  }
+}

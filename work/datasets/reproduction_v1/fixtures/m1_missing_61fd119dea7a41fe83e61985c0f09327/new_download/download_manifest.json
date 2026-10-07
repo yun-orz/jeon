@@ -1,0 +1,123 @@
+{
+  "schema": "jeon2019-m1-resume-v1",
+  "url": "http://127.0.0.1:54062/torch-fixture.whl",
+  "total_bytes": 65536,
+  "official_sha256": "7daca2095d0438260fa849183dfc67faa459fdf4936e1bc91eec6b281b27e4c2",
+  "offset": 0,
+  "block_bytes": 8192,
+  "prefix_source": null,
+  "prefix_bytes": 0,
+  "prefix_sha256": null,
+  "blocks": [
+    {
+      "index": 0,
+      "start": 0,
+      "end": 8191,
+      "bytes": 8192,
+      "range": "bytes 0-8191/65536",
+      "sha256": "dc404a613fedaeb54034514bc6505f56b933caa5250299ba7d094377a51caa46",
+      "url": "http://127.0.0.1:54062/torch-fixture.whl",
+      "completed_at": "2026-10-07T16:32:47+0800"
+    },
+    {
+      "index": 1,
+      "start": 8192,
+      "end": 16383,
+      "bytes": 8192,
+      "range": "bytes 8192-16383/65536",
+      "sha256": "dc404a613fedaeb54034514bc6505f56b933caa5250299ba7d094377a51caa46",
+      "url": "http://127.0.0.1:54062/torch-fixture.whl",
+      "completed_at": "2026-10-07T16:32:47+0800"
+    },
+    {
+      "index": 2,
+      "start": 16384,
+      "end": 24575,
+      "bytes": 8192,
+      "range": "bytes 16384-24575/65536",
+      "sha256": "dc404a613fedaeb54034514bc6505f56b933caa5250299ba7d094377a51caa46",
+      "url": "http://127.0.0.1:54062/torch-fixture.whl",
+      "completed_at": "2026-10-07T16:32:48+0800"
+    },
+    {
+      "index": 3,
+      "start": 24576,
+      "end": 32767,
+      "bytes": 8192,
+      "range": "bytes 24576-32767/65536",
+      "sha256": "dc404a613fedaeb54034514bc6505f56b933caa5250299ba7d094377a51caa46",
+      "url": "http://127.0.0.1:54062/torch-fixture.whl",
+      "completed_at": "2026-10-07T16:32:48+0800"
+    },
+    {
+      "index": 4,
+      "start": 32768,
+      "end": 40959,
+      "bytes": 8192,
+      "range": "bytes 32768-40959/65536",
+      "sha256": "dc404a613fedaeb54034514bc6505f56b933caa5250299ba7d094377a51caa46",
+      "url": "http://127.0.0.1:54062/torch-fixture.whl",
+      "completed_at": "2026-10-07T16:32:48+0800"
+    },
+    {
+      "index": 5,
+      "start": 40960,
+      "end": 49151,
+      "bytes": 8192,
+      "range": "bytes 40960-49151/65536",
+      "sha256": "dc404a613fedaeb54034514bc6505f56b933caa5250299ba7d094377a51caa46",
+      "url": "http://127.0.0.1:54062/torch-fixture.whl",
+      "completed_at": "2026-10-07T16:32:48+0800"
+    },
+    {
+      "index": 6,
+      "start": 49152,
+      "end": 57343,
+      "bytes": 8192,
+      "range": "bytes 49152-57343/65536",
+      "sha256": "dc404a613fedaeb54034514bc6505f56b933caa5250299ba7d094377a51caa46",
+      "url": "http://127.0.0.1:54062/torch-fixture.whl",
+      "completed_at": "2026-10-07T16:32:48+0800"
+    },
+    {
+      "index": 7,
+      "start": 57344,
+      "end": 65535,
+      "bytes": 8192,
+      "range": "bytes 57344-65535/65536",
+      "sha256": "dc404a613fedaeb54034514bc6505f56b933caa5250299ba7d094377a51caa46",
+      "url": "http://127.0.0.1:54062/torch-fixture.whl",
+      "completed_at": "2026-10-07T16:32:48+0800"
+    }
+  ],
+  "verified_blocks": 8,
+  "destination": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\fixtures\\m1_missing_61fd119dea7a41fe83e61985c0f09327\\new_download\\torch-2.5.1+cu121-cp310-cp310-win_amd64.whl",
+  "assembled_sha256": "7daca2095d0438260fa849183dfc67faa459fdf4936e1bc91eec6b281b27e4c2",
+  "whole_sha256_passed": true,
+  "events": [
+    {
+      "kind": "plan",
+      "at": "2026-10-07T16:32:47+0800",
+      "offset": 0,
+      "total": 65536,
+      "blocks": 8,
+      "block_bytes": 8192
+    },
+    {
+      "kind": "verified",
+      "at": "2026-10-07T16:32:47+0800",
+      "offset": 0,
+      "ok": 0,
+      "pending": 8
+    },
+    {
+      "kind": "whole_sha_passed",
+      "at": "2026-10-07T16:32:48+0800",
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\fixtures\\m1_missing_61fd119dea7a41fe83e61985c0f09327\\new_download\\torch-2.5.1+cu121-cp310-cp310-win_amd64.whl",
+      "bytes": 65536,
+      "sha256": "7daca2095d0438260fa849183dfc67faa459fdf4936e1bc91eec6b281b27e4c2"
+    }
+  ],
+  "status": "complete",
+  "note": "整包官方SHA通过"
+}

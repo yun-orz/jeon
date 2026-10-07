@@ -1,0 +1,23 @@
+{
+  "source_sha256": {
+    "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene13_reflectance\\payload_87740e6c637547c6a752c84c7f582e1c.bin": "799c23c41b61b4130e57b3323f85ded327888843a243c2c0985c08f5a68aa7cc"
+  },
+  "preprocessing": {
+    "shape_chw": [
+      25,
+      1352,
+      1688
+    ],
+    "dropped_odd_edge_yx": [
+      0,
+      0
+    ],
+    "valid_pixels": 2282176,
+    "area_rule": "每2×2原像元等面积平均，几何像元中心对齐；奇数末行/列丢弃并登记",
+    "peak_source_block_bytes": 43212800
+  },
+  "sha256": {
+    "base.npy": "7da89d07c178c45d8016d7514080f44701590362b6607c721ffef9c5185f6be7",
+    "mask.npy": "273191a2936117ef28ebc55af97f45659fe0253413c348ae8f06e7729f5cb251"
+  }
+}

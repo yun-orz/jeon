@@ -1,0 +1,46 @@
+{
+  "scene_ids": [
+    "kaist:synthetic_test_0",
+    "kaist:synthetic_test_1",
+    "kaist:synthetic_test_2",
+    "kaist:synthetic_test_3",
+    "kaist:synthetic_test_4",
+    "kaist:synthetic_test_5",
+    "kaist:synthetic_test_6",
+    "kaist:synthetic_test_7",
+    "kaist:synthetic_test_8",
+    "kaist:synthetic_test_9"
+  ],
+  "scene_groups": [
+    "synthetic_test_group_0",
+    "synthetic_test_group_1",
+    "synthetic_test_group_2",
+    "synthetic_test_group_3",
+    "synthetic_test_group_4",
+    "synthetic_test_group_5",
+    "synthetic_test_group_6",
+    "synthetic_test_group_7",
+    "synthetic_test_group_8",
+    "synthetic_test_group_9"
+  ],
+  "source_sha256": {
+    "kaist:synthetic_test_0": {},
+    "kaist:synthetic_test_1": {},
+    "kaist:synthetic_test_2": {},
+    "kaist:synthetic_test_3": {},
+    "kaist:synthetic_test_4": {},
+    "kaist:synthetic_test_5": {},
+    "kaist:synthetic_test_6": {},
+    "kaist:synthetic_test_7": {},
+    "kaist:synthetic_test_8": {},
+    "kaist:synthetic_test_9": {}
+  },
+  "operator_fingerprints": {
+    "jeon": "c6a14e94afe808c166d9846700f779d504f292e4389a589163bb8bf4668ce14e",
+    "fresnel": "7d6dd105672210d5cf4077e70a6bbea0d67d0d3ad1582d385f751b266db7c28a"
+  },
+  "open_milestone": "M7",
+  "preprocessed_before_M7": false,
+  "data_version_fingerprint": "31546f926142db7857729da6b689bb21066e4a09e238967169d5edf41e071e0e",
+  "fingerprint": "20a18ae101e62381e14948afa975472d95b43d6970b6a50b33e8efba13bd9f15"
+}

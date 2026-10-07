@@ -1,0 +1,45 @@
+{
+  "value": 0.25,
+  "physical_rms": 1.0,
+  "sum_squares": 100.0,
+  "count": 100,
+  "training_only": true,
+  "selected_indices": {
+    "harvard:synthetic_train": {
+      "index": 0,
+      "scene_id": "harvard:synthetic_train",
+      "scene_group_id": "harvard:synthetic_group",
+      "scale": 2.0,
+      "y": 623,
+      "x": 293,
+      "size": 256,
+      "valid_mask": "保留真实逐像元mask；至少一个有效像元；拟合仅统计有效像元",
+      "seed": 20261006,
+      "preprocessing_version": "m3-energy-area-v1"
+    },
+    "icvl:synthetic_train": {
+      "index": 1,
+      "scene_id": "icvl:synthetic_train",
+      "scene_group_id": "icvl:synthetic_group",
+      "scale": 0.5,
+      "y": 0,
+      "x": 0,
+      "size": 256,
+      "valid_mask": "保留真实逐像元mask；至少一个有效像元；拟合仅统计有效像元",
+      "seed": 20261006,
+      "preprocessing_version": "m3-energy-area-v1"
+    },
+    "kaist:synthetic_train": {
+      "index": 2,
+      "scene_id": "kaist:synthetic_train",
+      "scene_group_id": "kaist:synthetic_group",
+      "scale": 1.0,
+      "y": 255,
+      "x": 243,
+      "size": 256,
+      "valid_mask": "保留真实逐像元mask；至少一个有效像元；拟合仅统计有效像元",
+      "seed": 20261006,
+      "preprocessing_version": "m3-energy-area-v1"
+    }
+  }
+}

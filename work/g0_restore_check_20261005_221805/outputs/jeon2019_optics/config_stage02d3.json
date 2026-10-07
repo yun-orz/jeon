@@ -1,0 +1,11 @@
+{
+  "source_run": "results/stage02d2/run_20261002_210155",
+  "solver": {"max_iterations": 5000, "gradient_tolerance": 0.00001,
+    "objective_tolerance": 0.0000001, "backtracking_factor": 2.0, "max_backtracks": 50},
+  "evaluation": {"spectrum_norm_threshold": 1e-12},
+  "full_diagnostic_scene": "lines_and_square",
+  "check_seed": 2019,
+  "thresholds": {"adjoint_relative": 1e-10, "gradient_relative": 1e-5},
+  "runtime": {"save_results": true, "show_plots": false},
+  "plots": {"dpi": 150}
+}

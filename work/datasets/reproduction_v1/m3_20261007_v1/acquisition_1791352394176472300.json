@@ -1,0 +1,2491 @@
+{
+  "status": "dependency_pending",
+  "space": {
+    "components": {
+      "compressed": 45014485227,
+      "unpacked": 9370080993,
+      "decoded_mat": 0,
+      "preprocessed": 18959509920,
+      "checkpoint_retention": 8589934592,
+      "cache_reserve": 536870912
+    },
+    "already_present_bytes": 1831424473,
+    "safety_bytes": 8063945717,
+    "required_bytes": 88703402888,
+    "free_bytes": 127315972096,
+    "passed": true,
+    "note": "D盘10%余量；不删除历史、不移盘；任何未知项必须另记为未核实",
+    "evidence": {
+      "harvard_bytes": 8147896516,
+      "kaist_bytes": 8667411327,
+      "icvl_public_mat_count": 202,
+      "icvl_bytes": 28199177384,
+      "harvard_unpacked_upper_factor": 1.15,
+      "kaist_shape_bound": [
+        2704,
+        3376
+      ],
+      "decoded_mat_disk_bytes": 0,
+      "decoded_mat_reason": "MAT-v5按波段64列块流式解码，无整ref缓存文件；已用实际旧样本验证",
+      "processed_policy": "估计含全部候选；真正只预处理训练/验证，测试半尺寸推迟M7",
+      "remaining_unknowns": [
+        "新Harvard/KAIST实际形状须逐场景确认；超过预估即重新检查空间并停下"
+      ]
+    }
+  },
+  "datasets": {
+    "harvard": [
+      {
+        "url": "https://vision.seas.harvard.edu/hyperspec/d2x5g3/CZ_hsdbi.tgz",
+        "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\harvard\\CZ_hsdbi\\payload_0af462d845b44748911138589e8fe1b3.bin",
+        "expected_bytes": 2383098904,
+        "source_identity": {
+          "etag": "\"8e0b3418-4a0598ba19a80\"",
+          "last_modified": "Thu, 07 Apr 2011 19:59:22 GMT"
+        },
+        "segments": [
+          {
+            "offset": 0,
+            "bytes": 67108864,
+            "sha256": "9aed1eca2b8f8798c21bedba1c6a760c66e7d83a3e5424003f969e227b1be54c"
+          },
+          {
+            "offset": 67108864,
+            "bytes": 67108864,
+            "sha256": "db3149f39367a86f2742e59abc1ed7802dc9415e49424d63857eb7e3ff1f9bbc"
+          },
+          {
+            "offset": 134217728,
+            "bytes": 67108864,
+            "sha256": "e66c3068da27b63d7a330a4240a269483afa93ff6f763e9d60ed3c8864a7c7a3"
+          },
+          {
+            "offset": 201326592,
+            "bytes": 67108864,
+            "sha256": "8dd8db913108f71035f9c1f1fe415388db75d0b00c1e5a4c5309e96d49e8d927"
+          },
+          {
+            "offset": 268435456,
+            "bytes": 67108864,
+            "sha256": "a212ba775a54ae36ac71da13fcaa80772b6abf81f2924cba6445bbb11f287a35"
+          },
+          {
+            "offset": 335544320,
+            "bytes": 67108864,
+            "sha256": "1d28dab69f19be7b3599f28b16af1975f5cce1199ce0d19be156313da6c762df"
+          },
+          {
+            "offset": 402653184,
+            "bytes": 67108864,
+            "sha256": "c7d97f5af6d18fc52183a37193a34beacb660f0ca233546b74a90d592a2d35f2"
+          },
+          {
+            "offset": 469762048,
+            "bytes": 67108864,
+            "sha256": "c97dcf9c4b1ec5227fc08d29eeea6fad7f3ef94da20fabb8ef782707b834ef56"
+          },
+          {
+            "offset": 536870912,
+            "bytes": 67108864,
+            "sha256": "2940a71d32b9a7febf029ef3810d9aae4a0ea6c700548567233022c707743dc9"
+          },
+          {
+            "offset": 603979776,
+            "bytes": 67108864,
+            "sha256": "f2dfc74a5d5a92f517f2530f9f333a7cc4b5ee42c813f08c1e315209ebd56a2b"
+          },
+          {
+            "offset": 671088640,
+            "bytes": 67108864,
+            "sha256": "2bc8bf164d6dc977c44d71244802d4878156bb3450ebe01c698917ced7b4234e"
+          },
+          {
+            "offset": 738197504,
+            "bytes": 67108864,
+            "sha256": "2d48680f0bbd55d9e3c1814b730420e39fcd311a1ee17897c00ca5bab95f65f9"
+          },
+          {
+            "offset": 805306368,
+            "bytes": 67108864,
+            "sha256": "65a8c3589d33eae3a0233800d2bbf6f834b79c7f12991254a83450a606475e9f"
+          },
+          {
+            "offset": 872415232,
+            "bytes": 67108864,
+            "sha256": "80da70d0accbeab462b613dfd990365e10df73bd7d490b7756a1b25e34d2cef2"
+          },
+          {
+            "offset": 939524096,
+            "bytes": 67108864,
+            "sha256": "5bcb0bfb1a4fef6861192aa07ffaa8eac2ee3908dac61e6a7480c46f753d4806"
+          },
+          {
+            "offset": 1006632960,
+            "bytes": 67108864,
+            "sha256": "fb43cd95612fad4c5834a9f6fb76aa25e8be2f802bbb1bec864e3932fdf04ae7"
+          },
+          {
+            "offset": 1073741824,
+            "bytes": 67108864,
+            "sha256": "3d4336f24f0ae173e50d7595fe4e27ac648f199c7ab87092b4a6d3e4a9ed1331"
+          },
+          {
+            "offset": 1140850688,
+            "bytes": 67108864,
+            "sha256": "11207b36d3c518ba4d67248dba5c09d75fbe82d8059c50f4a3a2427ce3d0623e"
+          },
+          {
+            "offset": 1207959552,
+            "bytes": 67108864,
+            "sha256": "aa432d2518d113c54be208b72e91869ae08138b77c3464a3c1155baf4c43eab4"
+          },
+          {
+            "offset": 1275068416,
+            "bytes": 67108864,
+            "sha256": "7a6524b4b5b98c9281153e397104fae7d0ebfee30c26700f8cf59be53b441c26"
+          },
+          {
+            "offset": 1342177280,
+            "bytes": 67108864,
+            "sha256": "5460f7935cc798a281bc562a966c53e273428e6527ace5f33011d8c8940d4256"
+          },
+          {
+            "offset": 1409286144,
+            "bytes": 67108864,
+            "sha256": "be0e7dc412c433e7911a72de8cb3fa3baccce6ed6784115db6be5d650b26f871"
+          },
+          {
+            "offset": 1476395008,
+            "bytes": 67108864,
+            "sha256": "0b8a351c932d6e18c9d6ff0d5571f0f7dc03998382b16653c5f6dcc24d330db9"
+          },
+          {
+            "offset": 1543503872,
+            "bytes": 67108864,
+            "sha256": "576c1ace3d3abfcb96c9f7b5acf308d7d2135b957e9f08296ccf0f616d338b2d"
+          },
+          {
+            "offset": 1610612736,
+            "bytes": 67108864,
+            "sha256": "bf5e65783372c80fe04bc66b5712b682b5300a02e3e77981d1b983058613539d"
+          },
+          {
+            "offset": 1677721600,
+            "bytes": 67108864,
+            "sha256": "58442b2d3eba234f91e8e791044b11293d2c8c331ccef43e4e26fe095c9a1d6a"
+          },
+          {
+            "offset": 1744830464,
+            "bytes": 67108864,
+            "sha256": "2ed5e69900c7e45d6fe06d74028ac844300d480709b746fa24f07629cd95302a"
+          },
+          {
+            "offset": 1811939328,
+            "bytes": 67108864,
+            "sha256": "37c385d27acedb07c398299b8a6a666fd12252d6bfb91483339b9e74917cc8a6"
+          },
+          {
+            "offset": 1879048192,
+            "bytes": 67108864,
+            "sha256": "f720cc8646123a04eefdc51162fc10e1a0b0811ac0fd81484256e0cf8bf6b222"
+          },
+          {
+            "offset": 1946157056,
+            "bytes": 67108864,
+            "sha256": "df816cb21dbb03827caf154cfd4252603db59eb3143deabd26468ea2495ddf93"
+          },
+          {
+            "offset": 2013265920,
+            "bytes": 67108864,
+            "sha256": "c381b7032a141b1164e4e16040da5e2e2aadd4f43bacf16c1d2a247c88a7b287"
+          },
+          {
+            "offset": 2080374784,
+            "bytes": 67108864,
+            "sha256": "9eb6d6bf74f086fa7027f6b617a6c6569a30bbfca3d61ffaa53753fcb531d3dd"
+          },
+          {
+            "offset": 2147483648,
+            "bytes": 67108864,
+            "sha256": "31a7929da3a769bc5d341cce97b0b4f153b0232ef254d1ed15e796086cb3bf33"
+          },
+          {
+            "offset": 2214592512,
+            "bytes": 67108864,
+            "sha256": "4d2dc690394830df5e7104f0e457d3190ceb20e4a01fd5b4da88c61fd1a4a899"
+          },
+          {
+            "offset": 2281701376,
+            "bytes": 67108864,
+            "sha256": "60f96366df632c1dce2941acf3023a1db6c12a5ca37e8661b8363aae6539ccdf"
+          },
+          {
+            "offset": 2348810240,
+            "bytes": 34288664,
+            "sha256": "4e81a3f3757e17c70cc2014b2faa071df5f8814c5518de6a359c63fef2b12069"
+          }
+        ],
+        "completed_bytes": 2383098904,
+        "status": "complete",
+        "sha256": "99f631767b13a85ab381aa99efbbe0546f8b8f3bf3a1c1814c78fe2b0f31a55c",
+        "upstream_sha_verified": false,
+        "stem": "CZ_hsdbi",
+        "extracted_files": [
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdbi\\CZ_hsdbi\\README.txt",
+            "member": "CZ_hsdbi/README.txt",
+            "bytes": 1162,
+            "sha256": "4d2451a370129e4db45ba7468b5f5e67d05f2ae12b40f0af4878b337808dac18",
+            "archive_sha256": "99f631767b13a85ab381aa99efbbe0546f8b8f3bf3a1c1814c78fe2b0f31a55c"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdbi\\CZ_hsdbi\\calib.txt",
+            "member": "CZ_hsdbi/calib.txt",
+            "bytes": 497,
+            "sha256": "e8b0945a2e1f42fbc0219570b2d1f67112cacaded91a7b13859f22c78231801b",
+            "archive_sha256": "99f631767b13a85ab381aa99efbbe0546f8b8f3bf3a1c1814c78fe2b0f31a55c"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdbi\\CZ_hsdbi\\img3.mat",
+            "member": "CZ_hsdbi/img3.mat",
+            "bytes": 95094913,
+            "sha256": "d1d59fb149bbf127a354ef8893d801eeb06f21266c7d8af8b34b213609a863b6",
+            "archive_sha256": "99f631767b13a85ab381aa99efbbe0546f8b8f3bf3a1c1814c78fe2b0f31a55c"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdbi\\CZ_hsdbi\\img4.mat",
+            "member": "CZ_hsdbi/img4.mat",
+            "bytes": 77636260,
+            "sha256": "4f9e10f7873c6d1c06fb66a24edb05b052392e92d3190cc2f7254a0dcd107f3d",
+            "archive_sha256": "99f631767b13a85ab381aa99efbbe0546f8b8f3bf3a1c1814c78fe2b0f31a55c"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdbi\\CZ_hsdbi\\img5.mat",
+            "member": "CZ_hsdbi/img5.mat",
+            "bytes": 84046962,
+            "sha256": "280c639ba8987960922d7f0cf6575e742318c07127d5d9d3aabdeecf3ea93394",
+            "archive_sha256": "99f631767b13a85ab381aa99efbbe0546f8b8f3bf3a1c1814c78fe2b0f31a55c"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdbi\\CZ_hsdbi\\img6.mat",
+            "member": "CZ_hsdbi/img6.mat",
+            "bytes": 83005145,
+            "sha256": "d26be63b367e70a92f9b27bd67b10c3af945e13cd84f1f0e5a5eab6ec19658c9",
+            "archive_sha256": "99f631767b13a85ab381aa99efbbe0546f8b8f3bf3a1c1814c78fe2b0f31a55c"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdbi\\CZ_hsdbi\\imga3.mat",
+            "member": "CZ_hsdbi/imga3.mat",
+            "bytes": 116928113,
+            "sha256": "2eb3492af8dd6e810b4b0f0493fd8e9224b9b5b8ed55a502f2e4db124888c8f2",
+            "archive_sha256": "99f631767b13a85ab381aa99efbbe0546f8b8f3bf3a1c1814c78fe2b0f31a55c"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdbi\\CZ_hsdbi\\imga4.mat",
+            "member": "CZ_hsdbi/imga4.mat",
+            "bytes": 106185583,
+            "sha256": "ac7f70ac97a1b00a4322ce5b07182c479194d9a512ef7da74670e6eb5e8b19f1",
+            "archive_sha256": "99f631767b13a85ab381aa99efbbe0546f8b8f3bf3a1c1814c78fe2b0f31a55c"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdbi\\CZ_hsdbi\\imga8.mat",
+            "member": "CZ_hsdbi/imga8.mat",
+            "bytes": 92190128,
+            "sha256": "72819d80f7e72e330eef9f5d41697c81a75f2c09fe491620cbb1f76ca05d2c03",
+            "archive_sha256": "99f631767b13a85ab381aa99efbbe0546f8b8f3bf3a1c1814c78fe2b0f31a55c"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdbi\\CZ_hsdbi\\imgc3.mat",
+            "member": "CZ_hsdbi/imgc3.mat",
+            "bytes": 107410870,
+            "sha256": "bba485faf480c8063d097df16f26b5f0eea2e0b88aa29aebdf4ccf78ad45a90e",
+            "archive_sha256": "99f631767b13a85ab381aa99efbbe0546f8b8f3bf3a1c1814c78fe2b0f31a55c"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdbi\\CZ_hsdbi\\imgc6.mat",
+            "member": "CZ_hsdbi/imgc6.mat",
+            "bytes": 96053844,
+            "sha256": "ab2356f04fa8f1d0c802a94807ea2edcd728ca459a547c3e18bffb37fe2fcd77",
+            "archive_sha256": "99f631767b13a85ab381aa99efbbe0546f8b8f3bf3a1c1814c78fe2b0f31a55c"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdbi\\CZ_hsdbi\\imgd0.mat",
+            "member": "CZ_hsdbi/imgd0.mat",
+            "bytes": 114003440,
+            "sha256": "433b307dd9debfb3d0e4114742303ac2284fe6e2e3e9923d4fdbcf4d82aed9bc",
+            "archive_sha256": "99f631767b13a85ab381aa99efbbe0546f8b8f3bf3a1c1814c78fe2b0f31a55c"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdbi\\CZ_hsdbi\\imgd1.mat",
+            "member": "CZ_hsdbi/imgd1.mat",
+            "bytes": 94103772,
+            "sha256": "545207bacf232faa7625a8c2ae31ba0a17241344548214fc217b2445db3835c0",
+            "archive_sha256": "99f631767b13a85ab381aa99efbbe0546f8b8f3bf3a1c1814c78fe2b0f31a55c"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdbi\\CZ_hsdbi\\imgd5.mat",
+            "member": "CZ_hsdbi/imgd5.mat",
+            "bytes": 112397763,
+            "sha256": "e1f7f64d2cfa9353f58c71797e2be029c3416c7c6154f11d8a8bbc150886d2b6",
+            "archive_sha256": "99f631767b13a85ab381aa99efbbe0546f8b8f3bf3a1c1814c78fe2b0f31a55c"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdbi\\CZ_hsdbi\\imgd6.mat",
+            "member": "CZ_hsdbi/imgd6.mat",
+            "bytes": 82242096,
+            "sha256": "ff51d53ff7cfd11fe2f602da773445a984a4ac68f0afdd0cc05fd99df9514e77",
+            "archive_sha256": "99f631767b13a85ab381aa99efbbe0546f8b8f3bf3a1c1814c78fe2b0f31a55c"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdbi\\CZ_hsdbi\\imgg0.mat",
+            "member": "CZ_hsdbi/imgg0.mat",
+            "bytes": 91897638,
+            "sha256": "0c2a445687527c856b27b28ddf3fa20c623b5f6dc492415c08edd8e7d7cd97c2",
+            "archive_sha256": "99f631767b13a85ab381aa99efbbe0546f8b8f3bf3a1c1814c78fe2b0f31a55c"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdbi\\CZ_hsdbi\\imgg1.mat",
+            "member": "CZ_hsdbi/imgg1.mat",
+            "bytes": 80756964,
+            "sha256": "86e985835b4ab2c450d205fe2888edc57a65b9d33c54818bc8a1e701879c8032",
+            "archive_sha256": "99f631767b13a85ab381aa99efbbe0546f8b8f3bf3a1c1814c78fe2b0f31a55c"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdbi\\CZ_hsdbi\\imgg2.mat",
+            "member": "CZ_hsdbi/imgg2.mat",
+            "bytes": 83764518,
+            "sha256": "32992627c15504ad53e32b44050f670f6845d0897b3ef02d22e73feebe732277",
+            "archive_sha256": "99f631767b13a85ab381aa99efbbe0546f8b8f3bf3a1c1814c78fe2b0f31a55c"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdbi\\CZ_hsdbi\\imgg3.mat",
+            "member": "CZ_hsdbi/imgg3.mat",
+            "bytes": 90003517,
+            "sha256": "c00e5de10feb1f0507536b6099bac055f9f8576ef8b8902e1f50ac6452ac2079",
+            "archive_sha256": "99f631767b13a85ab381aa99efbbe0546f8b8f3bf3a1c1814c78fe2b0f31a55c"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdbi\\CZ_hsdbi\\imgg4.mat",
+            "member": "CZ_hsdbi/imgg4.mat",
+            "bytes": 74157769,
+            "sha256": "a59559666f633ba0545ffeb5c671bc4c3f2402f543bc4f871092ef0094a34509",
+            "archive_sha256": "99f631767b13a85ab381aa99efbbe0546f8b8f3bf3a1c1814c78fe2b0f31a55c"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdbi\\CZ_hsdbi\\imgg5.mat",
+            "member": "CZ_hsdbi/imgg5.mat",
+            "bytes": 90453382,
+            "sha256": "152f27f3904422b05203f6e2b2be25f059da3ec02ec127637e27a8d042b3eea3",
+            "archive_sha256": "99f631767b13a85ab381aa99efbbe0546f8b8f3bf3a1c1814c78fe2b0f31a55c"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdbi\\CZ_hsdbi\\imgg6.mat",
+            "member": "CZ_hsdbi/imgg6.mat",
+            "bytes": 66983550,
+            "sha256": "3e511b5b36ca869347343eecb9266a2607156f986a5aa502647bcfc467f35092",
+            "archive_sha256": "99f631767b13a85ab381aa99efbbe0546f8b8f3bf3a1c1814c78fe2b0f31a55c"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdbi\\CZ_hsdbi\\imgg7.mat",
+            "member": "CZ_hsdbi/imgg7.mat",
+            "bytes": 93690608,
+            "sha256": "ed7d96d8e2a2835284e791b63493afc0c65e0c80a55a49dabe2a63b869a2c310",
+            "archive_sha256": "99f631767b13a85ab381aa99efbbe0546f8b8f3bf3a1c1814c78fe2b0f31a55c"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdbi\\CZ_hsdbi\\imgg8.mat",
+            "member": "CZ_hsdbi/imgg8.mat",
+            "bytes": 71422032,
+            "sha256": "a0a6b96c82212e7ac58b383d954c245945d8189d6de00af2d521da35e57da6c0",
+            "archive_sha256": "99f631767b13a85ab381aa99efbbe0546f8b8f3bf3a1c1814c78fe2b0f31a55c"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdbi\\CZ_hsdbi\\imgg9.mat",
+            "member": "CZ_hsdbi/imgg9.mat",
+            "bytes": 78728621,
+            "sha256": "9159081b7f226d200b9f054d9ee8ad762fc1a89a8f709dd0b34c7319f3f68033",
+            "archive_sha256": "99f631767b13a85ab381aa99efbbe0546f8b8f3bf3a1c1814c78fe2b0f31a55c"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdbi\\CZ_hsdbi\\imgh4.mat",
+            "member": "CZ_hsdbi/imgh4.mat",
+            "bytes": 99533273,
+            "sha256": "2e44c4b8126740c7935f5e2a30a17ae77573940717b3199eaf2b1ed93bfa3756",
+            "archive_sha256": "99f631767b13a85ab381aa99efbbe0546f8b8f3bf3a1c1814c78fe2b0f31a55c"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdbi\\CZ_hsdbi\\imgh5.mat",
+            "member": "CZ_hsdbi/imgh5.mat",
+            "bytes": 90058990,
+            "sha256": "8cb36bc10a1f5071ce73debc5839693b2146ec7ab5691716c657b504aa949596",
+            "archive_sha256": "99f631767b13a85ab381aa99efbbe0546f8b8f3bf3a1c1814c78fe2b0f31a55c"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdbi\\CZ_hsdbi\\imgh6.mat",
+            "member": "CZ_hsdbi/imgh6.mat",
+            "bytes": 79258829,
+            "sha256": "30b931794bcf1f9ca9545d6a77e12fb20b84c65190f3397241e2b196baef22e6",
+            "archive_sha256": "99f631767b13a85ab381aa99efbbe0546f8b8f3bf3a1c1814c78fe2b0f31a55c"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdbi\\CZ_hsdbi\\imgh7.mat",
+            "member": "CZ_hsdbi/imgh7.mat",
+            "bytes": 83051253,
+            "sha256": "ddb1a21a4f3434fa25d88dbd8def8718e5b39c59a40b7b10d1da6c88fa46683d",
+            "archive_sha256": "99f631767b13a85ab381aa99efbbe0546f8b8f3bf3a1c1814c78fe2b0f31a55c"
+          }
+        ]
+      },
+      {
+        "url": "https://vision.seas.harvard.edu/hyperspec/d2x5g3/CZ_hsdb.tgz",
+        "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\harvard\\CZ_hsdb\\payload_3f6865f117364bf0811fbdfec7e47584.bin",
+        "expected_bytes": 5764797612,
+        "source_identity": {
+          "etag": "\"1579bd4ac-4a059858d3500\"",
+          "last_modified": "Thu, 07 Apr 2011 19:57:40 GMT"
+        },
+        "segments": [
+          {
+            "offset": 0,
+            "bytes": 67108864,
+            "sha256": "cf17b8bf383e45f47d41c9200451b54ba222b96cc37b948315e926da0845a13c"
+          },
+          {
+            "offset": 67108864,
+            "bytes": 67108864,
+            "sha256": "e6736f1424eb46aefbaeecaf393158a1508030fa8e2b688dacc172f20626b5f2"
+          },
+          {
+            "offset": 134217728,
+            "bytes": 67108864,
+            "sha256": "5abeef39845c9e7fc150ed0761c5698a0ecefc4c665ae4692763ee433bd2e1d8"
+          },
+          {
+            "offset": 201326592,
+            "bytes": 67108864,
+            "sha256": "df954174ef999c50ec7e46bd1eb9437aebae826da6f5585130a91bda388f5cb3"
+          },
+          {
+            "offset": 268435456,
+            "bytes": 67108864,
+            "sha256": "864ea0b93c053f83c80a6355b81ce9a5abe8abbc80140f7fecd22159344cf802"
+          },
+          {
+            "offset": 335544320,
+            "bytes": 67108864,
+            "sha256": "3dd07237438956dc927e54365ff0ead6922b43d79fcfb2310aad69cbc8379152"
+          },
+          {
+            "offset": 402653184,
+            "bytes": 67108864,
+            "sha256": "77a31dfa2ae3e65ab2ef26199d63b2b02a2d3476859c04c697a729b0aa56e9d6"
+          },
+          {
+            "offset": 469762048,
+            "bytes": 67108864,
+            "sha256": "dc1a80f5a067fe47fa45e2dc97f8d3ef7f96f79163a003a6eddc642ee702714d"
+          },
+          {
+            "offset": 536870912,
+            "bytes": 67108864,
+            "sha256": "355d114d47e3b992ab9db24446e50f5b5b0b8d6a10b1f451a56129dea460631e"
+          },
+          {
+            "offset": 603979776,
+            "bytes": 67108864,
+            "sha256": "12a9c750fbb0a0d98b306eb444d7c812f814067abe017934cce986ff300ea2f3"
+          },
+          {
+            "offset": 671088640,
+            "bytes": 67108864,
+            "sha256": "8e1f9c819c1ee43bf1fc73cc3ade634cdd2be59204ac67e6bb694b12de5bbd1d"
+          },
+          {
+            "offset": 738197504,
+            "bytes": 67108864,
+            "sha256": "a309dc7f228301614a098384988e1dd7289aac7f359a98cb8e94dfb5403e2ffd"
+          },
+          {
+            "offset": 805306368,
+            "bytes": 67108864,
+            "sha256": "27702f35434ba20012e284fee240ef25b08a1ba5e6bc77630475f321f5915b40"
+          },
+          {
+            "offset": 872415232,
+            "bytes": 67108864,
+            "sha256": "6fd5b92c9e65c22007be3c22e40d8368192795e7e601eeb0468859c83686e86b"
+          },
+          {
+            "offset": 939524096,
+            "bytes": 67108864,
+            "sha256": "3e3934c08f19cc060bba9b0401cbbe152456051377cde59821231c4d88b77495"
+          },
+          {
+            "offset": 1006632960,
+            "bytes": 67108864,
+            "sha256": "61d09d2b0b8028cff1be69f06dbf5a103d25b1fb16d3eb92ecf569db0279aa5c"
+          },
+          {
+            "offset": 1073741824,
+            "bytes": 67108864,
+            "sha256": "e2480fe91466507a5aab852d083aa9464660399e8cae40af15cebdb3ad84d86d"
+          },
+          {
+            "offset": 1140850688,
+            "bytes": 67108864,
+            "sha256": "b7487a496285cd021ecd6c31220416c5485cac223bd40c3f91e96f161d3c6d61"
+          },
+          {
+            "offset": 1207959552,
+            "bytes": 67108864,
+            "sha256": "08d42ba5291475770255f316681fc426f0684e36f86101228946ea4cdeb0ae6e"
+          },
+          {
+            "offset": 1275068416,
+            "bytes": 67108864,
+            "sha256": "1602c403df25ce3c020cb9459803421e25f0c03dcd978b66901d6043e64408a8"
+          },
+          {
+            "offset": 1342177280,
+            "bytes": 67108864,
+            "sha256": "b4701375b20f91213a98d21142ff1baf7e37386613b118ad1856ce82d5e62668"
+          },
+          {
+            "offset": 1409286144,
+            "bytes": 67108864,
+            "sha256": "bc639d4dcc72fa97d2ac8a0afa9f10c4fe1676727ea358f90eeeee7b1641428b"
+          },
+          {
+            "offset": 1476395008,
+            "bytes": 67108864,
+            "sha256": "a38debeda70c4c5ea92807f4432f6a738ec0a213a0cfe7c88bfb1cd4c24f3201"
+          },
+          {
+            "offset": 1543503872,
+            "bytes": 67108864,
+            "sha256": "e13d193c19c620a2afbf3d7af798548b8ba7bedb3f469eb66e02b40c40355823"
+          },
+          {
+            "offset": 1610612736,
+            "bytes": 67108864,
+            "sha256": "71cdce295449b4c38949e2571b16ad55976153811e53422617c0068e693b3ff1"
+          },
+          {
+            "offset": 1677721600,
+            "bytes": 67108864,
+            "sha256": "e82e5b1f1652bd312c3074998fac222c12488e6fa96769abdf997ae6657c4169"
+          },
+          {
+            "offset": 1744830464,
+            "bytes": 67108864,
+            "sha256": "710ceb5cd3f730944bf8f2eb10b85d0016f935d7dea65977b611f42a2652cd49"
+          },
+          {
+            "offset": 1811939328,
+            "bytes": 67108864,
+            "sha256": "1319822ab282033a0127d5159dc9781f59595c82a7df85182419e62d3596fd11"
+          },
+          {
+            "offset": 1879048192,
+            "bytes": 67108864,
+            "sha256": "04a7fe6443e8d0d6e2bc5d2b21c65c1a97e8993499b0d5e5bc179906405e1d2f"
+          },
+          {
+            "offset": 1946157056,
+            "bytes": 67108864,
+            "sha256": "aa7a5ca89b6e82d7d176bdabb3b695b8b623df54ab64ab4c3a75ce9472302e7e"
+          },
+          {
+            "offset": 2013265920,
+            "bytes": 67108864,
+            "sha256": "16781942bb74147d683f3bd183722aa4658bd22bce18b6a2649e0c9d109d61cd"
+          },
+          {
+            "offset": 2080374784,
+            "bytes": 67108864,
+            "sha256": "b406804856d596a66e585cf97ab81372cc2fc655693ba52c852e0f3ffcba883e"
+          },
+          {
+            "offset": 2147483648,
+            "bytes": 67108864,
+            "sha256": "eed18d9630a5f20a7c207999666fd1f80c4f287b22174c0bf0848c9c4dcac4aa"
+          },
+          {
+            "offset": 2214592512,
+            "bytes": 67108864,
+            "sha256": "4a7e9d6e163f8e8587770d2ad1d9d9e7795f719f52ce0fa413c9f13c578a64b5"
+          },
+          {
+            "offset": 2281701376,
+            "bytes": 67108864,
+            "sha256": "4a7ba44167a3e33b20adf4a5113aac747af13e492df73f8fe2d0e649b5c7e336"
+          },
+          {
+            "offset": 2348810240,
+            "bytes": 67108864,
+            "sha256": "ed38dfae9d7cc1e588ce73a774c63b277a293d1973b2a1361f4534bdd504c061"
+          },
+          {
+            "offset": 2415919104,
+            "bytes": 67108864,
+            "sha256": "e88bb03e734985b0f5dbe0706506441c928905675656c310f73bd118cde08f16"
+          },
+          {
+            "offset": 2483027968,
+            "bytes": 67108864,
+            "sha256": "7a962563a2627556d6edd5821ed2bab6f431ae75a87eccd25aab239afeaa36f7"
+          },
+          {
+            "offset": 2550136832,
+            "bytes": 67108864,
+            "sha256": "908fcc8f32cfb70e772f1ded04877f991c123b1fa54333381bc81283c33f0ba3"
+          },
+          {
+            "offset": 2617245696,
+            "bytes": 67108864,
+            "sha256": "ffb0f731257d637d4e9c689f0cecf8225f285efaf1e6d9159641be815d26327e"
+          },
+          {
+            "offset": 2684354560,
+            "bytes": 67108864,
+            "sha256": "e7c630fefe2f9ae87c44e296111b62ad72949a248fe3f68f127a863b28453327"
+          },
+          {
+            "offset": 2751463424,
+            "bytes": 67108864,
+            "sha256": "6f9ba9ef864057253c70d29dbaa8feae63132736fb844c180976877d6c45d24e"
+          },
+          {
+            "offset": 2818572288,
+            "bytes": 67108864,
+            "sha256": "d10dfcbb76d6f6d34f1b993813870f11df35116e3dd637a1c3030eaf5ff33a8f"
+          },
+          {
+            "offset": 2885681152,
+            "bytes": 67108864,
+            "sha256": "7f837252f5b47f7d0db6519ac343cc265e69a28b214c53a7281c6e576442aa1a"
+          },
+          {
+            "offset": 2952790016,
+            "bytes": 67108864,
+            "sha256": "7258dd2e917df36ed8c5617abe7761c019a08f4963f1339b66cb48c3e7437df4"
+          },
+          {
+            "offset": 3019898880,
+            "bytes": 67108864,
+            "sha256": "0a4f759424690a521b34d9d581ec36b07030d09e33c19975093d47fafdb26b81"
+          },
+          {
+            "offset": 3087007744,
+            "bytes": 67108864,
+            "sha256": "118c54381a377420617d27c78b027225f5c421714cd5e12597937c5aadddfd2a"
+          },
+          {
+            "offset": 3154116608,
+            "bytes": 67108864,
+            "sha256": "0148db6e880d9993aa698e0617d725a3ee89205c0fd2da2454f8f6890e312ab6"
+          },
+          {
+            "offset": 3221225472,
+            "bytes": 67108864,
+            "sha256": "8ec8aa036d430aa909e4dbe00b08a3fbf0c9ed14c88666fa7b6bdb8f2e622962"
+          },
+          {
+            "offset": 3288334336,
+            "bytes": 67108864,
+            "sha256": "ed2712a43b018e65fe51e29df504834d0ac56a6927d91ce168f30a396aa1fd04"
+          },
+          {
+            "offset": 3355443200,
+            "bytes": 67108864,
+            "sha256": "d44d9ee3c17b9872c0a4b63bfc0ae04efad7e63b8ef42cca0433785e7f74f361"
+          },
+          {
+            "offset": 3422552064,
+            "bytes": 67108864,
+            "sha256": "4eb611cfcb16c935b05cefb2ea713f7fffb6c8b88b968266be1972e12427d33b"
+          },
+          {
+            "offset": 3489660928,
+            "bytes": 67108864,
+            "sha256": "64d35dd0fe7d09c7bb00d2802b89bec3b92bc95c6e3453e987c4afa92c5c7222"
+          },
+          {
+            "offset": 3556769792,
+            "bytes": 67108864,
+            "sha256": "2f3e92fad2f9ca899b974066596bc21b423358a8c007bffadfcd013ce026ecdf"
+          },
+          {
+            "offset": 3623878656,
+            "bytes": 67108864,
+            "sha256": "3a95d87876199e96b99f4c1191d5afec6a9cb337f0d4ea24378cf8581897403d"
+          },
+          {
+            "offset": 3690987520,
+            "bytes": 67108864,
+            "sha256": "d98d7799f1aebf5861696a98ed8d4e243c66430cbbb8c9c34143051f6a3a708e"
+          },
+          {
+            "offset": 3758096384,
+            "bytes": 67108864,
+            "sha256": "04ca1fa8b5f3bf8967b3d3b3c82ecea28c40cc991f4ede3ec7cea03c9687f748"
+          },
+          {
+            "offset": 3825205248,
+            "bytes": 67108864,
+            "sha256": "42a74a3ba4784f2c16c1e5329644ff76cd4e358d183c541a52f68ab1fee3a5c5"
+          },
+          {
+            "offset": 3892314112,
+            "bytes": 67108864,
+            "sha256": "85fed0aff3db87c0147468726835ec722be0d363741da0a4cd7f358b76c34032"
+          },
+          {
+            "offset": 3959422976,
+            "bytes": 67108864,
+            "sha256": "023a02f289ae08597e0009c01ee65c43fb3a1308e55eaf65e5e6a87823012882"
+          },
+          {
+            "offset": 4026531840,
+            "bytes": 67108864,
+            "sha256": "2611e65a38304e55a672816dd8ec86f0e1264c02e99889ae438d5d60961c5abd"
+          },
+          {
+            "offset": 4093640704,
+            "bytes": 67108864,
+            "sha256": "fe73e82f4fc0f8259392e90c5046eaaf56a6a5549e81806894ad97da5891eba8"
+          },
+          {
+            "offset": 4160749568,
+            "bytes": 67108864,
+            "sha256": "4b261539dfe16a1c30db2454b5a623525cd4d4ab102b23dab0a1e3c555064ebb"
+          },
+          {
+            "offset": 4227858432,
+            "bytes": 67108864,
+            "sha256": "1bac532a7f3297661fa6149fd25ba9a805061b7943b2b01b54695ceee2bf996f"
+          },
+          {
+            "offset": 4294967296,
+            "bytes": 67108864,
+            "sha256": "f23b68378cff4ee72f84970bdf8e7ae01e58dfa982c504706e4032f2151aaa8d"
+          },
+          {
+            "offset": 4362076160,
+            "bytes": 67108864,
+            "sha256": "30027bbb06c82f108339a3a476fd0c68d5d622f7062046beac041ee8413b34a7"
+          },
+          {
+            "offset": 4429185024,
+            "bytes": 67108864,
+            "sha256": "e0f364316ae8b4928c38365aa1d9fb893173b7f373c74b425d69b5f9f6e70d5b"
+          },
+          {
+            "offset": 4496293888,
+            "bytes": 67108864,
+            "sha256": "62f82d460c33ebee65ff9fd9631e05bf8b75596f314087e876278ba5d20be15c"
+          },
+          {
+            "offset": 4563402752,
+            "bytes": 67108864,
+            "sha256": "3d80db05e6f83feb788d3b11ce3c1e02f11060fdc69cf89436cef26a589b057a"
+          },
+          {
+            "offset": 4630511616,
+            "bytes": 67108864,
+            "sha256": "48bba97c3fe8ff3efcd00100c4b5fc7de499e346aa1b3e7a47d4e79dc5cf9767"
+          },
+          {
+            "offset": 4697620480,
+            "bytes": 67108864,
+            "sha256": "74f55445b7a17d75985631a2f71624b770f9ffb68f6fbca1a9be55e81ff775c7"
+          },
+          {
+            "offset": 4764729344,
+            "bytes": 67108864,
+            "sha256": "3498988dcffc4b67fb5e2332551d92b7f9e6795677f9dbf3fc91e6a89258c9cf"
+          },
+          {
+            "offset": 4831838208,
+            "bytes": 67108864,
+            "sha256": "af9315d3f31aad951da00b261330ccf5be4f091070a6da560673dea6bb67bb59"
+          },
+          {
+            "offset": 4898947072,
+            "bytes": 67108864,
+            "sha256": "9dbdfeb8b7afa147caf58a0a4a7e51a4f736cee44b988f41d8b8140ef0deb786"
+          },
+          {
+            "offset": 4966055936,
+            "bytes": 67108864,
+            "sha256": "cae61ca40522b1395062307033fa4d26142edc125e478237398db8318849a0f8"
+          },
+          {
+            "offset": 5033164800,
+            "bytes": 67108864,
+            "sha256": "d86590b2fe4943b06c418d9f03d93cc0090d2fbc0c843bf348ebf4be2dc6fcd7"
+          },
+          {
+            "offset": 5100273664,
+            "bytes": 67108864,
+            "sha256": "d643d28c9e68398b8f98a78fb9911b914589f37be0793fa0da888a274e757c49"
+          },
+          {
+            "offset": 5167382528,
+            "bytes": 67108864,
+            "sha256": "6d8a5ce797c34f208d1585ef757f028a4003cf49a06c41105c49a89b4c5ed7d8"
+          },
+          {
+            "offset": 5234491392,
+            "bytes": 67108864,
+            "sha256": "1b2c3ba1fddc06e6569289b1672fdfa949ab6cac27f1106ca7ab92affd0bf5e9"
+          },
+          {
+            "offset": 5301600256,
+            "bytes": 67108864,
+            "sha256": "3a9336f8fd22b90b4371d093d16fcb9e97b42b225c722784a7acd8e951107fa3"
+          },
+          {
+            "offset": 5368709120,
+            "bytes": 67108864,
+            "sha256": "43b1c9be1a76d9ec86e74998979ee5c7fb282e5e7937c8d47d607b1916a855a4"
+          },
+          {
+            "offset": 5435817984,
+            "bytes": 67108864,
+            "sha256": "621f6fe3c67d5d2329e24959e0ffce09d93321879790cf29ca31547f356f9865"
+          },
+          {
+            "offset": 5502926848,
+            "bytes": 67108864,
+            "sha256": "b1b52dbfb7a16960260651aeacc4157d975f8fb785ac0b46795e294f5ffd831e"
+          },
+          {
+            "offset": 5570035712,
+            "bytes": 67108864,
+            "sha256": "0460d20cc11ef6468c5d8d146b6454ad8dd60d20465348f25ad110a4fb72a5c8"
+          },
+          {
+            "offset": 5637144576,
+            "bytes": 67108864,
+            "sha256": "a8c02a186cc61c5fb6f2eb0a8d55aee7e26b624717dbfd42368f3b2c503dab4c"
+          },
+          {
+            "offset": 5704253440,
+            "bytes": 60544172,
+            "sha256": "f40947e557995ab1dadc3da545da00e1dcc9aae4a7ec82e9c0f963f3bb0decf4"
+          }
+        ],
+        "completed_bytes": 5764797612,
+        "status": "complete",
+        "sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96",
+        "upstream_sha_verified": false,
+        "stem": "CZ_hsdb",
+        "extracted_files": [
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\README.txt",
+            "member": "CZ_hsdb/README.txt",
+            "bytes": 1148,
+            "sha256": "6ed1058bb371ef6a1143b0cc1f94cd8b8288c64cd4cc0020b7c328a31c5c5d77",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\calib.txt",
+            "member": "CZ_hsdb/calib.txt",
+            "bytes": 497,
+            "sha256": "e8b0945a2e1f42fbc0219570b2d1f67112cacaded91a7b13859f22c78231801b",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\img1.mat",
+            "member": "CZ_hsdb/img1.mat",
+            "bytes": 123871641,
+            "sha256": "d8024825029635f9f23f9e9db7856a38a556aefc983e5040391622b5149b97a7",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\img2.mat",
+            "member": "CZ_hsdb/img2.mat",
+            "bytes": 124627823,
+            "sha256": "f0ab34998a6bbccc2dd9e83b4c6985b10ebbc98372991a82f4c7dca4b7b28c02",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imga1.mat",
+            "member": "CZ_hsdb/imga1.mat",
+            "bytes": 126233205,
+            "sha256": "8ad0e5f9ed1e70667c4dfc0f6c46cc3f5a36fe0de933d4c972efc73b9e882951",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imga2.mat",
+            "member": "CZ_hsdb/imga2.mat",
+            "bytes": 100462537,
+            "sha256": "880b98e1d0a3d43d62cd2bf9fcc685f9fc924f58a164ffe7427e54e27f5ca763",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imga5.mat",
+            "member": "CZ_hsdb/imga5.mat",
+            "bytes": 100703256,
+            "sha256": "15f81e10bfca944eb910d56024a5844aabef08e2253568e2d2c8a4ef9d32655c",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imga6.mat",
+            "member": "CZ_hsdb/imga6.mat",
+            "bytes": 125479436,
+            "sha256": "01f9c39b7f287660fba374972f79c1ef2721cb5887c36c5ec5bd74caeefb6582",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imga7.mat",
+            "member": "CZ_hsdb/imga7.mat",
+            "bytes": 120924061,
+            "sha256": "5aa174acce6d787a9ab64c095bd21884e235fa845f16d105def4ab3d2083e31a",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgb0.mat",
+            "member": "CZ_hsdb/imgb0.mat",
+            "bytes": 128994964,
+            "sha256": "d01a9ca3a9aa01a1f37e6970eae52d3af8754678f5cb2921b74451ada0eea499",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgb1.mat",
+            "member": "CZ_hsdb/imgb1.mat",
+            "bytes": 127843927,
+            "sha256": "68fbcc520010925c39af659511ecfb75cb21ca9a8a60e42008fdcc4473d1ce8e",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgb2.mat",
+            "member": "CZ_hsdb/imgb2.mat",
+            "bytes": 131869685,
+            "sha256": "cfb85fcca91e5e2a9bbe0341196a766f0d4dd8e267809a93c9b9e4b66b9abbe3",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgb3.mat",
+            "member": "CZ_hsdb/imgb3.mat",
+            "bytes": 128832517,
+            "sha256": "c86fb81f247bd61ead55d619d07498b69e71dd043849e32e68c8b8e481590b93",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgb4.mat",
+            "member": "CZ_hsdb/imgb4.mat",
+            "bytes": 129524864,
+            "sha256": "dfc7cb69ea8961ddf582958d2e283b0093eb0c464fc5dcfb36731855cfa0dcc0",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgb5.mat",
+            "member": "CZ_hsdb/imgb5.mat",
+            "bytes": 118650556,
+            "sha256": "f4d91ebf281bafda8f29f4f08ec4a156551b0c561fd8a4f7227d750e2386f336",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgb6.mat",
+            "member": "CZ_hsdb/imgb6.mat",
+            "bytes": 128712812,
+            "sha256": "b8d6a2c4962e71dcf9c6b8a7827da377f08698eca39ff99e0bafd4c410550872",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgb7.mat",
+            "member": "CZ_hsdb/imgb7.mat",
+            "bytes": 133940900,
+            "sha256": "f640766de566cab3a26511c46c4fe777c9696475c475957d4a3e92c3092358d4",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgb8.mat",
+            "member": "CZ_hsdb/imgb8.mat",
+            "bytes": 135846042,
+            "sha256": "7714d2a792f8f0a7e8f53463a52f7bed73afafd15082c3a7c35f79349a587a16",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgb9.mat",
+            "member": "CZ_hsdb/imgb9.mat",
+            "bytes": 113546234,
+            "sha256": "13ae21c99aa137c80f1eb0910f7c8dd486e8fc9c74e6ac8b8284cef46b470007",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgc1.mat",
+            "member": "CZ_hsdb/imgc1.mat",
+            "bytes": 91817991,
+            "sha256": "6f05318389f2c07a0b6f50cadd4482ee6d91c16a2e59af9399dfd98aac79c331",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgc2.mat",
+            "member": "CZ_hsdb/imgc2.mat",
+            "bytes": 121387655,
+            "sha256": "e8778ed30dfd414f1dbdf16fa797b4d4ae6ba42765c5aea13d2b5a6cfcaf03c1",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgc4.mat",
+            "member": "CZ_hsdb/imgc4.mat",
+            "bytes": 122219293,
+            "sha256": "51a40c93c9bafe43015fad6259069bba84047309fc447e2269bea24ddf043fe9",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgc5.mat",
+            "member": "CZ_hsdb/imgc5.mat",
+            "bytes": 108701449,
+            "sha256": "b7192de76421fc16f846d4b0f84a8b2e79fcb8c6fedfb80fa189d5ad34b8b57f",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgc7.mat",
+            "member": "CZ_hsdb/imgc7.mat",
+            "bytes": 121154817,
+            "sha256": "be64889b45dd231156461488a9761ea99238d445db82a8d9a7c540628ee25159",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgc8.mat",
+            "member": "CZ_hsdb/imgc8.mat",
+            "bytes": 122241138,
+            "sha256": "d3593f2982a9ea9f6351b06b407cbce142795da3984dcc5722c56ca03a70854d",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgc9.mat",
+            "member": "CZ_hsdb/imgc9.mat",
+            "bytes": 123169150,
+            "sha256": "bbcf86d47656e6da77e17e0a89f1b015c861cd0c107ac7477b8e4a6e5c05e972",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgd2.mat",
+            "member": "CZ_hsdb/imgd2.mat",
+            "bytes": 100056075,
+            "sha256": "0cb1f7ff9dc6f76ff51eb874b369dc72e8719f111b2dd2e2c80c196d017b0a2a",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgd3.mat",
+            "member": "CZ_hsdb/imgd3.mat",
+            "bytes": 106101402,
+            "sha256": "62bdc89f05e71ab130ad94e714c64d7d3b5285da9f39382d1af97dd694debaaf",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgd4.mat",
+            "member": "CZ_hsdb/imgd4.mat",
+            "bytes": 116669690,
+            "sha256": "2765a0f81fe790654a5f470dd5abc6f970f30a02641b057af7af593b4d64f45a",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgd7.mat",
+            "member": "CZ_hsdb/imgd7.mat",
+            "bytes": 117724428,
+            "sha256": "dcb89a25f3c83f5ce8a615e81323ce66fe6dcf7757188124d7933d35c14799dc",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgd8.mat",
+            "member": "CZ_hsdb/imgd8.mat",
+            "bytes": 102149850,
+            "sha256": "72511e45961ebb2050219a1be3be5ed00dbf05b237379eab0f462999cb9c92d5",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgd9.mat",
+            "member": "CZ_hsdb/imgd9.mat",
+            "bytes": 105534050,
+            "sha256": "a85a5687cb6112fd3fa58430ebde076ebe0e9437713eb4b263d6668bdf38c0e9",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imge0.mat",
+            "member": "CZ_hsdb/imge0.mat",
+            "bytes": 111239890,
+            "sha256": "a7cf1f121692f3f050c84fb95e7941678ed2302c0617315e6560271ba33041bc",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imge1.mat",
+            "member": "CZ_hsdb/imge1.mat",
+            "bytes": 118579274,
+            "sha256": "3a6a4efba10dde4d26ac2c285aab17f1eb4c9211c7d4f403c33e2a8ce0d30751",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imge2.mat",
+            "member": "CZ_hsdb/imge2.mat",
+            "bytes": 114217376,
+            "sha256": "a5a324415c6eb5bdcafc7832e4d64775c4ba9bb26d32279386dd93585a1051f2",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imge3.mat",
+            "member": "CZ_hsdb/imge3.mat",
+            "bytes": 121682737,
+            "sha256": "6a70d9dfef27f9c451bc6b31ec16b57997d0a81f270599bfc85bda8e8a33ecff",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imge4.mat",
+            "member": "CZ_hsdb/imge4.mat",
+            "bytes": 112133840,
+            "sha256": "5f5ccb55b445be8d8ff3352ded1d9c1eeb0fec72d210186696e3912ba4d5bdaf",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imge5.mat",
+            "member": "CZ_hsdb/imge5.mat",
+            "bytes": 120319424,
+            "sha256": "d86d9f0d1ffff49955a2a08311bf0efbf7c93d7d40a6ee90d9919f38d3592c9f",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imge6.mat",
+            "member": "CZ_hsdb/imge6.mat",
+            "bytes": 129528270,
+            "sha256": "8dbd1d268b2d657f1b4ca3b1744563f82f931d84c639ed08c2c3ef93ba171340",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imge7.mat",
+            "member": "CZ_hsdb/imge7.mat",
+            "bytes": 129482135,
+            "sha256": "3488670e4fed55d3f9dd1f5a9e3a6ba945d07a8ae998889b0a61ca8b68ca0774",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgf1.mat",
+            "member": "CZ_hsdb/imgf1.mat",
+            "bytes": 120168674,
+            "sha256": "a0bf62cfab72858088352e2876fbdbbe219c7936acdcef29c8d8b3df6c7818db",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgf2.mat",
+            "member": "CZ_hsdb/imgf2.mat",
+            "bytes": 123526178,
+            "sha256": "21c4089fd5d983d685fd803f689225d5a782b31248f3a82af7ed25d463eee173",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgf3.mat",
+            "member": "CZ_hsdb/imgf3.mat",
+            "bytes": 120460886,
+            "sha256": "9b96d72978bcf5e67fd3ad0083b41a53e6c7db2dcc89fef8fd37761707f52621",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgf4.mat",
+            "member": "CZ_hsdb/imgf4.mat",
+            "bytes": 117129353,
+            "sha256": "0cfd8ab699d60718afe1701ad1a410bce42b5874b97a9ea1e25a06e3fdb9e659",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgf5.mat",
+            "member": "CZ_hsdb/imgf5.mat",
+            "bytes": 110373883,
+            "sha256": "c31936c71b4ef3d593fb8e925136dd773717168d893343291f036e4f27520e78",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgf6.mat",
+            "member": "CZ_hsdb/imgf6.mat",
+            "bytes": 97959353,
+            "sha256": "fd7a77164cca7d83aebb9cd0494a1fbc29f4e82da29ca53f2ed8f6c175454abb",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgf7.mat",
+            "member": "CZ_hsdb/imgf7.mat",
+            "bytes": 122468809,
+            "sha256": "22d6480686864698a76f7f7e8e3237840bb2776e4f84210ddc7166a719a4740f",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgf8.mat",
+            "member": "CZ_hsdb/imgf8.mat",
+            "bytes": 102854197,
+            "sha256": "381b916851d3f6a9631be3ae4fd4f48b72193196a75ea6b3e9752bf12898f7f4",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgh0.mat",
+            "member": "CZ_hsdb/imgh0.mat",
+            "bytes": 113910914,
+            "sha256": "5f11da38ade036791bd17ffad5253b542675528acd10f1b504b2d8c6ad0b5c7d",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgh1.mat",
+            "member": "CZ_hsdb/imgh1.mat",
+            "bytes": 99724921,
+            "sha256": "0536d8d798b8f4e756e666883150d372ee119384b594ffb0ef441c1a3588152c",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgh2.mat",
+            "member": "CZ_hsdb/imgh2.mat",
+            "bytes": 91060326,
+            "sha256": "f3f6f43596e406f9103d1514b28ddaa020305913e2de108efb61eff3b970de95",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          },
+          {
+            "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\raw\\harvard\\CZ_hsdb\\CZ_hsdb\\imgh3.mat",
+            "member": "CZ_hsdb/imgh3.mat",
+            "bytes": 111615707,
+            "sha256": "b60b55d4bd6b73fa12c72e90f444a498b711366b37ffe22603ed020389bd5e86",
+            "archive_sha256": "ec6955a2057f97d516ed92280e934a5d4d0065c96301b01ba9cee59c6a62fc96"
+          }
+        ]
+      }
+    ],
+    "kaist": [
+      {
+        "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene01_reflectance.exr",
+        "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene01_reflectance\\payload_5aa2e2739f0e4a18b8c59e9d6169e20a.bin",
+        "expected_bytes": 287920601,
+        "source_identity": {
+          "etag": null,
+          "last_modified": "Tue, 30 Jan 2018 01:12:07 GMT"
+        },
+        "segments": [
+          {
+            "offset": 0,
+            "bytes": 67108864,
+            "sha256": "e69d8fcbf545cc775171a9b8727ac7a04a73d5676d8b81ee11e3bf65467285ac"
+          },
+          {
+            "offset": 67108864,
+            "bytes": 67108864,
+            "sha256": "90e057afeb5542b3ffc7ab4e92efb3c91615d7c88141ae4742660f125177ed96"
+          },
+          {
+            "offset": 134217728,
+            "bytes": 67108864,
+            "sha256": "353371f1a1e10005210c56d6081e71a3fed2e611db3b361acc00c6e9f9ed5124"
+          },
+          {
+            "offset": 201326592,
+            "bytes": 67108864,
+            "sha256": "5131dfcc9b9efee61a392c5e544ecf12b73ffaa443d778f25d6ce013b40c9abd"
+          },
+          {
+            "offset": 268435456,
+            "bytes": 19485145,
+            "sha256": "abb8b789d1f2b4baac036e14e902e8a98802fa61c5ee3ee7a16c7ba31809bf0d"
+          }
+        ],
+        "completed_bytes": 287920601,
+        "status": "complete",
+        "sha256": "a20457f2bd8965ebe48250fd7bae6b26dea120adf2746c70492c5a7e70e4b37f",
+        "upstream_sha_verified": false,
+        "stem": "scene01_reflectance"
+      },
+      {
+        "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene02_reflectance.exr",
+        "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene02_reflectance\\payload_d553b9b531de4d73809aa2c1264e9ca2.bin",
+        "expected_bytes": 301997518,
+        "source_identity": {
+          "etag": null,
+          "last_modified": "Tue, 30 Jan 2018 01:21:28 GMT"
+        },
+        "segments": [
+          {
+            "offset": 0,
+            "bytes": 67108864,
+            "sha256": "2dfaea0739558b63974e6bfb9c0eb0825ede2ebeb4ee50550306efb151b93912"
+          },
+          {
+            "offset": 67108864,
+            "bytes": 67108864,
+            "sha256": "6d5c47c062c8590623fd7231558747ac5a02ed7561ea2633fc9696b4e1ff9ecf"
+          },
+          {
+            "offset": 134217728,
+            "bytes": 67108864,
+            "sha256": "5ab55e5c9cbc0cc293ca20f1cba46777e8a16866460c37a0ef68b8d5d0fffcf5"
+          },
+          {
+            "offset": 201326592,
+            "bytes": 67108864,
+            "sha256": "d5cb9ed650f799c97e4fc36474eb53379c24ab18a468600284248c4b64012916"
+          },
+          {
+            "offset": 268435456,
+            "bytes": 33562062,
+            "sha256": "9974d817043913e662561f3d563c78203129898f94019291f79817fc7e4bffca"
+          }
+        ],
+        "completed_bytes": 301997518,
+        "status": "complete",
+        "sha256": "74a4ab4fdbcb9d7f0690265dacc8ce964179df725ae065a869bf6fb9398e9c5a",
+        "upstream_sha_verified": false,
+        "stem": "scene02_reflectance"
+      },
+      {
+        "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene03_reflectance.exr",
+        "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene03_reflectance\\payload_30a3bb9e79d749c99e63584cc04b72f5.bin",
+        "expected_bytes": 326591883,
+        "source_identity": {
+          "etag": null,
+          "last_modified": "Tue, 30 Jan 2018 01:09:58 GMT"
+        },
+        "segments": [
+          {
+            "offset": 0,
+            "bytes": 67108864,
+            "sha256": "6d834928984101c404f32d0bbe38a7fdbf25ecaee3822e148c7fa98ccdc4ccc9"
+          },
+          {
+            "offset": 67108864,
+            "bytes": 67108864,
+            "sha256": "683b5f2b593716f144dac70d2539ae9aa43f61078f0d44e2d22a338048e70847"
+          },
+          {
+            "offset": 134217728,
+            "bytes": 67108864,
+            "sha256": "7b90c1291987a55b10877178184a81099d385a7f1b27958b1274d6b513d3cb92"
+          },
+          {
+            "offset": 201326592,
+            "bytes": 67108864,
+            "sha256": "e06d3a555b77b78cb6059ac3e87812e3f1b6abcbe94c541a9975ab45f7b526dd"
+          },
+          {
+            "offset": 268435456,
+            "bytes": 58156427,
+            "sha256": "d7ade2d81e6d31ce0f46ab864d97a3203a307127dcb6c986940775dfe6e5e3f6"
+          }
+        ],
+        "completed_bytes": 326591883,
+        "status": "complete",
+        "sha256": "e2f2b3e7a6185ba48f4b9ea043b4695852c6e28ec5fe8c6de9e95cc256750267",
+        "upstream_sha_verified": false,
+        "stem": "scene03_reflectance"
+      },
+      {
+        "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene04_reflectance.exr",
+        "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene04_reflectance\\payload_17976ccecd1c46b6a7904a71cacfc930.bin",
+        "expected_bytes": 273404150,
+        "source_identity": {
+          "etag": null,
+          "last_modified": "Tue, 30 Jan 2018 01:30:25 GMT"
+        },
+        "segments": [
+          {
+            "offset": 0,
+            "bytes": 67108864,
+            "sha256": "9df5401d1dbd9e75cf28a9663c09193353ed5f0dc2360f8a2e01a5b2ecbacf36"
+          },
+          {
+            "offset": 67108864,
+            "bytes": 67108864,
+            "sha256": "0a3921b4d1e2c751e84359b3444d007c7f95385df917418ca1351de798e7aa8d"
+          },
+          {
+            "offset": 134217728,
+            "bytes": 67108864,
+            "sha256": "d8ddc4f8eb80c27f78ec7a6ee8805138ebbf96c9730f802a4d17692ff1e19a63"
+          },
+          {
+            "offset": 201326592,
+            "bytes": 67108864,
+            "sha256": "1a202e5fe37f2c714c8a9db84d595900e4257585c6309c21519ac02c8db58fde"
+          },
+          {
+            "offset": 268435456,
+            "bytes": 4968694,
+            "sha256": "68c6168fbd771e231b57bc5c1551d56bd83d0928998483532ef69629d0c270fa"
+          }
+        ],
+        "completed_bytes": 273404150,
+        "status": "complete",
+        "sha256": "14f54daa1402c0ef21901d5e4f9afdae763669e66b10b0ae5f3549b83acf0f26",
+        "upstream_sha_verified": false,
+        "stem": "scene04_reflectance"
+      },
+      {
+        "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene05_reflectance.exr",
+        "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene05_reflectance\\payload_14428509c22e4446bc117da42e2c949c.bin",
+        "expected_bytes": 278039774,
+        "source_identity": {
+          "etag": null,
+          "last_modified": "Tue, 30 Jan 2018 01:31:35 GMT"
+        },
+        "segments": [
+          {
+            "offset": 0,
+            "bytes": 67108864,
+            "sha256": "92fc49ea333952f7065747832bed5906ab4e0af3035ac3e32a10aa7670962244"
+          },
+          {
+            "offset": 67108864,
+            "bytes": 67108864,
+            "sha256": "4ef4cc903e9fce77fd8663b38e2252942642df83681c2f6462b95305bc0cde11"
+          },
+          {
+            "offset": 134217728,
+            "bytes": 67108864,
+            "sha256": "8d435dd9012de2a3beaf356014bbecf945d82eeb159632b8328e4f7201dab2a1"
+          },
+          {
+            "offset": 201326592,
+            "bytes": 67108864,
+            "sha256": "62fe671cb8d0e18bde4bd27e9d5efc283977a57b9635bb3d79c340b0d11d526d"
+          },
+          {
+            "offset": 268435456,
+            "bytes": 9604318,
+            "sha256": "fd122fe0c7e5da4e0a95686edbb8c47f1ba2e0a04c192d885e92c940b1711751"
+          }
+        ],
+        "completed_bytes": 278039774,
+        "status": "complete",
+        "sha256": "f9747dff4b8c71802f6cdf65398caef8c015cae9c6b55d0e5c5a223c025345b3",
+        "upstream_sha_verified": false,
+        "stem": "scene05_reflectance"
+      },
+      {
+        "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene06_reflectance.exr",
+        "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene06_reflectance\\payload_691b4088a8dc4f67a842016a04ca4151.bin",
+        "expected_bytes": 278656698,
+        "source_identity": {
+          "etag": null,
+          "last_modified": "Tue, 30 Jan 2018 01:04:43 GMT"
+        },
+        "segments": [
+          {
+            "offset": 0,
+            "bytes": 67108864,
+            "sha256": "20fe7e5656da5e1c684e86503eb07b51dd1f7193abc76abc467e724dbd12a7dc"
+          },
+          {
+            "offset": 67108864,
+            "bytes": 67108864,
+            "sha256": "ee9a3361bedeba2297ff7d5df60445f57bbf06427bf9f9f721f13a0480d55f72"
+          },
+          {
+            "offset": 134217728,
+            "bytes": 67108864,
+            "sha256": "a9bac7529a24db236efa42f238ff2999932758680daa506d41b4e8b845320723"
+          },
+          {
+            "offset": 201326592,
+            "bytes": 67108864,
+            "sha256": "dee529b41130034bb0a0385c7d90b277fa5fb2001f671c8e68479fabe9c7be8a"
+          },
+          {
+            "offset": 268435456,
+            "bytes": 10221242,
+            "sha256": "6839b194fea0386ed30cad183d865626170af05b405c33e666a90b74cc40a96e"
+          }
+        ],
+        "completed_bytes": 278656698,
+        "status": "complete",
+        "sha256": "86582d35c30671e1debb2d0e33196c872e3293f36b18610719c252c013c62924",
+        "upstream_sha_verified": false,
+        "stem": "scene06_reflectance"
+      },
+      {
+        "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene07_reflectance.exr",
+        "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene07_reflectance\\payload_acd5e352345e477d9db40f774c25fd04.bin",
+        "expected_bytes": 278145391,
+        "source_identity": {
+          "etag": null,
+          "last_modified": "Tue, 30 Jan 2018 01:27:17 GMT"
+        },
+        "segments": [
+          {
+            "offset": 0,
+            "bytes": 67108864,
+            "sha256": "23bcd7486e8d85d1b2e9cb10be04a82c42c2d826e50766db5d84f8af32e95971"
+          },
+          {
+            "offset": 67108864,
+            "bytes": 67108864,
+            "sha256": "35817ab9006b9fccb59ee96581bc19535eb66640301b7501f6fe08e3b899b6b1"
+          },
+          {
+            "offset": 134217728,
+            "bytes": 67108864,
+            "sha256": "c96bb3917b7188c3f2c752c3b18eecdd0a7d07dcb9ebd75a7ca0a61a43d16a50"
+          },
+          {
+            "offset": 201326592,
+            "bytes": 67108864,
+            "sha256": "9d8b160269ca25afcf9db87081ac00af487ccd84cdfb6b7b5078996e92c0b864"
+          },
+          {
+            "offset": 268435456,
+            "bytes": 9709935,
+            "sha256": "931515ec56b695209a44ed84ebc450fe6dce7690bc3a238dc6068e4b069c6d41"
+          }
+        ],
+        "completed_bytes": 278145391,
+        "status": "complete",
+        "sha256": "1993a46132844c12f69836cae2f0cbd082002e5c989531f037271e8595ea49e8",
+        "upstream_sha_verified": false,
+        "stem": "scene07_reflectance"
+      },
+      {
+        "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene09_reflectance.exr",
+        "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene09_reflectance\\payload_18a571ab9122469ca6174555149bb402.bin",
+        "expected_bytes": 280508381,
+        "source_identity": {
+          "etag": null,
+          "last_modified": "Tue, 30 Jan 2018 01:17:35 GMT"
+        },
+        "segments": [
+          {
+            "offset": 0,
+            "bytes": 67108864,
+            "sha256": "21bd20f794b5d63cf19c85122d204c118a968bf7e3d3fb9df8b4fefdf9694391"
+          },
+          {
+            "offset": 67108864,
+            "bytes": 67108864,
+            "sha256": "5484fbf889452e1dd12018c09b301ee0a55847daaba9b2b2d608f9e8518566d7"
+          },
+          {
+            "offset": 134217728,
+            "bytes": 67108864,
+            "sha256": "4a284d73209300b7ea28362e6ab87101fadf1f1042d36be61f1d3f566abbd726"
+          },
+          {
+            "offset": 201326592,
+            "bytes": 67108864,
+            "sha256": "a88928e125e2cda16071baf28f7307a91e98b7a8141a8f4590c983e222a94439"
+          },
+          {
+            "offset": 268435456,
+            "bytes": 12072925,
+            "sha256": "443e8d7b67adeff50e3f723909e75acc5daee8d6f3dabfecf7d2f28a34c389ef"
+          }
+        ],
+        "completed_bytes": 280508381,
+        "status": "complete",
+        "sha256": "5e1de04bf7d3087763180d646ad9b099fb674e165f9d31f798b36ee7d8a5ce91",
+        "upstream_sha_verified": false,
+        "stem": "scene09_reflectance"
+      },
+      {
+        "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene08_reflectance.exr",
+        "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene08_reflectance\\payload_2f567d3e139b47548539fae1c1924a40.bin",
+        "expected_bytes": 271282046,
+        "source_identity": {
+          "etag": null,
+          "last_modified": "Tue, 30 Jan 2018 01:01:09 GMT"
+        },
+        "segments": [
+          {
+            "offset": 0,
+            "bytes": 67108864,
+            "sha256": "bda157f3b3a1d19bfcc61e8af1b01b7a86d7cfc3c07fd89e9b2eb744270610eb"
+          },
+          {
+            "offset": 67108864,
+            "bytes": 67108864,
+            "sha256": "e279322ebd8ccb9ccf856e506553b87dde316a7029cdbd0efb0cf897d626ec3c"
+          },
+          {
+            "offset": 134217728,
+            "bytes": 67108864,
+            "sha256": "28a2837f9bb09e506a178f9dd46f692f08a8c77905d3728b2b9e317732932345"
+          },
+          {
+            "offset": 201326592,
+            "bytes": 67108864,
+            "sha256": "e444dd672338616cc57754aaa92136c098af5b6089bb2b695b0a866f4904b214"
+          },
+          {
+            "offset": 268435456,
+            "bytes": 2846590,
+            "sha256": "66bb4d3492fd98ff4fa0920927320b2e0aff50f8eb4d840fa6af1bd3d5423c02"
+          }
+        ],
+        "completed_bytes": 271282046,
+        "status": "complete",
+        "sha256": "973b5deb7038b3f0581db7e39d6b445e8b6400702a10d49ba103599fb37f91da",
+        "upstream_sha_verified": false,
+        "stem": "scene08_reflectance"
+      },
+      {
+        "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene10_reflectance.exr",
+        "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene10_reflectance\\payload_e1b147952b54436abc5913921253c143.bin",
+        "expected_bytes": 275672864,
+        "source_identity": {
+          "etag": null,
+          "last_modified": "Tue, 30 Jan 2018 01:32:32 GMT"
+        },
+        "segments": [
+          {
+            "offset": 0,
+            "bytes": 67108864,
+            "sha256": "e4f251a3f1957c1ebcc1be392f334a803bc82d2219ea59af464171d7381751d9"
+          },
+          {
+            "offset": 67108864,
+            "bytes": 67108864,
+            "sha256": "e4e174ffafda54171663f9514db68497af8b19cdc52d97cb79843d41e572a5e5"
+          },
+          {
+            "offset": 134217728,
+            "bytes": 67108864,
+            "sha256": "df74618d75c9b47b4f7d1deeb640fbf411b11122e6c1fb98eaf8c047fecd27c7"
+          },
+          {
+            "offset": 201326592,
+            "bytes": 67108864,
+            "sha256": "003de41d5eb9d00f9bbb060da9b8988155bed5ad9509865a9d4c0dcd9d6d610c"
+          },
+          {
+            "offset": 268435456,
+            "bytes": 7237408,
+            "sha256": "809ac08fc93a654b21bddcdb3351129594e85d817e112baf3a76b3f1158e8e2c"
+          }
+        ],
+        "completed_bytes": 275672864,
+        "status": "complete",
+        "sha256": "7fb1c21869da67aa21e2a6dfd81bee5b8ae17c859123943ad8e25a70160cac59",
+        "upstream_sha_verified": false,
+        "stem": "scene10_reflectance"
+      },
+      {
+        "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene12_reflectance.exr",
+        "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene12_reflectance\\payload_193c1966bbba471fbc472b07785b8463.bin",
+        "expected_bytes": 274047343,
+        "source_identity": {
+          "etag": null,
+          "last_modified": "Tue, 30 Jan 2018 01:14:16 GMT"
+        },
+        "segments": [
+          {
+            "offset": 0,
+            "bytes": 67108864,
+            "sha256": "1fc378d68713cf4dbc1661e90650185d1e58e5374fba4c104c15aff5f39e8ad0"
+          },
+          {
+            "offset": 67108864,
+            "bytes": 67108864,
+            "sha256": "025a90450034d85b05fe9b00a4b36abe6ede0955de7355d8eac463c6d746e7b4"
+          },
+          {
+            "offset": 134217728,
+            "bytes": 67108864,
+            "sha256": "8f8660eca63b3f54782dbb64ee8515828695ba476a99c660868896b7df405f77"
+          },
+          {
+            "offset": 201326592,
+            "bytes": 67108864,
+            "sha256": "8f306317f72521837dd57b86b89f4b7789c53ee263aff5eb24d77b86f124ed88"
+          },
+          {
+            "offset": 268435456,
+            "bytes": 5611887,
+            "sha256": "5a319db8acb9f001c1cd3d8dd3182e1cf1820535b688d2ea5a92d26dddd34e61"
+          }
+        ],
+        "completed_bytes": 274047343,
+        "status": "complete",
+        "sha256": "1438edaa5767c9022b6f826874c70235463ed6ec165b8132f006d67da3e5f392",
+        "upstream_sha_verified": false,
+        "stem": "scene12_reflectance"
+      },
+      {
+        "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene11_reflectance.exr",
+        "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene11_reflectance\\payload_269e5128d5334520a860cc6a966be254.bin",
+        "expected_bytes": 277563772,
+        "source_identity": {
+          "etag": null,
+          "last_modified": "Tue, 30 Jan 2018 01:23:50 GMT"
+        },
+        "segments": [
+          {
+            "offset": 0,
+            "bytes": 67108864,
+            "sha256": "cd492c5e5ba01614a1c126f73cb8dd56ad7304d9aa5d0e615078860cb4346997"
+          },
+          {
+            "offset": 67108864,
+            "bytes": 67108864,
+            "sha256": "295b8209b8bf981a0dd34cd8eb96f549a140ce05a765f4f64dfd9a1488bf7437"
+          },
+          {
+            "offset": 134217728,
+            "bytes": 67108864,
+            "sha256": "2587a73cf6e857a595a74dde37729774137e7c84a9e0d2693a8ebcea1539f7c0"
+          },
+          {
+            "offset": 201326592,
+            "bytes": 67108864,
+            "sha256": "44ca07f4cf8e0a2189f96bc2ee14da62ba17b6275435b7f09f417bb9e17f1dcd"
+          },
+          {
+            "offset": 268435456,
+            "bytes": 9128316,
+            "sha256": "5caeeaa3a542ddb86be67d0e86019865220a0e75444ff00bd6782077c067cc3d"
+          }
+        ],
+        "completed_bytes": 277563772,
+        "status": "complete",
+        "sha256": "bbe89e7ec1981f25b1f071f7ef1ae4998f35744cf98548e160c22af7921e9836",
+        "upstream_sha_verified": false,
+        "stem": "scene11_reflectance"
+      },
+      {
+        "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene14_reflectance.exr",
+        "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene14_reflectance\\payload_ee1c002dac6b42afad5c316bf55a1c80.bin",
+        "expected_bytes": 296424350,
+        "source_identity": {
+          "etag": null,
+          "last_modified": "Tue, 30 Jan 2018 01:29:34 GMT"
+        },
+        "segments": [
+          {
+            "offset": 0,
+            "bytes": 67108864,
+            "sha256": "1f8893c87a64565b22cfd36de64e8cb875a62c0f1dbe05f03a5c39998a0eabc0"
+          },
+          {
+            "offset": 67108864,
+            "bytes": 67108864,
+            "sha256": "394b1c8c12540777398911b7cc1bcf1375f498f98fe11b2bb7dbed22bed3a7d0"
+          },
+          {
+            "offset": 134217728,
+            "bytes": 67108864,
+            "sha256": "800ae64e88947ec90400efd7a101dad70a4370a94b83f914c97e4ddc190dd55d"
+          },
+          {
+            "offset": 201326592,
+            "bytes": 67108864,
+            "sha256": "b154186af067bea41add2253101b0193907fe2331a334b4524bd6d2b2b475a16"
+          },
+          {
+            "offset": 268435456,
+            "bytes": 27988894,
+            "sha256": "93f8899d80d0e55f9018afb8ba9005a1ddc898fcd5417b7a09f50a41a5ed46af"
+          }
+        ],
+        "completed_bytes": 296424350,
+        "status": "complete",
+        "sha256": "fea732f573f9e0721408f001172924513322212dbaa897cd709bf57f1789c94a",
+        "upstream_sha_verified": false,
+        "stem": "scene14_reflectance"
+      },
+      {
+        "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene13_reflectance.exr",
+        "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene13_reflectance\\payload_87740e6c637547c6a752c84c7f582e1c.bin",
+        "expected_bytes": 270799429,
+        "source_identity": {
+          "etag": null,
+          "last_modified": "Tue, 30 Jan 2018 01:22:41 GMT"
+        },
+        "segments": [
+          {
+            "offset": 0,
+            "bytes": 67108864,
+            "sha256": "cc78d3081398fa415ce0bf2d0983e8e71fd6000ecd44686c0231a8e20d903057"
+          },
+          {
+            "offset": 67108864,
+            "bytes": 67108864,
+            "sha256": "391634f84cc8a378c53dac457a7edbae2728c175cdc38b3ab91d5e3edf96fce7"
+          },
+          {
+            "offset": 134217728,
+            "bytes": 67108864,
+            "sha256": "24e2a2a9254f812d2775df073416031bd17f0e8b597d03f89cd7ae815a700645"
+          },
+          {
+            "offset": 201326592,
+            "bytes": 67108864,
+            "sha256": "624aaa4e3171b6461aed2e29813ba222b6a25bc8b994c65bb3fefd3e5a50d380"
+          },
+          {
+            "offset": 268435456,
+            "bytes": 2363973,
+            "sha256": "5adcf9010ddb17bf56cbf8c5049835f4277aaef33cb8dc62f4053c1d01ad612c"
+          }
+        ],
+        "completed_bytes": 270799429,
+        "status": "complete",
+        "sha256": "799c23c41b61b4130e57b3323f85ded327888843a243c2c0985c08f5a68aa7cc",
+        "upstream_sha_verified": false,
+        "stem": "scene13_reflectance"
+      },
+      {
+        "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene16_reflectance.exr",
+        "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene16_reflectance\\payload_5a439697706c49c193732e282c7eb983.bin",
+        "expected_bytes": 276711912,
+        "source_identity": {
+          "etag": null,
+          "last_modified": "Tue, 30 Jan 2018 01:20:08 GMT"
+        },
+        "segments": [
+          {
+            "offset": 0,
+            "bytes": 67108864,
+            "sha256": "4b4640a703af4c03fd3a8cb4ed86ceecc119f25538f140d6d213ff6ac872c59a"
+          },
+          {
+            "offset": 67108864,
+            "bytes": 67108864,
+            "sha256": "7912caaab058c7710cab4cb1cae960128faacf65265393496baefcac1655721d"
+          },
+          {
+            "offset": 134217728,
+            "bytes": 67108864,
+            "sha256": "dd69f53dae2d09b174e161522643327650f21f1d283991b88741299ee4facf6b"
+          },
+          {
+            "offset": 201326592,
+            "bytes": 67108864,
+            "sha256": "ba76c8ddfc93ce418c57aca41b0a60fd02cde9952d6388c98c56e538fd279e51"
+          },
+          {
+            "offset": 268435456,
+            "bytes": 8276456,
+            "sha256": "24a0dbd7516144a0126296e8d6a44c41f74921a7fefac32ff435de37ecc8a228"
+          }
+        ],
+        "completed_bytes": 276711912,
+        "status": "complete",
+        "sha256": "e4bf8ca8341708701e44246be04d779fa01963b853438e4eaba5f137b5b02812",
+        "upstream_sha_verified": false,
+        "stem": "scene16_reflectance"
+      },
+      {
+        "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene15_reflectance.exr",
+        "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene15_reflectance\\payload_a6fbaf1f9c804d61a8c480e124432f0c.bin",
+        "expected_bytes": 273607770,
+        "source_identity": {
+          "etag": null,
+          "last_modified": "Tue, 30 Jan 2018 01:15:13 GMT"
+        },
+        "segments": [
+          {
+            "offset": 0,
+            "bytes": 67108864,
+            "sha256": "c2eedeec66cd4e87d3fe4769ba007133c5d558021996afe93e125bd563ad06c1"
+          },
+          {
+            "offset": 67108864,
+            "bytes": 67108864,
+            "sha256": "351c619fa10934681a24da6472c079bf585f5f33ab2c6302ce10ff31ca12902b"
+          },
+          {
+            "offset": 134217728,
+            "bytes": 67108864,
+            "sha256": "ae580132e0227e330573e12a9b819f69b25311b803e34daa09c665426a3b4511"
+          },
+          {
+            "offset": 201326592,
+            "bytes": 67108864,
+            "sha256": "5d0a153b96a1d1eff220a51d29ae50db940fb51e0d426cf8112b30ba6b54d10e"
+          },
+          {
+            "offset": 268435456,
+            "bytes": 5172314,
+            "sha256": "6dd6a7f52c346e8ca78bff8816dd1d01d09733b8cb346431cbd0a99b6b7331fe"
+          }
+        ],
+        "completed_bytes": 273607770,
+        "status": "complete",
+        "sha256": "5d73774b90e7164fc903728e7426c6149ce7f67aeead5cdc0a82bbc6498cf641",
+        "upstream_sha_verified": false,
+        "stem": "scene15_reflectance"
+      },
+      {
+        "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene18_reflectance.exr",
+        "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene18_reflectance\\payload_afcaa6505d474827b532d101d04f27f1.bin",
+        "expected_bytes": 280946221,
+        "source_identity": {
+          "etag": null,
+          "last_modified": "Tue, 30 Jan 2018 01:16:29 GMT"
+        },
+        "segments": [
+          {
+            "offset": 0,
+            "bytes": 67108864,
+            "sha256": "240e65239abe19e6557d8af6607217e5e1060d7b854875e0842b86469bdea9a2"
+          },
+          {
+            "offset": 67108864,
+            "bytes": 67108864,
+            "sha256": "188d8110f62d7c3ee608b874ee576fe574677132049015350aead30def84865c"
+          },
+          {
+            "offset": 134217728,
+            "bytes": 67108864,
+            "sha256": "b7792211375ec93751454d716e59adc944bc7fc0352498c64c04c2dc68abd56b"
+          },
+          {
+            "offset": 201326592,
+            "bytes": 67108864,
+            "sha256": "cdd2b69d2547b45f6c0b0100263c777ebc822a6da171a166baa542e40717ab26"
+          },
+          {
+            "offset": 268435456,
+            "bytes": 12510765,
+            "sha256": "ceb03f479064a0b3d07baeb7c49da6bd9dddc6a0e9029f1bc6beeb0802fbb588"
+          }
+        ],
+        "completed_bytes": 280946221,
+        "status": "complete",
+        "sha256": "2e2f96c3a7a12488a6615f38817774e7ad09985daf5fb53f6fff635b6a7fd616",
+        "upstream_sha_verified": false,
+        "stem": "scene18_reflectance"
+      },
+      {
+        "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene17_reflectance.exr",
+        "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene17_reflectance\\payload_0714929710fd47cb9f5c309775fb572e.bin",
+        "expected_bytes": 297132965,
+        "source_identity": {
+          "etag": null,
+          "last_modified": "Tue, 30 Jan 2018 01:13:15 GMT"
+        },
+        "segments": [
+          {
+            "offset": 0,
+            "bytes": 67108864,
+            "sha256": "f04ff3e5afaa35b73d6940295437c74f87dec8147e30039cd7bf3a0b158e44ed"
+          },
+          {
+            "offset": 67108864,
+            "bytes": 67108864,
+            "sha256": "a15537edf3f26479cbeb462efdb297127299c97debf29eff0c2a3ef691ea39f3"
+          },
+          {
+            "offset": 134217728,
+            "bytes": 67108864,
+            "sha256": "1fed459600e33aba1301162ee17b4f18522aea5c821a1b8e7e1b5351a1f526ee"
+          },
+          {
+            "offset": 201326592,
+            "bytes": 67108864,
+            "sha256": "61ac33d0d5f2c322d06deb0b97332323b852e180334942bfdfde86176189e945"
+          },
+          {
+            "offset": 268435456,
+            "bytes": 28697509,
+            "sha256": "6553cb9a08d4507b50b97cea27d246c084982d90bfcaea8f754338b50e7df8d4"
+          }
+        ],
+        "completed_bytes": 297132965,
+        "status": "complete",
+        "sha256": "3f676b26403803f055cba30921ba3895271e9acff28cad9db84586e5f0913c69",
+        "upstream_sha_verified": false,
+        "stem": "scene17_reflectance"
+      },
+      {
+        "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene20_reflectance.exr",
+        "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene20_reflectance\\payload_e12cb5337a234b7f9489a10786b57d36.bin",
+        "expected_bytes": 294238177,
+        "source_identity": {
+          "etag": null,
+          "last_modified": "Tue, 30 Jan 2018 01:07:16 GMT"
+        },
+        "segments": [
+          {
+            "offset": 0,
+            "bytes": 67108864,
+            "sha256": "f52a3c73d0881127d5558f7454e68a5cbb6b1398101aa4a804abe7ca596042e7"
+          },
+          {
+            "offset": 67108864,
+            "bytes": 67108864,
+            "sha256": "d8fd46eb07873ffbe76d187f82eab64d846e588f8249a381358e02e28afefc3c"
+          },
+          {
+            "offset": 134217728,
+            "bytes": 67108864,
+            "sha256": "cae32ffa5b2fe20fc36dcff8857d40af280248fa6e18fbf21f256e507596a59c"
+          },
+          {
+            "offset": 201326592,
+            "bytes": 67108864,
+            "sha256": "f9b00bfc27da6ef0ec53927d297d4f8ec25a5847cb6a37924728d60071d75da4"
+          },
+          {
+            "offset": 268435456,
+            "bytes": 25802721,
+            "sha256": "6d6d7d88808be61a0c90f619b5507de7ac2138cc3a1c4f59727b160ca1001f50"
+          }
+        ],
+        "completed_bytes": 294238177,
+        "status": "complete",
+        "sha256": "426d47ac4208e23a2ef7314b4831c0a0b7001064a741c52f598eddaf35e3cbff",
+        "upstream_sha_verified": false,
+        "stem": "scene20_reflectance"
+      },
+      {
+        "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene19_reflectance.exr",
+        "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene19_reflectance\\payload_601110197a984d2090424387dd23c58e.bin",
+        "expected_bytes": 291792677,
+        "source_identity": {
+          "etag": null,
+          "last_modified": "Tue, 30 Jan 2018 01:28:21 GMT"
+        },
+        "segments": [
+          {
+            "offset": 0,
+            "bytes": 67108864,
+            "sha256": "981f8c7921827b819eed52553f91237df4c77798fee5f0babaf403d2bda529a4"
+          },
+          {
+            "offset": 67108864,
+            "bytes": 67108864,
+            "sha256": "c099a60bfe1d598653f663152bf112f2a18896357dab14671e23c55cbdba5a3e"
+          },
+          {
+            "offset": 134217728,
+            "bytes": 67108864,
+            "sha256": "5a7f9acde711011131ab565ca72ac98ed71dea19995fc898d5b78520c03888da"
+          },
+          {
+            "offset": 201326592,
+            "bytes": 67108864,
+            "sha256": "d11e38f090a467b4eba949cf08eeb999ea887140049e367fa44e66df2b660fd1"
+          },
+          {
+            "offset": 268435456,
+            "bytes": 23357221,
+            "sha256": "6bfb4581a3bae0339920ca9eafe8a5a80393f4a1f295c3ad2d51218200bda5db"
+          }
+        ],
+        "completed_bytes": 291792677,
+        "status": "complete",
+        "sha256": "6bdd483993217b4ffa7faf7edf34953673249314fa961660d0689c3171fb9043",
+        "upstream_sha_verified": false,
+        "stem": "scene19_reflectance"
+      },
+      {
+        "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene21_reflectance.exr",
+        "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene21_reflectance\\payload_a0b7821fa197426e90fd2e19335296da.bin",
+        "expected_bytes": 297814500,
+        "source_identity": {
+          "etag": null,
+          "last_modified": "Tue, 30 Jan 2018 01:03:33 GMT"
+        },
+        "segments": [
+          {
+            "offset": 0,
+            "bytes": 67108864,
+            "sha256": "15a00304ea2c5339f233c231b3803819d9f97fb9e0e33a60d6218cd07af9d79b"
+          },
+          {
+            "offset": 67108864,
+            "bytes": 67108864,
+            "sha256": "ae119e657442ccfc713dad2b0c36826e7fe2ecfb3306d1415e4c9db1a4d2f97e"
+          },
+          {
+            "offset": 134217728,
+            "bytes": 67108864,
+            "sha256": "11a55bbcd1a31de5b28b705c9cbb0bfbb3f63d506b26c72b969df30617282dbc"
+          },
+          {
+            "offset": 201326592,
+            "bytes": 67108864,
+            "sha256": "6ae980779e4220ebab305e20bade8ba5a1f7288768cc2049b48befb2e0ecf34e"
+          },
+          {
+            "offset": 268435456,
+            "bytes": 29379044,
+            "sha256": "25db14f6db7369bc81a8cb1b925898675535a94233e1a434a95d1dc7880dba98"
+          }
+        ],
+        "completed_bytes": 297814500,
+        "status": "complete",
+        "sha256": "d4b3422154f70424c9f1e97c03631c9f400eaddb676ad6e32c204d03d80afbdd",
+        "upstream_sha_verified": false,
+        "stem": "scene21_reflectance"
+      },
+      {
+        "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene24_reflectance.exr",
+        "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene24_reflectance\\payload_a84724f80cc54a378d68ea7146271b61.bin",
+        "expected_bytes": 301290505,
+        "source_identity": {
+          "etag": null,
+          "last_modified": "Tue, 30 Jan 2018 01:06:02 GMT"
+        },
+        "segments": [
+          {
+            "offset": 0,
+            "bytes": 67108864,
+            "sha256": "d04acdc43f24001ccc29191106ba22c58ba5a1e4a0cf9e6fa5f17249d3b2c1bb"
+          },
+          {
+            "offset": 67108864,
+            "bytes": 67108864,
+            "sha256": "306d305f3f1508d68e1ab80698f6f2957895d4fce5471ee845c729f8369b6b29"
+          },
+          {
+            "offset": 134217728,
+            "bytes": 67108864,
+            "sha256": "987ddc44e28b24c0568a8aef60adfa9a98f753028405e3d8f87560f4866b2b7e"
+          },
+          {
+            "offset": 201326592,
+            "bytes": 67108864,
+            "sha256": "53aa14d0db990fcc7270ced9a9231c560a506173a91db8563c7e6b1446539523"
+          },
+          {
+            "offset": 268435456,
+            "bytes": 32855049,
+            "sha256": "e5b087bf4af13848cc696119f1bdcd83cef74613bd45d9094e09a3a0bbf7e34d"
+          }
+        ],
+        "completed_bytes": 301290505,
+        "status": "complete",
+        "sha256": "a34cb22e5b8b792e23d54ced711e61f018048ac2a425c7adc9e8cda360fb6d53",
+        "upstream_sha_verified": false,
+        "stem": "scene24_reflectance"
+      },
+      {
+        "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene23_reflectance.exr",
+        "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene23_reflectance\\payload_0f8323e199604d5bb5e64ab9e026a74e.bin",
+        "expected_bytes": 302335690,
+        "source_identity": {
+          "etag": null,
+          "last_modified": "Tue, 30 Jan 2018 01:26:08 GMT"
+        },
+        "segments": [
+          {
+            "offset": 0,
+            "bytes": 67108864,
+            "sha256": "2b076a2b76118a1e3e82f02b74b8969e4b163045ed0850c2d960648dd6774879"
+          },
+          {
+            "offset": 67108864,
+            "bytes": 67108864,
+            "sha256": "ce72144b2a795fcce3660d394290d7dedd32fedb4cd984a2eb8003f6780f90f1"
+          },
+          {
+            "offset": 134217728,
+            "bytes": 67108864,
+            "sha256": "c945fd52ccf11567bb7872e484ad88dee25b38a835377a398296142cf00d20de"
+          },
+          {
+            "offset": 201326592,
+            "bytes": 67108864,
+            "sha256": "267b6bd33d465a70ce56d7a5a4d90f2fe6cbdc73588c7cd3a0ba75ee406d3d66"
+          },
+          {
+            "offset": 268435456,
+            "bytes": 33900234,
+            "sha256": "e56fc77b871ec2017dacadf7411a5857ac9d2dbab2393a7bbff2a6556e00bd62"
+          }
+        ],
+        "completed_bytes": 302335690,
+        "status": "complete",
+        "sha256": "c940f9ac024dd0d25a93341b544399f29085544c29358b629916a41601cb82e0",
+        "upstream_sha_verified": false,
+        "stem": "scene23_reflectance"
+      },
+      {
+        "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene22_reflectance.exr",
+        "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene22_reflectance\\payload_34d642fdd6c04eb0b30bbadfa395d4fa.bin",
+        "expected_bytes": 306775783,
+        "source_identity": {
+          "etag": null,
+          "last_modified": "Tue, 30 Jan 2018 01:02:15 GMT"
+        },
+        "segments": [
+          {
+            "offset": 0,
+            "bytes": 67108864,
+            "sha256": "aae948c2e60127645955aafbf1149279239172876e9559a147555ae0587442b9"
+          },
+          {
+            "offset": 67108864,
+            "bytes": 67108864,
+            "sha256": "9af530a50ff736d0bb2feb97e575e4c46b8d4677c634448967c2ba0784736154"
+          },
+          {
+            "offset": 134217728,
+            "bytes": 67108864,
+            "sha256": "f790a3959310a29869e1cc77f991af75d91a1c5257d51dea5459d3f47853ba24"
+          },
+          {
+            "offset": 201326592,
+            "bytes": 67108864,
+            "sha256": "4317699e933de0d420c7a4e9e14e13cd8bae8fd976870990a315269caec7c4d3"
+          },
+          {
+            "offset": 268435456,
+            "bytes": 38340327,
+            "sha256": "50bf71153f5293bb201625ad8be1b68f6593416abe0465faa2f26e6340258e1b"
+          }
+        ],
+        "completed_bytes": 306775783,
+        "status": "complete",
+        "sha256": "26bd0be5c8dcd8ad7825823f64a0f5615f471aa71eec204ff969412dd68ec2bb",
+        "upstream_sha_verified": false,
+        "stem": "scene22_reflectance"
+      },
+      {
+        "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene25_reflectance.exr",
+        "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene25_reflectance\\payload_8d5f832273b24dbb88338004a3bb628c.bin",
+        "expected_bytes": 294076888,
+        "source_identity": {
+          "etag": null,
+          "last_modified": "Tue, 30 Jan 2018 01:11:11 GMT"
+        },
+        "segments": [
+          {
+            "offset": 0,
+            "bytes": 67108864,
+            "sha256": "777467625c2b17217f816f606e66f965aa007b47ed95ea5928c084cd4aee6ed3"
+          },
+          {
+            "offset": 67108864,
+            "bytes": 67108864,
+            "sha256": "d3404b834d1de70ff1a4e57b10c71c2ea166b17073b317100dbb762d5fe11435"
+          },
+          {
+            "offset": 134217728,
+            "bytes": 67108864,
+            "sha256": "345d5af9a64812abcfa12e3a1817075b6454cb4a82805a700f006342fea4ac42"
+          },
+          {
+            "offset": 201326592,
+            "bytes": 67108864,
+            "sha256": "3fe05f42bbbb036594ca88a58481559069665e8f1dd3eec31a08ad0677696850"
+          },
+          {
+            "offset": 268435456,
+            "bytes": 25641432,
+            "sha256": "acc80948cbe3ae19013e07f20766079ddb4ab0be5aa89dffe65cbcccf03fb922"
+          }
+        ],
+        "completed_bytes": 294076888,
+        "status": "complete",
+        "sha256": "0f1bfc01234a61c9977aae3cbc47f7b5681070d4f0509f6b38425199fe6b5c8b",
+        "upstream_sha_verified": false,
+        "stem": "scene25_reflectance"
+      },
+      {
+        "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene26_reflectance.exr",
+        "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene26_reflectance\\payload_e6b8c9e181c74cd186c955312cb9d0bb.bin",
+        "expected_bytes": 306783730,
+        "source_identity": {
+          "etag": null,
+          "last_modified": "Tue, 30 Jan 2018 01:08:23 GMT"
+        },
+        "segments": [
+          {
+            "offset": 0,
+            "bytes": 67108864,
+            "sha256": "bb1a38e05dfa33be460527cbcd0f8295ae1ec43665c278e0e9489e8b177380ca"
+          },
+          {
+            "offset": 67108864,
+            "bytes": 67108864,
+            "sha256": "f6d51f7f15253397c03ff702c96990b63072efc3c73e7304bdda461e7ccefca8"
+          },
+          {
+            "offset": 134217728,
+            "bytes": 67108864,
+            "sha256": "cbb25792311e01ecd3e3dd143345a791e0e83f833e004708dfc340917aa46ac0"
+          },
+          {
+            "offset": 201326592,
+            "bytes": 67108864,
+            "sha256": "c739db892b60d58830ad27483a82c6e03b7bb02ad5898915cb7a7b667cd87b63"
+          },
+          {
+            "offset": 268435456,
+            "bytes": 38348274,
+            "sha256": "a19aa99905a335fc0f96d58fa61621614afd34b849a46f09b2f889de02e1d3bd"
+          }
+        ],
+        "completed_bytes": 306783730,
+        "status": "complete",
+        "sha256": "11eecf347aedb6a51ca6c0424359a755821643575dd140813d282f7bebcc5c2a",
+        "upstream_sha_verified": false,
+        "stem": "scene26_reflectance"
+      },
+      {
+        "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene27_reflectance.exr",
+        "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene27_reflectance\\payload_96549eed3bbc40f5b25577254caba931.bin",
+        "expected_bytes": 288175026,
+        "source_identity": {
+          "etag": null,
+          "last_modified": "Tue, 30 Jan 2018 01:18:56 GMT"
+        },
+        "segments": [
+          {
+            "offset": 0,
+            "bytes": 67108864,
+            "sha256": "dd4e58b9b919ecfb95e5c40babd39606b1cf0a3c3914c3b8b42db6f50ad974a0"
+          },
+          {
+            "offset": 67108864,
+            "bytes": 67108864,
+            "sha256": "c5b30fac04f55c59e4dc1e0d0bbd46f23e2bf6d7d24f90d9a76e41f658c0991c"
+          },
+          {
+            "offset": 134217728,
+            "bytes": 67108864,
+            "sha256": "244553b1b91b07d876b60495abe0d405c6d6e362f61fb11870d63c3f173d5947"
+          },
+          {
+            "offset": 201326592,
+            "bytes": 67108864,
+            "sha256": "074b53acfed21f503d398ad8e2fbafab1bf92775d4c366ae12bfe039a67ef4d0"
+          },
+          {
+            "offset": 268435456,
+            "bytes": 19739570,
+            "sha256": "04b430d175ed1fb63f7e959a064c3f4c657e7a5ad90feab872e8a98f9c885714"
+          }
+        ],
+        "completed_bytes": 288175026,
+        "status": "complete",
+        "sha256": "13a5e6d0678a7518be3a5ff649122284350a84437139d4d8bf8a24da29728915",
+        "upstream_sha_verified": false,
+        "stem": "scene27_reflectance"
+      },
+      {
+        "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene28_reflectance.exr",
+        "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene28_reflectance\\payload_2b7fc5453071440e966d9d1c880f6bb1.bin",
+        "expected_bytes": 316364550,
+        "source_identity": {
+          "etag": null,
+          "last_modified": "Tue, 30 Jan 2018 01:33:53 GMT"
+        },
+        "segments": [
+          {
+            "offset": 0,
+            "bytes": 67108864,
+            "sha256": "806b3a21b1be69040ef14b86b9bce25ae4dfaa859884f52701d8a89d83089645"
+          },
+          {
+            "offset": 67108864,
+            "bytes": 67108864,
+            "sha256": "31808747ae13e5f4c8555ee99c6c8e36e67090f7b27829640fdb6424a0c3783e"
+          },
+          {
+            "offset": 134217728,
+            "bytes": 67108864,
+            "sha256": "7c7168f98825b0ee819155bbc7e5433158c35159f467d35bdef3ac86e7272958"
+          },
+          {
+            "offset": 201326592,
+            "bytes": 67108864,
+            "sha256": "e8d65f84de8e2c2e5cfc8199aa4e3f2f767768103901ae08faa14457519e9f3a"
+          },
+          {
+            "offset": 268435456,
+            "bytes": 47929094,
+            "sha256": "ddc1148d064bb4875e4fe5a96ad954dbc2247c233454de07d13750da1cc0493c"
+          }
+        ],
+        "completed_bytes": 316364550,
+        "status": "complete",
+        "sha256": "840cba5bf625f82d914246291f1cf9809fdb9b72a4914951bf4e0fd10fda6873",
+        "upstream_sha_verified": false,
+        "stem": "scene28_reflectance"
+      },
+      {
+        "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene29_reflectance.exr",
+        "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene29_reflectance\\payload_b96781ccdaed433d9701d5f57595acff.bin",
+        "expected_bytes": 283984680,
+        "source_identity": {
+          "etag": null,
+          "last_modified": "Tue, 30 Jan 2018 01:24:56 GMT"
+        },
+        "segments": [
+          {
+            "offset": 0,
+            "bytes": 67108864,
+            "sha256": "1ac97a11b3c4a844950e3e4163b70f7fc89edde744797cafe98f2f15fb8a3e7e"
+          },
+          {
+            "offset": 67108864,
+            "bytes": 67108864,
+            "sha256": "5c208277d0506c79dc9d05984d29e14ff1bf5fd006c31a8b9aecab265ec8af42"
+          },
+          {
+            "offset": 134217728,
+            "bytes": 67108864,
+            "sha256": "03787374019b76548d33ed64aaa4ba747215b31a231ef9bb0df2ca0a4c7ee883"
+          },
+          {
+            "offset": 201326592,
+            "bytes": 67108864,
+            "sha256": "63baf479d293f3f21e4bf291b8f6e7d29cf386c4cf0c84b033dda056c2818de8"
+          },
+          {
+            "offset": 268435456,
+            "bytes": 15549224,
+            "sha256": "95c19d82d696eaa39d54f2c73b64dfad337d0cf46b57ea4a880523c7c516bc69"
+          }
+        ],
+        "completed_bytes": 283984680,
+        "status": "complete",
+        "sha256": "a0e055fed5c2b5c3d44aca8b42c58ac63d0adc0bc6a40fa96a9653dfeb398370",
+        "upstream_sha_verified": false,
+        "stem": "scene29_reflectance"
+      },
+      {
+        "url": "https://www.vclab.kaist.ac.kr/siggraphasia2017p1/kaistdataset/exr/scene30_reflectance.exr",
+        "file": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\m3_20261007_v1\\downloads\\kaist\\scene30_reflectance\\payload_19cfd65592dd4632aadd35b7476ee6d9.bin",
+        "expected_bytes": 284326053,
+        "source_identity": {
+          "etag": null,
+          "last_modified": "Tue, 30 Jan 2018 01:34:56 GMT"
+        },
+        "segments": [
+          {
+            "offset": 0,
+            "bytes": 67108864,
+            "sha256": "4eef9f3f6165dfd2f826dc081e4cb8e1cecd0af2c901bbeb4a556c618339a1e9"
+          },
+          {
+            "offset": 67108864,
+            "bytes": 67108864,
+            "sha256": "bb4f740206bfffe9a602a3a2c862704a435018b69937374eb08bb1b508558530"
+          },
+          {
+            "offset": 134217728,
+            "bytes": 67108864,
+            "sha256": "fc3f5422fcbf32efcf9e4fd416d247ffaed9c9b326ab0af493e1b02136c8144b"
+          },
+          {
+            "offset": 201326592,
+            "bytes": 67108864,
+            "sha256": "bedb859b9587cf76ea50ae0d1755b719d62ac110e32f975e309d562a506136b0"
+          },
+          {
+            "offset": 268435456,
+            "bytes": 15890597,
+            "sha256": "fa23a49821c9ec7dfcd13839d9a2f6996fbc657d3906462e8bb50d95b73270f5"
+          }
+        ],
+        "completed_bytes": 284326053,
+        "status": "complete",
+        "sha256": "8d6f4cbc07533db668ddacd438c2f05779ab738d25c924b69d2e410734f9810c",
+        "upstream_sha_verified": false,
+        "stem": "scene30_reflectance"
+      }
+    ],
+    "icvl": []
+  },
+  "dependency": "ICVL官方访问授权/合法本地原始MAT尚未提供",
+  "source_review": "D:\\PyCharmProjects\\Jeon2019\\work\\datasets\\reproduction_v1\\source_review\\run_20261007_initial",
+  "budget_seconds": 21600.0,
+  "completed_source_objects": 32,
+  "expected_source_objects": 32
+}

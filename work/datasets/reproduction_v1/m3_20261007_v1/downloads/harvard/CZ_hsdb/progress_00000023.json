@@ -1,0 +1,133 @@
+{
+  "url": "https://vision.seas.harvard.edu/hyperspec/d2x5g3/CZ_hsdb.tgz",
+  "file": "payload_3f6865f117364bf0811fbdfec7e47584.bin",
+  "expected_bytes": 5764797612,
+  "source_identity": {
+    "etag": "\"1579bd4ac-4a059858d3500\"",
+    "last_modified": "Thu, 07 Apr 2011 19:57:40 GMT"
+  },
+  "segments": [
+    {
+      "offset": 0,
+      "bytes": 67108864,
+      "sha256": "cf17b8bf383e45f47d41c9200451b54ba222b96cc37b948315e926da0845a13c"
+    },
+    {
+      "offset": 67108864,
+      "bytes": 67108864,
+      "sha256": "e6736f1424eb46aefbaeecaf393158a1508030fa8e2b688dacc172f20626b5f2"
+    },
+    {
+      "offset": 134217728,
+      "bytes": 67108864,
+      "sha256": "5abeef39845c9e7fc150ed0761c5698a0ecefc4c665ae4692763ee433bd2e1d8"
+    },
+    {
+      "offset": 201326592,
+      "bytes": 67108864,
+      "sha256": "df954174ef999c50ec7e46bd1eb9437aebae826da6f5585130a91bda388f5cb3"
+    },
+    {
+      "offset": 268435456,
+      "bytes": 67108864,
+      "sha256": "864ea0b93c053f83c80a6355b81ce9a5abe8abbc80140f7fecd22159344cf802"
+    },
+    {
+      "offset": 335544320,
+      "bytes": 67108864,
+      "sha256": "3dd07237438956dc927e54365ff0ead6922b43d79fcfb2310aad69cbc8379152"
+    },
+    {
+      "offset": 402653184,
+      "bytes": 67108864,
+      "sha256": "77a31dfa2ae3e65ab2ef26199d63b2b02a2d3476859c04c697a729b0aa56e9d6"
+    },
+    {
+      "offset": 469762048,
+      "bytes": 67108864,
+      "sha256": "dc1a80f5a067fe47fa45e2dc97f8d3ef7f96f79163a003a6eddc642ee702714d"
+    },
+    {
+      "offset": 536870912,
+      "bytes": 67108864,
+      "sha256": "355d114d47e3b992ab9db24446e50f5b5b0b8d6a10b1f451a56129dea460631e"
+    },
+    {
+      "offset": 603979776,
+      "bytes": 67108864,
+      "sha256": "12a9c750fbb0a0d98b306eb444d7c812f814067abe017934cce986ff300ea2f3"
+    },
+    {
+      "offset": 671088640,
+      "bytes": 67108864,
+      "sha256": "8e1f9c819c1ee43bf1fc73cc3ade634cdd2be59204ac67e6bb694b12de5bbd1d"
+    },
+    {
+      "offset": 738197504,
+      "bytes": 67108864,
+      "sha256": "a309dc7f228301614a098384988e1dd7289aac7f359a98cb8e94dfb5403e2ffd"
+    },
+    {
+      "offset": 805306368,
+      "bytes": 67108864,
+      "sha256": "27702f35434ba20012e284fee240ef25b08a1ba5e6bc77630475f321f5915b40"
+    },
+    {
+      "offset": 872415232,
+      "bytes": 67108864,
+      "sha256": "6fd5b92c9e65c22007be3c22e40d8368192795e7e601eeb0468859c83686e86b"
+    },
+    {
+      "offset": 939524096,
+      "bytes": 67108864,
+      "sha256": "3e3934c08f19cc060bba9b0401cbbe152456051377cde59821231c4d88b77495"
+    },
+    {
+      "offset": 1006632960,
+      "bytes": 67108864,
+      "sha256": "61d09d2b0b8028cff1be69f06dbf5a103d25b1fb16d3eb92ecf569db0279aa5c"
+    },
+    {
+      "offset": 1073741824,
+      "bytes": 67108864,
+      "sha256": "e2480fe91466507a5aab852d083aa9464660399e8cae40af15cebdb3ad84d86d"
+    },
+    {
+      "offset": 1140850688,
+      "bytes": 67108864,
+      "sha256": "b7487a496285cd021ecd6c31220416c5485cac223bd40c3f91e96f161d3c6d61"
+    },
+    {
+      "offset": 1207959552,
+      "bytes": 67108864,
+      "sha256": "08d42ba5291475770255f316681fc426f0684e36f86101228946ea4cdeb0ae6e"
+    },
+    {
+      "offset": 1275068416,
+      "bytes": 67108864,
+      "sha256": "1602c403df25ce3c020cb9459803421e25f0c03dcd978b66901d6043e64408a8"
+    },
+    {
+      "offset": 1342177280,
+      "bytes": 67108864,
+      "sha256": "b4701375b20f91213a98d21142ff1baf7e37386613b118ad1856ce82d5e62668"
+    },
+    {
+      "offset": 1409286144,
+      "bytes": 67108864,
+      "sha256": "bc639d4dcc72fa97d2ac8a0afa9f10c4fe1676727ea358f90eeeee7b1641428b"
+    },
+    {
+      "offset": 1476395008,
+      "bytes": 67108864,
+      "sha256": "a38debeda70c4c5ea92807f4432f6a738ec0a213a0cfe7c88bfb1cd4c24f3201"
+    },
+    {
+      "offset": 1543503872,
+      "bytes": 67108864,
+      "sha256": "e13d193c19c620a2afbf3d7af798548b8ba7bedb3f469eb66e02b40c40355823"
+    }
+  ],
+  "completed_bytes": 1610612736,
+  "status": "partial"
+}

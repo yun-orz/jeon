@@ -1,0 +1,73 @@
+{
+  "url": "https://vision.seas.harvard.edu/hyperspec/d2x5g3/CZ_hsdb.tgz",
+  "file": "payload_090e8e618efa4e42ba610928f7df82c1.bin",
+  "expected_bytes": 5764797612,
+  "source_identity": {
+    "etag": "\"1579bd4ac-4a059858d3500\"",
+    "last_modified": "Thu, 07 Apr 2011 19:57:40 GMT"
+  },
+  "segments": [
+    {
+      "offset": 0,
+      "bytes": 67108864,
+      "sha256": "cf17b8bf383e45f47d41c9200451b54ba222b96cc37b948315e926da0845a13c"
+    },
+    {
+      "offset": 67108864,
+      "bytes": 67108864,
+      "sha256": "e6736f1424eb46aefbaeecaf393158a1508030fa8e2b688dacc172f20626b5f2"
+    },
+    {
+      "offset": 134217728,
+      "bytes": 67108864,
+      "sha256": "5abeef39845c9e7fc150ed0761c5698a0ecefc4c665ae4692763ee433bd2e1d8"
+    },
+    {
+      "offset": 201326592,
+      "bytes": 67108864,
+      "sha256": "df954174ef999c50ec7e46bd1eb9437aebae826da6f5585130a91bda388f5cb3"
+    },
+    {
+      "offset": 268435456,
+      "bytes": 67108864,
+      "sha256": "864ea0b93c053f83c80a6355b81ce9a5abe8abbc80140f7fecd22159344cf802"
+    },
+    {
+      "offset": 335544320,
+      "bytes": 67108864,
+      "sha256": "3dd07237438956dc927e54365ff0ead6922b43d79fcfb2310aad69cbc8379152"
+    },
+    {
+      "offset": 402653184,
+      "bytes": 67108864,
+      "sha256": "77a31dfa2ae3e65ab2ef26199d63b2b02a2d3476859c04c697a729b0aa56e9d6"
+    },
+    {
+      "offset": 469762048,
+      "bytes": 67108864,
+      "sha256": "dc1a80f5a067fe47fa45e2dc97f8d3ef7f96f79163a003a6eddc642ee702714d"
+    },
+    {
+      "offset": 536870912,
+      "bytes": 67108864,
+      "sha256": "355d114d47e3b992ab9db24446e50f5b5b0b8d6a10b1f451a56129dea460631e"
+    },
+    {
+      "offset": 603979776,
+      "bytes": 67108864,
+      "sha256": "12a9c750fbb0a0d98b306eb444d7c812f814067abe017934cce986ff300ea2f3"
+    },
+    {
+      "offset": 671088640,
+      "bytes": 67108864,
+      "sha256": "8e1f9c819c1ee43bf1fc73cc3ade634cdd2be59204ac67e6bb694b12de5bbd1d"
+    },
+    {
+      "offset": 738197504,
+      "bytes": 67108864,
+      "sha256": "a309dc7f228301614a098384988e1dd7289aac7f359a98cb8e94dfb5403e2ffd"
+    }
+  ],
+  "completed_bytes": 805306368,
+  "status": "partial"
+}

@@ -1,0 +1,222 @@
+{
+  "files": [
+    {
+      "path": "outputs/jeon2019_optics/config_stage02e1.json",
+      "crlf_count": 44,
+      "raw_sha256": "d650a2b32f3b0bbede6c0b88357cdd71d4d5d24f69d0cab0fc0cf002dfd1b55f",
+      "git_lf_sha256": "b6ae0469a4f2c51fbd5b1612d1bfbe54b0bcb189d9e18ac2d62cc84fc9087b16"
+    },
+    {
+      "path": "outputs/jeon2019_optics/config_stage02e2.json",
+      "crlf_count": 32,
+      "raw_sha256": "35064cefd8172ea47330a319367e6c3fc92af2812a99fa2b8121deb10341a538",
+      "git_lf_sha256": "9a84d10a9164e19d6ccb4ea22565a3de9ec3511a24187502612cf79aa9dece7e"
+    },
+    {
+      "path": "outputs/jeon2019_optics/config_stage02e2_extra.json",
+      "crlf_count": 31,
+      "raw_sha256": "5e5de210bc390428ce4885c39c1927ba0b819135d4d5cc85fd62529c7284f117",
+      "git_lf_sha256": "e9a9edbeac7a1f70d923aa3ead091be8ea45176b8777f6701216108efc380c59"
+    },
+    {
+      "path": "outputs/jeon2019_optics/config_stage02e3.json",
+      "crlf_count": 41,
+      "raw_sha256": "f445d03b9555feade03ef504cce61406b3dde981689f3492cc1acd793128d5f0",
+      "git_lf_sha256": "b87609f5285d1038532b2aa5aefaf0ac7bdaf021584e21d113f46cbc56d7611c"
+    },
+    {
+      "path": "outputs/jeon2019_optics/config_stage02e4.json",
+      "crlf_count": 39,
+      "raw_sha256": "44756fdc4ada1bc2cfba169b6086e63fdcb6645ae1e06fc2cc5842f651f18992",
+      "git_lf_sha256": "cde3a355a363e316c099877ca470d6600fe52f1cee2db536c449fd828110d2fe"
+    },
+    {
+      "path": "outputs/jeon2019_optics/config_stage02f1.json",
+      "crlf_count": 43,
+      "raw_sha256": "e504c74b5be7489f6bd5bad7a48da01c5dd4831c1c739dee95a0db40f6e1608f",
+      "git_lf_sha256": "2ca0165bbf06e4cf5f796aca4a0f0d2c6d24f0248a9569427d722e84677e6b55"
+    },
+    {
+      "path": "outputs/jeon2019_optics/docs/stage02a_report.md",
+      "crlf_count": 63,
+      "raw_sha256": "71c7269e54e8caf999016b494afc837fbf8cf231bf7bfeeedc0d8ebeacbfc66a",
+      "git_lf_sha256": "b4a23626bd4cead4d6c7901795e92b0c34743666580f01a41394a82758248e52"
+    },
+    {
+      "path": "outputs/jeon2019_optics/docs/stage02d3_completed.md",
+      "crlf_count": 71,
+      "raw_sha256": "36c486d9dd8672774b6eb8d2f69eea20b3c8e9e44f89706b7fcfb69cedb64dcb",
+      "git_lf_sha256": "4592dda51819f6ba5e4d53c9fb360f6f1e5d8dc731d5ae892544a5c2e397cbbf"
+    },
+    {
+      "path": "outputs/jeon2019_optics/docs/stage02e1_completed.md",
+      "crlf_count": 87,
+      "raw_sha256": "8361fbf78ddbb5ea338b662a6943022b3292aa2064d2370a81f8c840db9ae213",
+      "git_lf_sha256": "7b9ece5128fbe94403b6f2d29311fb33f24e6976a3ab10d1a08aa194485014c5"
+    },
+    {
+      "path": "outputs/jeon2019_optics/docs/stage02e2_completed.md",
+      "crlf_count": 62,
+      "raw_sha256": "e58c5d56b90dabc09a48da99b5ce40592455ff23dfe8d6b7f3e35ac2295ceb1a",
+      "git_lf_sha256": "de3efe49fd5c98e088e8ff341feda6a649d4fa74626dd9f6729157b49526ceab"
+    },
+    {
+      "path": "outputs/jeon2019_optics/docs/stage02e3_completed.md",
+      "crlf_count": 77,
+      "raw_sha256": "14a7ad593da5894bbfae35e74c3161a182990d5a4e2b1a73dbf220a4cd4e4f80",
+      "git_lf_sha256": "2436a8f44d2ee8847833b26be36bbd417c323d881e482102e304cf774a8ee171"
+    },
+    {
+      "path": "outputs/jeon2019_optics/docs/stage02e4_completed.md",
+      "crlf_count": 77,
+      "raw_sha256": "9d0b73be1b388ad0d62624adff08404b11d508e681fc0bee0b4d2075c5d2b35c",
+      "git_lf_sha256": "c0f32d6649dd92dac95f6f7e4200411c589ada2d565d12c590a7a0b7cf8528da"
+    },
+    {
+      "path": "outputs/jeon2019_optics/docs/stage02f1_completed.md",
+      "crlf_count": 54,
+      "raw_sha256": "0d993f7dc30bfa5ae2d9b1d320da0f07f5bdd38c2c44ddb01d94025398eafc9b",
+      "git_lf_sha256": "6adc04a62eabd9b890eec8ce0ca41628d1c07f38a2df09d35b00e2804f67eca9"
+    },
+    {
+      "path": "outputs/jeon2019_optics/docs/stage02f2_completed.md",
+      "crlf_count": 73,
+      "raw_sha256": "ecfd3d0fc5c35793e6c5adec24e3bb9aa3fb596f9feb2d2729d97e0f975814e6",
+      "git_lf_sha256": "dd844a2d7fb06f2fe9efeb9f5fde1c9c954c993d54ba293f8de01e7a7b841c5c"
+    },
+    {
+      "path": "outputs/jeon2019_optics/docs/stage02f3_1_completed.md",
+      "crlf_count": 82,
+      "raw_sha256": "5107191c2e603373ab489881618c3481aba655076f19c133befeafae09c233cb",
+      "git_lf_sha256": "18bfad32e321e602b0a433a707bca5d88c85851744aecd2c77ac17cacb39b87a"
+    },
+    {
+      "path": "outputs/jeon2019_optics/docs/stage02f3_2_completed.md",
+      "crlf_count": 70,
+      "raw_sha256": "d02ee1ce4da3d1f29d8853dead361d3947595fa7f74ae514840f998314287c0c",
+      "git_lf_sha256": "d42258cbfe88aff42d43cbec28ac941ea5f63fc698c9baedce6ac3382cc2adc5"
+    },
+    {
+      "path": "outputs/jeon2019_optics/main_stage02.py",
+      "crlf_count": 1289,
+      "raw_sha256": "5851202ed2967073143c9f047b61471b2da60665c74d47fc16817af240bef1ab",
+      "git_lf_sha256": "a6c89a8f2c8326b3f0fdbdb583660cff7f772542c04a5b97b6e78a25de75043e"
+    },
+    {
+      "path": "outputs/jeon2019_optics/main_stage02d3.py",
+      "crlf_count": 181,
+      "raw_sha256": "0806cb1eae150c22b06874d9766568d9a0ee886e1f0c7bc26c0a535aa9de093c",
+      "git_lf_sha256": "3b5111a717518fd1066e385224b418e0d91e16c28e5619e238a42524d076215c"
+    },
+    {
+      "path": "outputs/jeon2019_optics/main_stage02e1.py",
+      "crlf_count": 184,
+      "raw_sha256": "8db4d517a909ac0a9829cee42b4122d2199d453e27fe8f878f3ab168dbee5927",
+      "git_lf_sha256": "ed73af47b2d2a19c1dc41fb5cac705fe3ad8b4ce7858834ac8773c9079720eab"
+    },
+    {
+      "path": "outputs/jeon2019_optics/main_stage02e2.py",
+      "crlf_count": 140,
+      "raw_sha256": "608b89ad318a583c56e5a6509d0d2295dd2d636e46438c2337f46c5e1eda77be",
+      "git_lf_sha256": "1fc4810d86b0e72be00ef0ff273dade7220688e1c8f86756940befe349b44923"
+    },
+    {
+      "path": "outputs/jeon2019_optics/main_stage02e2_extra.py",
+      "crlf_count": 15,
+      "raw_sha256": "99956dce56a6690db74bd801282dbd91a699d4919374de31059b2fddc42b04d1",
+      "git_lf_sha256": "6e98f8c28e2fd932f98fc8681201aa057ec18a6b23abbaea166533d0f9142f49"
+    },
+    {
+      "path": "outputs/jeon2019_optics/main_stage02e3.py",
+      "crlf_count": 162,
+      "raw_sha256": "9d73fffa37a9ebc95e8262c94b6d2ec23997c3fc638f23b8eec7ac5fcd92aac0",
+      "git_lf_sha256": "8cebe384d1e5f22043d03befa50f5377769caaa2f41a34edea469f7f3b5e0de6"
+    },
+    {
+      "path": "outputs/jeon2019_optics/main_stage02e4.py",
+      "crlf_count": 171,
+      "raw_sha256": "e16d7831212bd5e70a1153a93fc09f32a204df07ce1695318622b74faab862d9",
+      "git_lf_sha256": "0041b84f569cd2a8ea922096ebcd374ada2d0bdccd9da71eeafc7eea4ec2aa6e"
+    },
+    {
+      "path": "outputs/jeon2019_optics/optics/comparison_uncertainty.py",
+      "crlf_count": 11,
+      "raw_sha256": "21dedde0b8724ef381b6056b458ab8c9e0272878ee396d40a7e5dbd41c378587",
+      "git_lf_sha256": "ca468f73bf6a985f51a03a90e5bc2504d028ce9ca26ed05960678945e5c7a507"
+    },
+    {
+      "path": "outputs/jeon2019_optics/optics/electron_noise.py",
+      "crlf_count": 77,
+      "raw_sha256": "a493f5887cf1617c3ccb18641aa2c00cc6eb67d75083768394922e86f2b2211b",
+      "git_lf_sha256": "648d0558c6e20a4f4eb9f657c8de7cd1349b77d7868ed267a352aca1179c2197"
+    },
+    {
+      "path": "outputs/jeon2019_optics/optics/ridge_certificate.py",
+      "crlf_count": 22,
+      "raw_sha256": "66e210942829cd68a0f5b6dcf5cc128c1b07fc52c8256d8a3545c48f41b980e3",
+      "git_lf_sha256": "29475d1388c291ddce667dd9b6cfb493f737d1ee5c5b63468cb5e76d76922037"
+    },
+    {
+      "path": "outputs/jeon2019_optics/optics/stage02d3_source.py",
+      "crlf_count": 63,
+      "raw_sha256": "6d196a4162a4700326ec2ba571688ccdd732fe952753db3a39fad262a82a86df",
+      "git_lf_sha256": "af4826e9768d194e75231d8eb85b0f7519bd1bfb39ab827eaaabe278bbf6f09c"
+    },
+    {
+      "path": "outputs/jeon2019_optics/optics/stage02e1_source.py",
+      "crlf_count": 65,
+      "raw_sha256": "7bd7d5efc7e1974f687aed6a6b47b8d91236a10752f2ec69b6d3c016951ce3f9",
+      "git_lf_sha256": "a14c3b92f9f1e0b020a6de51bbb37e8913db5aff50d14f3bcdec28d0672c827d"
+    },
+    {
+      "path": "outputs/jeon2019_optics/optics/stage02e2_source.py",
+      "crlf_count": 80,
+      "raw_sha256": "2bf756a6da644e638b782b2c545338660972f4e84f9971adfe7efe2721158f6b",
+      "git_lf_sha256": "537fc0e8f16ec0eccb8f42ecd2bf3e41107bbb716d86db42da2cb9b79649b27f"
+    },
+    {
+      "path": "outputs/jeon2019_optics/optics/stage02e3_source.py",
+      "crlf_count": 68,
+      "raw_sha256": "6ccf27b0db732249f47911b68469e2a8d56fda1ee87df91eaae96ff2059bd056",
+      "git_lf_sha256": "294ed41665716da19f3c96a9726936b6cb01435aa2497a9804f150b4381f438d"
+    },
+    {
+      "path": "outputs/jeon2019_optics/optics/stage02e4_source.py",
+      "crlf_count": 46,
+      "raw_sha256": "bec05890dbcddbc8959c40dc24d859102152851fe58582b3633eaedcdce35873",
+      "git_lf_sha256": "c9530a53ea9d8d3e3ea457c3a53b89af308d5904e4c027f7a3d34f5fd45dfd16"
+    },
+    {
+      "path": "outputs/jeon2019_optics/README.md",
+      "crlf_count": 103,
+      "raw_sha256": "228b9c148c069be8448ef8c7ea68d8891a448893e9dd8832a3f89b477817079c",
+      "git_lf_sha256": "c365c6b95840f9f2d587d53c23dc2a212e2822e3efbb6520a7919392217caf33"
+    },
+    {
+      "path": "outputs/jeon2019_optics/tests/test_ridge_sensitivity.py",
+      "crlf_count": 93,
+      "raw_sha256": "c7b46346b68b9e89e72767dfb5ca44dbc063a5bfd26e09f1d347ecd39ebbc332",
+      "git_lf_sha256": "684def8a16b99c5df45a6d03b3a49163b7600a17fa4106c22859f8de7cd7085e"
+    },
+    {
+      "path": "outputs/jeon2019_optics/tests/test_stage02e2.py",
+      "crlf_count": 55,
+      "raw_sha256": "6606fa0cdf685ef832e568e2cdb33620191de9480202f2c0b7811120d27814cf",
+      "git_lf_sha256": "40d9831ba28dd610bbb928b8e89ad3afd4481c1633283ef901450d701196c13d"
+    },
+    {
+      "path": "outputs/jeon2019_optics/tests/test_stage02e3.py",
+      "crlf_count": 61,
+      "raw_sha256": "91f5f749885be0644355a8197ef106c6f74777e737692aef2925b5d275f22322",
+      "git_lf_sha256": "fbe2a6b013b4170db720ea1d2a5db0c76702d4c0e67cab5962dedf9534e715c2"
+    },
+    {
+      "path": "outputs/jeon2019_optics/tests/test_stage02e4.py",
+      "crlf_count": 82,
+      "raw_sha256": "9264e6dda11015515070cfa2c30a7ed9ba185aeda879e9ca303f70bbb85ad472",
+      "git_lf_sha256": "c0aa81f43e97a4b9a48f51a1ce00f670b53b669aa8a88def5a8cfbf9cf7b2f93"
+    }
+  ],
+  "count": 36,
+  "source_guards_require_raw_bytes": true
+}

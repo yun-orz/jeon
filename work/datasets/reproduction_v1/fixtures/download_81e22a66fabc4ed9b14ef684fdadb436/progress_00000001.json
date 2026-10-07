@@ -1,0 +1,20 @@
+{
+  "url": "https://synthetic.invalid/file",
+  "file": "payload_b5b802e05924496390920e47a72cbb3f.bin",
+  "expected_bytes": 22,
+  "source_identity": {
+    "etag": "fixture",
+    "last_modified": null
+  },
+  "segments": [
+    {
+      "offset": 0,
+      "bytes": 22,
+      "sha256": "a94e6bb065226fc4f78f77e5af0cadb308ae5b3bbbd13f4030f4b97589c8e081"
+    }
+  ],
+  "completed_bytes": 22,
+  "status": "complete",
+  "sha256": "a94e6bb065226fc4f78f77e5af0cadb308ae5b3bbbd13f4030f4b97589c8e081",
+  "upstream_sha_verified": true
+}

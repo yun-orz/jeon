@@ -1,0 +1,32 @@
+{
+  "scales": {
+    "harvard": 1.0,
+    "icvl": 2.0,
+    "kaist": 1.0
+  },
+  "datasets": {
+    "harvard": {
+      "estimator": "有效训练像元全部25谱带的RMS",
+      "count": 6553600,
+      "sum_squares": 6553600.0,
+      "value": 1.0,
+      "training_scene_ids": [
+        "harvard:synthetic_train"
+      ]
+    },
+    "icvl": {
+      "estimator": "有效训练像元全部25谱带的RMS",
+      "count": 6553600,
+      "sum_squares": 26214400.0,
+      "value": 2.0,
+      "training_scene_ids": [
+        "icvl:synthetic_train"
+      ]
+    },
+    "kaist": {
+      "value": 1.0,
+      "fit": false,
+      "units": "反射率保留原值"
+    }
+  }
+}

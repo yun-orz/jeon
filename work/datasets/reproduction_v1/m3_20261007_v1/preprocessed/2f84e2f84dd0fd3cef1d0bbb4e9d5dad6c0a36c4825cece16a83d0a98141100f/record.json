@@ -1,0 +1,23 @@
+{
+  "source_sha256": {
+    "H:\\我的云端硬盘\\Jeon2019_data\\reproduction_v1\\icvl\\mat\\bguCAMP_0514-1718.mat": "d406e876826841930638a7e84721529ec607cdaea21d0e9d8a61cb10f1870b32"
+  },
+  "preprocessing": {
+    "shape_chw": [
+      25,
+      650,
+      696
+    ],
+    "dropped_odd_edge_yx": [
+      0,
+      0
+    ],
+    "valid_pixels": 452400,
+    "area_rule": "每2×2原像元等面积平均，几何像元中心对齐；奇数末行/列丢弃并登记",
+    "peak_source_block_bytes": 4126720
+  },
+  "sha256": {
+    "base.npy": "20199807d1eb8b61c1a19e69aa4b12a12f81379a0f04c660f5aa2d2e190ed2a2",
+    "mask.npy": "701310e1c19610da2e1e9f7bfd06c7347859e8e9b868c8ea0608b5a415da95b1"
+  }
+}

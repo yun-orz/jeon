@@ -1,0 +1,26 @@
+%% Example code for reading hyperspectral image from EXR file
+% input: .exr file
+% Output: RGB, HSI
+%  - RGB: linear sRGB image (nrows x ncols x 3)
+%  - HSI: hyperspectral image (nrows x ncols x 31)
+
+%% 
+% file to read
+fn = '../exr/scene01_reflectance.exr';
+
+% read exr file
+% please refer to 'openexr-matlab' github repository for 'exrreadchannels'
+% https://github.com/KAIST-VCLAB/openexr-matlab
+mapObj = exrreadchannels(fn);
+
+% get linear sRGB image (RGB)
+RGB(:,:,1) = mapObj('R');
+RGB(:,:,2) = mapObj('G');
+RGB(:,:,3) = mapObj('B');
+
+% get hyperspectral image (HSI)
+wvls2b = 420:10:720;
+for i=1:length(wvls2b)
+    HSI(:,:,i) = mapObj(sprintf('w%dnm', wvls2b(i)));    
+end
+
