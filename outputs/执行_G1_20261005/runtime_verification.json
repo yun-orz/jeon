@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "no_save": {
+    "exit_code": 0,
+    "files": 14264,
+    "sha_unchanged": true,
+    "elapsed_s": 76.35944309999468,
+    "cwd": "D:\\PyCharmProjects\\Jeon2019\\outputs\\执行_G1_20261005"
+  },
+  "failures": {
+    "budget": {
+      "rejected": true,
+      "run": "results\\g1\\run_20261005_232039",
+      "error": "TimeoutError('达到预算，保留已有结果；没有G1完成标记')",
+      "completion_absent": true
+    },
+    "height_save_fault": {
+      "rejected": true,
+      "run": "results\\g1\\run_20261005_232041",
+      "error": "OSError('G1保存失败注入')",
+      "completion_absent": true
+    }
+  },
+  "real_gui_verified": false
+}

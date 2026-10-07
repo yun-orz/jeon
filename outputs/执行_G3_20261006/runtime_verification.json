@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "invalid_config_before_allocation": true,
+  "checkpoint_save_failure_retained": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\g3\\run_20261006_000831",
+  "no_false_completed": true,
+  "no_save_returncode": 0,
+  "files_checked": 14395,
+  "all_file_sha_unchanged": true,
+  "external_cwd": "D:\\PyCharmProjects\\Jeon2019"
+}

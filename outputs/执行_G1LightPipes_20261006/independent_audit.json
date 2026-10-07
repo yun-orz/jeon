@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "independent_fft_unit_phase_aligned_errors": [
+    {
+      "wavelength_nm": 420,
+      "n": 1536,
+      "relative_l2": 1.603592778366868e-10,
+      "pi_constant_difference_included": true
+    },
+    {
+      "wavelength_nm": 420,
+      "n": 2048,
+      "relative_l2": 1.5661687086392298e-10,
+      "pi_constant_difference_included": true
+    },
+    {
+      "wavelength_nm": 540,
+      "n": 1536,
+      "relative_l2": 1.4891849578850362e-10,
+      "pi_constant_difference_included": true
+    },
+    {
+      "wavelength_nm": 540,
+      "n": 2048,
+      "relative_l2": 1.4585263724724848e-10,
+      "pi_constant_difference_included": true
+    },
+    {
+      "wavelength_nm": 660,
+      "n": 1536,
+      "relative_l2": 1.5480856315347714e-10,
+      "pi_constant_difference_included": true
+    },
+    {
+      "wavelength_nm": 660,
+      "n": 2048,
+      "relative_l2": 1.4978467167355504e-10,
+      "pi_constant_difference_included": true
+    }
+  ],
+  "independent_detector_kernel_max_error": 2.6020852139652106e-18,
+  "empirical_reference_interpolation_difference": [
+    {
+      "wavelength_nm": 420,
+      "relative_l1": 0.0009955522369364405,
+      "relative_l2": 0.000700751371714549,
+      "status": "empirical_reference_interpolation_difference_not_rigorous_bound"
+    },
+    {
+      "wavelength_nm": 540,
+      "relative_l1": 0.0006894422768878392,
+      "relative_l2": 0.0005462022817630856,
+      "status": "empirical_reference_interpolation_difference_not_rigorous_bound"
+    },
+    {
+      "wavelength_nm": 660,
+      "relative_l1": 0.0004133297548516916,
+      "relative_l2": 0.00036029248233356557,
+      "status": "empirical_reference_interpolation_difference_not_rigorous_bound"
+    }
+  ],
+  "source_code_sha_exact": true,
+  "no_save_returncode": 0,
+  "no_save_summary_exact": true,
+  "no_save_engine_sha_unchanged": true,
+  "files_checked": 14545,
+  "source_runs_and_package_unchanged": true,
+  "g0_returncode": 0,
+  "g0_stdout": "G0冻结核对：通过\n模式=full_local，核对=767，跳过=0\n",
+  "stderr": "",
+  "all_cross_algorithm_comparisons_below_threshold": false,
+  "paper_alignment_passed": false
+}

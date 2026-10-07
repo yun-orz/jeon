@@ -1,0 +1,44 @@
+{
+  "status": "window_diagnostic_passed",
+  "official_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\g1_window\\run_20261006_131121",
+  "independent_audit": {
+    "passed": true,
+    "direct_fresnel_relative_to_peak_errors": [
+      1.6768294157532395e-13,
+      1.5545500195377644e-14,
+      8.469070462166805e-16
+    ],
+    "independent_pixel_power_relative_max_error": 2.8514682264972914e-16,
+    "independent_pin_relative_error": 1.6819878823071122e-13,
+    "independent_kernel_max_error": 9.315465065995454e-16,
+    "independent_radius_max_error_um": 0.0,
+    "source_code_sha_exact": true,
+    "tests_returncode": 0,
+    "tests_stdout": "",
+    "tests_stderr": "test_angle_coordinate_sign_and_missing_segments (test_g1.TestG1) ... ok\ntest_focused_pupil_airy_scale (test_g1.TestG1) ... ok\ntest_invalid_configs (test_g1.TestG1) ... ok\ntest_refined_grid_same_device (test_g1.TestG1) ... ok\ntest_clockwise_is_fixed_opposite_chirality (test_g1_alignment.TestAlignment) ... ok\ntest_invalid_polar_and_negative_intensity (test_g1_alignment.TestAlignment) ... ok\ntest_isotropic_pattern_no_direction (test_g1_alignment.TestAlignment) ... ok\ntest_registration_angle_sign (test_g1_alignment.TestAlignment) ... ok\ntest_window_and_input_denominators (test_g1_alignment.TestAlignment) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 1.010s\n\nOK\n",
+    "no_save_returncode": 0,
+    "no_save_values_exact": true,
+    "no_save_engine_sha_unchanged": true,
+    "files_checked": 14535,
+    "source_runs_unchanged": true,
+    "g0_returncode": 0,
+    "g0_stdout": "G0冻结核对：通过\n模式=full_local，核对=767，跳过=0\n",
+    "stderr": ""
+  },
+  "paper_alignment_passed": false,
+  "sha256": {
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main_g1_window.py": "b061cb55561b9b3089d288d8d47e7ab1e1df61a00c64793e2c259007fae8587f",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\config_g1_window.json": "f6ef8b3bf5665927a9544796ce8315ed9c7c907d6a0069cf9307f2df3db95bca",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\G1_WINDOW_README.md": "3bdaf7bd42a20755091ceec2b17eef0160c181449aac84673d1b72ce80fb44bf"
+  },
+  "run_sha256": {
+    "arrays/control_540nm.npz": "299f550083b3490ee7b74eae91cb4394bc153aea5613a332f151346a6c9f61c7",
+    "arrays/window_bank.npz": "ca1c0b2bec63aba5bc31d0be9996f0cd00cb48e03a353b1493d853f72335eefc",
+    "config_effective.json": "65930d9ceb5342817adae0593ce35e85de903a5f7520373659b1961a1870d7bb",
+    "figures/expanded_psf_shapes.png": "af841abdcf022e8932f1e6e23f6faf76fe8f67ad9805bf6fc4b65f2eed8e614a",
+    "figures/window_size_energy.png": "4276db49fb03d20be62bba2d3d93dc09f2173948afed1f3dcefe9322c18aa955",
+    "metrics/validation.json": "f881b5d4eddbed32f76899c62045a4851f3d8cfd5bf303590b88d3110cf8882f",
+    "source_evidence.json": "576bf8de8341120d6bf9a366480faa3ce5aa31e6751ce4a2970d677e9cbd001c",
+    "source_manifest.json": "3470f47213328b2386c76628b30d5345e0ae3138c977dbeccbe9b9208403e876"
+  }
+}

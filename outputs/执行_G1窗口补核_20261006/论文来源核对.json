@@ -1,0 +1,16 @@
+{
+  "sources": {
+    "main.pdf": {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\papers\\main.pdf",
+      "bytes": 13269896,
+      "sha256": "493f49f1a998dd51a60757f8b121bd55b03fcfcb692d8828cc08f0c7d718bdcc"
+    },
+    "supplement.pdf": {
+      "path": "D:\\PyCharmProjects\\Jeon2019\\work\\papers\\supplement.pdf",
+      "bytes": 59342087,
+      "sha256": "638d42815b92be6fa101dfd144f0f290abd61e8ec18346194f4dc223ceeb5bb9"
+    }
+  },
+  "project_page": "https://vccimaging.org/Publications/Jeon2019Hyperspectral/",
+  "checked_date": "2026-10-06"
+}

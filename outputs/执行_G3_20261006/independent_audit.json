@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\g3\\run_20261006_000710",
+  "source_unchanged": true,
+  "source_manifest_passed": true,
+  "initial_numpy_relative": 1.2010664168409652e-07,
+  "independent_stage_checks": [
+    {
+      "stage": 0,
+      "numpy_equation21_relative": 2.9039608008876824e-08
+    },
+    {
+      "stage": 1,
+      "numpy_equation21_relative": 2.909467989078512e-08
+    },
+    {
+      "stage": 2,
+      "numpy_equation21_relative": 2.8430570250736946e-08
+    }
+  ],
+  "checkpoint_matches_full_output": true,
+  "recreated_initialization_matches": true,
+  "changed_stage_parameters": [
+    {
+      "stage": 0,
+      "changed_state_tensors": 39
+    },
+    {
+      "stage": 1,
+      "changed_state_tensors": 39
+    },
+    {
+      "stage": 2,
+      "changed_state_tensors": 39
+    }
+  ],
+  "g0": {
+    "passed": true,
+    "checked": 767,
+    "skipped": 0,
+    "failures": [],
+    "mode": "full_local"
+  },
+  "limitations": [
+    "仅两步单合成patch梯度验算",
+    "非官方精确架构",
+    "非真实HSI训练"
+  ]
+}

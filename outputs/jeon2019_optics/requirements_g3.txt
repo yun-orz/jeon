@@ -1,0 +1,4 @@
+# G3额外依赖：本机实际运行的CPU版本，光学基础依赖保留原清单。
+-r requirements.txt
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.14.1+cpu

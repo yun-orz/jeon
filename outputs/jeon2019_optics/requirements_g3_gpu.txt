@@ -1,0 +1,7 @@
+# 在独立虚拟环境安装；保留原CPU解释器及其依赖。
+# Torch从https://download.pytorch.org/whl/cu121安装，其余从PyPI安装。
+torch==2.5.1+cu121
+sympy==1.13.1
+numpy==2.2.6
+scipy==1.15.3
+matplotlib==3.10.9

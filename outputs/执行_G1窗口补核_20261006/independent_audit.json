@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "direct_fresnel_relative_to_peak_errors": [
+    1.6768294157532395e-13,
+    1.5545500195377644e-14,
+    8.469070462166805e-16
+  ],
+  "independent_pixel_power_relative_max_error": 2.8514682264972914e-16,
+  "independent_pin_relative_error": 1.6819878823071122e-13,
+  "independent_kernel_max_error": 9.315465065995454e-16,
+  "independent_radius_max_error_um": 0.0,
+  "source_code_sha_exact": true,
+  "tests_returncode": 0,
+  "tests_stdout": "",
+  "tests_stderr": "test_angle_coordinate_sign_and_missing_segments (test_g1.TestG1) ... ok\ntest_focused_pupil_airy_scale (test_g1.TestG1) ... ok\ntest_invalid_configs (test_g1.TestG1) ... ok\ntest_refined_grid_same_device (test_g1.TestG1) ... ok\ntest_clockwise_is_fixed_opposite_chirality (test_g1_alignment.TestAlignment) ... ok\ntest_invalid_polar_and_negative_intensity (test_g1_alignment.TestAlignment) ... ok\ntest_isotropic_pattern_no_direction (test_g1_alignment.TestAlignment) ... ok\ntest_registration_angle_sign (test_g1_alignment.TestAlignment) ... ok\ntest_window_and_input_denominators (test_g1_alignment.TestAlignment) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 1.010s\n\nOK\n",
+  "no_save_returncode": 0,
+  "no_save_values_exact": true,
+  "no_save_engine_sha_unchanged": true,
+  "files_checked": 14535,
+  "source_runs_unchanged": true,
+  "g0_returncode": 0,
+  "g0_stdout": "G0冻结核对：通过\n模式=full_local，核对=767，跳过=0\n",
+  "stderr": ""
+}

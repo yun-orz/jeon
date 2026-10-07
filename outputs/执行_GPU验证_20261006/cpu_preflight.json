@@ -1,0 +1,60 @@
+{
+  "cpu_preflight_passed": true,
+  "gpu_validation_passed": false,
+  "gpu_execution_verified": false,
+  "status": "cpu_preflight_only_gpu_installation_pending",
+  "optical_checks": {
+    "numpy_forward_relative": 5.76871315127706e-16,
+    "numpy_adjoint_relative": 4.927312588584705e-16,
+    "autograd_relative": 6.335137374721259e-16,
+    "adjoint_dot_relative": 0.0
+  },
+  "independent_scipy_checks": {
+    "forward": 5.76871315127706e-16,
+    "adjoint": 4.927312588584705e-16,
+    "gradient": 6.335137374721259e-16
+  },
+  "saved_checkpoint_predictions_exact": true,
+  "saved_checkpoint_predictions_relative": 0.0,
+  "validation_patches": 8,
+  "cpu_one_step_smoke": {
+    "loss": 0.015736756846308708,
+    "unclipped_gradient_norm": 0.07125622034072876
+  },
+  "first_parameter_change_norm": 9.989738464355469e-05,
+  "test_returncode": 0,
+  "tests_run": 4,
+  "tests_stderr": "test_autograd_equals_adjoint (test_g3.TestG3) ... ok\ntest_matches_numpy_and_transpose (test_g3.TestG3) ... ok\ntest_one_stage_equation21_and_gradients (test_g3.TestG3) ... ok\ntest_prior_odd_size_and_zero_threshold (test_g3.TestG3) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.672s\n\nOK\n",
+  "missing_cuda_explicitly_rejected": true,
+  "no_fake_gpu_output_written": true,
+  "original_cpu_environment_and_source_unchanged": true,
+  "cpu_environment": {
+    "torch_version": "2.14.1+cpu",
+    "cuda_runtime": null,
+    "torch_file": "D:\\dev\\python\\python3.10.4\\lib\\site-packages\\torch",
+    "versions": {
+      "torch": "2.14.1",
+      "sympy": "1.14.0",
+      "numpy": "2.2.6",
+      "scipy": "1.15.3",
+      "matplotlib": "3.10.9"
+    },
+    "files_sha256": {
+      "D:\\dev\\python\\python3.10.4\\lib\\site-packages\\torch\\__init__.py": "2d89482562a491093a10c2dcf9a83eea070f02b69b65aa4ae1b95ad23bcdbcaf",
+      "D:\\dev\\python\\python3.10.4\\lib\\site-packages\\torch\\version.py": "0d5cd125dd13835680b112f6e51c7c3187f8a2417de055ae576077a671d3d4b0",
+      "D:\\dev\\python\\python3.10.4\\lib\\site-packages\\torch\\_C.cp310-win_amd64.pyd": "7602f018a62f7781d9a0e389c2f5a8b4e0aa83afe7de32333cf633c31305a654",
+      "D:\\dev\\python\\python3.10.4\\lib\\site-packages\\torch\\lib\\torch_cpu.dll": "f30aba240ece6889751dae2ebedf937e19d573ae8b85f802e201d204983e1888",
+      "D:\\dev\\python\\python3.10.4\\lib\\site-packages\\torch-2.14.1.dist-info\\METADATA": "b3136e611973ba772e0b292e747a950e7974cbb516145f9ba5c08449968d40c7"
+    }
+  },
+  "g0_returncode": 0,
+  "g0_stdout": "G0冻结核对：通过\n模式=full_local，核对=767，跳过=0\n",
+  "paper_alignment_passed": false,
+  "elapsed_seconds": 82.47576939999999,
+  "code_sha256": {
+    "main_g3_gpu.py": "bfb942ab978dc729fbaa09061a7fff3c203b6c99291929250bc2d7e487dfc72b",
+    "config_g3_gpu.json": "e924d0c8d1f06ade213a131cd95145cb88f9116e84157538f612edf7e530c186",
+    "requirements_g3_gpu.txt": "247f5f5f8ea7fe32d8fce9792b441580161b00a31034fd93acd0869ebc49a617",
+    "G3_GPU_README.md": "97971366d79534f68f60a93a2e0cabf5a61f8fd7654ad02f60708fe2959a4bb5"
+  }
+}

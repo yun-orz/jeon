@@ -1,0 +1,19 @@
+{
+  "torch_version": "2.14.1+cpu",
+  "cuda_runtime": null,
+  "torch_file": "D:\\dev\\python\\python3.10.4\\lib\\site-packages\\torch",
+  "versions": {
+    "torch": "2.14.1",
+    "sympy": "1.14.0",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "matplotlib": "3.10.9"
+  },
+  "files_sha256": {
+    "D:\\dev\\python\\python3.10.4\\lib\\site-packages\\torch\\__init__.py": "2d89482562a491093a10c2dcf9a83eea070f02b69b65aa4ae1b95ad23bcdbcaf",
+    "D:\\dev\\python\\python3.10.4\\lib\\site-packages\\torch\\version.py": "0d5cd125dd13835680b112f6e51c7c3187f8a2417de055ae576077a671d3d4b0",
+    "D:\\dev\\python\\python3.10.4\\lib\\site-packages\\torch\\_C.cp310-win_amd64.pyd": "7602f018a62f7781d9a0e389c2f5a8b4e0aa83afe7de32333cf633c31305a654",
+    "D:\\dev\\python\\python3.10.4\\lib\\site-packages\\torch\\lib\\torch_cpu.dll": "f30aba240ece6889751dae2ebedf937e19d573ae8b85f802e201d204983e1888",
+    "D:\\dev\\python\\python3.10.4\\lib\\site-packages\\torch-2.14.1.dist-info\\METADATA": "b3136e611973ba772e0b292e747a950e7974cbb516145f9ba5c08449968d40c7"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "checked_date": "2026-10-06",
+  "stage_complete": false,
+  "cpu_preflight_passed": true,
+  "gpu_validation_passed": false,
+  "gpu_execution_verified": false,
+  "torch_wheel_bytes_present": 1345187968,
+  "torch_wheel_bytes_expected": 2449372784,
+  "official_wheel_hash_verified": false,
+  "resume_script_syntax_checked": true,
+  "resume_script_executed": false,
+  "independent_gpu_audit_executed": false,
+  "paper_alignment_passed": false,
+  "blocker": "incomplete official GPU wheel; further escalated actions unavailable because automatic approval review hit usage limit",
+  "progress_document": "D:\\PyCharmProjects\\Jeon2019\\outputs\\执行_GPU验证_20261006\\阶段结果与项目进度.md"
+}

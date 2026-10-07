@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\g4\\run_20261006_074407",
+  "original_mat_preprocessing_matches": true,
+  "train_only_normalization_matches": true,
+  "disjoint_scene_files": true,
+  "all_context_masks_valid": true,
+  "reencoded_measurements_max_error": 0.0,
+  "checkpoint_predictions_exact": true,
+  "reconstructed_validation_l1": 0.09995391219854355,
+  "best_epoch": 2,
+  "optical_kernels_unchanged": true,
+  "source_and_dataset_unchanged": true,
+  "g0": {
+    "passed": true,
+    "checked": 767,
+    "skipped": 0,
+    "failures": [],
+    "mode": "full_local"
+  },
+  "limitations": [
+    "仅一幅训练场景和一幅验证场景",
+    "无独立测试集",
+    "相对单位且RGB响应为合成设置"
+  ]
+}

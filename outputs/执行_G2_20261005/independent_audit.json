@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "run": "outputs\\jeon2019_optics\\results\\g2\\run_20261005_234941",
+  "source_unchanged": true,
+  "source_manifest_passed": true,
+  "explicit_forward_relative_error": 4.61708218649302e-16,
+  "explicit_adjoint_relative_error": 4.4150076271951873e-16,
+  "crop_loss_fraction": [
+    0.03630431081124366,
+    0.02451283783142728,
+    0.03607891454958456
+  ],
+  "g0": {
+    "passed": true,
+    "checked": 767,
+    "skipped": 0,
+    "failures": [],
+    "mode": "full_local"
+  },
+  "limitations": [
+    "响应为合成QE",
+    "论文光学对齐仍未通过",
+    "Φᵀ仅为伴随，不是重建"
+  ]
+}

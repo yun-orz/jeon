@@ -1,0 +1,53 @@
+{
+  "status": "engineering_validation_passed",
+  "official_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\g2\\run_20261005_234941",
+  "tests_run": 7,
+  "independent_audit": {
+    "passed": true,
+    "run": "outputs\\jeon2019_optics\\results\\g2\\run_20261005_234941",
+    "source_unchanged": true,
+    "source_manifest_passed": true,
+    "explicit_forward_relative_error": 4.61708218649302e-16,
+    "explicit_adjoint_relative_error": 4.4150076271951873e-16,
+    "crop_loss_fraction": [
+      0.03630431081124366,
+      0.02451283783142728,
+      0.03607891454958456
+    ],
+    "g0": {
+      "passed": true,
+      "checked": 767,
+      "skipped": 0,
+      "failures": [],
+      "mode": "full_local"
+    },
+    "limitations": [
+      "响应为合成QE",
+      "论文光学对齐仍未通过",
+      "Φᵀ仅为伴随，不是重建"
+    ]
+  },
+  "runtime_checks": {
+    "passed": true,
+    "invalid_config_rejected_before_allocation": true,
+    "save_failure_retained": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\g2\\run_20261005_235012",
+    "no_false_completed": true,
+    "no_save_returncode": 0,
+    "files_checked": 14345,
+    "all_file_sha_unchanged": true,
+    "invocation_cwd": "D:\\PyCharmProjects\\Jeon2019"
+  },
+  "paper_alignment_passed": false,
+  "real_response_verified": false,
+  "network_or_reconstruction_run": false,
+  "manual_pycharm_gui_verified": false,
+  "deleted_files": false,
+  "sha256": {
+    "outputs/jeon2019_optics/main_g2.py": "d1f73be13d4ec18ba664eb01904ddf61b1bfd76ab9e876324461891306babd54",
+    "outputs/jeon2019_optics/config_g2.json": "8210bccc350aab11bd3fdd5a4f2cba91b91e88958ecfb43dfcd782d98d1a3c6f",
+    "outputs/jeon2019_optics/optics/g2_rgb.py": "c57173e99fd8d7c76fdd73682131f06399caa08ad30a171fb4a40c844e2f9ca9",
+    "outputs/jeon2019_optics/tests/test_g2.py": "3ad73b8115fd098b7d554091d00301da368db7d19c4ff487c7c9ec555e186cb1",
+    "outputs/jeon2019_optics/G2_README.md": "1188db130c4947055adf2252c960952dc1d8f09af9333b176e536784128ea5b3",
+    "CURRENT_STATUS.md": "e1a7ab03c145e7b67016f8ed0a679d12388e239e5547a7ed86ab3060175e300e"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "status": "sampling_decomposition_audited_padding_convergence_pending",
+  "official_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\g1_lp_sampling\\run_20261006_133000",
+  "independent_audit": {
+    "passed": true,
+    "independent_gauss_point_errors": [
+      {
+        "wavelength_nm": 420,
+        "cell_relative_l2": 1.731171754690679e-14,
+        "library_unit_phase_relative_l2": 3.831277185165907e-15
+      },
+      {
+        "wavelength_nm": 540,
+        "cell_relative_l2": 6.31267897384019e-15,
+        "library_unit_phase_relative_l2": 2.2036638564431813e-15
+      },
+      {
+        "wavelength_nm": 660,
+        "cell_relative_l2": 9.06964708204774e-15,
+        "library_unit_phase_relative_l2": 1.5468026389830407e-15
+      }
+    ],
+    "independent_fft_phase_aligned_errors": [
+      {
+        "wavelength_nm": 420,
+        "relative_l2": 1.5413405102519009e-10
+      },
+      {
+        "wavelength_nm": 540,
+        "relative_l2": 1.4304486028823056e-10
+      },
+      {
+        "wavelength_nm": 660,
+        "relative_l2": 1.4763172911678753e-10
+      }
+    ],
+    "independent_detector_kernel_max_error": 2.6020852139652106e-18,
+    "source_code_sha_exact": true,
+    "tests_returncode": 0,
+    "tests_stderr": "test_matches_independent_gauss_integral (test_g1_lp_sampling.TestCellIntegral) ... ok\ntest_rejects_invalid_physical_units (test_g1_lp_sampling.TestCellIntegral) ... ok\ntest_small_cell_approaches_point_kernel (test_g1_lp_sampling.TestCellIntegral) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.001s\n\nOK\n",
+    "no_save_returncode": 0,
+    "no_save_summary_exact": true,
+    "no_save_engine_sha_unchanged": true,
+    "files_checked": 14562,
+    "source_runs_and_package_unchanged": true,
+    "g0_returncode": 0,
+    "g0_stdout": "G0冻结核对：通过\n模式=full_local，核对=767，跳过=0\n",
+    "stderr": "",
+    "last_padding_pair_below_threshold": false,
+    "paper_alignment_passed": false
+  },
+  "tests_run": 3,
+  "paper_alignment_passed": false,
+  "sha256": {
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main_g1_lp_sampling.py": "1a3d284f3a101fce15fec418c04f1cc8763fb461e34cd8fd13474803b60bc5e6",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\config_g1_lp_sampling.json": "ec2f4725d722b993357c68897392080714c3d7c30ffa8bbf76da824a0df3db36",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\optics\\g1_lp_sampling.py": "e74065147f75b0829de07387b4e178dc59936c216ac815092e8c82d6c0dd0513",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\tests\\test_g1_lp_sampling.py": "078b879f096988ca7c9455b471ad22b917a860706565c8228fc4fd10e4c33a12",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\G1_LP_SAMPLING_README.md": "da9c55b1c00848fdb2b596b6b104f2b828321a4dc680495e5a2ecfeb694634fe"
+  },
+  "run_sha256": {
+    "arrays/sampling.npz": "d6b24d6391af57f4643251cc403a0ae28d3fb5ddfff264cfc6a7cfbd708e69cc",
+    "config_effective.json": "c627c18529006326db382ac4bf5918548182eb35cfac96154cf9857caeefafaf",
+    "figures/sampling_decomposition.png": "120b2f1834cf1b40c7d755d2369af86d536946c4ae2a8310aa5062ac50f8bf3b",
+    "metrics/validation.json": "f0f0374b6a9bfd51fbad64950c0b389b2ece34656dec4af21548f7a4a8c24396",
+    "source_evidence.json": "81e7a0d0e28147d0051bd9922e8d7abe8fe1d7ba47ab87377d465820c18d01f9",
+    "source_manifest.json": "6ec1cf4f4f1f90055e17f3d8e2c2b4ae35d4fbb965a0131af415bdb40733e226"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "checked_date": "2026-10-05",
+  "project_pages": [
+    "https://vccimaging.org/Publications/Jeon2019Hyperspectral/",
+    "https://mail.minhkim.org/siggraph2019/index.html"
+  ],
+  "local_paper_sha256": {
+    "work/papers/main.pdf": "493f49f1a998dd51a60757f8b121bd55b03fcfcb692d8828cc08f0c7d718bdcc",
+    "work/papers/supplement.pdf": "638d42815b92be6fa101dfd144f0f290abd61e8ec18346194f4dc223ceeb5bb9"
+  },
+  "paper_pages": {
+    "forward_equations_13_to_15": 5,
+    "canon_and_direct_Phi_calibration": 7
+  },
+  "calibrated_response_obtained": false,
+  "official_code_found_on_checked_pages": false,
+  "synthetic_response_source": "config_g2.json中的人工预声明参数",
+  "scope": "仅记录已核查的本地论文及两处作者页面，不证明其他位置不存在数据"
+}

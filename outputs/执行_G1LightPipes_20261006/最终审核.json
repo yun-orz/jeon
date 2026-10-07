@@ -1,0 +1,93 @@
+{
+  "status": "crosscheck_execution_audited_with_algorithm_discrepancies",
+  "official_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\g1_lightpipes\\run_20261006_131933",
+  "independent_audit": {
+    "passed": true,
+    "independent_fft_unit_phase_aligned_errors": [
+      {
+        "wavelength_nm": 420,
+        "n": 1536,
+        "relative_l2": 1.603592778366868e-10,
+        "pi_constant_difference_included": true
+      },
+      {
+        "wavelength_nm": 420,
+        "n": 2048,
+        "relative_l2": 1.5661687086392298e-10,
+        "pi_constant_difference_included": true
+      },
+      {
+        "wavelength_nm": 540,
+        "n": 1536,
+        "relative_l2": 1.4891849578850362e-10,
+        "pi_constant_difference_included": true
+      },
+      {
+        "wavelength_nm": 540,
+        "n": 2048,
+        "relative_l2": 1.4585263724724848e-10,
+        "pi_constant_difference_included": true
+      },
+      {
+        "wavelength_nm": 660,
+        "n": 1536,
+        "relative_l2": 1.5480856315347714e-10,
+        "pi_constant_difference_included": true
+      },
+      {
+        "wavelength_nm": 660,
+        "n": 2048,
+        "relative_l2": 1.4978467167355504e-10,
+        "pi_constant_difference_included": true
+      }
+    ],
+    "independent_detector_kernel_max_error": 2.6020852139652106e-18,
+    "empirical_reference_interpolation_difference": [
+      {
+        "wavelength_nm": 420,
+        "relative_l1": 0.0009955522369364405,
+        "relative_l2": 0.000700751371714549,
+        "status": "empirical_reference_interpolation_difference_not_rigorous_bound"
+      },
+      {
+        "wavelength_nm": 540,
+        "relative_l1": 0.0006894422768878392,
+        "relative_l2": 0.0005462022817630856,
+        "status": "empirical_reference_interpolation_difference_not_rigorous_bound"
+      },
+      {
+        "wavelength_nm": 660,
+        "relative_l1": 0.0004133297548516916,
+        "relative_l2": 0.00036029248233356557,
+        "status": "empirical_reference_interpolation_difference_not_rigorous_bound"
+      }
+    ],
+    "source_code_sha_exact": true,
+    "no_save_returncode": 0,
+    "no_save_summary_exact": true,
+    "no_save_engine_sha_unchanged": true,
+    "files_checked": 14545,
+    "source_runs_and_package_unchanged": true,
+    "g0_returncode": 0,
+    "g0_stdout": "G0冻结核对：通过\n模式=full_local，核对=767，跳过=0\n",
+    "stderr": "",
+    "all_cross_algorithm_comparisons_below_threshold": false,
+    "paper_alignment_passed": false
+  },
+  "paper_alignment_passed": false,
+  "algorithm_agreement_passed": false,
+  "sha256": {
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main_g1_lightpipes.py": "849a9c32a4d3f24908a516f62e8b0d60a2f5fd9f3f30894951438085ff45397c",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\config_g1_lightpipes.json": "90076b88e1bd2565c502fce23e55723583b920231c16d68a97054c67701b3a92",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\requirements_lightpipes.txt": "cbcc7aba55001619e814554cfe5f622083033e5b10033a0c92f4a54635073646",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\G1_LIGHTPIPES_README.md": "d623756e404923b79472e428308077d4ee239c2ea18f49ce9cb48aef738c5297"
+  },
+  "run_sha256": {
+    "arrays/crosscheck.npz": "6909e07d8140ead74d4ea09c1c2288c646b1a243a60fd077d6aaae9137ee98bc",
+    "config_effective.json": "c20907a6a095fd546d6c043282943f8601340224a0ade4a1d988a934ed12d106",
+    "figures/lightpipes_comparison.png": "96fd940a8ab1bb2dbcb771690e1eeb1087173407f594fdb0414b6fd894b58eb5",
+    "metrics/validation.json": "0cad73c3b1c60b70bc4e336d3ef699f38099c39077433f47bd26660b8f6ba283",
+    "source_evidence.json": "8a24d00113984ec48c21245fc0980d7f715cdfac51128ed0dbb59afe0bc14569",
+    "source_manifest.json": "fb76c70cfe2776bde8eaadf9ca42298936fa4182a0c34f8667c77d69dfa8cfdd"
+  }
+}

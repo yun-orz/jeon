@@ -1,0 +1,44 @@
+{
+  "numerical_audit_passed": true,
+  "paper_alignment_passed": false,
+  "formal_run": "outputs\\jeon2019_optics\\results\\g1\\run_20261005_231424",
+  "formal_seconds": 149.6880753999867,
+  "related_tests": {
+    "g1_new": 4,
+    "frozen_propagation": 32,
+    "total": 36,
+    "full_historical_250_rerun": false
+  },
+  "independent_complex_points_passed": true,
+  "full_no_save": {
+    "exit_code": 0,
+    "files": 14264,
+    "sha_unchanged": true,
+    "elapsed_s": 76.35944309999468,
+    "cwd": "D:\\PyCharmProjects\\Jeon2019\\outputs\\执行_G1_20261005"
+  },
+  "failure_paths": {
+    "budget": {
+      "rejected": true,
+      "run": "results\\g1\\run_20261005_232039",
+      "error": "TimeoutError('达到预算，保留已有结果；没有G1完成标记')",
+      "completion_absent": true
+    },
+    "height_save_fault": {
+      "rejected": true,
+      "run": "results\\g1\\run_20261005_232041",
+      "error": "OSError('G1保存失败注入')",
+      "completion_absent": true
+    }
+  },
+  "g0_original_code_and_documents_unchanged": true,
+  "arrays": 27,
+  "figures": 4,
+  "real_pycharm_gui_verified": false,
+  "limitations": [
+    "论文旋转方向对应未解决",
+    "按当前定义的多个尺寸量明显变化，未复现尺寸恒定",
+    "25个中心波长单色PSF，不是10nm带宽积分PSF",
+    "未实现RGB、HQS网络或双孔径"
+  ]
+}

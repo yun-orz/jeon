@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "independent_ssim_max_error": 1.6764367671839864e-14,
+  "independent_psnr_max_error_db": 0.0,
+  "independent_sam_max_error_rad": 1.1102230246251565e-16,
+  "no_save_returncode": 0,
+  "no_save_sha_unchanged": true,
+  "files_checked": 14441,
+  "foreign_working_directory": "D:\\PyCharmProjects\\Jeon2019\\work",
+  "stdout": "{\n  \"untrained\": {\n    \"mse_pooled\": 0.030340042938284212,\n    \"psnr_pooled_db\": 15.179838089201947,\n    \"psnr_pooled_is_positive_infinity\": false,\n    \"ssim_mean\": 0.5282987296198062,\n    \"sam_mean_rad\": 0.4949207318541899,\n    \"sam_valid_pixels\": 2048,\n    \"sam_undefined_pixels\": 0\n  },\n  \"best_epoch\": {\n    \"mse_pooled\": 0.015939377989621337,\n    \"psnr_pooled_db\": 17.97528630301631,\n    \"psnr_pooled_is_positive_infinity\": false,\n    \"ssim_mean\": 0.5954618794897443,\n    \"sam_mean_rad\": 0.46305870440528124,\n    \"sam_valid_pixels\": 2048,\n    \"sam_undefined_pixels\": 0\n  }\n}\nG5无保存：未写结果文件\n",
+  "stderr": ""
+}

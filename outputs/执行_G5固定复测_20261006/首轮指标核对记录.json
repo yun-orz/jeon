@@ -1,0 +1,9 @@
+{
+  "status": "preflight_exact_float_check_rejected",
+  "output_run_allocated": false,
+  "field": "original_g4.sam_mean_rad",
+  "saved_value": 0.493732300742901,
+  "recomputed_value": 0.49373230074290103,
+  "absolute_difference": 5.551115123125783e-17,
+  "correction": "浮点汇总指标采用1e-12绝对容差，记录实际差异；计数/状态/字段仍严格一致。未更换数据、尺度、模型或指标定义。"
+}

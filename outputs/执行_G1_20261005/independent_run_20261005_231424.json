@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "run": "outputs/jeon2019_optics/results/g1/run_20261005_231424",
+  "independent_direct_field": [
+    {
+      "wavelength_nm": 420,
+      "complex_point_relative_error": 5.182077389378127e-16
+    },
+    {
+      "wavelength_nm": 540,
+      "complex_point_relative_error": 1.085908599657246e-15
+    },
+    {
+      "wavelength_nm": 660,
+      "complex_point_relative_error": 8.499040547403949e-16
+    }
+  ],
+  "bank_shape": [
+    25,
+    97,
+    97
+  ],
+  "eta_min": 0.864745212799556,
+  "eta_max": 0.9421213730884825,
+  "max_quadrature_kernel_l1": 0.0009051899518577828,
+  "max_input_kernel_l1": 0.0013716324992086232,
+  "max_parseval_error": 1.1102230246251565e-15,
+  "primary_rotation_change_deg": 135.75149017182628,
+  "all_primary_angles_reliable": true,
+  "angle_ambiguity": false,
+  "R50_range_um": [
+    48.57975298413939,
+    90.56456702264965
+  ],
+  "R80_range_um": [
+    101.25426410774018,
+    221.48790305567482
+  ],
+  "threshold50_radius_range_um": [
+    18.56925430968414,
+    37.13850861936828
+  ],
+  "outer150_power_over_Pin_range": [
+    0.06251402524450234,
+    0.1729117159074527
+  ],
+  "outer_energy_definition": "固定方窗内r>150μm功率/Pin；含螺旋翼和外围弱光，不称为严格旁瓣率",
+  "paper_alignment_passed": false
+}

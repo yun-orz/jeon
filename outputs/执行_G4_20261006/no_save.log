@@ -1,0 +1,4 @@
+真实HSI小规模训练 1/3：train L1=0.257409，validation L1=0.136486
+真实HSI小规模训练 2/3：train L1=0.186575，validation L1=0.0999539
+真实HSI小规模训练 3/3：train L1=0.230629，validation L1=0.134364
+G4无保存：未写结果文件

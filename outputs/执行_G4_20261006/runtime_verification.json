@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "duplicate_scene_before_allocation": true,
+  "save_failure_retained": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\g4\\run_20261006_075127",
+  "no_false_completed": true,
+  "failure_config": "smaller_model_same_real_data_save_path",
+  "no_save_returncode": 0,
+  "files_checked": 14415,
+  "all_file_sha_unchanged": true,
+  "external_cwd": "D:\\PyCharmProjects\\Jeon2019"
+}

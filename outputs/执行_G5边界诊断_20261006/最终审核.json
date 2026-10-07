@@ -1,0 +1,49 @@
+{
+  "status": "boundary_diagnostic_passed",
+  "official_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\g5_boundary\\run_20261006_130532",
+  "independent_audit": {
+    "passed": true,
+    "selection_and_exclusion_exact": true,
+    "raw_conversion_exact": true,
+    "independent_rgb_float32_max_error": 0.0,
+    "shared_observation_crops_exact": true,
+    "legacy_center_rgb_exact": true,
+    "source_code_sha_exact": true,
+    "independent_ssim_max_error": 8.459899447643693e-14,
+    "independent_sam_max_error_rad": 3.608224830031759e-16,
+    "independent_psnr_max_error_db": 7.105427357601002e-15,
+    "independent_change_max_error": 1.734723475976807e-18,
+    "no_save_returncode": 0,
+    "no_save_scores_exact": true,
+    "no_save_engine_sha_unchanged": true,
+    "files_checked": 14524,
+    "source_runs_and_dataset_unchanged": true,
+    "g0_returncode": 0,
+    "g0_stdout": "G0冻结核对：通过\n模式=full_local，核对=767，跳过=0\n",
+    "stdout": "来源核对完成；接受原块[1, 2, 3]，固定epoch 8，共享352像素支持域测量\nCPU冻结推理：上下文128×128，3块\nCPU冻结推理：上下文160×160，3块\nCPU冻结推理：上下文192×192，3块\nCPU冻结推理：上下文256×256，3块\n{\n  \"summary\": {\n    \"128\": {\n      \"mse_pooled\": 0.0026219287908979933,\n      \"psnr_pooled_db\": 25.813791075124545,\n      \"psnr_is_positive_infinity\": false,\n      \"ssim_mean\": 0.78263430370771,\n      \"sam_mean_rad\": 0.2449763900942453,\n      \"sam_valid_pixels\": 3072,\n      \"sam_undefined_pixels\": 0\n    },\n    \"160\": {\n      \"mse_pooled\": 0.0026378587019520957,\n      \"psnr_pooled_db\": 25.78748471339312,\n      \"psnr_is_positive_infinity\": false,\n      \"ssim_mean\": 0.7817106381655013,\n      \"sam_mean_rad\": 0.2452897092086319,\n      \"sam_valid_pixels\": 3072,\n      \"sam_undefined_pixels\": 0\n    },\n    \"192\": {\n      \"mse_pooled\": 0.002639333117170428,\n      \"psnr_pooled_db\": 25.78505792872444,\n      \"psnr_is_positive_infinity\": false,\n      \"ssim_mean\": 0.7816377526613033,\n      \"sam_mean_rad\": 0.2453041656101974,\n      \"sam_valid_pixels\": 3072,\n      \"sam_undefined_pixels\": 0\n    },\n    \"256\": {\n      \"mse_pooled\": 0.0026392651651527734,\n      \"psnr_pooled_db\": 25.785169743205195,\n      \"psnr_is_positive_infinity\": false,\n      \"ssim_mean\": 0.7816660536927885,\n      \"sam_mean_rad\": 0.24529097871592553,\n      \"sam_valid_pixels\": 3072,\n      \"sam_undefined_pixels\": 0\n    }\n  },\n  \"change_vs_largest\": {\n    \"128\": {\n      \"rmse\": 0.00134950411372016,\n      \"max_absolute\": 0.010170161724090576,\n      \"relative_l2\": 0.0049742262172709755,\n      \"reference_norm_zero\": false\n    },\n    \"160\": {\n      \"rmse\": 0.00012776992282943322,\n      \"max_absolute\": 0.0011866092681884766,\n      \"relative_l2\": 0.00047095558542969236,\n      \"reference_norm_zero\": false\n    },\n    \"192\": {\n      \"rmse\": 1.8653699623425805e-05,\n      \"max_absolute\": 9.006261825561523e-05,\n      \"relative_l2\": 6.875690171862886e-05,\n      \"reference_norm_zero\": false\n    },\n    \"256\": {\n      \"rmse\": 0.0,\n      \"max_absolute\": 0.0,\n      \"relative_l2\": 0.0,\n      \"reference_norm_zero\": false\n    }\n  },\n  \"adjacent_change\": {\n    \"128_to_160\": {\n      \"rmse\": 0.0012425222397395898,\n      \"max_absolute\": 0.009114265441894531,\n      \"relative_l2\": 0.004578896270602549,\n      \"reference_norm_zero\": false\n    },\n    \"160_to_192\": {\n      \"rmse\": 0.0001260382385561822,\n      \"max_absolute\": 0.001115560531616211,\n      \"relative_l2\": 0.00046459451266526276,\n      \"reference_norm_zero\": false\n    },\n    \"192_to_256\": {\n      \"rmse\": 1.8653699623425805e-05,\n      \"max_absolute\": 9.006261825561523e-05,\n      \"relative_l2\": 6.875690171862886e-05,\n      \"reference_norm_zero\": false\n    }\n  },\n  \"legacy_128_prediction_change\": {\n    \"rmse\": 0.0008717360705255135,\n    \"max_absolute\": 0.005274713039398193,\n    \"relative_l2\": 0.0031950309765941165,\n    \"reference_norm_zero\": false\n  },\n  \"last_pair_below_threshold\": true\n}\n边界诊断无保存：未写结果文件\n",
+    "stderr": "",
+    "optimizer_steps": 0
+  },
+  "tests_run": 4,
+  "paper_alignment_passed": false,
+  "whole_image_convergence_proved": false,
+  "sha256": {
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main_g5_boundary.py": "48b44d46f2ffa881afd17f934498eee79203eef411fa09fc6d09370a223b5d22",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\config_g5_boundary.json": "735a59ee1c1f560f1c097bf3f6d1723be29c7682e95a44c2c443a94979c58ee9",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\optics\\g5_boundary.py": "fcbd1f6881f3776cf81b6d9a75b8bf9d2fc84901056ad7a3f0fa585c10fec484",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\tests\\test_g5_boundary.py": "109d425fbd155b835d38b9bc1b862ad8fcccd3b009b7b6feb8884eaa1e4fdc9b",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\G5_BOUNDARY_README.md": "78067da2e6bdca7accea1efb7abf83d4abc48b4bc431728f6acba0b80e08976c"
+  },
+  "run_sha256": {
+    "arrays/boundary.npz": "ec16ad49f208b0513b054499cd2b595f7ec6ad5516f9b5d6d85d35a68648ca13",
+    "config_effective.json": "32c408305f79fe4b16b7bc50c92030765269be6d284c1e8677b88807b5482f2e",
+    "dataset_manifest.json": "43f4b831ae82f851a7645fd6bdd8af76002720ba87e66e13c5192dfaadebffb0",
+    "figures/boundary_centers.png": "df192239465b395d355a3454828677e60171378502525a96df18c073c98ba714",
+    "figures/boundary_summary.png": "fadbaae95566c030697ffa1954eb9a89060a38953b9b6fcd1a470ccc6f143fff",
+    "metrics/protocol.json": "bbee76ef75a23a3729e2b674b4527114c52eee5e276658bb56f2d52b1ea4f700",
+    "metrics/scores.json": "ed8728371b5fce804abb92a9165061b6475e7a269b54abad1d6e60c7391f695b",
+    "metrics/validation.json": "3c760d6a5dd87f428aa763dbb6556b750232526a00e53f9d8ec6564467b8fe72",
+    "source_evidence.json": "c883a815d053dec0aa79fc616674b12ed18a02c3e125b940c0b83df44a8d2760",
+    "source_manifest.json": "62f05179e1eced30e900bd33e8cd196475bedc638d93d4a354ead7077f735e59"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "checked_date": "2026-10-06",
+  "paper": "work/papers/main.pdf",
+  "sha256": "493f49f1a998dd51a60757f8b121bd55b03fcfcb692d8828cc08f0c7d718bdcc",
+  "pages": {
+    "figures4_and5": 5,
+    "equations16_to21": 6,
+    "tensorflow_and_Gamma64": 7
+  },
+  "api_sources": [
+    "https://docs.pytorch.org/docs/2.14/generated/torch.fft.rfft2.html",
+    "https://docs.pytorch.org/docs/2.14/generated/torch.nn.ConvTranspose2d.html"
+  ],
+  "assumptions": [
+    "L=3未取得作者确切数值",
+    "四分辨率通道64/128/256/512",
+    "ReLU与有符号最终特征",
+    "每阶段标量软阈值",
+    "softplus正参数化",
+    "PyTorch代替TensorFlow"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "checked_date": "2026-10-06",
+  "official_project": "https://vision.seas.harvard.edu/hyperspec/",
+  "official_download_conditions": "https://vision.seas.harvard.edu/hyperspec/download.html",
+  "official_archive": "https://vision.seas.harvard.edu/hyperspec/d2x5g3/CZ_hsdbi.tgz",
+  "data_paper": "https://vision.seas.harvard.edu/hyperspec/CZ_hss.pdf",
+  "data_paper_calibration_evidence": "PDF第2页Section 3：未按相机灵敏度归一化；灵敏度包括传感器与滤光片响应",
+  "archive_README": "ref为N×M×31，420:10:720nm；lbl为0的像元无效；calib.txt为31波段相对灵敏度",
+  "usage": "本地非商业学术研究；不发布或重新分发原始数据",
+  "download_scope": "只保留img3.mat、img4.mat、README.txt；初次漏存calib.txt，另补读归档开头10240压缩字节",
+  "calibration_interpretation": "ref/sensitivity作为相对能量谱代理，再乘lambda/540转换为相对光子表示；完整绝对单位与标定链未知，因此不能宣称绝对辐射或光子校准",
+  "band_selection": "前25波段420:10:660nm，不插值、不逐波段峰值归一化",
+  "split": "img3为训练，img4为验证；完整预览已查看，内容不同；无独立测试集",
+  "response_limitation": "Harvard的calib.txt用于校正HSI数据来源，不是Canon RGB响应，不能替代G2缺失的真实RGB响应"
+}

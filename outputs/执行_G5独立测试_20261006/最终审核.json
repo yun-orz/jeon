@@ -1,0 +1,46 @@
+{
+  "status": "one_heldout_scene_small_subset_passed",
+  "official_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\g5_test\\run_20261006_081215",
+  "independent_audit": {
+    "passed": true,
+    "original_mat_targets_exact": true,
+    "selected_origins_exact": true,
+    "train_scale_reused": true,
+    "independent_measurement_max_error": 0.0,
+    "independent_ssim_max_error": 2.3264723481020155e-13,
+    "independent_sam_max_error_rad": 2.220446049250313e-16,
+    "independent_psnr_max_error_db": 8.881784197001252e-16,
+    "source_and_dataset_unchanged": true,
+    "no_save_returncode": 0,
+    "no_save_summary_exact": true,
+    "no_save_sha_unchanged": true,
+    "files_checked": 14466,
+    "foreign_working_directory": "D:\\PyCharmProjects\\Jeon2019\\work",
+    "no_save_stdout": "{\n  \"untrained\": {\n    \"mse_pooled\": 0.1626210562382724,\n    \"psnr_pooled_db\": 7.888232224809293,\n    \"psnr_is_positive_infinity\": false,\n    \"ssim_mean\": 0.5665261683814062,\n    \"sam_mean_rad\": 0.5286006013320897,\n    \"sam_valid_pixels\": 4096,\n    \"sam_undefined_pixels\": 0\n  },\n  \"frozen_epoch2\": {\n    \"mse_pooled\": 0.09266959763463828,\n    \"psnr_pooled_db\": 10.330627226531686,\n    \"psnr_is_positive_infinity\": false,\n    \"ssim_mean\": 0.6456582033297026,\n    \"sam_mean_rad\": 0.493732300742901,\n    \"sam_valid_pixels\": 4096,\n    \"sam_undefined_pixels\": 0\n  }\n}\n独立测试无保存：未写结果文件\n",
+    "no_save_stderr": "",
+    "g0_returncode": 0,
+    "g0_stdout": "G0冻结核对：通过\n模式=full_local，核对=767，跳过=0\n"
+  },
+  "tests_run": 9,
+  "independent_scene_count": 1,
+  "paper_alignment_passed": false,
+  "sha256": {
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main_g5_test.py": "a068282f9a5d1bf2e3dac97adb4c8e7c6f67a93ec49ae0b4310eae18a352dcf5",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\config_g5_test.json": "910d60173a42cfceb6e5a76f9e59712fd117f05bcbd8f83531f5784ee806b172",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\optics\\g5_test_data.py": "5e59f12f3cd1f2015fc33916e1b430a4d06b24327f918836657d0abcb10a6060",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\tests\\test_g5_test_data.py": "d7dd1ff5c07633b2c003216e432597d579048b82369f98add6a3a387bb6d380f",
+    "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\G5_TEST_README.md": "bbe7fd0ddb5f26368832d87219a96029f39e4446769d48d665b9469df6f7720d"
+  },
+  "run_sha256": {
+    "arrays/heldout_test.npz": "b13af394bd71d67d3877377b278e21826c83c7a2b3c5fe596032665483f2320b",
+    "config_effective.json": "4b94e955ec51e354b19643a900ef183c90f59c590408da42f157bc40c51a7f65",
+    "dataset_manifest.json": "695341469386a31544ad42e044e15b6443cad87582b2aea0389d851872127d92",
+    "figures/heldout_per_band.png": "6471f0a0c85247caa4df2a5b36c3af57e936d833def440d18a7f512a6c171607",
+    "figures/heldout_reconstruction.png": "27a39496a4a74f73214aa3d23b1aebab935ddd24fa03401fd46386298b9dfc92",
+    "metrics/per_band.csv": "e8ed8d715303c924f077c22393fa744db2685ed0d7802a9a535e51e1f35d40ca",
+    "metrics/scores.json": "116947abcf9233fdfbf021249db17df6b485ec9df81e6466908b82ed3451f65a",
+    "metrics/validation.json": "db80788bf8dea4c8ca25b3f2ee88da6e6d459f478a209ae4a6a4629613c84d02",
+    "source_evidence.json": "3fe66b1cb58d1d112750303cd00a8fdf01abc15b788670defbdd9f1856b00da2",
+    "source_manifest.json": "26a0668cbb6372aecfb4133a4b4f45a3fe5b7256127708266c9aa53498f4ea38"
+  }
+}

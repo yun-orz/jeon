@@ -1,0 +1,12 @@
+{
+  "passed": false,
+  "independent_ssim_max_error": 1.6764367671839864e-14,
+  "independent_psnr_max_error_db": 0.0,
+  "independent_sam_max_error_rad": 1.1102230246251565e-16,
+  "no_save_returncode": 1,
+  "no_save_sha_unchanged": true,
+  "files_checked": 14431,
+  "foreign_working_directory": "D:\\PyCharmProjects\\Jeon2019\\work",
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\n  File \"D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main_g5.py\", line 151, in <module>\n    if __name__=='__main__':raise SystemExit(main())\n  File \"D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main_g5.py\", line 148, in main\n    return 0 if run(c,a.no_save,a.show_plots)['metric_implementation_passed'] else 2\n  File \"D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main_g5.py\", line 59, in run\n    source,before,codes,data,payload,model=load_source(c)\n  File \"D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\main_g5.py\", line 36, in load_source\n    if path.name!='CURRENT_STATUS.md' and file_sha(path)!=sha:raise ValueError('G4审核文件改变')\n  File \"D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\optics\\g4_data.py\", line 12, in file_sha\n    with Path(path).open('rb') as stream:\n  File \"D:\\dev\\python\\python3.10.4\\lib\\pathlib.py\", line 1117, in open\n    return self._accessor.open(self, mode, buffering, encoding, errors,\nFileNotFoundError: [Errno 2] No such file or directory: 'outputs\\\\jeon2019_optics\\\\main_g4.py'\n"
+}

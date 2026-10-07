@@ -1,0 +1,114 @@
+{
+  "status": "small_real_hsi_training_validation_passed",
+  "official_run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\g4\\run_20261006_074407",
+  "tests_run": 4,
+  "validation": {
+    "status": "completed",
+    "small_real_hsi_training_passed": true,
+    "genuine_hsi_data": true,
+    "absolute_photon_calibration": false,
+    "paper_alignment_passed": false,
+    "real_rgb_response_verified": false,
+    "full_paper_training_reproduced": false,
+    "train_scenes": [
+      "img3.mat"
+    ],
+    "validation_scenes": [
+      "img4.mat"
+    ],
+    "scene_split_disjoint": true,
+    "train_patches": 4,
+    "validation_patches": 2,
+    "context_size": 128,
+    "core_size": 32,
+    "epochs": 3,
+    "optimizer_steps": 12,
+    "best_epoch": 2,
+    "best_validation_l1": 0.09995391219854355,
+    "optical_kernels_unchanged": true,
+    "source_and_dataset_unchanged": true,
+    "height_fingerprint": "8527724f6aeffc0314d09313d89fdca0c2c864827e6a47308480968bcabc1350",
+    "torch_version": "2.14.1+cpu",
+    "device": "cpu",
+    "model_dtype": "float32",
+    "environment": {
+      "timestamp_local": "2026-10-06T07:44:24",
+      "python_version": "3.10.4 (tags/v3.10.4:9d38120, Mar 23 2022, 23:13:41) [MSC v.1929 64 bit (AMD64)]",
+      "python_executable": "D:\\dev\\python\\python3.10.4\\python.exe",
+      "python_implementation": "CPython",
+      "platform": "Windows-10-10.0.26200-SP0",
+      "platform_machine": "AMD64",
+      "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+      "os_cpu_count": 20,
+      "cwd_at_invocation": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+      "project_root_resolved": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics",
+      "argv": [
+        "main_g4.py"
+      ],
+      "numpy_version": "2.2.6",
+      "scipy_version": "1.15.3",
+      "matplotlib_version": "3.10.9",
+      "pytest_version": null,
+      "pytest_import_error": "ModuleNotFoundError: No module named 'pytest'"
+    },
+    "runtime": {
+      "save_results": true,
+      "show_plots": false
+    },
+    "backend": {
+      "backend": "Agg",
+      "available": false,
+      "reason": "未请求显示"
+    },
+    "elapsed_s": 17.977795600018
+  },
+  "independent_audit": {
+    "passed": true,
+    "run": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\g4\\run_20261006_074407",
+    "original_mat_preprocessing_matches": true,
+    "train_only_normalization_matches": true,
+    "disjoint_scene_files": true,
+    "all_context_masks_valid": true,
+    "reencoded_measurements_max_error": 0.0,
+    "checkpoint_predictions_exact": true,
+    "reconstructed_validation_l1": 0.09995391219854355,
+    "best_epoch": 2,
+    "optical_kernels_unchanged": true,
+    "source_and_dataset_unchanged": true,
+    "g0": {
+      "passed": true,
+      "checked": 767,
+      "skipped": 0,
+      "failures": [],
+      "mode": "full_local"
+    },
+    "limitations": [
+      "仅一幅训练场景和一幅验证场景",
+      "无独立测试集",
+      "相对单位且RGB响应为合成设置"
+    ]
+  },
+  "runtime_checks": {
+    "passed": true,
+    "duplicate_scene_before_allocation": true,
+    "save_failure_retained": "D:\\PyCharmProjects\\Jeon2019\\outputs\\jeon2019_optics\\results\\g4\\run_20261006_075127",
+    "no_false_completed": true,
+    "failure_config": "smaller_model_same_real_data_save_path",
+    "no_save_returncode": 0,
+    "files_checked": 14415,
+    "all_file_sha_unchanged": true,
+    "external_cwd": "D:\\PyCharmProjects\\Jeon2019"
+  },
+  "full_paper_reproduction": false,
+  "independent_test_set": false,
+  "manual_pycharm_gui_verified": false,
+  "deleted_files": false,
+  "sha256": {
+    "outputs/jeon2019_optics/main_g4.py": "565672222241ea12baa024b5ddbfb175bd499b76fae9fa3f4d6bc4c672e841fc",
+    "outputs/jeon2019_optics/config_g4.json": "49daed5687b6aa0a9df7dcac537463c8ad885f9e23178dc15d7cf3e0d40103ed",
+    "outputs/jeon2019_optics/optics/g4_data.py": "614cda5c10d73725d7d0e780158359253fe5813d35ca2c884bd8bf4b1b8573f1",
+    "outputs/jeon2019_optics/tests/test_g4.py": "722b2b362b0b4f4522c03023c393ee1245f464461522d7023239a832b27901cc",
+    "outputs/jeon2019_optics/G4_README.md": "300065e6ba903e9c19383cf84e9cb9fe6ef0f79b1d7bb67c5c18ade55b569ab1",
+    "CURRENT_STATUS.md": "0ce9999528a05333867b5c168fe3311886767f32cfe627b4da583bfe8608f6b0"
+  }
+}
