@@ -11,6 +11,7 @@
 | 看目录、模块和数据流 | [项目地图与复现路线](D:/PyCharmProjects/Jeon2019/docs/PROJECT_GUIDE.md) |
 | 看当前正式代码 | [正式流程目录](D:/PyCharmProjects/Jeon2019/outputs/jeon2019_optics/reproduction_v1)；[统一命令入口](D:/PyCharmProjects/Jeon2019/outputs/jeon2019_optics/reproduction_v1/main.py) |
 | 看 M3 已交付什么 | [M3 正式交付报告](D:/PyCharmProjects/Jeon2019/outputs/jeon2019_optics/results/reproduction_v1/m3/delivery_20261007_160046/M3_delivery.md) |
+| 看 ICVL 数据如何取得与验收 | [ICVL 获取与验收报告](D:/PyCharmProjects/Jeon2019/work/datasets/reproduction_v1/icvl_acquisition/acquisition_report.md) |
 | 看下一阶段要完成什么 | [M4 可恢复训练器任务](D:/PyCharmProjects/Jeon2019/outputs/jeon2019_optics/reproduction_v1/tasks/M4_resumable_training.md) |
 | 看当前协议与明确的假设 | [冻结协议](D:/PyCharmProjects/Jeon2019/outputs/jeon2019_optics/reproduction_v1/protocol.json)、[参数证据](D:/PyCharmProjects/Jeon2019/outputs/jeon2019_optics/reproduction_v1/parameter_evidence.json) |
 
@@ -38,9 +39,11 @@ M3 已冻结 **238 幅场景：203 幅训练、25 幅验证、10 幅 KAIST 封�
 
 ## 运行前先确认
 
-CPU 解释器是 `D:/dev/python/python3.10.4/python.exe`；GPU 解释器是 `D:/PyCharmProjects/Jeon2019/work/environments/jeon_gpu_cu121/Scripts/python.exe`。后续 GPU 训练使用后者，并保持 NVIDIA 独显启用；已有验收通过记录不保证每次启动时硬件都可用。
+CPU 解释器是 `D:/dev/python/python3.10.4/python.exe`；GPU 解释器是 `D:/PyCharmProjects/Jeon2019/work/environments/jeon_gpu_cu121/Scripts/python.exe`。后续 GPU 训练使用后者，并保持 NVIDIA 独显启用；已有验收通过记录不保证每次启动时硬件都可用。曾因显卡切到安静模式使独显从硬件树消失（设备报 Code 45）导致 CUDA 不可用，切回性能模式后经实际自检恢复。
 
-ICVL 原始数据位于 `H:/我的云端硬盘/Jeon2019_data/reproduction_v1/icvl/mat`。本轮在当前执行权限下访问该路径被拒绝，未读取原始图像，不能据此判断数据丢失。后续运行需确认 H 盘已挂载、账号可访问且文件可读；D 盘仍承载项目内的预处理数据和结果。
+ICVL 原始数据位于 `H:/我的云端硬盘/Jeon2019_data/reproduction_v1/icvl/mat`。该目录**已完成官方获取与只读验收**：202 幅 MAT 全部取得（28,199,177,384 字节），逐文件 SHA256 与来源仓库自述摘要 202/202 一致，HDF5 元数据 202/202 通过，420–660 nm 25 波段齐全。详见[获取与验收报告](work/datasets/reproduction_v1/icvl_acquisition/acquisition_report.md)。
+
+> 更正：本文件与 [CURRENT_STATUS](CURRENT_STATUS.md) 早前记录"本轮在当前权限下访问该路径被拒绝，未读取原始图像"。该记录反映的是**当时尚未完成 Hugging Face 授权**的状态；授权完成后已实际读取并完成全部验收，上述"访问被拒绝"的表述**不再成立**。H 盘为 Google Drive 映射盘，后续运行仍需确认已挂载且文件可读；D 盘仍承载项目内的预处理数据和结果。
 
 `main.py` 无参数等同于 `check`，检查后会写一个新的结果记录。`report` 也会核对现有 M2/M3 来源，并非只显示文字。`optics` 和 `data` 会重跑相应工作，查看现有结果无需执行它们。`smoke`、`train`、`evaluate` 目前只是预留命令，实际执行会报未实现；具体命令见项目地图。
 
